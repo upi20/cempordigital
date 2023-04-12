@@ -26,8 +26,8 @@
                                     <a href="contact.html" class="btn" data-animation="fadeInLeft" data-delay=".6s">Get
                                         Started <span></span></a>
                                     <!-- <a href="https://www.youtube.com/watch?v=bixR-KIJKYM" class="popup-video"
-                                                                                                                                                                                                                                                                                                                               data-animation="fadeInRight" data-delay=".6s">See Live Demo <i
-                                                                                                                                                                                                                                                                                                                                   class="fas fa-play pulse"></i></a> -->
+                                                                                                                                                                                                                                                                                                                                               data-animation="fadeInRight" data-delay=".6s">See Live Demo <i
+                                                                                                                                                                                                                                                                                                                                                   class="fas fa-play pulse"></i></a> -->
                                 </div>
                             </div>
                         </div>
@@ -57,8 +57,8 @@
                                     <a href="contact.html" class="btn" data-animation="fadeInLeft" data-delay=".6s">Get
                                         Started <span></span></a>
                                     <!-- <a href="https://www.youtube.com/watch?v=bixR-KIJKYM" class="popup-video"
-                                                                                                                                                                                                                                                                                                                               data-animation="fadeInRight" data-delay=".6s">See Live Demo <i
-                                                                                                                                                                                                                                                                                                                                   class="fas fa-play pulse"></i></a> -->
+                                                                                                                                                                                                                                                                                                                                               data-animation="fadeInRight" data-delay=".6s">See Live Demo <i
+                                                                                                                                                                                                                                                                                                                                                   class="fas fa-play pulse"></i></a> -->
                                 </div>
                             </div>
                         </div>
@@ -88,8 +88,8 @@
                                     <a href="contact.html" class="btn" data-animation="fadeInLeft" data-delay=".6s">Get
                                         Started <span></span></a>
                                     <!-- <a href="https://www.youtube.com/watch?v=bixR-KIJKYM" class="popup-video"
-                                                                                                                                                                                                                                                                                                                               data-animation="fadeInRight" data-delay=".6s">See Live Demo <i
-                                                                                                                                                                                                                                                                                                                                   class="fas fa-play pulse"></i></a> -->
+                                                                                                                                                                                                                                                                                                                                               data-animation="fadeInRight" data-delay=".6s">See Live Demo <i
+                                                                                                                                                                                                                                                                                                                                                   class="fas fa-play pulse"></i></a> -->
                                 </div>
                             </div>
                         </div>
@@ -692,7 +692,7 @@
                                                     <div class="project-item-three">
                                                         <div class="project-content-three">
                                                             <h2 class="title">
-                                                                <a onclick="protfolioDetail('#btnPortofolio-{{ $protfolio->slug }}','{{ $protfolio->slug }}')"
+                                                                <a onclick="protfolioDetail('.btnPortofolio-{{ $protfolio->slug }}','{{ $protfolio->slug }}')"
                                                                     href="javascript:void(0)">
                                                                     {{ $protfolio->nama }}
                                                                 </a>
@@ -700,7 +700,7 @@
                                                             <p>{{ text_cutter($protfolio->keterangan, 50) }} </p>
                                                         </div>
                                                         <div class="project-thumb-three">
-                                                            <a onclick="protfolioDetail('#btnPortofolio-{{ $protfolio->slug }}','{{ $protfolio->slug }}')"
+                                                            <a onclick="protfolioDetail('.btnPortofolio-{{ $protfolio->slug }}','{{ $protfolio->slug }}')"
                                                                 href="javascript:void(0)">
                                                                 <img data-src="{{ $protfolio->fotoUrl() }}"
                                                                     style="height: 280px; width:100%; object-fit: cover;"
@@ -709,7 +709,8 @@
                                                         </div>
                                                         <div class="project-details-btn">
                                                             <a href="javascript:void(0)"
-                                                                onclick="protfolioDetail('#btnPortofolio-{{ $protfolio->slug }}','{{ $protfolio->slug }}')">
+                                                                class="btnPortofolio-{{ $protfolio->slug }}"
+                                                                onclick="protfolioDetail('.btnPortofolio-{{ $protfolio->slug }}','{{ $protfolio->slug }}')">
                                                                 Lihat Detail
                                                             </a>
                                                         </div>
