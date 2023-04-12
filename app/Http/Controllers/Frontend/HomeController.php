@@ -68,6 +68,6 @@ class HomeController extends Controller
 
     public function fronted2(Request $request)
     {
-        return view('layouts.frontend.master');
+        return view('layouts.frontend.index');
     }
 }
