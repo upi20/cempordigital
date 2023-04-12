@@ -1,0 +1,3 @@
+"cviebrock/eloquent-sluggable": "^9.0",
+"arcanedev/laravel-settings": "^9.0",
+"yajra/laravel-datatables-oracle": "^9.19",
