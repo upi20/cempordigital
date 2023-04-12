@@ -86,7 +86,7 @@ class Item extends Model
         };
 
         // filter custom
-        $filters = [];
+        $filters = ['portfolio_id'];
         foreach ($filters as  $f) {
             if ($f_c($f) !== false) {
                 $model->whereRaw("$table.$f='{$f_c($f)}'");

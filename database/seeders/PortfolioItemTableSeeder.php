@@ -69,6 +69,66 @@ class PortfolioItemTableSeeder extends Seeder
                 'created_at' => '2023-04-13 01:14:32',
                 'updated_at' => '2023-04-13 01:14:32',
             ),
+            5 => 
+            array (
+                'id' => 6,
+                'portfolio_id' => 2,
+                'urutan' => 1,
+                'nama' => 'A',
+                'keterangan' => 'B',
+                'created_at' => '2023-04-13 01:41:44',
+                'updated_at' => '2023-04-13 01:41:44',
+            ),
+            6 => 
+            array (
+                'id' => 7,
+                'portfolio_id' => 2,
+                'urutan' => 2,
+                'nama' => 'C',
+                'keterangan' => 'D',
+                'created_at' => '2023-04-13 01:41:48',
+                'updated_at' => '2023-04-13 01:41:48',
+            ),
+            7 => 
+            array (
+                'id' => 8,
+                'portfolio_id' => 2,
+                'urutan' => 3,
+                'nama' => 'E',
+                'keterangan' => 'E',
+                'created_at' => '2023-04-13 01:41:52',
+                'updated_at' => '2023-04-13 01:41:52',
+            ),
+            8 => 
+            array (
+                'id' => 10,
+                'portfolio_id' => 3,
+                'urutan' => 1,
+                'nama' => 'Link',
+                'keterangan' => '<a href="https://warungkopigunungroastery.com/">Lihat</a>',
+                'created_at' => '2023-04-13 01:44:29',
+                'updated_at' => '2023-04-13 01:44:29',
+            ),
+            9 => 
+            array (
+                'id' => 11,
+                'portfolio_id' => 4,
+                'urutan' => 1,
+                'nama' => 'A',
+                'keterangan' => 'A',
+                'created_at' => '2023-04-13 01:45:20',
+                'updated_at' => '2023-04-13 01:45:20',
+            ),
+            10 => 
+            array (
+                'id' => 12,
+                'portfolio_id' => 4,
+                'urutan' => 2,
+                'nama' => 'B',
+                'keterangan' => 'B',
+                'created_at' => '2023-04-13 01:45:25',
+                'updated_at' => '2023-04-13 01:45:25',
+            ),
         ));
         
         

@@ -70,7 +70,7 @@ $(document).ready(function () {
         },
         ],
         order: [
-            [4, 'desc']
+            [2, 'asc']
         ],
         language: {
             url: datatable_indonesia_language_url

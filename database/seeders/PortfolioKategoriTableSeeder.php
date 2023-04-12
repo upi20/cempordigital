@@ -59,6 +59,16 @@ class PortfolioKategoriTableSeeder extends Seeder
                 'created_at' => '2023-04-12 23:55:45',
                 'updated_at' => '2023-04-12 23:55:45',
             ),
+            4 => 
+            array (
+                'id' => 10,
+                'urutan' => 5,
+                'nama' => 'Lainnya',
+                'slug' => 'lainnya',
+                'keterangan' => NULL,
+                'created_at' => '2023-04-13 01:52:09',
+                'updated_at' => '2023-04-13 01:52:09',
+            ),
         ));
         
         

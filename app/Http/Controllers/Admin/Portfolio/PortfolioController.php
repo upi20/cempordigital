@@ -17,7 +17,7 @@ class PortfolioController extends Controller
     private $validate_model = [
         // 'foto' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg',
         'nama' => ['required', 'string'],
-        'keterangan' => ['required', 'string'],
+        'keterangan' => ['nullable', 'string'],
         'kategori_id' => ['required', 'int'],
         'isEdit' => ['required', 'int'],
     ];
