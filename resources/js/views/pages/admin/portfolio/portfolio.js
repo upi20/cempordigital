@@ -123,7 +123,7 @@ function deleteFunc(id) {
                     Swal.fire({
                         position: 'center',
                         icon: 'success',
-                        title: 'Produk deleted successfully',
+                        title: '{{$page_title}} deleted successfully',
                         showConfirmButton: false,
                         timer: 1500
                     })
