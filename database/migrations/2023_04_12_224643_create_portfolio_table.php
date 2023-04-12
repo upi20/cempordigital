@@ -20,6 +20,7 @@ return new class extends Migration
             $table->text('slug')->nullable()->default(null)->unique();
             $table->text('foto')->nullable()->default(null);
             $table->text('keterangan')->nullable()->default(null);
+            $table->boolean('is_insert')->nullable()->default(true);
             $table->timestamps();
 
             $table->foreign('kategori_id')

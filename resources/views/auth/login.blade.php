@@ -1,4 +1,4 @@
-@extends('layouts.frontend.master')
+@extends('layouts.frontend._master')
 @section('content')
     <div class="login-section padding-tb">
         <div class=" container">

@@ -9,6 +9,7 @@ use Yajra\Datatables\Datatables;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Http\Request;
 use Haruncpi\LaravelUserActivity\Traits\Loggable;
+use Illuminate\Support\Facades\Cache;
 
 class Kategori extends Model
 {
@@ -22,6 +23,7 @@ class Kategori extends Model
     protected $primaryKey = 'id';
     protected $table = 'portfolio_kategori';
     const tableName = 'portfolio_kategori';
+    const feCacheKey = 'fePortfolioKategoriHome';
 
     public function sluggable(): array
     {
@@ -138,5 +140,18 @@ class Kategori extends Model
 
         // create datatable
         return $datatable->make(true);
+    }
+
+    public static function getFeHomeData()
+    {
+        return Cache::rememberForever(self::feCacheKey, function () {
+            return static::with(['kategori', 'fotos', 'marketplaces.jenis'])
+                ->where('tampilkan_di_halaman_utama', 1)->orderBy('created_at', 'desc')->get();
+        });
+    }
+
+    public static function clearCache()
+    {
+        return Cache::pull(self::feCacheKey);
     }
 }

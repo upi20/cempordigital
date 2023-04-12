@@ -21,7 +21,7 @@ class HomeKataKatasTableSeeder extends Seeder
         \DB::table('home_kata_katas')->insert(array (
             0 => 
             array (
-                'id' => '1',
+                'id' => 1,
                 'nama' => 'Imam Al Ghazali',
                 'sebagai' => 'Ulama',
                 'kata_kata' => 'Untuk mendapatkan apa yang Anda suka, pertama Anda harus bersabar dengan apa yang Anda benci.',
@@ -31,7 +31,7 @@ class HomeKataKatasTableSeeder extends Seeder
             ),
             1 => 
             array (
-                'id' => '2',
+                'id' => 2,
                 'nama' => 'Jalaluddin Rumi',
                 'sebagai' => 'Penyair Sufi',
                 'kata_kata' => 'Saat aku tidak mengungkapkan kecantikanmu dengan kata-kata, aku menyimpan cintaMu di hatiku.',
@@ -41,7 +41,7 @@ class HomeKataKatasTableSeeder extends Seeder
             ),
             2 => 
             array (
-                'id' => '3',
+                'id' => 3,
                 'nama' => 'Ali Bin Abi Thalib',
                 'sebagai' => 'Sahabat Nabi',
                 'kata_kata' => 'Ketahuilah yang sebenarnya, maka Anda akan mengenal orang yang tepat. Benar Tidak diukur oleh umatnya, tetapi manusia diukur dengan kebenaran.',
@@ -51,7 +51,7 @@ class HomeKataKatasTableSeeder extends Seeder
             ),
             3 => 
             array (
-                'id' => '4',
+                'id' => 4,
                 'nama' => 'Abu Bakar Sibli ',
                 'sebagai' => 'Mistikus islam',
                 'kata_kata' => 'Hidup seperti pohon yang berbuah; tinggal di pinggir jalan dan dilempari batu, tetapi dibayar dengan buah.',
@@ -61,7 +61,7 @@ class HomeKataKatasTableSeeder extends Seeder
             ),
             4 => 
             array (
-                'id' => '5',
+                'id' => 5,
                 'nama' => 'Umar bin Khattab',
                 'sebagai' => 'Sahabat Nabi',
                 'kata_kata' => 'Manusia yang rasional adalah manusia yang suka menerima dan meminta nasehat.',
@@ -71,7 +71,7 @@ class HomeKataKatasTableSeeder extends Seeder
             ),
             5 => 
             array (
-                'id' => '6',
+                'id' => 6,
                 'nama' => 'Jalaluddin Rumi',
                 'sebagai' => 'Penyair Sufi',
                 'kata_kata' => 'Jangan bersedih hati. Apa pun yang hilang dari Anda akan dikembalikan dalam bentuk lain.',
@@ -81,7 +81,7 @@ class HomeKataKatasTableSeeder extends Seeder
             ),
             6 => 
             array (
-                'id' => '7',
+                'id' => 7,
                 'nama' => 'Seseorang',
                 'sebagai' => 'kutipan',
                 'kata_kata' => 'Rahasia kebahagiaan ada dalam 3 hal: Kesabaran, Syukur dan Ketulusan.',
@@ -91,7 +91,7 @@ class HomeKataKatasTableSeeder extends Seeder
             ),
             7 => 
             array (
-                'id' => '8',
+                'id' => 8,
                 'nama' => 'Seseorang',
                 'sebagai' => 'kutipan',
                 'kata_kata' => 'Jika kita berpikir tentang ketidakpercayaan, akan banyak hal yang harus kita keluhkan. Tetapi jika kita berpikir tentang rasa syukur, sungguh tak terhitung banyaknya nikmat yang telah kita terima.',
@@ -101,7 +101,7 @@ class HomeKataKatasTableSeeder extends Seeder
             ),
             8 => 
             array (
-                'id' => '9',
+                'id' => 9,
                 'nama' => 'Seseorang',
                 'sebagai' => 'kutipan',
                 'kata_kata' => 'Terkadang kehidupan yang Anda keluhkan adalah kehidupan yang didambakan banyak orang.',
@@ -111,7 +111,7 @@ class HomeKataKatasTableSeeder extends Seeder
             ),
             9 => 
             array (
-                'id' => '10',
+                'id' => 10,
                 'nama' => 'Ali Bin Abi Thalib',
                 'sebagai' => 'Sahabat Nabi',
                 'kata_kata' => 'Ada dua macam kesabaran: kesabaran untuk sesuatu yang tidak Anda inginkan dan kesabaran untuk menahan diri dari sesuatu yang Anda inginkan',
@@ -121,7 +121,7 @@ class HomeKataKatasTableSeeder extends Seeder
             ),
             10 => 
             array (
-                'id' => '11',
+                'id' => 11,
                 'nama' => 'Seseorang',
                 'sebagai' => 'kutipan',
                 'kata_kata' => 'Hidup adalah pilihan, apapun yang membuatmu sedih, pergilah. Dan apapun yang membuatmu tersenyum, jangan lepaskan.',
@@ -131,7 +131,7 @@ class HomeKataKatasTableSeeder extends Seeder
             ),
             11 => 
             array (
-                'id' => '12',
+                'id' => 12,
                 'nama' => 'Seseorang',
                 'sebagai' => 'kutipan',
                 'kata_kata' => 'Saat perjalanan hidup terasa membosankan. Maka Tuhan menyuruh kita untuk sangat bersyukur.',
@@ -141,7 +141,7 @@ class HomeKataKatasTableSeeder extends Seeder
             ),
             12 => 
             array (
-                'id' => '13',
+                'id' => 13,
                 'nama' => 'Ali bin Abi Taolib',
                 'sebagai' => 'Sahabat Nabi',
                 'kata_kata' => 'Takutlah akan dosa-dosamu ketika kamu sendirian, ketika saksimu juga menjadi hakimmu.',
@@ -151,7 +151,7 @@ class HomeKataKatasTableSeeder extends Seeder
             ),
             13 => 
             array (
-                'id' => '14',
+                'id' => 14,
                 'nama' => 'Seseorang',
                 'sebagai' => 'kutipan',
                 'kata_kata' => 'Dalam konteks kesabaran, hinaan dan hujatan adalah prosesi pencairan dosa manusia oleh Yang Maha Penyayang.',
@@ -161,7 +161,7 @@ class HomeKataKatasTableSeeder extends Seeder
             ),
             14 => 
             array (
-                'id' => '15',
+                'id' => 15,
                 'nama' => 'Seseorang',
                 'sebagai' => 'kutipan',
                 'kata_kata' => 'Seandainya tidak ada kehidupan setelah kematian, maka yang miskin, yang bodoh dan yang teraniaya akan kalah! Robb, betapa adilnya dirimu.',
@@ -171,7 +171,7 @@ class HomeKataKatasTableSeeder extends Seeder
             ),
             15 => 
             array (
-                'id' => '16',
+                'id' => 16,
                 'nama' => 'Aa Gym. ',
                 'sebagai' => 'Pendakwah',
                 'kata_kata' => 'Hati menjadi gelisah dan gelisah ketika kita terbiasa berspekulasi dalam menghadapi pertanyaan-pertanyaan kehidupan.',
@@ -181,7 +181,7 @@ class HomeKataKatasTableSeeder extends Seeder
             ),
             16 => 
             array (
-                'id' => '17',
+                'id' => 17,
                 'nama' => 'Seseorang',
                 'sebagai' => 'kutipan',
                 'kata_kata' => 'Sabar dan mampu memurnikan sesuatu yang telah hilang adalah salah satu cara untuk menemukan kebahagiaan.',
@@ -191,7 +191,7 @@ class HomeKataKatasTableSeeder extends Seeder
             ),
             17 => 
             array (
-                'id' => '18',
+                'id' => 18,
                 'nama' => 'Seseorang',
                 'sebagai' => 'kutipan',
                 'kata_kata' => 'Kebanyakan dari kita tidak bersyukur atas apa yang telah kita miliki, tetapi kita menyesali apa yang belum kita capai.',
@@ -201,7 +201,7 @@ class HomeKataKatasTableSeeder extends Seeder
             ),
             18 => 
             array (
-                'id' => '19',
+                'id' => 19,
                 'nama' => 'Seseorang',
                 'sebagai' => 'kutipan',
                 'kata_kata' => 'Mereka yang sangat terluka karena meninggalkan cinta kepada Allah dan Rasul-Nya terlalu jauh.',
@@ -211,7 +211,7 @@ class HomeKataKatasTableSeeder extends Seeder
             ),
             19 => 
             array (
-                'id' => '20',
+                'id' => 20,
                 'nama' => 'Seseorang',
                 'sebagai' => 'kutipan',
                 'kata_kata' => 'Iman membuat seseorang mencintai kematian. Ketidakpercayaan membuat seseorang takut akan kematian.',
@@ -221,7 +221,7 @@ class HomeKataKatasTableSeeder extends Seeder
             ),
             20 => 
             array (
-                'id' => '21',
+                'id' => 21,
                 'nama' => 'HR. Ahmad',
                 'sebagai' => 'Hadis',
                 'kata_kata' => 'Barangsiapa tidak bersyukur sedikit, maka dia tidak akan bisa bersyukur untuk banyak.',
@@ -231,7 +231,7 @@ class HomeKataKatasTableSeeder extends Seeder
             ),
             21 => 
             array (
-                'id' => '22',
+                'id' => 22,
                 'nama' => 'Mufti Menk',
                 'sebagai' => 'Mufti dari Zimbabwe',
                 'kata_kata' => 'Lebih baik kehilangan sesuatu demi Tuhan. Dari pada kehilangan Tuhan karena sesuatu.',
@@ -241,7 +241,7 @@ class HomeKataKatasTableSeeder extends Seeder
             ),
             22 => 
             array (
-                'id' => '23',
+                'id' => 23,
                 'nama' => 'Seseorang',
                 'sebagai' => 'kutipan',
                 'kata_kata' => 'Tuhan tidak pernah berkata bahwa jalan hidup akan mudah.Tapi, Dia berkata ‘Aku akan bersama mereka yang sabar.',
@@ -251,7 +251,7 @@ class HomeKataKatasTableSeeder extends Seeder
             ),
             23 => 
             array (
-                'id' => '24',
+                'id' => 24,
                 'nama' => 'Ibn Qayyim',
                 'sebagai' => 'imam suni, cendekiawan, dan ahli fikih',
                 'kata_kata' => 'Kesabaran adalah saat hati tidak merasa marah pada apa yang sudah ditakdirkan dan mulut tidak mengeluh.',
@@ -261,7 +261,7 @@ class HomeKataKatasTableSeeder extends Seeder
             ),
             24 => 
             array (
-                'id' => '25',
+                'id' => 25,
                 'nama' => 'Seseorang',
                 'sebagai' => 'kutipan',
                 'kata_kata' => 'Dua hal yang bisa mendeskripsikan Anda, yaitu kesabaran Anda saat tidak memiliki apa-apa dan sikap Anda saat Anda memiliki segalanya.',
@@ -271,7 +271,7 @@ class HomeKataKatasTableSeeder extends Seeder
             ),
             25 => 
             array (
-                'id' => '26',
+                'id' => 26,
                 'nama' => 'Ali bin Abu Thalib ',
                 'sebagai' => 'Sahabat Nabi',
                 'kata_kata' => 'Jika kamu bisa bersabar sejenak saat marah, maka itu bisa menyelamatkanmu dari ribuan penyesalan di masa depan.',
@@ -281,7 +281,7 @@ class HomeKataKatasTableSeeder extends Seeder
             ),
             26 => 
             array (
-                'id' => '27',
+                'id' => 27,
                 'nama' => 'Seseorang',
                 'sebagai' => 'kutipan',
                 'kata_kata' => 'Kesabaran adalah kunci dari semua kesenangan abadi.',
@@ -291,7 +291,7 @@ class HomeKataKatasTableSeeder extends Seeder
             ),
             27 => 
             array (
-                'id' => '28',
+                'id' => 28,
                 'nama' => 'Seseorang',
                 'sebagai' => 'kutipan',
                 'kata_kata' => 'Setiap pekerjaan ada resikonya, setiap kesuksesan juga ada resikonya. kesabaran dan keikhlasan bisa merubah resiko menjadi lebih indah.',
@@ -301,7 +301,7 @@ class HomeKataKatasTableSeeder extends Seeder
             ),
             28 => 
             array (
-                'id' => '29',
+                'id' => 29,
                 'nama' => 'Seseorang',
                 'sebagai' => 'kutipan',
                 'kata_kata' => 'Setiap malapetaka mengandung permata yang berharga, tetapi hanya mereka yang bersabar yang berhak mendapatkannya.',
@@ -311,7 +311,7 @@ class HomeKataKatasTableSeeder extends Seeder
             ),
             29 => 
             array (
-                'id' => '30',
+                'id' => 30,
                 'nama' => 'HR. Tirmidzi',
                 'sebagai' => 'Hadis',
                 'kata_kata' => 'Dan ketahuilah, sesungguhnya kemenangan itu beriringan dengan kesabaran. Jalan keluar beriringan dengan kesukaran. Dan sesudah kesulitan pasti akan datang kemudahan.',
@@ -321,7 +321,7 @@ class HomeKataKatasTableSeeder extends Seeder
             ),
             30 => 
             array (
-                'id' => '31',
+                'id' => 31,
                 'nama' => 'Seseorang',
                 'sebagai' => 'kutipan',
                 'kata_kata' => 'Kesabaran adalah ilmu tingkat tinggi. Ia dipelajari setiap hari, dipraktekkan sepanjang waktu, ujiannya sering kali tiba-tiba, pendidikannya berlangsung seumur hidup.',
@@ -331,7 +331,7 @@ class HomeKataKatasTableSeeder extends Seeder
             ),
             31 => 
             array (
-                'id' => '32',
+                'id' => 32,
                 'nama' => 'Seseorang',
                 'sebagai' => 'kutipan',
                 'kata_kata' => 'Bencana itu seperti air keruh, makin banyak diaduk makin keruh. Bersabarlah karena sebentar lagi akan jelas.',
@@ -341,7 +341,7 @@ class HomeKataKatasTableSeeder extends Seeder
             ),
             32 => 
             array (
-                'id' => '33',
+                'id' => 33,
                 'nama' => 'Seseorang',
                 'sebagai' => 'kutipan',
                 'kata_kata' => 'Bukan kesabaran jika masih ada batasnya dan bukan keikhlasan jika masih terasa sakit.',
@@ -351,7 +351,7 @@ class HomeKataKatasTableSeeder extends Seeder
             ),
             33 => 
             array (
-                'id' => '34',
+                'id' => 34,
                 'nama' => 'Hasan Al-Bashri',
                 'sebagai' => 'ulama dan cendekiawan muslim',
                 'kata_kata' => 'Kami tidak melihat sesuatu yang lebih bermanfaat untuk menyembuhkan segalanya daripada kesabaran.',
@@ -361,7 +361,7 @@ class HomeKataKatasTableSeeder extends Seeder
             ),
             34 => 
             array (
-                'id' => '35',
+                'id' => 35,
                 'nama' => 'Ibn Qayyim',
                 'sebagai' => 'imam suni, cendekiawan, dan ahli fikih',
                 'kata_kata' => 'Minumlah kesabaran. Jika kesabaran membunuh Anda maka dia membunuh Anda dalam keadaan mati syahid. Dan jika kesabaran itu membuat Anda tetap hidup maka Dia membuat Anda tetap hidup dalam keadaan yang mulia.',
@@ -371,7 +371,7 @@ class HomeKataKatasTableSeeder extends Seeder
             ),
             35 => 
             array (
-                'id' => '36',
+                'id' => 36,
                 'nama' => 'Seseorang',
                 'sebagai' => 'kutipan',
                 'kata_kata' => 'Banyak orang telah meninggal, tetapi nama baik mereka tetap ada. Dan banyak orang yang masih hidup, tetapi seolah-olah mereka adalah orang mati yang tidak berguna',
@@ -381,7 +381,7 @@ class HomeKataKatasTableSeeder extends Seeder
             ),
             36 => 
             array (
-                'id' => '37',
+                'id' => 37,
                 'nama' => 'Seseorang',
                 'sebagai' => 'kutipan',
                 'kata_kata' => 'Sabar bukan berarti tidak bergerak saat bencana melanda. Tapi kesabaran secara aktif bergerak mencari kebaikan saat bencana melanda.',
@@ -391,7 +391,7 @@ class HomeKataKatasTableSeeder extends Seeder
             ),
             37 => 
             array (
-                'id' => '38',
+                'id' => 38,
                 'nama' => 'Seseorang',
                 'sebagai' => 'kutipan',
                 'kata_kata' => 'Tuhan tidak melihat penampilan dan harta benda Anda, tetapi Dia melihat hati dan perbuatan Anda.',
@@ -401,7 +401,7 @@ class HomeKataKatasTableSeeder extends Seeder
             ),
             38 => 
             array (
-                'id' => '39',
+                'id' => 39,
                 'nama' => 'Imam Syafi’i',
                 'sebagai' => 'pendiri mazhab Syafi\'i',
                 'kata_kata' => 'Jangan hanya bersyukur kepada Tuhan ketika semuanya berjalan dengan baik, bersyukurlah bahkan ketika segala sesuatunya terasa sulit.',

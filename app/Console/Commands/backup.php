@@ -123,22 +123,23 @@ class backup extends Command
                 Message::tableName,
                 FAQ::tableName,
             ],
-            'home' => [
-                KataKata::tableName,
-                ProgramPembelajaran::tableName,
-                Pengurus::tableName,
-            ],
+            // 'home' => [
+            //     KataKata::tableName,
+            //     ProgramPembelajaran::tableName,
+            //     Pengurus::tableName,
+            // ],
             'setting' => [
                 HomeSlider::tableName,
                 Tracker::tableName,
+                'sessions'
             ],
-            'produk' => [
-                ProdukKategori::tableName,
-                Produk::tableName,
-                MarketPlaceJenis::tableName,
-                Foto::tableName,
-                MarketPlace::tableName,
-            ],
+            // 'produk' => [
+            //     ProdukKategori::tableName,
+            //     Produk::tableName,
+            //     MarketPlaceJenis::tableName,
+            //     Foto::tableName,
+            //     MarketPlace::tableName,
+            // ],
             'portfolio' => [
                 PortfolioKategori::tableName,
                 Portfolio::tableName,

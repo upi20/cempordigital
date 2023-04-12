@@ -55,6 +55,7 @@ use App\Http\Controllers\Admin\Produk\ProdukController;
 use App\Http\Controllers\Admin\Home\KataKataController;
 use App\Http\Controllers\Admin\Home\PengurusController;
 use App\Http\Controllers\Admin\Home\ProgramPembelajaranController;
+use App\Http\Controllers\Admin\Portfolio\KategoriController as PortfolioKategoriController;
 use App\Http\Controllers\Admin\Produk\MarketplaceController;
 
 // ====================================================================================================================
@@ -472,6 +473,42 @@ Route::prefix($prefix)->group(function () use ($prefix, $name) {
     $prefix = 'kategori';
     Route::prefix($prefix)->controller(ProdukKategoriController::class)->group(function () use ($prefix, $name) {
         $name = "$name.$prefix"; // admin.produk.kategori
+        Route::get('/', 'index')->name($name)->middleware("permission:$name");
+        Route::get('/find', 'find')->name("$name.find")->middleware("permission:$name.update");
+        Route::post('/', 'insert')->name("$name.insert")->middleware("permission:$name.insert");
+        Route::post('/update', 'update')->name("$name.update")->middleware("permission:$name.update");
+        Route::delete('/{model}', 'delete')->name("$name.delete")->middleware("permission:$name.delete");
+    });
+});
+
+$prefix = 'portfolio';
+Route::prefix($prefix)->group(function () use ($prefix, $name) {
+    $name = "$name.$prefix"; // admin.portfolio
+    Route::controller(ProdukController::class)->group(function () use ($name) {
+        Route::get('/', 'index')->name($name)->middleware("permission:$name");
+        Route::get('/tambah', 'insert')->name("$name.insert")->middleware("permission:$name.insert");
+        Route::get('/ubah/{portfolio}', 'update')->name("$name.update")->middleware("permission:$name.update");
+        Route::post('/save/{portfolio}', 'save')->name("$name.save")->middleware("permission:$name.insert");
+
+        Route::get('/foto', 'foto_datatable')->name("$name.foto")->middleware("permission:$name.insert|$name.update");
+        Route::get('/foto_find', 'foto_find')->name("$name.foto.find")->middleware("permission:$name.insert|$name.update");
+        Route::post('/foto/insert', 'foto_insert')->name("$name.foto.insert")->middleware("permission:$name.insert|$name.update");
+        Route::post('/foto/update', 'foto_update')->name("$name.foto.update")->middleware("permission:$name.insert|$name.update");
+        Route::delete('/foto/{model}', 'foto_delete')->name("$name.foto.delete")->middleware("permission:$name.insert|$name.update");
+
+        Route::get('/prod_mt', 'marketplace_datatable')->name("$name.prod_mt")->middleware("permission:$name.insert|$name.update");
+        Route::get('/prod_mt_find', 'marketplace_find')->name("$name.prod_mt.find")->middleware("permission:$name.insert|$name.update");
+        Route::post('/prod_mt/insert', 'marketplace_insert')->name("$name.prod_mt.insert")->middleware("permission:$name.insert|$name.update");
+        Route::post('/prod_mt/update', 'marketplace_update')->name("$name.prod_mt.update")->middleware("permission:$name.insert|$name.update");
+        Route::delete('/prod_mt/{model}', 'marketplace_delete')->name("$name.prod_mt.delete")->middleware("permission:$name.insert|$name.update");
+
+        // portfolio delete
+        Route::delete('/{model}', 'delete')->name("$name.delete")->middleware("permission:$name.delete");
+    });
+
+    $prefix = 'kategori';
+    Route::prefix($prefix)->controller(PortfolioKategoriController::class)->group(function () use ($prefix, $name) {
+        $name = "$name.$prefix"; // admin.portfolio.kategori
         Route::get('/', 'index')->name($name)->middleware("permission:$name");
         Route::get('/find', 'find')->name("$name.find")->middleware("permission:$name.update");
         Route::post('/', 'insert')->name("$name.insert")->middleware("permission:$name.insert");

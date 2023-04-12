@@ -21,7 +21,7 @@ class ProdukKategoriTableSeeder extends Seeder
         \DB::table('produk_kategori')->insert(array (
             0 => 
             array (
-                'id' => '6',
+                'id' => 6,
                 'nama' => 'Biji Kopi',
                 'slug' => 'biji-kopi',
                 'keterangan' => NULL,
@@ -30,7 +30,7 @@ class ProdukKategoriTableSeeder extends Seeder
             ),
             1 => 
             array (
-                'id' => '7',
+                'id' => 7,
                 'nama' => 'Biji Kopi A',
                 'slug' => 'biji-kopi-a',
                 'keterangan' => NULL,
@@ -39,7 +39,7 @@ class ProdukKategoriTableSeeder extends Seeder
             ),
             2 => 
             array (
-                'id' => '8',
+                'id' => 8,
                 'nama' => 'Biji Kopi B',
                 'slug' => 'biji-kopi-b',
                 'keterangan' => NULL,
@@ -48,7 +48,7 @@ class ProdukKategoriTableSeeder extends Seeder
             ),
             3 => 
             array (
-                'id' => '9',
+                'id' => 9,
                 'nama' => 'Biji Kopi C',
                 'slug' => 'biji-kopi-c',
                 'keterangan' => NULL,
@@ -57,7 +57,7 @@ class ProdukKategoriTableSeeder extends Seeder
             ),
             4 => 
             array (
-                'id' => '10',
+                'id' => 10,
                 'nama' => 'Biji Kopi D',
                 'slug' => 'biji-kopi-d',
                 'keterangan' => NULL,

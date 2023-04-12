@@ -21,8 +21,8 @@ class HomePengurusTableSeeder extends Seeder
         \DB::table('home_pengurus')->insert(array (
             0 => 
             array (
-                'id' => '1',
-                'urutan' => '1',
+                'id' => 1,
+                'urutan' => 1,
                 'nama' => 'Dian Nopiandi, S.Sos., M.Pd',
                 'sebagai' => 'Pendiri',
                 'foto' => '20230327080501.jpg',
@@ -37,8 +37,8 @@ class HomePengurusTableSeeder extends Seeder
             ),
             1 => 
             array (
-                'id' => '7',
-                'urutan' => '2',
+                'id' => 7,
+                'urutan' => 2,
                 'nama' => 'Puput Risnawati,S.Pd',
                 'sebagai' => 'Pendiri',
                 'foto' => '20230327184526.jpg',

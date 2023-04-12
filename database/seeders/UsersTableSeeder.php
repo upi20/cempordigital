@@ -21,14 +21,14 @@ class UsersTableSeeder extends Seeder
         \DB::table('users')->insert(array (
             0 => 
             array (
-                'id' => '1',
+                'id' => 1,
                 'name' => 'Isep Lutpi Nur',
                 'email' => 'iseplutpinur7@gmail.com',
                 'foto' => NULL,
                 'username' => NULL,
                 'email_verified_at' => NULL,
                 'password' => '$2y$10$DsI7ChQu4aIwEwc0CTlCnO66pBuIukicAIA/oIKwHD4AIGzIHmHZO',
-                'active' => '1',
+                'active' => 1,
                 'two_factor_secret' => NULL,
                 'two_factor_recovery_codes' => NULL,
                 'two_factor_confirmed_at' => NULL,
@@ -40,14 +40,14 @@ class UsersTableSeeder extends Seeder
             ),
             1 => 
             array (
-                'id' => '3',
+                'id' => 3,
                 'name' => 'Admin',
                 'email' => 'admin@mail.com',
                 'foto' => NULL,
                 'username' => NULL,
                 'email_verified_at' => NULL,
                 'password' => '$2y$10$HL9ziBLtmEaeocsJwvnWveYUyFCMwmEty9H.DBi1Qu4VpR8q4Qyrq',
-                'active' => '1',
+                'active' => 1,
                 'two_factor_secret' => NULL,
                 'two_factor_recovery_codes' => NULL,
                 'two_factor_confirmed_at' => NULL,

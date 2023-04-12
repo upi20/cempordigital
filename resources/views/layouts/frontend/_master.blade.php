@@ -114,13 +114,13 @@ $compact = array_merge($compact, compact('page_attr_title', 'search_master_key',
         <!-- preloader ending here -->
     @endif
 
-    @include('layouts.frontend.body.header', $compact)
+    @include('layouts.frontend.body._header', $compact)
 
 
     <main> @yield('content') </main>
 
 
-    @include('layouts.frontend.body.footer', $compact)
+    @include('layouts.frontend.body._footer', $compact)
 
     <!-- scrollToTop start here -->
     <a href="javascript:void(0)" class="scrollToTop">

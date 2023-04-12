@@ -21,7 +21,7 @@ class ProdukMarketPlaceJenisTableSeeder extends Seeder
         \DB::table('produk_market_place_jenis')->insert(array (
             0 => 
             array (
-                'id' => '1',
+                'id' => 1,
                 'nama' => 'Shopee',
                 'link' => 'https://shopee.co.id/wkgroastery',
                 'link_produk' => NULL,
@@ -34,7 +34,7 @@ class ProdukMarketPlaceJenisTableSeeder extends Seeder
             ),
             1 => 
             array (
-                'id' => '2',
+                'id' => 2,
                 'nama' => 'Tokopedia',
                 'link' => 'https://www.tokopedia.com/wkgroastery',
                 'link_produk' => NULL,
@@ -47,7 +47,7 @@ class ProdukMarketPlaceJenisTableSeeder extends Seeder
             ),
             2 => 
             array (
-                'id' => '3',
+                'id' => 3,
                 'nama' => 'PaDi UMKM',
                 'link' => 'https://padiumkm.id/store/68374-wkg-roastery',
                 'link_produk' => NULL,
@@ -60,7 +60,7 @@ class ProdukMarketPlaceJenisTableSeeder extends Seeder
             ),
             3 => 
             array (
-                'id' => '4',
+                'id' => 4,
                 'nama' => 'Tiktok',
                 'link' => 'https://www.tiktok.com/@wkg_roastery?_t=8yi32jgwzdb&_r=1',
                 'link_produk' => NULL,
@@ -73,7 +73,7 @@ class ProdukMarketPlaceJenisTableSeeder extends Seeder
             ),
             4 => 
             array (
-                'id' => '5',
+                'id' => 5,
                 'nama' => 'Paxel Market',
                 'link' => 'https://paxelmarket.co/store/wkg-roastery/',
                 'link_produk' => NULL,
@@ -86,7 +86,7 @@ class ProdukMarketPlaceJenisTableSeeder extends Seeder
             ),
             5 => 
             array (
-                'id' => '6',
+                'id' => 6,
                 'nama' => 'Whatsapp',
                 'link' => NULL,
                 'link_produk' => 'https://wa.me/+628997370999',
@@ -99,7 +99,7 @@ class ProdukMarketPlaceJenisTableSeeder extends Seeder
             ),
             6 => 
             array (
-                'id' => '8',
+                'id' => 8,
                 'nama' => 'ShopeeFood',
                 'link' => NULL,
                 'link_produk' => 'https://shopee.co.id/universal-link/now-food/shop/21051909?deep_and_deferred=1&shareChannel=whatsapp',
@@ -112,7 +112,7 @@ class ProdukMarketPlaceJenisTableSeeder extends Seeder
             ),
             7 => 
             array (
-                'id' => '9',
+                'id' => 9,
                 'nama' => 'GoFood',
                 'link' => NULL,
                 'link_produk' => 'https://gofood.link/a/GeboqCh',
@@ -125,7 +125,7 @@ class ProdukMarketPlaceJenisTableSeeder extends Seeder
             ),
             8 => 
             array (
-                'id' => '10',
+                'id' => 10,
                 'nama' => 'GrabFood',
                 'link' => NULL,
                 'link_produk' => 'https://grab.onelink.me/2695613898?pid=inappsharing&c=6-C32ZAFXZLK4HJN&is_retargeting=true&af_dp=grab%3A%2F%2Fopen%3FscreenType%3DGRABFOOD%26sourceID%3DA4pcqCZkS4%26merchantIDs%3D6-C32ZAFXZLK4HJN&af_force_deeplink=true&af_web_dp=https%3A%2F%2Fwww.grab.com',

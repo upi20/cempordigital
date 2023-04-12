@@ -4,6 +4,7 @@ namespace App\Models\Setting;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Haruncpi\LaravelUserActivity\Traits\Loggable;
 
 class HomeSlider extends Model
 {
