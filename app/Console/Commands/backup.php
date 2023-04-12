@@ -19,6 +19,9 @@ use App\Models\Menu\Admin as MenuAdmin;
 use App\Models\Menu\Frontend as MenuFrontend;
 use App\Models\Pendaftaran;
 use App\Models\Pendaftaran\GForm;
+use App\Models\Portfolio\Item as PortfolioItem;
+use App\Models\Portfolio\Kategori as PortfolioKategori;
+use App\Models\Portfolio\Portfolio;
 use App\Models\Produk\Foto;
 use App\Models\Produk\Kategori as ProdukKategori;
 use App\Models\Produk\MarketPlace;
@@ -135,6 +138,11 @@ class backup extends Command
                 MarketPlaceJenis::tableName,
                 Foto::tableName,
                 MarketPlace::tableName,
+            ],
+            'portfolio' => [
+                PortfolioKategori::tableName,
+                Portfolio::tableName,
+                PortfolioItem::tableName,
             ],
         ];
         if ($opt_users == 1 || $arg_type == 'users') echo shell_exec('php artisan iseed users --force');
