@@ -21,6 +21,7 @@ class Portfolio extends Model
         'keterangan',
         'is_insert',
         'kategori_id',
+        'created_by',
     ];
     protected $primaryKey = 'id';
     protected $table = 'portfolio';
@@ -54,11 +55,27 @@ class Portfolio extends Model
         return $this->hasMany(Item::class, 'portfolio_id', 'id');
     }
 
+    // static function
+    public static function getInsert()
+    {
+        $user_id = auth()->user()->id;
+        $where = ['is_insert' => 0, 'created_by' => $user_id];
+        $get = static::where($where)->first();
+
+        if (is_null($get)) {
+            static::insert($where);
+            return static::where($where)->first();
+        }
+        return $get;
+    }
+
     public static function datatable(Request $request): mixed
     {
-        // list table
         $query = [];
+        // list table
         $table = static::tableName;
+        $t_kategori = Kategori::tableName;
+        $base_url_image_folder = url(str_replace('./', '', self::image_folder)) . '/';
 
         // cusotm query
         // ========================================================================================================
@@ -79,6 +96,17 @@ class Portfolio extends Model
         $query = array_merge($query, $date_format_fun('updated_at', '%d-%b-%Y', $c_updated));
         $query = array_merge($query, $date_format_fun('updated_at', '%W, %d %M %Y %H:%i:%s', $c_updated_str));
 
+        // foto
+        $c_foto_link = 'foto_link';
+        $query[$c_foto_link] = <<<SQL
+                (concat('$base_url_image_folder',$table.foto))
+        SQL;
+        $query["{$c_foto_link}_alias"] = $c_foto_link;
+
+        // kategori
+        $c_kategori_nama = 'kategori_nama';
+        $query[$c_kategori_nama] = "$t_kategori.nama";
+        $query["{$c_kategori_nama}_alias"] = $c_kategori_nama;
         // ========================================================================================================
 
 
@@ -88,10 +116,12 @@ class Portfolio extends Model
             return $query[$col] . ' as ' . $query[$col . '_alias'];
         };
         $model_filter = [
+            $c_foto_link,
             $c_created,
             $c_created_str,
             $c_updated,
             $c_updated_str,
+            $c_kategori_nama,
         ];
 
         $to_db_raw = array_map(function ($a) use ($sraa) {
@@ -101,9 +131,11 @@ class Portfolio extends Model
 
 
         // Select =====================================================================================================
-        $model = self::select(array_merge([
+        $model = static::select(array_merge([
             DB::raw("$table.*"),
-        ], $to_db_raw));
+        ], $to_db_raw))
+            ->leftJoin($t_kategori, "$t_kategori.id", '=', "$table.kategori_id")
+            ->where('is_insert', true);
 
         // Filter =====================================================================================================
         // filter check
@@ -113,7 +145,7 @@ class Portfolio extends Model
         };
 
         // filter custom
-        $filters = [];
+        $filters = ['kategori_id'];
         foreach ($filters as  $f) {
             if ($f_c($f) !== false) {
                 $model->whereRaw("$table.$f='{$f_c($f)}'");

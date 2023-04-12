@@ -11,7 +11,7 @@
         <div class="card-header d-md-flex flex-row justify-content-between">
             <h3 class="card-title">Data {{ $page_attr['title'] }}</h3>
             @if ($can_insert)
-                <a class="btn btn-rounded btn-success btn-sm" href="{{ route('admin.produk.insert') }}">
+                <a class="btn btn-rounded btn-success btn-sm" href="{{ route(h_prefix('insert')) }}">
                     <i class="fas fa-plus"></i> Tambah
                 </a>
             @endif
@@ -30,15 +30,6 @@
                     <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne1">
                         <div class="panel-body">
                             <form action="javascript:void(0)" class="ml-md-3 mb-md-3" id="FilterForm">
-                                <div class="form-group float-start me-2">
-                                    <label for="filter_tampilkan_di_halaman_utama">Tampilkan Halaman Utama</label>
-                                    <select class="form-control" id="filter_tampilkan_di_halaman_utama"
-                                        name="filter_tampilkan_di_halaman_utama" style="max-width: 200px">
-                                        <option value="">Semua</option>
-                                        <option value="1">Ya</option>
-                                        <option value="0">Tidak</option>
-                                    </select>
-                                </div>
                                 <div class="form-group float-start me-2">
                                     <label for="filter_kategori_id">Kategori</label>
                                     <select class="form-control" id="filter_kategori_id" name="filter_kategori_id"
@@ -67,7 +58,6 @@
                         <th>Foto</th>
                         <th>Nama</th>
                         <th>Kategori</th>
-                        <th>Halaman Utama</th>
                         <th>Dibuat</th>
                         <th>Aksi</th>
                     </tr>

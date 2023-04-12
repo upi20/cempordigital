@@ -50,15 +50,6 @@ $(document).ready(function () {
             name: 'kategori_nama'
         },
         {
-            data: 'tampilkan_di_halaman_utama',
-            name: 'tampilkan_di_halaman_utama',
-            render(data, type, full, meta) {
-                const class_el = data == 1 ? 'text-success' : 'text-danger';
-                const text_el = data == 1 ? 'Ya' : 'Tidak';
-                return `<i class="fas fa-circle me-2 ${class_el}"></i>${text_el}`;
-            },
-        },
-        {
             data: 'created',
             name: 'created_at'
         },
@@ -72,14 +63,14 @@ $(document).ready(function () {
                                 <i class="fas fa-edit"></i></a>` : '';
                 const btn_delete = can_delete ? `<button type="button" class="btn btn-rounded btn-danger btn-sm me-1" data-toggle="tooltip" title="Hapus Data" onClick="deleteFunc('${data}')">
                                 <i class="fas fa-trash"></i> </button>` : '';
-                return btn_lihat + btn_update + btn_delete;
+                return btn_update + btn_delete;
             },
             orderable: false,
             className: 'text-nowrap'
         },
         ],
         order: [
-            [5, 'desc']
+            [4, 'desc']
         ],
         language: {
             url: datatable_indonesia_language_url

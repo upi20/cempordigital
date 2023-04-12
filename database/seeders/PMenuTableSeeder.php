@@ -506,12 +506,12 @@ class PMenuTableSeeder extends Seeder
                 'parent_id' => 415,
                 'title' => 'Daftar Portfolio',
                 'icon' => NULL,
-                'route' => 'admin.produk',
+                'route' => 'admin.portfolio',
                 'sequence' => 23,
                 'active' => 1,
                 'type' => 1,
                 'created_at' => '2023-01-27 22:17:43',
-                'updated_at' => '2023-04-12 23:58:27',
+                'updated_at' => '2023-04-13 00:44:13',
             ),
             38 => 
             array (

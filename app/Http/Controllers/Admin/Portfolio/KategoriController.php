@@ -39,9 +39,10 @@ class KategoriController extends Controller
     {
         try {
             $request->validate($this->validate_model);
-            $urutan = $request->urutan ?? ((PortfolioKategori::max('urutan') ?? 0) + 1);
 
             $model = new PortfolioKategori();
+
+            $urutan = $request->urutan ?? ((PortfolioKategori::max('urutan') ?? 0) + 1);
             $model->keterangan = $request->keterangan;
             $model->nama = $request->nama;
             $model->urutan = $urutan;
@@ -60,11 +61,12 @@ class KategoriController extends Controller
     {
         try {
             $model = PortfolioKategori::findOrFail($request->id);
-            $urutan = $request->urutan ?? ((PortfolioKategori::max('urutan') ?? 0) + 1);
 
             $request->validate(array_merge(['id' => [
                 'required', 'int',
             ]], $this->validate_model));
+
+            $urutan = $request->urutan ?? ((PortfolioKategori::max('urutan') ?? 0) + 1);
             $model->nama = $request->nama;
             $model->keterangan = $request->keterangan;
             $model->urutan =  $urutan;
