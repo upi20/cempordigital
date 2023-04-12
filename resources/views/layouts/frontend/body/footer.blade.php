@@ -1,6 +1,6 @@
 <!-- Footer Section start here -->
 <footer class="footer-section"
-    style="background-image: url({{ asset('assets/templates/frontend/images/bg-images/footer-bg.png);') }}">
+    style="background-image: url({{ asset('assets/templates/frontend2/images/bg-images/footer-bg.png);') }}">
     <div class="footer-top">
         <div class="container">
             <div class="row g-3 justify-content-center g-lg-0">
@@ -11,7 +11,7 @@
                             <div class="lab-inner">
                                 <div class="lab-thumb w-100 text-center">
                                     <img class="lazy"
-                                        data-src="{{ asset('assets/templates/frontend/images/footer/footer-top/01.png') }}"
+                                        data-src="{{ asset('assets/templates/frontend2/images/footer/footer-top/01.png') }}"
                                         alt="Phone-icon">
                                 </div>
                                 <div class="lab-content w-100 text-center mt-2">
@@ -32,7 +32,7 @@
                             <div class="lab-inner">
                                 <div class="lab-thumb w-100 text-center">
                                     <img class="lazy"
-                                        data-src="{{ asset('assets/templates/frontend/images/footer/footer-top/01.png') }}"
+                                        data-src="{{ asset('assets/templates/frontend2/images/footer/footer-top/01.png') }}"
                                         alt="whatsapp-icon">
                                 </div>
                                 <div class="lab-content w-100 text-center mt-2">
@@ -53,7 +53,7 @@
                             <div class="lab-inner">
                                 <div class="lab-thumb w-100 text-center">
                                     <img class="lazy"
-                                        data-src="{{ asset('assets/templates/frontend/images/footer/footer-top/03.png') }}"
+                                        data-src="{{ asset('assets/templates/frontend2/images/footer/footer-top/03.png') }}"
                                         alt="location-icon">
                                 </div>
                                 <div class="lab-content w-100 text-center mt-2">

@@ -78,14 +78,15 @@ $compact = array_merge($compact, compact('page_attr_title', 'search_master_key',
     <meta itemprop="image" content="{{ $page_attr->image }}">
 
     <!-- favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/templates/frontend/images/x-icon/01.png') }}">
+    <link rel="shortcut icon" type="image/x-icon"
+        href="{{ asset('assets/templates/frontend2/images/x-icon/01.png') }}">
 
-    <link rel="stylesheet" href="{{ asset('assets/templates/frontend/css/bootstrap.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/templates/frontend/css/all.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/templates/frontend/css/icofont.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/templates/frontend/css/lightcase.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/templates/frontend/css/swiper.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/templates/frontend/css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/templates/frontend2/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/templates/frontend2/css/all.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/templates/frontend2/css/icofont.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/templates/frontend2/css/lightcase.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/templates/frontend2/css/swiper.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/templates/frontend2/css/style.css') }}">
     <link rel="stylesheet" href="{{ asset_admin('plugins/fontawesome-free-5.15.4-web/css/fontawesome.min.css') }}">
     <meta name="msapplication-TileColor" content="#fff">
     <meta name="theme-color" content="#26B683">
@@ -129,14 +130,14 @@ $compact = array_merge($compact, compact('page_attr_title', 'search_master_key',
     </a>
     <!-- scrollToTop ending here -->
 
-    <script src="{{ asset('assets/templates/frontend/js/jquery.js') }}"></script>
-    <script src="{{ asset('assets/templates/frontend/js/waypoints.min.js') }}"></script>
-    <script src="{{ asset('assets/templates/frontend/js/bootstrap.bundle.min.js') }}"></script>
-    <script src="{{ asset('assets/templates/frontend/js/swiper.min.js') }}"></script>
-    <script src="{{ asset('assets/templates/frontend/js/circularProgressBar.min.js') }}"></script>
-    <script src="{{ asset('assets/templates/frontend/js/isotope.pkgd.min.js') }}"></script>
-    <script src="{{ asset('assets/templates/frontend/js/lightcase.js') }}"></script>
-    <script src="{{ asset('assets/templates/frontend/js/functions.js') }}"></script>
+    <script src="{{ asset('assets/templates/frontend2/js/jquery.js') }}"></script>
+    <script src="{{ asset('assets/templates/frontend2/js/waypoints.min.js') }}"></script>
+    <script src="{{ asset('assets/templates/frontend2/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ asset('assets/templates/frontend2/js/swiper.min.js') }}"></script>
+    <script src="{{ asset('assets/templates/frontend2/js/circularProgressBar.min.js') }}"></script>
+    <script src="{{ asset('assets/templates/frontend2/js/isotope.pkgd.min.js') }}"></script>
+    <script src="{{ asset('assets/templates/frontend2/js/lightcase.js') }}"></script>
+    <script src="{{ asset('assets/templates/frontend2/js/functions.js') }}"></script>
     <script src="{{ asset_admin('plugins/fontawesome-free-5.15.4-web/js/all.min.js') }}"></script>
     <script src="{{ asset_admin('plugins/jquery.lazy-master/jquery.lazy.min.js') }}"></script>
     <script src="{{ resource_loader('pages/frontend/frontend.js') }}"></script>
