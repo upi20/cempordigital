@@ -193,8 +193,9 @@ class Portfolio extends Model
     public static function getFeHomeData()
     {
         return Cache::rememberForever(self::feCacheKey, function () {
-            return static::with(['kategori', 'fotos', 'marketplaces.jenis'])
-                ->where('tampilkan_di_halaman_utama', 1)->orderBy('created_at', 'desc')->get();
+            return Kategori::with(['protfolios' => function ($query) {
+                $query->orderBy('nama');
+            }])->orderBy('urutan')->get();
         });
     }
 

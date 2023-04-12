@@ -26,8 +26,8 @@
                                     <a href="contact.html" class="btn" data-animation="fadeInLeft" data-delay=".6s">Get
                                         Started <span></span></a>
                                     <!-- <a href="https://www.youtube.com/watch?v=bixR-KIJKYM" class="popup-video"
-                                                                                                                                                                                       data-animation="fadeInRight" data-delay=".6s">See Live Demo <i
-                                                                                                                                                                                           class="fas fa-play pulse"></i></a> -->
+                                                                                                                                                                                                                                                                                                                               data-animation="fadeInRight" data-delay=".6s">See Live Demo <i
+                                                                                                                                                                                                                                                                                                                                   class="fas fa-play pulse"></i></a> -->
                                 </div>
                             </div>
                         </div>
@@ -57,8 +57,8 @@
                                     <a href="contact.html" class="btn" data-animation="fadeInLeft" data-delay=".6s">Get
                                         Started <span></span></a>
                                     <!-- <a href="https://www.youtube.com/watch?v=bixR-KIJKYM" class="popup-video"
-                                                                                                                                                                                       data-animation="fadeInRight" data-delay=".6s">See Live Demo <i
-                                                                                                                                                                                           class="fas fa-play pulse"></i></a> -->
+                                                                                                                                                                                                                                                                                                                               data-animation="fadeInRight" data-delay=".6s">See Live Demo <i
+                                                                                                                                                                                                                                                                                                                                   class="fas fa-play pulse"></i></a> -->
                                 </div>
                             </div>
                         </div>
@@ -88,8 +88,8 @@
                                     <a href="contact.html" class="btn" data-animation="fadeInLeft" data-delay=".6s">Get
                                         Started <span></span></a>
                                     <!-- <a href="https://www.youtube.com/watch?v=bixR-KIJKYM" class="popup-video"
-                                                                                                                                                                                       data-animation="fadeInRight" data-delay=".6s">See Live Demo <i
-                                                                                                                                                                                           class="fas fa-play pulse"></i></a> -->
+                                                                                                                                                                                                                                                                                                                               data-animation="fadeInRight" data-delay=".6s">See Live Demo <i
+                                                                                                                                                                                                                                                                                                                                   class="fas fa-play pulse"></i></a> -->
                                 </div>
                             </div>
                         </div>
@@ -119,49 +119,6 @@
     <!-- services-area -->
     <section class="services-area pt-35 pb-95">
         <div class="container">
-            <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                Launch static backdrop modal
-            </button>
-
-            <!-- Modal -->
-            <div class="modal fade" id="staticBackdrop" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
-                    <div class="modal-content">
-                        <div class="modal-body p-lg-5">
-                            <button type="button" class="portfolio-section btn-close" data-bs-dismiss="modal"
-                                aria-label="Close">
-                                <i class="fas fa-times"></i>
-                            </button>
-                            <div class="row">
-                                <div class="col-xl-12">
-                                    <img src="http://naditechno.com/assets/image/portfolio/scm-1-bidhara-care-large.png"
-                                        alt="naditechno.com" style="border-radius: 12px" class="mb-4">
-                                </div>
-                                <div class="col-xl-7">
-                                    <div class="content-wrapper">
-                                        <h2 class="item-title h4">Bidhara Care</h2>
-                                        <p>
-                                            Social Media Management Instagram di Bidhara Care
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-xl-5">
-                                    <div class="meta-wrapper">
-                                        <ul class="item-meta p-0">
-                                            <li>Project Type: <span class="meta-value">Social Media Management</span></li>
-                                            <li>Client: <span class="meta-value">Bidhara Care</span></li>
-                                            <li>Duration: <span class="meta-value">1 Year</span></li>
-                                            <li>Task: <span class="meta-value">Social Media management</span></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
             <div class="row justify-content-center pb-35">
                 <div class="col-xl-6 col-lg-7">
                     <div class="section-title title-style-two text-center mb-45">
@@ -248,7 +205,7 @@
                             kami
                             yang membangun onlinemu</p>
                         <p class="info-two fw-bold">Apa yang anda butuhkan ?</p>
-                        <a href="#" class="btn">Tentang <span></span></a>
+                        <a href="javascript:void(0)" class="btn">Tentang <span></span></a>
                     </div>
                 </div>
             </div>
@@ -703,374 +660,75 @@
                     <div class="col-xl-2">
                         <div class="project-tab-wrap">
                             <ul class="nav nav-tabs" id="myTab" role="tablist">
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link active" id="website-tab" data-bs-toggle="tab"
-                                        data-bs-target="#website-container" type="button" role="tab"
-                                        aria-controls="website-container" aria-selected="false">Website
-                                    </button>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="design-tab" data-bs-toggle="tab"
-                                        data-bs-target="#design" type="button" role="tab" aria-controls="design"
-                                        aria-selected="false">Design
-                                    </button>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="app-tab" data-bs-toggle="tab" data-bs-target="#app"
-                                        type="button" role="tab" aria-controls="app" aria-selected="false">App
-                                        Design</button>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="branding-tab" data-bs-toggle="tab"
-                                        data-bs-target="#branding" type="button" role="tab"
-                                        aria-controls="branding" aria-selected="false">Branding Design</button>
-                                </li>
+                                @foreach ($protfolios as $kategori)
+                                    @if ($kategori->protfolios->count() < 1)
+                                        @continue
+                                    @endif
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link {{ $loop->first ? 'active' : '' }}"
+                                            id="{{ $kategori->slug }}-tab" data-bs-toggle="tab"
+                                            data-bs-target="#{{ $kategori->slug }}-container" type="button"
+                                            role="tab" aria-controls="{{ $kategori->slug }}-container"
+                                            aria-selected="false">{{ $kategori->nama }}
+                                        </button>
+                                    </li>
+                                @endforeach
                             </ul>
                         </div>
                     </div>
                     <div class="col-xl-10">
                         <div class="tab-content" id="myTabContent">
-                            <div class="tab-pane fade show active" id="website-container" role="tabpanel"
-                                aria-labelledby="website-tab">
-                                <div class="swiper-container project-active-three">
-                                    <div class="swiper-wrapper">
-                                        <div class="swiper-slide">
-                                            <div class="project-item-three">
-                                                <div class="project-content-three">
-                                                    <h2 class="title"><a href="#">WEB 1</a></h2>
-                                                    <p>At Collax we specialize in designing, building, shipping...
-                                                    </p>
+                            @foreach ($protfolios as $kategori)
+                                @if ($kategori->protfolios->count() < 1)
+                                    @continue
+                                @endif
+                                <div class="tab-pane fade {{ $loop->first ? 'show active' : '' }}"
+                                    id="{{ $kategori->slug }}-container" role="tabpanel"
+                                    aria-labelledby="{{ $kategori->slug }}-tab">
+                                    <div class="swiper-container project-active-three">
+                                        <div class="swiper-wrapper">
+                                            @foreach ($kategori->protfolios as $protfolio)
+                                                <div class="swiper-slide">
+                                                    <div class="project-item-three">
+                                                        <div class="project-content-three">
+                                                            <h2 class="title">
+                                                                <a onclick="protfolioDetail('#btnPortofolio-{{ $protfolio->slug }}','{{ $protfolio->slug }}')"
+                                                                    href="javascript:void(0)">
+                                                                    {{ $protfolio->nama }}
+                                                                </a>
+                                                            </h2>
+                                                            <p>{{ text_cutter($protfolio->keterangan, 50) }} </p>
+                                                        </div>
+                                                        <div class="project-thumb-three">
+                                                            <a onclick="protfolioDetail('#btnPortofolio-{{ $protfolio->slug }}','{{ $protfolio->slug }}')"
+                                                                href="javascript:void(0)">
+                                                                <img data-src="{{ $protfolio->fotoUrl() }}"
+                                                                    style="height: 280px; width:100%; object-fit: cover;"
+                                                                    class="lazy" alt="{{ $protfolio->nama }}">
+                                                            </a>
+                                                        </div>
+                                                        <div class="project-details-btn">
+                                                            <a href="javascript:void(0)"
+                                                                onclick="protfolioDetail('#btnPortofolio-{{ $protfolio->slug }}','{{ $protfolio->slug }}')">
+                                                                Lihat Detail
+                                                            </a>
+                                                        </div>
+                                                    </div>
                                                 </div>
-                                                <div class="project-thumb-three">
-                                                    <a href="#">
-                                                        <img data-src="{{ asset('assets/templates/frontend/img/project/h3_project_img01.jpg') }}"
-                                                            style="height: 280px; width:100%; object-fit: cover;"
-                                                            class="lazy" alt="">
-                                                    </a>
-                                                </div>
-                                                <div class="project-details-btn">
-                                                    <a href="#">View Case Studies</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="project-item-three">
-                                                <div class="project-content-three">
-                                                    <h2 class="title"><a href="#">WEB 2</a></h2>
-                                                    <p>At Collax we specialize in designing, building, shipping...
-                                                    </p>
-                                                </div>
-                                                <div class="project-thumb-three">
-                                                    <a href="#">
-                                                        <img data-src="{{ asset('assets/templates/frontend/img/project/h3_project_img02.jpg') }}"
-                                                            style="height: 280px; width:100%; object-fit: cover;"
-                                                            class="lazy" alt="">
-                                                    </a>
-                                                </div>
-                                                <div class="project-details-btn">
-                                                    <a href="#">View Case Studies</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="project-item-three">
-                                                <div class="project-content-three">
-                                                    <h2 class="title"><a href="#">WEB 3</a></h2>
-                                                    <p>At Collax we specialize in designing, building, shipping...
-                                                    </p>
-                                                </div>
-                                                <div class="project-thumb-three">
-                                                    <a href="#">
-                                                        <img data-src="{{ asset('assets/templates/frontend/img/project/h3_project_img03.jpg') }}"
-                                                            style="height: 280px; width:100%; object-fit: cover;"
-                                                            class="lazy" alt="">
-                                                    </a>
-                                                </div>
-                                                <div class="project-details-btn">
-                                                    <a href="#">View Case Studies</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="project-item-three">
-                                                <div class="project-content-three">
-                                                    <h2 class="title"><a href="#">WEB 4</a></h2>
-                                                    <p>At Collax we specialize in designing, building, shipping...
-                                                    </p>
-                                                </div>
-                                                <div class="project-thumb-three">
-                                                    <a href="#">
-                                                        <img data-src="{{ asset('assets/templates/frontend/img/project/h3_project_img04.jpg') }}"
-                                                            style="height: 280px; width:100%; object-fit: cover;"
-                                                            class="lazy" alt="">
-                                                    </a>
-                                                </div>
-                                                <div class="project-details-btn">
-                                                    <a href="#">View Case Studies</a>
-                                                </div>
-                                            </div>
+                                            @endforeach
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="tab-pane fade" id="design" role="tabpanel" aria-labelledby="design-tab">
-                                <div class="swiper-container project-active-three">
-                                    <div class="swiper-wrapper">
-                                        <div class="swiper-slide">
-                                            <div class="project-item-three">
-                                                <div class="project-content-three">
-                                                    <h2 class="title"><a href="#">Design 1</a></h2>
-                                                    <p>At Collax we specialize in designing, building, shipping...
-                                                    </p>
-                                                </div>
-                                                <div class="project-thumb-three">
-                                                    <a href="#">
-                                                        <img data-src="{{ asset('assets/templates/frontend/img/project/ACC-min.jpg') }}"
-                                                            style="height: 280px; width:100%; object-fit: cover;"
-                                                            class="lazy" alt="">
-                                                    </a>
-                                                </div>
-                                                <div class="project-details-btn">
-                                                    <a href="#">View Case Studies</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="project-item-three">
-                                                <div class="project-content-three">
-                                                    <h2 class="title"><a href="#">Design 2</a></h2>
-                                                    <p>At Collax we specialize in designing, building, shipping...
-                                                    </p>
-                                                </div>
-                                                <div class="project-thumb-three">
-                                                    <a href="#">
-                                                        <img data-src="{{ asset('assets/templates/frontend/img/project/h3_project_img01.jpg') }}"
-                                                            style="height: 280px; width:100%; object-fit: cover;"
-                                                            class="lazy" alt="">
-                                                    </a>
-                                                </div>
-                                                <div class="project-details-btn">
-                                                    <a href="#">View Case Studies</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="project-item-three">
-                                                <div class="project-content-three">
-                                                    <h2 class="title"><a href="#">Design 3</a></h2>
-                                                    <p>At Collax we specialize in designing, building, shipping...
-                                                    </p>
-                                                </div>
-                                                <div class="project-thumb-three">
-                                                    <a href="#">
-                                                        <img data-src="{{ asset('assets/templates/frontend/img/project/h3_project_img03.jpg') }}"
-                                                            style="height: 280px; width:100%; object-fit: cover;"
-                                                            class="lazy" alt="">
-                                                    </a>
-                                                </div>
-                                                <div class="project-details-btn">
-                                                    <a href="#">View Case Studies</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="project-item-three">
-                                                <div class="project-content-three">
-                                                    <h2 class="title"><a href="#">Design 4</a></h2>
-                                                    <p>At Collax we specialize in designing, building, shipping...
-                                                    </p>
-                                                </div>
-                                                <div class="project-thumb-three">
-                                                    <a href="#">
-                                                        <img data-src="{{ asset('assets/templates/frontend/img/project/h3_project_img04.jpg') }}"
-                                                            style="height: 280px; width:100%; object-fit: cover;"
-                                                            class="lazy" alt="">
-                                                    </a>
-                                                </div>
-                                                <div class="project-details-btn">
-                                                    <a href="#">View Case Studies</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="app" role="tabpanel" aria-labelledby="app-tab">
-                                <div class="swiper-container project-active-three">
-                                    <div class="swiper-wrapper">
-                                        <div class="swiper-slide">
-                                            <div class="project-item-three">
-                                                <div class="project-content-three">
-                                                    <h2 class="title"><a href="#">App Design 1</a></h2>
-                                                    <p>At Collax we specialize in designing, building, shipping...
-                                                    </p>
-                                                </div>
-                                                <div class="project-thumb-three">
-                                                    <a href="#">
-                                                        <img data-src="{{ asset('assets/templates/frontend/img/project/h3_project_img01.jpg') }}"
-                                                            style="height: 280px; width:100%; object-fit: cover;"
-                                                            class="lazy" alt="">
-                                                    </a>
-                                                </div>
-                                                <div class="project-details-btn">
-                                                    <a href="#">View Case Studies</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="project-item-three">
-                                                <div class="project-content-three">
-                                                    <h2 class="title"><a href="#">App Design 2</a></h2>
-                                                    <p>At Collax we specialize in designing, building, shipping...
-                                                    </p>
-                                                </div>
-                                                <div class="project-thumb-three">
-                                                    <a href="#">
-                                                        <img data-src="{{ asset('assets/templates/frontend/img/project/h3_project_img02.jpg') }}"
-                                                            style="height: 280px; width:100%; object-fit: cover;"
-                                                            class="lazy" alt="">
-                                                    </a>
-                                                </div>
-                                                <div class="project-details-btn">
-                                                    <a href="#">View Case Studies</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="project-item-three">
-                                                <div class="project-content-three">
-                                                    <h2 class="title"><a href="#">App Design 3</a></h2>
-                                                    <p>At Collax we specialize in designing, building, shipping...
-                                                    </p>
-                                                </div>
-                                                <div class="project-thumb-three">
-                                                    <a href="#">
-                                                        <img data-src="{{ asset('assets/templates/frontend/img/project/h3_project_img03.jpg') }}"
-                                                            style="height: 280px; width:100%; object-fit: cover;"
-                                                            class="lazy" alt="">
-                                                    </a>
-                                                </div>
-                                                <div class="project-details-btn">
-                                                    <a href="#">View Case Studies</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="project-item-three">
-                                                <div class="project-content-three">
-                                                    <h2 class="title"><a href="#">App Design 4</a></h2>
-                                                    <p>At Collax we specialize in designing, building, shipping...
-                                                    </p>
-                                                </div>
-                                                <div class="project-thumb-three">
-                                                    <a href="#">
-                                                        <img data-src="{{ asset('assets/templates/frontend/img/project/h3_project_img04.jpg') }}"
-                                                            style="height: 280px; width:100%; object-fit: cover;"
-                                                            class="lazy" alt="">
-                                                    </a>
-                                                </div>
-                                                <div class="project-details-btn">
-                                                    <a href="#">View Case Studies</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="branding" role="tabpanel" aria-labelledby="branding-tab">
-                                <div class="swiper-container project-active-three">
-                                    <div class="swiper-wrapper">
-                                        <div class="swiper-slide">
-                                            <div class="project-item-three">
-                                                <div class="project-content-three">
-                                                    <h2 class="title"><a href="#">Branding Design 1</a>
-                                                    </h2>
-                                                    <p>At Collax we specialize in designing, building, shipping...
-                                                    </p>
-                                                </div>
-                                                <div class="project-thumb-three">
-                                                    <a href="#">
-                                                        <img data-src="{{ asset('assets/templates/frontend/img/project/h3_project_img01.jpg') }}"
-                                                            style="height: 280px; width:100%; object-fit: cover;"
-                                                            class="lazy" alt="">
-                                                    </a>
-                                                </div>
-                                                <div class="project-details-btn">
-                                                    <a href="#">View Case Studies</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="project-item-three">
-                                                <div class="project-content-three">
-                                                    <h2 class="title"><a href="#">Branding Design 2</a>
-                                                    </h2>
-                                                    <p>At Collax we specialize in designing, building, shipping...
-                                                    </p>
-                                                </div>
-                                                <div class="project-thumb-three">
-                                                    <a href="#">
-                                                        <img data-src="{{ asset('assets/templates/frontend/img/project/h3_project_img02.jpg') }}"
-                                                            style="height: 280px; width:100%; object-fit: cover;"
-                                                            class="lazy" alt="">
-                                                    </a>
-                                                </div>
-                                                <div class="project-details-btn">
-                                                    <a href="#">View Case Studies</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="project-item-three">
-                                                <div class="project-content-three">
-                                                    <h2 class="title"><a href="#">Branding Design 3</a>
-                                                    </h2>
-                                                    <p>At Collax we specialize in designing, building, shipping...
-                                                    </p>
-                                                </div>
-                                                <div class="project-thumb-three">
-                                                    <a href="#">
-                                                        <img data-src="{{ asset('assets/templates/frontend/img/project/h3_project_img03.jpg') }}"
-                                                            style="height: 280px; width:100%; object-fit: cover;"
-                                                            class="lazy" alt="">
-                                                    </a>
-                                                </div>
-                                                <div class="project-details-btn">
-                                                    <a href="#">View Case Studies</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="project-item-three">
-                                                <div class="project-content-three">
-                                                    <h2 class="title"><a href="#">Branding Design 4</a>
-                                                    </h2>
-                                                    <p>At Collax we specialize in designing, building, shipping...
-                                                    </p>
-                                                </div>
-                                                <div class="project-thumb-three">
-                                                    <a href="#">
-                                                        <img data-src="{{ asset('assets/templates/frontend/img/project/h3_project_img04.jpg') }}"
-                                                            style="height: 280px; width:100%; object-fit: cover;"
-                                                            class="lazy" alt="">
-                                                    </a>
-                                                </div>
-                                                <div class="project-details-btn">
-                                                    <a href="#">View Case Studies</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            @endforeach
                         </div>
                     </div>
                 </div>
             </div>
+
         </div>
         <div class="project-shape-wrap-two">
             <img data-src="{{ asset('assets/templates/frontend/img/images/h3_project_shape.png') }}" class="lazy"
-                alt="">
+                alt="shape">
         </div>
     </section>
     <!-- project-area-end -->
@@ -1280,7 +938,7 @@
                 <div class="row justify-content-center">
                     <div class="col-xl-8">
                         <div class="newsletter-form">
-                            <form action="#">
+                            <form action="javascript:void(0)">
                                 <input type="email" placeholder="Masukan alamat email kamu">
                                 <button type="submit" class="btn">Langganan <span></span></button>
                             </form>
@@ -1300,44 +958,42 @@
             </div>
         </div>
     </section>
-    <!-- newsletter-area-end -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="portfolioModal" aria-labelledby="portfolioModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+            <div class="modal-content">
+                <div class="modal-body p-lg-5">
+                    <button type="button" class="portfolio-section btn-close" data-bs-dismiss="modal"
+                        aria-label="Close">
+                        <i class="fas fa-times"></i>
+                    </button>
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <img src="" alt="" style="border-radius: 12px; width:100%" class="mb-4"
+                                id="portfolioModalFoto">
+                        </div>
+                        <div class="col-xl-6">
+                            <div class="content-wrapper">
+                                <h2 class="item-title h4" id="portfolioModalNama"></h2>
+                                <p id="portfolioModalKeterangan">
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-xl-6">
+                            <div class="meta-wrapper">
+                                <ul class="item-meta p-0" id="portfolioModalItems"> </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 @endsection
 @section('stylesheet')
-    <style>
-        .portfolio-section.btn-close {
-            position: absolute;
-            right: 56px;
-            top: 56px;
-            background: #fd562a;
-            color: #fff;
-            text-align: center;
-            width: 36px;
-            height: 36px;
-            line-height: 36px;
-            border-radius: 50%;
-            transition: .3s;
-        }
-
-        .meta-wrapper {
-            background: #f6f6f6;
-            padding: 30px;
-            border-radius: 8px;
-        }
-
-
-        .item-meta {
-            font-size: 16px;
-            list-style-type: none;
-        }
-
-        .item-meta li {
-            margin-bottom: 18px
-        }
-
-        .item-meta li span {
-            font-weight: bold;
-            color: #222;
-            margin-left: 8px
-        }
-    </style>
+    <link rel="stylesheet" href="{{ resource_loader('pages/frontend/home', type: 'css') }}">
+@endsection
+@section('javascript')
+    <script src="{{ resource_loader('pages/frontend/home.js') }}"></script>
 @endsection

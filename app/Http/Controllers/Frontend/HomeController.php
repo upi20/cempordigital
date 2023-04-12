@@ -9,6 +9,7 @@ use App\Models\Galeri;
 use App\Models\Home\KataKata;
 use App\Models\Home\Pengurus;
 use App\Models\Home\ProgramPembelajaran;
+use App\Models\Portfolio\Portfolio;
 use App\Models\Produk\Produk;
 use App\Models\Tracker;
 use Illuminate\Http\Request;
@@ -48,6 +49,8 @@ class HomeController extends Controller
 
         $faqs = FAQ::getFeViewData();
 
+        $protfolios = Portfolio::getFeHomeData();
+
         $data = compact(
             'faqs',
             'galeries',
@@ -56,6 +59,7 @@ class HomeController extends Controller
             'kata_katas',
             'program_pembelajarans',
             'penguruses',
+            'protfolios',
         );
         $data['compact'] = $data;
         return view('pages.frontend.home', $data);
@@ -69,5 +73,36 @@ class HomeController extends Controller
     public function fronted2(Request $request)
     {
         return view('layouts.frontend.index');
+    }
+
+    public function portfolio_detail(Request $request)
+    {
+        $slug = $request->key;
+
+        $portfolio = Portfolio::with(['items' => function ($query) {
+            $query->orderBy('urutan');
+        }])->where('slug', $slug)->first();
+
+        if ($portfolio) {
+            $portfolio->foto_url = $portfolio->fotoUrl();
+
+            $items = [];
+            foreach ($portfolio->items ?? [] as $item) {
+                $items[] = [
+                    'nama' => $item->nama,
+                    'keterangan' => $item->keterangan,
+                ];
+            }
+
+            $result = [
+                'foto_url' => $portfolio->foto_url,
+                'nama' => $portfolio->nama,
+                'keterangan' => $portfolio->keterangan,
+                'items' =>  $items
+            ];
+            return $result;
+        } else {
+            return response()->json(status: 404);
+        }
     }
 }

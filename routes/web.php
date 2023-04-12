@@ -49,6 +49,7 @@ Route::controller(SocialiteController::class)->group(function () {
 // home default =======================================================================================================
 Route::controller(HomeController::class)->group(function () {
     Route::get('/', 'index')->name("home");
+    Route::get('/portfolio', 'portfolio_detail')->name("home.portfolio.detail");
     Route::get('/v2', 'index2')->name("home2");
 });
 
