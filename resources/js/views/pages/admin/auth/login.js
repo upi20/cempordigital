@@ -36,11 +36,10 @@ $(document).ready(function () {
                             timer: 2000,
                             showCancelButton: false,
                             showConfirmButton: false
-                        })
-                            .then(function () {
-                                window.location.href = "{{ route('dashboard') }}";
+                        }).then(function () {
+                            window.location.href = "{{ $redirect }}";
 
-                            });
+                        });
                     } else {
                         Swal.fire({
                             icon: 'error',
