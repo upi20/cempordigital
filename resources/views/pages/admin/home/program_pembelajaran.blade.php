@@ -79,9 +79,9 @@
                         enctype="multipart/form-data">
                         <input type="hidden" name="id" id="id">
                         <div class="form-group">
-                            <label class="form-label" for="urutan">Urutan <span class="text-danger">*</span></label>
+                            <label class="form-label" for="urutan">Urutan</label>
                             <input type="number" class="form-control" id="urutan" name="urutan"
-                                placeholder="Urutan Ditampilkan" required="" />
+                                placeholder="Urutan Ditampilkan" />
                         </div>
                         <div class="form-group">
                             <label class="form-label" for="nama">Nama <span class="text-danger">*</span></label>

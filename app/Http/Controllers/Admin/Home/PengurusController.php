@@ -11,7 +11,7 @@ class PengurusController extends Controller
 {
     private $validate_model = [
         'foto' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg',
-        'urutan' => ['required', 'integer'],
+        'urutan' => ['nullable', 'integer'],
         'nama' => ['required', 'string'],
         'sebagai' => ['required', 'string'],
         'tampilkan' => ['required', 'string'],
@@ -65,7 +65,8 @@ class PengurusController extends Controller
             }
 
             $model->foto = $foto;
-            $model->urutan = $request->urutan;
+            $urutan = $request->urutan ?? ((Pengurus::max('urutan') ?? 0) + 1);
+            $model->urutan = $urutan;
             $model->nama = $request->nama;
             $model->sebagai = $request->sebagai;
             $model->tampilkan = $request->tampilkan;
@@ -110,7 +111,8 @@ class PengurusController extends Controller
                 $model->foto = $foto;
             }
 
-            $model->urutan = $request->urutan;
+            $urutan = $request->urutan ?? ((Pengurus::max('urutan') ?? 0) + 1);
+            $model->urutan = $urutan;
             $model->nama = $request->nama;
             $model->sebagai = $request->sebagai;
             $model->tampilkan = $request->tampilkan;

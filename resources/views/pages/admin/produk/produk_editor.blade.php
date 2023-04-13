@@ -212,9 +212,9 @@
                         <input type="hidden" name="id" id="foto_id">
                         <input type="hidden" name="produk_id" id="foto_produk_id" value="{{ $produk->id }}">
                         <div class="form-group">
-                            <label class="form-label" for="foto_urutan">Urutan<span class="text-danger">*</span></label>
+                            <label class="form-label" for="foto_urutan">Urutan</label>
                             <input type="number" class="form-control" id="foto_urutan" name="urutan"
-                                placeholder="Urutan" required="" />
+                                placeholder="Urutan" />
                         </div>
                         <div class="form-group">
                             <label class="form-label" for="foto_nama">Nama<span class="text-danger">*</span></label>

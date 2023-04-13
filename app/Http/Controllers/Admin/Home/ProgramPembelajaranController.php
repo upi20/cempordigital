@@ -11,7 +11,7 @@ class ProgramPembelajaranController extends Controller
 {
     private $validate_model = [
         'foto' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg',
-        'urutan' => ['required', 'integer'],
+        'urutan' => ['nullable', 'integer'],
         'nama' => ['required', 'string'],
         'keterangan' => ['required', 'string'],
     ];
@@ -58,7 +58,8 @@ class ProgramPembelajaranController extends Controller
             }
 
             $model->foto = $foto;
-            $model->urutan = $request->urutan;
+            $urutan = $request->urutan ?? ((ProgramPembelajaran::max('urutan') ?? 0) + 1);
+            $model->urutan = $urutan;
             $model->nama = $request->nama;
             $model->keterangan = $request->keterangan;
             $model->save();
@@ -97,7 +98,8 @@ class ProgramPembelajaranController extends Controller
                 $model->foto = $foto;
             }
 
-            $model->urutan = $request->urutan;
+            $urutan = $request->urutan ?? ((ProgramPembelajaran::max('urutan') ?? 0) + 1);
+            $model->urutan = $urutan;
             $model->nama = $request->nama;
             $model->keterangan = $request->keterangan;
             $model->save();

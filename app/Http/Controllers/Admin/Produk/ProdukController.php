@@ -194,7 +194,8 @@ class ProdukController extends Controller
             $model->foto = $foto;
             $model->produk_id = $request->produk_id;
             $model->nama = $request->nama;
-            $model->urutan = $request->urutan;
+            $urutan = $request->urutan ?? ((Foto::where('produk_id', $request->produk_id)->max('urutan') ?? 0) + 1);
+            $model->urutan = $urutan;
             $model->save();
             Produk::clearCache();
             return response()->json();
@@ -230,7 +231,8 @@ class ProdukController extends Controller
             }
             $model->produk_id = $request->produk_id;
             $model->nama = $request->nama;
-            $model->urutan = $request->urutan;
+            $urutan = $request->urutan ?? ((Foto::where('produk_id', $request->produk_id)->max('urutan') ?? 0) + 1);
+            $model->urutan = $urutan;
             $model->save();
             Produk::clearCache();
             return response()->json();
