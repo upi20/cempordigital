@@ -5,10 +5,12 @@
         data-background="{{ asset('assets/templates/frontend2/images/bg/breadcrumb-bg-1.jpeg') }}" data-overlay="dark"
         data-opacity="5" style="height: auto;">
         <div class="shape shape__1">
-            <img src="{{ asset('assets/templates/frontend2/images/shape/breadcrumb-shape-1.png') }}" alt="">
+            <img src="{{ asset('assets/templates/frontend2/images/shape/breadcrumb-shape-1.png') }}"
+                alt="breadcrumb-shape-1.png">
         </div>
         <div class="shape shape__2">
-            <img src="{{ asset('assets/templates/frontend2/images/shape/breadcrumb-shape-2.png') }}" alt="">
+            <img src="{{ asset('assets/templates/frontend2/images/shape/breadcrumb-shape-2.png') }}"
+                alt="breadcrumb-shape-2.png">
         </div>
         <div class="container">
             <div class="row">

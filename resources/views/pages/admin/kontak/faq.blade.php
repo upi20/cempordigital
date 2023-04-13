@@ -54,6 +54,11 @@
                                         <input type="text" id="sub_title" name="sub_title" class="form-control"
                                             placeholder="Sub Judul" value="{{ $setting->sub_title }}" required />
                                     </div>
+                                    <div class="form-group">
+                                        <label class="form-label" for="description">Keterangan</label>
+                                        <textarea type="text" id="description" name="description" class="form-control" placeholder="Sub Judul"
+                                            value="{{ $setting->description }}"></textarea>
+                                    </div>
                                 </form>
                                 <div style="clear: both"></div>
                                 <button type="submit" form="setting_form" class="btn btn-rounded btn-md btn-info"

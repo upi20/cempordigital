@@ -32,6 +32,7 @@ class FAQController extends Controller
         $setting = (object)[
             'title' => settings()->get('setting.contact.faq.title'),
             'sub_title' => settings()->get('setting.contact.faq.sub_title'),
+            'description' => settings()->get('setting.contact.faq.description'),
             'visible' => settings()->get('setting.contact.faq.visible'),
         ];
 
@@ -113,6 +114,7 @@ class FAQController extends Controller
         settings()->set('setting.contact.faq.visible', $request->visible !== null)->save();
         settings()->set('setting.contact.faq.title', $request->title)->save();
         settings()->set('setting.contact.faq.sub_title', $request->sub_title)->save();
+        settings()->set('setting.contact.faq.description', $request->description)->save();
         return response()->json();
     }
 }

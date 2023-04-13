@@ -65,7 +65,7 @@ class HomeController extends Controller
             'protfolios',
         );
         $data['compact'] = $data;
-        return view('pages.frontend.home', $data);
+        return view('pages.frontend.home.index', $data);
     }
 
     private function checkVisible(string $item): ?bool
