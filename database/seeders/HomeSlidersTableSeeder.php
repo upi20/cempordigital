@@ -21,7 +21,7 @@ class HomeSlidersTableSeeder extends Seeder
         \DB::table('home_sliders')->insert(array (
             0 => 
             array (
-                'id' => '3',
+                'id' => 3,
                 'nama' => '1',
                 'foto' => '20230124152804.jpeg',
                 'tampilkan' => 'Ya',
@@ -30,7 +30,7 @@ class HomeSlidersTableSeeder extends Seeder
             ),
             1 => 
             array (
-                'id' => '4',
+                'id' => 4,
                 'nama' => '2',
                 'foto' => '20230117224024.jpeg',
                 'tampilkan' => 'Ya',
@@ -39,7 +39,7 @@ class HomeSlidersTableSeeder extends Seeder
             ),
             2 => 
             array (
-                'id' => '5',
+                'id' => 5,
                 'nama' => '3',
                 'foto' => '20230117224031.jpeg',
                 'tampilkan' => 'Ya',
@@ -48,7 +48,7 @@ class HomeSlidersTableSeeder extends Seeder
             ),
             3 => 
             array (
-                'id' => '6',
+                'id' => 6,
                 'nama' => '4',
                 'foto' => '20230124152929.jpeg',
                 'tampilkan' => 'Ya',
@@ -57,7 +57,7 @@ class HomeSlidersTableSeeder extends Seeder
             ),
             4 => 
             array (
-                'id' => '7',
+                'id' => 7,
                 'nama' => '5',
                 'foto' => '20230117224046.jpeg',
                 'tampilkan' => 'Ya',

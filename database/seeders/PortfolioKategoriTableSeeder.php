@@ -21,8 +21,8 @@ class PortfolioKategoriTableSeeder extends Seeder
         \DB::table('portfolio_kategori')->insert(array (
             0 => 
             array (
-                'id' => '6',
-                'urutan' => '1',
+                'id' => 6,
+                'urutan' => 1,
                 'nama' => 'Website',
                 'slug' => 'website',
                 'keterangan' => NULL,
@@ -31,8 +31,8 @@ class PortfolioKategoriTableSeeder extends Seeder
             ),
             1 => 
             array (
-                'id' => '7',
-                'urutan' => '2',
+                'id' => 7,
+                'urutan' => 2,
                 'nama' => 'Design',
                 'slug' => 'design',
                 'keterangan' => NULL,
@@ -41,8 +41,8 @@ class PortfolioKategoriTableSeeder extends Seeder
             ),
             2 => 
             array (
-                'id' => '8',
-                'urutan' => '3',
+                'id' => 8,
+                'urutan' => 3,
                 'nama' => 'App Design',
                 'slug' => 'app-design',
                 'keterangan' => NULL,
@@ -51,8 +51,8 @@ class PortfolioKategoriTableSeeder extends Seeder
             ),
             3 => 
             array (
-                'id' => '9',
-                'urutan' => '4',
+                'id' => 9,
+                'urutan' => 4,
                 'nama' => 'Branding Design',
                 'slug' => 'branding-design',
                 'keterangan' => NULL,
@@ -61,8 +61,8 @@ class PortfolioKategoriTableSeeder extends Seeder
             ),
             4 => 
             array (
-                'id' => '10',
-                'urutan' => '5',
+                'id' => 10,
+                'urutan' => 5,
                 'nama' => 'Lainnya',
                 'slug' => 'lainnya',
                 'keterangan' => NULL,

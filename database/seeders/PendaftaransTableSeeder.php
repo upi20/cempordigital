@@ -21,7 +21,7 @@ class PendaftaransTableSeeder extends Seeder
         \DB::table('pendaftarans')->insert(array (
             0 => 
             array (
-                'id' => '1',
+                'id' => 1,
                 'nama' => 'Isep Lutpi Nur',
                 'jenis_kelamin' => 'Laki-Laki',
                 'tanggal_lahir' => '2023-10-01',
@@ -34,7 +34,7 @@ class PendaftaransTableSeeder extends Seeder
             ),
             1 => 
             array (
-                'id' => '2',
+                'id' => 2,
                 'nama' => 'Isep lutpi nur testing',
                 'jenis_kelamin' => 'Perempuan',
                 'tanggal_lahir' => '2023-03-01',
@@ -47,7 +47,7 @@ class PendaftaransTableSeeder extends Seeder
             ),
             2 => 
             array (
-                'id' => '4',
+                'id' => 4,
                 'nama' => 'Isep lutpi nur testing',
                 'jenis_kelamin' => 'Perempuan',
                 'tanggal_lahir' => '2023-03-01',
@@ -60,7 +60,7 @@ class PendaftaransTableSeeder extends Seeder
             ),
             3 => 
             array (
-                'id' => '5',
+                'id' => 5,
                 'nama' => 'Isep Lutpi Nur',
                 'jenis_kelamin' => 'Laki-Laki',
                 'tanggal_lahir' => '2023-10-01',
@@ -73,7 +73,7 @@ class PendaftaransTableSeeder extends Seeder
             ),
             4 => 
             array (
-                'id' => '6',
+                'id' => 6,
                 'nama' => 'Isep lutpi nur testing',
                 'jenis_kelamin' => 'Perempuan',
                 'tanggal_lahir' => '2023-03-01',
@@ -86,7 +86,7 @@ class PendaftaransTableSeeder extends Seeder
             ),
             5 => 
             array (
-                'id' => '7',
+                'id' => 7,
                 'nama' => 'Isep Lutpi Nur',
                 'jenis_kelamin' => 'Laki-Laki',
                 'tanggal_lahir' => '2023-10-01',
@@ -99,7 +99,7 @@ class PendaftaransTableSeeder extends Seeder
             ),
             6 => 
             array (
-                'id' => '8',
+                'id' => 8,
                 'nama' => 'Isep lutpi nur testing',
                 'jenis_kelamin' => 'Perempuan',
                 'tanggal_lahir' => '2023-03-01',
@@ -112,7 +112,7 @@ class PendaftaransTableSeeder extends Seeder
             ),
             7 => 
             array (
-                'id' => '10',
+                'id' => 10,
                 'nama' => 'Isep Lutpi Nur',
                 'jenis_kelamin' => 'Laki-Laki',
                 'tanggal_lahir' => '2000-08-10',
@@ -125,7 +125,7 @@ class PendaftaransTableSeeder extends Seeder
             ),
             8 => 
             array (
-                'id' => '12',
+                'id' => 12,
                 'nama' => 'Adjie Abdul Aziz',
                 'jenis_kelamin' => 'Laki-Laki',
                 'tanggal_lahir' => '2000-08-10',
