@@ -21,7 +21,7 @@ class GaleriTableSeeder extends Seeder
         \DB::table('galeri')->insert(array (
             0 => 
             array (
-                'id' => 13,
+                'id' => '13',
                 'nama' => 'Kegiatan Mengaji',
                 'foto' => NULL,
                 'foto_id_gdrive' => 'Ar-Rahman',
@@ -30,7 +30,7 @@ class GaleriTableSeeder extends Seeder
                 'tanggal' => '2023-04-01',
                 'lokasi' => 'Kp. Tanjungmukti',
                 'keterangan' => 'Murojaah',
-                'status' => 1,
+                'status' => '1',
                 'created_at' => '2023-04-01 21:32:38',
                 'updated_at' => '2023-04-01 21:32:38',
             ),
