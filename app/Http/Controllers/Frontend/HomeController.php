@@ -9,6 +9,7 @@ use App\Models\Galeri;
 use App\Models\Home\KataKata;
 use App\Models\Home\Pengurus;
 use App\Models\Home\ProgramPembelajaran;
+use App\Models\Home\Testimonial;
 use App\Models\Portfolio\Portfolio;
 use App\Models\Produk\Produk;
 use App\Models\Tracker;
@@ -25,6 +26,7 @@ class HomeController extends Controller
             'navigation' => 'home',
         ];
 
+        $testimonials = Testimonial::getFeViewData();
         $kata_katas = KataKata::getFeViewData();
         $produks = Produk::getFeHomeData();
         $program_pembelajarans = ProgramPembelajaran::getFeViewData();
@@ -52,6 +54,7 @@ class HomeController extends Controller
         $protfolios = Portfolio::getFeHomeData();
 
         $data = compact(
+            'testimonials',
             'faqs',
             'galeries',
             'articles',

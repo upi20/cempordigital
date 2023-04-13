@@ -33,3 +33,17 @@
     color: #222;
     margin-left: 8px
 }
+
+.testimonial-foto {
+    margin: auto;
+    position: relative;
+    margin: auto;
+    width: 83px;
+    height: 83px;
+    max-height: 83px;
+    border-radius: 83px;
+    object-fit: cover;
+    object-position: center;
+    -webkit-border-radius: 83px;
+    -moz-border-radius: 83px;
+}

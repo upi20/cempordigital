@@ -15,6 +15,7 @@ use App\Models\Galeri;
 use App\Models\Home\KataKata;
 use App\Models\Home\Pengurus;
 use App\Models\Home\ProgramPembelajaran;
+use App\Models\Home\Testimonial;
 use App\Models\Menu\Admin as MenuAdmin;
 use App\Models\Menu\Frontend as MenuFrontend;
 use App\Models\Pendaftaran;
@@ -121,6 +122,9 @@ class backup extends Command
             'contact' => [
                 ListContact::tableName,
                 Message::tableName,
+            ],
+            'home' => [
+                Testimonial::tableName,
                 FAQ::tableName,
             ],
             // 'home' => [

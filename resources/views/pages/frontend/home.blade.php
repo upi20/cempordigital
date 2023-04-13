@@ -1,5 +1,10 @@
 @extends('layouts.frontend.master')
 @section('content')
+    @php
+        $p = 'setting.home';
+        // $k = "$p.hero";
+    @endphp
+
     <!-- slider-area -->
     <section class="slider-area">
         <div class="slider-active">
@@ -26,8 +31,8 @@
                                     <a href="contact.html" class="btn" data-animation="fadeInLeft" data-delay=".6s">Get
                                         Started <span></span></a>
                                     <!-- <a href="https://www.youtube.com/watch?v=bixR-KIJKYM" class="popup-video"
-                                                                                                                                                                                                                                                                                                                                               data-animation="fadeInRight" data-delay=".6s">See Live Demo <i
-                                                                                                                                                                                                                                                                                                                                                   class="fas fa-play pulse"></i></a> -->
+                                                                                                                                                                                                                                                                                                                                                                               data-animation="fadeInRight" data-delay=".6s">See Live Demo <i
+                                                                                                                                                                                                                                                                                                                                                                                   class="fas fa-play pulse"></i></a> -->
                                 </div>
                             </div>
                         </div>
@@ -57,8 +62,8 @@
                                     <a href="contact.html" class="btn" data-animation="fadeInLeft" data-delay=".6s">Get
                                         Started <span></span></a>
                                     <!-- <a href="https://www.youtube.com/watch?v=bixR-KIJKYM" class="popup-video"
-                                                                                                                                                                                                                                                                                                                                               data-animation="fadeInRight" data-delay=".6s">See Live Demo <i
-                                                                                                                                                                                                                                                                                                                                                   class="fas fa-play pulse"></i></a> -->
+                                                                                                                                                                                                                                                                                                                                                                               data-animation="fadeInRight" data-delay=".6s">See Live Demo <i
+                                                                                                                                                                                                                                                                                                                                                                                   class="fas fa-play pulse"></i></a> -->
                                 </div>
                             </div>
                         </div>
@@ -88,8 +93,8 @@
                                     <a href="contact.html" class="btn" data-animation="fadeInLeft" data-delay=".6s">Get
                                         Started <span></span></a>
                                     <!-- <a href="https://www.youtube.com/watch?v=bixR-KIJKYM" class="popup-video"
-                                                                                                                                                                                                                                                                                                                                               data-animation="fadeInRight" data-delay=".6s">See Live Demo <i
-                                                                                                                                                                                                                                                                                                                                                   class="fas fa-play pulse"></i></a> -->
+                                                                                                                                                                                                                                                                                                                                                                               data-animation="fadeInRight" data-delay=".6s">See Live Demo <i
+                                                                                                                                                                                                                                                                                                                                                                                   class="fas fa-play pulse"></i></a> -->
                                 </div>
                             </div>
                         </div>
@@ -734,98 +739,61 @@
     </section>
     <!-- project-area-end -->
 
-    <!-- testimonial-area -->
-    <section class="testimonial-area-three">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-8">
-                    <div class="section-title title-style-two white-title mb-45">
-                        <h2 class="title">Apa Pendapat Mereka <br> Tentang Kami</h2>
+    @php $k = "$p.testimonial"; @endphp
+    @if (settings()->get("$k.visible"))
+        <section class="testimonial-area-three">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-8">
+                        <div class="section-title title-style-two white-title mb-45">
+                            <h2 class="title">{!! settings()->get("$k.title") !!}</h2>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="testimonial-nav">
+                            <button class="swiper-button-prev"></button>
+                            <button class="swiper-button-next"></button>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="testimonial-nav">
-                        <button class="swiper-button-prev"></button>
-                        <button class="swiper-button-next"></button>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="swiper-container testimonial-active-three">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="testimonial-item-three">
-                                    <div class="testimonial-thumb-three">
-                                        <img data-src="{{ asset('assets/templates/frontend/img/images/testimonial_avatar01.png') }}"
-                                            class="lazy" alt="">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="swiper-container testimonial-active-three">
+                            <div class="swiper-wrapper">
+
+                                @foreach ($testimonials ?? [] as $testimoni)
+                                    <div class="swiper-slide">
+                                        <div class="testimonial-item-three">
+                                            <div class="testimonial-thumb-three">
+                                                <img data-src="{{ $testimoni->fotoUrl() }}" class="lazy testimonial-foto"
+                                                    alt="{{ $testimoni->nama }}">
+                                            </div>
+                                            <div class="testimonial-content-three">
+                                                <h4 class="title">{{ $testimoni->nama }}</h4>
+                                                <span>{{ $testimoni->sebagai }}</span>
+                                                <p>{!! $testimoni->testimoni !!}</p>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="testimonial-content-three">
-                                        <h4 class="title">Taufiq</h4>
-                                        <span>Product Designer</span>
-                                        <p>"Saya sangat senang dengan hasil desain yang dibuat oleh tim cempor
-                                            digital. Mereka mengerti apa yang saya inginkan dan mampu memberikan
-                                            solusi yang sempurna untuk kebutuhan desain saya. Proses komunikasi dan
-                                            kerjasama dengan timnya sangat lancar dan mereka selalu mengakomodasi
-                                            setiap permintaan perubahan dari saya. Saya sangat merekomendasikan jasa
-                                            desain ini kepada siapa saja yang mencari desain berkualitas tinggi dan
-                                            layanan yang baik."</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="testimonial-item-three">
-                                    <div class="testimonial-thumb-three">
-                                        <img data-src="{{ asset('assets/templates/frontend/img/images/testimonial_avatar02.png') }}"
-                                            class="lazy" alt="">
-                                    </div>
-                                    <div class="testimonial-content-three">
-                                        <h4 class="title">Fahri</h4>
-                                        <span>Product Designer</span>
-                                        <p>"Saya sangat puas dengan hasil foto dan video dari cempor digital. Mereka
-                                            profesional dan membuat hasil yang bagus. Proses pemotretan dan
-                                            pembuatan videonya lancar dan mudah dipahami. Saya sangat
-                                            merekomendasikan jasa foto dan video mereka kepada siapa saja."</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="testimonial-item-three">
-                                    <div class="testimonial-thumb-three">
-                                        <img data-src="{{ asset('assets/templates/frontend/img/images/testimonial_avatar03.png') }}"
-                                            class="lazy" alt="">
-                                    </div>
-                                    <div class="testimonial-content-three">
-                                        <h4 class="title">Lutpi N.</h4>
-                                        <span>Web Programmer</span>
-                                        <p>"Saya sangat terkesan dengan layanan jasa pembuatan aplikasi website oleh
-                                            cempor digital. Tim pembuat aplikasi mereka sangat professional dan
-                                            memahami kebutuhan saya dengan baik. Proses pembuatan aplikasi berjalan
-                                            lancar dan hasil akhir sesuai dengan harapan saya. Saya sangat
-                                            merekomendasikan jasa pembuatan aplikasi website ini kepada siapa saja
-                                            yang mencari solusi pembuatan aplikasi website berkualitas tinggi dan
-                                            layanan yang baik."</p>
-                                    </div>
-                                </div>
+                                @endforeach
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="testimonial-swiper-pagination"></div>
             </div>
-            <div class="testimonial-swiper-pagination"></div>
-        </div>
-        <div class="testimonial-shape-wrap">
-            <img data-src="{{ asset('assets/templates/frontend/img/images/testimonial_shape01.png') }}" class="lazy"
-                alt="">
-            <img data-src="{{ asset('assets/templates/frontend/img/images/testimonial_shape02.png') }}" class="lazy"
-                alt="">
-            <img data-src="{{ asset('assets/templates/frontend/img/images/testimonial_shape03.png') }}" class="lazy"
-                alt="">
-            <img data-src="{{ asset('assets/templates/frontend/img/images/testimonial_shape04.png') }}" class="lazy"
-                alt="">
-        </div>
-    </section>
-    <!-- testimonial-area-end -->
+            <div class="testimonial-shape-wrap">
+                <img data-src="{{ asset('assets/templates/frontend/img/images/testimonial_shape01.png') }}"
+                    class="lazy" alt="">
+                <img data-src="{{ asset('assets/templates/frontend/img/images/testimonial_shape02.png') }}"
+                    class="lazy" alt="">
+                <img data-src="{{ asset('assets/templates/frontend/img/images/testimonial_shape03.png') }}"
+                    class="lazy" alt="">
+                <img data-src="{{ asset('assets/templates/frontend/img/images/testimonial_shape04.png') }}"
+                    class="lazy" alt="">
+            </div>
+        </section>
+    @endif
 
     <!-- faq-area -->
     <section class="faq-area pt-120 pb-120">

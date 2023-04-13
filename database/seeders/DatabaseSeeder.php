@@ -52,5 +52,6 @@ class DatabaseSeeder extends Seeder
         $this->call(PortfolioTableSeeder::class);
         $this->call(PortfolioItemTableSeeder::class);
         $this->call(SessionsTableSeeder::class);
+        $this->call(HomeTestimonialsTableSeeder::class);
     }
 }
