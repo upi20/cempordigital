@@ -28,7 +28,7 @@ class ProgramPembelajaran extends Model
     public function fotoUrl()
     {
         $foto = $this->attributes['foto'];
-        return $foto ? url(self::image_folder . '/' . $foto) : asset('assets/logo.png');
+        return $foto ? url(static::image_folder . '/' . $foto) : asset('assets/logo.png');
     }
 
     public static function datatable(Request $request): mixed
@@ -36,7 +36,7 @@ class ProgramPembelajaran extends Model
         $query = [];
         // list table
         $table = static::tableName;
-        $base_url_image_folder = url(str_replace('./', '', self::image_folder)) . '/';
+        $base_url_image_folder = url(str_replace('./', '', static::image_folder)) . '/';
 
         // cusotm query
         // ========================================================================================================
@@ -144,13 +144,13 @@ class ProgramPembelajaran extends Model
 
     public static function getFeViewData()
     {
-        return Cache::rememberForever(self::feCacheKey, function () {
+        return Cache::rememberForever(static::feCacheKey, function () {
             return static::orderBy('urutan')->get();
         });
     }
 
     public static function feClearCache()
     {
-        return Cache::pull(self::feCacheKey);
+        return Cache::pull(static::feCacheKey);
     }
 }

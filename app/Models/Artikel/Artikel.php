@@ -109,7 +109,7 @@ class Artikel extends Model
         $list_category = $this->parseId($categories);
 
         $artikel_id = $this->attributes['id'];
-        return self::getByCategory(kategori_id: $list_category, except_id: $artikel_id);
+        return static::getByCategory(kategori_id: $list_category, except_id: $artikel_id);
     }
 
     public function parseId($collect)
@@ -126,7 +126,7 @@ class Artikel extends Model
     // static function
     public static function getTopList(int $limit = 6)
     {
-        $model = self::select(['slug', 'foto', 'date', 'detail', 'nama'])
+        $model = static::select(['slug', 'foto', 'date', 'detail', 'nama'])
             ->where('status', '=', 1)
             ->orderBy('counter', 'desc')
             ->limit($limit)
@@ -138,14 +138,14 @@ class Artikel extends Model
     public static function getList(Request $request): object
     {
         $paginate = is_numeric($request->limit) ? $request->limit : 3;
-        $a = self::tableName;
+        $a = static::tableName;
 
         $kat = Kategori::tableName;
         $kat_item = KategoriArtikel::tableName;
         $tag = Tag::tableName;
         $tag_item = TagArtikel::tableName;
 
-        $model = self::selectRaw("$a.*")->where("$a.status", '=', 1)
+        $model = static::selectRaw("$a.*")->where("$a.status", '=', 1)
             ->orderBy("$a.date", 'desc')
             ->orderBy("$a.id", 'desc');
 
@@ -171,7 +171,7 @@ class Artikel extends Model
                 $a.excerpt like '%$search%' or
                 $a.counter like '%$search%' or
                 $a.date like '%$search%' or
-                $a.status like '%$search%' 
+                $a.status like '%$search%'
             )");
         }
         return $model->paginate($paginate)
@@ -180,10 +180,10 @@ class Artikel extends Model
 
     public static function getByCategory(int|array $kategori_id, int $limit = 6, $except_id = null)
     {
-        $a = self::tableName;
+        $a = static::tableName;
         $b = KategoriArtikel::tableName;
 
-        $result = self::selectRaw("$a.*")
+        $result = static::selectRaw("$a.*")
             ->join($b, "$b.artikel_id", '=', "$a.id")
             ->orderBy("$a.date", 'desc')
             ->limit($limit);
@@ -202,7 +202,7 @@ class Artikel extends Model
 
     public static function getHomeViewData()
     {
-        return Cache::rememberForever(self::homeCacheKey, function () {
+        return Cache::rememberForever(static::homeCacheKey, function () {
             $get = static::with('categories')->orderBy('date', 'desc')->orderBy('id', 'desc')->limit(3)->get();
             return $get ? $get : [];
         });
@@ -210,7 +210,7 @@ class Artikel extends Model
 
     public static function getFooterViewData()
     {
-        return Cache::rememberForever(self::homeCacheKey, function () {
+        return Cache::rememberForever(static::homeCacheKey, function () {
             $get = static::orderBy('date', 'desc')->orderBy('id', 'desc')->limit(4)->get();
             return $get ? $get : [];
         });
@@ -219,8 +219,8 @@ class Artikel extends Model
     public static function clearCache()
     {
         $cacheKey = [
-            self::footerCacheKey,
-            self::homeCacheKey
+            static::footerCacheKey,
+            static::homeCacheKey
         ];
 
         foreach ($cacheKey as $key) Cache::pull($key);

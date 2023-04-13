@@ -141,7 +141,7 @@ class Foto extends Model
 
     public function fotoUrl()
     {
-        $folder = self::image_folder;
+        $folder = static::image_folder;
         $foto = $this->attributes['foto'];
         return asset("$folder/$foto");
     }

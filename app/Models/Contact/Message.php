@@ -26,7 +26,7 @@ class Message extends Model
     {
         $query = [];
         // list table
-        $table = self::tableName;
+        $table = static::tableName;
 
         // cusotm query
         // ========================================================================================================
@@ -84,7 +84,7 @@ class Message extends Model
 
 
         // Select =====================================================================================================
-        $model = self::select(array_merge([
+        $model = static::select(array_merge([
             DB::raw("$table.*"),
         ], $to_db_raw));
 

@@ -159,14 +159,14 @@ class MarketPlaceJenis extends Model
     public static function getTopList(?int $limit = 6)
     {
         $a = MarketPlace::tableName;
-        $b = self::tableName;
+        $b = static::tableName;
         $produk = <<<SQL
                 (select count(*) from $a
                 where $a.jenis_id = $b.id)
             SQL;
         $produk_alias = 'produk';
 
-        $model = self::select([
+        $model = static::select([
             'id',
             'slug',
             'nama',
@@ -183,7 +183,7 @@ class MarketPlaceJenis extends Model
 
     public function fotoUrl($attr)
     {
-        $folder = self::image_folder;
+        $folder = static::image_folder;
         $foto = $this->attributes[$attr];
         return asset("$folder/$foto");
     }

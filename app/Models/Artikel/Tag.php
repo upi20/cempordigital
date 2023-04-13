@@ -45,14 +45,14 @@ class Tag extends Model
     public static function getTopList(?int $limit = 6)
     {
         $a = TagArtikel::tableName;
-        $b = self::tableName;
+        $b = static::tableName;
         $artikel = <<<SQL
             (select count(*) from $a
             where $a.tag_id = $b.id)
         SQL;
         $artikel_alias = 'artikel';
 
-        $model = self::select([
+        $model = static::select([
             'id',
             DB::raw("concat('#',nama) as nama"),
             'slug',

@@ -128,13 +128,13 @@ class KataKata extends Model
 
     public static function getFeViewData($seconds = 360)
     {
-        return Cache::remember(self::feCacheKey, $seconds, function () {
+        return Cache::remember(static::feCacheKey, $seconds, function () {
             return static::where('tampilkan', 'Ya')->inRandomOrder()->get();
         });
     }
 
     public static function feClearCache()
     {
-        return Cache::pull(self::feCacheKey);
+        return Cache::pull(static::feCacheKey);
     }
 }

@@ -199,14 +199,14 @@ class Produk extends Model
     public static function getList(Request $request): object
     {
         $paginate = is_numeric($request->limit) ? $request->limit : 15;
-        $a = self::tableName;
+        $a = static::tableName;
 
         $kat = Kategori::tableName;
         $mp = MarketPlaceJenis::tableName;
         $mp_item = MarketPlace::tableName;
 
 
-        $model = self::selectRaw("$a.*")->with(['fotos' => function ($query) {
+        $model = static::selectRaw("$a.*")->with(['fotos' => function ($query) {
             $query->orderBy('urutan');
         }]);
         if ($request->order_by == 'asc') $model->orderBy("$a.nama", 'asc');
@@ -242,9 +242,9 @@ class Produk extends Model
 
     public static function getByCategory(int|array $kategori_id, int $limit = 6, $except_id = null)
     {
-        $a = self::tableName;
+        $a = static::tableName;
 
-        $result = self::selectRaw("$a.*")
+        $result = static::selectRaw("$a.*")
             ->orderBy("$a.created_at", 'desc')
             ->limit($limit);
 
@@ -262,7 +262,7 @@ class Produk extends Model
 
     public static function getFeHomeData()
     {
-        return Cache::rememberForever(self::feCacheKey, function () {
+        return Cache::rememberForever(static::feCacheKey, function () {
             return static::with(['kategori', 'fotos', 'marketplaces.jenis'])
                 ->where('tampilkan_di_halaman_utama', 1)->orderBy('created_at', 'desc')->get();
         });
@@ -270,6 +270,6 @@ class Produk extends Model
 
     public static function clearCache()
     {
-        return Cache::pull(self::feCacheKey);
+        return Cache::pull(static::feCacheKey);
     }
 }

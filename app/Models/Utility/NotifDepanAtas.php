@@ -27,7 +27,7 @@ class NotifDepanAtas extends Model
 
     public static function getFeViewData()
     {
-        return Cache::rememberForever(self::feCacheKey, function () {
+        return Cache::rememberForever(static::feCacheKey, function () {
             $now = date('Y-m-d');
             return static::whereRaw("(dari <= '$now') and (sampai >= '$now' or sampai is null )")->get();
         });
@@ -35,6 +35,6 @@ class NotifDepanAtas extends Model
 
     public static function feClearCache()
     {
-        return Cache::pull(self::feCacheKey);
+        return Cache::pull(static::feCacheKey);
     }
 }

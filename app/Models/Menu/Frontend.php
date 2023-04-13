@@ -27,7 +27,7 @@ class Frontend extends Model
 
     public static function getAll()
     {
-        $table = self::tableName;
+        $table = static::tableName;
         DB::statement("SET SQL_MODE=''");
         $menu = DB::table($table)->select([
             "$table.id",
@@ -48,8 +48,8 @@ class Frontend extends Model
 
     public static function getFeViewData()
     {
-        return Cache::rememberForever(self::feCacheKey, function () {
-            $table = self::tableName;
+        return Cache::rememberForever(static::feCacheKey, function () {
+            $table = static::tableName;
             DB::statement("SET SQL_MODE=''");
             $menu = DB::table($table)->select([
                 "$table.id",
@@ -73,6 +73,6 @@ class Frontend extends Model
 
     public static function feClearCache()
     {
-        return Cache::pull(self::feCacheKey);
+        return Cache::pull(static::feCacheKey);
     }
 }

@@ -83,7 +83,7 @@ class Kategori extends Model
 
 
         // Select =====================================================================================================
-        $model = self::select(array_merge([
+        $model = static::select(array_merge([
             DB::raw("$table.*"),
         ], $to_db_raw));
 
@@ -141,7 +141,7 @@ class Kategori extends Model
 
     public static function getTopList(?int $limit = 6)
     {
-        $b = self::tableName;
+        $b = static::tableName;
         $a = Produk::tableName;
         $produk = <<<SQL
                     (select count(*) from $a
@@ -149,7 +149,7 @@ class Kategori extends Model
                 SQL;
         $produk_alias = 'produk';
 
-        $model = self::select([
+        $model = static::select([
             'id',
             'nama',
             'slug',

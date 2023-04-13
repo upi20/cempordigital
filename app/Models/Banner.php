@@ -28,7 +28,7 @@ class Banner extends Model
     public function fotoUrl()
     {
         $foto = $this->attributes['foto'];
-        return $foto ? url(self::image_folder . '/' . $foto) : asset('assets/logo.png');
+        return $foto ? url(static::image_folder . '/' . $foto) : asset('assets/logo.png');
     }
 
     public static function datatable(Request $request): mixed
@@ -36,7 +36,7 @@ class Banner extends Model
         $query = [];
         // list table
         $table = static::tableName;
-        $base_url_image_folder = url(str_replace('./', '', self::image_folder)) . '/';
+        $base_url_image_folder = url(str_replace('./', '', static::image_folder)) . '/';
 
         // cusotm query
         // ========================================================================================================

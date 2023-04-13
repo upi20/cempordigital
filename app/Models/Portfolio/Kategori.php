@@ -86,7 +86,7 @@ class Kategori extends Model
 
 
         // Select =====================================================================================================
-        $model = self::select(array_merge([
+        $model = static::select(array_merge([
             DB::raw("$table.*"),
         ], $to_db_raw));
 
@@ -144,7 +144,7 @@ class Kategori extends Model
 
     public static function getFeHomeData()
     {
-        return Cache::rememberForever(self::feCacheKey, function () {
+        return Cache::rememberForever(static::feCacheKey, function () {
             return static::with(['kategori', 'fotos', 'marketplaces.jenis'])
                 ->where('tampilkan_di_halaman_utama', 1)->orderBy('created_at', 'desc')->get();
         });
@@ -152,6 +152,6 @@ class Kategori extends Model
 
     public static function clearCache()
     {
-        return Cache::pull(self::feCacheKey);
+        return Cache::pull(static::feCacheKey);
     }
 }

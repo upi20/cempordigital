@@ -28,7 +28,7 @@ class Admin extends Model
     public static function menuHasRole(?int $user_id = null)
     {
         $tableNames = config('permission.table_names');
-        $table = self::tableName;
+        $table = static::tableName;
         $t_user_has_role = $tableNames['model_has_roles'];
         $t_role_has_menu = RoleHasMenu::tableName;
         DB::statement("SET SQL_MODE=''");
@@ -61,7 +61,7 @@ class Admin extends Model
     public static function findEdit($id)
     {
         $tableNames = config('permission.table_names');
-        $table = self::tableName;
+        $table = static::tableName;
         DB::statement("SET SQL_MODE=''");
         $menu = DB::table($table)->select([
             "$table.id",

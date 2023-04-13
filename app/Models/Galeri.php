@@ -67,7 +67,7 @@ class Galeri extends Model
 
     public static function getHomeViewData()
     {
-        return Cache::rememberForever(self::homeCacheKey, function () {
+        return Cache::rememberForever(static::homeCacheKey, function () {
             $get = static::orderBy('tanggal', 'desc')->limit(4)->get();
             return $get ? $get : [];
         });
@@ -76,7 +76,7 @@ class Galeri extends Model
     public static function clearCache()
     {
         $cacheKey = [
-            self::homeCacheKey
+            static::homeCacheKey
         ];
 
         foreach ($cacheKey as $key) Cache::pull($key);

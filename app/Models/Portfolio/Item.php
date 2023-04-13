@@ -74,7 +74,7 @@ class Item extends Model
 
 
         // Select =====================================================================================================
-        $model = self::select(array_merge([
+        $model = static::select(array_merge([
             DB::raw("$table.*"),
         ], $to_db_raw));
 

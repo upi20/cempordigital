@@ -40,7 +40,7 @@ class Portfolio extends Model
 
     public function fotoUrl()
     {
-        $folder = self::image_folder;
+        $folder = static::image_folder;
         $foto = $this->attributes['foto'];
         return asset("$folder/$foto");
     }
@@ -75,7 +75,7 @@ class Portfolio extends Model
         // list table
         $table = static::tableName;
         $t_kategori = Kategori::tableName;
-        $base_url_image_folder = url(str_replace('./', '', self::image_folder)) . '/';
+        $base_url_image_folder = url(str_replace('./', '', static::image_folder)) . '/';
 
         // cusotm query
         // ========================================================================================================
@@ -192,7 +192,7 @@ class Portfolio extends Model
 
     public static function getFeHomeData()
     {
-        return Cache::rememberForever(self::feCacheKey, function () {
+        return Cache::rememberForever(static::feCacheKey, function () {
             return Kategori::with(['protfolios' => function ($query) {
                 $query->orderBy('nama');
             }])->orderBy('urutan')->get();
@@ -201,6 +201,6 @@ class Portfolio extends Model
 
     public static function clearCache()
     {
-        return Cache::pull(self::feCacheKey);
+        return Cache::pull(static::feCacheKey);
     }
 }

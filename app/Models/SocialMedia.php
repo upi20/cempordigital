@@ -25,7 +25,7 @@ class SocialMedia extends Model
 
     public static function getFeViewData()
     {
-        return Cache::rememberForever(self::feCacheKey, function () {
+        return Cache::rememberForever(static::feCacheKey, function () {
             $get = static::where('status', '=', 1)
                 ->orderBy('order')
                 ->get();
@@ -35,6 +35,6 @@ class SocialMedia extends Model
 
     public static function feClearCache()
     {
-        return Cache::pull(self::feCacheKey);
+        return Cache::pull(static::feCacheKey);
     }
 }

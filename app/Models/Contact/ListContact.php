@@ -31,7 +31,7 @@ class ListContact extends Model
     {
         $query = [];
         // list table
-        $table = self::tableName;
+        $table = static::tableName;
 
         // cusotm query
         // ========================================================================================================
@@ -81,7 +81,7 @@ class ListContact extends Model
 
 
         // Select =====================================================================================================
-        $model = self::select(array_merge([
+        $model = static::select(array_merge([
             DB::raw("$table.*"),
         ], $to_db_raw));
 
@@ -128,13 +128,13 @@ class ListContact extends Model
 
     public static function getFeViewData()
     {
-        return Cache::rememberForever(self::feCacheKey, function () {
+        return Cache::rememberForever(static::feCacheKey, function () {
             return static::where('status', '=', 1)->orderBy('nama')->get();
         });
     }
 
     public static function feClearCache()
     {
-        return Cache::pull(self::feCacheKey);
+        return Cache::pull(static::feCacheKey);
     }
 }
