@@ -37,11 +37,6 @@
         @include('pages.frontend.home._faq', array_merge($compact, ['k' => $k]));
     @endif
 
-    @php $k = "$p.testimonial"; @endphp
-    @if (settings()->get("$k.visible", true))
-        @include('pages.frontend.home._testimonial', array_merge($compact, ['k' => $k]));
-    @endif
-
     @php $k = "$p.newsletter"; @endphp
     @if (settings()->get("$k.visible", true))
         @include('pages.frontend.home._newsletter', array_merge($compact, ['k' => $k]));
