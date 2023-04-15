@@ -67,7 +67,7 @@ class PortfolioKategoriTableSeeder extends Seeder
                 'slug' => 'logo',
                 'keterangan' => NULL,
                 'created_at' => '2023-04-14 02:19:55',
-                'updated_at' => '2023-04-14 02:19:55',
+                'updated_at' => '2023-04-15 15:42:34',
             ),
             5 => 
             array (
@@ -117,7 +117,7 @@ class PortfolioKategoriTableSeeder extends Seeder
                 'slug' => 'website',
                 'keterangan' => NULL,
                 'created_at' => '2023-04-14 02:25:53',
-                'updated_at' => '2023-04-14 02:25:53',
+                'updated_at' => '2023-04-15 15:39:26',
             ),
         ));
         
