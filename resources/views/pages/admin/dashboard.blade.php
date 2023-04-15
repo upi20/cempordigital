@@ -86,6 +86,17 @@
         </div>
         <div class="card-body">
             <div id="chart-pengunjung" class="chartsh"></div>
+            <br>
+            <div class="row">
+                <div class="col-lg-6 text-center">
+                    <h3 class="card-title">Platform</h3>
+                    <div id="chart-platform" class="chartsh"></div>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <h3 class="card-title">Browser</h3>
+                    <div id="chart-browser" class="chartsh"></div>
+                </div>
+            </div>
         </div>
     </div>
 @endsection

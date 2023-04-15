@@ -46,7 +46,9 @@ function refreshVistor(tanggal) {
         data: tanggal,
         success: (data) => {
             // console.log(data);
-            renderChart(data);
+            renderVistor(data.vistors);
+            renderPlatform(data.platforms);
+            renderBrowser(data.browsers);
             container.LoadingOverlay("hide");
         },
         error: function (data) {
@@ -59,7 +61,7 @@ function refreshVistor(tanggal) {
     });
 }
 
-function renderChart(datas) {
+function renderVistor(datas) {
     const columns = ['data1'];
     const categories = [];
 
@@ -103,4 +105,57 @@ function renderChart(datas) {
             top: 0
         },
     });
+}
+
+function renderPlatform(datas) {
+    let counter = 1;
+    const columns = [];
+
+    datas.forEach(e => {
+        columns.push([e.title, e.value]);
+        counter++;
+    });
+
+    var chart = c3.generate({
+        bindto: '#chart-platform',
+        data: {
+            columns,
+            type: 'donut',
+        },
+        axis: {},
+        legend: {
+            show: true,
+        },
+        padding: {
+            bottom: 0,
+            top: 0
+        },
+    });
+}
+
+function renderBrowser(datas) {
+    let counter = 1;
+    const columns = [];
+
+    datas.forEach(e => {
+        columns.push([e.title, e.value]);
+        counter++;
+    });
+
+    var chart = c3.generate({
+        bindto: '#chart-browser',
+        data: {
+            columns,
+            type: 'donut',
+        },
+        axis: {},
+        legend: {
+            show: true,
+        },
+        padding: {
+            bottom: 0,
+            top: 0
+        },
+    });
+
 }

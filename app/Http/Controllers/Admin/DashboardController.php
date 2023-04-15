@@ -35,12 +35,23 @@ class DashboardController extends Controller
     {
         $start = $request->start;
         $end = $request->end;
-        $get = Tracker::selectRaw("sum(hits) as value, date as title")
+        $vistor = Tracker::selectRaw("sum(hits) as value, date as title")
             ->whereBetween('date', [$start, $end])
             ->groupBy('date')
             ->orderBy('date')
             ->get();
+        $result['vistors'] = $vistor;
 
-        return $get;
+        $platform = Tracker::selectRaw("ifnull(platform, 'Tidak diketahui') as title, sum(hits) as value")
+            ->whereBetween('date', [$start, $end])
+            ->groupBy('title')->get();
+        $result['platforms'] = $platform;
+
+        $browser = Tracker::selectRaw("ifnull(browser, 'Tidak diketahui') as title, sum(hits) as value")
+            ->whereBetween('date', [$start, $end])
+            ->groupBy('title')->get();
+        $result['browsers'] = $browser;
+
+        return $result;
     }
 }

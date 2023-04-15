@@ -67,8 +67,8 @@ class Tracker extends Model
 
     public function createIPDetail()
     {
-        DB::beginTransaction();
         try {
+            DB::beginTransaction();
             // delete current
             $this->ipDetail()->delete();
 
@@ -81,20 +81,23 @@ class Tracker extends Model
             $detail->visitors_id = $id;
 
             $details = json_decode(file_get_contents("http://ipinfo.io/{$ip}"));
-            $detail->city = $details->city;
-            $detail->region = $details->region;
-            $detail->country_code = $details->country;
-            $detail->country = $this->code_to_country($details->country);
-            $detail->loc = $details->loc;
-            $detail->timezone = $details->timezone;
+            $check = isset($details->bogon) ? $details->bogon : false;
+            if (!$check) {
+                $detail->city = $details->city;
+                $detail->region = $details->region;
+                $detail->country_code = $details->country;
+                $detail->country = $this->code_to_country($details->country);
+                $detail->loc = $details->loc;
+                $detail->timezone = $details->timezone;
+            }
             $detail->save();
 
             $this->setAttribute('has_detail', 1);
             $this->save();
+            DB::commit();
         } catch (\Throwable $th) {
             //throw $th;
         }
-        DB::commit();
     }
 
     private function code_to_country($code)

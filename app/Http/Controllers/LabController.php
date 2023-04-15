@@ -249,10 +249,27 @@ class LabController extends Controller
 
     public function count(Request $request)
     {
-        $trackers = Tracker::where('has_detail', false)->get();
+        // Perangkat pengunjung
+        // - Platform
+        // - Browser
+
+
+
+        $trackers = Tracker::where('has_detail', 0)->get();
         foreach ($trackers as  $tracker) {
             $tracker->createIPDetail();
         }
+
+        $trackers = Tracker::with('ipDetail')->get();
+
+        $is_null = $trackers->filter(function ($query) {
+            return is_null($query->ipDetail);
+        });
+
+        foreach ($is_null as  $tracker) {
+            $tracker->createIPDetail();
+        }
+
         $trackers = Tracker::with('ipDetail')->get();
         return $trackers;
     }
