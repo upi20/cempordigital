@@ -5,7 +5,7 @@
         <div class="container">
             <div class="row g-3 justify-content-center g-lg-0">
 
-                @if (settings()->get(set_front('app.no_telepon')))
+                @if (setting_get(set_front('app.no_telepon')))
                     <div class="col-lg-4 col-sm-6 col-12">
                         <div class="footer-top-item lab-item">
                             <div class="lab-inner">
@@ -16,9 +16,8 @@
                                 </div>
                                 <div class="lab-content w-100 text-center mt-2">
                                     <span>No Telepon :
-                                        <a href="tel:{{ settings()->get(set_front('app.no_telepon')) }}"
-                                            target="_blank">
-                                            {{ settings()->get(set_front('app.no_telepon')) }}
+                                        <a href="tel:{{ setting_get(set_front('app.no_telepon')) }}" target="_blank">
+                                            {{ setting_get(set_front('app.no_telepon')) }}
                                         </a>
                                     </span>
                                 </div>
@@ -26,7 +25,7 @@
                         </div>
                     </div>
                 @endif
-                @if (settings()->get(set_front('app.no_whatsapp')))
+                @if (setting_get(set_front('app.no_whatsapp')))
                     <div class="col-lg-4 col-sm-6 col-12">
                         <div class="footer-top-item lab-item">
                             <div class="lab-inner">
@@ -37,9 +36,9 @@
                                 </div>
                                 <div class="lab-content w-100 text-center mt-2">
                                     <span>Whatsapp :
-                                        <a href="https://api.whatsapp.com/send?phone={{ settings()->get(set_front('app.no_whatsapp')) }}"
+                                        <a href="https://api.whatsapp.com/send?phone={{ setting_get(set_front('app.no_whatsapp')) }}"
                                             target="_blank">
-                                            +{{ settings()->get(set_front('app.no_whatsapp')) }}
+                                            +{{ setting_get(set_front('app.no_whatsapp')) }}
                                         </a>
                                     </span>
                                 </div>
@@ -47,7 +46,7 @@
                         </div>
                     </div>
                 @endif
-                @if (settings()->get(set_front('app.address')))
+                @if (setting_get(set_front('app.address')))
                     <div class="col-lg-4 col-sm-6 col-12">
                         <div class="footer-top-item lab-item">
                             <div class="lab-inner">
@@ -57,7 +56,7 @@
                                         alt="location-icon">
                                 </div>
                                 <div class="lab-content w-100 text-center mt-2">
-                                    <span>Alamat: {{ settings()->get(set_front('app.address')) }}</span>
+                                    <span>Alamat: {{ setting_get(set_front('app.address')) }}</span>
                                 </div>
                             </div>
                         </div>
@@ -76,7 +75,7 @@
                                 <h5>Tentang Kami</h5>
                             </div>
                             <div class="fm-item-content">
-                                <p class="mb-4"> {{ settings()->get(set_front('meta.description')) }} </p>
+                                <p class="mb-4"> {{ setting_get(set_front('meta.description')) }} </p>
                             </div>
                         </div>
                     </div>
@@ -158,7 +157,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="footer-bottom-content text-center">
-                        <p>{!! settings()->get(set_front('app.copyright')) !!}</p>
+                        <p>{!! setting_get(set_front('app.copyright')) !!}</p>
                     </div>
                 </div>
             </div>

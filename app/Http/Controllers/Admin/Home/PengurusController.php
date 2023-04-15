@@ -41,9 +41,9 @@ class PengurusController extends Controller
             ]
         ];
         $setting = (object)[
-            'visible' => settings()->get("$this->key.visible"),
-            'title' => settings()->get("$this->key.title"),
-            'sub_title' => settings()->get("$this->key.sub_title"),
+            'visible' => setting_get("$this->key.visible"),
+            'title' => setting_get("$this->key.title"),
+            'sub_title' => setting_get("$this->key.sub_title"),
         ];
         $folder_image = $this->folder_image;
         $view = path_view('pages.admin.home.pengurus');

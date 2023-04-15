@@ -25,7 +25,7 @@ $(document).ready(function () {
                 })
                 $(form).trigger("reset");
                 setBtnLoading('button[type=submit]',
-                    `{{ settings()->get('setting.contact.message.button_text') }}`,
+                    `{{ setting_get('setting.contact.message.button_text') }}`,
                     false);
             },
             error: function (data) {
@@ -37,12 +37,12 @@ $(document).ready(function () {
                     timer: 1500
                 })
                 setBtnLoading('button[type=submit]',
-                    `{{ settings()->get('setting.contact.message.button_text') }}`,
+                    `{{ setting_get('setting.contact.message.button_text') }}`,
                     false);
             },
             complete: function () {
                 setBtnLoading('button[type=submit]',
-                    `{{ settings()->get('setting.contact.message.button_text') }}`,
+                    `{{ setting_get('setting.contact.message.button_text') }}`,
                     false);
             }
         });

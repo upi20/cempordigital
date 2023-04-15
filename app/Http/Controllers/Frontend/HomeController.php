@@ -70,7 +70,7 @@ class HomeController extends Controller
 
     private function checkVisible(string $item): ?bool
     {
-        return settings()->get("setting.home.$item.visible", false);
+        return setting_get("setting.home.$item.visible", false);
     }
 
     public function fronted2(Request $request)

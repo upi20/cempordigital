@@ -29,10 +29,10 @@
                 <div class="row justify-center text-center">
                     <div class="col-auto">
                         <div data-anim="slide-up delay-1">
-                            <h1 class="page-header__title">{{ settings()->get('setting.produk.produk_title') }}</h1>
+                            <h1 class="page-header__title">{{ setting_get('setting.produk.produk_title') }}</h1>
                         </div>
                         <div data-anim="slide-up delay-2">
-                            <p class="page-header__text">{{ settings()->get('setting.produk.produk_sub_title') }}</p>
+                            <p class="page-header__text">{{ setting_get('setting.produk.produk_sub_title') }}</p>
                         </div>
                     </div>
                 </div>
@@ -97,7 +97,7 @@
                                         <p class="blogCard__text mt-20">{{ $produk->keterangan }}</p>
                                         <div class="blogCard__button d-inline-block mt-20">
                                             <a target="_blank"
-                                                href="https://api.whatsapp.com/send?phone={{ settings()->get('setting.produk.no_whatsapp') }}&text=Saya tertarik dengan {{ $produk->nama }}"
+                                                href="https://api.whatsapp.com/send?phone={{ setting_get('setting.produk.no_whatsapp') }}&text=Saya tertarik dengan {{ $produk->nama }}"
                                                 class="button -sm -purple-3 text-purple-1">
                                                 <i class="fab fa-whatsapp text-success me-1" style="font-size: 1.5em"></i>
                                                 Whatsapp

@@ -32,10 +32,10 @@ class KataKataController extends Controller
             ]
         ];
         $setting = (object)[
-            'visible' => settings()->get("$this->key.visible"),
-            'title' => settings()->get("$this->key.title"),
-            'sub_title' => settings()->get("$this->key.sub_title"),
-            'image' => settings()->get("$this->key.image"),
+            'visible' => setting_get("$this->key.visible"),
+            'title' => setting_get("$this->key.title"),
+            'sub_title' => setting_get("$this->key.sub_title"),
+            'image' => setting_get("$this->key.image"),
         ];
 
         $view = path_view('pages.admin.home.kata_kata');
@@ -117,7 +117,7 @@ class KataKataController extends Controller
         setting_set("$this->key.visible", $request->visible != null);
 
         $key = 'image';
-        $current = settings()->get("$this->key.$key");
+        $current = setting_get("$this->key.$key");
         if ($image = $request->file($key)) {
             // delete foto
             $folder = $this->folder_image;

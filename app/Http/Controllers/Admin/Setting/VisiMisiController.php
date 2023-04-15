@@ -21,17 +21,17 @@ class VisiMisiController extends Controller
             ]
         ];
         $setting = (object)[
-            'visible' => settings()->get("$this->key.visible"),
-            'title' => settings()->get("$this->key.title"),
-            'sub_title' => settings()->get("$this->key.sub_title"),
+            'visible' => setting_get("$this->key.visible"),
+            'title' => setting_get("$this->key.title"),
+            'sub_title' => setting_get("$this->key.sub_title"),
 
-            'visi_title' => settings()->get("$this->key.visi_title"),
-            'visi_image' => settings()->get("$this->key.visi_image"),
-            'visi' => settings()->get("$this->key.visi"),
+            'visi_title' => setting_get("$this->key.visi_title"),
+            'visi_image' => setting_get("$this->key.visi_image"),
+            'visi' => setting_get("$this->key.visi"),
 
-            'misi_title' => settings()->get("$this->key.misi_title"),
-            'misi_image' => settings()->get("$this->key.misi_image"),
-            'misi' => settings()->get("$this->key.misi"),
+            'misi_title' => setting_get("$this->key.misi_title"),
+            'misi_image' => setting_get("$this->key.misi_image"),
+            'misi' => setting_get("$this->key.misi"),
 
         ];
 
@@ -53,7 +53,7 @@ class VisiMisiController extends Controller
 
         // image
         $key = 'visi_image';
-        $current = settings()->get("$this->key.$key");
+        $current = setting_get("$this->key.$key");
         $visi_image = $current;
         if ($image = $request->file($key)) {
             // delete foto
@@ -71,7 +71,7 @@ class VisiMisiController extends Controller
         }
 
         $key = 'misi_image';
-        $current = settings()->get("$this->key.$key");
+        $current = setting_get("$this->key.$key");
         $misi_image = $current;
         if ($image = $request->file($key)) {
             // delete foto

@@ -22,8 +22,8 @@
             <div class="row">
                 <div class="col-12">
                     <div class="header-title">
-                        <h5>{{ settings()->get('setting.home.galeri.title') }}</h5>
-                        <h2>{{ settings()->get('setting.home.galeri.sub_title') }}</h2>
+                        <h5>{{ setting_get('setting.home.galeri.title') }}</h5>
+                        <h2>{{ setting_get('setting.home.galeri.sub_title') }}</h2>
                     </div>
                 </div>
                 <div class="col-12">

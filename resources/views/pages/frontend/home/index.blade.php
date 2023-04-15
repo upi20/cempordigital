@@ -3,42 +3,42 @@
     @php $p = 'setting.home'; @endphp
 
     @php $k = "$p.slider"; @endphp
-    @if (settings()->get("$k.visible", true))
+    @if (setting_get("$k.visible", true))
         @include('pages.frontend.home._slider', array_merge($compact, ['k' => $k]));
     @endif
 
     @php $k = "$p.services"; @endphp
-    @if (settings()->get("$k.visible", true))
+    @if (setting_get("$k.visible", true))
         @include('pages.frontend.home._services', array_merge($compact, ['k' => $k]));
     @endif
 
     @php $k = "$p.agency"; @endphp
-    @if (settings()->get("$k.visible", true))
+    @if (setting_get("$k.visible", true))
         @include('pages.frontend.home._agency', array_merge($compact, ['k' => $k]));
     @endif
 
     @php $k = "$p.pricing"; @endphp
-    @if (settings()->get("$k.visible", true))
+    @if (setting_get("$k.visible", true))
         @include('pages.frontend.home._pricing', array_merge($compact, ['k' => $k]));
     @endif
 
     @php $k = "$p.protfolio"; @endphp
-    @if (settings()->get("$k.visible", true))
+    @if (setting_get("$k.visible", true))
         @include('pages.frontend.home._protfolio', array_merge($compact, ['k' => $k]));
     @endif
 
     @php $k = "$p.testimonial"; @endphp
-    @if (settings()->get("$k.visible", true))
+    @if (setting_get("$k.visible", true))
         @include('pages.frontend.home._testimonial', array_merge($compact, ['k' => $k]));
     @endif
 
     @php $k = "setting.contact.faq"; @endphp
-    @if (settings()->get("$k.visible"))
+    @if (setting_get("$k.visible"))
         @include('pages.frontend.home._faq', array_merge($compact, ['k' => $k]));
     @endif
 
     @php $k = "$p.newsletter"; @endphp
-    @if (settings()->get("$k.visible", true))
+    @if (setting_get("$k.visible", true))
         @include('pages.frontend.home._newsletter', array_merge($compact, ['k' => $k]));
     @endif
 

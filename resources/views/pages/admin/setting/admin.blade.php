@@ -8,7 +8,7 @@
                     <h3 class="card-title">Application</h3>
                     <label class="custom-switch form-switch">
                         <input type="checkbox" name="preloader" form="app-form" class="custom-switch-input"
-                            {{ settings()->get(set_admin('app.preloader')) ? 'checked' : '' }}>
+                            {{ setting_get(set_admin('app.preloader')) ? 'checked' : '' }}>
                         <span class="custom-switch-indicator"></span>
                         <span class="custom-switch-description">Preloader</span>
                     </label>
@@ -19,7 +19,7 @@
                             <label class="form-label" for="{{ set_admin('app.title') }}">Title
                                 <span class="text-danger">*</span></label>
                             <input type="text" id="{{ set_admin('app.title') }}" name="title" class="form-control"
-                                placeholder="Application Title" value="{{ settings()->get(set_admin('app.title')) }}"
+                                placeholder="Application Title" value="{{ setting_get(set_admin('app.title')) }}"
                                 required />
                         </div>
 
@@ -29,7 +29,7 @@
                                 <div class="form-group">
                                     <label class="form-label">Logo Light
                                         <span class="badge bg-primary" id="preview_foto_light_mode"
-                                            onclick="viewImage('{{ settings()->get(set_admin('app.foto_light_mode')) }}', 'Logo Light View')">
+                                            onclick="viewImage('{{ setting_get(set_admin('app.foto_light_mode')) }}', 'Logo Light View')">
                                             view</span>
                                     </label>
                                     <input type="file" id="{{ set_admin('app.foto_light_mode') }}" name="foto_light_mode"
@@ -41,7 +41,7 @@
                                 <div class="form-group">
                                     <label class="form-label">Logo Dark
                                         <span class="badge bg-primary" id="preview_foto_dark_mode"
-                                            onclick="viewImage('{{ settings()->get(set_admin('app.foto_dark_mode')) }}', 'Logo Dark View')">
+                                            onclick="viewImage('{{ setting_get(set_admin('app.foto_dark_mode')) }}', 'Logo Dark View')">
                                             view</span>
                                     </label>
                                     <input type="file" id="{{ set_admin('app.foto_dark_mode') }}" name="foto_dark_mode"
@@ -53,7 +53,7 @@
                                 <div class="form-group">
                                     <label class="form-label">Logo Landscape Light
                                         <span class="badge bg-primary" id="preview_foto_light_landscape_mode"
-                                            onclick="viewImage('{{ settings()->get(set_admin('app.foto_light_landscape_mode')) }}', 'Logo Light View')">
+                                            onclick="viewImage('{{ setting_get(set_admin('app.foto_light_landscape_mode')) }}', 'Logo Light View')">
                                             view</span>
                                     </label>
                                     <input type="file" id="{{ set_admin('app.foto_light_landscape_mode') }}"
@@ -65,7 +65,7 @@
                                 <div class="form-group">
                                     <label class="form-label">Logo Landscape Dark
                                         <span class="badge bg-primary" id="preview_foto_dark_landscape_mode"
-                                            onclick="viewImage('{{ settings()->get(set_admin('app.foto_dark_landscape_mode')) }}', 'Logo Dark View')">
+                                            onclick="viewImage('{{ setting_get(set_admin('app.foto_dark_landscape_mode')) }}', 'Logo Dark View')">
                                             view</span>
                                     </label>
                                     <input type="file" id="{{ set_admin('app.foto_dark_landscape_mode') }}"
@@ -78,7 +78,7 @@
                             <label class="form-label" for="{{ set_admin('app.copyright') }}">Copyright
                                 <span class="text-danger">*</span></label>
                             <textarea id="{{ set_admin('app.copyright') }}" name="copyright" class="form-control" required rows="3"
-                                placeholder="Application Copyright">{!! settings()->get(set_admin('app.copyright')) !!}</textarea>
+                                placeholder="Application Copyright">{!! setting_get(set_admin('app.copyright')) !!}</textarea>
                         </div>
                     </form>
 
@@ -102,8 +102,7 @@
                             <label class="form-label" for="{{ set_admin('meta.author') }}">Author
                                 <span class="text-danger">*</span></label>
                             <input type="text" id="{{ set_admin('meta.author') }}" name="author" class="form-control"
-                                placeholder="Meta Author" value="{{ settings()->get(set_admin('meta.author')) }}"
-                                required />
+                                placeholder="Meta Author" value="{{ setting_get(set_admin('meta.author')) }}" required />
                         </div>
 
                         <div class="form-group">
@@ -111,14 +110,14 @@
                                 <span class="text-danger">*</span></label>
                             <input type="text" id="{{ set_admin('meta.keyword') }}" name="keyword"
                                 class="form-control" placeholder="Meta Keyword"
-                                value="{{ settings()->get(set_admin('meta.keyword')) }}" required />
+                                value="{{ setting_get(set_admin('meta.keyword')) }}" required />
                         </div>
 
 
                         <div class="form-group">
                             <label class="form-label">Image
                                 <span class="badge bg-primary" id="preview_meta_image"
-                                    onclick="viewImage('{{ settings()->get(set_admin('meta.image')) }}', 'Meta Image View')">
+                                    onclick="viewImage('{{ setting_get(set_admin('meta.image')) }}', 'Meta Image View')">
                                     view</span>
                             </label>
                             <input type="file" id="{{ set_admin('meta.image') }}" name="image"
@@ -129,7 +128,7 @@
                             <label class="form-label" for="{{ set_admin('meta.description') }}">Description
                                 <span class="text-danger">*</span></label>
                             <textarea id="{{ set_admin('meta.description') }}" name="description" class="form-control" required rows="3"
-                                placeholder="Meta Description Default">{!! settings()->get(set_admin('meta.description')) !!}</textarea>
+                                placeholder="Meta Description Default">{!! setting_get(set_admin('meta.description')) !!}</textarea>
                         </div>
                     </form>
 

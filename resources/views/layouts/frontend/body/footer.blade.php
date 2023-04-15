@@ -21,7 +21,7 @@
                 <div class="row align-items-center">
                     <div class="col-md-6">
                         <div class="copyright-text">
-                            <p>{!! settings()->get(set_front('app.copyright')) !!}</p>
+                            <p>{!! setting_get(set_front('app.copyright')) !!}</p>
                         </div>
                     </div>
                     <div class="col-md-6">

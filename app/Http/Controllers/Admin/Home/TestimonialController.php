@@ -37,8 +37,8 @@ class TestimonialController extends Controller
             ]
         ];
         $setting = (object)[
-            'visible' => settings()->get("$this->key.visible"),
-            'title' => settings()->get("$this->key.title"),
+            'visible' => setting_get("$this->key.visible"),
+            'title' => setting_get("$this->key.title"),
         ];
 
         $folder_image = $this->folder_image;

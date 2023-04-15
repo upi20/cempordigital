@@ -10,10 +10,10 @@
                 </div>
                 <div class="faq-content">
                     <div class="section-title title-style-two mb-20">
-                        <h2 class="title">{!! settings()->get("$k.title") !!}</h2>
+                        <h2 class="title">{!! setting_get("$k.title") !!}</h2>
                     </div>
-                    <h3 class="title-two">{!! settings()->get("$k.sub_title") !!}</h3>
-                    <p>{!! settings()->get("$k.description") !!}</p>
+                    <h3 class="title-two">{!! setting_get("$k.sub_title") !!}</h3>
+                    <p>{!! setting_get("$k.description") !!}</p>
                 </div>
             </div>
             <div class="col-lg-6">

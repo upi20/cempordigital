@@ -43,7 +43,7 @@ class HomeController extends Controller
 
         // image
         $key = 'foto';
-        $current = settings()->get($this->s($key));
+        $current = setting_get($this->s($key));
         $foto = $current;
         if ($image = $request->file($key)) {
             // delete foto

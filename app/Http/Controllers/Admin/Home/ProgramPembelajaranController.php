@@ -34,10 +34,10 @@ class ProgramPembelajaranController extends Controller
             ]
         ];
         $setting = (object)[
-            'visible' => settings()->get("$this->key.visible"),
-            'title' => settings()->get("$this->key.title"),
-            'sub_title' => settings()->get("$this->key.sub_title"),
-            'number' => settings()->get("$this->key.number")
+            'visible' => setting_get("$this->key.visible"),
+            'title' => setting_get("$this->key.title"),
+            'sub_title' => setting_get("$this->key.sub_title"),
+            'number' => setting_get("$this->key.number")
         ];
         $view = path_view('pages.admin.home.program_pembelajaran');
         $data = compact('page_attr', 'image_folder', 'setting', 'view');

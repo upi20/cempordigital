@@ -32,8 +32,8 @@ class ListContactController extends Controller
             ]
         ];
         $setting = (object)[
-            'title' => settings()->get('setting.contact.list.title'),
-            'sub_title' => settings()->get('setting.contact.list.sub_title'),
+            'title' => setting_get('setting.contact.list.title'),
+            'sub_title' => setting_get('setting.contact.list.sub_title'),
         ];
 
         $view = path_view('pages.admin.kontak.list');

@@ -15,14 +15,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-12 text-center">
-                    <h2 class="page-title">{{ settings()->get('setting.contact.faq.title') }}</h2>
+                    <h2 class="page-title">{{ setting_get('setting.contact.faq.title') }}</h2>
                     <div class="cafena-breadcrumb breadcrumbs">
                         <ul class="list-unstyled d-flex align-items-center justify-content-center">
                             <li class="cafenabcrumb-item duxinbcrumb-begin">
                                 <a href="{{ route('home') }}"><span>Home</span></a>
                             </li>
                             <li class="cafenabcrumb-item duxinbcrumb-end">
-                                <span>{{ settings()->get('setting.contact.faq.title') }}</span>
+                                <span>{{ setting_get('setting.contact.faq.title') }}</span>
                             </li>
                         </ul>
                     </div>

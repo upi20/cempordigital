@@ -22,15 +22,15 @@ class MessageController extends Controller
             ]
         ];
         $setting = (object)[
-            'title' => settings()->get('setting.contact.message.title'),
-            'sub_title' => settings()->get('setting.contact.message.sub_title'),
-            'name' => settings()->get('setting.contact.message.name'),
-            'name_placeholder' => settings()->get('setting.contact.message.name_placeholder'),
-            'email' => settings()->get('setting.contact.message.email'),
-            'email_placeholder' => settings()->get('setting.contact.message.email_placeholder'),
-            'message' => settings()->get('setting.contact.message.message'),
-            'message_placeholder' => settings()->get('setting.contact.message.message_placeholder'),
-            'button_text' => settings()->get('setting.contact.message.button_text'),
+            'title' => setting_get('setting.contact.message.title'),
+            'sub_title' => setting_get('setting.contact.message.sub_title'),
+            'name' => setting_get('setting.contact.message.name'),
+            'name_placeholder' => setting_get('setting.contact.message.name_placeholder'),
+            'email' => setting_get('setting.contact.message.email'),
+            'email_placeholder' => setting_get('setting.contact.message.email_placeholder'),
+            'message' => setting_get('setting.contact.message.message'),
+            'message_placeholder' => setting_get('setting.contact.message.message_placeholder'),
+            'button_text' => setting_get('setting.contact.message.button_text'),
         ];
 
         $view = path_view('pages.admin.kontak.message');

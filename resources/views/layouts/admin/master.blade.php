@@ -1,17 +1,17 @@
 <?php
 $page_attr = (object) [
     'title' => isset($page_attr['title']) ? $page_attr['title'] : '',
-    'description' => isset($page_attr['description']) ? $page_attr['description'] : settings()->get(set_admin('meta.description')),
-    'keywords' => isset($page_attr['keywords']) ? $page_attr['keywords'] : settings()->get(set_admin('meta.keyword')),
-    'author' => isset($page_attr['author']) ? $page_attr['author'] : settings()->get(set_admin('meta.author')),
-    'image' => isset($page_attr['image']) ? $page_attr['image'] : asset(settings()->get(set_admin('meta.image'))),
+    'description' => isset($page_attr['description']) ? $page_attr['description'] : setting_get(set_admin('meta.description')),
+    'keywords' => isset($page_attr['keywords']) ? $page_attr['keywords'] : setting_get(set_admin('meta.keyword')),
+    'author' => isset($page_attr['author']) ? $page_attr['author'] : setting_get(set_admin('meta.author')),
+    'image' => isset($page_attr['image']) ? $page_attr['image'] : asset(setting_get(set_admin('meta.image'))),
     'navigation' => isset($page_attr['navigation']) ? $page_attr['navigation'] : false,
-    'loader' => isset($page_attr['loader']) ? $page_attr['loader'] : settings()->get(set_admin('app.preloader')),
+    'loader' => isset($page_attr['loader']) ? $page_attr['loader'] : setting_get(set_admin('app.preloader')),
     'breadcrumbs' => isset($page_attr['breadcrumbs']) ? (is_array($page_attr['breadcrumbs']) ? $page_attr['breadcrumbs'] : false) : false,
     'url' => isset($page_attr['url']) ? $page_attr['url'] : url(''),
     'type' => isset($page_attr['type']) ? $page_attr['type'] : 'website',
 ];
-$page_attr_title = ($page_attr->title == '' ? '' : $page_attr->title . ' | ') . settings()->get(set_admin('app.title'), env('APP_NAME'));
+$page_attr_title = ($page_attr->title == '' ? '' : $page_attr->title . ' | ') . setting_get(set_admin('app.title'), env('APP_NAME'));
 $notifikasi = beTopNotification();
 ?>
 <!doctype html>
@@ -100,7 +100,7 @@ $notifikasi = beTopNotification();
         }
     </style>
 
-    @foreach (json_decode(settings()->get(set_admin('meta_list'), '{}')) as $meta)
+    @foreach (json_decode(setting_get(set_admin('meta_list'), '{}')) as $meta)
         <!-- custom {{ $meta->name }} -->
         {!! $meta->value !!}
     @endforeach
@@ -112,8 +112,8 @@ $notifikasi = beTopNotification();
     @if ($page_attr->loader)
         <!-- GLOBAL-LOADER -->
         <div id="global-loader" style="background-color: #1a1a3c">
-            <img src="{{ asset(settings()->get(set_admin('app.foto_light_mode'))) }}" class="loader-img"
-                alt="Loader" style="max-width: 150px">
+            <img src="{{ asset(setting_get(set_admin('app.foto_light_mode'))) }}" class="loader-img" alt="Loader"
+                style="max-width: 150px">
         </div>
         <!-- /GLOBAL-LOADER -->
     @endif

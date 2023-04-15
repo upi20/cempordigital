@@ -40,7 +40,7 @@ class FrontController extends Controller
         // dark mode
         $foto = '';
         $key = 'foto_dark_landscape_mode';
-        $current = settings()->get(set_front("app.$key"));
+        $current = setting_get(set_front("app.$key"));
         $result[] = [$key => $current];
         if ($image = $request->file($key)) {
             // delete foto
@@ -60,7 +60,7 @@ class FrontController extends Controller
         // light mode
         $foto = '';
         $key = 'foto_light_landscape_mode';
-        $current = settings()->get(set_front("app.$key"));
+        $current = setting_get(set_front("app.$key"));
         $result[] = [$key => $current];
         if ($image = $request->file($key)) {
             // delete foto
@@ -81,7 +81,7 @@ class FrontController extends Controller
         // dark mode
         $foto = '';
         $key = 'foto_dark_mode';
-        $current = settings()->get(set_front("app.$key"));
+        $current = setting_get(set_front("app.$key"));
         $result[] = [$key => $current];
         if ($image = $request->file($key)) {
             // delete foto
@@ -101,7 +101,7 @@ class FrontController extends Controller
         // light mode
         $foto = '';
         $key = 'foto_light_mode';
-        $current = settings()->get(set_front("app.$key"));
+        $current = setting_get(set_front("app.$key"));
         $result[] = [$key => $current];
         if ($image = $request->file($key)) {
             // delete foto
@@ -129,7 +129,7 @@ class FrontController extends Controller
 
         // logo
         $key = 'image';
-        $current = settings()->get(set_front("meta.$key"));
+        $current = setting_get(set_front("meta.$key"));
         $result[] = [$key => $current];
         if ($image = $request->file($key)) {
             // delete foto
@@ -153,7 +153,7 @@ class FrontController extends Controller
     private function meta_list_get()
     {
 
-        $list = settings()->get(set_front("meta_list"), null);
+        $list = setting_get(set_front("meta_list"), null);
         return is_null($list) ? [] : json_decode($list);
     }
 

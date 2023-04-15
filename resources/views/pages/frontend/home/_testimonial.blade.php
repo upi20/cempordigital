@@ -3,7 +3,7 @@
         <div class="row align-items-center">
             <div class="col-md-8">
                 <div class="section-title title-style-two white-title mb-45">
-                    <h2 class="title">{!! settings()->get("$k.title") !!}</h2>
+                    <h2 class="title">{!! setting_get("$k.title") !!}</h2>
                 </div>
             </div>
             <div class="col-md-4">

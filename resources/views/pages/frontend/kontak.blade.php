@@ -23,21 +23,21 @@
                     <div class="col-lg-8">
                         <article class="contact-form-wrapper">
                             <div class="contact-form">
-                                <h4>{{ settings()->get('setting.contact.message.title') }}</h4>
+                                <h4>{{ setting_get('setting.contact.message.title') }}</h4>
                                 <p class="mb-5">
-                                    {{ settings()->get('setting.contact.message.sub_title') }}
+                                    {{ setting_get('setting.contact.message.sub_title') }}
                                 </p>
                                 <form action="#" method="POST" id="message_form" class="comment-form">
                                     <input type="text" name="nama" id="nama" class=""
-                                        placeholder="{{ settings()->get('setting.contact.message.name_placeholder') }}"
+                                        placeholder="{{ setting_get('setting.contact.message.name_placeholder') }}"
                                         required>
                                     <input type="email" name="email" id="email" class=""
-                                        placeholder="{{ settings()->get('setting.contact.message.email_placeholder') }}"
+                                        placeholder="{{ setting_get('setting.contact.message.email_placeholder') }}"
                                         required>
                                     <textarea name="message" id="message" cols="30" rows="9"
-                                        placeholder="{{ settings()->get('setting.contact.message.message_placeholder') }}" required></textarea>
+                                        placeholder="{{ setting_get('setting.contact.message.message_placeholder') }}" required></textarea>
                                     <button type="submit" class="lab-btn">
-                                        <span>{{ settings()->get('setting.contact.message.button_text') }}</span>
+                                        <span>{{ setting_get('setting.contact.message.button_text') }}</span>
                                     </button>
                                 </form>
                             </div>

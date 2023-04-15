@@ -5,19 +5,19 @@
         <div class="side-header">
             <a class="header-brand1" href="{{ url('/admin') }}">
                 {{-- light landscape --}}
-                <img style="height: 45px" src="{{ asset(settings()->get(set_admin('app.foto_light_landscape_mode'))) }}"
+                <img style="height: 45px" src="{{ asset(setting_get(set_admin('app.foto_light_landscape_mode'))) }}"
                     class="header-brand-img desktop-logo" alt="logo">
 
                 {{-- light --}}
-                <img style="height: 45px"src="{{ asset(settings()->get(set_admin('app.foto_light_mode'))) }}"
+                <img style="height: 45px"src="{{ asset(setting_get(set_admin('app.foto_light_mode'))) }}"
                     class="header-brand-img toggle-logo" alt="logo">
 
                 {{-- dark --}}
-                <img style="height: 45px" src="{{ asset(settings()->get(set_admin('app.foto_dark_mode'))) }}"
+                <img style="height: 45px" src="{{ asset(setting_get(set_admin('app.foto_dark_mode'))) }}"
                     class="header-brand-img light-logo" alt="logo">
 
                 {{-- dark landscape --}}
-                <img style="height: 45px"src="{{ asset(settings()->get(set_admin('app.foto_dark_landscape_mode'))) }}"
+                <img style="height: 45px"src="{{ asset(setting_get(set_admin('app.foto_dark_landscape_mode'))) }}"
                     class="header-brand-img light-logo1" alt="logo">
             </a>
             <!-- LOGO -->

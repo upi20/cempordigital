@@ -30,10 +30,10 @@ class FAQController extends Controller
             ]
         ];
         $setting = (object)[
-            'title' => settings()->get('setting.contact.faq.title'),
-            'sub_title' => settings()->get('setting.contact.faq.sub_title'),
-            'description' => settings()->get('setting.contact.faq.description'),
-            'visible' => settings()->get('setting.contact.faq.visible'),
+            'title' => setting_get('setting.contact.faq.title'),
+            'sub_title' => setting_get('setting.contact.faq.sub_title'),
+            'description' => setting_get('setting.contact.faq.description'),
+            'visible' => setting_get('setting.contact.faq.visible'),
         ];
 
         $view = path_view('pages.admin.kontak.faq');

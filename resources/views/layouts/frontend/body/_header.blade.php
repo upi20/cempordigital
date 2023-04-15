@@ -29,7 +29,7 @@
                     <div class="logo">
                         <a href="{{ url('') }}">
                             <img class="lazy" alt="logo" style="max-height: 65px"
-                                data-src="{{ asset(settings()->get(set_front('app.foto_dark_landscape_mode'))) }}">
+                                data-src="{{ asset(setting_get(set_front('app.foto_dark_landscape_mode'))) }}">
                         </a>
                     </div>
                     <div class="ellepsis-bar d-lg-none">
@@ -42,14 +42,14 @@
                     <div class="header-top-area">
                         <ul class="left lab-ul">
                             <li>
-                                <a href="tel:{{ settings()->get(set_front('app.no_telepon')) }}">
+                                <a href="tel:{{ setting_get(set_front('app.no_telepon')) }}">
                                     <i class="icofont-ui-call"></i> <span>
-                                        {{ settings()->get(set_front('app.no_telepon')) }}
+                                        {{ setting_get(set_front('app.no_telepon')) }}
                                     </span>
                                 </a>
                             </li>
                             <li>
-                                <i class="fas fa-map-marker-alt"></i> {{ settings()->get(set_front('app.address')) }}
+                                <i class="fas fa-map-marker-alt"></i> {{ setting_get(set_front('app.address')) }}
                             </li>
                         </ul>
                         <ul class="social-icons lab-ul d-flex">
@@ -70,10 +70,10 @@
                                 {!! navbar_menu_front($page_attr->navigation) !!}
                             </ul>
                             <div class="prayer-time d-none d-lg-block">
-                                <a href="https://api.whatsapp.com/send?phone={{ settings()->get(set_front('app.no_whatsapp')) }}"
+                                <a href="https://api.whatsapp.com/send?phone={{ setting_get(set_front('app.no_whatsapp')) }}"
                                     target="_blank" class="prayer-time-btn">
                                     <i class="fab fa-whatsapp me-1"></i>
-                                    +{{ settings()->get(set_front('app.no_whatsapp')) }}
+                                    +{{ setting_get(set_front('app.no_whatsapp')) }}
                                 </a>
                             </div>
                         </div>

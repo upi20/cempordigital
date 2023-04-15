@@ -1,15 +1,15 @@
 <?php
 $page_attr = (object) [
     'title' => isset($page_attr['title']) ? $page_attr['title'] : '',
-    'description' => isset($page_attr['description']) ? $page_attr['description'] : settings()->get(set_admin('meta.description')),
-    'keywords' => isset($page_attr['keywords']) ? $page_attr['keywords'] : settings()->get(set_admin('meta.keyword')),
-    'author' => isset($page_attr['author']) ? $page_attr['author'] : settings()->get(set_admin('meta.author')),
-    'image' => isset($page_attr['image']) ? $page_attr['image'] : asset(settings()->get(set_admin('meta.image'))),
+    'description' => isset($page_attr['description']) ? $page_attr['description'] : setting_get(set_admin('meta.description')),
+    'keywords' => isset($page_attr['keywords']) ? $page_attr['keywords'] : setting_get(set_admin('meta.keyword')),
+    'author' => isset($page_attr['author']) ? $page_attr['author'] : setting_get(set_admin('meta.author')),
+    'image' => isset($page_attr['image']) ? $page_attr['image'] : asset(setting_get(set_admin('meta.image'))),
     'navigation' => isset($page_attr['navigation']) ? $page_attr['navigation'] : false,
-    'loader' => isset($page_attr['loader']) ? $page_attr['loader'] : settings()->get(set_admin('app.preloader')),
+    'loader' => isset($page_attr['loader']) ? $page_attr['loader'] : setting_get(set_admin('app.preloader')),
     'breadcrumbs' => isset($page_attr['breadcrumbs']) ? (is_array($page_attr['breadcrumbs']) ? $page_attr['breadcrumbs'] : false) : false,
 ];
-$page_attr_title = ($page_attr->title == '' ? '' : $page_attr->title . ' | ') . settings()->get(set_admin('app.title'), env('APP_NAME'));
+$page_attr_title = ($page_attr->title == '' ? '' : $page_attr->title . ' | ') . setting_get(set_admin('app.title'), env('APP_NAME'));
 ?>
 <!doctype html>
 <html lang="en" dir="ltr">
@@ -86,7 +86,7 @@ $page_attr_title = ($page_attr->title == '' ? '' : $page_attr->title . ' | ') . 
     <link rel="stylesheet" href="{{ asset_admin('plugins/sweet-alert/sweetalert2.css') }}">
 
     <link rel="stylesheet" href="{{ asset_admin('plugins/fontawesome-free-5.15.4-web/css/all.min.css') }}">
-    @foreach (json_decode(settings()->get(set_admin('meta_list'), '{}')) as $meta)
+    @foreach (json_decode(setting_get(set_admin('meta_list'), '{}')) as $meta)
         <!-- custom {{ $meta->name }} -->
         {!! $meta->value !!}
     @endforeach
@@ -100,7 +100,7 @@ $page_attr_title = ($page_attr->title == '' ? '' : $page_attr->title . ' | ') . 
         @if ($page_attr->loader)
             <!-- GLOBAL-LOADER -->
             <div id="global-loader" style="background-color: #1a1a3c">
-                <img src="{{ asset(settings()->get(set_admin('app.foto_light_mode'))) }}" class="loader-img"
+                <img src="{{ asset(setting_get(set_admin('app.foto_light_mode'))) }}" class="loader-img"
                     alt="Loader" style="max-width: 150px">
             </div>
             <!-- /GLOBAL-LOADER -->
@@ -113,7 +113,7 @@ $page_attr_title = ($page_attr->title == '' ? '' : $page_attr->title . ' | ') . 
                     <div class="wrap-login100 p-6" style="border-radius: 24px; box-shadow: none">
                         <div class="text-center">
                             <img style="max-height: 65px;"
-                                src="{{ asset(settings()->get(set_admin('app.foto_light_landscape_mode'))) }}"
+                                src="{{ asset(setting_get(set_admin('app.foto_light_landscape_mode'))) }}"
                                 class="header-brand-img" alt="Logo" id="logo">
                         </div>
                         <div class="panel panel-primary mt-3">
@@ -189,7 +189,7 @@ $page_attr_title = ($page_attr->title == '' ? '' : $page_attr->title . ' | ') . 
                 </div>
                 <!-- CONTAINER CLOSED -->
                 <div class="col col-login mx-auto">
-                    <div class="text-center d-md-flex  justify-content-center"> {!! str_parse(settings()->get(set_admin('app.copyright'))) !!}</div>
+                    <div class="text-center d-md-flex  justify-content-center"> {!! str_parse(setting_get(set_admin('app.copyright'))) !!}</div>
                 </div>
             </div>
         </div>
@@ -223,7 +223,7 @@ $page_attr_title = ($page_attr->title == '' ? '' : $page_attr->title . ' | ') . 
 
     <script>
         {{-- if (localStorage.getItem('lightMode') || localStorage.getItem('darkMode') == null) {
-            $('#logo').attr('src', "{{ asset(settings()->get(set_admin('app.foto_light_landscape_mode'))) }}");
+            $('#logo').attr('src', "{{ asset(setting_get(set_admin('app.foto_light_landscape_mode'))) }}");
         } --}}
 
         // auto darkmode

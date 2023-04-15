@@ -1,17 +1,17 @@
 <?php
 $page_attr = (object) [
     'title' => isset($page_attr['title']) ? $page_attr['title'] : '',
-    'description' => isset($page_attr['description']) ? $page_attr['description'] : settings()->get(set_front('meta.description')),
-    'keywords' => isset($page_attr['keywords']) ? $page_attr['keywords'] : settings()->get(set_front('meta.keyword')),
-    'author' => isset($page_attr['author']) ? $page_attr['author'] : settings()->get(set_front('meta.author')),
-    'image' => isset($page_attr['image']) ? $page_attr['image'] : asset(settings()->get(set_front('meta.image'))),
+    'description' => isset($page_attr['description']) ? $page_attr['description'] : setting_get(set_front('meta.description')),
+    'keywords' => isset($page_attr['keywords']) ? $page_attr['keywords'] : setting_get(set_front('meta.keyword')),
+    'author' => isset($page_attr['author']) ? $page_attr['author'] : setting_get(set_front('meta.author')),
+    'image' => isset($page_attr['image']) ? $page_attr['image'] : asset(setting_get(set_front('meta.image'))),
     'navigation' => isset($page_attr['navigation']) ? $page_attr['navigation'] : false,
-    'loader' => isset($page_attr['loader']) ? $page_attr['loader'] : settings()->get(set_front('app.preloader')),
+    'loader' => isset($page_attr['loader']) ? $page_attr['loader'] : setting_get(set_front('app.preloader')),
     'breadcrumbs' => isset($page_attr['breadcrumbs']) ? (is_array($page_attr['breadcrumbs']) ? $page_attr['breadcrumbs'] : false) : false,
     'url' => isset($page_attr['url']) ? $page_attr['url'] : url(''),
     'type' => isset($page_attr['type']) ? $page_attr['type'] : 'website',
 ];
-$page_attr_title = ($page_attr->title == '' ? '' : $page_attr->title . ' | ') . settings()->get(set_front('app.title'), env('APP_NAME'));
+$page_attr_title = ($page_attr->title == '' ? '' : $page_attr->title . ' | ') . setting_get(set_front('app.title'), env('APP_NAME'));
 $search_master_key = isset($_GET['search']) ? $_GET['search'] : '';
 
 $getSosmed_val = feSocialMedia();
@@ -91,7 +91,7 @@ $compact = array_merge($compact, compact('page_attr_title', 'search_master_key',
     <meta name="msapplication-TileColor" content="#fff">
     <meta name="theme-color" content="#26B683">
 
-    @foreach (json_decode(settings()->get(set_front('meta_list'), '{}')) as $meta)
+    @foreach (json_decode(setting_get(set_front('meta_list'), '{}')) as $meta)
         <!-- custom {{ $meta->name }} meta-->
         {!! $meta->value !!}
     @endforeach

@@ -4,7 +4,7 @@
         $p = 'setting.home';
         $k = "$p.hero";
     @endphp
-    @if (settings()->get("$k.visible"))
+    @if (setting_get("$k.visible"))
         <!-- Hero section start here -->
         <section class="about-section padding-tb shape-1">
             <div class="container">
@@ -15,17 +15,17 @@
                                 <div class="lab-content">
                                     <div class="header-title text-start m-0">
                                         <h2 class="mb-0">
-                                            {!! settings()->get("$k.judul") !!} s
+                                            {!! setting_get("$k.judul") !!} s
                                         </h2>
                                     </div>
                                     <h5 class="my-4">
-                                        {!! settings()->get("$k.sub_judul") !!}
+                                        {!! setting_get("$k.sub_judul") !!}
                                     </h5>
                                     <p>
-                                        {!! settings()->get("$k.deskripsi") !!}
+                                        {!! setting_get("$k.deskripsi") !!}
                                     </p>
-                                    <a href="{!! str_parse(settings()->get("$k.tombol_link")) !!}" class="lab-btn mt-4">
-                                        {!! settings()->get("$k.tombol_title") !!}
+                                    <a href="{!! str_parse(setting_get("$k.tombol_link")) !!}" class="lab-btn mt-4">
+                                        {!! setting_get("$k.tombol_title") !!}
                                     </a>
                                 </div>
                             </div>
@@ -41,7 +41,7 @@
                                             <div class="about-circle"></div>
                                         </div>
                                         <div class="about-fg-img">
-                                            <img class="lazy" alt="hero-image" data-src="{!! asset(settings()->get("$k.foto")) !!}">
+                                            <img class="lazy" alt="hero-image" data-src="{!! asset(setting_get("$k.foto")) !!}">
                                         </div>
                                     </div>
                                 </div>
@@ -55,7 +55,7 @@
     @endif
 
     @php $k = "$p.program_pembelajaran"; @endphp
-    @if (settings()->get("$k.visible"))
+    @if (setting_get("$k.visible"))
         <!-- Feature Section Start Here -->
         <section class="feature-section bg-ash padding-tb">
             <div class="container">
@@ -82,15 +82,15 @@
     @endif
 
     @php $k = "$p.pengurus"; @endphp
-    @if (settings()->get("$k.visible"))
+    @if (setting_get("$k.visible"))
         <!-- Team section start here -->
         <div class="team-section padding-tb shape-2">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
                         <div class="header-title">
-                            <h5>{!! settings()->get("$k.title") !!}</h5>
-                            <h2>{!! settings()->get("$k.sub_title") !!}</h2>
+                            <h5>{!! setting_get("$k.title") !!}</h5>
+                            <h2>{!! setting_get("$k.sub_title") !!}</h2>
                         </div>
                     </div>
                     <div class="col-12">
@@ -170,15 +170,15 @@
     @endif
 
     @php $k = "$p.galeri"; @endphp
-    @if (settings()->get("$k.visible"))
+    @if (setting_get("$k.visible"))
         <!-- Galeri Section start here -->
         <section class="event-section padding-b">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
                         <div class="header-title">
-                            <h5>{!! settings()->get("$k.title") !!}</h5>
-                            <h2>{!! settings()->get("$k.sub_title") !!}</h2>
+                            <h5>{!! setting_get("$k.title") !!}</h5>
+                            <h2>{!! setting_get("$k.sub_title") !!}</h2>
                         </div>
                     </div>
                     <div class="col-12">
@@ -263,9 +263,9 @@
     @endif
 
     @php $k = "$p.kata_kata"; @endphp
-    @if (settings()->get("$k.visible"))
+    @if (setting_get("$k.visible"))
         <!-- Qoute Section start Here -->
-        <div class="qoute-section padding-tb" style="background-image: url({{ asset(settings()->get("$k.image")) }})">
+        <div class="qoute-section padding-tb" style="background-image: url({{ asset(setting_get("$k.image")) }})">
             <div class="qoute-section-wrapper">
                 <div class="qoute-overlay"></div>
                 <div class="container">
@@ -300,15 +300,15 @@
     @endif
 
     @php $k = "setting.contact.faq"; @endphp
-    @if (settings()->get("$k.visible"))
+    @if (setting_get("$k.visible"))
         <!-- FAQ section start here -->
         <section class="service-section padding-tb padding-b shape-2">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
                         <div class="header-title">
-                            <h5>{{ settings()->get("$k.title") }}</h5>
-                            <h2>{{ settings()->get("$k.sub_title") }}</h2>
+                            <h5>{{ setting_get("$k.title") }}</h5>
+                            <h2>{{ setting_get("$k.sub_title") }}</h2>
                         </div>
                     </div>
                     <div class="col-12">
@@ -345,15 +345,15 @@
     @endif
 
     @php $k = "$p.artikel"; @endphp
-    @if (settings()->get("$k.visible"))
+    @if (setting_get("$k.visible"))
         <!-- Artikel section start here -->
         <section class="service-section padding-b">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
                         <div class="header-title">
-                            <h5>{{ settings()->get("$k.title") }}</h5>
-                            <h2>{{ settings()->get("$k.sub_title") }}</h2>
+                            <h5>{{ setting_get("$k.title") }}</h5>
+                            <h2>{{ setting_get("$k.sub_title") }}</h2>
                         </div>
                     </div>
                     <div class="col-12">

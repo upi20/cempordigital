@@ -15,7 +15,7 @@
                     <h3 class="card-title">{{ $title }}</h3>
                     <label class="custom-switch form-switch">
                         <input type="checkbox" name="visible" form="{{ $name }}-form" class="custom-switch-input"
-                            {{ settings()->get($s("$name.visible")) ? 'checked' : '' }}>
+                            {{ setting_get($s("$name.visible")) ? 'checked' : '' }}>
                         <span class="custom-switch-indicator"></span>
                         <span class="custom-switch-description">Tampilkan</span>
                     </label>
@@ -27,20 +27,20 @@
                             <label class="form-label" for="{{ $s("$name.judul") }}">Judul
                                 <span class="text-danger">*</span></label>
                             <input type="text" id="{{ $s("$name.judul") }}" name="judul" class="form-control"
-                                placeholder="Judul" value="{{ settings()->get($s("$name.judul")) }}" required />
+                                placeholder="Judul" value="{{ setting_get($s("$name.judul")) }}" required />
                         </div>
                         <div class="form-group">
                             <label class="form-label" for="{{ $s("$name.sub_judul") }}">Sub Judul
                                 <span class="text-danger">*</span></label>
                             <input type="text" id="{{ $s("$name.sub_judul") }}" name="sub_judul" class="form-control"
-                                placeholder="Sub Judul" value="{{ settings()->get($s("$name.sub_judul")) }}" required />
+                                placeholder="Sub Judul" value="{{ setting_get($s("$name.sub_judul")) }}" required />
                         </div>
 
                         <div class="form-group">
                             <label class="form-label" for="{{ $s("$name.deskripsi") }}">Deskripsi
                                 <span class="text-danger">*</span></label>
                             <textarea type="text" id="{{ $s("$name.deskripsi") }}" name="deskripsi" class="form-control" placeholder="Sub Judul"
-                                required rows="3">{!! settings()->get($s("$name.deskripsi")) !!}</textarea>
+                                required rows="3">{!! setting_get($s("$name.deskripsi")) !!}</textarea>
                         </div>
 
                         <div class="form-group">
@@ -48,20 +48,20 @@
                                 <span class="text-danger">*</span></label>
                             <input type="text" id="{{ $s("$name.tombol_title") }}" name="tombol_title"
                                 class="form-control" placeholder="Teks Tombol"
-                                value="{{ settings()->get($s("$name.tombol_title")) }}" required />
+                                value="{{ setting_get($s("$name.tombol_title")) }}" required />
                         </div>
                         <div class="form-group">
                             <label class="form-label" for="{{ $s("$name.tombol_link") }}">Tombol Link
                                 <span class="text-danger">*</span></label>
                             <input type="text" id="{{ $s("$name.tombol_link") }}" name="tombol_link"
                                 class="form-control" placeholder="Tombol Link"
-                                value="{{ settings()->get($s("$name.tombol_link")) }}" required />
+                                value="{{ setting_get($s("$name.tombol_link")) }}" required />
                         </div>
 
                         <div class="form-group">
                             <label class="form-label">Foto
                                 <span class="badge bg-primary" id="foto"
-                                    onclick='viewImage(`{{ settings()->get($s("$name.foto")) }}`, `{{ $title }} Image View`)'>
+                                    onclick='viewImage(`{{ setting_get($s("$name.foto")) }}`, `{{ $title }} Image View`)'>
                                     Lihat
                                 </span>
                             </label>
@@ -90,7 +90,7 @@
                     <h3 class="card-title">Pengaturan {{ $title }} </h3>
                     <label class="custom-switch form-switch">
                         <input type="checkbox" name="visible" form="{{ $name }}-form" class="custom-switch-input"
-                            {{ settings()->get($s("$name.visible")) ? 'checked' : '' }}>
+                            {{ setting_get($s("$name.visible")) ? 'checked' : '' }}>
                         <span class="custom-switch-indicator"></span>
                         <span class="custom-switch-description">Tampilkan</span>
                     </label>
@@ -101,7 +101,7 @@
                             <label class="form-label" for="{{ $s("$name.title") }}">Judul
                                 <span class="text-danger">*</span></label>
                             <input type="text" id="{{ $s("$name.title") }}" name="title" class="form-control"
-                                placeholder="Judul" value="{{ settings()->get($s("$name.title")) }}" required />
+                                placeholder="Judul" value="{{ setting_get($s("$name.title")) }}" required />
                         </div>
 
                         <div class="form-group">
@@ -109,7 +109,7 @@
                                 <span class="text-danger">*</span></label>
                             <input type="text" id="{{ $s("$name.sub_title") }}" name="sub_title"
                                 class="form-control" placeholder="Sub Judul"
-                                value="{{ settings()->get($s("$name.sub_title")) }}" required />
+                                value="{{ setting_get($s("$name.sub_title")) }}" required />
                         </div>
                     </form>
                 </div>
@@ -132,7 +132,7 @@
                     <h3 class="card-title">Pengaturan {{ $title }} </h3>
                     <label class="custom-switch form-switch">
                         <input type="checkbox" name="visible" form="{{ $name }}-form"
-                            class="custom-switch-input" {{ settings()->get($s("$name.visible")) ? 'checked' : '' }}>
+                            class="custom-switch-input" {{ setting_get($s("$name.visible")) ? 'checked' : '' }}>
                         <span class="custom-switch-indicator"></span>
                         <span class="custom-switch-description">Tampilkan</span>
                     </label>
@@ -143,7 +143,7 @@
                             <label class="form-label" for="{{ $s("$name.title") }}">Judul
                                 <span class="text-danger">*</span></label>
                             <input type="text" id="{{ $s("$name.title") }}" name="title" class="form-control"
-                                placeholder="Judul" value="{{ settings()->get($s("$name.title")) }}" required />
+                                placeholder="Judul" value="{{ setting_get($s("$name.title")) }}" required />
                         </div>
 
                         <div class="form-group">
@@ -151,7 +151,7 @@
                                 <span class="text-danger">*</span></label>
                             <input type="text" id="{{ $s("$name.sub_title") }}" name="sub_title"
                                 class="form-control" placeholder="Sub Judul"
-                                value="{{ settings()->get($s("$name.sub_title")) }}" required />
+                                value="{{ setting_get($s("$name.sub_title")) }}" required />
                         </div>
                     </form>
                 </div>

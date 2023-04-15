@@ -11,11 +11,11 @@
                     <label class="form-label" for="judul">Judul
                         <span class="text-danger">*</span></label>
                     <input type="text" id="judul" name="judul" class="form-control" placeholder="Judul"
-                        value="{{ settings()->get('about.judul') }}" required />
+                        value="{{ setting_get('about.judul') }}" required />
                 </div>
                 <div class="form-group">
                     <label><strong>Deskripsi :</strong></label>
-                    <textarea class="summernote" name="about">{!! settings()->get('about.html') !!}</textarea>
+                    <textarea class="summernote" name="about">{!! setting_get('about.html') !!}</textarea>
                 </div>
             </form>
         </div>

@@ -39,7 +39,7 @@ class KontakController extends Controller
     public function faq(Request $request)
     {
         $page_attr = [
-            'title' => settings()->get('setting.contact.faq.title'),
+            'title' => setting_get('setting.contact.faq.title'),
         ];
 
         $faqs = FAQ::where('status', '=', 1)->get();
