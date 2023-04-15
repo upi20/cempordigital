@@ -12,7 +12,7 @@ return [
     ],
 
     'log_events' => [
-        'on_create'     => false,
+        'on_create'     => true,
         'on_edit'       => true,
         'on_delete'     => true,
         'on_login'      => true,
