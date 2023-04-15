@@ -111,10 +111,10 @@ class FAQController extends Controller
 
     public function setting(Request $request)
     {
-        settings()->set('setting.contact.faq.visible', $request->visible !== null)->save();
-        settings()->set('setting.contact.faq.title', $request->title)->save();
-        settings()->set('setting.contact.faq.sub_title', $request->sub_title)->save();
-        settings()->set('setting.contact.faq.description', $request->description)->save();
+        setting_set('setting.contact.faq.visible', $request->visible !== null);
+        setting_set('setting.contact.faq.title', $request->title);
+        setting_set('setting.contact.faq.sub_title', $request->sub_title);
+        setting_set('setting.contact.faq.description', $request->description);
         return response()->json();
     }
 }

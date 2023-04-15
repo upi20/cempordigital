@@ -143,7 +143,7 @@ class ProgramPembelajaranController extends Controller
 
     public function setting(Request $request)
     {
-        settings()->set("$this->key.visible", $request->visible != null)->save();
+        setting_set("$this->key.visible", $request->visible != null);
         return response()->json();
     }
 }

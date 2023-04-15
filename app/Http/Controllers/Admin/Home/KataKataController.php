@@ -114,7 +114,7 @@ class KataKataController extends Controller
 
     public function setting(Request $request)
     {
-        settings()->set("$this->key.visible", $request->visible != null)->save();
+        setting_set("$this->key.visible", $request->visible != null);
 
         $key = 'image';
         $current = settings()->get("$this->key.$key");
@@ -130,7 +130,7 @@ class KataKataController extends Controller
             $image->move(public_path($folder), $foto);
             $current = $foto;
             // save foto
-            settings()->set("$this->key.$key", $foto)->save();
+            setting_set("$this->key.$key", $foto);
         }
 
         return response()->json(['foto' => $current]);

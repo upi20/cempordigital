@@ -34,12 +34,12 @@ class HomeController extends Controller
     public function hero(Request $request)
     {
         $this->pre = 'hero';
-        settings()->set($this->s('visible'), $request->visible != null)->save();
-        settings()->set($this->s('deskripsi'), $request->deskripsi)->save();
-        settings()->set($this->s('tombol_title'), $request->tombol_title)->save();
-        settings()->set($this->s('tombol_link'), $request->tombol_link)->save();
-        settings()->set($this->s('judul'), $request->judul)->save();
-        settings()->set($this->s('sub_judul'), $request->sub_judul)->save();
+        setting_set($this->s('visible'), $request->visible != null);
+        setting_set($this->s('deskripsi'), $request->deskripsi);
+        setting_set($this->s('tombol_title'), $request->tombol_title);
+        setting_set($this->s('tombol_link'), $request->tombol_link);
+        setting_set($this->s('judul'), $request->judul);
+        setting_set($this->s('sub_judul'), $request->sub_judul);
 
         // image
         $key = 'foto';
@@ -57,7 +57,7 @@ class HomeController extends Controller
             $image->move(public_path($folder), $foto);
 
             // save foto
-            settings()->set($this->s($key), $foto)->save();
+            setting_set($this->s($key), $foto);
         }
         return response()->json();
     }
@@ -65,18 +65,18 @@ class HomeController extends Controller
     public function galeri(Request $request)
     {
         $this->pre = 'galeri';
-        settings()->set($this->s('visible'), $request->visible != null)->save();
-        settings()->set($this->s('title'), $request->title)->save();
-        settings()->set($this->s('sub_title'), $request->sub_title)->save();
+        setting_set($this->s('visible'), $request->visible != null);
+        setting_set($this->s('title'), $request->title);
+        setting_set($this->s('sub_title'), $request->sub_title);
         return response()->json();
     }
 
     public function artikel(Request $request)
     {
         $this->pre = 'artikel';
-        settings()->set($this->s('visible'), $request->visible != null)->save();
-        settings()->set($this->s('title'), $request->title)->save();
-        settings()->set($this->s('sub_title'), $request->sub_title)->save();
+        setting_set($this->s('visible'), $request->visible != null);
+        setting_set($this->s('title'), $request->title);
+        setting_set($this->s('sub_title'), $request->sub_title);
         return response()->json();
     }
 

@@ -43,13 +43,13 @@ class VisiMisiController extends Controller
 
     public function update(Request $request)
     {
-        settings()->set("$this->key.visible", $request->visible != null)->save();
-        settings()->set("$this->key.title", $request->title)->save();
-        settings()->set("$this->key.sub_title", $request->sub_title)->save();
-        settings()->set("$this->key.visi", $request->visi)->save();
-        settings()->set("$this->key.visi_title", $request->visi_title)->save();
-        settings()->set("$this->key.misi", $request->misi)->save();
-        settings()->set("$this->key.misi_title", $request->misi_title)->save();
+        setting_set("$this->key.visible", $request->visible != null);
+        setting_set("$this->key.title", $request->title);
+        setting_set("$this->key.sub_title", $request->sub_title);
+        setting_set("$this->key.visi", $request->visi);
+        setting_set("$this->key.visi_title", $request->visi_title);
+        setting_set("$this->key.misi", $request->misi);
+        setting_set("$this->key.misi_title", $request->misi_title);
 
         // image
         $key = 'visi_image';
@@ -67,7 +67,7 @@ class VisiMisiController extends Controller
             $image->move(public_path($folder), $foto);
             $visi_image = $foto;
             // save foto
-            settings()->set("$this->key.$key", $foto)->save();
+            setting_set("$this->key.$key", $foto);
         }
 
         $key = 'misi_image';
@@ -85,7 +85,7 @@ class VisiMisiController extends Controller
             $image->move(public_path($folder), $foto);
             $misi_image = $foto;
             // save foto
-            settings()->set("$this->key.$key", $foto)->save();
+            setting_set("$this->key.$key", $foto);
         }
 
         return response()->json(compact('misi_image', 'visi_image'));

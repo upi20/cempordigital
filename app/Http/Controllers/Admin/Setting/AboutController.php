@@ -26,8 +26,8 @@ class AboutController extends Controller
     public function update(Request $request)
     {
         $detail = Summernote::update($request->about, '/assets/about', '');
-        settings()->set('about.html', $detail->html)->save();
-        settings()->set('about.judul', $request->judul)->save();
+        setting_set('about.html', $detail->html);
+        setting_set('about.judul', $request->judul);
         return response()->json();
     }
 }

@@ -8,6 +8,7 @@ use Illuminate\Support\Facades\Blade;
 use MatthiasMullie\Minify\JS;
 use MatthiasMullie\Minify\CSS;
 use App\Models\Menu\Admin as MenuAdmin;
+use App\Models\SettingActivity;
 
 if (!function_exists('h_prefix_uri')) {
     function h_prefix_uri(?string $param = null, int $min = 0)
@@ -441,5 +442,37 @@ if (!function_exists('l_prefix')) {
     {
         $prefix_uri = l_prefix_uri($prefix, $param, $min);
         return str_replace('/', '.', $prefix_uri);
+    }
+}
+
+// setting activity
+if (!function_exists('setting_get')) {
+    function setting_get($key, $default = null)
+    {
+        return settings()->get($key, $default);
+    }
+}
+
+if (!function_exists('setting_set')) {
+    function setting_set($key, $value)
+    {
+        if (is_array($value) || is_object($value)) {
+            $value = json_encode($value);
+        } else if (is_bool($value)) {
+            $value = $value ? 1 : 0;
+        }
+        // tracking
+        $setting = SettingActivity::where('key', $key)->first();
+        if (is_null($setting)) {
+            $setting = new SettingActivity();
+            $setting->key = $key;
+            $setting->value = $value;
+        } else {
+            // parse to string
+            $setting->value = $value;
+        }
+        $setting->save();
+
+        return settings()->set($key, $value)->save();
     }
 }

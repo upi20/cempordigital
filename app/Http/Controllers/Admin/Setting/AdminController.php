@@ -29,9 +29,9 @@ class AdminController extends Controller
     public function save_app(Request $request)
     {
         $result = [];
-        settings()->set(set_admin('app.title'), $request->title)->save();
-        settings()->set(set_admin('app.copyright'), $request->copyright)->save();
-        settings()->set(set_admin('app.preloader'), !is_null($request->preloader))->save();
+        setting_set(set_admin('app.title'), $request->title);
+        setting_set(set_admin('app.copyright'), $request->copyright);
+        setting_set(set_admin('app.preloader'), !is_null($request->preloader));
 
         // logo
         // dark mode
@@ -50,7 +50,7 @@ class AdminController extends Controller
             $image->move(public_path($this->folder_logo), $foto);
 
             // save foto
-            settings()->set(set_admin("app.$key"), $foto)->save();
+            setting_set(set_admin("app.$key"), $foto);
             $result[count($result) - 1] = [$key => $foto];
         }
 
@@ -70,7 +70,7 @@ class AdminController extends Controller
             $image->move(public_path($this->folder_logo), $foto);
 
             // save foto
-            settings()->set(set_admin("app.$key"), $foto)->save();
+            setting_set(set_admin("app.$key"), $foto);
             $result[count($result) - 1] = [$key => $foto];
         }
 
@@ -91,7 +91,7 @@ class AdminController extends Controller
             $image->move(public_path($this->folder_logo), $foto);
 
             // save foto
-            settings()->set(set_admin("app.$key"), $foto)->save();
+            setting_set(set_admin("app.$key"), $foto);
             $result[count($result) - 1] = [$key => $foto];
         }
 
@@ -111,7 +111,7 @@ class AdminController extends Controller
             $image->move(public_path($this->folder_logo), $foto);
 
             // save foto
-            settings()->set(set_admin("app.$key"), $foto)->save();
+            setting_set(set_admin("app.$key"), $foto);
             $result[count($result) - 1] = [$key => $foto];
         }
         return response()->json($result);
@@ -120,9 +120,9 @@ class AdminController extends Controller
     public function save_meta(Request $request)
     {
         $result = [];
-        settings()->set(set_admin('meta.author'), $request->author)->save();
-        settings()->set(set_admin('meta.keyword'), $request->keyword)->save();
-        settings()->set(set_admin('meta.description'), $request->description)->save();
+        setting_set(set_admin('meta.author'), $request->author);
+        setting_set(set_admin('meta.keyword'), $request->keyword);
+        setting_set(set_admin('meta.description'), $request->description);
 
         // logo
         $key = 'image';
@@ -140,7 +140,7 @@ class AdminController extends Controller
             $image->move(public_path($folder), $foto);
 
             // save foto
-            settings()->set(set_admin("meta.$key"), $foto)->save();
+            setting_set(set_admin("meta.$key"), $foto);
             $result[count($result) - 1] = [$key => $foto];
         }
 
@@ -157,7 +157,7 @@ class AdminController extends Controller
     private function meta_list_set($list)
     {
         $list = json_encode($list);
-        settings()->set(set_admin("meta_list"), $list)->save();
+        setting_set(set_admin("meta_list"), $list);
 
         return $this->meta_list_get();
     }

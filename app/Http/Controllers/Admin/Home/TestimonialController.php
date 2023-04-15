@@ -151,8 +151,8 @@ class TestimonialController extends Controller
 
     public function setting(Request $request)
     {
-        settings()->set("$this->key.visible", $request->visible != null)->save();
-        settings()->set("$this->key.title", $request->title)->save();
+        setting_set("$this->key.visible", $request->visible != null);
+        setting_set("$this->key.title", $request->title);
         return response()->json([]);
     }
 }

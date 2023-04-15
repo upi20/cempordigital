@@ -114,8 +114,8 @@ class ListContactController extends Controller
 
     public function setting(Request $request)
     {
-        settings()->set('setting.contact.list.title', $request->title)->save();
-        settings()->set('setting.contact.list.sub_title', $request->sub_title)->save();
+        setting_set('setting.contact.list.title', $request->title);
+        setting_set('setting.contact.list.sub_title', $request->sub_title);
         return response()->json();
     }
 }

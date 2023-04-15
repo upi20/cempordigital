@@ -41,17 +41,17 @@ class MessageController extends Controller
 
     public function setting(Request $request)
     {
-        settings()->set('setting.contact.message.title', $request->title)->save();
-        settings()->set('setting.contact.message.sub_title', $request->sub_title)->save();
+        setting_set('setting.contact.message.title', $request->title);
+        setting_set('setting.contact.message.sub_title', $request->sub_title);
 
-        settings()->set('setting.contact.message.name', $request->name)->save();
-        settings()->set('setting.contact.message.name_placeholder', $request->name_placeholder)->save();
-        settings()->set('setting.contact.message.email', $request->email)->save();
-        settings()->set('setting.contact.message.email_placeholder', $request->email_placeholder)->save();
-        settings()->set('setting.contact.message.message', $request->message)->save();
-        settings()->set('setting.contact.message.message_placeholder', $request->message_placeholder)->save();
+        setting_set('setting.contact.message.name', $request->name);
+        setting_set('setting.contact.message.name_placeholder', $request->name_placeholder);
+        setting_set('setting.contact.message.email', $request->email);
+        setting_set('setting.contact.message.email_placeholder', $request->email_placeholder);
+        setting_set('setting.contact.message.message', $request->message);
+        setting_set('setting.contact.message.message_placeholder', $request->message_placeholder);
 
-        settings()->set('setting.contact.message.button_text', $request->button_text)->save();
+        setting_set('setting.contact.message.button_text', $request->button_text);
         return response()->json();
     }
 

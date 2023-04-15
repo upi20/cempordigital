@@ -29,12 +29,12 @@ class FrontController extends Controller
     public function save_app(Request $request)
     {
         $result = [];
-        settings()->set(set_front('app.title'), $request->title)->save();
-        settings()->set(set_front('app.copyright'), $request->copyright)->save();
-        settings()->set(set_front('app.preloader'), !is_null($request->preloader))->save();
-        settings()->set(set_front('app.no_telepon'), $request->no_telepon)->save();
-        settings()->set(set_front('app.no_whatsapp'), $request->no_whatsapp)->save();
-        settings()->set(set_front('app.address'), $request->address)->save();
+        setting_set(set_front('app.title'), $request->title);
+        setting_set(set_front('app.copyright'), $request->copyright);
+        setting_set(set_front('app.preloader'), !is_null($request->preloader));
+        setting_set(set_front('app.no_telepon'), $request->no_telepon);
+        setting_set(set_front('app.no_whatsapp'), $request->no_whatsapp);
+        setting_set(set_front('app.address'), $request->address);
 
         // logo
         // dark mode
@@ -53,7 +53,7 @@ class FrontController extends Controller
             $image->move(public_path($this->folder_logo), $foto);
 
             // save foto
-            settings()->set(set_front("app.$key"), $foto)->save();
+            setting_set(set_front("app.$key"), $foto);
             $result[count($result) - 1] = [$key => $foto];
         }
 
@@ -73,7 +73,7 @@ class FrontController extends Controller
             $image->move(public_path($this->folder_logo), $foto);
 
             // save foto
-            settings()->set(set_front("app.$key"), $foto)->save();
+            setting_set(set_front("app.$key"), $foto);
             $result[count($result) - 1] = [$key => $foto];
         }
 
@@ -94,7 +94,7 @@ class FrontController extends Controller
             $image->move(public_path($this->folder_logo), $foto);
 
             // save foto
-            settings()->set(set_front("app.$key"), $foto)->save();
+            setting_set(set_front("app.$key"), $foto);
             $result[count($result) - 1] = [$key => $foto];
         }
 
@@ -114,7 +114,7 @@ class FrontController extends Controller
             $image->move(public_path($this->folder_logo), $foto);
 
             // save foto
-            settings()->set(set_front("app.$key"), $foto)->save();
+            setting_set(set_front("app.$key"), $foto);
             $result[count($result) - 1] = [$key => $foto];
         }
         return response()->json($result);
@@ -123,9 +123,9 @@ class FrontController extends Controller
     public function save_meta(Request $request)
     {
         $result = [];
-        settings()->set(set_front('meta.author'), $request->author)->save();
-        settings()->set(set_front('meta.keyword'), $request->keyword)->save();
-        settings()->set(set_front('meta.description'), $request->description)->save();
+        setting_set(set_front('meta.author'), $request->author);
+        setting_set(set_front('meta.keyword'), $request->keyword);
+        setting_set(set_front('meta.description'), $request->description);
 
         // logo
         $key = 'image';
@@ -143,7 +143,7 @@ class FrontController extends Controller
             $image->move(public_path($folder), $foto);
 
             // save foto
-            settings()->set(set_front("meta.$key"), $foto)->save();
+            setting_set(set_front("meta.$key"), $foto);
             $result[count($result) - 1] = [$key => $foto];
         }
 
@@ -160,7 +160,7 @@ class FrontController extends Controller
     private function meta_list_set($list)
     {
         $list = json_encode($list);
-        settings()->set(set_front("meta_list"), $list)->save();
+        setting_set(set_front("meta_list"), $list);
 
         return $this->meta_list_get();
     }
