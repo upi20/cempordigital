@@ -135,7 +135,8 @@ class backup extends Command
             'setting' => [
                 HomeSlider::tableName,
                 Tracker::tableName,
-                'sessions'
+                'sessions',
+                'logs',
             ],
             // 'produk' => [
             //     ProdukKategori::tableName,
