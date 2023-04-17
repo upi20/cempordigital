@@ -48,3 +48,7 @@ html.dark-theme .logo-landscape {
 .page-wrapper {
     min-height: 90vh;
 }
+
+.form-group {
+    margin-top: 8px;
+}

@@ -5,20 +5,24 @@
         $prefix_count = $isEdit ? 2 : 1;
         $can_save = $isEdit ? auth_can(h_prefix('insert', $prefix_count)) : auth_can(h_prefix('update', $prefix_count));
     @endphp
+
     <div class="row">
         <div class="col-md-4">
             <div class="card">
-                <div class="card-header d-md-flex flex-row justify-content-between">
-                    <h3 class="card-title">Form {{ $page_attr['title'] }}</h3>
-                    <a class="btn btn-rounded btn-secondary btn-sm" href="{{ route('admin.portfolio') }}">
-                        <i class="fas fa-arrow-left"></i> Kembali
-                    </a>
-                </div>
-                <div class="card-body">
-                    <form method="post" action="" enctype="multipart/form-data" id="MainForm">
+                <div class="card-body p-4">
+                    <div class="d-md-flex flex-row justify-content-between">
+                        <h5 class="mb-4">Form {{ $page_attr['title'] }}</h5>
+                        <div>
+                            <a class="btn btn-rounded btn-secondary btn-sm" href="{{ route('admin.portfolio') }}">
+                                <i class="fas fa-arrow-left"></i> Kembali
+                            </a>
+                        </div>
+                    </div>
+
+                    <form class="row g-3" method="post" action="" enctype="multipart/form-data" id="MainForm">
                         <input type="hidden" name="id" id="portfolio_id" value="{{ $portfolio->id }}" />
                         <input type="hidden" name="isEdit" id="portfolio_isEdit" value="{{ $isEdit ? 1 : 0 }}" />
-                        <div class="form-group">
+                        <div class="col-12">
                             <label for="portfolio_kategori_id">Kategori
                                 <span class="text-danger">*</span>
                             </label>
@@ -33,7 +37,7 @@
                                 @endforeach
                             </select>
                         </div>
-                        <div class="form-group">
+                        <div class="col-12">
                             <div class="mb-2">
                                 @if ($portfolio->foto)
                                     <label for="portfolio_foto">Foto</label>
@@ -46,38 +50,37 @@
                             <input type="file" name="foto" id="portfolio_foto" class="form-control" placeholder="Foto"
                                 {{ $portfolio->foto ? '' : 'required' }} />
                         </div>
-                        <div class="form-group">
+                        <div class="col-12">
                             <label for="portfolio_nama">Nama <span class="text-danger">*</span></label>
                             <input type="text" name="nama" id="portfolio_nama" class="form-control" placeholder="Nama"
                                 value="{{ $portfolio->nama }}" required />
                         </div>
-                        <div class="form-group">
+                        <div class="col-12">
                             <label for="portfolio_keterangan">Keterangan: </label>
                             <textarea name="keterangan" id="portfolio_keterangan" class="form-control" rows="3" placeholder="Keterangan">{{ $portfolio->keterangan }}</textarea>
                         </div>
+                        <div class="col-md-12">
+                            <div class="btn btn-primary" form="MainForm">
+                                <li class="fas fa-save mr-1"></li> Simpan
+                            </div>
+                        </div>
                     </form>
                 </div>
-
-                <div class="card-footer">
-                    <div class="form-group">
-                        <button type="submit" class="btn btn-success" form="MainForm">
-                            <li class="fas fa-save mr-1"></li> Simpan
-                        </button>
-                    </div>
-                </div>
-
             </div>
         </div>
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header d-md-flex flex-row justify-content-between">
-                    <h3 class="card-title">Detail Portfolio</h3>
-                    <button type="button" class="btn btn-rounded btn-primary btn-sm" data-bs-effect="effect-scale"
-                        data-bs-toggle="modal" href="#modal-item" onclick="item_insert()" data-target="#modal-item">
-                        <i class="fas fa-plus"></i> Tambah
-                    </button>
-                </div>
-                <div class="card-body">
+                <div class="card-body p-4">
+                    <div class="d-md-flex flex-row justify-content-between">
+                        <h5 class="mb-4">Detail Portfolio</h5>
+                        <div>
+                            <button type="button" class="btn btn-rounded btn-primary btn-sm" data-bs-effect="effect-scale"
+                                data-bs-toggle="modal" href="#modal-item" onclick="item_insert()" data-target="#modal-item">
+                                <i class="fas fa-plus"></i> Tambah
+                            </button>
+                        </div>
+                    </div>
+
                     <table class="table table-striped table-hover" id="tbl_item">
                         <thead>
                             <tr>
@@ -157,12 +160,13 @@
     </div>
 @endsection
 
+@section('stylesheet')
+    <link href="{{ asset_admin('plugins/datatable/css/dataTables.bootstrap5.min.css') }}" rel="stylesheet" />
+@endsection
+
 @section('javascript')
     <script src="{{ asset_admin('plugins/datatable/js/jquery.dataTables.min.js') }}"></script>
-    <script src="{{ asset_admin('plugins/datatable/js/dataTables.bootstrap5.js') }}"></script>
-    <script src="{{ asset_admin('plugins/datatable/dataTables.responsive.min.js') }}"></script>
-    <script src="{{ asset_admin('plugins/datatable/responsive.bootstrap5.min.js') }}"></script>
-    <script src="{{ asset_admin('plugins/datatable/responsive.bootstrap5.min.js') }}"></script>
+    <script src="{{ asset_admin('plugins/datatable/js/dataTables.bootstrap5.min.js') }}"></script>
     <script src="{{ asset_admin('plugins/loading/loadingoverlay.min.js', name: 'sash') }}"></script>
     <script src="{{ asset_admin('plugins/sweet-alert/sweetalert2.all.js', name: 'sash') }}"></script>
     @php
