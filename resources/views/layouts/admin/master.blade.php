@@ -93,7 +93,6 @@ $notifikasi = beTopNotification();
     <link rel="stylesheet" href="{{ asset_admin('css/header-colors.css') }}" />
     <link rel="stylesheet"
         href="{{ asset_admin('plugins/fontawesome-free-5.15.4-web/css/all.min.css', name: 'sash') }}">
-    <script src="{{ asset_admin('plugins/fontawesome-free-5.15.4-web/js/all.min.js', name: 'sash') }}"></script>
 
     <!-- CSS PLUGINS -->
     @yield('stylesheet')
