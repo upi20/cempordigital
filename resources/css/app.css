@@ -22,6 +22,12 @@ html.dark-theme .logo-landscape {
     display: block;
 }
 
+@media screen and (max-width: 1025px) {
+    .wrapper.toggled:not(.sidebar-hovered) .icon-container {
+        display: none;
+    }
+}
+
 @media screen and (min-width: 1025px) {
     .wrapper.toggled:not(.sidebar-hovered) .sidebar-wrapper .sidebar-header .logo-landscape {
         display: none;
