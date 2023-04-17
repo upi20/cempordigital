@@ -13,10 +13,12 @@
                     <h6 class="mt-2 text-uppercase">Data {{ $page_attr['title'] }}</h6>
                 </div>
                 @if ($can_insert)
-                    <button type="button" class="btn btn-rounded btn-success btn-sm" data-bs-effect="effect-scale"
-                        data-bs-toggle="modal" href="#modal-default" onclick="add()" data-target="#modal-default">
-                        <i class="fas fa-plus"></i> Tambah
-                    </button>
+                    <div>
+                        <button type="button" class="btn btn-rounded btn-primary btn-sm" data-bs-effect="effect-scale"
+                            data-bs-toggle="modal" href="#modal-default" onclick="add()" data-target="#modal-default">
+                            <i class="fas fa-plus"></i> Tambah
+                        </button>
+                    </div>
                 @endif
             </div>
             <hr />

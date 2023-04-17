@@ -150,7 +150,7 @@
             <div class="card">
                 <div class="card-header d-md-flex flex-row justify-content-between">
                     <h3 class="card-title">Data Foto Produk</h3>
-                    <button type="button" class="btn btn-rounded btn-success btn-sm" data-bs-effect="effect-scale"
+                    <button type="button" class="btn btn-rounded btn-primary btn-sm" data-bs-effect="effect-scale"
                         data-bs-toggle="modal" href="#modal-foto" onclick="foto_insert()" data-target="#modal-foto">
                         <i class="fas fa-plus"></i> Tambah
                     </button>
@@ -175,7 +175,7 @@
             <div class="card">
                 <div class="card-header d-md-flex flex-row justify-content-between">
                     <h3 class="card-title">Data Marketplace Produk</h3>
-                    <button type="button" class="btn btn-rounded btn-success btn-sm" data-bs-effect="effect-scale"
+                    <button type="button" class="btn btn-rounded btn-primary btn-sm" data-bs-effect="effect-scale"
                         data-bs-toggle="modal" href="#modal-marketplace" onclick="marketplace_insert()"
                         data-target="#modal-marketplace">
                         <i class="fas fa-plus"></i> Tambah
