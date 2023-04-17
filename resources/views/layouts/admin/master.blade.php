@@ -305,6 +305,7 @@ $notifikasi = beTopNotification();
     <script src="{{ asset_admin('plugins/simplebar/js/simplebar.min.js') }}"></script>
     <script src="{{ asset_admin('plugins/metismenu/js/metisMenu.min.js') }}"></script>
     <script src="{{ resource_loader('app.js') }}"></script>
+    <script src="{{ resource_loader('pages/admin/admin.js') }}"></script>
     @yield('javascript')
 </body>
 

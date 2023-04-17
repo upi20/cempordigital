@@ -122,7 +122,7 @@
     <script src="{{ asset_admin('plugins/charts-c3/d3.v5.min.js') }}"></script>
     <script src="{{ asset_admin('plugins/charts-c3/c3-chart.js') }}"></script>
     <script src="{{ asset_admin('plugins/input-mask/jquery.mask.min.js') }}"></script>
-    <script src="{{ asset_admin('plugins/loading/loadingoverlay.min.js') }}"></script>
+    <script src="{{ asset_admin('plugins/loading/loadingoverlay.min.js', name: 'sash') }}"></script>
     <script src="{{ asset_admin('plugins/sweet-alert/sweetalert2.all.js', name: 'sash') }}"></script>
     <script src="{{ asset_admin('plugins/daterangepicker/moment.min.js') }}"></script>
     <script src="{{ asset_admin('plugins/daterangepicker/daterangepicker.js') }}"></script>

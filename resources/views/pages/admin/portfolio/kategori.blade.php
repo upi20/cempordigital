@@ -7,9 +7,11 @@
         $can_update = auth_can(h_prefix('update'));
         $can_delete = auth_can(h_prefix('delete'));
     @endphp
-    <div class="card">
+    <div class="card mt-3">
         <div class="card-header d-md-flex flex-row justify-content-between">
-            <h3 class="card-title">Data {{ $page_attr['title'] }}</h3>
+            <div>
+                <h6 class="mt-2 text-uppercase">Data {{ $page_attr['title'] }}</h6>
+            </div>
             @if ($can_insert)
                 <button type="button" class="btn btn-rounded btn-success btn-sm" data-bs-effect="effect-scale"
                     data-bs-toggle="modal" href="#modal-default" onclick="add()" data-target="#modal-default">
@@ -74,15 +76,16 @@
     </div>
 @endsection
 
+@section('stylesheet')
+    <link href="{{ asset_admin('plugins/datatable/css/dataTables.bootstrap5.min.css') }}" rel="stylesheet" />
+@endsection
+
 @section('javascript')
     <script src="{{ asset_admin('plugins/datatable/js/jquery.dataTables.min.js') }}"></script>
-    <script src="{{ asset_admin('plugins/datatable/js/dataTables.bootstrap5.js') }}"></script>
-    <script src="{{ asset_admin('plugins/datatable/dataTables.responsive.min.js') }}"></script>
-    <script src="{{ asset_admin('plugins/datatable/responsive.bootstrap5.min.js') }}"></script>
-    <script src="{{ asset_admin('plugins/datatable/responsive.bootstrap5.min.js') }}"></script>
-    <script src="{{ asset_admin('plugins/loading/loadingoverlay.min.js') }}"></script>
+    <script src="{{ asset_admin('plugins/datatable/js/dataTables.bootstrap5.min.js') }}"></script>
+    <script src="{{ asset_admin('plugins/loading/loadingoverlay.min.js', name: 'sash') }}"></script>
     <script src="{{ asset_admin('plugins/sweet-alert/sweetalert2.all.js', name: 'sash') }}"></script>
-    <script src="{{ asset_admin('plugins/select2/js/select2.full.min.js') }}"></script>
+    <script src="{{ asset_admin('plugins/select2/js/select2.full.min.js', name: 'sash') }}"></script>
     @php
         $resource = resource_loader(
             blade_path: $view,
