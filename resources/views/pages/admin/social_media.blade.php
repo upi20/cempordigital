@@ -137,7 +137,7 @@
     <script src="{{ asset_admin('plugins/datatable/dataTables.responsive.min.js') }}"></script>
     <script src="{{ asset_admin('plugins/datatable/responsive.bootstrap5.min.js') }}"></script>
     <script src="{{ asset_admin('plugins/datatable/responsive.bootstrap5.min.js') }}"></script>
-    <script src="{{ asset_admin('plugins/sweet-alert/sweetalert2.all.js') }}"></script>
+    <script src="{{ asset_admin('plugins/sweet-alert/sweetalert2.all.js', name: 'sash') }}"></script>
     @php
         $resource = resource_loader(
             blade_path: $view,

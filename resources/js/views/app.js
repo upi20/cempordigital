@@ -1,6 +1,7 @@
 $(function () {
     "use strict";
-
+    let render_bg_themes = true;
+    const asset_admin = "{{asset_admin('')}}";
     $(".mobile-search-icon").on("click", function () {
         $(".search-bar").addClass("full-search-bar");
     });
@@ -107,6 +108,17 @@ $(function () {
         setSideBarColor(0);
         setHeaderColor(0);
     });
+
+    $('.switcher-btn').click(function () {
+        if (!render_bg_themes) {
+            return;
+        }
+        const totalSidebar = 8;
+        for (let i = 1; i <= totalSidebar; i++) {
+            $(`.switcher-wrapper .sidebarcolor${i}`).css('background-image', `url(${asset_admin}images/bg-themes/${i}.png)`);
+        }
+        render_bg_themes = false;
+    });
 });
 
 function setDarkMode(darkMode) {
@@ -148,15 +160,22 @@ function setTheme(theme) {
 
 function setSideBarColor(number) {
     const totalSidebar = 8;
-    $('html').removeClass('color-sidebar');
+    const html = $('html');
+    html.removeClass('color-sidebar');
+    $(`.sidebar-wrapper`).removeAttr('style');
     for (let i = 1; i <= totalSidebar; i++) {
         if (number == i) {
-            $('html').addClass(`sidebarcolor${i}`);
-            $('html').addClass('color-sidebar');
+            html.addClass(`sidebarcolor${i}`);
+            html.addClass('color-sidebar');
         } else {
-            $('html').removeClass(`sidebarcolor${i}`);
+            html.removeClass(`sidebarcolor${i}`);
         }
     }
+
+    if (number != 0) {
+        $(`.sidebar-wrapper`).css('background-image', `url(${asset_admin}images/bg-themes/${number}.png)`)
+    }
+
     localStorage.setItem('sidebarcolor', number);
 }
 
@@ -172,4 +191,18 @@ function setHeaderColor(number) {
         }
     }
     localStorage.setItem('headercolor', number);
+}
+const asset_admin = "{{ asset_admin('') }}";
+// set theme
+if (templateTheme) {
+    setTheme(templateTheme);
+}
+
+const templateSidebarColor = localStorage.getItem('sidebarcolor');
+if (templateSidebarColor) {
+    setSideBarColor(templateSidebarColor);
+}
+const templateHeaderColor = localStorage.getItem('headercolor');
+if (templateHeaderColor) {
+    setHeaderColor(templateHeaderColor);
 }

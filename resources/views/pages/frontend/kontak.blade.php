@@ -77,7 +77,7 @@
 
 @section('javascript')
     {{-- sweetalert --}}
-    <script src="{{ asset_admin('plugins/sweet-alert/sweetalert2.all.js') }}"></script>
+    <script src="{{ asset_admin('plugins/sweet-alert/sweetalert2.all.js', name: 'sash') }}"></script>
     {{-- Main script --}}
     <script src="{{ resource_loader('pages/frontend/kontak.js') }}"></script>
 @endsection

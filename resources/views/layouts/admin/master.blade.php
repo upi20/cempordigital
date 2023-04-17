@@ -304,23 +304,7 @@ $notifikasi = beTopNotification();
     <script src="{{ asset_admin('js/jquery.min.js') }}"></script>
     <script src="{{ asset_admin('plugins/simplebar/js/simplebar.min.js') }}"></script>
     <script src="{{ asset_admin('plugins/metismenu/js/metisMenu.min.js') }}"></script>
-    <script src="{{ asset_admin('js/app.js') }}"></script>
-    <script>
-        // set theme
-        if (templateTheme) {
-            setTheme(templateTheme);
-        }
-
-        const templateSidebarColor = localStorage.getItem('sidebarcolor');
-        if (templateSidebarColor) {
-            setSideBarColor(templateSidebarColor);
-        }
-        const templateHeaderColor = localStorage.getItem('headercolor');
-        if (templateHeaderColor) {
-            setHeaderColor(templateHeaderColor);
-        }
-    </script>
-
+    <script src="{{ resource_loader('app.js') }}"></script>
     @yield('javascript')
 </body>
 

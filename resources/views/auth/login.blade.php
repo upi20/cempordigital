@@ -25,6 +25,6 @@
     </div>
 @endsection
 @section('javascript')
-    <script src="{{ asset_admin('plugins/sweet-alert/sweetalert2.all.js') }}"></script>
+    <script src="{{ asset_admin('plugins/sweet-alert/sweetalert2.all.js', name: 'sash') }}"></script>
     <script src="{{ resource_loader('pages/admin/auth/login.js', params: ['redirect' => $redirect]) }}"></script>
 @endsection

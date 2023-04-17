@@ -52,7 +52,7 @@
     </div>
 @endsection
 @section('javascript')
-    <script src="{{ asset_admin('plugins/sweet-alert/sweetalert2.all.js') }}"></script>
+    <script src="{{ asset_admin('plugins/sweet-alert/sweetalert2.all.js', name: 'sash') }}"></script>
     <script src="{{ asset_admin('plugins/bootstrap4-duallistbox/4.0.1/jquery.bootstrap-duallistbox.min.js') }}"></script>
     @php
         $resource = resource_loader(

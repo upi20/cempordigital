@@ -215,7 +215,7 @@ $page_attr_title = ($page_attr->title == '' ? '' : $page_attr->title . ' | ') . 
     <!-- CUSTOM JS -->
     <script src="{{ asset_admin('js/custom.js') }}"></script>
 
-    <script src="{{ asset_admin('plugins/sweet-alert/sweetalert2.all.js') }}"></script>
+    <script src="{{ asset_admin('plugins/sweet-alert/sweetalert2.all.js', name: 'sash') }}"></script>
 
     <script src="{{ asset_admin('plugins/particle/particles.js') }}"></script>
 
