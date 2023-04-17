@@ -1,7 +1,6 @@
 @extends('layouts.admin.master')
 
 @section('content')
-    <input type="text" id="clipboard" style="position: fixed; top:-50px">
     @php
         $can_insert = auth_can(h_prefix('insert'));
         $can_update = auth_can(h_prefix('update'));

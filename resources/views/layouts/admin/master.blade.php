@@ -121,7 +121,7 @@ $notifikasi = beTopNotification();
 </head>
 
 <body>
-    <!--wrapper-->
+    <input type="text" id="clipboard" style="position: fixed; top:-50px">
     <div class="wrapper">
         @include('layouts.admin.body.sidebar', [
             'page_attr' => $page_attr,
