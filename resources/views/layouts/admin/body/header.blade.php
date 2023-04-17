@@ -1,87 +1,61 @@
-<!-- app-Header -->
-<div class="app-header header sticky">
-    <div class="container-fluid main-container">
-        <div class="d-flex flex-row  justify-content-between">
-            <!-- sidebar-toggle-->
-            <div>
-                <a aria-label="Hide Sidebar" class="app-sidebar__toggle" data-bs-toggle="sidebar" href="javascript:void(0)">
-                </a>
+<!--start header -->
+<header>
+    <div class="topbar d-flex align-items-center">
+        <nav class="navbar navbar-expand gap-3">
+            <div class="mobile-toggle-menu"><i class='bx bx-menu'></i>
             </div>
-            <div>
-
-                <a class="logo-horizontal " href="{{ url('/admin') }}">
-                    <img style="height: 45px" src="{{ asset(setting_get(set_admin('app.foto_light_landscape_mode'))) }}"
-                        class="header-brand-img desktop-logo" alt="logo">
-                    <img style="height: 45px" src="{{ asset(setting_get(set_admin('app.foto_dark_landscape_mode'))) }}"
-                        class="header-brand-img light-logo1" alt="logo">
-                </a>
+            <div class="top-menu ms-auto">
+                <ul class="navbar-nav align-items-center gap-1">
+                    <li class="nav-item dark-mode d-sm-flex">
+                        <a class="nav-link dark-mode-icon" href="javascript:void(0);"><i class='bx bx-moon'></i>
+                        </a>
+                    </li>
+                </ul>
             </div>
+            <div class="user-box dropdown px-3">
+                <a class="d-flex align-items-center nav-link dropdown-toggle gap-3 dropdown-toggle-nocaret"
+                    href="javascript:void(0)" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    @php
+                        $templateProfileFoto = auth()->user()->foto ? asset('assets/profile/' . auth()->user()->foto) : asset_admin('images/profile.png');
+                    @endphp
+                    <img src="{{ $templateProfileFoto }}" class="user-img" alt="{{ auth()->user()->name }}">
 
-            <div class="d-flex order-lg-2 header-right-icons">
-                <button class="navbar-toggler navresponsive-toggler d-lg-none ms-auto" type="button"
-                    data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent-4"
-                    aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon fe fe-more-vertical"></span>
-                </button>
-                <div class="navbar navbar-collapse responsive-navbar p-0">
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent-4">
-                        <div class="d-flex order-lg-2">
-                            <!-- COUNTRY -->
-                            <div class="d-flex country">
-                                <a class="nav-link icon theme-layout layout-setting" title="Dark Mode or Light Mode">
-                                    <span class="dark-layout"><i class="fe fe-moon"></i></span>
-                                    <span class="light-layout"><i class="fe fe-sun"></i></span>
-                                </a>
-                            </div>
-                            <div class="dropdown d-flex">
-                                <a class="nav-link icon full-screen-link nav-link-bg" title="Full Screen">
-                                    <i class="fe fe-minimize fullscreen-button"></i>
-                                </a>
-                            </div>
-                            <!-- SIDE-MENU -->
-                            <div class="dropdown d-flex profile-1">
-                                <a href="javascript:void(0)" data-bs-toggle="dropdown"
-                                    class="nav-link leading-none d-flex">
-                                    @if (auth()->user()->foto)
-                                        <img src="{{ asset('assets/profile/' . auth()->user()->foto) }}"
-                                            alt="profile-user" class="avatar  profile-user brround cover-image"
-                                            id="header_foto_profile">
-                                    @else
-                                        <img src="{{ asset_admin('profile.png') }}" alt="profile-user"
-                                            class="avatar  profile-user brround cover-image" id="header_foto_profile">
-                                    @endif
-                                </a>
-                                <div class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
-                                    <div class="drop-heading">
-                                        <div class="text-center">
-                                            <h5 class="text-dark mb-0 fs-14 fw-semibold">
-                                                {{ ucfirst(auth()->user()->name) }}
-                                            </h5>
-                                            <small
-                                                class="text-muted">{{ ucfirst(
-                                                    implode(
-                                                        ', ',
-                                                        auth()->user()->roles->map(function ($v) {
-                                                                return $v->name;
-                                                            })->toArray(),
-                                                    ),
-                                                ) }}</small>
-                                        </div>
-                                    </div>
-                                    <div class="dropdown-divider m-0"></div>
-                                    <a class="dropdown-item" href="{{ route('admin.password') }}">
-                                        <i class="dropdown-icon fe fe-lock"></i> Ganti Password
-                                    </a>
-                                    <a class="dropdown-item" href="{{ route('login.logout') }}">
-                                        <i class="dropdown-icon fe fe-alert-circle"></i> Sign out
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="user-info">
+                        <p class="user-name mb-0"> {{ ucfirst(auth()->user()->name) }}</p>
+                        <p class="designattion mb-0">
+                            {{ ucfirst(
+                                implode(
+                                    ', ',
+                                    auth()->user()->roles->map(function ($v) {
+                                            return $v->name;
+                                        })->toArray(),
+                                ),
+                            ) }}
+                        </p>
                     </div>
-                </div>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                    <li>
+                        <a class="dropdown-item d-flex align-items-center" href="javascript:void(0);">
+                            <i class="bx bx-user fs-5"></i><span>Profile</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item d-flex align-items-center" href="{{ route('admin.password') }}">
+                            <i class="bx bx-key fs-5"></i><span>Ganti Password</span>
+                        </a>
+                    </li>
+                    <li>
+                        <div class="dropdown-divider mb-0"></div>
+                    </li>
+                    <li>
+                        <a class="dropdown-item d-flex align-items-center" href="{{ route('login.logout') }}">
+                            <i class="bx bx-log-out-circle"></i><span>Logout</span>
+                        </a>
+                    </li>
+                </ul>
             </div>
-        </div>
+        </nav>
     </div>
-</div>
-<!-- /app-Header -->
+</header>
+<!--end header -->

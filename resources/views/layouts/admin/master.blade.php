@@ -15,7 +15,7 @@ $page_attr_title = ($page_attr->title == '' ? '' : $page_attr->title . ' | ') . 
 $notifikasi = beTopNotification();
 ?>
 <!doctype html>
-<html lang="en" dir="ltr">
+<html lang="en">
 
 <head>
     <!-- Favicon -->
@@ -40,7 +40,7 @@ $notifikasi = beTopNotification();
 
     <!-- META DATA -->
     <meta charset="UTF-8">
-    <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=0'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
@@ -70,35 +70,46 @@ $notifikasi = beTopNotification();
     <meta itemprop="description" content="{{ $page_attr->description }}">
     <meta itemprop="image" content="{{ $page_attr->image }}">
 
-    <!-- BOOTSTRAP CSS -->
-    <link id="style" href="{{ asset_admin('plugins/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet" />
+    <!--plugins-->
+    <link href="{{ asset_admin('plugins/simplebar/css/simplebar.css') }}" rel="stylesheet" />
+    <link href="{{ asset_admin('plugins/metismenu/css/metisMenu.min.css') }}" rel="stylesheet" />
 
-    <!-- STYLE CSS -->
-    <link href="{{ asset_admin('css/style.css') }}" rel="stylesheet" />
-    <link href="{{ asset_admin('css/dark-style.css') }}" rel="stylesheet" />
+    @if ($page_attr->loader)
+        <!-- loader-->
+        <link href="{{ asset_admin('css/pace.min.css') }}" rel="stylesheet" />
+        <script src="{{ asset_admin('js/pace.min.js') }}"></script>
+    @endif
 
-    <link href="{{ asset_admin('css/skin-modes.css') }}" rel="stylesheet" />
+    <!-- Bootstrap CSS -->
+    <link href="{{ asset_admin('css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset_admin('css/bootstrap-extended.css') }}" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="{{ asset_admin('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset_admin('css/icons.css') }}" rel="stylesheet">
 
-    <!--- FONT-ICONS CSS -->
-    <link href="{{ asset_admin('css/icons.css') }}" rel="stylesheet" />
-    <link rel="stylesheet" href="{{ asset_admin('plugins/fontawesome-free-5.15.4-web/css/all.min.css') }}">
-
-    <!-- COLOR SKIN CSS -->
-    <link id="theme" rel="stylesheet" type="text/css" media="all"
-        href="{{ asset_admin('colors/color1.css') }}" />
+    <!-- Theme Style CSS -->
+    <link rel="stylesheet" href="{{ asset_admin('css/dark-theme.css') }}" />
+    <link rel="stylesheet" href="{{ asset_admin('css/semi-dark.css') }}" />
+    <link rel="stylesheet" href="{{ asset_admin('css/header-colors.css') }}" />
 
     <!-- CSS PLUGINS -->
     @yield('stylesheet')
 
-    <style>
-        .modal-content {
-            border-radius: 16px;
+    <!-- Dark mode-->
+    <script>
+        const templateHasDarkMode = localStorage.getItem('dark-mode') == 'true';
+        const templateTheme = localStorage.getItem('theme');
+        if (localStorage.getItem('dark-mode') !== null) {
+            if (templateHasDarkMode) {
+                document.querySelector('html').setAttribute('class', 'dark-theme');
+            } else {
+                document.querySelector('html').classList.remove("dark-theme");
+                if (templateTheme) {
+                    document.querySelector('html').classList.add(templateTheme);
+                }
+            }
         }
-
-        .swal2-container {
-            z-index: 9999999999 !important;
-        }
-    </style>
+    </script>
 
     @foreach (json_decode(setting_get(set_admin('meta_list'), '{}')) as $meta)
         <!-- custom {{ $meta->name }} -->
@@ -107,156 +118,207 @@ $notifikasi = beTopNotification();
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
-<body class="app sidebar-mini ltr light-mode">
+<body>
+    <!--wrapper-->
+    <div class="wrapper">
+        @include('layouts.admin.body.sidebar', [
+            'page_attr' => $page_attr,
+            'page_attr_navigation' => $page_attr->navigation,
+        ])
 
-    @if ($page_attr->loader)
-        <!-- GLOBAL-LOADER -->
-        <div id="global-loader" style="background-color: #1a1a3c">
-            <img src="{{ asset(setting_get(set_admin('app.foto_light_mode'))) }}" class="loader-img" alt="Loader"
-                style="max-width: 150px">
-        </div>
-        <!-- /GLOBAL-LOADER -->
-    @endif
+        @include('layouts.admin.body.header')
 
-    <!-- PAGE -->
-    <div class="page">
-        <div class="page-main">
+        <!--start page wrapper -->
+        <div class="page-wrapper">
+            <div class="page-content">
+                @if ($notifikasi->count() > 0)
+                    <div class="pt-5">
+                        @foreach ($notifikasi as $v)
+                            <div class="alert alert-primary alert-dismissible fade show" role="alert">
+                                <span class="alert-inner--text">
+                                    {{ $v->deskripsi }}
+                                    @if ($v->link)
+                                        <a href="{{ $v->link }}" class="fw-bold">{{ $v->link_nama }}</a>
+                                    @endif
+                                </span>
+                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+                                    <span aria-hidden="true">×</span>
+                                </button>
+                            </div>
+                        @endforeach
+                    </div>
+                @endif
 
-            @include('layouts.admin.body.header')
-
-            @include('layouts.admin.body.sidebar', [
-                'page_attr' => $page_attr,
-                'page_attr_navigation' => $page_attr->navigation,
-            ])
-
-            <!--app-content open-->
-            <div class="main-content app-content mt-0">
-                <div class="side-app">
-                    <!-- CONTAINER -->
-                    <div class="main-container container-fluid">
-
-                        @if ($notifikasi)
-                            <div class="pt-5">
-                                @foreach ($notifikasi as $v)
-                                    <div class="alert alert-primary alert-dismissible fade show" role="alert">
-                                        <span class="alert-inner--text">
-                                            {{ $v->deskripsi }}
-                                            @if ($v->link)
-                                                <a href="{{ $v->link }}"
-                                                    class="fw-bold">{{ $v->link_nama }}</a>
+                @if ($page_attr->breadcrumbs)
+                    <!--breadcrumb-->
+                    <div class="page-breadcrumb d-none d-sm-flex align-items-center mb-3">
+                        <div class="breadcrumb-title pe-3">{{ $page_attr->title }}</div>
+                        <div class="ps-3">
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb mb-0 p-0">
+                                    @foreach ($page_attr->breadcrumbs as $breadcrumb)
+                                        <li class="breadcrumb-item">
+                                            @if (isset($breadcrumb['url']))
+                                                @php
+                                                    $url = is_array($breadcrumb['url']) ? route($breadcrumb['url'][0], $breadcrumb['url'][1]) : route($breadcrumb['url']);
+                                                @endphp
+                                                <a href="{{ $url }}"
+                                                    title="Page To {{ $breadcrumb['name'] }}">
+                                                    {{ $breadcrumb['name'] }}
+                                                </a>
+                                            @else
+                                                <span class="text-dark">
+                                                    {{ $breadcrumb['name'] }}
+                                                </span>
                                             @endif
-                                        </span>
-                                        <button type="button" class="btn-close" data-bs-dismiss="alert"
-                                            aria-label="Close">
-                                            <span aria-hidden="true">×</span>
-                                        </button>
-                                    </div>
-                                @endforeach
-                            </div>
-                        @endif
-
-                        @if ($page_attr->breadcrumbs)
-                            <!-- PAGE-HEADER -->
-                            <div class="page-header">
-                                <h1 class="page-title">{{ $page_attr->title }}</h1>
-                                <div>
-                                    <ol class="breadcrumb">
-                                        @foreach ($page_attr->breadcrumbs as $breadcrumb)
-                                            <li class="breadcrumb-item">
-                                                @if (isset($breadcrumb['url']))
-                                                    @php
-                                                        $url = is_array($breadcrumb['url']) ? route($breadcrumb['url'][0], $breadcrumb['url'][1]) : route($breadcrumb['url']);
-                                                    @endphp
-                                                    <a href="{{ $url }}"
-                                                        title="Page To {{ $breadcrumb['name'] }}">
-                                                        {{ $breadcrumb['name'] }}
-                                                    </a>
-                                                @else
-                                                    <span class="text-dark">
-                                                        {{ $breadcrumb['name'] }}
-                                                    </span>
-                                                @endif
-                                            </li>
-                                        @endforeach
-                                        <li class="breadcrumb-item active" aria-current="{{ $page_attr->title }}">
-                                            {{ $page_attr->title }}</li>
-                                    </ol>
-                                </div>
-                            </div>
-                            <!-- PAGE-HEADER END -->
-                        @endif
-                        @yield('content')
+                                        </li>
+                                    @endforeach
+                                </ol>
+                            </nav>
+                        </div>
                     </div>
-                    <!-- CONTAINER END -->
-                </div>
-            </div>
-            <!--app-content close-->
+                @endif
 
-        </div>
+                @yield('content')
 
-        <div class="position-fixed end-0 p-3" style="top: 85px">
-            <div class="toast align-items-center" role="alert" id="toast" aria-live="assertive"
-                aria-atomic="true" data-bs-delay="5000">
-                <div class="d-flex">
-                    <div class="toast-body" id="toast-body">
-                        Hello, world! This is a toast message.
-                    </div>
-
-                    <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"
-                        style="position: absolute;padding: 0.4rem;">x</button>
-                </div>
-                <div class="progress progress-xs mb-0">
-                    <div class="progress-bar bg-blue" style="width: 0%;" id="toast-progresbar"></div>
-                </div>
             </div>
         </div>
-
+        <!--end page wrapper -->
         @include('layouts.admin.body.footer')
-
     </div>
+    <!--end wrapper-->
 
-    <!-- BACK-TO-TOP -->
-    <div style="display: none">
-        <a href="#top" id="back-to-top" class="d-flex align-items-center justify-content-center">
-            <i class="fas fa-arrow-up" style="font-size: 1.5em"></i>
-        </a>
+    <!--start switcher-->
+    <div class="switcher-wrapper">
+        <div class="switcher-btn"> <i class='bx bx-cog bx-spin'></i>
+        </div>
+        <div class="switcher-body">
+            <div class="d-flex align-items-center">
+                <h5 class="mb-0 text-uppercase">Theme Customizer</h5>
+                <button type="button" class="btn-close ms-auto close-switcher" aria-label="Close"></button>
+            </div>
+            <hr />
+            <h6 class="mb-0">Theme Styles</h6>
+            <hr />
+            <div class="d-flex align-items-center justify-content-between">
+                <div class="form-check">
+                    <input class="form-check-input" theme="light-theme" type="radio" name="flexRadioDefault"
+                        id="lightmode" checked>
+                    <label class="form-check-label" for="lightmode">Light</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" theme="dark-theme" type="radio" name="flexRadioDefault"
+                        id="darkmode">
+                    <label class="form-check-label" for="darkmode">Dark</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" theme="semi-dark" type="radio" name="flexRadioDefault"
+                        id="semidark">
+                    <label class="form-check-label" for="semidark">Semi Dark</label>
+                </div>
+            </div>
+            <hr />
+            <div class="form-check">
+                <input class="form-check-input" theme="minimal-theme" type="radio" id="minimaltheme"
+                    name="flexRadioDefault">
+                <label class="form-check-label" for="minimaltheme">Minimal Theme</label>
+            </div>
+            <hr />
+            <h6 class="mb-0">Header Colors</h6>
+            <hr />
+            <div class="header-colors-indigators">
+                <div class="row row-cols-auto g-3">
+                    <div class="col">
+                        <div class="indigator bg-white border headercolorbtn" data-number="0"></div>
+                    </div>
+                    <div class="col">
+                        <div class="indigator headercolor1 headercolorbtn" data-number="1"></div>
+                    </div>
+                    <div class="col">
+                        <div class="indigator headercolor2 headercolorbtn" data-number="2"></div>
+                    </div>
+                    <div class="col">
+                        <div class="indigator headercolor3 headercolorbtn" data-number="3"></div>
+                    </div>
+                    <div class="col">
+                        <div class="indigator headercolor4 headercolorbtn" data-number="4"></div>
+                    </div>
+                    <div class="col">
+                        <div class="indigator headercolor5 headercolorbtn" data-number="5"></div>
+                    </div>
+                    <div class="col">
+                        <div class="indigator headercolor6 headercolorbtn" data-number="6"></div>
+                    </div>
+                    <div class="col">
+                        <div class="indigator headercolor7 headercolorbtn" data-number="7"></div>
+                    </div>
+                    <div class="col">
+                        <div class="indigator headercolor8 headercolorbtn" data-number="8"></div>
+                    </div>
+                </div>
+            </div>
+            <hr />
+            <h6 class="mb-0">Sidebar Colors</h6>
+            <hr />
+            <div class="header-colors-indigators">
+                <div class="row row-cols-auto g-3">
+                    <div class="col">
+                        <div class="indigator bg-white border sidebarcolorbtn" data-number="0"></div>
+                    </div>
+                    <div class="col">
+                        <div class="indigator sidebarcolor1 sidebarcolorbtn" data-number="1"></div>
+                    </div>
+                    <div class="col">
+                        <div class="indigator sidebarcolor2 sidebarcolorbtn" data-number="2"></div>
+                    </div>
+                    <div class="col">
+                        <div class="indigator sidebarcolor3 sidebarcolorbtn" data-number="3"></div>
+                    </div>
+                    <div class="col">
+                        <div class="indigator sidebarcolor4 sidebarcolorbtn" data-number="4"></div>
+                    </div>
+                    <div class="col">
+                        <div class="indigator sidebarcolor5 sidebarcolorbtn" data-number="5"></div>
+                    </div>
+                    <div class="col">
+                        <div class="indigator sidebarcolor6 sidebarcolorbtn" data-number="6"></div>
+                    </div>
+                    <div class="col">
+                        <div class="indigator sidebarcolor7 sidebarcolorbtn" data-number="7"></div>
+                    </div>
+                    <div class="col">
+                        <div class="indigator sidebarcolor8 sidebarcolorbtn" data-number="8"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+    <!--end switcher-->
 
+    <!-- Bootstrap JS -->
+    <script src="{{ asset_admin('js/bootstrap.bundle.min.js') }}"></script>
 
-    <!-- JQUERY JS -->
+    <!--plugins-->
     <script src="{{ asset_admin('js/jquery.min.js') }}"></script>
+    <script src="{{ asset_admin('plugins/simplebar/js/simplebar.min.js') }}"></script>
+    <script src="{{ asset_admin('plugins/metismenu/js/metisMenu.min.js') }}"></script>
+    <script src="{{ asset_admin('js/app.js') }}"></script>
+    <script>
+        // set theme
+        if (templateTheme) {
+            setTheme(templateTheme);
+        }
 
-    <!-- BOOTSTRAP JS -->
-    <script src="{{ asset_admin('plugins/bootstrap/js/popper.min.js') }}"></script>
-    <script src="{{ asset_admin('plugins/bootstrap/js/bootstrap.min.js') }}"></script>
+        const templateSidebarColor = localStorage.getItem('sidebarcolor');
+        if (templateSidebarColor) {
+            setSideBarColor(templateSidebarColor);
+        }
+        const templateHeaderColor = localStorage.getItem('headercolor');
+        if (templateHeaderColor) {
+            setHeaderColor(templateHeaderColor);
+        }
+    </script>
 
-    <!-- SPARKLINE JS-->
-    <script src="{{ asset_admin('js/jquery.sparkline.min.js') }}"></script>
-
-    <!-- Sticky js -->
-    <script src="{{ asset_admin('js/sticky.js') }}"></script>
-
-    <!-- CHART-CIRCLE JS-->
-    <script src="{{ asset_admin('js/circle-progress.min.js') }}"></script>
-
-    <!-- SIDEBAR JS -->
-    <script src="{{ asset_admin('plugins/sidebar/sidebar.js') }}"></script>
-
-    <!-- SIDE-MENU JS-->
-    <script src="{{ asset_admin('plugins/sidemenu/sidemenu.js') }}"></script>
-
-    <!-- Color Theme js -->
-    <script src="{{ asset_admin('js/themeColors.js') }}"></script>
-
-    <!-- CUSTOM JS -->
-    <script src="{{ asset_admin('js/custom.js') }}"></script>
-
-    {{-- scroll --}}
-    <script src="{{ asset_admin('plugins/p-scroll/perfect-scrollbar.js') }}"></script>
-    <script src="{{ asset_admin('plugins/p-scroll/pscroll.js') }}"></script>
-    <script src="{{ asset_admin('plugins/p-scroll/pscroll-1.js') }}"></script>
-    <script src="{{ asset_admin('plugins/fontawesome-free-5.15.4-web/js/all.min.js') }}"></script>
-    <script src="{{ resource_loader('pages/admin/admin.js') }}"></script>
     @yield('javascript')
 </body>
 
