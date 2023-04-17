@@ -73,7 +73,7 @@
             <div class="modal-content modal-content-demo">
                 <div class="modal-header">
                     <h6 class="modal-title" id="modal-image-title">View Foto</h6><button aria-label="Close"
-                        class="btn-close" data-bs-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                        class="btn-close" data-bs-dismiss="modal"><span aria-hidden="true"></span></button>
                 </div>
                 <div class="modal-body">
                     <img src="" class="img-fluid" id="modal-image-element" alt="Icon Pendaftaran">

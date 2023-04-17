@@ -13,7 +13,7 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="form-group">
-                            <label class="form-label" for="name">Name <span class="text-danger">*</span></label>
+                            <label class="form-label mb-1" for="name">Name <span class="text-danger">*</span></label>
                             <input type="text" class="form-control" id="name" name="name"
                                 placeholder="Enter Name" required="" value="{{ $model->name }}" />
                             <input type="hidden" id="id" name="id" value="{{ $model->id }}" />
@@ -21,13 +21,13 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="form-group">
-                            <label class="form-label" for="guard_name">Guard <span class="text-danger">*</span></label>
+                            <label class="form-label mb-1" for="guard_name">Guard <span class="text-danger">*</span></label>
                             <input type="text" class="form-control" id="guard_name" name="guard_name"
                                 placeholder="Enter Guard" required="" value="{{ $model->guard_name }}" />
                         </div>
                     </div>
                 </div>
-                <div class="form-label">Permission <span class="text-danger">*</span></div>
+                <div class="form-label mb-1">Permission <span class="text-danger">*</span></div>
                 <label for="">Description:
                     <i class="fas fa-square text-success"></i> = Page,
                     <i class="fas fa-square"></i> = Feature

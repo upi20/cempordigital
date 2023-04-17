@@ -76,7 +76,7 @@
             <div class="modal-content modal-content-demo">
                 <div class="modal-header">
                     <h6 class="modal-title" id="modal-default-title">Set Status Pendaftaran</h6><button aria-label="Tutup"
-                        class="btn-close" data-bs-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                        class="btn-close" data-bs-dismiss="modal"><span aria-hidden="true"></span></button>
                 </div>
                 <div class="modal-body">
                     <form action="javascript:void(0)" id="MainForm" name="MainForm" method="POST"
@@ -84,7 +84,7 @@
                         <input type="hidden" name="id" id="id">
 
                         <div class="form-group">
-                            <label class="form-label" for="status">Status
+                            <label class="form-label mb-1" for="status">Status
                                 <span class="text-danger">*</span></label>
                             <select class="form-control" style="width: 100%;" required="" id="status" name="status">
                             </select>
@@ -111,7 +111,7 @@
             <div class="modal-content modal-content-demo">
                 <div class="modal-header">
                     <h6 class="modal-title" id="modal-detail-title">Detail</h6><button aria-label="Tutup" class="btn-close"
-                        data-bs-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                        data-bs-dismiss="modal"><span aria-hidden="true"></span></button>
                 </div>
                 <div class="modal-body" id="modal-detail-body">
 

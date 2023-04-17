@@ -42,14 +42,14 @@
                                     </label>
 
                                     <div class="form-group">
-                                        <label class="form-label" for="title">Judul<span
+                                        <label class="form-label mb-1" for="title">Judul<span
                                                 class="text-danger">*</span></label>
                                         <input type="text" id="title" name="title" class="form-control"
                                             placeholder="Judul" value="{{ $setting->title }}" required />
                                     </div>
 
                                     <div class="form-group">
-                                        <label class="form-label" for="sub_title">Sub Judul<span
+                                        <label class="form-label mb-1" for="sub_title">Sub Judul<span
                                                 class="text-danger">*</span></label>
                                         <input type="text" id="sub_title" name="sub_title" class="form-control"
                                             placeholder="Sub Judul" value="{{ $setting->sub_title }}" required />
@@ -119,7 +119,7 @@
             <div class="modal-content modal-content-demo">
                 <div class="modal-header">
                     <h6 class="modal-title" id="modal-default-title"></h6><button aria-label="Close" class="btn-close"
-                        data-bs-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                        data-bs-dismiss="modal"><span aria-hidden="true"></span></button>
                 </div>
                 <div class="modal-body">
                     <form action="javascript:void(0)" id="MainForm" name="MainForm" method="POST"
@@ -128,31 +128,31 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <label class="form-label" for="urutan">Urutan</label>
+                                    <label class="form-label mb-1" for="urutan">Urutan</label>
                                     <input type="number" class="form-control" id="urutan" name="urutan"
                                         placeholder="Urutan Ditampilkan" />
                                 </div>
                                 <div class="form-group">
-                                    <label class="form-label" for="nama">Nama <span
+                                    <label class="form-label mb-1" for="nama">Nama <span
                                             class="text-danger">*</span></label>
                                     <input type="text" class="form-control" id="nama" name="nama"
                                         placeholder="Nama Lengkap" required="" />
                                 </div>
                                 <div class="form-group">
-                                    <label class="form-label" for="sebagai">Sebagai <span
+                                    <label class="form-label mb-1" for="sebagai">Sebagai <span
                                             class="text-danger">*</span></label>
                                     <input type="text" class="form-control" id="sebagai" name="sebagai"
                                         placeholder="Sebagai" required="" />
                                 </div>
                                 <div class="form-group">
-                                    <label class="form-label" for="foto">Foto
+                                    <label class="form-label mb-1" for="foto">Foto
                                         <span class="badge bg-success" id="lihat-foto">Lihat</span>
                                     </label>
                                     <input type="file" class="form-control" id="foto" name="foto" required />
                                 </div>
 
                                 <div class="form-group">
-                                    <label class="form-label" for="tampilkan">Tampilkan</label>
+                                    <label class="form-label mb-1" for="tampilkan">Tampilkan</label>
                                     <select class="form-control" required="" id="tampilkan" name="tampilkan">
                                         <option value="Ya">Ya</option>
                                         <option value="Tidak">Tidak</option>
@@ -161,31 +161,31 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <label class="form-label" for="no_telepon">No Telepon</label>
+                                    <label class="form-label mb-1" for="no_telepon">No Telepon</label>
                                     <input type="text" class="form-control" id="no_telepon" name="no_telepon"
                                         placeholder="No Telepon" />
                                 </div>
 
                                 <div class="form-group">
-                                    <label class="form-label" for="no_whatsapp">No Whatsapp</label>
+                                    <label class="form-label mb-1" for="no_whatsapp">No Whatsapp</label>
                                     <input type="text" class="form-control" id="no_whatsapp" name="no_whatsapp"
                                         placeholder="No Whatsapp" />
                                 </div>
 
                                 <div class="form-group">
-                                    <label class="form-label" for="facebook">Facebook</label>
+                                    <label class="form-label mb-1" for="facebook">Facebook</label>
                                     <input type="text" class="form-control" id="facebook" name="facebook"
                                         placeholder="Nama" />
                                 </div>
 
                                 <div class="form-group">
-                                    <label class="form-label" for="instagram">Instagram</label>
+                                    <label class="form-label mb-1" for="instagram">Instagram</label>
                                     <input type="text" class="form-control" id="instagram" name="instagram"
                                         placeholder="Instagram" />
                                 </div>
 
                                 <div class="form-group">
-                                    <label class="form-label" for="twitter">Twitter</label>
+                                    <label class="form-label mb-1" for="twitter">Twitter</label>
                                     <input type="text" class="form-control" id="twitter" name="twitter"
                                         placeholder="Twitter" />
                                 </div>
@@ -212,7 +212,7 @@
             <div class="modal-content modal-content-demo">
                 <div class="modal-header">
                     <h6 class="modal-title" id="modal-image-title">View Foto</h6><button aria-label="Close"
-                        class="btn-close" data-bs-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                        class="btn-close" data-bs-dismiss="modal"><span aria-hidden="true"></span></button>
                 </div>
                 <div class="modal-body">
                     <img src="" class="img-fluid" id="modal-image-element" alt="Icon Pendaftaran">

@@ -98,7 +98,7 @@
             <div class="modal-content modal-content-demo">
                 <div class="modal-header">
                     <h6 class="modal-title" id="modal-default-title"></h6><button aria-label="Close" class="btn-close"
-                        data-bs-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                        data-bs-dismiss="modal"><span aria-hidden="true"></span></button>
                 </div>
                 <div class="modal-body">
                     <form action="javascript:void(0)" id="MainForm" name="MainForm" method="POST"
@@ -106,7 +106,7 @@
                         <input type="hidden" name="id" id="id">
 
                         <div class="form-group">
-                            <label class="form-label" for="type">Type Tanggal</label>
+                            <label class="form-label mb-1" for="type">Type Tanggal</label>
                             <select class="form-control" style="width: 100%;" required="" id="type"
                                 name="type">
                                 <option value="1">Tetap</option>
@@ -114,7 +114,7 @@
                             </select>
                         </div>
                         <div class="form-group">
-                            <label class="form-label" for="nama">Nama <span class="text-danger">*</span></label>
+                            <label class="form-label mb-1" for="nama">Nama <span class="text-danger">*</span></label>
                             <input type="text" class="form-control" id="nama" name="nama"
                                 placeholder="Enter Nama" required="" />
                         </div>
@@ -123,7 +123,7 @@
 
                             <div class="col-lg-4">
                                 <div class="form-group">
-                                    <label class="form-label" for="hari">Tanggal
+                                    <label class="form-label mb-1" for="hari">Tanggal
                                         <span class="text-danger">*</span>
                                     </label>
                                     <input type="number" min="1" max="31" class="form-control"
@@ -133,7 +133,7 @@
 
                             <div class="col-lg-4">
                                 <div class="form-group">
-                                    <label class="form-label" for="bulan">Bulan
+                                    <label class="form-label mb-1" for="bulan">Bulan
                                         <span class="text-danger">*</span>
                                     </label>
                                     <input type="number" min="1" max="12" class="form-control"
@@ -143,7 +143,7 @@
 
                             <div class="col-lg-4">
                                 <div class="form-group">
-                                    <label class="form-label" for="tahun">Tahun </label>
+                                    <label class="form-label mb-1" for="tahun">Tahun </label>
                                     <input type="number" min="2020" max="9999" class="form-control"
                                         id="tahun" name="tahun" placeholder="Tahun" />
                                 </div>
@@ -152,7 +152,7 @@
                         </div>
 
                         <div class="form-group">
-                            <label class="form-label" for="keterangan">Keterangan</label>
+                            <label class="form-label mb-1" for="keterangan">Keterangan</label>
                             <textarea type="text" class="form-control" rows="3" id="keterangan" name="keterangan"
                                 placeholder="Enter Deskripsi"> </textarea>
                         </div>
@@ -177,7 +177,7 @@
             <div class="modal-content modal-content-demo">
                 <div class="modal-header">
                     <h6 class="modal-title" id="modal-detail-title">Detail</h6><button aria-label="Close"
-                        class="btn-close" data-bs-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                        class="btn-close" data-bs-dismiss="modal"><span aria-hidden="true"></span></button>
                 </div>
                 <div class="modal-body" id="modal-detail-body">
 

@@ -204,7 +204,7 @@
             <div class="modal-content modal-content-demo">
                 <div class="modal-header">
                     <h6 class="modal-title" id="modal-foto-title"></h6><button aria-label="Close" class="btn-close"
-                        data-bs-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                        data-bs-dismiss="modal"><span aria-hidden="true"></span></button>
                 </div>
                 <div class="modal-body">
                     <form action="javascript:void(0)" id="FotoForm" name="FotoForm" method="POST"
@@ -212,12 +212,12 @@
                         <input type="hidden" name="id" id="foto_id">
                         <input type="hidden" name="produk_id" id="foto_produk_id" value="{{ $produk->id }}">
                         <div class="form-group">
-                            <label class="form-label" for="foto_urutan">Urutan</label>
+                            <label class="form-label mb-1" for="foto_urutan">Urutan</label>
                             <input type="number" class="form-control" id="foto_urutan" name="urutan"
                                 placeholder="Urutan" />
                         </div>
                         <div class="form-group">
-                            <label class="form-label" for="foto_nama">Nama<span class="text-danger">*</span></label>
+                            <label class="form-label mb-1" for="foto_nama">Nama<span class="text-danger">*</span></label>
                             <input type="text" class="form-control" id="foto_nama" name="nama" placeholder="Nama"
                                 required="" />
                         </div>
@@ -248,7 +248,7 @@
             <div class="modal-content modal-content-demo">
                 <div class="modal-header">
                     <h6 class="modal-title" id="modal-image-title">View Foto</h6><button aria-label="Close"
-                        class="btn-close" data-bs-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                        class="btn-close" data-bs-dismiss="modal"><span aria-hidden="true"></span></button>
                 </div>
                 <div class="modal-body">
                     <img src="" class="img-fluid" id="modal-image-element" alt="">
@@ -269,7 +269,7 @@
             <div class="modal-content modal-content-demo">
                 <div class="modal-header">
                     <h6 class="modal-title" id="modal-marketplace-title"></h6><button aria-label="Close"
-                        class="btn-close" data-bs-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                        class="btn-close" data-bs-dismiss="modal"><span aria-hidden="true"></span></button>
                 </div>
                 <div class="modal-body">
                     <form action="javascript:void(0)" id="MarketplaceForm" name="MarketplaceForm" method="POST"
@@ -290,7 +290,7 @@
                         </div>
 
                         <div class="form-group">
-                            <label class="form-label" for="marketplace_link">Link Produk</label>
+                            <label class="form-label mb-1" for="marketplace_link">Link Produk</label>
                             <input type="text" class="form-control" id="marketplace_link" name="link"
                                 placeholder="Link Produk" />
                         </div>

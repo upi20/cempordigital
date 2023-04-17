@@ -42,20 +42,20 @@
                                     </label>
 
                                     <div class="form-group">
-                                        <label class="form-label" for="title">Judul<span
+                                        <label class="form-label mb-1" for="title">Judul<span
                                                 class="text-danger">*</span></label>
                                         <input type="text" id="title" name="title" class="form-control"
                                             placeholder="Judul" value="{{ $setting->title }}" required />
                                     </div>
 
                                     <div class="form-group">
-                                        <label class="form-label" for="sub_title">Sub Judul<span
+                                        <label class="form-label mb-1" for="sub_title">Sub Judul<span
                                                 class="text-danger">*</span></label>
                                         <input type="text" id="sub_title" name="sub_title" class="form-control"
                                             placeholder="Sub Judul" value="{{ $setting->sub_title }}" required />
                                     </div>
                                     <div class="form-group">
-                                        <label class="form-label" for="description">Keterangan</label>
+                                        <label class="form-label mb-1" for="description">Keterangan</label>
                                         <textarea type="text" id="description" name="description" class="form-control" placeholder="Sub Judul"
                                             value="{{ $setting->description }}"></textarea>
                                     </div>
@@ -138,29 +138,30 @@
             <div class="modal-content modal-content-demo">
                 <div class="modal-header">
                     <h6 class="modal-title" id="modal-default-title"></h6><button aria-label="Tutup" class="btn-close"
-                        data-bs-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                        data-bs-dismiss="modal"><span aria-hidden="true"></span></button>
                 </div>
                 <div class="modal-body">
                     <form action="javascript:void(0)" id="MainForm" name="MainForm" method="POST"
                         enctype="multipart/form-data">
                         <input type="hidden" name="id" id="id">
                         <div class="form-group">
-                            <label class="form-label" for="nama">Nama <span class="text-danger">*</span></label>
+                            <label class="form-label mb-1" for="nama">Nama <span class="text-danger">*</span></label>
                             <input type="text" class="form-control" id="nama" name="nama"
                                 placeholder="Enter Nama" required="" />
                         </div>
                         <div class="form-group">
-                            <label class="form-label" for="link">Link <span class="text-danger">*</span></label>
+                            <label class="form-label mb-1" for="link">Link <span class="text-danger">*</span></label>
                             <input type="url" class="form-control" id="link" name="link"
                                 placeholder="Enter Link" required="" />
                         </div>
                         <div class="form-group">
-                            <label class="form-label" for="jawaban">Jawaban <span class="text-danger">*</span></label>
+                            <label class="form-label mb-1" for="jawaban">Jawaban <span
+                                    class="text-danger">*</span></label>
                             <textarea type="text" class="form-control" rows="3" id="jawaban" name="jawaban"
                                 placeholder="Enter Jawaban"> </textarea>
                         </div>
                         <div class="form-group">
-                            <label class="form-label" for="type">Tipe</label>
+                            <label class="form-label mb-1" for="type">Tipe</label>
                             <select class="form-control" style="width: 100%;" required="" id="type"
                                 name="type">
                                 <option value="1">Teks</option>
@@ -168,7 +169,7 @@
                             </select>
                         </div>
                         <div class="form-group">
-                            <label class="form-label" for="status">Status</label>
+                            <label class="form-label mb-1" for="status">Status</label>
                             <select class="form-control" style="width: 100%;" required="" id="status"
                                 name="status">
                                 <option value="1">Digunakan</option>
@@ -196,7 +197,7 @@
             <div class="modal-content modal-content-demo">
                 <div class="modal-header">
                     <h6 class="modal-title" id="modal-detail-title">Detail</h6><button aria-label="Tutup"
-                        class="btn-close" data-bs-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                        class="btn-close" data-bs-dismiss="modal"><span aria-hidden="true"></span></button>
                 </div>
                 <div class="modal-body" id="modal-detail-body">
 

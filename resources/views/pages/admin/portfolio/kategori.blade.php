@@ -8,18 +8,19 @@
         $can_delete = auth_can(h_prefix('delete'));
     @endphp
     <div class="card mt-3">
-        <div class="card-header d-md-flex flex-row justify-content-between">
-            <div>
-                <h6 class="mt-2 text-uppercase">Data {{ $page_attr['title'] }}</h6>
-            </div>
-            @if ($can_insert)
-                <button type="button" class="btn btn-rounded btn-success btn-sm" data-bs-effect="effect-scale"
-                    data-bs-toggle="modal" href="#modal-default" onclick="add()" data-target="#modal-default">
-                    <i class="fas fa-plus"></i> Tambah
-                </button>
-            @endif
-        </div>
         <div class="card-body">
+            <div class="card-title d-md-flex flex-row justify-content-between">
+                <div>
+                    <h6 class="mt-2 text-uppercase">Data {{ $page_attr['title'] }}</h6>
+                </div>
+                @if ($can_insert)
+                    <button type="button" class="btn btn-rounded btn-success btn-sm" data-bs-effect="effect-scale"
+                        data-bs-toggle="modal" href="#modal-default" onclick="add()" data-target="#modal-default">
+                        <i class="fas fa-plus"></i> Tambah
+                    </button>
+                @endif
+            </div>
+            <hr />
             <table class="table table-striped table-hover" id="tbl_main">
                 <thead>
                     <tr>
@@ -40,23 +41,23 @@
             <div class="modal-content modal-content-demo">
                 <div class="modal-header">
                     <h6 class="modal-title" id="modal-default-title"></h6><button aria-label="Close" class="btn-close"
-                        data-bs-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                        data-bs-dismiss="modal"><span aria-hidden="true"></span></button>
                 </div>
                 <div class="modal-body">
                     <form action="javascript:void(0)" id="MainForm" name="MainForm" method="POST"
-                        enctype="multipart/form-data">
+                        enctype="multipart/form-data" class="row g-3">
                         <input type="hidden" name="id" id="id">
-                        <div class="form-group">
-                            <label class="form-label" for="urutan">Urutan</label>
+                        <div class="col-12">
+                            <label class="form-label mb-1" for="urutan">Urutan</label>
                             <input type="number" class="form-control" id="urutan" name="urutan" placeholder="Urutan" />
                         </div>
-                        <div class="form-group">
-                            <label class="form-label" for="nama">Nama<span class="text-danger">*</span></label>
+                        <div class="col-12">
+                            <label class="form-label mb-1" for="nama">Nama<span class="text-danger">*</span></label>
                             <input type="text" class="form-control" id="nama" name="nama" placeholder="Nama"
                                 required="" />
                         </div>
-                        <div class="form-group">
-                            <label class="form-label" for="keterangan">Keterangan</label>
+                        <div class="col-12">
+                            <label class="form-label mb-1" for="keterangan">Keterangan</label>
                             <input type="text" class="form-control" id="keterangan" name="keterangan"
                                 placeholder="Keterangan" />
                         </div>

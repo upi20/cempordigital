@@ -37,19 +37,19 @@
             <div class="modal-content modal-content-demo">
                 <div class="modal-header">
                     <h6 class="modal-title" id="modal-default-title"></h6><button aria-label="Close" class="btn-close"
-                        data-bs-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                        data-bs-dismiss="modal"><span aria-hidden="true"></span></button>
                 </div>
                 <div class="modal-body">
                     <form action="javascript:void(0)" id="MainForm" name="MainForm" method="POST"
                         enctype="multipart/form-data">
                         <div class="form-group">
-                            <label class="form-label" for="name">Name <span class="text-danger">*</span></label>
+                            <label class="form-label mb-1" for="name">Name <span class="text-danger">*</span></label>
                             <input type="text" class="form-control" id="name" name="name"
                                 placeholder="Enter Name" required="" />
                             <input type="hidden" id="id" name="id" />
                         </div>
                         <div class="form-group">
-                            <label class="form-label" for="guard_name">Guard <span class="text-danger">*</span></label>
+                            <label class="form-label mb-1" for="guard_name">Guard <span class="text-danger">*</span></label>
                             <input type="text" class="form-control" id="guard_name" name="guard_name"
                                 placeholder="Enter Guard" required="" />
                         </div>

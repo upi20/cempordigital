@@ -72,53 +72,53 @@
             <div class="modal-content modal-content-demo">
                 <div class="modal-header">
                     <h6 class="modal-title" id="modal-default-title"></h6><button aria-label="Tutup" class="btn-close"
-                        data-bs-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                        data-bs-dismiss="modal"><span aria-hidden="true"></span></button>
                 </div>
                 <div class="modal-body">
                     <form action="javascript:void(0)" id="MainForm" name="MainForm" method="POST"
                         enctype="multipart/form-data">
                         <input type="hidden" name="id" id="id">
                         <div class="form-group">
-                            <label class="form-label" for="nama">Nama <span class="text-danger">*</span></label>
+                            <label class="form-label mb-1" for="nama">Nama <span class="text-danger">*</span></label>
                             <input type="text" class="form-control" id="nama" name="nama" placeholder="Nama"
                                 required="" />
                         </div>
                         <div class="form-group">
-                            <label class="form-label" for="slug">Slug <span class="text-danger">*</span></label>
+                            <label class="form-label mb-1" for="slug">Slug <span class="text-danger">*</span></label>
                             <input type="text" class="form-control" id="slug" name="slug" placeholder="Slug"
                                 required="" />
                         </div>
                         <div class="form-group">
-                            <label class="form-label" for="foto_id_gdrive">Icon Foto Id Google Drive <span
+                            <label class="form-label mb-1" for="foto_id_gdrive">Icon Foto Id Google Drive <span
                                     class="text-danger">*</span></label>
                             <input type="text" class="form-control" id="foto_id_gdrive" name="foto_id_gdrive"
                                 placeholder="Icon From Foto Id Google Drive" required="" />
                         </div>
                         <div class="form-group">
-                            <label class="form-label" for="id_gdrive">Folder Id Google Drive
+                            <label class="form-label mb-1" for="id_gdrive">Folder Id Google Drive
                                 <span class="text-danger">*</span></label>
                             <input type="text" class="form-control" id="id_gdrive" name="id_gdrive"
                                 placeholder="Icon From Folder Id Google Drive" required />
                         </div>
                         <div class="form-group">
-                            <label class="form-label" for="tanggal">Tanggal
+                            <label class="form-label mb-1" for="tanggal">Tanggal
                                 <span class="text-danger">*</span></label>
                             <input type="date" class="form-control" id="tanggal" name="tanggal"
                                 placeholder="Tanggal" required />
                         </div>
                         <div class="form-group">
-                            <label class="form-label" for="lokasi">Lokasi
+                            <label class="form-label mb-1" for="lokasi">Lokasi
                                 <span class="text-danger">*</span></label>
                             <input type="text" class="form-control" id="lokasi" name="lokasi"
                                 placeholder="Lokasi" required />
                         </div>
                         <div class="form-group">
-                            <label class="form-label" for="keterangan">Keterangan </label>
+                            <label class="form-label mb-1" for="keterangan">Keterangan </label>
                             <input type="text" class="form-control" id="keterangan" name="keterangan"
                                 placeholder="Keterangan" />
                         </div>
                         <div class="form-group">
-                            <label class="form-label" for="status">Status</label>
+                            <label class="form-label mb-1" for="status">Status</label>
                             <select class="form-control" style="width: 100%;" required="" id="status"
                                 name="status">
                                 <option value="1">Tampilkan</option>

@@ -94,31 +94,32 @@
             <div class="modal-content modal-content-demo">
                 <div class="modal-header">
                     <h6 class="modal-title" id="modal-default-title"></h6><button aria-label="Close" class="btn-close"
-                        data-bs-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                        data-bs-dismiss="modal"><span aria-hidden="true"></span></button>
                 </div>
                 <div class="modal-body">
                     <form action="javascript:void(0)" id="UserForm" name="UserForm" method="POST"
                         enctype="multipart/form-data">
                         <input type="hidden" name="id" id="id">
                         <div class="form-group">
-                            <label class="form-label" for="name">Nama <span class="text-danger">*</span></label>
+                            <label class="form-label mb-1" for="name">Nama <span class="text-danger">*</span></label>
                             <input type="text" class="form-control" id="name" name="name" placeholder="Nama"
                                 required="" />
 
                         </div>
                         <div class="form-group">
-                            <label class="form-label" for="email">Email <span class="text-danger">*</span></label>
+                            <label class="form-label mb-1" for="email">Email <span class="text-danger">*</span></label>
                             <input type="email" id="email" name="email" class="form-control" placeholder="Email"
                                 required="" />
                             <div class="help-block"></div>
                         </div>
                         <div class="form-group ">
-                            <label class="form-label" for="password">Password <span class="text-danger">*</span></label>
+                            <label class="form-label mb-1" for="password">Password <span
+                                    class="text-danger">*</span></label>
                             <input type="text" class="form-control" id="password" name="password"
                                 placeholder="Password" required="">
                         </div>
                         <div class="form-group">
-                            <label class="form-label" for="role">Sebagai</label>
+                            <label class="form-label mb-1" for="role">Sebagai</label>
                             <select class="form-control select2" multiple style="width: 100%;" required=""
                                 id="roles" name="roles[]">
                                 @foreach ($user_role as $role)
@@ -129,7 +130,7 @@
                             </select>
                         </div>
                         <div class="form-group">
-                            <label class="form-label" for="active">Status Akun</label>
+                            <label class="form-label mb-1" for="active">Status Akun</label>
                             <select class="form-control" style="width: 100%;" required="" id="active"
                                 name="active">
                                 <option value="1">Aktif</option>

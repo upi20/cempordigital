@@ -17,31 +17,31 @@
             <form action="javascript:void(0)" class="ml-md-3 mb-md-3" id="setting_form">
 
                 <div class="form-group">
-                    <label class="form-label" for="title">Judul<span class="text-danger">*</span></label>
+                    <label class="form-label mb-1" for="title">Judul<span class="text-danger">*</span></label>
                     <input type="text" id="title" name="title" class="form-control" placeholder="Judul"
                         value="{{ $setting->title }}" required />
                 </div>
 
                 <div class="form-group">
-                    <label class="form-label" for="sub_title">Sub Judul<span class="text-danger">*</span></label>
+                    <label class="form-label mb-1" for="sub_title">Sub Judul<span class="text-danger">*</span></label>
                     <input type="text" id="sub_title" name="sub_title" class="form-control" placeholder="Sub Judul"
                         value="{{ $setting->sub_title }}" required />
                 </div>
 
                 <h3>Visi</h3>
                 <div class="form-group">
-                    <label class="form-label" for="visi_title">Visi Judul<span class="text-danger">*</span></label>
+                    <label class="form-label mb-1" for="visi_title">Visi Judul<span class="text-danger">*</span></label>
                     <input type="text" id="visi_title" name="visi_title" class="form-control" placeholder="Visi Judul"
                         value="{{ $setting->visi_title }}" required />
                 </div>
 
                 <div class="form-group">
-                    <label class="form-label" for="visi">Visi<span class="text-danger">*</span></label>
+                    <label class="form-label mb-1" for="visi">Visi<span class="text-danger">*</span></label>
                     <textarea id="visi" name="visi" class="form-control" placeholder="Visi" rows="5" required>{!! $setting->visi !!}</textarea>
                 </div>
 
                 <div class="form-group">
-                    <label class="form-label">Visi Foto
+                    <label class="form-label mb-1">Visi Foto
                         <span class="badge bg-primary" id="visi_foto_preview"
                             onclick='viewImage(`{{ $setting->visi_image }}`, `Visi Foto`)'>
                             Lihat
@@ -52,18 +52,18 @@
 
                 <h3>Misi</h3>
                 <div class="form-group">
-                    <label class="form-label" for="misi_title">Misi Judul<span class="text-danger">*</span></label>
+                    <label class="form-label mb-1" for="misi_title">Misi Judul<span class="text-danger">*</span></label>
                     <input type="text" id="misi_title" name="misi_title" class="form-control" placeholder="Misi Judul"
                         value="{{ $setting->misi_title }}" required />
                 </div>
 
                 <div class="form-group">
-                    <label class="form-label" for="misi">Misi<span class="text-danger">*</span></label>
+                    <label class="form-label mb-1" for="misi">Misi<span class="text-danger">*</span></label>
                     <textarea id="misi" name="misi" class="form-control" placeholder="Misi" rows="5" required>{!! $setting->misi !!}</textarea>
                 </div>
 
                 <div class="form-group">
-                    <label class="form-label">Misi Foto
+                    <label class="form-label mb-1">Misi Foto
                         <span class="badge bg-primary" id="misi_foto_preview"
                             onclick='viewImage(`{{ $setting->misi_image }}`, `Misi Foto`)'>
                             Lihat
@@ -88,7 +88,7 @@
             <div class="modal-content modal-content-demo">
                 <div class="modal-header">
                     <h6 class="modal-title" id="modal-image-title">View Foto</h6><button aria-label="Close"
-                        class="btn-close" data-bs-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                        class="btn-close" data-bs-dismiss="modal"><span aria-hidden="true"></span></button>
                 </div>
                 <div class="modal-body">
                     <img src="" class="img-fluid" id="modal-image-element" alt="Icon Pendaftaran">

@@ -24,34 +24,34 @@
                     <form class="form-horizontal" id="{{ $name }}-form" enctype="multipart/form-data">
 
                         <div class="form-group">
-                            <label class="form-label" for="{{ $s("$name.judul") }}">Judul
+                            <label class="form-label mb-1" for="{{ $s("$name.judul") }}">Judul
                                 <span class="text-danger">*</span></label>
                             <input type="text" id="{{ $s("$name.judul") }}" name="judul" class="form-control"
                                 placeholder="Judul" value="{{ setting_get($s("$name.judul")) }}" required />
                         </div>
                         <div class="form-group">
-                            <label class="form-label" for="{{ $s("$name.sub_judul") }}">Sub Judul
+                            <label class="form-label mb-1" for="{{ $s("$name.sub_judul") }}">Sub Judul
                                 <span class="text-danger">*</span></label>
                             <input type="text" id="{{ $s("$name.sub_judul") }}" name="sub_judul" class="form-control"
                                 placeholder="Sub Judul" value="{{ setting_get($s("$name.sub_judul")) }}" required />
                         </div>
 
                         <div class="form-group">
-                            <label class="form-label" for="{{ $s("$name.deskripsi") }}">Deskripsi
+                            <label class="form-label mb-1" for="{{ $s("$name.deskripsi") }}">Deskripsi
                                 <span class="text-danger">*</span></label>
                             <textarea type="text" id="{{ $s("$name.deskripsi") }}" name="deskripsi" class="form-control" placeholder="Sub Judul"
                                 required rows="3">{!! setting_get($s("$name.deskripsi")) !!}</textarea>
                         </div>
 
                         <div class="form-group">
-                            <label class="form-label" for="{{ $s("$name.tombol_title") }}">Tombol Teks
+                            <label class="form-label mb-1" for="{{ $s("$name.tombol_title") }}">Tombol Teks
                                 <span class="text-danger">*</span></label>
                             <input type="text" id="{{ $s("$name.tombol_title") }}" name="tombol_title"
                                 class="form-control" placeholder="Teks Tombol"
                                 value="{{ setting_get($s("$name.tombol_title")) }}" required />
                         </div>
                         <div class="form-group">
-                            <label class="form-label" for="{{ $s("$name.tombol_link") }}">Tombol Link
+                            <label class="form-label mb-1" for="{{ $s("$name.tombol_link") }}">Tombol Link
                                 <span class="text-danger">*</span></label>
                             <input type="text" id="{{ $s("$name.tombol_link") }}" name="tombol_link"
                                 class="form-control" placeholder="Tombol Link"
@@ -59,7 +59,7 @@
                         </div>
 
                         <div class="form-group">
-                            <label class="form-label">Foto
+                            <label class="form-label mb-1">Foto
                                 <span class="badge bg-primary" id="foto"
                                     onclick='viewImage(`{{ setting_get($s("$name.foto")) }}`, `{{ $title }} Image View`)'>
                                     Lihat
@@ -98,14 +98,14 @@
                 <div class="card-body">
                     <form class="form-horizontal" id="{{ $name }}-form" enctype="multipart/form-data">
                         <div class="form-group">
-                            <label class="form-label" for="{{ $s("$name.title") }}">Judul
+                            <label class="form-label mb-1" for="{{ $s("$name.title") }}">Judul
                                 <span class="text-danger">*</span></label>
                             <input type="text" id="{{ $s("$name.title") }}" name="title" class="form-control"
                                 placeholder="Judul" value="{{ setting_get($s("$name.title")) }}" required />
                         </div>
 
                         <div class="form-group">
-                            <label class="form-label" for="{{ $s("$name.sub_title") }}">Sub Judul
+                            <label class="form-label mb-1" for="{{ $s("$name.sub_title") }}">Sub Judul
                                 <span class="text-danger">*</span></label>
                             <input type="text" id="{{ $s("$name.sub_title") }}" name="sub_title"
                                 class="form-control" placeholder="Sub Judul"
@@ -140,14 +140,14 @@
                 <div class="card-body">
                     <form class="form-horizontal" id="{{ $name }}-form" enctype="multipart/form-data">
                         <div class="form-group">
-                            <label class="form-label" for="{{ $s("$name.title") }}">Judul
+                            <label class="form-label mb-1" for="{{ $s("$name.title") }}">Judul
                                 <span class="text-danger">*</span></label>
                             <input type="text" id="{{ $s("$name.title") }}" name="title" class="form-control"
                                 placeholder="Judul" value="{{ setting_get($s("$name.title")) }}" required />
                         </div>
 
                         <div class="form-group">
-                            <label class="form-label" for="{{ $s("$name.sub_title") }}">Sub Judul
+                            <label class="form-label mb-1" for="{{ $s("$name.sub_title") }}">Sub Judul
                                 <span class="text-danger">*</span></label>
                             <input type="text" id="{{ $s("$name.sub_title") }}" name="sub_title"
                                 class="form-control" placeholder="Sub Judul"
@@ -170,7 +170,7 @@
             <div class="modal-content modal-content-demo">
                 <div class="modal-header">
                     <h6 class="modal-title" id="modal-image-title">View Foto</h6><button aria-label="Close"
-                        class="btn-close" data-bs-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                        class="btn-close" data-bs-dismiss="modal"><span aria-hidden="true"></span></button>
                 </div>
                 <div class="modal-body">
                     <img src="" class="img-fluid" id="modal-image-element" alt="Icon Pendaftaran">

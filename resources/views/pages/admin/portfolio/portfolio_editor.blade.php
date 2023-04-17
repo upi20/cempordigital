@@ -99,7 +99,7 @@
             <div class="modal-content modal-content-demo">
                 <div class="modal-header">
                     <h6 class="modal-title" id="modal-item-title"></h6><button aria-label="Close" class="btn-close"
-                        data-bs-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                        data-bs-dismiss="modal"><span aria-hidden="true"></span></button>
                 </div>
                 <div class="modal-body">
                     <form action="javascript:void(0)" id="ItemForm" name="ItemForm" method="POST"
@@ -107,17 +107,17 @@
                         <input type="hidden" name="id" id="item_id">
                         <input type="hidden" name="portfolio_id" id="item_portfolio_id" value="{{ $portfolio->id }}">
                         <div class="form-group">
-                            <label class="form-label" for="item_urutan">Urutan</label>
+                            <label class="form-label mb-1" for="item_urutan">Urutan</label>
                             <input type="number" class="form-control" id="item_urutan" name="urutan"
                                 placeholder="Urutan" />
                         </div>
                         <div class="form-group">
-                            <label class="form-label" for="item_nama">Nama<span class="text-danger">*</span></label>
+                            <label class="form-label mb-1" for="item_nama">Nama<span class="text-danger">*</span></label>
                             <input type="text" class="form-control" id="item_nama" name="nama" placeholder="Nama"
                                 required="" />
                         </div>
                         <div class="form-group">
-                            <label class="form-label" for="item_keterangan">Keterangan<span
+                            <label class="form-label mb-1" for="item_keterangan">Keterangan<span
                                     class="text-danger">*</span></label>
                             <textarea type="text" class="form-control" id="item_keterangan" name="keterangan" placeholder="Keterangan"
                                 required=""></textarea>
@@ -141,7 +141,7 @@
             <div class="modal-content modal-content-demo">
                 <div class="modal-header">
                     <h6 class="modal-title" id="modal-image-title">View Foto</h6><button aria-label="Close"
-                        class="btn-close" data-bs-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                        class="btn-close" data-bs-dismiss="modal"><span aria-hidden="true"></span></button>
                 </div>
                 <div class="modal-body">
                     <img src="" class="img-fluid" id="modal-image-element" alt="">

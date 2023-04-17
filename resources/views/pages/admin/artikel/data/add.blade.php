@@ -94,7 +94,7 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <div class="form-label">Publikasikan Artikel:</div>
+                                    <div class="form-label mb-1">Publikasikan Artikel:</div>
                                     <div class="custom-controls-stacked">
                                         <label class="custom-control custom-radio-md" style="display: unset">
                                             <input type="radio" class="custom-control-input" name="status" value="0"

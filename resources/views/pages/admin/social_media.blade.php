@@ -71,41 +71,41 @@
             <div class="modal-content modal-content-demo">
                 <div class="modal-header">
                     <h6 class="modal-title" id="modal-default-title"></h6><button aria-label="Tutup" class="btn-close"
-                        data-bs-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                        data-bs-dismiss="modal"><span aria-hidden="true"></span></button>
                 </div>
                 <div class="modal-body">
                     <form action="javascript:void(0)" id="MainForm" name="MainForm" method="POST"
                         enctype="multipart/form-data">
                         <input type="hidden" name="id" id="id">
                         <div class="form-group">
-                            <label class="form-label" for="nama">Nama <span class="text-danger">*</span></label>
+                            <label class="form-label mb-1" for="nama">Nama <span class="text-danger">*</span></label>
                             <input type="text" class="form-control" id="nama" name="nama"
                                 placeholder="Enter Nama" required="" />
                         </div>
                         <div class="form-group">
-                            <label class="form-label" for="icon">Icon <span class="text-danger">*</span></label>
+                            <label class="form-label mb-1" for="icon">Icon <span class="text-danger">*</span></label>
                             <input type="text" class="form-control" id="icon" name="icon"
                                 placeholder="Menggunakan fontawesome 5.5 versi gratis" required="" />
                         </div>
                         <div class="form-group">
-                            <label class="form-label" for="url">Link <span class="text-danger">*</span></label>
+                            <label class="form-label mb-1" for="url">Link <span class="text-danger">*</span></label>
                             <input type="url" class="form-control" id="url" name="url"
                                 placeholder="Link Sosial Media" required="" />
                         </div>
                         <div class="form-group">
-                            <label class="form-label" for="order">Nomor Urut <span
+                            <label class="form-label mb-1" for="order">Nomor Urut <span
                                     class="text-danger">*</span></label>
                             <input type="number" class="form-control" id="order" name="order"
                                 placeholder="Urutan" required="" />
                         </div>
                         <div class="form-group">
-                            <label class="form-label" for="keterangan">Keterangan <span
+                            <label class="form-label mb-1" for="keterangan">Keterangan <span
                                     class="text-danger">*</span></label>
                             <input type="text" class="form-control" id="keterangan" name="keterangan"
                                 placeholder="Enter Keterangan" required="" />
                         </div>
                         <div class="form-group">
-                            <label class="form-label" for="status">Status</label>
+                            <label class="form-label mb-1" for="status">Status</label>
                             <select class="form-control" style="width: 100%;" required="" id="status"
                                 name="status">
                                 <option value="1">Dipakai</option>

@@ -36,9 +36,15 @@ html.dark-theme .logo-landscape {
 
 .page-footer {
     border: none;
+    position: relative;
+    left: 0;
 }
 
 .sidebar-wrapper .metismenu a .parent-icon {
     font-size: 15px;
     line-height: 1;
+}
+
+.page-wrapper {
+    min-height: 100vh;
 }

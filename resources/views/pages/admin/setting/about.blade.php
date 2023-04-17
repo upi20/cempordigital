@@ -8,7 +8,7 @@
         <div class="card-body">
             <form method="post" action="" enctype="multipart/form-data" id="MainForm">
                 <div class="form-group">
-                    <label class="form-label" for="judul">Judul
+                    <label class="form-label mb-1" for="judul">Judul
                         <span class="text-danger">*</span></label>
                     <input type="text" id="judul" name="judul" class="form-control" placeholder="Judul"
                         value="{{ setting_get('about.judul') }}" required />

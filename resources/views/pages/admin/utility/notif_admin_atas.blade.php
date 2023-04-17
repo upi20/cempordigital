@@ -39,7 +39,7 @@
             <div class="modal-content modal-content-demo">
                 <div class="modal-header">
                     <h6 class="modal-title" id="modal-default-title"></h6><button aria-label="Close" class="btn-close"
-                        data-bs-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                        data-bs-dismiss="modal"><span aria-hidden="true"></span></button>
                 </div>
                 <div class="modal-body">
                     <form action="javascript:void(0)" id="MainForm" name="MainForm" method="POST"
@@ -48,28 +48,29 @@
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="form-group">
-                                    <label class="form-label" for="nama">Nama <span class="text-danger">*</span></label>
+                                    <label class="form-label mb-1" for="nama">Nama <span
+                                            class="text-danger">*</span></label>
                                     <input type="text" class="form-control" id="nama" name="nama"
                                         placeholder="Enter Nama" required="" />
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="form-group">
-                                    <label class="form-label" for="link">Link </label>
+                                    <label class="form-label mb-1" for="link">Link </label>
                                     <input type="url" class="form-control" id="link" name="link"
                                         placeholder="Enter Link" />
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="form-group">
-                                    <label class="form-label" for="link_nama">Link Nama </label>
+                                    <label class="form-label mb-1" for="link_nama">Link Nama </label>
                                     <input type="text" class="form-control" id="link_nama" name="link_nama"
                                         placeholder="Enter Link nama" />
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="form-group">
-                                    <label class="form-label" for="dari">Dari Tanggal
+                                    <label class="form-label mb-1" for="dari">Dari Tanggal
                                         <span class="text-danger">*</span></label>
                                     <input type="date" class="form-control" id="dari" name="dari"
                                         placeholder="Dari Tanggal" required="" />
@@ -77,7 +78,7 @@
                             </div>
                             <div class="col-lg-6">
                                 <div class="form-group">
-                                    <label class="form-label" for="sampai">Sampai Tanggal
+                                    <label class="form-label mb-1" for="sampai">Sampai Tanggal
                                         <span class="text-danger">*</span> <span class="badge bg-success"
                                             onclick="$('#sampai').val('')">Reset</span></label>
                                     <input type="date" class="form-control" id="sampai" name="sampai"
@@ -86,7 +87,7 @@
                             </div>
                             <div class="col-lg-12">
                                 <div class="form-group">
-                                    <label class="form-label" for="deskripsi">Deskripsi</label>
+                                    <label class="form-label mb-1" for="deskripsi">Deskripsi</label>
                                     <textarea type="text" class="form-control" rows="3" id="deskripsi" name="deskripsi"
                                         placeholder="Enter Deskripsi"> </textarea>
                                 </div>
@@ -112,7 +113,7 @@
             <div class="modal-content modal-content-demo">
                 <div class="modal-header">
                     <h6 class="modal-title" id="modal-detail-title">Detail</h6><button aria-label="Close"
-                        class="btn-close" data-bs-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                        class="btn-close" data-bs-dismiss="modal"><span aria-hidden="true"></span></button>
                 </div>
                 <div class="modal-body" id="modal-detail-body">
 
