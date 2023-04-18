@@ -14,6 +14,6 @@ width: $( this ).data( 'width' ) ? $( this ).data( 'width' ) : $( this ).hasClas
 
 npm run build
 git add .
-git commit -m "update artikel"
+git commit -m "update login"
 clear
 npm run dev
