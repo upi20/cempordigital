@@ -24,10 +24,10 @@ class UsersTableSeeder extends Seeder
                 'id' => 1,
                 'name' => 'Isep Lutpi Nur',
                 'email' => 'iseplutpinur7@gmail.com',
-                'foto' => NULL,
+                'foto' => '202304182058334.png',
                 'username' => NULL,
                 'email_verified_at' => NULL,
-                'password' => '$2y$10$dcSS0tw/fLq75kGxFo6AieEHbjkSMjTdnChnt9IaUifEEBNu/PqUy',
+                'password' => '$2y$10$PrnL.Q2jlSDOdAXXCJ0WxuABImbj4TrycHq1jJRwIGIwx35XK2jz2',
                 'active' => 1,
                 'two_factor_secret' => NULL,
                 'two_factor_recovery_codes' => NULL,
@@ -36,7 +36,7 @@ class UsersTableSeeder extends Seeder
                 'profile_photo_path' => NULL,
                 'remember_token' => NULL,
                 'created_at' => NULL,
-                'updated_at' => '2023-04-18 04:44:56',
+                'updated_at' => '2023-04-18 20:58:33',
             ),
             1 => 
             array (

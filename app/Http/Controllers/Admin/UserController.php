@@ -130,6 +130,20 @@ class UserController extends Controller
         return view($view, $data);
     }
 
+    public function profile(Request $request)
+    {
+        $page_attr = [
+            'title' => 'Profile',
+            'breadcrumbs' => [
+                ['name' => 'Dashboard', 'url' => 'admin.dashboard'],
+            ],
+        ];
+        $view = path_view('pages.admin.profile');
+        $data = compact('page_attr', 'view');
+        $data['compact'] = $data;
+        return view($view, $data);
+    }
+
     public function save_password(Request $request)
     {
         try {
@@ -144,6 +158,55 @@ class UserController extends Controller
             } else {
                 throw new Exception("Password Lama Salah. Jika anda lupa silahkan hubungi administrator.");
             }
+            return response()->json();
+        } catch (ValidationException $error) {
+            return response()->json([
+                'message' => 'Something went wrong',
+                'error' => $error,
+            ], 500);
+        }
+    }
+
+    public function save_profile(Request $request)
+    {
+        try {
+            $request->validate([
+                'name' => ['required', 'string', 'max:255'],
+                'email' => ['required', 'string']
+            ]);
+
+            $user = User::findOrFail(auth()->user()->id);
+
+            // simpan nama
+            $user->name = $request->name;
+
+            // simpan email
+            $is_current_email = $user->email == $request->email;
+            if (!$is_current_email) {
+                $check_email = User::where('email', $request->email)->where('id', '<>', $user->id)->count();
+                if ($check_email != 0) {
+                    throw new Exception("Email sudah digunakan");
+                }
+            }
+            $user->email = $request->email;
+
+            // simpan foto
+            $foto = '';
+            $image_folder = 'assets/profile/';
+            if ($image = $request->file('foto')) {
+                $foto = date('YmdHis') . random_int(0, 100) . "." . $image->getClientOriginalExtension();
+                $image->move(public_path($image_folder), $foto);
+
+                // delete foto
+                if ($user->foto) {
+                    $path = public_path("{$image_folder}$user->foto");
+                    delete_file($path);
+                }
+
+                $user->foto = $foto;
+            }
+
+            $user->save();
             return response()->json();
         } catch (ValidationException $error) {
             return response()->json([

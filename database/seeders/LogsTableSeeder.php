@@ -1594,6 +1594,96 @@ class LogsTableSeeder extends Seeder
                 'log_type' => 'edit',
             'data' => '{"id":134,"ip":"127.0.0.1","date":"2023-04-18","time":"14:27:42","platform":"Windows","browser":"Edge","browser_version":"112.0.1722.48","user_agent":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/112.0.0.0 Safari\\/537.36 Edg\\/112.0.1722.48","hits":31,"has_detail":0}',
             ),
+            175 => 
+            array (
+                'id' => 176,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 20:17:25',
+                'table_name' => '',
+                'log_type' => 'login',
+            'data' => '{"ip":"127.0.0.1","user_agent":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/112.0.0.0 Safari\\/537.36 Edg\\/112.0.1722.48"}',
+            ),
+            176 => 
+            array (
+                'id' => 177,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 20:39:59',
+                'table_name' => 'users',
+                'log_type' => 'edit',
+                'data' => '{"id":1,"name":"Isep Lutpi Nur","email":"iseplutpinur7@gmail.com","foto":null,"username":null,"email_verified_at":null,"password":"$2y$10$dcSS0tw\\/fLq75kGxFo6AieEHbjkSMjTdnChnt9IaUifEEBNu\\/PqUy","active":1,"two_factor_secret":null,"two_factor_recovery_codes":null,"two_factor_confirmed_at":null,"current_team_id":null,"profile_photo_path":null,"remember_token":null,"created_at":null,"updated_at":"2023-04-18 04:44:56"}',
+            ),
+            177 => 
+            array (
+                'id' => 178,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 20:40:56',
+                'table_name' => 'users',
+                'log_type' => 'edit',
+                'data' => '{"id":1,"name":"Isep Lutpi Nur","email":"iseplutpinur7@gmail.com","foto":null,"username":null,"email_verified_at":null,"password":"$2y$10$HSKLe6JFg0CYzt3afruop.HHtzpn2gXdNzTfKJFFM.FJ4OSiLDzKC","active":1,"two_factor_secret":null,"two_factor_recovery_codes":null,"two_factor_confirmed_at":null,"current_team_id":null,"profile_photo_path":null,"remember_token":null,"created_at":null,"updated_at":"2023-04-18 20:39:59"}',
+            ),
+            178 => 
+            array (
+                'id' => 179,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 20:56:55',
+                'table_name' => 'users',
+                'log_type' => 'edit',
+                'data' => '{"id":1,"name":"Isep Lutpi Nur","email":"iseplutpinur7@gmail.com","foto":null,"username":null,"email_verified_at":null,"password":"$2y$10$PrnL.Q2jlSDOdAXXCJ0WxuABImbj4TrycHq1jJRwIGIwx35XK2jz2","active":1,"two_factor_secret":null,"two_factor_recovery_codes":null,"two_factor_confirmed_at":null,"current_team_id":null,"profile_photo_path":null,"remember_token":null,"created_at":null,"updated_at":"2023-04-18 20:40:56"}',
+            ),
+            179 => 
+            array (
+                'id' => 180,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 20:58:12',
+                'table_name' => 'users',
+                'log_type' => 'edit',
+                'data' => '{"id":1,"name":"Isep Lutpi Nur","email":"iseplutpinur7@gmail.com","foto":"2023041820565567.png","username":null,"email_verified_at":null,"password":"$2y$10$PrnL.Q2jlSDOdAXXCJ0WxuABImbj4TrycHq1jJRwIGIwx35XK2jz2","active":1,"two_factor_secret":null,"two_factor_recovery_codes":null,"two_factor_confirmed_at":null,"current_team_id":null,"profile_photo_path":null,"remember_token":null,"created_at":null,"updated_at":"2023-04-18 20:56:55"}',
+            ),
+            180 => 
+            array (
+                'id' => 181,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 20:58:20',
+                'table_name' => 'users',
+                'log_type' => 'edit',
+                'data' => '{"id":1,"name":"Isep Lutpi Nur","email":"iseplutpinur7@gmail.com","foto":"2023041820581220.png","username":null,"email_verified_at":null,"password":"$2y$10$PrnL.Q2jlSDOdAXXCJ0WxuABImbj4TrycHq1jJRwIGIwx35XK2jz2","active":1,"two_factor_secret":null,"two_factor_recovery_codes":null,"two_factor_confirmed_at":null,"current_team_id":null,"profile_photo_path":null,"remember_token":null,"created_at":null,"updated_at":"2023-04-18 20:58:12"}',
+            ),
+            181 => 
+            array (
+                'id' => 182,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 20:58:33',
+                'table_name' => 'users',
+                'log_type' => 'edit',
+                'data' => '{"id":1,"name":"Isep Lutpi Nur","email":"iseplutpinur7@gmail.com","foto":"2023041820582070.png","username":null,"email_verified_at":null,"password":"$2y$10$PrnL.Q2jlSDOdAXXCJ0WxuABImbj4TrycHq1jJRwIGIwx35XK2jz2","active":1,"two_factor_secret":null,"two_factor_recovery_codes":null,"two_factor_confirmed_at":null,"current_team_id":null,"profile_photo_path":null,"remember_token":null,"created_at":null,"updated_at":"2023-04-18 20:58:20"}',
+            ),
+            182 => 
+            array (
+                'id' => 183,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 21:00:47',
+                'table_name' => 'p_menu',
+                'log_type' => 'edit',
+                'data' => '{"id":373,"parent_id":null,"title":"Ganti Password","icon":"fas fa-key","route":"admin.password","sequence":41,"active":1,"type":1,"created_at":"2022-08-05 23:50:28","updated_at":"2023-04-13 13:06:20"}',
+            ),
+            183 => 
+            array (
+                'id' => 184,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 21:00:47',
+                'table_name' => 'p_role_has_menu',
+                'log_type' => 'create',
+                'data' => '{"role_id":1,"menu_id":373,"updated_at":"2023-04-18T14:00:47.000000Z","created_at":"2023-04-18T14:00:47.000000Z","id":234}',
+            ),
+            184 => 
+            array (
+                'id' => 185,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 21:00:47',
+                'table_name' => 'p_role_has_menu',
+                'log_type' => 'create',
+                'data' => '{"role_id":9,"menu_id":373,"updated_at":"2023-04-18T14:00:47.000000Z","created_at":"2023-04-18T14:00:47.000000Z","id":235}',
+            ),
         ));
         
         

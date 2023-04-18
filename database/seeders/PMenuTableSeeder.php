@@ -192,14 +192,14 @@ class PMenuTableSeeder extends Seeder
             array (
                 'id' => 373,
                 'parent_id' => NULL,
-                'title' => 'Ganti Password',
-                'icon' => 'fas fa-key',
-                'route' => 'admin.password',
+                'title' => 'Profile',
+                'icon' => 'fas fa-user',
+                'route' => 'admin.profile',
                 'sequence' => 41,
                 'active' => 1,
                 'type' => 1,
                 'created_at' => '2022-08-05 23:50:28',
-                'updated_at' => '2023-04-13 13:06:20',
+                'updated_at' => '2023-04-18 21:00:47',
             ),
             14 => 
             array (

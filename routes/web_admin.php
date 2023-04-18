@@ -526,6 +526,16 @@ Route::prefix($prefix)->group(function () use ($prefix, $name) {
 });
 
 
+$prefix = "profile";
+Route::controller(UserController::class)->prefix($prefix)->group(function () use ($name, $prefix) {
+    $name = "$name.$prefix"; // admin.profile
+    Route::get('/', 'profile')->name($name)->middleware("permission:$name");
+    Route::post('/save', 'save_profile')->name("$name.save")->middleware("permission:$name.save");
+    Route::post('/save/password', 'save_password')->name("$name.password.save")->middleware("permission:$name.password.save");
+});
+
+
+
 $prefix = "password";
 Route::controller(UserController::class)->prefix($prefix)->group(function () use ($name, $prefix) {
     $name = "$name.$prefix"; // admin.password
