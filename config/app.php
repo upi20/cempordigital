@@ -208,7 +208,7 @@ return [
     // assets admin
     'admin_assets_list' => [
         'sash' => [
-            'https://assets.iseplutpi.site/sash/',
+            'https://assets.iseplutpi.site/sash/assets/',
             'http://localhost:8080/aplikasi/assets/sash/assets/',
         ],
         'rockeradmin_vertical' => [
