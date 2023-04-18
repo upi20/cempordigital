@@ -61,7 +61,7 @@
                         <th>Nama</th>
                         <th>Kategori</th>
                         <th>Dibuat</th>
-                        <th>Aksi</th>
+                        {!! $can_delete || $can_update ? '<th>Aksi</th>' : '' !!}
                     </tr>
                 </thead>
                 <tbody> </tbody>

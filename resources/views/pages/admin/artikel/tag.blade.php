@@ -109,12 +109,15 @@
     </div>
 @endsection
 
+
+@section('stylesheet')
+    <link href="{{ asset_admin('plugins/datatable/css/dataTables.bootstrap5.min.css') }}" rel="stylesheet" />
+@endsection
+
 @section('javascript')
     <script src="{{ asset_admin('plugins/datatable/js/jquery.dataTables.min.js') }}"></script>
-    <script src="{{ asset_admin('plugins/datatable/js/dataTables.bootstrap5.js') }}"></script>
-    <script src="{{ asset_admin('plugins/datatable/dataTables.responsive.min.js') }}"></script>
-    <script src="{{ asset_admin('plugins/datatable/responsive.bootstrap5.min.js') }}"></script>
-    <script src="{{ asset_admin('plugins/datatable/responsive.bootstrap5.min.js') }}"></script>
+    <script src="{{ asset_admin('plugins/datatable/js/dataTables.bootstrap5.min.js') }}"></script>
+    <script src="{{ asset_admin('plugins/loading/loadingoverlay.min.js', name: 'sash') }}"></script>
     <script src="{{ asset_admin('plugins/sweet-alert/sweetalert2.all.js', name: 'sash') }}"></script>
     @php
         $resource = resource_loader(

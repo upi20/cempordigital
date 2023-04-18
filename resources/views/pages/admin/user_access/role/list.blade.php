@@ -6,40 +6,45 @@
         $can_update = auth_can('h_prefix().update');
         $can_delete = auth_can('h_prefix().delete');
     @endphp
-    <div class="card">
-        <div class="card-header d-md-flex flex-row justify-content-between">
-            <h3 class="card-title">Permission Table</h3>
-            @if ($can_insert)
-                <a type="button" class="btn btn-rounded btn-success btn-sm" href="{{ route(h_prefix('create')) }}">
-                    <i class="fas fa-plus"></i> Tambah
-                </a>
-            @endif
-        </div>
+    <div class="card mt-3">
         <div class="card-body">
-            <table class="table table-striped" id="tbl_main">
+            <div class="card-title d-md-flex flex-row justify-content-between">
+                <div>
+                    <h6 class="mt-2 text-uppercase">Data {{ $page_attr['title'] }}</h6>
+                </div>
+                @if ($can_insert)
+                    <div>
+                        <a type="button" class="btn btn-rounded btn-success btn-sm" href="{{ route(h_prefix('create')) }}">
+                            <i class="fas fa-plus"></i> Tambah
+                        </a>
+                    </div>
+                @endif
+            </div>
+            <hr class="mt-1" />
+            <table class="table table-striped table-hover" id="tbl_main">
                 <thead>
                     <tr>
                         <th>No</th>
                         <th>Name</th>
                         <th>Guard</th>
                         <th>Updated At</th>
-                        @if ($can_update || $can_delete)
-                            <th>Aksi</th>
-                        @endif
+                        {!! $can_delete || $can_update ? '<th>Aksi</th>' : '' !!}
                     </tr>
                 </thead>
-                <tbody></tbody>
+                <tbody> </tbody>
             </table>
         </div>
     </div>
 @endsection
 
+@section('stylesheet')
+    <link href="{{ asset_admin('plugins/datatable/css/dataTables.bootstrap5.min.css') }}" rel="stylesheet" />
+@endsection
+
 @section('javascript')
     <script src="{{ asset_admin('plugins/datatable/js/jquery.dataTables.min.js') }}"></script>
-    <script src="{{ asset_admin('plugins/datatable/js/dataTables.bootstrap5.js') }}"></script>
-    <script src="{{ asset_admin('plugins/datatable/dataTables.responsive.min.js') }}"></script>
-    <script src="{{ asset_admin('plugins/datatable/responsive.bootstrap5.min.js') }}"></script>
-    <script src="{{ asset_admin('plugins/datatable/responsive.bootstrap5.min.js') }}"></script>
+    <script src="{{ asset_admin('plugins/datatable/js/dataTables.bootstrap5.min.js') }}"></script>
+    <script src="{{ asset_admin('plugins/loading/loadingoverlay.min.js', name: 'sash') }}"></script>
     <script src="{{ asset_admin('plugins/sweet-alert/sweetalert2.all.js', name: 'sash') }}"></script>
     @php
         $resource = resource_loader(

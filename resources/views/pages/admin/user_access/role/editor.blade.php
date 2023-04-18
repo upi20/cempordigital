@@ -1,14 +1,21 @@
 @extends('layouts.admin.master')
 
 @section('content')
-    <div class="card">
-        <div class="card-header d-md-flex flex-row justify-content-between">
-            <h3 class="card-title">{{ $page_attr['title'] }}</h3>
-            <a type="button" class="btn btn-rounded btn-success btn-sm" href="{{ route(h_prefix(null, $route_min)) }}">
-                <i class="fe fe-arrow-left"></i> Back
-            </a>
-        </div>
+    <div class="card mt-3">
         <div class="card-body">
+            <div class="card-title d-md-flex flex-row justify-content-between">
+                <div>
+                    <h6 class="mt-2 text-uppercase">{{ $page_attr['title'] }}</h6>
+                </div>
+
+                <div>
+                    <a type="button" class="btn btn-rounded btn-success btn-sm"
+                        href="{{ route(h_prefix(null, $route_min)) }}">
+                        <i class="fas fa-arrow-left"></i> Back
+                    </a>
+                </div>
+            </div>
+            <hr class="mt-1" />
             <form action="javascript:void(0)" id="MainForm" name="MainForm" method="POST" enctype="multipart/form-data">
                 <div class="row">
                     <div class="col-lg-6">
@@ -48,11 +55,11 @@
                     @endforeach
                 </div>
             </form>
-        </div>
-        <div class="card-footer text-end">
-            <button type="submit" class="btn btn-primary" id="btn-save" form="MainForm">
-                <li class="fas fa-save mr-1"></li> Save changes
-            </button>
+            <div class="text-end">
+                <button type="submit" class="btn btn-primary" id="btn-save" form="MainForm">
+                    <li class="fas fa-save mr-1"></li> Save changes
+                </button>
+            </div>
         </div>
     </div>
 @endsection
