@@ -4,16 +4,21 @@
     <div class="row">
         <div class="col-lg-6">
             <div class="card">
-                <div class="card-header d-md-flex flex-row justify-content-between">
-                    <h3 class="card-title">Application</h3>
-                    <label class="custom-switch form-switch">
-                        <input type="checkbox" name="preloader" form="app-form" class="custom-switch-input"
-                            {{ setting_get(set_front('app.preloader')) ? 'checked' : '' }}>
-                        <span class="custom-switch-indicator"></span>
-                        <span class="custom-switch-description">Preloader</span>
-                    </label>
-                </div>
                 <div class="card-body">
+                    <div class="card-title d-md-flex flex-row justify-content-between">
+                        <div>
+                            <h6 class="mt-2 text-uppercase">Application</h6>
+                        </div>
+                        <div class="form-check form-switch">
+                            <input class="form-check-input" name="visible" form="app-form" type="checkbox"
+                                id="app-settingPreloader"{{ setting_get(set_front('app.preloader')) ? 'checked' : '' }}>
+                            <label class="form-check-label" for="app-settingPreloader">
+                                Preloader
+                            </label>
+                        </div>
+                    </div>
+                    <hr class="mt-1" />
+
                     <form class="form-horizontal" id="app-form">
                         <div class="form-group">
                             <label class="form-label mb-1" for="{{ set_front('app.title') }}">Title
@@ -105,21 +110,24 @@
                                 value="{{ setting_get(set_front('app.address')) }}" required />
                         </div>
                     </form>
+                    <div class="text-end mt-3">
+                        <button type="submit" class="btn btn-primary" form="app-form">
+                            <li class="fas fa-save mr-1"></li> Save changes
+                        </button>
+                    </div>
                 </div>
-            </div>
-            <div class="card-footer text-end">
-                <button type="submit" class="btn btn-primary" form="app-form">
-                    <li class="fas fa-save mr-1"></li> Save changes
-                </button>
             </div>
         </div>
 
         <div class="col-lg-6">
             <div class="card">
-                <div class="card-header d-md-flex flex-row justify-content-between">
-                    <h3 class="card-title">Meta Data</h3>
-                </div>
                 <div class="card-body">
+                    <div class="card-title d-md-flex flex-row justify-content-between">
+                        <div>
+                            <h6 class="mt-2 text-uppercase">Meta Data</h6>
+                        </div>
+                    </div>
+                    <hr class="mt-1" />
                     <form class="form-horizontal" id="meta-form">
                         <div class="form-group">
                             <label class="form-label mb-1" for="{{ set_front('meta.author') }}">Author
@@ -155,12 +163,11 @@
                                 placeholder="Meta Description Default">{!! setting_get(set_front('meta.description')) !!}</textarea>
                         </div>
                     </form>
-
-                </div>
-                <div class="card-footer text-end">
-                    <button type="submit" class="btn btn-primary" form="meta-form">
-                        <li class="fas fa-save mr-1"></li> Save changes
-                    </button>
+                    <div class="text-end mt-3">
+                        <button type="submit" class="btn btn-primary" form="meta-form">
+                            <li class="fas fa-save mr-1"></li> Save changes
+                        </button>
+                    </div>
                 </div>
             </div>
 

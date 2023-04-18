@@ -5,22 +5,28 @@
         <div class="grid-sizer col-md-6 col-lg-4"></div>
 
         {{-- hero --}}
-        <div class="grid-item col-md-6 col-lg-4">
+        <div class="grid-item col-md-6 col-lg-4 p-2">
             @php
                 $name = 'hero';
                 $title = 'Bagian Utama';
             @endphp
             <div class="card">
-                <div class="card-header d-md-flex flex-row justify-content-between">
-                    <h3 class="card-title">{{ $title }}</h3>
-                    <label class="custom-switch form-switch">
-                        <input type="checkbox" name="visible" form="{{ $name }}-form" class="custom-switch-input"
-                            {{ setting_get($s("$name.visible")) ? 'checked' : '' }}>
-                        <span class="custom-switch-indicator"></span>
-                        <span class="custom-switch-description">Tampilkan</span>
-                    </label>
-                </div>
                 <div class="card-body">
+                    <div class="card-title d-md-flex flex-row justify-content-between">
+                        <div>
+                            <h6 class="mt-2 text-uppercase">{{ $title }}</h6>
+                        </div>
+                        <div class="form-check form-switch">
+                            <input class="form-check-input" name="visible" form="{{ $name }}-form" type="checkbox"
+                                id="{{ $name }}-settingTampilkan"
+                                {{ setting_get($s("$name.visible")) ? 'checked' : '' }}>
+                            <label class="form-check-label" for="{{ $name }}-settingTampilkan">
+                                Tampilkan
+                            </label>
+                        </div>
+                    </div>
+                    <hr class="mt-1" />
+
                     <form class="form-horizontal" id="{{ $name }}-form" enctype="multipart/form-data">
 
                         <div class="form-group">
@@ -69,33 +75,38 @@
                                 class="form-control" />
                         </div>
                     </form>
-
-                </div>
-                <div class="card-footer text-end">
-                    <button type="submit" class="btn btn-primary" form="{{ $name }}-form">
-                        <li class="fas fa-save mr-1"></li> Simpan
-                    </button>
+                    <div class="text-end mt-3">
+                        <button type="submit" class="btn btn-primary" form="{{ $name }}-form">
+                            <li class="fas fa-save mr-1"></li> Simpan
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
 
         {{-- Galeri --}}
-        <div class="grid-item col-md-6 col-lg-4">
+        <div class="grid-item col-md-6 col-lg-4 p-2">
             @php
                 $name = 'galeri';
                 $title = 'Galeri';
             @endphp
             <div class="card">
-                <div class="card-header d-md-flex flex-row justify-content-between">
-                    <h3 class="card-title">Pengaturan {{ $title }} </h3>
-                    <label class="custom-switch form-switch">
-                        <input type="checkbox" name="visible" form="{{ $name }}-form" class="custom-switch-input"
-                            {{ setting_get($s("$name.visible")) ? 'checked' : '' }}>
-                        <span class="custom-switch-indicator"></span>
-                        <span class="custom-switch-description">Tampilkan</span>
-                    </label>
-                </div>
                 <div class="card-body">
+                    <div class="card-title d-md-flex flex-row justify-content-between">
+                        <div>
+                            <h6 class="mt-2 text-uppercase">{{ $title }}</h6>
+                        </div>
+                        <div class="form-check form-switch">
+                            <input class="form-check-input" name="visible" form="{{ $name }}-form" type="checkbox"
+                                id="{{ $name }}-settingTampilkan"
+                                {{ setting_get($s("$name.visible")) ? 'checked' : '' }}>
+                            <label class="form-check-label" for="{{ $name }}-settingTampilkan">
+                                Tampilkan
+                            </label>
+                        </div>
+                    </div>
+                    <hr class="mt-1" />
+
                     <form class="form-horizontal" id="{{ $name }}-form" enctype="multipart/form-data">
                         <div class="form-group">
                             <label class="form-label mb-1" for="{{ $s("$name.title") }}">Judul
@@ -112,32 +123,37 @@
                                 value="{{ setting_get($s("$name.sub_title")) }}" required />
                         </div>
                     </form>
-                </div>
-                <div class="card-footer text-end">
-                    <button type="submit" class="btn btn-primary" form="{{ $name }}-form">
-                        <li class="fas fa-save mr-1"></li> Simpan
-                    </button>
+                    <div class="text-end mt-3">
+                        <button type="submit" class="btn btn-primary" form="{{ $name }}-form">
+                            <li class="fas fa-save mr-1"></li> Simpan
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
 
         {{-- artikel --}}
-        <div class="grid-item col-md-6 col-lg-4">
+        <div class="grid-item col-md-6 col-lg-4 p-2">
             @php
                 $name = 'artikel';
                 $title = 'Artikel';
             @endphp
             <div class="card">
-                <div class="card-header d-md-flex flex-row justify-content-between">
-                    <h3 class="card-title">Pengaturan {{ $title }} </h3>
-                    <label class="custom-switch form-switch">
-                        <input type="checkbox" name="visible" form="{{ $name }}-form"
-                            class="custom-switch-input" {{ setting_get($s("$name.visible")) ? 'checked' : '' }}>
-                        <span class="custom-switch-indicator"></span>
-                        <span class="custom-switch-description">Tampilkan</span>
-                    </label>
-                </div>
                 <div class="card-body">
+                    <div class="card-title d-md-flex flex-row justify-content-between">
+                        <div>
+                            <h6 class="mt-2 text-uppercase">{{ $title }}</h6>
+                        </div>
+                        <div class="form-check form-switch">
+                            <input class="form-check-input" name="visible" form="{{ $name }}-form"
+                                type="checkbox" id="{{ $name }}-settingTampilkan"
+                                {{ setting_get($s("$name.visible")) ? 'checked' : '' }}>
+                            <label class="form-check-label" for="{{ $name }}-settingTampilkan">
+                                Tampilkan
+                            </label>
+                        </div>
+                    </div>
+                    <hr class="mt-1" />
                     <form class="form-horizontal" id="{{ $name }}-form" enctype="multipart/form-data">
                         <div class="form-group">
                             <label class="form-label mb-1" for="{{ $s("$name.title") }}">Judul
@@ -154,11 +170,11 @@
                                 value="{{ setting_get($s("$name.sub_title")) }}" required />
                         </div>
                     </form>
-                </div>
-                <div class="card-footer text-end">
-                    <button type="submit" class="btn btn-primary" form="{{ $name }}-form">
-                        <li class="fas fa-save mr-1"></li> Simpan
-                    </button>
+                    <div class="text-end mt-3">
+                        <button type="submit" class="btn btn-primary" form="{{ $name }}-form">
+                            <li class="fas fa-save mr-1"></li> Simpan
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -187,11 +203,10 @@
 @endsection
 
 @section('javascript')
-    <script src="{{ asset_admin('plugins/nestable2v1.6.0/jquery.nestable.min.js') }}"></script>
     <script src="{{ asset_admin('plugins/sweet-alert/sweetalert2.all.js', name: 'sash') }}"></script>
     <script src="{{ asset_admin('plugins/loading/loadingoverlay.min.js', name: 'sash') }}"></script>
     <script src="{{ asset_admin('plugins/select2/js/select2.full.min.js', name: 'sash') }}"></script>
-    <script src="{{ asset_admin('plugins/mansory.min.js') }}"></script>
+    <script src="{{ asset_admin('plugins/mansory.min.js', name: 'sash') }}"></script>
     @php $resource = resource_loader(blade_path: $view); @endphp
     <script src="{{ $resource }}"></script>
 @endsection
