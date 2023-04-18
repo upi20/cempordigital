@@ -21,7 +21,7 @@
                     </div>
                 @endif
             </div>
-            <hr />
+            <hr class="mt-1" />
             <table class="table table-striped table-hover" id="tbl_main">
                 <thead>
                     <tr>

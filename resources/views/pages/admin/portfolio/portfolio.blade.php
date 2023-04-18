@@ -20,7 +20,7 @@
                     </div>
                 @endif
             </div>
-            <hr class="mb-0" />
+            <hr class="mt-1 mb-0" />
             <div class="accordion accordion-flush" id="accordionOption">
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingSix">
