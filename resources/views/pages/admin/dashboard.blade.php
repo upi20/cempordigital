@@ -115,6 +115,7 @@
         }
     </style>
     <link rel="stylesheet" href="{{ asset_admin('plugins/daterangepicker/daterangepicker.css', name: 'sash') }}">
+    @vite(['resources/css/_c3-chart.scss']);
 @endsection
 
 @section('javascript')

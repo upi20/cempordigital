@@ -1,4 +1,9 @@
 {
+  "resources/css/_c3-chart.scss": {
+    "file": "assets/_c3-chart-34466ec7.css",
+    "isEntry": true,
+    "src": "resources/css/_c3-chart.scss"
+  },
   "resources/css/_summernote.scss": {
     "file": "assets/_summernote-7b5155f7.css",
     "isEntry": true,
