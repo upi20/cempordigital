@@ -226,19 +226,21 @@ if (!function_exists('navbar_menu_front')) {
                     $child->url = $route_build($child->route);
                     $child->active = $child->active || ($child->route === $navigation) || $child->url == current_url();;
                     $menu_active = $child->active ? $active_class_src : '';
-                    $child_menu .= "<li><a href=\"$child->url\" >$child->title</a></li>";
+
+                    $child_menu .= "<li $menu_active><a href=\"$child->url\">$child->title</a></li>";;
                     if ($child->active) $child_active = $child->active;
                 }
 
-                $menu_active = ($menu->active || $child_active) ? $active_class_src : '';
-                $menu_body .= "<li>
-                                    <a href=\"javascript:void(0)\" >$menu->title</a>
-                                    <ul class=\"submenu\">
-                                    $child_menu
-                                    </ul>
-                                </li>";
+                $menu_active = ($menu->active || $child_active) ? 'active' : '';
+                $menu_body .= <<<HTML
+                            <li class="menu-item-has-children $menu_active"><a href="javascript:void(0)">$menu->title</a>
+                                <ul class="sub-menu">
+                                $child_menu
+                                </ul>
+                            </li>
+                HTML;
             } else {
-                $menu_body .= "<li><a href=\"$menu->url\">$menu->title</a></li>";
+                $menu_body .= "<li $active_class><a href=\"$menu->url\">$menu->title</a></li>";
             }
         }
         return $menu_body;

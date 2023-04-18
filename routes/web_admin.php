@@ -502,6 +502,7 @@ Route::prefix($prefix)->group(function () use ($prefix, $name) {
         Route::get('/tambah', 'insert')->name("$name.insert")->middleware("permission:$name.insert");
         Route::get('/ubah/{portfolio}', 'update')->name("$name.update")->middleware("permission:$name.update");
         Route::post('/save/{portfolio}', 'save')->name("$name.save")->middleware("permission:$name.insert");
+        Route::post('/setting', 'setting')->name("$name.setting")->middleware("permission:$name.setting");
 
         Route::get('/item', 'item_datatable')->name("$name.item")->middleware("permission:$name.insert|$name.update");
         Route::get('/item_find', 'item_find')->name("$name.item.find")->middleware("permission:$name.insert|$name.update");

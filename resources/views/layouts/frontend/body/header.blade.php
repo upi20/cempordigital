@@ -25,41 +25,7 @@
                             </div>
                             <div class="navbar-wrap main-menu d-none d-lg-flex">
                                 <ul class="navigation">
-                                    <li class="active"><a href="index.html">Beranda</a></li>
-                                    <li class="menu-item-has-children"><a href="#">Layanan</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="./services-details.html">Desain & Branding</a></li>
-                                            <li><a href="./services-details.html">Video & Fotografi</a></li>
-                                            <li><a href="./services-details.html">Pemasaran & Periklanan</a></li>
-                                            <li><a href="./services-details.html">Web Application</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Portofolio</a></li>
-                                    <li><a href="#">Tentang</a></li>
-                                    <!-- <li class="active menu-item-has-children"><a href="#">Home</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="{{ url('') }}">Kreator Digital</a></li>
-                                            <li><a href="index-2.html">Personal Portfolio</a></li>
-                                            <li class="active"><a href="index-3.html">Digital Agency</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="about-us.html">About Us</a></li>
-                                    <li class="menu-item-has-children"><a href="#">pages</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="about-me.html">About Me</a></li>
-                                            <li><a href="team.html">Team Page</a></li>
-                                            <li><a href="team-details.html">Team Details</a></li>
-                                            <li><a href="project-details.html">Portfolio Details</a></li>
-                                            <li><a href="services-details.html">Services Details</a></li>
-                                            <li><a href="contact.html">Contact Us</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children"><a href="#">News</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="blog.html">Our Blog</a></li>
-                                            <li><a href="blog-details.html">Blog Details</a></li>
-                                        </ul>
-                                    </li> -->
+                                    {!! navbar_menu_front($page_attr->navigation) !!}
                                 </ul>
                             </div>
                             <div class="header-action">
@@ -128,8 +94,7 @@
                                                     </svg>
                                                 </div>
                                                 <div class="content">
-                                                    <a
-                                                        href="mailto:cempordigital@gmail.com">cempordigital@gmail.com</a>
+                                                    <a href="mailto:cempordigital@gmail.com">cempordigital@gmail.com</a>
                                                 </div>
                                             </li>
                                             <li>
