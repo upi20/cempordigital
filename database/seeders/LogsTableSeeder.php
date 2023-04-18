@@ -21,8 +21,8 @@ class LogsTableSeeder extends Seeder
         \DB::table('logs')->insert(array (
             0 => 
             array (
-                'id' => '1',
-                'user_id' => '1',
+                'id' => 1,
+                'user_id' => 1,
                 'log_date' => '2023-04-13 14:22:56',
                 'table_name' => 'visitors',
                 'log_type' => 'edit',
@@ -30,8 +30,8 @@ class LogsTableSeeder extends Seeder
             ),
             1 => 
             array (
-                'id' => '2',
-                'user_id' => '1',
+                'id' => 2,
+                'user_id' => 1,
                 'log_date' => '2023-04-13 20:44:45',
                 'table_name' => '',
                 'log_type' => 'login',
@@ -39,8 +39,8 @@ class LogsTableSeeder extends Seeder
             ),
             2 => 
             array (
-                'id' => '3',
-                'user_id' => '4',
+                'id' => 3,
+                'user_id' => 4,
                 'log_date' => '2023-04-14 02:06:18',
                 'table_name' => '',
                 'log_type' => 'login',
@@ -48,8 +48,8 @@ class LogsTableSeeder extends Seeder
             ),
             3 => 
             array (
-                'id' => '4',
-                'user_id' => '4',
+                'id' => 4,
+                'user_id' => 4,
                 'log_date' => '2023-04-14 02:08:40',
                 'table_name' => 'portfolio',
                 'log_type' => 'edit',
@@ -57,8 +57,8 @@ class LogsTableSeeder extends Seeder
             ),
             4 => 
             array (
-                'id' => '5',
-                'user_id' => '4',
+                'id' => 5,
+                'user_id' => 4,
                 'log_date' => '2023-04-14 02:08:44',
                 'table_name' => 'visitors',
                 'log_type' => 'edit',
@@ -66,8 +66,8 @@ class LogsTableSeeder extends Seeder
             ),
             5 => 
             array (
-                'id' => '6',
-                'user_id' => '4',
+                'id' => 6,
+                'user_id' => 4,
                 'log_date' => '2023-04-14 02:17:30',
                 'table_name' => 'portfolio',
                 'log_type' => 'delete',
@@ -75,8 +75,8 @@ class LogsTableSeeder extends Seeder
             ),
             6 => 
             array (
-                'id' => '7',
-                'user_id' => '4',
+                'id' => 7,
+                'user_id' => 4,
                 'log_date' => '2023-04-14 02:17:33',
                 'table_name' => 'portfolio',
                 'log_type' => 'delete',
@@ -84,8 +84,8 @@ class LogsTableSeeder extends Seeder
             ),
             7 => 
             array (
-                'id' => '8',
-                'user_id' => '4',
+                'id' => 8,
+                'user_id' => 4,
                 'log_date' => '2023-04-14 02:17:36',
                 'table_name' => 'portfolio',
                 'log_type' => 'delete',
@@ -93,8 +93,8 @@ class LogsTableSeeder extends Seeder
             ),
             8 => 
             array (
-                'id' => '9',
-                'user_id' => '4',
+                'id' => 9,
+                'user_id' => 4,
                 'log_date' => '2023-04-14 02:17:39',
                 'table_name' => 'portfolio',
                 'log_type' => 'delete',
@@ -102,8 +102,8 @@ class LogsTableSeeder extends Seeder
             ),
             9 => 
             array (
-                'id' => '10',
-                'user_id' => '4',
+                'id' => 10,
+                'user_id' => 4,
                 'log_date' => '2023-04-14 02:17:43',
                 'table_name' => 'portfolio',
                 'log_type' => 'delete',
@@ -111,8 +111,8 @@ class LogsTableSeeder extends Seeder
             ),
             10 => 
             array (
-                'id' => '11',
-                'user_id' => '4',
+                'id' => 11,
+                'user_id' => 4,
                 'log_date' => '2023-04-14 02:17:48',
                 'table_name' => 'portfolio',
                 'log_type' => 'delete',
@@ -120,8 +120,8 @@ class LogsTableSeeder extends Seeder
             ),
             11 => 
             array (
-                'id' => '12',
-                'user_id' => '4',
+                'id' => 12,
+                'user_id' => 4,
                 'log_date' => '2023-04-14 02:17:52',
                 'table_name' => 'portfolio_item',
                 'log_type' => 'delete',
@@ -129,8 +129,8 @@ class LogsTableSeeder extends Seeder
             ),
             12 => 
             array (
-                'id' => '13',
-                'user_id' => '4',
+                'id' => 13,
+                'user_id' => 4,
                 'log_date' => '2023-04-14 02:17:52',
                 'table_name' => 'portfolio_item',
                 'log_type' => 'delete',
@@ -138,8 +138,8 @@ class LogsTableSeeder extends Seeder
             ),
             13 => 
             array (
-                'id' => '14',
-                'user_id' => '4',
+                'id' => 14,
+                'user_id' => 4,
                 'log_date' => '2023-04-14 02:17:52',
                 'table_name' => 'portfolio_item',
                 'log_type' => 'delete',
@@ -147,8 +147,8 @@ class LogsTableSeeder extends Seeder
             ),
             14 => 
             array (
-                'id' => '15',
-                'user_id' => '4',
+                'id' => 15,
+                'user_id' => 4,
                 'log_date' => '2023-04-14 02:17:52',
                 'table_name' => 'portfolio_item',
                 'log_type' => 'delete',
@@ -156,8 +156,8 @@ class LogsTableSeeder extends Seeder
             ),
             15 => 
             array (
-                'id' => '16',
-                'user_id' => '4',
+                'id' => 16,
+                'user_id' => 4,
                 'log_date' => '2023-04-14 02:17:52',
                 'table_name' => 'portfolio_item',
                 'log_type' => 'delete',
@@ -165,8 +165,8 @@ class LogsTableSeeder extends Seeder
             ),
             16 => 
             array (
-                'id' => '17',
-                'user_id' => '4',
+                'id' => 17,
+                'user_id' => 4,
                 'log_date' => '2023-04-14 02:17:52',
                 'table_name' => 'portfolio',
                 'log_type' => 'delete',
@@ -174,8 +174,8 @@ class LogsTableSeeder extends Seeder
             ),
             17 => 
             array (
-                'id' => '18',
-                'user_id' => '4',
+                'id' => 18,
+                'user_id' => 4,
                 'log_date' => '2023-04-14 02:17:55',
                 'table_name' => 'portfolio_item',
                 'log_type' => 'delete',
@@ -183,8 +183,8 @@ class LogsTableSeeder extends Seeder
             ),
             18 => 
             array (
-                'id' => '19',
-                'user_id' => '4',
+                'id' => 19,
+                'user_id' => 4,
                 'log_date' => '2023-04-14 02:17:55',
                 'table_name' => 'portfolio',
                 'log_type' => 'delete',
@@ -192,8 +192,8 @@ class LogsTableSeeder extends Seeder
             ),
             19 => 
             array (
-                'id' => '20',
-                'user_id' => '4',
+                'id' => 20,
+                'user_id' => 4,
                 'log_date' => '2023-04-14 02:17:59',
                 'table_name' => 'portfolio_item',
                 'log_type' => 'delete',
@@ -201,8 +201,8 @@ class LogsTableSeeder extends Seeder
             ),
             20 => 
             array (
-                'id' => '21',
-                'user_id' => '4',
+                'id' => 21,
+                'user_id' => 4,
                 'log_date' => '2023-04-14 02:17:59',
                 'table_name' => 'portfolio_item',
                 'log_type' => 'delete',
@@ -210,8 +210,8 @@ class LogsTableSeeder extends Seeder
             ),
             21 => 
             array (
-                'id' => '22',
-                'user_id' => '4',
+                'id' => 22,
+                'user_id' => 4,
                 'log_date' => '2023-04-14 02:17:59',
                 'table_name' => 'portfolio_item',
                 'log_type' => 'delete',
@@ -219,8 +219,8 @@ class LogsTableSeeder extends Seeder
             ),
             22 => 
             array (
-                'id' => '23',
-                'user_id' => '4',
+                'id' => 23,
+                'user_id' => 4,
                 'log_date' => '2023-04-14 02:17:59',
                 'table_name' => 'portfolio',
                 'log_type' => 'delete',
@@ -228,8 +228,8 @@ class LogsTableSeeder extends Seeder
             ),
             23 => 
             array (
-                'id' => '24',
-                'user_id' => '4',
+                'id' => 24,
+                'user_id' => 4,
                 'log_date' => '2023-04-14 02:18:02',
                 'table_name' => 'portfolio',
                 'log_type' => 'delete',
@@ -237,8 +237,8 @@ class LogsTableSeeder extends Seeder
             ),
             24 => 
             array (
-                'id' => '25',
-                'user_id' => '4',
+                'id' => 25,
+                'user_id' => 4,
                 'log_date' => '2023-04-14 02:18:05',
                 'table_name' => 'portfolio_item',
                 'log_type' => 'delete',
@@ -246,8 +246,8 @@ class LogsTableSeeder extends Seeder
             ),
             25 => 
             array (
-                'id' => '26',
-                'user_id' => '4',
+                'id' => 26,
+                'user_id' => 4,
                 'log_date' => '2023-04-14 02:18:05',
                 'table_name' => 'portfolio_item',
                 'log_type' => 'delete',
@@ -255,8 +255,8 @@ class LogsTableSeeder extends Seeder
             ),
             26 => 
             array (
-                'id' => '27',
-                'user_id' => '4',
+                'id' => 27,
+                'user_id' => 4,
                 'log_date' => '2023-04-14 02:18:05',
                 'table_name' => 'portfolio',
                 'log_type' => 'delete',
@@ -264,8 +264,8 @@ class LogsTableSeeder extends Seeder
             ),
             27 => 
             array (
-                'id' => '28',
-                'user_id' => '4',
+                'id' => 28,
+                'user_id' => 4,
                 'log_date' => '2023-04-14 02:20:02',
                 'table_name' => 'portfolio_kategori',
                 'log_type' => 'delete',
@@ -273,8 +273,8 @@ class LogsTableSeeder extends Seeder
             ),
             28 => 
             array (
-                'id' => '29',
-                'user_id' => '4',
+                'id' => 29,
+                'user_id' => 4,
                 'log_date' => '2023-04-14 02:20:07',
                 'table_name' => 'visitors',
                 'log_type' => 'edit',
@@ -282,8 +282,8 @@ class LogsTableSeeder extends Seeder
             ),
             29 => 
             array (
-                'id' => '30',
-                'user_id' => '4',
+                'id' => 30,
+                'user_id' => 4,
                 'log_date' => '2023-04-14 02:20:54',
                 'table_name' => 'portfolio',
                 'log_type' => 'edit',
@@ -291,8 +291,8 @@ class LogsTableSeeder extends Seeder
             ),
             30 => 
             array (
-                'id' => '31',
-                'user_id' => '4',
+                'id' => 31,
+                'user_id' => 4,
                 'log_date' => '2023-04-14 02:20:57',
                 'table_name' => 'visitors',
                 'log_type' => 'edit',
@@ -300,8 +300,8 @@ class LogsTableSeeder extends Seeder
             ),
             31 => 
             array (
-                'id' => '32',
-                'user_id' => '4',
+                'id' => 32,
+                'user_id' => 4,
                 'log_date' => '2023-04-14 02:21:19',
                 'table_name' => 'portfolio',
                 'log_type' => 'delete',
@@ -309,8 +309,8 @@ class LogsTableSeeder extends Seeder
             ),
             32 => 
             array (
-                'id' => '33',
-                'user_id' => '4',
+                'id' => 33,
+                'user_id' => 4,
                 'log_date' => '2023-04-14 02:22:07',
                 'table_name' => 'portfolio_kategori',
                 'log_type' => 'edit',
@@ -318,8 +318,8 @@ class LogsTableSeeder extends Seeder
             ),
             33 => 
             array (
-                'id' => '34',
-                'user_id' => '4',
+                'id' => 34,
+                'user_id' => 4,
                 'log_date' => '2023-04-14 02:22:58',
                 'table_name' => 'portfolio_kategori',
                 'log_type' => 'edit',
@@ -327,8 +327,8 @@ class LogsTableSeeder extends Seeder
             ),
             34 => 
             array (
-                'id' => '35',
-                'user_id' => '4',
+                'id' => 35,
+                'user_id' => 4,
                 'log_date' => '2023-04-14 02:23:14',
                 'table_name' => 'portfolio_kategori',
                 'log_type' => 'edit',
@@ -336,8 +336,8 @@ class LogsTableSeeder extends Seeder
             ),
             35 => 
             array (
-                'id' => '36',
-                'user_id' => '4',
+                'id' => 36,
+                'user_id' => 4,
                 'log_date' => '2023-04-14 02:25:58',
                 'table_name' => 'visitors',
                 'log_type' => 'edit',
@@ -345,8 +345,8 @@ class LogsTableSeeder extends Seeder
             ),
             36 => 
             array (
-                'id' => '37',
-                'user_id' => '4',
+                'id' => 37,
+                'user_id' => 4,
                 'log_date' => '2023-04-14 02:30:26',
                 'table_name' => 'visitors',
                 'log_type' => 'edit',
@@ -354,8 +354,8 @@ class LogsTableSeeder extends Seeder
             ),
             37 => 
             array (
-                'id' => '38',
-                'user_id' => '4',
+                'id' => 38,
+                'user_id' => 4,
                 'log_date' => '2023-04-14 02:38:45',
                 'table_name' => 'visitors',
                 'log_type' => 'edit',
@@ -363,8 +363,8 @@ class LogsTableSeeder extends Seeder
             ),
             38 => 
             array (
-                'id' => '39',
-                'user_id' => '4',
+                'id' => 39,
+                'user_id' => 4,
                 'log_date' => '2023-04-14 02:47:11',
                 'table_name' => 'portfolio',
                 'log_type' => 'edit',
@@ -372,8 +372,8 @@ class LogsTableSeeder extends Seeder
             ),
             39 => 
             array (
-                'id' => '40',
-                'user_id' => '4',
+                'id' => 40,
+                'user_id' => 4,
                 'log_date' => '2023-04-14 02:47:32',
                 'table_name' => 'visitors',
                 'log_type' => 'edit',
@@ -381,8 +381,8 @@ class LogsTableSeeder extends Seeder
             ),
             40 => 
             array (
-                'id' => '41',
-                'user_id' => '4',
+                'id' => 41,
+                'user_id' => 4,
                 'log_date' => '2023-04-14 02:47:51',
                 'table_name' => 'portfolio',
                 'log_type' => 'edit',
@@ -390,8 +390,8 @@ class LogsTableSeeder extends Seeder
             ),
             41 => 
             array (
-                'id' => '42',
-                'user_id' => '4',
+                'id' => 42,
+                'user_id' => 4,
                 'log_date' => '2023-04-14 02:48:04',
                 'table_name' => 'visitors',
                 'log_type' => 'edit',
@@ -399,8 +399,8 @@ class LogsTableSeeder extends Seeder
             ),
             42 => 
             array (
-                'id' => '43',
-                'user_id' => '4',
+                'id' => 43,
+                'user_id' => 4,
                 'log_date' => '2023-04-14 02:50:39',
                 'table_name' => 'portfolio',
                 'log_type' => 'edit',
@@ -408,8 +408,8 @@ class LogsTableSeeder extends Seeder
             ),
             43 => 
             array (
-                'id' => '44',
-                'user_id' => '4',
+                'id' => 44,
+                'user_id' => 4,
                 'log_date' => '2023-04-14 02:50:48',
                 'table_name' => 'visitors',
                 'log_type' => 'edit',
@@ -417,8 +417,8 @@ class LogsTableSeeder extends Seeder
             ),
             44 => 
             array (
-                'id' => '45',
-                'user_id' => '1',
+                'id' => 45,
+                'user_id' => 1,
                 'log_date' => '2023-04-14 09:26:38',
                 'table_name' => '',
                 'log_type' => 'login',
@@ -426,8 +426,8 @@ class LogsTableSeeder extends Seeder
             ),
             45 => 
             array (
-                'id' => '46',
-                'user_id' => '1',
+                'id' => 46,
+                'user_id' => 1,
                 'log_date' => '2023-04-14 09:29:29',
                 'table_name' => '',
                 'log_type' => 'login',
@@ -435,8 +435,8 @@ class LogsTableSeeder extends Seeder
             ),
             46 => 
             array (
-                'id' => '47',
-                'user_id' => '1',
+                'id' => 47,
+                'user_id' => 1,
                 'log_date' => '2023-04-14 09:29:43',
                 'table_name' => 'visitors',
                 'log_type' => 'edit',
@@ -444,8 +444,8 @@ class LogsTableSeeder extends Seeder
             ),
             47 => 
             array (
-                'id' => '48',
-                'user_id' => '1',
+                'id' => 48,
+                'user_id' => 1,
                 'log_date' => '2023-04-14 09:31:01',
                 'table_name' => 'visitors',
                 'log_type' => 'edit',
@@ -453,8 +453,8 @@ class LogsTableSeeder extends Seeder
             ),
             48 => 
             array (
-                'id' => '49',
-                'user_id' => '1',
+                'id' => 49,
+                'user_id' => 1,
                 'log_date' => '2023-04-14 09:34:55',
                 'table_name' => 'visitors',
                 'log_type' => 'edit',
@@ -462,8 +462,8 @@ class LogsTableSeeder extends Seeder
             ),
             49 => 
             array (
-                'id' => '50',
-                'user_id' => '1',
+                'id' => 50,
+                'user_id' => 1,
                 'log_date' => '2023-04-15 06:57:00',
                 'table_name' => '',
                 'log_type' => 'login',
@@ -471,8 +471,8 @@ class LogsTableSeeder extends Seeder
             ),
             50 => 
             array (
-                'id' => '51',
-                'user_id' => '1',
+                'id' => 51,
+                'user_id' => 1,
                 'log_date' => '2023-04-15 07:01:09',
                 'table_name' => 'visitors',
                 'log_type' => 'edit',
@@ -480,8 +480,8 @@ class LogsTableSeeder extends Seeder
             ),
             51 => 
             array (
-                'id' => '52',
-                'user_id' => '1',
+                'id' => 52,
+                'user_id' => 1,
                 'log_date' => '2023-04-15 15:02:00',
                 'table_name' => '',
                 'log_type' => 'login',
@@ -489,8 +489,8 @@ class LogsTableSeeder extends Seeder
             ),
             52 => 
             array (
-                'id' => '53',
-                'user_id' => '1',
+                'id' => 53,
+                'user_id' => 1,
                 'log_date' => '2023-04-15 15:39:16',
                 'table_name' => 'portfolio_kategori',
                 'log_type' => 'edit',
@@ -498,8 +498,8 @@ class LogsTableSeeder extends Seeder
             ),
             53 => 
             array (
-                'id' => '54',
-                'user_id' => '1',
+                'id' => 54,
+                'user_id' => 1,
                 'log_date' => '2023-04-15 15:39:26',
                 'table_name' => 'portfolio_kategori',
                 'log_type' => 'edit',
@@ -507,8 +507,8 @@ class LogsTableSeeder extends Seeder
             ),
             54 => 
             array (
-                'id' => '55',
-                'user_id' => '1',
+                'id' => 55,
+                'user_id' => 1,
                 'log_date' => '2023-04-15 15:42:20',
                 'table_name' => 'portfolio_kategori',
                 'log_type' => 'edit',
@@ -516,12 +516,1083 @@ class LogsTableSeeder extends Seeder
             ),
             55 => 
             array (
-                'id' => '56',
-                'user_id' => '1',
+                'id' => 56,
+                'user_id' => 1,
                 'log_date' => '2023-04-15 15:42:34',
                 'table_name' => 'portfolio_kategori',
                 'log_type' => 'edit',
                 'data' => '{"id":"11","urutan":"1","nama":"Logos","slug":"logos","keterangan":null,"created_at":"2023-04-14 02:19:55","updated_at":"2023-04-15 15:42:20"}',
+            ),
+            56 => 
+            array (
+                'id' => 57,
+                'user_id' => 1,
+                'log_date' => '2023-04-15 16:02:08',
+                'table_name' => 'setting_activities',
+                'log_type' => 'edit',
+                'data' => '{"id":1,"key":"setting.home.galeri.visible","value":"1","created_at":"2023-04-15 15:58:47","updated_at":"2023-04-15 15:58:47"}',
+            ),
+            57 => 
+            array (
+                'id' => 58,
+                'user_id' => 1,
+                'log_date' => '2023-04-15 16:02:08',
+                'table_name' => 'setting_activities',
+                'log_type' => 'edit',
+                'data' => '{"id":2,"key":"setting.home.galeri.title","value":"Galeri Kegiatana","created_at":"2023-04-15 15:58:47","updated_at":"2023-04-15 16:01:54"}',
+            ),
+            58 => 
+            array (
+                'id' => 59,
+                'user_id' => 1,
+                'log_date' => '2023-04-15 16:02:26',
+                'table_name' => 'setting_activities',
+                'log_type' => 'edit',
+                'data' => '{"id":1,"key":"setting.home.galeri.visible","value":"0","created_at":"2023-04-15 15:58:47","updated_at":"2023-04-15 16:02:08"}',
+            ),
+            59 => 
+            array (
+                'id' => 60,
+                'user_id' => 1,
+                'log_date' => '2023-04-15 16:07:55',
+                'table_name' => 'setting_activities',
+                'log_type' => 'edit',
+                'data' => '{"id":9,"key":"setting.home.galeri.sub_title","value":"Kegiatan Mengaji","created_at":"2023-04-15 16:07:49","updated_at":"2023-04-15 16:07:49"}',
+            ),
+            60 => 
+            array (
+                'id' => 61,
+                'user_id' => 1,
+                'log_date' => '2023-04-15 16:08:06',
+                'table_name' => 'setting_activities',
+                'log_type' => 'edit',
+                'data' => '{"id":9,"key":"setting.home.galeri.sub_title","value":"Kegiatan Mengajia","created_at":"2023-04-15 16:07:49","updated_at":"2023-04-15 16:07:55"}',
+            ),
+            61 => 
+            array (
+                'id' => 62,
+                'user_id' => 1,
+                'log_date' => '2023-04-15 17:00:05',
+                'table_name' => 'notif_admin_atas',
+                'log_type' => 'delete',
+                'data' => '{"id":1,"nama":"situs belum siap wkwk","deskripsi":"Website ini masih dalam masa pengembangan. jika anda menemukan error atau ada saran lain-nya bisa menghubungi developer","dari":"2022-08-17","sampai":"2023-03-08","link":"https:\\/\\/wa.me\\/+6285798132505","link_nama":"Klik disini","created_at":"2022-08-18 16:42:49","updated_at":"2023-03-09 22:21:38"}',
+            ),
+            62 => 
+            array (
+                'id' => 63,
+                'user_id' => 1,
+                'log_date' => '2023-04-15 17:32:33',
+                'table_name' => 'setting_activities',
+                'log_type' => 'create',
+                'data' => '{"key":"setting.home.galeri.visible","value":1,"updated_at":"2023-04-15T10:32:33.000000Z","created_at":"2023-04-15T10:32:33.000000Z","id":13}',
+            ),
+            63 => 
+            array (
+                'id' => 64,
+                'user_id' => 1,
+                'log_date' => '2023-04-15 17:32:33',
+                'table_name' => 'setting_activities',
+                'log_type' => 'create',
+                'data' => '{"key":"setting.home.galeri.title","value":"Galeri Kegiatan","updated_at":"2023-04-15T10:32:33.000000Z","created_at":"2023-04-15T10:32:33.000000Z","id":14}',
+            ),
+            64 => 
+            array (
+                'id' => 65,
+                'user_id' => 1,
+                'log_date' => '2023-04-15 17:32:33',
+                'table_name' => 'setting_activities',
+                'log_type' => 'create',
+                'data' => '{"key":"setting.home.galeri.sub_title","value":"Kegiatan Mengaji","updated_at":"2023-04-15T10:32:33.000000Z","created_at":"2023-04-15T10:32:33.000000Z","id":15}',
+            ),
+            65 => 
+            array (
+                'id' => 66,
+                'user_id' => 1,
+                'log_date' => '2023-04-15 21:00:51',
+                'table_name' => '',
+                'log_type' => 'login',
+            'data' => '{"ip":"127.0.0.1","user_agent":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/112.0.0.0 Safari\\/537.36 Edg\\/112.0.1722.39"}',
+            ),
+            66 => 
+            array (
+                'id' => 67,
+                'user_id' => 1,
+                'log_date' => '2023-04-15 21:01:01',
+                'table_name' => 'setting_activities',
+                'log_type' => 'create',
+                'data' => '{"key":"setting.home.hero.visible","value":1,"updated_at":"2023-04-15T14:01:01.000000Z","created_at":"2023-04-15T14:01:01.000000Z","id":16}',
+            ),
+            67 => 
+            array (
+                'id' => 68,
+                'user_id' => 1,
+                'log_date' => '2023-04-15 21:01:01',
+                'table_name' => 'setting_activities',
+                'log_type' => 'create',
+            'data' => '{"key":"setting.home.hero.deskripsi","value":"Sebuah Rumah Tahfizh yang didirikan oleh Bapak  Dian Nopiandi seorang Guru Sman 1 Pasirkuda  dan Ibu Puput Risnawati di Cianjur Selatan yang bertujuan untuk mewujudkan jutaan penghafal Al-Qur\\u2019an di Indonesia dan mencetak generasi Qur\'ani yang beriman dan dapat mengaplikasikan kandungan Al-Qur\'an dalam kehidupan bermasyarakat yang Rahmatan Lil Alamin (kasih bagi seluruh alam).","updated_at":"2023-04-15T14:01:01.000000Z","created_at":"2023-04-15T14:01:01.000000Z","id":17}',
+            ),
+            68 => 
+            array (
+                'id' => 69,
+                'user_id' => 1,
+                'log_date' => '2023-04-15 21:01:01',
+                'table_name' => 'setting_activities',
+                'log_type' => 'create',
+                'data' => '{"key":"setting.home.hero.tombol_title","value":"DAFTAR SEKARANG","updated_at":"2023-04-15T14:01:01.000000Z","created_at":"2023-04-15T14:01:01.000000Z","id":18}',
+            ),
+            69 => 
+            array (
+                'id' => 70,
+                'user_id' => 1,
+                'log_date' => '2023-04-15 21:01:01',
+                'table_name' => 'setting_activities',
+                'log_type' => 'create',
+                'data' => '{"key":"setting.home.hero.tombol_link","value":"__base_url__\\/pendaftaran","updated_at":"2023-04-15T14:01:01.000000Z","created_at":"2023-04-15T14:01:01.000000Z","id":19}',
+            ),
+            70 => 
+            array (
+                'id' => 71,
+                'user_id' => 1,
+                'log_date' => '2023-04-15 21:01:01',
+                'table_name' => 'setting_activities',
+                'log_type' => 'create',
+                'data' => '{"key":"setting.home.hero.judul","value":"Rumah Tahfidzh Quran<br>Ar-Rahman","updated_at":"2023-04-15T14:01:01.000000Z","created_at":"2023-04-15T14:01:01.000000Z","id":20}',
+            ),
+            71 => 
+            array (
+                'id' => 72,
+                'user_id' => 1,
+                'log_date' => '2023-04-15 21:01:01',
+                'table_name' => 'setting_activities',
+                'log_type' => 'create',
+                'data' => '{"key":"setting.home.hero.sub_judul","value":"Gapai Ilmu dan Keberkahan Hidup melalui Hafalan Al-Quran.","updated_at":"2023-04-15T14:01:01.000000Z","created_at":"2023-04-15T14:01:01.000000Z","id":21}',
+            ),
+            72 => 
+            array (
+                'id' => 73,
+                'user_id' => 1,
+                'log_date' => '2023-04-15 21:01:06',
+                'table_name' => 'setting_activities',
+                'log_type' => 'create',
+                'data' => '{"key":"setting.home.artikel.visible","value":0,"updated_at":"2023-04-15T14:01:06.000000Z","created_at":"2023-04-15T14:01:06.000000Z","id":22}',
+            ),
+            73 => 
+            array (
+                'id' => 74,
+                'user_id' => 1,
+                'log_date' => '2023-04-15 21:01:06',
+                'table_name' => 'setting_activities',
+                'log_type' => 'create',
+                'data' => '{"key":"setting.home.artikel.title","value":"ARTIKEL","updated_at":"2023-04-15T14:01:06.000000Z","created_at":"2023-04-15T14:01:06.000000Z","id":23}',
+            ),
+            74 => 
+            array (
+                'id' => 75,
+                'user_id' => 1,
+                'log_date' => '2023-04-15 21:01:06',
+                'table_name' => 'setting_activities',
+                'log_type' => 'create',
+                'data' => '{"key":"setting.home.artikel.sub_title","value":"Kilasan artikel dari beberapa kegiatan kami","updated_at":"2023-04-15T14:01:06.000000Z","created_at":"2023-04-15T14:01:06.000000Z","id":24}',
+            ),
+            75 => 
+            array (
+                'id' => 76,
+                'user_id' => 1,
+                'log_date' => '2023-04-15 21:01:16',
+                'table_name' => 'setting_activities',
+                'log_type' => 'create',
+                'data' => '{"key":"setting.home.testimonial.visible","value":1,"updated_at":"2023-04-15T14:01:16.000000Z","created_at":"2023-04-15T14:01:16.000000Z","id":25}',
+            ),
+            76 => 
+            array (
+                'id' => 77,
+                'user_id' => 1,
+                'log_date' => '2023-04-15 21:01:16',
+                'table_name' => 'setting_activities',
+                'log_type' => 'create',
+                'data' => '{"key":"setting.home.testimonial.title","value":"Apa Pendapat Mereka <br> Tentang Kami","updated_at":"2023-04-15T14:01:16.000000Z","created_at":"2023-04-15T14:01:16.000000Z","id":26}',
+            ),
+            77 => 
+            array (
+                'id' => 78,
+                'user_id' => 1,
+                'log_date' => '2023-04-15 21:01:23',
+                'table_name' => 'setting_activities',
+                'log_type' => 'create',
+                'data' => '{"key":"setting.contact.faq.visible","value":1,"updated_at":"2023-04-15T14:01:23.000000Z","created_at":"2023-04-15T14:01:23.000000Z","id":27}',
+            ),
+            78 => 
+            array (
+                'id' => 79,
+                'user_id' => 1,
+                'log_date' => '2023-04-15 21:01:23',
+                'table_name' => 'setting_activities',
+                'log_type' => 'create',
+                'data' => '{"key":"setting.contact.faq.title","value":"Ada Pertanyaan ?","updated_at":"2023-04-15T14:01:23.000000Z","created_at":"2023-04-15T14:01:23.000000Z","id":28}',
+            ),
+            79 => 
+            array (
+                'id' => 80,
+                'user_id' => 1,
+                'log_date' => '2023-04-15 21:01:23',
+                'table_name' => 'setting_activities',
+                'log_type' => 'create',
+                'data' => '{"key":"setting.contact.faq.sub_title","value":"Semua Pertanyaan Yang Sering Diajukan Ada Disini","updated_at":"2023-04-15T14:01:23.000000Z","created_at":"2023-04-15T14:01:23.000000Z","id":29}',
+            ),
+            80 => 
+            array (
+                'id' => 81,
+                'user_id' => 1,
+                'log_date' => '2023-04-15 21:01:23',
+                'table_name' => 'setting_activities',
+                'log_type' => 'create',
+                'data' => '{"key":"setting.contact.faq.description","value":null,"updated_at":"2023-04-15T14:01:23.000000Z","created_at":"2023-04-15T14:01:23.000000Z","id":30}',
+            ),
+            81 => 
+            array (
+                'id' => 82,
+                'user_id' => 1,
+                'log_date' => '2023-04-17 23:15:40',
+                'table_name' => '',
+                'log_type' => 'login',
+            'data' => '{"ip":"127.0.0.1","user_agent":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/112.0.0.0 Safari\\/537.36 Edg\\/112.0.1722.48"}',
+            ),
+            82 => 
+            array (
+                'id' => 83,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 03:45:08',
+                'table_name' => 'portfolio_kategori',
+                'log_type' => 'create',
+                'data' => '{"keterangan":"Instagram Utama","nama":"PaDi UMKM","urutan":11,"slug":"padi-umkm","updated_at":"2023-04-17T20:45:08.000000Z","created_at":"2023-04-17T20:45:08.000000Z","id":17}',
+            ),
+            83 => 
+            array (
+                'id' => 84,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 03:45:14',
+                'table_name' => 'portfolio_kategori',
+                'log_type' => 'delete',
+                'data' => '{"id":17,"urutan":11,"nama":"PaDi UMKM","slug":"padi-umkm","keterangan":"Instagram Utama","created_at":"2023-04-18 03:45:08","updated_at":"2023-04-18 03:45:08"}',
+            ),
+            84 => 
+            array (
+                'id' => 85,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 04:44:56',
+                'table_name' => 'users',
+                'log_type' => 'edit',
+                'data' => '{"id":1,"name":"Isep Lutpi Nur","email":"iseplutpinur7@gmail.com","foto":null,"username":null,"email_verified_at":null,"password":"$2y$10$DsI7ChQu4aIwEwc0CTlCnO66pBuIukicAIA\\/oIKwHD4AIGzIHmHZO","active":1,"two_factor_secret":null,"two_factor_recovery_codes":null,"two_factor_confirmed_at":null,"current_team_id":null,"profile_photo_path":null,"remember_token":null,"created_at":null,"updated_at":"2022-08-28 20:49:57"}',
+            ),
+            85 => 
+            array (
+                'id' => 86,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 05:16:35',
+                'table_name' => 'portfolio_item',
+                'log_type' => 'create',
+                'data' => '{"portfolio_id":"14","nama":"Email","keterangan":"iseplutpinur7@gmail.com","urutan":1,"updated_at":"2023-04-17T22:16:35.000000Z","created_at":"2023-04-17T22:16:35.000000Z","id":1}',
+            ),
+            86 => 
+            array (
+                'id' => 87,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 05:36:55',
+                'table_name' => 'p_menu',
+                'log_type' => 'edit',
+                'data' => '{"id":410,"parent_id":null,"title":"Media Dan Informasi","icon":null,"route":null,"sequence":2,"active":1,"type":0,"created_at":"2022-09-15 21:17:53","updated_at":"2023-03-24 23:54:00"}',
+            ),
+            87 => 
+            array (
+                'id' => 88,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 05:36:55',
+                'table_name' => 'p_menu',
+                'log_type' => 'edit',
+                'data' => '{"id":345,"parent_id":null,"title":"Dashboard","icon":"fas fa-tachometer-alt","route":"admin.dashboard","sequence":1,"active":1,"type":1,"created_at":"2022-08-05 23:50:28","updated_at":"2023-03-10 13:05:00"}',
+            ),
+            88 => 
+            array (
+                'id' => 89,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 05:36:59',
+                'table_name' => 'p_menu',
+                'log_type' => 'edit',
+                'data' => '{"id":345,"parent_id":null,"title":"Dashboard","icon":"fas fa-tachometer-alt","route":"admin.dashboard","sequence":2,"active":1,"type":1,"created_at":"2022-08-05 23:50:28","updated_at":"2023-04-18 05:36:55"}',
+            ),
+            89 => 
+            array (
+                'id' => 90,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 05:37:00',
+                'table_name' => 'p_menu',
+                'log_type' => 'edit',
+                'data' => '{"id":410,"parent_id":null,"title":"Media Dan Informasi","icon":null,"route":null,"sequence":1,"active":1,"type":0,"created_at":"2022-09-15 21:17:53","updated_at":"2023-04-18 05:36:55"}',
+            ),
+            90 => 
+            array (
+                'id' => 91,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 05:43:44',
+                'table_name' => 'p_role_has_menu',
+                'log_type' => 'create',
+                'data' => '{"role_id":1,"menu_id":345,"updated_at":"2023-04-17T22:43:44.000000Z","created_at":"2023-04-17T22:43:44.000000Z","id":228}',
+            ),
+            91 => 
+            array (
+                'id' => 92,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 05:43:44',
+                'table_name' => 'p_role_has_menu',
+                'log_type' => 'create',
+                'data' => '{"role_id":9,"menu_id":345,"updated_at":"2023-04-17T22:43:44.000000Z","created_at":"2023-04-17T22:43:44.000000Z","id":229}',
+            ),
+            92 => 
+            array (
+                'id' => 93,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 05:44:21',
+                'table_name' => 'p_role_has_menu',
+                'log_type' => 'create',
+                'data' => '{"role_id":1,"menu_id":425,"updated_at":"2023-04-17T22:44:21.000000Z","created_at":"2023-04-17T22:44:21.000000Z","id":230}',
+            ),
+            93 => 
+            array (
+                'id' => 94,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 05:44:21',
+                'table_name' => 'p_role_has_menu',
+                'log_type' => 'create',
+                'data' => '{"role_id":9,"menu_id":425,"updated_at":"2023-04-17T22:44:21.000000Z","created_at":"2023-04-17T22:44:21.000000Z","id":231}',
+            ),
+            94 => 
+            array (
+                'id' => 95,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 10:49:36',
+                'table_name' => '',
+                'log_type' => 'login',
+            'data' => '{"ip":"127.0.0.1","user_agent":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/112.0.0.0 Safari\\/537.36 Edg\\/112.0.1722.48"}',
+            ),
+            95 => 
+            array (
+                'id' => 96,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 10:52:23',
+                'table_name' => 'p_menu',
+                'log_type' => 'edit',
+                'data' => '{"id":351,"parent_id":null,"title":"Artikel","icon":"fas fa-file-alt","route":null,"sequence":12,"active":0,"type":1,"created_at":"2022-08-05 23:50:28","updated_at":"2023-04-13 13:06:20"}',
+            ),
+            96 => 
+            array (
+                'id' => 97,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 10:52:23',
+                'table_name' => 'p_role_has_menu',
+                'log_type' => 'create',
+                'data' => '{"role_id":1,"menu_id":351,"updated_at":"2023-04-18T03:52:23.000000Z","created_at":"2023-04-18T03:52:23.000000Z","id":232}',
+            ),
+            97 => 
+            array (
+                'id' => 98,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 10:52:23',
+                'table_name' => 'p_role_has_menu',
+                'log_type' => 'create',
+                'data' => '{"role_id":9,"menu_id":351,"updated_at":"2023-04-18T03:52:23.000000Z","created_at":"2023-04-18T03:52:23.000000Z","id":233}',
+            ),
+            98 => 
+            array (
+                'id' => 99,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 12:50:10',
+                'table_name' => 'artikel',
+                'log_type' => 'edit',
+                'data' => '{"id":36,"nama":"IDEAL COCKTAILS FROM OUR BARMEN FOR PEFECT MOOD","slug":"ideal-cocktails-from-our-barmen-for-pefect-mood","foto":"\\/assets\\/artikel\\/ideal-cock16784303220.png","detail":"<h2 class=\\"title mb-10\\" style=\\"text-align: center; \\"><img data-bs-filename=\\"blog-post-1.jpg\\" style=\\"width: 748px;\\" src=\\"\\/assets\\/artikel\\/ideal-cock16784303220.png\\"><br>\\n\\n<h2 class=\\"title mb-10\\">ideal cocktails from our barmen for pefect mood<\\/h2><div class=\\"mt-10\\">\\n<p>For those of us who want to say thank you to our moms, it\'s not always easy\\nto put those big feelings in words. Which is where Dribbble comes in.<\\/p>\\n<\\/div><div class=\\"mt-20\\">\\n<p>These eight shots crystallize the hard work moms put into keeping their kids\\nalive, happy, and healthy. They might give you the inspiration you need for\\nfilling out that card&acirc;&#128;&#148;or stand alone for your mom\'s interpretation.<\\/p>\\n<\\/div><div class=\\"mt-20\\">\\n<p>Moms are the ones who bandage our boo-boos when we\'re little and continue to\\ntake care of us as we get older&acirc;&#128;&#148;often sacrificing their own needs so they\\ncan help with ours. Cruising on a bike <\\/p>\\n<\\/div><div class=\\"mt-20\\">\\n<h3>Here come the moms in space<\\/h3>\\n<p>A supermarket worker was spat at by a customer attempting to stockpile Pot\\nNoodles while another was told: &acirc;&#128;&#156;I hope you get the virus and die&acirc;&#128;&#157;, as\\npanic-buying blighted the nations response to coronavirus pandemic.<\\/p>\\n<\\/div><div class=\\"mt-20\\">\\n<p>An eyewitness described the scene at a packed branch of Asda in the Wirral,\\nMerseyside, on Saturday, as a man in his 30s attempted to buy more than the\\nthree Pot Noodles allowed by the <\\/p>\\n<\\/div><div class=\\"mt-20\\">\\n<h3>Here come the moms in space<\\/h3>\\n<p>The incident, which was raised in parliament by Labour MP Bill Esterson, was\\njust one of the horrendous cases of abuse revealed by supermarket workers in\\nrecent days as some customers grow angry over restrictions and empty\\nshelves.<\\/p>\\n<\\/div><div class=\\"mt-20\\">\\n<p>The doctor was exposed to the virus when the 38-year-old woman visited the\\nclinic on March 12, the minister said. Five days later, she tested positive.\\nThat day, the doctor was also admitted in hospital.Lorem ipsum dolor sit\\namet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut\\nlabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud\\nexercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\\/p>\\n<\\/div><div class=\\"mt-20\\">\\n<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore\\neu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,\\nsunt in culpa qui officia deserunt mollit <\\/p>\\n<\\/div><\\/h2>\\n","excerpt":"Ronec et nibh maximus, congue est eu, mattis nunc. Praesent ut quam quis quam venenatis fringilla. Morbi vestibulum id tellus mmodo mattis. Aliquam erat volutpat. Aenean accumsan id mi nec semper. Lorem ipsum.","counter":91,"date":"2023-03-10","status":1,"created_at":"2022-04-28 07:19:02","updated_at":"2023-03-26 21:03:41","user_id":1}',
+            ),
+            99 => 
+            array (
+                'id' => 100,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 12:50:28',
+                'table_name' => 'artikel',
+                'log_type' => 'edit',
+                'data' => '{"id":36,"nama":"IDEAL COCKTAILS FROM OUR BARMEN FOR PEFECT MOOD","slug":"ideal-cocktails-from-our-barmen-for-pefect-mood","foto":"\\/assets\\/artikel\\/ideal-cock16784303220.png","detail":"<h2 class=\\"title mb-10\\" style=\\"text-align: center; \\"><img data-bs-filename=\\"blog-post-1.jpg\\" style=\\"width: 748px;\\" src=\\"\\/assets\\/artikel\\/ideal-cock16784303220.png\\"><br>\\r\\n\\r\\n<h2 class=\\"title mb-10\\">ideal cocktails from our barmen for pefect mood<\\/h2><div class=\\"mt-10\\">\\r\\n<p>For those of us who want to say thank you to our moms, it\'s not always easy\\r\\nto put those big feelings in words. Which is where Dribbble comes in.<\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>These eight shots crystallize the hard work moms put into keeping their kids\\r\\nalive, happy, and healthy. They might give you the inspiration you need for\\r\\nfilling out that card&acirc;&#128;&#148;or stand alone for your mom\'s interpretation.<\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>Moms are the ones who bandage our boo-boos when we\'re little and continue to\\r\\ntake care of us as we get older&acirc;&#128;&#148;often sacrificing their own needs so they\\r\\ncan help with ours. Cruising on a bike <\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<h3>Here come the moms in space<\\/h3>\\r\\n<p>A supermarket worker was spat at by a customer attempting to stockpile Pot\\r\\nNoodles while another was told: &acirc;&#128;&#156;I hope you get the virus and die&acirc;&#128;&#157;, as\\r\\npanic-buying blighted the nations response to coronavirus pandemic.<\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>An eyewitness described the scene at a packed branch of Asda in the Wirral,\\r\\nMerseyside, on Saturday, as a man in his 30s attempted to buy more than the\\r\\nthree Pot Noodles allowed by the <\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<h3>Here come the moms in space<\\/h3>\\r\\n<p>The incident, which was raised in parliament by Labour MP Bill Esterson, was\\r\\njust one of the horrendous cases of abuse revealed by supermarket workers in\\r\\nrecent days as some customers grow angry over restrictions and empty\\r\\nshelves.<\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>The doctor was exposed to the virus when the 38-year-old woman visited the\\r\\nclinic on March 12, the minister said. Five days later, she tested positive.\\r\\nThat day, the doctor was also admitted in hospital.Lorem ipsum dolor sit\\r\\namet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut\\r\\nlabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud\\r\\nexercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore\\r\\neu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,\\r\\nsunt in culpa qui officia deserunt mollit <\\/p>\\r\\n<\\/div><\\/h2>\\n","excerpt":"Ronec et nibh maximus, congue est eu, mattis nunc. Praesent ut quam quis quam venenatis fringilla. Morbi vestibulum id tellus mmodo mattis. Aliquam erat volutpat. Aenean accumsan id mi nec semper. Lorem ipsum.","counter":91,"date":"2023-03-10","status":1,"created_at":"2022-04-28 07:19:02","updated_at":"2023-04-18 12:50:10","user_id":1}',
+            ),
+            100 => 
+            array (
+                'id' => 101,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 13:30:22',
+                'table_name' => 'setting_activities',
+                'log_type' => 'edit',
+                'data' => '{"id":30,"key":"setting.contact.faq.description","value":null,"created_at":"2023-04-15 21:01:23","updated_at":"2023-04-15 21:01:23"}',
+            ),
+            101 => 
+            array (
+                'id' => 102,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 13:33:08',
+                'table_name' => 'setting_activities',
+                'log_type' => 'edit',
+                'data' => '{"id":27,"key":"setting.contact.faq.visible","value":"1","created_at":"2023-04-15 21:01:23","updated_at":"2023-04-15 21:01:23"}',
+            ),
+            102 => 
+            array (
+                'id' => 103,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 13:33:13',
+                'table_name' => 'setting_activities',
+                'log_type' => 'edit',
+                'data' => '{"id":27,"key":"setting.contact.faq.visible","value":"0","created_at":"2023-04-15 21:01:23","updated_at":"2023-04-18 13:33:08"}',
+            ),
+            103 => 
+            array (
+                'id' => 104,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 13:42:14',
+                'table_name' => 'setting_activities',
+                'log_type' => 'edit',
+                'data' => '{"id":22,"key":"setting.home.artikel.visible","value":"0","created_at":"2023-04-15 21:01:06","updated_at":"2023-04-15 21:01:06"}',
+            ),
+            104 => 
+            array (
+                'id' => 105,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 13:47:25',
+                'table_name' => 'setting_activities',
+                'log_type' => 'edit',
+                'data' => '{"id":9,"key":"setting.front.app.preloader","value":"1","created_at":"2023-04-15 16:42:12","updated_at":"2023-04-15 16:42:12"}',
+            ),
+            105 => 
+            array (
+                'id' => 106,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:01:26',
+                'table_name' => '',
+                'log_type' => 'login',
+            'data' => '{"ip":"127.0.0.1","user_agent":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/112.0.0.0 Safari\\/537.36 Edg\\/112.0.1722.48"}',
+            ),
+            106 => 
+            array (
+                'id' => 107,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:01:55',
+                'table_name' => '',
+                'log_type' => 'login',
+            'data' => '{"ip":"127.0.0.1","user_agent":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/112.0.0.0 Safari\\/537.36 Edg\\/112.0.1722.48"}',
+            ),
+            107 => 
+            array (
+                'id' => 108,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:03:29',
+                'table_name' => 'visitors',
+                'log_type' => 'edit',
+            'data' => '{"id":134,"ip":"127.0.0.1","date":"2023-04-18","time":"14:01:36","platform":"Windows","browser":"Edge","browser_version":"112.0.1722.48","user_agent":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/112.0.0.0 Safari\\/537.36 Edg\\/112.0.1722.48","hits":2,"has_detail":0}',
+            ),
+            108 => 
+            array (
+                'id' => 109,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:04:08',
+                'table_name' => 'p_menu_frontends',
+                'log_type' => 'edit',
+                'data' => '{"id":1,"parent_id":null,"title":"Utama","icon":null,"route":"__base_url__","sequence":1,"active":1,"type":1,"created_at":"2022-08-20 14:26:10","updated_at":"2023-03-26 08:01:07"}',
+            ),
+            109 => 
+            array (
+                'id' => 110,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:04:31',
+                'table_name' => 'p_menu_frontends',
+                'log_type' => 'create',
+                'data' => '{"sequence":"10","parent_id":null,"active":"1","title":"Layanan","icon":null,"route":"#","type":"1","updated_at":"2023-04-18T07:04:31.000000Z","created_at":"2023-04-18T07:04:31.000000Z","id":31}',
+            ),
+            110 => 
+            array (
+                'id' => 111,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:05:14',
+                'table_name' => 'p_menu_frontends',
+                'log_type' => 'create',
+                'data' => '{"sequence":"11","parent_id":"31","active":"1","title":"Website","icon":null,"route":"#","type":"1","updated_at":"2023-04-18T07:05:14.000000Z","created_at":"2023-04-18T07:05:14.000000Z","id":32}',
+            ),
+            111 => 
+            array (
+                'id' => 112,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:05:19',
+                'table_name' => 'p_menu_frontends',
+                'log_type' => 'edit',
+                'data' => '{"id":31,"parent_id":null,"title":"Layanan","icon":null,"route":"#","sequence":10,"active":1,"type":1,"created_at":"2023-04-18 14:04:31","updated_at":"2023-04-18 14:04:31"}',
+            ),
+            112 => 
+            array (
+                'id' => 113,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:05:19',
+                'table_name' => 'p_menu_frontends',
+                'log_type' => 'edit',
+                'data' => '{"id":32,"parent_id":31,"title":"Website","icon":null,"route":"#","sequence":11,"active":1,"type":1,"created_at":"2023-04-18 14:05:14","updated_at":"2023-04-18 14:05:14"}',
+            ),
+            113 => 
+            array (
+                'id' => 114,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:05:19',
+                'table_name' => 'p_menu_frontends',
+                'log_type' => 'edit',
+                'data' => '{"id":2,"parent_id":null,"title":"Tentang","icon":null,"route":"about","sequence":2,"active":0,"type":1,"created_at":"2022-08-20 14:30:39","updated_at":"2023-04-13 03:26:30"}',
+            ),
+            114 => 
+            array (
+                'id' => 115,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:05:19',
+                'table_name' => 'p_menu_frontends',
+                'log_type' => 'edit',
+                'data' => '{"id":29,"parent_id":null,"title":"Galeri","icon":null,"route":"galeri","sequence":3,"active":0,"type":1,"created_at":"2023-03-26 08:02:10","updated_at":"2023-04-13 03:26:34"}',
+            ),
+            115 => 
+            array (
+                'id' => 116,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:05:19',
+                'table_name' => 'p_menu_frontends',
+                'log_type' => 'edit',
+                'data' => '{"id":20,"parent_id":null,"title":"Artikel","icon":null,"route":"artikel","sequence":4,"active":0,"type":1,"created_at":"2022-09-02 00:45:45","updated_at":"2023-04-13 03:26:39"}',
+            ),
+            116 => 
+            array (
+                'id' => 117,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:05:19',
+                'table_name' => 'p_menu_frontends',
+                'log_type' => 'edit',
+                'data' => '{"id":30,"parent_id":null,"title":"Pendaftaran","icon":null,"route":"pendaftaran","sequence":5,"active":0,"type":1,"created_at":"2023-03-26 08:02:37","updated_at":"2023-04-13 03:26:51"}',
+            ),
+            117 => 
+            array (
+                'id' => 118,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:05:19',
+                'table_name' => 'p_menu_frontends',
+                'log_type' => 'edit',
+                'data' => '{"id":18,"parent_id":null,"title":"Kontak","icon":null,"route":"kontak","sequence":6,"active":0,"type":1,"created_at":"2022-08-20 14:47:10","updated_at":"2023-04-13 03:26:47"}',
+            ),
+            118 => 
+            array (
+                'id' => 119,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:05:19',
+                'table_name' => 'p_menu_frontends',
+                'log_type' => 'edit',
+                'data' => '{"id":28,"parent_id":null,"title":"Marketplace","icon":null,"route":"marketplace","sequence":7,"active":0,"type":1,"created_at":"2023-03-14 17:39:30","updated_at":"2023-03-26 08:02:41"}',
+            ),
+            119 => 
+            array (
+                'id' => 120,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:05:19',
+                'table_name' => 'p_menu_frontends',
+                'log_type' => 'edit',
+                'data' => '{"id":22,"parent_id":null,"title":"Katalog","icon":null,"route":"katalog","sequence":8,"active":0,"type":1,"created_at":"2023-01-27 22:18:36","updated_at":"2023-03-26 08:02:41"}',
+            ),
+            120 => 
+            array (
+                'id' => 121,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:05:19',
+                'table_name' => 'p_menu_frontends',
+                'log_type' => 'edit',
+                'data' => '{"id":27,"parent_id":null,"title":"FAQ","icon":null,"route":"kontak.faq","sequence":9,"active":0,"type":1,"created_at":"2023-03-10 21:07:26","updated_at":"2023-03-26 08:02:41"}',
+            ),
+            121 => 
+            array (
+                'id' => 122,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:05:37',
+                'table_name' => 'p_menu_frontends',
+                'log_type' => 'edit',
+                'data' => '{"id":2,"parent_id":null,"title":"Tentang","icon":null,"route":"about","sequence":4,"active":0,"type":1,"created_at":"2022-08-20 14:30:39","updated_at":"2023-04-18 14:05:19"}',
+            ),
+            122 => 
+            array (
+                'id' => 123,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:05:51',
+                'table_name' => 'p_menu_frontends',
+                'log_type' => 'create',
+                'data' => '{"sequence":"13","parent_id":null,"active":"1","title":"Tentang","icon":null,"route":"#","type":"1","updated_at":"2023-04-18T07:05:51.000000Z","created_at":"2023-04-18T07:05:51.000000Z","id":33}',
+            ),
+            123 => 
+            array (
+                'id' => 124,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:05:55',
+                'table_name' => 'p_menu_frontends',
+                'log_type' => 'edit',
+                'data' => '{"id":33,"parent_id":null,"title":"Tentang","icon":null,"route":"#","sequence":13,"active":1,"type":1,"created_at":"2023-04-18 14:05:51","updated_at":"2023-04-18 14:05:51"}',
+            ),
+            124 => 
+            array (
+                'id' => 125,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:05:55',
+                'table_name' => 'p_menu_frontends',
+                'log_type' => 'edit',
+                'data' => '{"id":29,"parent_id":null,"title":"Galeri","icon":null,"route":"galeri","sequence":5,"active":0,"type":1,"created_at":"2023-03-26 08:02:10","updated_at":"2023-04-18 14:05:19"}',
+            ),
+            125 => 
+            array (
+                'id' => 126,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:05:55',
+                'table_name' => 'p_menu_frontends',
+                'log_type' => 'edit',
+                'data' => '{"id":20,"parent_id":null,"title":"Artikel","icon":null,"route":"artikel","sequence":6,"active":0,"type":1,"created_at":"2022-09-02 00:45:45","updated_at":"2023-04-18 14:05:19"}',
+            ),
+            126 => 
+            array (
+                'id' => 127,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:05:55',
+                'table_name' => 'p_menu_frontends',
+                'log_type' => 'edit',
+                'data' => '{"id":30,"parent_id":null,"title":"Pendaftaran","icon":null,"route":"pendaftaran","sequence":7,"active":0,"type":1,"created_at":"2023-03-26 08:02:37","updated_at":"2023-04-18 14:05:19"}',
+            ),
+            127 => 
+            array (
+                'id' => 128,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:05:55',
+                'table_name' => 'p_menu_frontends',
+                'log_type' => 'edit',
+                'data' => '{"id":18,"parent_id":null,"title":"Kontak","icon":null,"route":"kontak","sequence":8,"active":0,"type":1,"created_at":"2022-08-20 14:47:10","updated_at":"2023-04-18 14:05:19"}',
+            ),
+            128 => 
+            array (
+                'id' => 129,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:05:55',
+                'table_name' => 'p_menu_frontends',
+                'log_type' => 'edit',
+                'data' => '{"id":28,"parent_id":null,"title":"Marketplace","icon":null,"route":"marketplace","sequence":9,"active":0,"type":1,"created_at":"2023-03-14 17:39:30","updated_at":"2023-04-18 14:05:19"}',
+            ),
+            129 => 
+            array (
+                'id' => 130,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:05:55',
+                'table_name' => 'p_menu_frontends',
+                'log_type' => 'edit',
+                'data' => '{"id":22,"parent_id":null,"title":"Katalog","icon":null,"route":"katalog","sequence":10,"active":0,"type":1,"created_at":"2023-01-27 22:18:36","updated_at":"2023-04-18 14:05:19"}',
+            ),
+            130 => 
+            array (
+                'id' => 131,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:05:55',
+                'table_name' => 'p_menu_frontends',
+                'log_type' => 'edit',
+                'data' => '{"id":27,"parent_id":null,"title":"FAQ","icon":null,"route":"kontak.faq","sequence":11,"active":0,"type":1,"created_at":"2023-03-10 21:07:26","updated_at":"2023-04-18 14:05:19"}',
+            ),
+            131 => 
+            array (
+                'id' => 132,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:05:58',
+                'table_name' => 'visitors',
+                'log_type' => 'edit',
+            'data' => '{"id":134,"ip":"127.0.0.1","date":"2023-04-18","time":"14:03:29","platform":"Windows","browser":"Edge","browser_version":"112.0.1722.48","user_agent":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/112.0.0.0 Safari\\/537.36 Edg\\/112.0.1722.48","hits":3,"has_detail":0}',
+            ),
+            132 => 
+            array (
+                'id' => 133,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:06:16',
+                'table_name' => 'p_menu_frontends',
+                'log_type' => 'create',
+                'data' => '{"sequence":"14","parent_id":null,"active":"1","title":"Portfolio","icon":null,"route":"#","type":"1","updated_at":"2023-04-18T07:06:16.000000Z","created_at":"2023-04-18T07:06:16.000000Z","id":34}',
+            ),
+            133 => 
+            array (
+                'id' => 134,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:06:22',
+                'table_name' => 'p_menu_frontends',
+                'log_type' => 'edit',
+                'data' => '{"id":34,"parent_id":null,"title":"Portfolio","icon":null,"route":"#","sequence":14,"active":1,"type":1,"created_at":"2023-04-18 14:06:16","updated_at":"2023-04-18 14:06:16"}',
+            ),
+            134 => 
+            array (
+                'id' => 135,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:06:22',
+                'table_name' => 'p_menu_frontends',
+                'log_type' => 'edit',
+                'data' => '{"id":33,"parent_id":null,"title":"Tentang","icon":null,"route":"#","sequence":5,"active":1,"type":1,"created_at":"2023-04-18 14:05:51","updated_at":"2023-04-18 14:05:55"}',
+            ),
+            135 => 
+            array (
+                'id' => 136,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:06:22',
+                'table_name' => 'p_menu_frontends',
+                'log_type' => 'edit',
+                'data' => '{"id":29,"parent_id":null,"title":"Galeri","icon":null,"route":"galeri","sequence":6,"active":0,"type":1,"created_at":"2023-03-26 08:02:10","updated_at":"2023-04-18 14:05:55"}',
+            ),
+            136 => 
+            array (
+                'id' => 137,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:06:22',
+                'table_name' => 'p_menu_frontends',
+                'log_type' => 'edit',
+                'data' => '{"id":20,"parent_id":null,"title":"Artikel","icon":null,"route":"artikel","sequence":7,"active":0,"type":1,"created_at":"2022-09-02 00:45:45","updated_at":"2023-04-18 14:05:55"}',
+            ),
+            137 => 
+            array (
+                'id' => 138,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:06:22',
+                'table_name' => 'p_menu_frontends',
+                'log_type' => 'edit',
+                'data' => '{"id":30,"parent_id":null,"title":"Pendaftaran","icon":null,"route":"pendaftaran","sequence":8,"active":0,"type":1,"created_at":"2023-03-26 08:02:37","updated_at":"2023-04-18 14:05:55"}',
+            ),
+            138 => 
+            array (
+                'id' => 139,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:06:22',
+                'table_name' => 'p_menu_frontends',
+                'log_type' => 'edit',
+                'data' => '{"id":18,"parent_id":null,"title":"Kontak","icon":null,"route":"kontak","sequence":9,"active":0,"type":1,"created_at":"2022-08-20 14:47:10","updated_at":"2023-04-18 14:05:55"}',
+            ),
+            139 => 
+            array (
+                'id' => 140,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:06:22',
+                'table_name' => 'p_menu_frontends',
+                'log_type' => 'edit',
+                'data' => '{"id":28,"parent_id":null,"title":"Marketplace","icon":null,"route":"marketplace","sequence":10,"active":0,"type":1,"created_at":"2023-03-14 17:39:30","updated_at":"2023-04-18 14:05:55"}',
+            ),
+            140 => 
+            array (
+                'id' => 141,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:06:22',
+                'table_name' => 'p_menu_frontends',
+                'log_type' => 'edit',
+                'data' => '{"id":22,"parent_id":null,"title":"Katalog","icon":null,"route":"katalog","sequence":11,"active":0,"type":1,"created_at":"2023-01-27 22:18:36","updated_at":"2023-04-18 14:05:55"}',
+            ),
+            141 => 
+            array (
+                'id' => 142,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:06:22',
+                'table_name' => 'p_menu_frontends',
+                'log_type' => 'edit',
+                'data' => '{"id":27,"parent_id":null,"title":"FAQ","icon":null,"route":"kontak.faq","sequence":12,"active":0,"type":1,"created_at":"2023-03-10 21:07:26","updated_at":"2023-04-18 14:05:55"}',
+            ),
+            142 => 
+            array (
+                'id' => 143,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:08:09',
+                'table_name' => 'visitors',
+                'log_type' => 'edit',
+            'data' => '{"id":134,"ip":"127.0.0.1","date":"2023-04-18","time":"14:05:58","platform":"Windows","browser":"Edge","browser_version":"112.0.1722.48","user_agent":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/112.0.0.0 Safari\\/537.36 Edg\\/112.0.1722.48","hits":4,"has_detail":0}',
+            ),
+            143 => 
+            array (
+                'id' => 144,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:08:15',
+                'table_name' => 'visitors',
+                'log_type' => 'edit',
+            'data' => '{"id":134,"ip":"127.0.0.1","date":"2023-04-18","time":"14:08:09","platform":"Windows","browser":"Edge","browser_version":"112.0.1722.48","user_agent":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/112.0.0.0 Safari\\/537.36 Edg\\/112.0.1722.48","hits":5,"has_detail":0}',
+            ),
+            144 => 
+            array (
+                'id' => 145,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:08:34',
+                'table_name' => 'visitors',
+                'log_type' => 'edit',
+            'data' => '{"id":134,"ip":"127.0.0.1","date":"2023-04-18","time":"14:08:15","platform":"Windows","browser":"Edge","browser_version":"112.0.1722.48","user_agent":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/112.0.0.0 Safari\\/537.36 Edg\\/112.0.1722.48","hits":6,"has_detail":0}',
+            ),
+            145 => 
+            array (
+                'id' => 146,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:09:21',
+                'table_name' => 'visitors',
+                'log_type' => 'edit',
+            'data' => '{"id":134,"ip":"127.0.0.1","date":"2023-04-18","time":"14:08:34","platform":"Windows","browser":"Edge","browser_version":"112.0.1722.48","user_agent":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/112.0.0.0 Safari\\/537.36 Edg\\/112.0.1722.48","hits":7,"has_detail":0}',
+            ),
+            146 => 
+            array (
+                'id' => 147,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:09:29',
+                'table_name' => 'visitors',
+                'log_type' => 'edit',
+            'data' => '{"id":134,"ip":"127.0.0.1","date":"2023-04-18","time":"14:09:21","platform":"Windows","browser":"Edge","browser_version":"112.0.1722.48","user_agent":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/112.0.0.0 Safari\\/537.36 Edg\\/112.0.1722.48","hits":8,"has_detail":0}',
+            ),
+            147 => 
+            array (
+                'id' => 148,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:10:18',
+                'table_name' => 'visitors',
+                'log_type' => 'edit',
+            'data' => '{"id":134,"ip":"127.0.0.1","date":"2023-04-18","time":"14:09:28","platform":"Windows","browser":"Edge","browser_version":"112.0.1722.48","user_agent":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/112.0.0.0 Safari\\/537.36 Edg\\/112.0.1722.48","hits":9,"has_detail":0}',
+            ),
+            148 => 
+            array (
+                'id' => 149,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:10:41',
+                'table_name' => 'visitors',
+                'log_type' => 'edit',
+            'data' => '{"id":134,"ip":"127.0.0.1","date":"2023-04-18","time":"14:10:18","platform":"Windows","browser":"Edge","browser_version":"112.0.1722.48","user_agent":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/112.0.0.0 Safari\\/537.36 Edg\\/112.0.1722.48","hits":10,"has_detail":0}',
+            ),
+            149 => 
+            array (
+                'id' => 150,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:13:14',
+                'table_name' => 'visitors',
+                'log_type' => 'edit',
+            'data' => '{"id":134,"ip":"127.0.0.1","date":"2023-04-18","time":"14:10:41","platform":"Windows","browser":"Edge","browser_version":"112.0.1722.48","user_agent":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/112.0.0.0 Safari\\/537.36 Edg\\/112.0.1722.48","hits":11,"has_detail":0}',
+            ),
+            150 => 
+            array (
+                'id' => 151,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:13:45',
+                'table_name' => 'visitors',
+                'log_type' => 'edit',
+            'data' => '{"id":134,"ip":"127.0.0.1","date":"2023-04-18","time":"14:13:14","platform":"Windows","browser":"Edge","browser_version":"112.0.1722.48","user_agent":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/112.0.0.0 Safari\\/537.36 Edg\\/112.0.1722.48","hits":12,"has_detail":0}',
+            ),
+            151 => 
+            array (
+                'id' => 152,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:14:10',
+                'table_name' => 'visitors',
+                'log_type' => 'edit',
+            'data' => '{"id":134,"ip":"127.0.0.1","date":"2023-04-18","time":"14:13:45","platform":"Windows","browser":"Edge","browser_version":"112.0.1722.48","user_agent":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/112.0.0.0 Safari\\/537.36 Edg\\/112.0.1722.48","hits":13,"has_detail":0}',
+            ),
+            152 => 
+            array (
+                'id' => 153,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:14:30',
+                'table_name' => 'setting_activities',
+                'log_type' => 'create',
+                'data' => '{"key":"setting.home.portfolio.visible","value":1,"updated_at":"2023-04-18T07:14:30.000000Z","created_at":"2023-04-18T07:14:30.000000Z","id":31}',
+            ),
+            153 => 
+            array (
+                'id' => 154,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:14:30',
+                'table_name' => 'setting_activities',
+                'log_type' => 'create',
+                'data' => '{"key":"setting.home.portfolio.title","value":"Inovasi Luar Biasa dan Tanpa Batas","updated_at":"2023-04-18T07:14:30.000000Z","created_at":"2023-04-18T07:14:30.000000Z","id":32}',
+            ),
+            154 => 
+            array (
+                'id' => 155,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:14:30',
+                'table_name' => 'setting_activities',
+                'log_type' => 'create',
+                'data' => '{"key":"setting.home.portfolio.sub_title","value":"Portofolio.","updated_at":"2023-04-18T07:14:30.000000Z","created_at":"2023-04-18T07:14:30.000000Z","id":33}',
+            ),
+            155 => 
+            array (
+                'id' => 156,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:14:53',
+                'table_name' => 'visitors',
+                'log_type' => 'edit',
+            'data' => '{"id":134,"ip":"127.0.0.1","date":"2023-04-18","time":"14:14:10","platform":"Windows","browser":"Edge","browser_version":"112.0.1722.48","user_agent":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/112.0.0.0 Safari\\/537.36 Edg\\/112.0.1722.48","hits":14,"has_detail":0}',
+            ),
+            156 => 
+            array (
+                'id' => 157,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:15:05',
+                'table_name' => 'visitors',
+                'log_type' => 'edit',
+            'data' => '{"id":134,"ip":"127.0.0.1","date":"2023-04-18","time":"14:14:53","platform":"Windows","browser":"Edge","browser_version":"112.0.1722.48","user_agent":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/112.0.0.0 Safari\\/537.36 Edg\\/112.0.1722.48","hits":15,"has_detail":0}',
+            ),
+            157 => 
+            array (
+                'id' => 158,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:15:45',
+                'table_name' => 'setting_activities',
+                'log_type' => 'edit',
+                'data' => '{"id":31,"key":"setting.home.portfolio.visible","value":"1","created_at":"2023-04-18 14:14:30","updated_at":"2023-04-18 14:14:30"}',
+            ),
+            158 => 
+            array (
+                'id' => 159,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:16:33',
+                'table_name' => 'setting_activities',
+                'log_type' => 'edit',
+                'data' => '{"id":31,"key":"setting.home.portfolio.visible","value":"0","created_at":"2023-04-18 14:14:30","updated_at":"2023-04-18 14:15:45"}',
+            ),
+            159 => 
+            array (
+                'id' => 160,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:17:16',
+                'table_name' => 'visitors',
+                'log_type' => 'edit',
+            'data' => '{"id":134,"ip":"127.0.0.1","date":"2023-04-18","time":"14:15:05","platform":"Windows","browser":"Edge","browser_version":"112.0.1722.48","user_agent":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/112.0.0.0 Safari\\/537.36 Edg\\/112.0.1722.48","hits":16,"has_detail":0}',
+            ),
+            160 => 
+            array (
+                'id' => 161,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:17:32',
+                'table_name' => 'visitors',
+                'log_type' => 'edit',
+            'data' => '{"id":134,"ip":"127.0.0.1","date":"2023-04-18","time":"14:17:16","platform":"Windows","browser":"Edge","browser_version":"112.0.1722.48","user_agent":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/112.0.0.0 Safari\\/537.36 Edg\\/112.0.1722.48","hits":17,"has_detail":0}',
+            ),
+            161 => 
+            array (
+                'id' => 162,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:17:46',
+                'table_name' => 'visitors',
+                'log_type' => 'edit',
+            'data' => '{"id":134,"ip":"127.0.0.1","date":"2023-04-18","time":"14:17:32","platform":"Windows","browser":"Edge","browser_version":"112.0.1722.48","user_agent":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/112.0.0.0 Safari\\/537.36 Edg\\/112.0.1722.48","hits":18,"has_detail":0}',
+            ),
+            162 => 
+            array (
+                'id' => 163,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:18:33',
+                'table_name' => 'visitors',
+                'log_type' => 'edit',
+            'data' => '{"id":134,"ip":"127.0.0.1","date":"2023-04-18","time":"14:17:46","platform":"Windows","browser":"Edge","browser_version":"112.0.1722.48","user_agent":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/112.0.0.0 Safari\\/537.36 Edg\\/112.0.1722.48","hits":19,"has_detail":0}',
+            ),
+            163 => 
+            array (
+                'id' => 164,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:19:14',
+                'table_name' => 'visitors',
+                'log_type' => 'edit',
+            'data' => '{"id":134,"ip":"127.0.0.1","date":"2023-04-18","time":"14:18:33","platform":"Windows","browser":"Edge","browser_version":"112.0.1722.48","user_agent":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/112.0.0.0 Safari\\/537.36 Edg\\/112.0.1722.48","hits":20,"has_detail":0}',
+            ),
+            164 => 
+            array (
+                'id' => 165,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:20:44',
+                'table_name' => 'visitors',
+                'log_type' => 'edit',
+            'data' => '{"id":134,"ip":"127.0.0.1","date":"2023-04-18","time":"14:19:14","platform":"Windows","browser":"Edge","browser_version":"112.0.1722.48","user_agent":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/112.0.0.0 Safari\\/537.36 Edg\\/112.0.1722.48","hits":21,"has_detail":0}',
+            ),
+            165 => 
+            array (
+                'id' => 166,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:22:45',
+                'table_name' => 'visitors',
+                'log_type' => 'edit',
+            'data' => '{"id":134,"ip":"127.0.0.1","date":"2023-04-18","time":"14:20:44","platform":"Windows","browser":"Edge","browser_version":"112.0.1722.48","user_agent":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/112.0.0.0 Safari\\/537.36 Edg\\/112.0.1722.48","hits":22,"has_detail":0}',
+            ),
+            166 => 
+            array (
+                'id' => 167,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:22:56',
+                'table_name' => 'visitors',
+                'log_type' => 'edit',
+            'data' => '{"id":134,"ip":"127.0.0.1","date":"2023-04-18","time":"14:22:45","platform":"Windows","browser":"Edge","browser_version":"112.0.1722.48","user_agent":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/112.0.0.0 Safari\\/537.36 Edg\\/112.0.1722.48","hits":23,"has_detail":0}',
+            ),
+            167 => 
+            array (
+                'id' => 168,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:23:14',
+                'table_name' => 'visitors',
+                'log_type' => 'edit',
+            'data' => '{"id":134,"ip":"127.0.0.1","date":"2023-04-18","time":"14:22:56","platform":"Windows","browser":"Edge","browser_version":"112.0.1722.48","user_agent":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/112.0.0.0 Safari\\/537.36 Edg\\/112.0.1722.48","hits":24,"has_detail":0}',
+            ),
+            168 => 
+            array (
+                'id' => 169,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:23:25',
+                'table_name' => 'visitors',
+                'log_type' => 'edit',
+            'data' => '{"id":134,"ip":"127.0.0.1","date":"2023-04-18","time":"14:23:14","platform":"Windows","browser":"Edge","browser_version":"112.0.1722.48","user_agent":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/112.0.0.0 Safari\\/537.36 Edg\\/112.0.1722.48","hits":25,"has_detail":0}',
+            ),
+            169 => 
+            array (
+                'id' => 170,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:27:00',
+                'table_name' => 'visitors',
+                'log_type' => 'edit',
+            'data' => '{"id":134,"ip":"127.0.0.1","date":"2023-04-18","time":"14:23:25","platform":"Windows","browser":"Edge","browser_version":"112.0.1722.48","user_agent":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/112.0.0.0 Safari\\/537.36 Edg\\/112.0.1722.48","hits":26,"has_detail":0}',
+            ),
+            170 => 
+            array (
+                'id' => 171,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:27:13',
+                'table_name' => 'visitors',
+                'log_type' => 'edit',
+            'data' => '{"id":134,"ip":"127.0.0.1","date":"2023-04-18","time":"14:27:00","platform":"Windows","browser":"Edge","browser_version":"112.0.1722.48","user_agent":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/112.0.0.0 Safari\\/537.36 Edg\\/112.0.1722.48","hits":27,"has_detail":0}',
+            ),
+            171 => 
+            array (
+                'id' => 172,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:27:29',
+                'table_name' => 'visitors',
+                'log_type' => 'edit',
+            'data' => '{"id":134,"ip":"127.0.0.1","date":"2023-04-18","time":"14:27:13","platform":"Windows","browser":"Edge","browser_version":"112.0.1722.48","user_agent":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/112.0.0.0 Safari\\/537.36 Edg\\/112.0.1722.48","hits":28,"has_detail":0}',
+            ),
+            172 => 
+            array (
+                'id' => 173,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:27:39',
+                'table_name' => 'visitors',
+                'log_type' => 'edit',
+            'data' => '{"id":134,"ip":"127.0.0.1","date":"2023-04-18","time":"14:27:29","platform":"Windows","browser":"Edge","browser_version":"112.0.1722.48","user_agent":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/112.0.0.0 Safari\\/537.36 Edg\\/112.0.1722.48","hits":29,"has_detail":0}',
+            ),
+            173 => 
+            array (
+                'id' => 174,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:27:42',
+                'table_name' => 'visitors',
+                'log_type' => 'edit',
+            'data' => '{"id":134,"ip":"127.0.0.1","date":"2023-04-18","time":"14:27:39","platform":"Windows","browser":"Edge","browser_version":"112.0.1722.48","user_agent":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/112.0.0.0 Safari\\/537.36 Edg\\/112.0.1722.48","hits":30,"has_detail":0}',
+            ),
+            174 => 
+            array (
+                'id' => 175,
+                'user_id' => 1,
+                'log_date' => '2023-04-18 14:28:24',
+                'table_name' => 'visitors',
+                'log_type' => 'edit',
+            'data' => '{"id":134,"ip":"127.0.0.1","date":"2023-04-18","time":"14:27:42","platform":"Windows","browser":"Edge","browser_version":"112.0.1722.48","user_agent":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/112.0.0.0 Safari\\/537.36 Edg\\/112.0.1722.48","hits":31,"has_detail":0}',
             ),
         ));
         

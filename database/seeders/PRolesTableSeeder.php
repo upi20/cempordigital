@@ -21,7 +21,7 @@ class PRolesTableSeeder extends Seeder
         \DB::table('p_roles')->insert(array (
             0 => 
             array (
-                'id' => '1',
+                'id' => 1,
                 'name' => 'Super Admin',
                 'guard_name' => 'web',
                 'created_at' => '2022-08-04 16:05:41',
@@ -29,7 +29,7 @@ class PRolesTableSeeder extends Seeder
             ),
             1 => 
             array (
-                'id' => '9',
+                'id' => 9,
                 'name' => 'Admin',
                 'guard_name' => 'web',
                 'created_at' => '2022-08-06 01:26:51',
