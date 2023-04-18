@@ -1,6 +1,9 @@
 const is_edit = '{{ $is_edit }}';
 $(document).ready(function () {
-    $('.select2').select2();
+    $('.select2').select2({
+        theme: "bootstrap-5",
+        width: $(this).data('width') ? $(this).data('width') : $(this).hasClass('w-100') ? '100%' : 'style',
+    });
     $('#kategori').select2({
         ajax: {
             url: "{{ route(l_prefix($hpu,'kategori.select2', $min + 1)) }}",
@@ -15,7 +18,9 @@ $(document).ready(function () {
                 }
                 return query;
             }
-        }
+        },
+        theme: "bootstrap-5",
+        width: $(this).data('width') ? $(this).data('width') : $(this).hasClass('w-100') ? '100%' : 'style',
     });
 
     $('#tag').select2({
@@ -32,7 +37,9 @@ $(document).ready(function () {
                 }
                 return query;
             }
-        }
+        },
+        theme: "bootstrap-5",
+        width: $(this).data('width') ? $(this).data('width') : $(this).hasClass('w-100') ? '100%' : 'style',
     });
     // init summernote
     $('.summernote').summernote({

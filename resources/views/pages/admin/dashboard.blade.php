@@ -1,86 +1,87 @@
 @extends('layouts.admin.master')
 
 @section('content')
-    <div class="page-header">
-        <h1 class="page-title">Halaman Utama</h1>
-    </div>
-
-    <div class="row">
-        <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-xl-4">
+        <div class="col">
             <a href="{{ route('admin.pendaftaran.santri') }}">
-                <div class="card bg-warning img-card box-warning-shadow card-main">
+                <div class="card radius-10 border-start border-0 border-4 border-info">
                     <div class="card-body">
-                        <div class="d-flex">
-                            <div class="text-white">
-                                <h2 class="mb-0 number-font">{{ $total_pendaftar }}</h2>
-                                <p class="text-white mb-0">Jumlah Pendaftaran </p>
+                        <div class="d-flex align-items-center">
+                            <div>
+                                <p class="mb-0 text-secondary">Jumlah Pendaftaran</p>
+                                <h4 class="my-1 text-info">{{ $total_pendaftar }}</h4>
                             </div>
-                            <div class="ms-auto"> <i class="fas fa-user-edit text-white fs-30 me-2 mt-2"></i> </div>
+                            <div class="widgets-icons-2 rounded-circle bg-gradient-blues text-white ms-auto">
+                                <i class='bx bxs-user'></i>
+                            </div>
                         </div>
                     </div>
                 </div>
             </a>
         </div>
-
-        <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3">
+        <div class="col">
             <a href="{{ route('admin.artikel.data') }}">
-                <div class="card bg-secondary img-card box-secondary-shadow card-main">
+                <div class="card radius-10 border-start border-0 border-4 border-danger">
                     <div class="card-body">
-                        <div class="d-flex">
-                            <div class="text-white">
-                                <h2 class="mb-0 number-font">{{ $total_artikel }}</h2>
-                                <p class="text-white mb-0">Jumlah Artikel </p>
+                        <div class="d-flex align-items-center">
+                            <div>
+                                <p class="mb-0 text-secondary">Jumlah Artikel</p>
+                                <h4 class="my-1 text-danger">{{ $total_artikel }}</h4>
                             </div>
-                            <div class="ms-auto"> <i class="fas fa-file-alt text-white fs-30 me-2 mt-2"></i> </div>
+                            <div class="widgets-icons-2 rounded-circle bg-gradient-burning text-white ms-auto">
+                                <i class='bx bx-laptop'></i>
+                            </div>
                         </div>
                     </div>
                 </div>
             </a>
         </div>
-
-        <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3">
+        <div class="col">
             <a href="{{ route('admin.kontak.message') }}">
-                <div class="card bg-info img-card box-info-shadow card-main">
+                <div class="card radius-10 border-start border-0 border-4 border-success">
                     <div class="card-body">
-                        <div class="d-flex">
-                            <div class="text-white">
-                                <h2 class="mb-0 number-font">{{ $total_pesan }}</h2>
-                                <p class="text-white mb-0">Jumlah Pesan Diterima </p>
+                        <div class="d-flex align-items-center">
+                            <div>
+                                <p class="mb-0 text-secondary">Jumlah Pesan Diterima</p>
+                                <h4 class="my-1 text-success">{{ $total_pesan }}</h4>
                             </div>
-                            <div class="ms-auto"> <i class="fas fa-envelope text-white fs-30 me-2 mt-2"></i> </div>
+                            <div class="widgets-icons-2 rounded-circle bg-gradient-ohhappiness text-white ms-auto">
+                                <i class='bx bx-mail-send'></i>
+                            </div>
                         </div>
                     </div>
                 </div>
             </a>
         </div>
-
-        <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3">
-            <a href="{{ route('admin.password') }}">
-                <div class="card  bg-success img-card box-success-shadow card-main">
+        <div class="col"> <a href="{{ route('admin.password') }}">
+                <div class="card radius-10 border-start border-0 border-4 border-warning">
                     <div class="card-body">
-                        <div class="d-flex">
-                            <div class="text-white">
-                                <h3 class="mb-0 number-font">Ganti Password</h3>
-                                <p class="text-white mb-0"><br></p>
+                        <div class="d-flex align-items-center">
+                            <div>
+                                <p class="mb-0 text-secondary">Ganti Password</p>
+                                <h4 class="my-1 text-warning"><br></h4>
                             </div>
-                            <div class="ms-auto"> <i class="fas fa-key text-white fs-30 me-2 mt-2"></i> </div>
+                            <div class="widgets-icons-2 rounded-circle bg-gradient-orange text-white ms-auto">
+                                <i class='bx bxs-key'></i>
+                            </div>
                         </div>
                     </div>
                 </div>
             </a>
         </div>
     </div>
+
 
     <div class="card mt-3" id="penghitung-container">
         <div class="card-header d-md-flex flex-row justify-content-between">
             <div>
-                <h3 class="card-title mb-1">Penghitung Pengunjung</h3>
+                <h6 class="mt-2 text-uppercase">Penghitung Pengunjung</h6>
             </div>
-            <div class="d-flex flex-row">
-                <div id="datepicker"
-                    style="background: #fff; cursor: pointer; padding: 5px 10px; border: 1px solid #ccc; width: 100%">
-                    <i class="fa fa-calendar"></i>&nbsp;
-                    <span></span> <i class="fa fa-caret-down"></i>
+            <div>
+                <div id="datepicker" style="width: 100%" class="form-control">
+                    <i class="fadeIn animated bx bx-calendar-star"></i>
+                    <span></span>
+                    <i class="fadeIn animated bx bx-caret-down-circle"></i>
                 </div>
             </div>
         </div>
@@ -89,11 +90,11 @@
             <br>
             <div class="row">
                 <div class="col-lg-6 text-center">
-                    <h3 class="card-title">Platform</h3>
+                    <h6 class="card-title">Platform</h6>
                     <div id="chart-platform" class="chartsh"></div>
                 </div>
                 <div class="col-lg-6 text-center">
-                    <h3 class="card-title">Browser</h3>
+                    <h6 class="card-title">Browser</h6>
                     <div id="chart-browser" class="chartsh"></div>
                 </div>
             </div>
@@ -113,19 +114,19 @@
             box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
         }
     </style>
-    <link rel="stylesheet" href="{{ asset_admin('plugins/daterangepicker/daterangepicker.css') }}">
+    <link rel="stylesheet" href="{{ asset_admin('plugins/daterangepicker/daterangepicker.css', name: 'sash') }}">
 @endsection
 
 @section('javascript')
-    <script src="{{ asset_admin('js/jquery.sparkline.min.js') }}"></script>
-    <script src="{{ asset_admin('js/circle-progress.min.js') }}"></script>
-    <script src="{{ asset_admin('plugins/charts-c3/d3.v5.min.js') }}"></script>
-    <script src="{{ asset_admin('plugins/charts-c3/c3-chart.js') }}"></script>
-    <script src="{{ asset_admin('plugins/input-mask/jquery.mask.min.js') }}"></script>
-    <script src="{{ asset_admin('plugins/loading/loadingoverlay.min.js') }}"></script>
-    <script src="{{ asset_admin('plugins/sweet-alert/sweetalert2.all.js') }}"></script>
-    <script src="{{ asset_admin('plugins/daterangepicker/moment.min.js') }}"></script>
-    <script src="{{ asset_admin('plugins/daterangepicker/daterangepicker.js') }}"></script>
+    <script src="{{ asset_admin('js/jquery.sparkline.min.js', name: 'sash') }}"></script>
+    <script src="{{ asset_admin('js/circle-progress.min.js', name: 'sash') }}"></script>
+    <script src="{{ asset_admin('plugins/charts-c3/d3.v5.min.js', name: 'sash') }}"></script>
+    <script src="{{ asset_admin('plugins/charts-c3/c3-chart.js', name: 'sash') }}"></script>
+    <script src="{{ asset_admin('plugins/input-mask/jquery.mask.min.js', name: 'sash') }}"></script>
+    <script src="{{ asset_admin('plugins/loading/loadingoverlay.min.js', name: 'sash') }}"></script>
+    <script src="{{ asset_admin('plugins/daterangepicker/moment.min.js', name: 'sash') }}"></script>
+    <script src="{{ asset_admin('plugins/daterangepicker/daterangepicker.js', name: 'sash') }}"></script>
+    <script src="{{ asset_admin('plugins/apexcharts-bundle/js/apexcharts.min.js') }}"></script>
     @php
         $resource = resource_loader(
             blade_path: $view,

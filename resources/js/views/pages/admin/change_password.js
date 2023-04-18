@@ -4,12 +4,12 @@ $(document).ready(e => {
         const pass_element = $(this).next();
         if (pass_element.attr("type") == "text") {
             pass_element.attr('type', 'password');
-            toogle.addClass("zmdi-eye");
-            toogle.removeClass("zmdi-eye-off");
+            toogle.addClass("fa-eye");
+            toogle.removeClass("fa-eye-slash");
         } else if (pass_element.attr("type") == "password") {
             pass_element.attr('type', 'text');
-            toogle.removeClass("zmdi-eye");
-            toogle.addClass("zmdi-eye-off");
+            toogle.removeClass("fa-eye");
+            toogle.addClass("fa-eye-slash");
         }
     });
 
@@ -41,7 +41,7 @@ $(document).ready(e => {
                 Swal.fire({
                     position: 'center',
                     icon: 'success',
-                    title: 'Data saved successfully',
+                    title: 'Password berhasil diganti',
                     showConfirmButton: false,
                     timer: 1500
                 })

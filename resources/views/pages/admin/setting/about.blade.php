@@ -8,7 +8,7 @@
         <div class="card-body">
             <form method="post" action="" enctype="multipart/form-data" id="MainForm">
                 <div class="form-group">
-                    <label class="form-label" for="judul">Judul
+                    <label class="form-label mb-1" for="judul">Judul
                         <span class="text-danger">*</span></label>
                     <input type="text" id="judul" name="judul" class="form-control" placeholder="Judul"
                         value="{{ setting_get('about.judul') }}" required />
@@ -31,8 +31,8 @@
 
 @section('javascript')
     <script src="{{ asset_admin('plugins/summernote/summernote1.js') }}"></script>
-    <script src="{{ asset_admin('plugins/sweet-alert/sweetalert2.all.js') }}"></script>
-    <script src="{{ asset_admin('plugins/select2/js/select2.full.min.js') }}"></script>
+    <script src="{{ asset_admin('plugins/sweet-alert/sweetalert2.all.js', name: 'sash') }}"></script>
+    <script src="{{ asset_admin('plugins/select2/js/select2.full.min.js', name: 'sash') }}"></script>
     @php $resource = resource_loader(blade_path: $view); @endphp
     <script src="{{ $resource }}"></script>
 @endsection

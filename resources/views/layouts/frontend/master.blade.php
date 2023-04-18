@@ -173,7 +173,7 @@ $compact = array_merge($compact, compact('page_attr_title', 'search_master_key',
     <script src="{{ asset('assets/templates/frontend/js/tween-max.js') }}"></script>
     <script src="{{ asset('assets/templates/frontend/js/wow.min.js') }}"></script>
     <script src="{{ asset('assets/templates/frontend/js/main2.js') }}"></script>
-    <script src="{{ asset_admin('plugins/jquery.lazy-master/jquery.lazy.min.js') }}"></script>
+    <script src="{{ asset_admin('plugins/jquery.lazy-master/jquery.lazy.min.js', name: 'sash') }}"></script>
     <script src="{{ resource_loader('pages/frontend/frontend.js') }}"></script>
     @yield('javascript')
 </body>

@@ -3,8 +3,8 @@
         <div class="row justify-content-end">
             <div class="col-xl-10">
                 <div class="section-title title-style-two mb-90">
-                    <span class="sub-title">Inovasi Luar Biasa dan Tanpa Batas</span>
-                    <h2 class="title">Portofolio.</h2>
+                    <span class="sub-title">{!! setting_get("$k.title") !!}</span>
+                    <h2 class="title">{!! setting_get("$k.sub_title") !!}</h2>
                 </div>
             </div>
         </div>

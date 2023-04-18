@@ -6,10 +6,14 @@ let sequence_max = 0;
 $(document).ready(function () {
     $('#type').select2({
         dropdownParent: $('#menu-form'),
+        theme: "bootstrap-5",
+        width: $(this).data('width') ? $(this).data('width') : $(this).hasClass('w-100') ? '100%' : 'style',
     });
 
     $('#active').select2({
         dropdownParent: $('#menu-form'),
+        theme: "bootstrap-5",
+        width: $(this).data('width') ? $(this).data('width') : $(this).hasClass('w-100') ? '100%' : 'style',
     });
 
     $('#parent_id').select2({
@@ -27,6 +31,8 @@ $(document).ready(function () {
             }
         },
         dropdownParent: $('#menu-form'),
+        theme: "bootstrap-5",
+        width: $(this).data('width') ? $(this).data('width') : $(this).hasClass('w-100') ? '100%' : 'style',
     });
 
     $('.tree-tools').on('click', function (e) {
@@ -101,7 +107,7 @@ function menu() {
             'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
         },
         success: function (response) {
-            if ($('#menu').html() != '') $('.dd').nestable('destroy');
+            if ($('#nested-menu').html() != '') $('.dd').nestable('destroy');
             $('.dd').nestable({
                 maxDepth: 2,
                 json: response.data,
@@ -132,11 +138,10 @@ function menu() {
         }
     });
 }
-menu();
 
 function save() {
     $.LoadingOverlay("hide");
-    var serialize = $('#menu').nestable('toArray');
+    var serialize = $('#nested-menu').nestable('toArray');
     $.ajax({
         url: `{{ route(l_prefix($hpu,'save')) }}`,
         type: 'PUT',
@@ -283,3 +288,7 @@ function deleteFun(id) {
         }
     });
 }
+
+$(window).on('load', function () {
+    menu();
+});

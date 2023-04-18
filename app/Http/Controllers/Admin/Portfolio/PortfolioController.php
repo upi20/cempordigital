@@ -29,6 +29,8 @@ class PortfolioController extends Controller
         'keterangan' => ['nullable', 'string'],
     ];
 
+    private $key = 'setting.home.portfolio';
+
     // page function ==============================================================================
     public function index(Request $request)
     {
@@ -37,10 +39,14 @@ class PortfolioController extends Controller
         }
         $kategoris = PortfolioKategori::orderBy('nama')->get();
         $page_attr = adminTitle(h_prefix());
-
+        $setting = (object)[
+            'visible' => setting_get("$this->key.visible"),
+            'title' => setting_get("$this->key.title"),
+            'sub_title' => setting_get("$this->key.sub_title"),
+        ];
 
         $view = path_view('pages.admin.portfolio.portfolio');
-        $data = compact('page_attr', 'kategoris', 'view');
+        $data = compact('page_attr', 'kategoris', 'view', 'setting');
         $data['compact'] = $data;
         return view($view, $data);
     }
@@ -233,4 +239,12 @@ class PortfolioController extends Controller
         return Item::datatable($request);
     }
     // item portfolio =========================================================================
+
+    public function setting(Request $request)
+    {
+        setting_set("$this->key.visible", $request->visible !== null);
+        setting_set("$this->key.title", $request->title);
+        setting_set("$this->key.sub_title", $request->sub_title);
+        return response()->json();
+    }
 }

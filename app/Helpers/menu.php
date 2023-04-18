@@ -128,46 +128,55 @@ if (!function_exists('sidebar_menu_admin')) {
 
             // active
             $menu->active = $menu->active || ($menu->route === $navigation);
-            $active_class = $menu->active ? 'active' : '';
+            $active_class = $menu->active ? 'mm-active' : '';
+            $active_class_1 = $menu->active ? 'aria-expanded="true"' : '';
 
             if ($separator) {
                 // separator
-                $menu_body .= "<li class=\"sub-category\"><h3>{$menu->title}</h3></li> ";
+                $menu_body .= "<li class=\"menu-label\">{$menu->title}</li>";
             } elseif ($menu->children) {
                 $child_menu = '';
                 $child_active = false;
                 foreach ($menu->children as $c) {
                     $child = (object)$c;
                     $child->active = $child->active || ($child->route === $navigation);
-                    $active = $child->active ? 'active' : '';
-                    $child_menu .= "<li><a href=\"$child->url\" class=\"slide-item $active\">$child->title</a></li>";
+                    $active = $child->active ? 'mm-active' : '';
+                    $active_1 = $child->active ? 'aria-expanded="true"' : '';
+                    $child_menu .= <<<HTML
+                        <li class="$active">
+                            <a href="$child->url" $active_1><i class="bx bx-radio-circle"></i>$child->title</a>
+                        </li>
+                    HTML;
                     if ($child->active) $child_active = $child->active;
                 }
 
-                $active_1 = ($menu->active || $child_active) ? 'is-expanded' : '';
-                $active_2 = ($menu->active || $child_active) ? 'active' : '';
-                $menu_body .= " <li class=\"slide $active_1\">
-                                    <a class=\"side-menu__item $active_1 $active_2\" data-bs-toggle=\"slide\" href=\"javascript:void(0)\">
-                                        <i class=\"side-menu__icon $menu->icon\"></i>
-                                        <span class=\"side-menu__label\">$menu->title</span>
-                                        <i class=\"angle fe fe-chevron-right\"></i>
-                                    </a>
-                                    <ul class=\"slide-menu\">
-                                        $child_menu
-                                    </ul>
-                                </li> ";
-            } else {
-                $menu_body .= "<li class=\"slide\">
-                        <a class=\"side-menu__item $active_class\" data-bs-toggle=\"slide\" href=\"$menu->url\">
-                            <i class=\"side-menu__icon $menu->icon\"></i>
-                            <span class=\"side-menu__label\">$menu->title</span>
+                $active_1 = ($menu->active || $child_active) ? 'mm-active' : '';
+                $active_2 = ($menu->active || $child_active) ? 'aria-expanded="true"' : '';
+                $menu_body .= <<<HTML
+                    <li class="$active_1">
+                        <a href="javascript:void(0);" class="has-arrow" $active_2>
+                            <div class="parent-icon"><i class="$menu->icon"></i> </div>
+                            <div class="menu-title">$menu->title</div>
                         </a>
-                    </li>";
+                        <ul>
+                            $child_menu
+                        </ul>
+                    </li>
+                HTML;
+            } else {
+                $menu_body .= <<<HTML
+                    <li class="$active_class">
+                        <a href="$menu->url" $active_class_1>
+                            <div class="parent-icon"><i class="$menu->icon"></i></div>
+                            <div class="menu-title">$menu->title</div>
+                        </a>
+                    </li>
+                HTML;
             }
         }
 
         // head element
-        $menu_head = '<ul class="side-menu">';
+        $menu_head = '<ul class="metismenu" id="menu">';
         $menu_footer = '</ul>';
         return $menu_head . $menu_body . $menu_footer;
     }
@@ -217,19 +226,21 @@ if (!function_exists('navbar_menu_front')) {
                     $child->url = $route_build($child->route);
                     $child->active = $child->active || ($child->route === $navigation) || $child->url == current_url();;
                     $menu_active = $child->active ? $active_class_src : '';
-                    $child_menu .= "<li><a href=\"$child->url\" >$child->title</a></li>";
+
+                    $child_menu .= "<li $menu_active><a href=\"$child->url\">$child->title</a></li>";;
                     if ($child->active) $child_active = $child->active;
                 }
 
-                $menu_active = ($menu->active || $child_active) ? $active_class_src : '';
-                $menu_body .= "<li>
-                                    <a href=\"javascript:void(0)\" >$menu->title</a>
-                                    <ul class=\"submenu\">
-                                    $child_menu
-                                    </ul>
-                                </li>";
+                $menu_active = ($menu->active || $child_active) ? 'active' : '';
+                $menu_body .= <<<HTML
+                            <li class="menu-item-has-children $menu_active"><a href="javascript:void(0)">$menu->title</a>
+                                <ul class="sub-menu">
+                                $child_menu
+                                </ul>
+                            </li>
+                HTML;
             } else {
-                $menu_body .= "<li><a href=\"$menu->url\">$menu->title</a></li>";
+                $menu_body .= "<li $active_class><a href=\"$menu->url\">$menu->title</a></li>";
             }
         }
         return $menu_body;

@@ -150,7 +150,7 @@
             <div class="card">
                 <div class="card-header d-md-flex flex-row justify-content-between">
                     <h3 class="card-title">Data Foto Produk</h3>
-                    <button type="button" class="btn btn-rounded btn-success btn-sm" data-bs-effect="effect-scale"
+                    <button type="button" class="btn btn-rounded btn-primary btn-sm" data-bs-effect="effect-scale"
                         data-bs-toggle="modal" href="#modal-foto" onclick="foto_insert()" data-target="#modal-foto">
                         <i class="fas fa-plus"></i> Tambah
                     </button>
@@ -175,7 +175,7 @@
             <div class="card">
                 <div class="card-header d-md-flex flex-row justify-content-between">
                     <h3 class="card-title">Data Marketplace Produk</h3>
-                    <button type="button" class="btn btn-rounded btn-success btn-sm" data-bs-effect="effect-scale"
+                    <button type="button" class="btn btn-rounded btn-primary btn-sm" data-bs-effect="effect-scale"
                         data-bs-toggle="modal" href="#modal-marketplace" onclick="marketplace_insert()"
                         data-target="#modal-marketplace">
                         <i class="fas fa-plus"></i> Tambah
@@ -204,7 +204,7 @@
             <div class="modal-content modal-content-demo">
                 <div class="modal-header">
                     <h6 class="modal-title" id="modal-foto-title"></h6><button aria-label="Close" class="btn-close"
-                        data-bs-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                        data-bs-dismiss="modal"><span aria-hidden="true"></span></button>
                 </div>
                 <div class="modal-body">
                     <form action="javascript:void(0)" id="FotoForm" name="FotoForm" method="POST"
@@ -212,12 +212,12 @@
                         <input type="hidden" name="id" id="foto_id">
                         <input type="hidden" name="produk_id" id="foto_produk_id" value="{{ $produk->id }}">
                         <div class="form-group">
-                            <label class="form-label" for="foto_urutan">Urutan</label>
+                            <label class="form-label mb-1" for="foto_urutan">Urutan</label>
                             <input type="number" class="form-control" id="foto_urutan" name="urutan"
                                 placeholder="Urutan" />
                         </div>
                         <div class="form-group">
-                            <label class="form-label" for="foto_nama">Nama<span class="text-danger">*</span></label>
+                            <label class="form-label mb-1" for="foto_nama">Nama<span class="text-danger">*</span></label>
                             <input type="text" class="form-control" id="foto_nama" name="nama" placeholder="Nama"
                                 required="" />
                         </div>
@@ -248,7 +248,7 @@
             <div class="modal-content modal-content-demo">
                 <div class="modal-header">
                     <h6 class="modal-title" id="modal-image-title">View Foto</h6><button aria-label="Close"
-                        class="btn-close" data-bs-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                        class="btn-close" data-bs-dismiss="modal"><span aria-hidden="true"></span></button>
                 </div>
                 <div class="modal-body">
                     <img src="" class="img-fluid" id="modal-image-element" alt="">
@@ -269,7 +269,7 @@
             <div class="modal-content modal-content-demo">
                 <div class="modal-header">
                     <h6 class="modal-title" id="modal-marketplace-title"></h6><button aria-label="Close"
-                        class="btn-close" data-bs-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                        class="btn-close" data-bs-dismiss="modal"><span aria-hidden="true"></span></button>
                 </div>
                 <div class="modal-body">
                     <form action="javascript:void(0)" id="MarketplaceForm" name="MarketplaceForm" method="POST"
@@ -290,7 +290,7 @@
                         </div>
 
                         <div class="form-group">
-                            <label class="form-label" for="marketplace_link">Link Produk</label>
+                            <label class="form-label mb-1" for="marketplace_link">Link Produk</label>
                             <input type="text" class="form-control" id="marketplace_link" name="link"
                                 placeholder="Link Produk" />
                         </div>
@@ -311,14 +311,16 @@
 @endsection
 
 @section('javascript')
+@section('stylesheet')
+    <link href="{{ asset_admin('plugins/datatable/css/dataTables.bootstrap5.min.css') }}" rel="stylesheet" />
+@endsection
+
+@section('javascript')
     <script src="{{ asset_admin('plugins/datatable/js/jquery.dataTables.min.js') }}"></script>
-    <script src="{{ asset_admin('plugins/datatable/js/dataTables.bootstrap5.js') }}"></script>
-    <script src="{{ asset_admin('plugins/datatable/dataTables.responsive.min.js') }}"></script>
-    <script src="{{ asset_admin('plugins/datatable/responsive.bootstrap5.min.js') }}"></script>
-    <script src="{{ asset_admin('plugins/datatable/responsive.bootstrap5.min.js') }}"></script>
-    <script src="{{ asset_admin('plugins/loading/loadingoverlay.min.js') }}"></script>
-    <script src="{{ asset_admin('plugins/sweet-alert/sweetalert2.all.js') }}"></script>
-    <script src="{{ asset_admin('plugins/select2/js/select2.full.min.js') }}"></script>
+    <script src="{{ asset_admin('plugins/datatable/js/dataTables.bootstrap5.min.js') }}"></script>
+    <script src="{{ asset_admin('plugins/loading/loadingoverlay.min.js', name: 'sash') }}"></script>
+    <script src="{{ asset_admin('plugins/sweet-alert/sweetalert2.all.js', name: 'sash') }}"></script>
+    <script src="{{ asset_admin('plugins/select2/js/select2.full.min.js', name: 'sash') }}"></script>
     <script src="{{ asset_admin('plugins/summernote/summernote1.js') }}"></script>
     @php
         $resource = resource_loader(

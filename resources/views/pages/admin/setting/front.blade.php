@@ -4,19 +4,24 @@
     <div class="row">
         <div class="col-lg-6">
             <div class="card">
-                <div class="card-header d-md-flex flex-row justify-content-between">
-                    <h3 class="card-title">Application</h3>
-                    <label class="custom-switch form-switch">
-                        <input type="checkbox" name="preloader" form="app-form" class="custom-switch-input"
-                            {{ setting_get(set_front('app.preloader')) ? 'checked' : '' }}>
-                        <span class="custom-switch-indicator"></span>
-                        <span class="custom-switch-description">Preloader</span>
-                    </label>
-                </div>
                 <div class="card-body">
+                    <div class="card-title d-md-flex flex-row justify-content-between">
+                        <div>
+                            <h6 class="mt-2 text-uppercase">Application</h6>
+                        </div>
+                        <div class="form-check form-switch">
+                            <input class="form-check-input" name="visible" form="app-form" type="checkbox"
+                                id="app-settingPreloader"{{ setting_get(set_front('app.preloader')) ? 'checked' : '' }}>
+                            <label class="form-check-label" for="app-settingPreloader">
+                                Preloader
+                            </label>
+                        </div>
+                    </div>
+                    <hr class="mt-1" />
+
                     <form class="form-horizontal" id="app-form">
                         <div class="form-group">
-                            <label class="form-label" for="{{ set_front('app.title') }}">Title
+                            <label class="form-label mb-1" for="{{ set_front('app.title') }}">Title
                                 <span class="text-danger">*</span></label>
                             <input type="text" id="{{ set_front('app.title') }}" name="title" class="form-control"
                                 placeholder="Application Title" value="{{ setting_get(set_front('app.title')) }}"
@@ -27,7 +32,7 @@
                             <div class="col-lg-6">
 
                                 <div class="form-group">
-                                    <label class="form-label">Logo Light
+                                    <label class="form-label mb-1">Logo Light
                                         <span class="badge bg-primary" id="preview_foto_light_mode"
                                             onclick="viewImage('{{ setting_get(set_front('app.foto_light_mode')) }}', 'Logo Light View')">
                                             view</span>
@@ -39,7 +44,7 @@
                             <div class="col-lg-6">
 
                                 <div class="form-group">
-                                    <label class="form-label">Logo Dark
+                                    <label class="form-label mb-1">Logo Dark
                                         <span class="badge bg-primary" id="preview_foto_dark_mode"
                                             onclick="viewImage('{{ setting_get(set_front('app.foto_dark_mode')) }}', 'Logo Dark View')">
                                             view</span>
@@ -51,7 +56,7 @@
 
                             <div class="col-lg-6">
                                 <div class="form-group">
-                                    <label class="form-label">Logo Landscape Light
+                                    <label class="form-label mb-1">Logo Landscape Light
                                         <span class="badge bg-primary" id="preview_foto_light_landscape_mode"
                                             onclick="viewImage('{{ setting_get(set_front('app.foto_light_landscape_mode')) }}', 'Logo Light View')">
                                             view</span>
@@ -63,7 +68,7 @@
                             <div class="col-lg-6">
 
                                 <div class="form-group">
-                                    <label class="form-label">Logo Landscape Dark
+                                    <label class="form-label mb-1">Logo Landscape Dark
                                         <span class="badge bg-primary" id="preview_foto_dark_landscape_mode"
                                             onclick="viewImage('{{ setting_get(set_front('app.foto_dark_landscape_mode')) }}', 'Logo Dark View')">
                                             view</span>
@@ -75,14 +80,14 @@
                         </div>
 
                         <div class="form-group">
-                            <label class="form-label" for="{{ set_front('app.copyright') }}">Copyright
+                            <label class="form-label mb-1" for="{{ set_front('app.copyright') }}">Copyright
                                 <span class="text-danger">*</span></label>
                             <textarea id="{{ set_front('app.copyright') }}" name="copyright" class="form-control" required rows="3"
                                 placeholder="Application Copyright">{!! setting_get(set_front('app.copyright')) !!}</textarea>
                         </div>
 
                         <div class="form-group">
-                            <label class="form-label" for="{{ set_front('app.no_telepon') }}">No Telepon
+                            <label class="form-label mb-1" for="{{ set_front('app.no_telepon') }}">No Telepon
                                 <span class="text-danger">*</span></label>
                             <input type="number" id="{{ set_front('app.no_telepon') }}" name="no_telepon"
                                 class="form-control" placeholder="Ex: 6285987321050"
@@ -90,7 +95,7 @@
                         </div>
 
                         <div class="form-group">
-                            <label class="form-label" for="{{ set_front('app.no_whatsapp') }}">No Whatsapp
+                            <label class="form-label mb-1" for="{{ set_front('app.no_whatsapp') }}">No Whatsapp
                                 <span class="text-danger">*</span></label>
                             <input type="number" id="{{ set_front('app.no_whatsapp') }}" name="no_whatsapp"
                                 class="form-control" placeholder="Ex: 6285987321050"
@@ -98,31 +103,34 @@
                         </div>
 
                         <div class="form-group">
-                            <label class="form-label" for="{{ set_front('app.address') }}">Alamat Singkat
+                            <label class="form-label mb-1" for="{{ set_front('app.address') }}">Alamat Singkat
                                 <span class="text-danger">*</span></label>
                             <input type="text" id="{{ set_front('app.address') }}" name="address"
                                 class="form-control" placeholder="Bandung, Indonesia"
                                 value="{{ setting_get(set_front('app.address')) }}" required />
                         </div>
                     </form>
+                    <div class="text-end mt-3">
+                        <button type="submit" class="btn btn-primary" form="app-form">
+                            <li class="fas fa-save mr-1"></li> Save changes
+                        </button>
+                    </div>
                 </div>
-            </div>
-            <div class="card-footer text-end">
-                <button type="submit" class="btn btn-primary" form="app-form">
-                    <li class="fas fa-save mr-1"></li> Save changes
-                </button>
             </div>
         </div>
 
         <div class="col-lg-6">
             <div class="card">
-                <div class="card-header d-md-flex flex-row justify-content-between">
-                    <h3 class="card-title">Meta Data</h3>
-                </div>
                 <div class="card-body">
+                    <div class="card-title d-md-flex flex-row justify-content-between">
+                        <div>
+                            <h6 class="mt-2 text-uppercase">Meta Data</h6>
+                        </div>
+                    </div>
+                    <hr class="mt-1" />
                     <form class="form-horizontal" id="meta-form">
                         <div class="form-group">
-                            <label class="form-label" for="{{ set_front('meta.author') }}">Author
+                            <label class="form-label mb-1" for="{{ set_front('meta.author') }}">Author
                                 <span class="text-danger">*</span></label>
                             <input type="text" id="{{ set_front('meta.author') }}" name="author"
                                 class="form-control" placeholder="Meta Author"
@@ -130,7 +138,7 @@
                         </div>
 
                         <div class="form-group">
-                            <label class="form-label" for="{{ set_front('meta.keyword') }}">Keyword
+                            <label class="form-label mb-1" for="{{ set_front('meta.keyword') }}">Keyword
                                 <span class="text-danger">*</span></label>
                             <input type="text" id="{{ set_front('meta.keyword') }}" name="keyword"
                                 class="form-control" placeholder="Meta Keyword"
@@ -139,7 +147,7 @@
 
 
                         <div class="form-group">
-                            <label class="form-label">Image
+                            <label class="form-label mb-1">Image
                                 <span class="badge bg-primary" id="preview_meta_image"
                                     onclick="viewImage('{{ setting_get(set_front('meta.image')) }}', 'Meta Image View')">
                                     view</span>
@@ -149,18 +157,17 @@
                         </div>
 
                         <div class="form-group">
-                            <label class="form-label" for="{{ set_front('meta.description') }}">Description
+                            <label class="form-label mb-1" for="{{ set_front('meta.description') }}">Description
                                 <span class="text-danger">*</span></label>
                             <textarea id="{{ set_front('meta.description') }}" name="description" class="form-control" required rows="3"
                                 placeholder="Meta Description Default">{!! setting_get(set_front('meta.description')) !!}</textarea>
                         </div>
                     </form>
-
-                </div>
-                <div class="card-footer text-end">
-                    <button type="submit" class="btn btn-primary" form="meta-form">
-                        <li class="fas fa-save mr-1"></li> Save changes
-                    </button>
+                    <div class="text-end mt-3">
+                        <button type="submit" class="btn btn-primary" form="meta-form">
+                            <li class="fas fa-save mr-1"></li> Save changes
+                        </button>
+                    </div>
                 </div>
             </div>
 
@@ -185,7 +192,7 @@
             <div class="modal-content modal-content-demo">
                 <div class="modal-header">
                     <h6 class="modal-title" id="modal-image-title">View Foto</h6><button aria-label="Close"
-                        class="btn-close" data-bs-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                        class="btn-close" data-bs-dismiss="modal"><span aria-hidden="true"></span></button>
                 </div>
                 <div class="modal-body">
                     <img src="" class="img-fluid" id="modal-image-element" alt="Icon Pendaftaran">
@@ -205,7 +212,7 @@
             <div class="modal-content modal-content-demo">
                 <div class="modal-header">
                     <h6 class="modal-title" id="modal-meta_list-title"></h6><button aria-label="Close" class="btn-close"
-                        data-bs-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                        data-bs-dismiss="modal"><span aria-hidden="true"></span></button>
                 </div>
 
                 <div class="modal-body">
@@ -214,14 +221,14 @@
                         <input type="hidden" name="id" id="meta_list_id">
 
                         <div class="form-group">
-                            <label class="form-label" for="meta_list_name">Name
+                            <label class="form-label mb-1" for="meta_list_name">Name
                                 <span class="text-danger">*</span></label>
                             <input type="text" class="form-control" id="meta_list_name" name="name"
                                 placeholder="Name" required />
                         </div>
 
                         <div class="form-group">
-                            <label class="form-label" for="meta_list_value">Value
+                            <label class="form-label mb-1" for="meta_list_value">Value
                                 <span class="text-danger">*</span></label>
                             <textarea class="form-control" rows="6" name="value" id="meta_list_value" placeholder="Value" required></textarea>
                         </div>
@@ -244,9 +251,9 @@
 
 @section('javascript')
     <script src="{{ asset_admin('plugins/nestable2v1.6.0/jquery.nestable.min.js') }}"></script>
-    <script src="{{ asset_admin('plugins/sweet-alert/sweetalert2.all.js') }}"></script>
-    <script src="{{ asset_admin('plugins/loading/loadingoverlay.min.js') }}"></script>
-    <script src="{{ asset_admin('plugins/select2/js/select2.full.min.js') }}"></script>
+    <script src="{{ asset_admin('plugins/sweet-alert/sweetalert2.all.js', name: 'sash') }}"></script>
+    <script src="{{ asset_admin('plugins/loading/loadingoverlay.min.js', name: 'sash') }}"></script>
+    <script src="{{ asset_admin('plugins/select2/js/select2.full.min.js', name: 'sash') }}"></script>
     @php $resource = resource_loader(blade_path: $view); @endphp
     <script src="{{ $resource }}"></script>
 @endsection

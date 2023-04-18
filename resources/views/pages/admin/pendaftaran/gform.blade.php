@@ -1,7 +1,6 @@
 @extends('layouts.admin.master')
 
 @section('content')
-    <input type="text" id="clipboard" style="position: fixed; top:-50px">
     @php
         $can_insert = auth_can(h_prefix('insert'));
         $can_update = auth_can(h_prefix('update'));
@@ -12,7 +11,7 @@
         <div class="card-header d-md-flex flex-row justify-content-between">
             <h3 class="card-title">Data {{ $page_attr['title'] }}</h3>
             @if ($can_insert)
-                <button type="button" class="btn btn-rounded btn-success btn-sm" data-bs-effect="effect-scale"
+                <button type="button" class="btn btn-rounded btn-primary btn-sm" data-bs-effect="effect-scale"
                     data-bs-toggle="modal" href="#modal-default" onclick="add()" data-target="#modal-default">
                     <i class="fas fa-plus"></i> Tambah
                 </button>
@@ -101,8 +100,10 @@
         <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
             <div class="modal-content modal-content-demo">
                 <div class="modal-header">
-                    <h6 class="modal-title" id="modal-default-title"></h6><button aria-label="Close" class="btn-close"
-                        data-bs-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                    <h6 class="modal-title" id="modal-default-title"></h6>
+                    <button aria-label="Close" class="btn-close" data-bs-dismiss="modal">
+                        <span aria-hidden="true"></span>
+                    </button>
                 </div>
                 <div class="modal-body">
                     <form action="javascript:void(0)" id="MainForm" name="MainForm" method="POST"
@@ -111,7 +112,7 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="form-group">
-                                    <label class="form-label" for="nama">Nama <span
+                                    <label class="form-label mb-1" for="nama">Nama <span
                                             class="text-danger">*</span></label>
                                     <input type="text" class="form-control" id="nama" name="nama"
                                         placeholder="Enter Nama" required="" />
@@ -119,7 +120,7 @@
                             </div>
                             <div class="col-lg-6">
                                 <div class="form-group">
-                                    <label class="form-label" for="slug">Slug <span
+                                    <label class="form-label mb-1" for="slug">Slug <span
                                             class="text-danger">*</span></label>
                                     <input type="text" class="form-control" id="slug" name="slug"
                                         placeholder="Enter Slug" required="" />
@@ -127,7 +128,7 @@
                             </div>
                             <div class="col-12">
                                 <div class="form-group">
-                                    <label class="form-label" for="link">Google Form Link
+                                    <label class="form-label mb-1" for="link">Google Form Link
                                         <span class="text-danger">*</span></label>
                                     <input type="url" class="form-control" id="link" name="link"
                                         placeholder="Enter Google Form Link" required="" />
@@ -135,7 +136,7 @@
                             </div>
                             <div class="col-lg-6">
                                 <div class="form-group">
-                                    <label class="form-label" for="foto">Foto
+                                    <label class="form-label mb-1" for="foto">Foto
                                         <span class="badge bg-success" id="lihat-foto">Lihat</span>
                                     </label>
                                     <input type="file" class="form-control" id="foto" name="foto" />
@@ -143,7 +144,7 @@
                             </div>
                             <div class="col-lg-6">
                                 <div class="form-group">
-                                    <label class="form-label" for="no_urut">Nomor Urut
+                                    <label class="form-label mb-1" for="no_urut">Nomor Urut
                                         <span class="text-danger">*</span></label>
                                     <input type="number" class="form-control" id="no_urut" name="no_urut"
                                         placeholder="Urutan" required="" />
@@ -151,7 +152,7 @@
                             </div>
                             <div class="col-lg-6">
                                 <div class="form-group">
-                                    <label class="form-label" for="dari">Dari Tanggal
+                                    <label class="form-label mb-1" for="dari">Dari Tanggal
                                         <span class="text-danger">*</span></label>
                                     <input type="date" class="form-control" id="dari" name="dari"
                                         placeholder="Dari Tanggal" required="" />
@@ -159,7 +160,7 @@
                             </div>
                             <div class="col-lg-6">
                                 <div class="form-group">
-                                    <label class="form-label" for="sampai">Sampai Tanggal
+                                    <label class="form-label mb-1" for="sampai">Sampai Tanggal
                                         <span class="text-danger">*</span></label>
                                     <input type="date" class="form-control" id="sampai" name="sampai"
                                         placeholder="Sampai Tanggal" required="" />
@@ -167,14 +168,14 @@
                             </div>
                             <div class="col-lg-12">
                                 <div class="form-group">
-                                    <label class="form-label" for="deskripsi">Deskripsi</label>
+                                    <label class="form-label mb-1" for="deskripsi">Deskripsi</label>
                                     <textarea type="text" class="form-control" rows="3" id="deskripsi" name="deskripsi"
                                         placeholder="Enter Deskripsi"> </textarea>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="form-group">
-                                    <label class="form-label" for="tampilkan">Tampilkan Di List Pendaftaran </label>
+                                    <label class="form-label mb-1" for="tampilkan">Tampilkan Di List Pendaftaran </label>
                                     <select class="form-control" style="width: 100%;" required="" id="tampilkan"
                                         name="tampilkan">
                                         <option value="1">Ya</option>
@@ -184,7 +185,7 @@
                             </div>
                             <div class="col-lg-6">
                                 <div class="form-group">
-                                    <label class="form-label" for="status">Status</label>
+                                    <label class="form-label mb-1" for="status">Status</label>
                                     <select class="form-control" style="width: 100%;" required="" id="status"
                                         name="status">
                                         <option value="1">Aktif</option>
@@ -215,7 +216,7 @@
             <div class="modal-content modal-content-demo">
                 <div class="modal-header">
                     <h6 class="modal-title" id="modal-icon-title">View Foto</h6><button aria-label="Close"
-                        class="btn-close" data-bs-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                        class="btn-close" data-bs-dismiss="modal"><span aria-hidden="true"></span></button>
                 </div>
                 <div class="modal-body">
                     <img src="" class="img-fluid" id="icon-view-image" alt="Icon Pendaftaran">
@@ -235,7 +236,7 @@
             <div class="modal-content modal-content-demo">
                 <div class="modal-header">
                     <h6 class="modal-title" id="modal-detail-title">Detail</h6><button aria-label="Close"
-                        class="btn-close" data-bs-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                        class="btn-close" data-bs-dismiss="modal"><span aria-hidden="true"></span></button>
                 </div>
                 <div class="modal-body" id="modal-detail-body">
 
@@ -252,14 +253,16 @@
 @endsection
 
 @section('javascript')
+@section('stylesheet')
+    <link href="{{ asset_admin('plugins/datatable/css/dataTables.bootstrap5.min.css') }}" rel="stylesheet" />
+@endsection
+
+@section('javascript')
     <script src="{{ asset_admin('plugins/datatable/js/jquery.dataTables.min.js') }}"></script>
-    <script src="{{ asset_admin('plugins/datatable/js/dataTables.bootstrap5.js') }}"></script>
-    <script src="{{ asset_admin('plugins/datatable/dataTables.responsive.min.js') }}"></script>
-    <script src="{{ asset_admin('plugins/datatable/responsive.bootstrap5.min.js') }}"></script>
-    <script src="{{ asset_admin('plugins/datatable/responsive.bootstrap5.min.js') }}"></script>
-    <script src="{{ asset_admin('plugins/loading/loadingoverlay.min.js') }}"></script>
-    <script src="{{ asset_admin('plugins/sweet-alert/sweetalert2.all.js') }}"></script>
-    <script src="{{ asset_admin('plugins/select2/js/select2.full.min.js') }}"></script>
+    <script src="{{ asset_admin('plugins/datatable/js/dataTables.bootstrap5.min.js') }}"></script>
+    <script src="{{ asset_admin('plugins/loading/loadingoverlay.min.js', name: 'sash') }}"></script>
+    <script src="{{ asset_admin('plugins/sweet-alert/sweetalert2.all.js', name: 'sash') }}"></script>
+    <script src="{{ asset_admin('plugins/select2/js/select2.full.min.js', name: 'sash') }}"></script>
     @php
         $resource = resource_loader(
             blade_path: $view,

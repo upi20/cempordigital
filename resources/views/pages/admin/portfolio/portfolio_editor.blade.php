@@ -5,20 +5,24 @@
         $prefix_count = $isEdit ? 2 : 1;
         $can_save = $isEdit ? auth_can(h_prefix('insert', $prefix_count)) : auth_can(h_prefix('update', $prefix_count));
     @endphp
+
     <div class="row">
         <div class="col-md-4">
             <div class="card">
-                <div class="card-header d-md-flex flex-row justify-content-between">
-                    <h3 class="card-title">Form {{ $page_attr['title'] }}</h3>
-                    <a class="btn btn-rounded btn-secondary btn-sm" href="{{ route('admin.portfolio') }}">
-                        <i class="fas fa-arrow-left"></i> Kembali
-                    </a>
-                </div>
-                <div class="card-body">
-                    <form method="post" action="" enctype="multipart/form-data" id="MainForm">
+                <div class="card-body p-4">
+                    <div class="d-md-flex flex-row justify-content-between">
+                        <h5 class="mb-4">Form {{ $page_attr['title'] }}</h5>
+                        <div>
+                            <a class="btn btn-rounded btn-secondary btn-sm" href="{{ route('admin.portfolio') }}">
+                                <i class="fas fa-arrow-left"></i> Kembali
+                            </a>
+                        </div>
+                    </div>
+
+                    <form class="row g-3" method="post" action="" enctype="multipart/form-data" id="MainForm">
                         <input type="hidden" name="id" id="portfolio_id" value="{{ $portfolio->id }}" />
                         <input type="hidden" name="isEdit" id="portfolio_isEdit" value="{{ $isEdit ? 1 : 0 }}" />
-                        <div class="form-group">
+                        <div class="col-12">
                             <label for="portfolio_kategori_id">Kategori
                                 <span class="text-danger">*</span>
                             </label>
@@ -33,7 +37,7 @@
                                 @endforeach
                             </select>
                         </div>
-                        <div class="form-group">
+                        <div class="col-12">
                             <div class="mb-2">
                                 @if ($portfolio->foto)
                                     <label for="portfolio_foto">Foto</label>
@@ -46,38 +50,37 @@
                             <input type="file" name="foto" id="portfolio_foto" class="form-control" placeholder="Foto"
                                 {{ $portfolio->foto ? '' : 'required' }} />
                         </div>
-                        <div class="form-group">
+                        <div class="col-12">
                             <label for="portfolio_nama">Nama <span class="text-danger">*</span></label>
                             <input type="text" name="nama" id="portfolio_nama" class="form-control" placeholder="Nama"
                                 value="{{ $portfolio->nama }}" required />
                         </div>
-                        <div class="form-group">
+                        <div class="col-12">
                             <label for="portfolio_keterangan">Keterangan: </label>
                             <textarea name="keterangan" id="portfolio_keterangan" class="form-control" rows="3" placeholder="Keterangan">{{ $portfolio->keterangan }}</textarea>
                         </div>
+                        <div class="col-md-12">
+                            <div class="btn btn-primary" form="MainForm">
+                                <li class="fas fa-save mr-1"></li> Simpan
+                            </div>
+                        </div>
                     </form>
                 </div>
-
-                <div class="card-footer">
-                    <div class="form-group">
-                        <button type="submit" class="btn btn-success" form="MainForm">
-                            <li class="fas fa-save mr-1"></li> Simpan
-                        </button>
-                    </div>
-                </div>
-
             </div>
         </div>
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header d-md-flex flex-row justify-content-between">
-                    <h3 class="card-title">Detail Portfolio</h3>
-                    <button type="button" class="btn btn-rounded btn-success btn-sm" data-bs-effect="effect-scale"
-                        data-bs-toggle="modal" href="#modal-item" onclick="item_insert()" data-target="#modal-item">
-                        <i class="fas fa-plus"></i> Tambah
-                    </button>
-                </div>
-                <div class="card-body">
+                <div class="card-body p-4">
+                    <div class="d-md-flex flex-row justify-content-between">
+                        <h5 class="mb-4">Detail Portfolio</h5>
+                        <div>
+                            <button type="button" class="btn btn-rounded btn-primary btn-sm" data-bs-effect="effect-scale"
+                                data-bs-toggle="modal" href="#modal-item" onclick="item_insert()" data-target="#modal-item">
+                                <i class="fas fa-plus"></i> Tambah
+                            </button>
+                        </div>
+                    </div>
+
                     <table class="table table-striped table-hover" id="tbl_item">
                         <thead>
                             <tr>
@@ -98,8 +101,10 @@
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content modal-content-demo">
                 <div class="modal-header">
-                    <h6 class="modal-title" id="modal-item-title"></h6><button aria-label="Close" class="btn-close"
-                        data-bs-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                    <h6 class="modal-title" id="modal-default-title"></h6>
+                    <button aria-label="Close" class="btn-close" data-bs-dismiss="modal">
+                        <span aria-hidden="true"></span>
+                    </button>
                 </div>
                 <div class="modal-body">
                     <form action="javascript:void(0)" id="ItemForm" name="ItemForm" method="POST"
@@ -107,17 +112,17 @@
                         <input type="hidden" name="id" id="item_id">
                         <input type="hidden" name="portfolio_id" id="item_portfolio_id" value="{{ $portfolio->id }}">
                         <div class="form-group">
-                            <label class="form-label" for="item_urutan">Urutan</label>
+                            <label class="form-label mb-1" for="item_urutan">Urutan</label>
                             <input type="number" class="form-control" id="item_urutan" name="urutan"
                                 placeholder="Urutan" />
                         </div>
                         <div class="form-group">
-                            <label class="form-label" for="item_nama">Nama<span class="text-danger">*</span></label>
+                            <label class="form-label mb-1" for="item_nama">Nama<span class="text-danger">*</span></label>
                             <input type="text" class="form-control" id="item_nama" name="nama" placeholder="Nama"
                                 required="" />
                         </div>
                         <div class="form-group">
-                            <label class="form-label" for="item_keterangan">Keterangan<span
+                            <label class="form-label mb-1" for="item_keterangan">Keterangan<span
                                     class="text-danger">*</span></label>
                             <textarea type="text" class="form-control" id="item_keterangan" name="keterangan" placeholder="Keterangan"
                                 required=""></textarea>
@@ -141,7 +146,7 @@
             <div class="modal-content modal-content-demo">
                 <div class="modal-header">
                     <h6 class="modal-title" id="modal-image-title">View Foto</h6><button aria-label="Close"
-                        class="btn-close" data-bs-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                        class="btn-close" data-bs-dismiss="modal"><span aria-hidden="true"></span></button>
                 </div>
                 <div class="modal-body">
                     <img src="" class="img-fluid" id="modal-image-element" alt="">
@@ -157,14 +162,15 @@
     </div>
 @endsection
 
+@section('stylesheet')
+    <link href="{{ asset_admin('plugins/datatable/css/dataTables.bootstrap5.min.css') }}" rel="stylesheet" />
+@endsection
+
 @section('javascript')
     <script src="{{ asset_admin('plugins/datatable/js/jquery.dataTables.min.js') }}"></script>
-    <script src="{{ asset_admin('plugins/datatable/js/dataTables.bootstrap5.js') }}"></script>
-    <script src="{{ asset_admin('plugins/datatable/dataTables.responsive.min.js') }}"></script>
-    <script src="{{ asset_admin('plugins/datatable/responsive.bootstrap5.min.js') }}"></script>
-    <script src="{{ asset_admin('plugins/datatable/responsive.bootstrap5.min.js') }}"></script>
-    <script src="{{ asset_admin('plugins/loading/loadingoverlay.min.js') }}"></script>
-    <script src="{{ asset_admin('plugins/sweet-alert/sweetalert2.all.js') }}"></script>
+    <script src="{{ asset_admin('plugins/datatable/js/dataTables.bootstrap5.min.js') }}"></script>
+    <script src="{{ asset_admin('plugins/loading/loadingoverlay.min.js', name: 'sash') }}"></script>
+    <script src="{{ asset_admin('plugins/sweet-alert/sweetalert2.all.js', name: 'sash') }}"></script>
     @php
         $resource = resource_loader(
             blade_path: $view,

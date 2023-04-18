@@ -62,49 +62,41 @@ function refreshVistor(tanggal) {
 }
 
 function renderVistor(datas) {
-    const columns = ['data1'];
+    const data = [];
     const categories = [];
 
     datas.forEach(e => {
-        columns.push(e.value);
+        data.push(e.value);
         categories.push(e.title);
     })
 
-    var chart = c3.generate({
-        bindto: '#chart-pengunjung', // id of chart wrapper
-        data: {
-            columns: [
-                // each columns data
-                columns
-            ],
-            type: 'bar', // default type of chart
-            colors: {
-                data1: '#6c5ffc'
-            },
-            names: {
-                // name of each serie
-                'data1': 'Pengunjung'
-            },
-            labels: true,
+    var options = {
+        chart: {
+            foreColor: '#9ba7b2',
+            type: 'bar',
+            height: 360
         },
-        axis: {
-            x: {
-                type: 'category',
-                // name of each category
-                categories: categories
+        series: [{
+            name: 'Pengunjung',
+            data
+        }],
+        xaxis: {
+            categories
+        },
+        plotOptions: {
+            bar: {
+                horizontal: false,
             },
         },
-        // bar: {
-        //     width: 16
-        // },
-        legend: {
-            show: false, //hide legend
+        stroke: {
+            show: true,
+            width: 2,
+            colors: ['transparent']
         },
-        padding: {
-            bottom: 0,
-            top: 0
-        },
-    });
+    }
+
+    var chart = new ApexCharts(document.querySelector("#chart-pengunjung"), options);
+    chart.render();
 }
 
 function renderPlatform(datas) {

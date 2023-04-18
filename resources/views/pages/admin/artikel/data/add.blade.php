@@ -19,10 +19,13 @@
 @endphp
 @section('content')
     <div class="card">
-        <div class="card-header bg-info">
-            <h3 class="card-title text-light">Form {{ $page_attr['title'] }}</h3>
-        </div>
         <div class="card-body">
+            <div class="card-title d-md-flex flex-row justify-content-between">
+                <div>
+                    <h6 class="mt-2 text-uppercase"id="menu-title">Form {{ $page_attr['title'] }}</h6>
+                </div>
+            </div>
+            <hr class="mt-0" />
             <form method="post" action="" enctype="multipart/form-data" id="MainForm">
                 <div class="row">
                     <div class="col-lg-7">
@@ -95,16 +98,18 @@
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <div class="form-label">Publikasikan Artikel:</div>
-                                    <div class="custom-controls-stacked">
-                                        <label class="custom-control custom-radio-md" style="display: unset">
-                                            <input type="radio" class="custom-control-input" name="status" value="0"
-                                                {{ $status[0] }}>
-                                            <span class="custom-control-label">Simpan</span>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="status" value="0"
+                                            {{ $status[0] }}>
+                                        <label class="form-check-label" for="flexRadioDefault2">
+                                            Simpan
                                         </label>
-                                        <label class="custom-control custom-radio-md" style="display: unset">
-                                            <input type="radio" class="custom-control-input" name="status" value="1"
-                                                {{ $status[1] }}>
-                                            <span class="custom-control-label">Publish</span>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="status" value="1"
+                                            {{ $status[1] }}>
+                                        <label class="form-check-label" for="flexRadioDefault2">
+                                            Publish
                                         </label>
                                     </div>
                                 </div>
@@ -126,9 +131,7 @@
                     </div>
                 </div>
             </form>
-        </div>
-        <div class="card-footer">
-            <div class="form-group">
+            <div class="text-end">
                 <button type="submit" class="btn btn-success" form="MainForm">
                     <li class="fas fa-save mr-1"></li> Simpan
                 </button>
@@ -137,10 +140,18 @@
     </div>
 @endsection
 
+@section('stylesheet')
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" />
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/select2-bootstrap-5-theme@1.3.0/dist/select2-bootstrap-5-theme.min.css" />
+    @vite(['resources/css/_summernote.scss']);
+@endsection
+
 @section('javascript')
-    <script src="{{ asset_admin('plugins/summernote/summernote1.js') }}"></script>
-    <script src="{{ asset_admin('plugins/sweet-alert/sweetalert2.all.js') }}"></script>
-    <script src="{{ asset_admin('plugins/select2/js/select2.full.min.js') }}"></script>
+    <script src="{{ asset_admin('plugins/sweet-alert/sweetalert2.all.js', name: 'sash') }}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script src="{{ asset_admin('plugins/select2/js/select2-custom.js') }}"></script>
+    <script src="{{ asset_admin('plugins/summernote/summernote1.js', name: 'sash') }}"></script>
     @php
         $resource = resource_loader(
             blade_path: $view,
