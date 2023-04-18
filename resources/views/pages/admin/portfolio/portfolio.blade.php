@@ -23,12 +23,12 @@
             <hr class="mt-1 mb-0" />
             <div class="accordion accordion-flush" id="accordionOption">
                 <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingSix">
+                    <h6 class="accordion-header" id="headingSix">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#filterData" aria-expanded="false" aria-controls="filterData">
                             Filter Data
                         </button>
-                    </h2>
+                    </h6>
                     <div id="filterData" class="accordion-collapse collapse" aria-labelledby="headingSix"
                         data-bs-parent="#accordionOption">
                         <div class="accordion-body">
@@ -74,8 +74,10 @@
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content modal-content-demo">
                 <div class="modal-header">
-                    <h6 class="modal-title" id="modal-image-title">View Foto</h6><button aria-label="Close"
-                        class="btn-close" data-bs-dismiss="modal"><span aria-hidden="true"></span></button>
+                    <h6 class="modal-title" id="modal-image-title">View Foto</h6>
+                    <button aria-label="Close" class="btn-close" data-bs-dismiss="modal">
+                        <span aria-hidden="true"></span>
+                    </button>
                 </div>
                 <div class="modal-body">
                     <img src="" class="img-fluid" id="modal-image-element" alt="Icon Pendaftaran">

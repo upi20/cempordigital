@@ -6,18 +6,22 @@
         $can_update = auth_can(h_prefix('update'));
         $can_delete = auth_can(h_prefix('delete'));
     @endphp
-    <div class="card">
-        <div class="card-header d-md-flex flex-row justify-content-between">
-            <h3 class="card-title">Data {{ $page_attr['title'] }}</h3>
-            @if ($can_insert)
-                <button type="button" class="btn btn-rounded btn-primary btn-sm" data-bs-effect="effect-scale"
-                    data-bs-toggle="modal" href="#modal-default" onclick="add()" data-target="#modal-default">
-                    <i class="fas fa-plus"></i> Tambah
-                </button>
-            @endif
-        </div>
+    <div class="card mt-3">
         <div class="card-body">
-            <table class="table table-striped" id="tbl_main">
+            <div class="card-title d-md-flex flex-row justify-content-between">
+                <div>
+                    <h6 class="mt-2 text-uppercase">Data {{ $page_attr['title'] }}</h6>
+                </div>
+                @if ($can_insert)
+                    <div>
+                        <a class="btn btn-rounded btn-primary btn-sm" href="{{ route(h_prefix('insert')) }}">
+                            <i class="fas fa-plus"></i> Tambah
+                        </a>
+                    </div>
+                @endif
+            </div>
+            <hr class="mt-1" />
+            <table class="table table-striped table-hover" id="tbl_main">
                 <thead>
                     <tr>
                         <th>No</th>
@@ -37,8 +41,10 @@
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content modal-content-demo">
                 <div class="modal-header">
-                    <h6 class="modal-title" id="modal-default-title"></h6><button aria-label="Close" class="btn-close"
-                        data-bs-dismiss="modal"><span aria-hidden="true"></span></button>
+                    <h6 class="modal-title" id="modal-default-title"></h6>
+                    <button aria-label="Close" class="btn-close" data-bs-dismiss="modal">
+                        <span aria-hidden="true"></span>
+                    </button>
                 </div>
                 <div class="modal-body">
                     <form action="javascript:void(0)" id="MainForm" name="MainForm" method="POST"
@@ -129,11 +135,13 @@
 @endsection
 
 @section('javascript')
+@section('stylesheet')
+    <link href="{{ asset_admin('plugins/datatable/css/dataTables.bootstrap5.min.css') }}" rel="stylesheet" />
+@endsection
+
+@section('javascript')
     <script src="{{ asset_admin('plugins/datatable/js/jquery.dataTables.min.js') }}"></script>
-    <script src="{{ asset_admin('plugins/datatable/js/dataTables.bootstrap5.js') }}"></script>
-    <script src="{{ asset_admin('plugins/datatable/dataTables.responsive.min.js') }}"></script>
-    <script src="{{ asset_admin('plugins/datatable/responsive.bootstrap5.min.js') }}"></script>
-    <script src="{{ asset_admin('plugins/datatable/responsive.bootstrap5.min.js') }}"></script>
+    <script src="{{ asset_admin('plugins/datatable/js/dataTables.bootstrap5.min.js') }}"></script>
     <script src="{{ asset_admin('plugins/loading/loadingoverlay.min.js', name: 'sash') }}"></script>
     <script src="{{ asset_admin('plugins/sweet-alert/sweetalert2.all.js', name: 'sash') }}"></script>
     @php

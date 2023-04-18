@@ -327,7 +327,7 @@ function list_error() {
                 body.append(`<div class="list-group-item list-group-item-action d-md-flex flex-row justify-content-between">
                                     <div>
                                         <div class="d-flex w-100">
-                                            <h5 class="mb-1">${e.nama}</h5>
+                                            <p class="mb-1">${e.nama}</p>
                                         </div>
                                     </div>
 

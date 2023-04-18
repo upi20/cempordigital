@@ -11,3 +11,9 @@
 
 theme: "bootstrap-5",
 width: $( this ).data( 'width' ) ? $( this ).data( 'width' ) : $( this ).hasClass( 'w-100' ) ? '100%' : 'style',
+
+npm run build
+git add .
+git commit -m "update user"
+clear
+npm run dev
