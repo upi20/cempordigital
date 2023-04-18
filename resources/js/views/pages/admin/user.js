@@ -4,7 +4,9 @@ const table_html = $('#tbl_main');
 $(document).ready(function () {
     $('#roles').select2({
         dropdownParent: $('#modal-default'),
-        placeholder: 'Select role'
+        placeholder: 'Pilih sebagai',
+        theme: "bootstrap-5",
+        width: $(this).data('width') ? $(this).data('width') : $(this).hasClass('w-100') ? '100%' : 'style',
     });
 
     // datatable ====================================================================================
