@@ -119,11 +119,11 @@
                                     </div>
                                 </div>
                             </form>
-                        </div>
-                        <div class="card-footer text-end">
-                            <button type="submit" class="btn btn-primary" id="btn-save" form="menu-form">
-                                <li class="fas fa-save mr-1"></li> Save changes
-                            </button>
+                            <div class="text-end">
+                                <button type="submit" class="btn btn-primary" id="btn-save" form="menu-form">
+                                    <li class="fas fa-save mr-1"></li> Save changes
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>

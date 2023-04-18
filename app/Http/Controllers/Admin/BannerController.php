@@ -33,7 +33,7 @@ class BannerController extends Controller
 
         $image_folder = $this->image_folder;
 
-        $view = path_view('pages.admin.banner');
+        $view = path_view('pages.admin.artikel.banner');
         $data = compact('page_attr', 'image_folder', 'view');
         $data['compact'] = $data;
         return view($view, $data);
