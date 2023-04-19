@@ -144,7 +144,7 @@ $(document).ready(function () {
     });
 });
 
-function add() {
+function addFunc() {
     if (!isEdit) return false;
     $('#MainForm').trigger("reset");
     $('#modal-default-title').html("Tambah {{ $page_title }}");

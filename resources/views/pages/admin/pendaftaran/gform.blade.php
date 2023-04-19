@@ -16,7 +16,7 @@
                 @if ($can_insert)
                     <div>
                         <button type="button" class="btn btn-rounded btn-primary btn-sm" data-bs-effect="effect-scale"
-                            data-bs-toggle="modal" href="#modal-default" onclick="add()" data-target="#modal-default">
+                            data-bs-toggle="modal" href="#modal-default" onclick="addFunc()" data-target="#modal-default">
                             <i class="fas fa-plus"></i> Tambah
                         </button>
                     </div>
@@ -256,7 +256,7 @@
 @endsection
 
 @section('stylesheet')
-    <link rel="stylesheet" href="{{ asset_admin('plugins/datatable/css/dataTables.bootstrap5.min.css') }}"/>
+    <link rel="stylesheet" href="{{ asset_admin('plugins/datatable/css/dataTables.bootstrap5.min.css') }}" />
     <link rel="stylesheet" href="{{ asset_admin('plugins/select2/css/select2.min.css') }}" />
     <link rel="stylesheet" href="{{ asset_admin('plugins/select2/css/select2-bootstrap-5-theme.min.css') }}" />
 @endsection
@@ -265,7 +265,6 @@
     <script src="{{ asset_admin('plugins/datatable/js/jquery.dataTables.min.js') }}"></script>
     <script src="{{ asset_admin('plugins/datatable/js/dataTables.bootstrap5.min.js') }}"></script>
     <script src="{{ asset_admin('plugins/loading/loadingoverlay.min.js', name: 'sash') }}"></script>
-    <script src="{{ asset_admin('plugins/sweet-alert/sweetalert2.all.js', name: 'sash') }}"></script>
     <script src="{{ asset_admin('plugins/sweet-alert/sweetalert2.all.js', name: 'sash') }}"></script>
     <script src="{{ asset_admin('plugins/select2/js/select2.min.js') }}"></script>
     <script src="{{ asset_admin('plugins/select2/js/select2-custom.js') }}"></script>

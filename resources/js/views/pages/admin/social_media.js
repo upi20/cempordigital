@@ -157,7 +157,7 @@ $(document).ready(function () {
     });
 });
 
-function add() {
+function addFunc() {
     $('#MainForm').trigger("reset");
     $('#modal-default-title').html("Tambah Sosial Media");
     $('#modal-default').modal('show');

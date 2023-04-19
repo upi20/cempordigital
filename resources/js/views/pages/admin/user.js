@@ -157,7 +157,7 @@ $(document).ready(function () {
     });
 });
 
-function add() {
+function addFunc() {
     $('#UserForm').trigger("reset");
     $('#modal-default-title').html("Tambah Pengguna");
     $('#modal-default').modal('show');

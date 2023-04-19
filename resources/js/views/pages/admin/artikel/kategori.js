@@ -153,7 +153,7 @@ $(document).ready(function () {
     });
 });
 
-function add() {
+function addFunc() {
     $('#MainForm').trigger("reset");
     $('#modal-default-title').html("Tambah {{ $page_title }}");
     $('#modal-default').modal('show');

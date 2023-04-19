@@ -138,7 +138,7 @@ $(document).ready(function () {
     });
 });
 
-function add() {
+function addFunc() {
     if (!isUpdate) return;
     $('#MainForm').trigger("reset");
     $('#modal-default-title').html("Tambah Permission");

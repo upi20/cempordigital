@@ -156,7 +156,7 @@ $(document).ready(function () {
     });
 });
 
-function add() {
+function addFunc() {
     refreshType();
     if (!isEdit) return false;
     $('#MainForm').trigger("reset");

@@ -12,7 +12,7 @@
             <h3 class="card-title">Data {{ $page_attr['title'] }}</h3>
             @if ($can_insert)
                 <button type="button" class="btn btn-rounded btn-primary btn-sm" data-bs-effect="effect-scale"
-                    data-bs-toggle="modal" href="#modal-default" onclick="add()" data-target="#modal-default">
+                    data-bs-toggle="modal" href="#modal-default" onclick="addFunc()" data-target="#modal-default">
                     <i class="fas fa-plus"></i> Tambah
                 </button>
             @endif
@@ -144,7 +144,7 @@
 
 @section('javascript')
 @section('stylesheet')
-    <link rel="stylesheet" href="{{ asset_admin('plugins/datatable/css/dataTables.bootstrap5.min.css') }}"/>
+    <link rel="stylesheet" href="{{ asset_admin('plugins/datatable/css/dataTables.bootstrap5.min.css') }}" />
 @endsection
 
 @section('javascript')

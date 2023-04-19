@@ -15,6 +15,6 @@ width: $( this ).data( 'width' ) ? $( this ).data( 'width' ) : $( this ).hasClas
 
 npm run build
 git add .
-git commit -m "Perbaikan tombol tambah"
+git commit -m "Perbaikan tombol tambah function add jadi addFunc"
 clear
 npm run dev
