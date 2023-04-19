@@ -92,9 +92,6 @@ $page_attr_title = ($page_attr->title == '' ? '' : $page_attr->title . ' | ') . 
     <link rel="stylesheet"
         href="{{ asset_admin('plugins/fontawesome-free-5.15.4-web/css/all.min.css', name: 'sash') }}">
 
-    <!-- CSS PLUGINS -->
-    @yield('stylesheet')
-
     <!-- Dark mode-->
     <script>
         const templateHasDarkMode = localStorage.getItem('dark-mode') == 'true';
@@ -139,14 +136,14 @@ $page_attr_title = ($page_attr->title == '' ? '' : $page_attr->title . ' | ') . 
                                             <div class="col-12">
                                                 <label for="email" class="form-label">Email</label>
                                                 <input type="email" class="form-control" name="email"
-                                                    id="email" placeholder="email">
+                                                    id="email" placeholder="Email">
                                             </div>
                                             <div class="col-12">
                                                 <label for="password" class="form-label">Password</label>
                                                 <div class="input-group" id="show_hide_password">
                                                     <input type="password" class="form-control border-end-0"
                                                         id="password" name="password" value="12345678"
-                                                        placeholder="masukan Password">
+                                                        placeholder="Masukan Password">
                                                     <a href="javascript:void;"
                                                         class="input-group-text bg-transparent">
                                                         <i class='bx bx-hide'></i>
