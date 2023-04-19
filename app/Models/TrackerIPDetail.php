@@ -21,6 +21,8 @@ class TrackerIPDetail extends Model
         'visitors_id',
     ];
 
+    const tableName = 'visitors_ip_detail';
+
     public function tracker()
     {
         return $this->belongsTo(Tracker::class, 'visitors_id', 'id');
