@@ -134,21 +134,19 @@ $notifikasi = beTopNotification();
         <div class="page-wrapper">
             <div class="page-content">
                 @if ($notifikasi->count() > 0)
-                    <div class="pt-5">
-                        @foreach ($notifikasi as $v)
-                            <div class="alert alert-primary alert-dismissible fade show" role="alert">
-                                <span class="alert-inner--text">
-                                    {{ $v->deskripsi }}
-                                    @if ($v->link)
-                                        <a href="{{ $v->link }}" class="fw-bold">{{ $v->link_nama }}</a>
-                                    @endif
-                                </span>
-                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
-                                    <span aria-hidden="true">×</span>
-                                </button>
-                            </div>
-                        @endforeach
-                    </div>
+                    @foreach ($notifikasi as $v)
+                        <div class="alert alert-primary alert-dismissible fade show" role="alert">
+                            <span class="alert-inner--text">
+                                {{ $v->deskripsi }}
+                                @if ($v->link)
+                                    <a href="{{ $v->link }}" class="fw-bold">{{ $v->link_nama }}</a>
+                                @endif
+                            </span>
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+                                <span aria-hidden="true">×</span>
+                            </button>
+                        </div>
+                    @endforeach
                 @endif
 
                 @if ($page_attr->breadcrumbs)
