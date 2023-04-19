@@ -82,7 +82,8 @@ $compact = array_merge($compact, compact('page_attr_title', 'search_master_key',
     <link rel="stylesheet" href="{{ asset('assets/templates/frontend/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/templates/frontend/css/animate.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/templates/frontend/css/magnific-popup.css') }}">
-    <link rel="stylesheet" href="{{ asset_admin('plugins/fontawesome-free-5.15.4-web/css/fontawesome.min.css') }}">
+    <link rel="stylesheet"
+        href="{{ asset_admin('plugins/fontawesome-free-5.15.4-web/css/fontawesome.min.css', name: 'sash') }}">
     <link rel="stylesheet" href="{{ asset('assets/templates/frontend/css/swiper-bundle.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/templates/frontend/css/odometer.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/templates/frontend/css/slick.css') }}">
