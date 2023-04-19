@@ -11,6 +11,7 @@ use Haruncpi\LaravelUserActivity\Traits\Loggable;
 class Tracker extends Model
 {
     use HasFactory, Loggable;
+    public $excludeLogging = true;
     protected $table = 'visitors';
     protected $fillable = [
         'ip',
