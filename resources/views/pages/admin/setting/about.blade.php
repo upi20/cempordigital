@@ -1,11 +1,14 @@
 @extends('layouts.admin.master')
 
 @section('content')
-    <div class="card">
-        <div class="card-header bg-info">
-            <h3 class="card-title text-light">Form {{ $page_attr['title'] }}</h3>
-        </div>
+    <div class="card border-primary">
         <div class="card-body">
+            <div class="card-title d-md-flex flex-row justify-content-between">
+                <div>
+                    <h6 class="mt-2 text-uppercase">form {{ $page_attr['title'] }}</h6>
+                </div>
+            </div>
+
             <form method="post" action="" enctype="multipart/form-data" id="MainForm">
                 <div class="form-group">
                     <label class="form-label mb-1" for="judul">Judul
@@ -17,22 +20,24 @@
                     <label><strong>Deskripsi :</strong></label>
                     <textarea class="summernote" name="about">{!! setting_get('about.html') !!}</textarea>
                 </div>
+
+                <button type="submit" class="btn btn-primary mt-3" id="btn-save" form="MainForm">
+                    <li class="fas fa-save mr-1"></li> Save changes
+                </button>
             </form>
-        </div>
-    </div>
-    <div class="card-footer">
-        <div class="form-group">
-            <button type="submit" class="btn btn-success" form="MainForm">
-                <li class="fas fa-save mr-1"></li> Simpan Perubahan
-            </button>
         </div>
     </div>
 @endsection
 
+@section('stylesheet')
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/select2-bootstrap-5-theme@1.3.0/dist/select2-bootstrap-5-theme.min.css" />
+    @vite(['resources/css/_summernote.scss']);
+@endsection
+
 @section('javascript')
-    <script src="{{ asset_admin('plugins/summernote/summernote1.js') }}"></script>
+    <script src="{{ asset_admin('plugins/summernote/summernote1.js', name: 'sash') }}"></script>
     <script src="{{ asset_admin('plugins/sweet-alert/sweetalert2.all.js', name: 'sash') }}"></script>
-    <script src="{{ asset_admin('plugins/select2/js/select2.full.min.js', name: 'sash') }}"></script>
     @php $resource = resource_loader(blade_path: $view); @endphp
     <script src="{{ $resource }}"></script>
 @endsection
