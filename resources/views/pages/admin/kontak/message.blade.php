@@ -5,26 +5,26 @@
         $can_setting = auth_can(h_prefix('setting'));
         $can_delete = auth_can(h_prefix('delete'));
     @endphp
-    <!-- Row -->
-    <div class="card">
-        <div class="card-header d-md-flex flex-row justify-content-between">
-            <h3 class="card-title">Data {{ $page_attr['title'] }}</h3>
-        </div>
+    <div class="card mt-3">
         <div class="card-body">
+            <div class="card-title d-md-flex flex-row justify-content-between">
+                <div>
+                    <h6 class="mt-2 text-uppercase">Data {{ $page_attr['title'] }}</h6>
+                </div>
+            </div>
+            <hr class="mt-1 mb-0" />
             @if ($can_setting)
-                <div class="panel-group" id="accordion2" role="tablist" aria-multiselectable="true">
-                    <div class="panel panel-default active mb-2">
-                        <div class="panel-heading " role="tab" id="headingOne1">
-                            <h4 class="panel-title">
-                                <a role="button" data-bs-toggle="collapse" data-bs-parent="#accordion2" href="#collapse2"
-                                    aria-expanded="true" aria-controls="collapse2">
-                                    Pengaturan
-                                </a>
-                            </h4>
-                        </div>
-
-                        <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne1">
-                            <div class="panel-body">
+                <div class="accordion accordion-flush" id="setting_list_container">
+                    <div class="accordion-item">
+                        <h6 class="accordion-header" id="setting_list">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#settingList" aria-expanded="false" aria-controls="settingList">
+                                Pengaturan
+                            </button>
+                        </h6>
+                        <div id="settingList" class="accordion-collapse collapse" aria-labelledby="setting_list"
+                            data-bs-parent="#setting_list_container">
+                            <div class="accordion-body">
                                 <form action="javascript:void(0)" class="ml-md-3 mb-md-3" id="setting_form">
 
                                     <div class="form-group float-start me-2">
@@ -83,8 +83,8 @@
 
                                 </form>
                                 <div style="clear: both"></div>
-                                <button type="submit" form="setting_form" class="btn btn-rounded btn-md btn-info"
-                                    data-toggle="tooltip" title="Simpan Setting" id="setting_btn_submit">
+                                <button type="submit" form="setting_form" class="btn btn-rounded btn-sm btn-secondary mt-2"
+                                    data-toggle="tooltip" title="Simpan perubahan">
                                     <li class="fas fa-save mr-1"></li> Simpan Perubahan
                                 </button>
                             </div>
@@ -93,16 +93,14 @@
                 </div>
             @endif
 
-            <table class="table table-striped" id="tbl_main">
+            <table class="table table-striped table-hover" id="tbl_main">
                 <thead>
                     <tr>
                         <th>No</th>
                         <th>Dari</th>
                         <th>Pesan</th>
                         <th>Tanggal</th>
-                        @if ($can_delete)
-                            <th>Hapus</th>
-                        @endif
+                        {!! $can_delete ? '<th>Aksi</th>' : '' !!}
                     </tr>
                 </thead>
                 <tbody> </tbody>
@@ -110,11 +108,6 @@
         </div>
     </div>
 @endsection
-
-@section('stylesheet')
-    <link rel="stylesheet" href="{{ asset_admin('plugins/fontawesome-free-5.15.4-web/css/all.min.css') }}">
-@endsection
-
 
 @section('stylesheet')
     <link href="{{ asset_admin('plugins/datatable/css/dataTables.bootstrap5.min.css') }}" rel="stylesheet" />
