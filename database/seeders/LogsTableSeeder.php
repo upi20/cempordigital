@@ -2197,6 +2197,132 @@ class LogsTableSeeder extends Seeder
                 'log_type' => 'edit',
                 'data' => '{"id":408,"parent_id":418,"title":"FAQ","icon":null,"route":"admin.kontak.faq","sequence":4,"active":1,"type":1,"created_at":"2022-08-21 08:39:18","updated_at":"2023-04-19 11:12:50"}',
             ),
+            242 => 
+            array (
+                'id' => 243,
+                'user_id' => 1,
+                'log_date' => '2023-04-19 13:32:35',
+                'table_name' => 'home_sliders',
+                'log_type' => 'edit',
+                'data' => '{"id":3,"urutan":0,"nama":"1","foto":"20230124152804.jpeg","judul":null,"keterangan":null,"tombol_judul":null,"tombol_link":null,"tampilkan":"Ya","created_at":"2023-01-17 22:39:36","updated_at":"2023-01-24 15:28:04"}',
+            ),
+            243 => 
+            array (
+                'id' => 244,
+                'user_id' => 1,
+                'log_date' => '2023-04-19 13:33:43',
+                'table_name' => 'portfolio_item',
+                'log_type' => 'create',
+                'data' => '{"portfolio_id":"13","nama":"ISEP LUTPI NUR","keterangan":"123","urutan":1,"updated_at":"2023-04-19T06:33:43.000000Z","created_at":"2023-04-19T06:33:43.000000Z","id":2}',
+            ),
+            244 => 
+            array (
+                'id' => 245,
+                'user_id' => 1,
+                'log_date' => '2023-04-19 13:33:46',
+                'table_name' => 'portfolio_item',
+                'log_type' => 'delete',
+                'data' => '{"id":2,"portfolio_id":13,"urutan":1,"nama":"ISEP LUTPI NUR","keterangan":"123","created_at":"2023-04-19 13:33:43","updated_at":"2023-04-19 13:33:43"}',
+            ),
+            245 => 
+            array (
+                'id' => 246,
+                'user_id' => 1,
+                'log_date' => '2023-04-19 13:34:33',
+                'table_name' => 'home_sliders',
+                'log_type' => 'delete',
+                'data' => '{"id":4,"urutan":0,"nama":"2","foto":"20230117224024.jpeg","judul":null,"keterangan":null,"tombol_judul":null,"tombol_link":null,"tampilkan":"Ya","created_at":"2023-01-17 22:40:24","updated_at":"2023-01-17 22:47:05"}',
+            ),
+            246 => 
+            array (
+                'id' => 247,
+                'user_id' => 1,
+                'log_date' => '2023-04-19 13:34:35',
+                'table_name' => 'home_sliders',
+                'log_type' => 'delete',
+                'data' => '{"id":5,"urutan":0,"nama":"3","foto":"20230117224031.jpeg","judul":null,"keterangan":null,"tombol_judul":null,"tombol_link":null,"tampilkan":"Ya","created_at":"2023-01-17 22:40:31","updated_at":"2023-01-17 22:47:09"}',
+            ),
+            247 => 
+            array (
+                'id' => 248,
+                'user_id' => 1,
+                'log_date' => '2023-04-19 13:34:39',
+                'table_name' => 'home_sliders',
+                'log_type' => 'delete',
+                'data' => '{"id":6,"urutan":0,"nama":"4","foto":"20230124152929.jpeg","judul":null,"keterangan":null,"tombol_judul":null,"tombol_link":null,"tampilkan":"Ya","created_at":"2023-01-17 22:40:37","updated_at":"2023-01-24 15:29:29"}',
+            ),
+            248 => 
+            array (
+                'id' => 249,
+                'user_id' => 1,
+                'log_date' => '2023-04-19 13:34:42',
+                'table_name' => 'home_sliders',
+                'log_type' => 'delete',
+                'data' => '{"id":7,"urutan":0,"nama":"5","foto":"20230117224046.jpeg","judul":null,"keterangan":null,"tombol_judul":null,"tombol_link":null,"tampilkan":"Ya","created_at":"2023-01-17 22:40:46","updated_at":"2023-01-17 22:47:18"}',
+            ),
+            249 => 
+            array (
+                'id' => 250,
+                'user_id' => 1,
+                'log_date' => '2023-04-19 13:35:45',
+                'table_name' => 'home_sliders',
+                'log_type' => 'edit',
+                'data' => '{"id":3,"urutan":1,"nama":"1","foto":"20230419133235.png","judul":null,"keterangan":null,"tombol_judul":null,"tombol_link":null,"tampilkan":"Ya","created_at":"2023-01-17 22:39:36","updated_at":"2023-04-19 13:32:35"}',
+            ),
+            250 => 
+            array (
+                'id' => 251,
+                'user_id' => 1,
+                'log_date' => '2023-04-19 13:57:55',
+                'table_name' => 'home_sliders',
+                'log_type' => 'edit',
+                'data' => '{"id":3,"urutan":2,"nama":"1","foto":"20230419133545.png","judul":null,"keterangan":null,"tombol_judul":null,"tombol_link":null,"tampilkan":"Ya","created_at":"2023-01-17 22:39:36","updated_at":"2023-04-19 13:35:45"}',
+            ),
+            251 => 
+            array (
+                'id' => 252,
+                'user_id' => 1,
+                'log_date' => '2023-04-19 13:58:23',
+                'table_name' => 'home_sliders',
+                'log_type' => 'edit',
+                'data' => '{"id":3,"urutan":1,"nama":"1","foto":"20230419133545.png","judul":"Jasa Website, Desain, Foto, Video dan Sosial Media Marketing Cepat, Murah dan Berkualitas.","keterangan":"Banyak bisnis UKM, menengah dan besar telah menggunakan Cempor Digital untuk kebutuhan promosi dan branding bisnis mereka","tombol_judul":"Get Started","tombol_link":"__base_url__\\/contact","tampilkan":"Ya","created_at":"2023-01-17 22:39:36","updated_at":"2023-04-19 13:57:55"}',
+            ),
+            252 => 
+            array (
+                'id' => 253,
+                'user_id' => 1,
+                'log_date' => '2023-04-19 13:59:03',
+                'table_name' => 'home_sliders',
+                'log_type' => 'create',
+                'data' => '{"urutan":2,"foto":"20230419135903.png","nama":"Utama","judul":"Jasa Website, Desain, Foto, Video dan Sosial Media Marketing Cepat, Murah dan Berkualitas.","keterangan":"Banyak bisnis UKM, menengah dan besar telah menggunakan Cempor Digital untuk kebutuhan promosi dan branding bisnis mereka","tombol_judul":"Get Started","tombol_link":"__base_url__\\/contact","tampilkan":"Ya","updated_at":"2023-04-19T06:59:03.000000Z","created_at":"2023-04-19T06:59:03.000000Z","id":8}',
+            ),
+            253 => 
+            array (
+                'id' => 254,
+                'user_id' => 1,
+                'log_date' => '2023-04-19 13:59:21',
+                'table_name' => 'home_sliders',
+                'log_type' => 'create',
+                'data' => '{"urutan":3,"foto":"20230419135921.png","nama":"Utama","judul":"Jasa Website, Desain, Foto, Video dan Sosial Media Marketing Cepat, Murah dan Berkualitas.","keterangan":"Banyak bisnis UKM, menengah dan besar telah menggunakan Cempor Digital untuk kebutuhan promosi dan branding bisnis mereka","tombol_judul":"Get Started","tombol_link":"__base_url__\\/contact","tampilkan":"Ya","updated_at":"2023-04-19T06:59:21.000000Z","created_at":"2023-04-19T06:59:21.000000Z","id":9}',
+            ),
+            254 => 
+            array (
+                'id' => 255,
+                'user_id' => 1,
+                'log_date' => '2023-04-19 16:16:53',
+                'table_name' => '',
+                'log_type' => 'login',
+            'data' => '{"ip":"127.0.0.1","user_agent":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/112.0.0.0 Safari\\/537.36 Edg\\/112.0.1722.48"}',
+            ),
+            255 => 
+            array (
+                'id' => 256,
+                'user_id' => 1,
+                'log_date' => '2023-04-19 16:18:43',
+                'table_name' => 'home_sliders',
+                'log_type' => 'edit',
+                'data' => '{"id":8,"urutan":2,"nama":"Utama","foto":"20230419135903.png","judul":"Jasa Website, Desain, Foto, Video dan Sosial Media Marketing Cepat, Murah dan Berkualitas.","keterangan":"Banyak bisnis UKM, menengah dan besar telah menggunakan Cempor Digital untuk kebutuhan promosi dan branding bisnis mereka","tombol_judul":"Get Started","tombol_link":"__base_url__\\/contact","tampilkan":"Ya","created_at":"2023-04-19 13:59:03","updated_at":"2023-04-19 13:59:03","tombol_video_judul":null,"tombol_video_link":null}',
+            ),
         ));
         
         

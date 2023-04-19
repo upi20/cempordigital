@@ -26,16 +26,15 @@ $(document).ready(function () {
             }
         },
         columns: [{
-            data: null,
-            name: 'id',
-            orderable: false,
+            data: 'urutan',
+            name: 'urutan'
         },
         {
             data: 'foto',
             name: 'foto',
             render(data, type, full, meta) {
                 return data ? `
-                            <img class="table-foto" src="${image_url}/${data}" alt="${full.nama}" onclick="viewIcon('${data}')">
+                            <img class="table-foto" src="${image_url}/${data}" alt="${full.nama}" onclick="viewIcon('${data}', '${full.nama}')">
                             ` : '';
             },
             orderable: false
@@ -52,23 +51,25 @@ $(document).ready(function () {
                 return `<i class="fas fa-circle me-2 ${class_el}"></i>${data}`;
             },
         },
-        ...(can_update || can_delete ? [{
+        {
             data: 'id',
             name: 'id',
             render(data, type, full, meta) {
-                const btn_update = can_update ? `<button type="button" class="btn btn-rounded btn-primary btn-sm me-1" title="Ubah Data" onClick="editFunc('${data}')">
-                                <i class="fas fa-edit"></i> Ubah
+                const btn_view = `<button type="button" class="btn btn-rounded btn-secondary btn-sm me-1" data-toggle="tooltip" title="Lihat Data" onClick="viewFunc('${data}')">
+                                <i class="fas fa-eye"></i>
+                                </button>`;
+                const btn_update = can_update ? `<button type="button" class="btn btn-rounded btn-primary btn-sm me-1" data-toggle="tooltip" title="Ubah Data" onClick="editFunc('${data}')">
+                                <i class="fas fa-edit"></i>
                                 </button>` : '';
-                const btn_delete = can_delete ? `<button type="button" class="btn btn-rounded btn-danger btn-sm me-1" title="Hapus Data" onClick="deleteFunc('${data}')">
-                                <i class="fas fa-trash"></i> Hapus
+                const btn_delete = can_delete ? `<button type="button" class="btn btn-rounded btn-danger btn-sm me-1" data-toggle="tooltip" title="Hapus Data" onClick="deleteFunc('${data}')">
+                                <i class="fas fa-trash"></i>
                                 </button>` : '';
-                return btn_update + btn_delete;
+                return btn_view + btn_update + btn_delete;
             },
             orderable: false
-        }] : []),
-        ],
+        }],
         order: [
-            [2, 'asc']
+            [0, 'asc']
         ],
         language: {
             url: datatable_indonesia_language_url
@@ -77,12 +78,6 @@ $(document).ready(function () {
 
     new_table.on('draw.dt', function () {
         tooltip_refresh();
-        var PageInfo = table_html.DataTable().page.info();
-        new_table.column(0, {
-            page: 'current'
-        }).nodes().each(function (cell, i) {
-            cell.innerHTML = i + 1 + PageInfo.start;
-        });
     });
 
     $('#FilterForm').submit(function (e) {
@@ -151,7 +146,7 @@ $(document).ready(function () {
 function add() {
     if (!isEdit) return false;
     $('#MainForm').trigger("reset");
-    $('#modal-default-title').html("Tambah {{ $page_title");
+    $('#modal-default-title').html("Tambah {{ $page_title }}");
     $('#modal-default').modal('show');
     $('#id').val('');
     $('#foto').val('');
@@ -175,13 +170,19 @@ function editFunc(id) {
         },
         success: (data) => {
             isEdit = true;
-            $('#modal-default-title').html("Ubah {{ $page_title");
+            $('#modal-default-title').html("Ubah {{ $page_title }}");
             $('#modal-default').modal('show');
             $('#id').val(data.id);
             $('#nama').val(data.nama);
-            $('#tampilkan').val(data.tampilkan);
+            $('#judul').val(data.judul);
+            $('#keterangan').val(data.keterangan);
+            $('#tombol_judul').val(data.tombol_judul);
+            $('#tombol_link').val(data.tombol_link);
+            $('#tombol_video_judul').val(data.tombol_video_judul);
+            $('#tombol_video_link').val(data.tombol_video_link);
+            $('#urutan').val(data.urutan);
             $('#lihat-foto').fadeIn();
-            $('#lihat-foto').attr('onclick', `viewIcon('${data.foto}')`);
+            $('#lihat-foto').attr('onclick', `viewIcon('${data.foto}', '${data.nama}')`);
             $('#foto').removeAttr('required');
             $('#foto').val('');
         },
@@ -230,7 +231,7 @@ function deleteFunc(id) {
                     Swal.fire({
                         position: 'center',
                         icon: 'success',
-                        title: '{{ $page_title deleted successfully',
+                        title: '{{ $page_title }} deleted successfully',
                         showConfirmButton: false,
                         timer: 1500
                     })
@@ -249,7 +250,50 @@ function deleteFunc(id) {
     });
 }
 
-function viewIcon(image) {
+function viewIcon(image, alt) {
     $('#modal-icon').modal('show');
     $('#icon-view-image').attr('src', `${image_url}/${image}`);
+    $('#icon-view-image').attr('alt', alt);
+}
+
+function viewFunc(id) {
+    $.LoadingOverlay("show");
+    $.ajax({
+        type: "GET",
+        url: `{{ route(l_prefix($hpu,'find')) }}`,
+        headers: {
+            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+        },
+        data: {
+            id
+        },
+        success: (data) => {
+            $('#modal-detail').modal('show');
+            const html = $('#modal-detail-body');
+
+            html.append(`<h6>Urutan :</h6><p>${data.urutan ?? ''}</p>`);
+            html.append(`<h6>Nama :</h6><p>${data.nama ?? ''}</p>`);
+            html.append(`<h6>Judul :</h6><p>${data.judul ?? ''}</p>`);
+            html.append(`<h6>Keterangan :</h6><p>${data.keterangan ?? ''}</p>`);
+            html.append(`<h6>Tombol judul :</h6><p>${data.tombol_judul ?? ''}</p>`);
+            html.append(`<h6>Tombol link :</h6><p>${data.tombol_link ?? ''}</p>`);
+            html.append(`<h6>Tombol Video judul :</h6><p>${data.tombol_video_judul ?? ''}</p>`);
+            html.append(`<h6>Tombol Video Youtube Link :</h6><p>${data.tombol_video_link ?? ''}</p>`);
+            html.append(`<h6>Foto :</h6><img style="width:100%" src="${data.foto_url}" alt="${data.nama}">`);
+
+        },
+        error: function (data) {
+            Swal.fire({
+                position: 'top-end',
+                icon: 'error',
+                title: 'Something went wrong',
+                showConfirmButton: false,
+                timer: 1500
+            })
+        },
+        complete: function () {
+            $.LoadingOverlay("hide");
+        }
+    });
+
 }

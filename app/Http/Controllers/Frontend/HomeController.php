@@ -12,6 +12,7 @@ use App\Models\Home\ProgramPembelajaran;
 use App\Models\Home\Testimonial;
 use App\Models\Portfolio\Portfolio;
 use App\Models\Produk\Produk;
+use App\Models\Setting\HomeSlider;
 use App\Models\Tracker;
 use Illuminate\Http\Request;
 
@@ -27,6 +28,7 @@ class HomeController extends Controller
         ];
 
         $testimonials = Testimonial::getFeViewData();
+        $sliders = HomeSlider::getFeViewData();
         $kata_katas = KataKata::getFeViewData();
         $produks = Produk::getFeHomeData();
         $program_pembelajarans = ProgramPembelajaran::getFeViewData();
@@ -63,6 +65,7 @@ class HomeController extends Controller
             'program_pembelajarans',
             'penguruses',
             'protfolios',
+            'sliders',
         );
         $data['compact'] = $data;
         return view('pages.frontend.home.index', $data);
