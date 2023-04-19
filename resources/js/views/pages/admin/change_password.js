@@ -26,7 +26,7 @@ $(document).ready(e => {
             })
             return;
         }
-        setBtnLoading('button[type=submit][form=form_password]', 'Save Changes');
+        setBtnLoading('button[type=submit][form=form_password]', 'Simpan Perubahan');
         $.ajax({
             type: "POST",
             url: "{{ route('admin.password.save') }}",
@@ -61,7 +61,7 @@ $(document).ready(e => {
             },
             complete: function () {
                 setBtnLoading('button[type=submit][form=form_password]',
-                    '<li class="fas fa-save mr-1"></li> Save changes',
+                    '<li class="fas fa-save mr-1"></li> Simpan Perubahan',
                     false);
             }
         });

@@ -83,7 +83,7 @@ $(document).ready(function () {
         resetErrorAfterInput();
         var formData = new FormData(this);
         const submit_element = $(this).parent().parent().find('button[type=submit]');
-        setBtnLoading(submit_element, 'Save Changes');
+        setBtnLoading(submit_element, 'Simpan Perubahan');
         const route = ($('#meta_list_id').val() == '') ?
             "{{ route(l_prefix($hpu,'meta.insert')) }}" :
             "{{ route(l_prefix($hpu,'meta.update')) }}";
@@ -124,7 +124,7 @@ $(document).ready(function () {
             },
             complete: function () {
                 setBtnLoading(submit_element,
-                    '<li class="fas fa-save mr-1"></li> Save changes',
+                    '<li class="fas fa-save mr-1"></li> Simpan Perubahan',
                     false);
             }
         });

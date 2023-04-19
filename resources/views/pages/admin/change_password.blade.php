@@ -41,7 +41,7 @@
                     <div class="col-xl-9">
                         <div class="d-md-flex d-grid align-items-center gap-3">
                             <button type="submit" class="btn btn-primary" form="form_password">
-                                <li class="fas fa-save mr-1"></li> Save changes
+                                <li class="fas fa-save mr-1"></li> Simpan Perubahan
                             </button>
                         </div>
                     </div>

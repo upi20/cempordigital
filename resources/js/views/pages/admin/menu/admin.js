@@ -7,25 +7,25 @@ $(document).ready(function () {
     $('#route').select2({
         dropdownParent: $('#menu-form'),
         theme: "bootstrap-5",
-        width: $( this ).data( 'width' ) ? $( this ).data( 'width' ) : $( this ).hasClass( 'w-100' ) ? '100%' : 'style',
+        width: $(this).data('width') ? $(this).data('width') : $(this).hasClass('w-100') ? '100%' : 'style',
     });
 
     $('#type').select2({
         dropdownParent: $('#menu-form'),
         theme: "bootstrap-5",
-        width: $( this ).data( 'width' ) ? $( this ).data( 'width' ) : $( this ).hasClass( 'w-100' ) ? '100%' : 'style',
+        width: $(this).data('width') ? $(this).data('width') : $(this).hasClass('w-100') ? '100%' : 'style',
     });
 
     $('#roles').select2({
         dropdownParent: $('#menu-form'),
         theme: "bootstrap-5",
-        width: $( this ).data( 'width' ) ? $( this ).data( 'width' ) : $( this ).hasClass( 'w-100' ) ? '100%' : 'style',
+        width: $(this).data('width') ? $(this).data('width') : $(this).hasClass('w-100') ? '100%' : 'style',
     });
 
     $('#active').select2({
         dropdownParent: $('#menu-form'),
         theme: "bootstrap-5",
-        width: $( this ).data( 'width' ) ? $( this ).data( 'width' ) : $( this ).hasClass( 'w-100' ) ? '100%' : 'style',
+        width: $(this).data('width') ? $(this).data('width') : $(this).hasClass('w-100') ? '100%' : 'style',
     });
 
     $('#parent_id').select2({
@@ -44,7 +44,7 @@ $(document).ready(function () {
         },
         dropdownParent: $('#menu-form'),
         theme: "bootstrap-5",
-        width: $( this ).data( 'width' ) ? $( this ).data( 'width' ) : $( this ).hasClass( 'w-100' ) ? '100%' : 'style',
+        width: $(this).data('width') ? $(this).data('width') : $(this).hasClass('w-100') ? '100%' : 'style',
     });
 
     $('.tree-tools').on('click', function (e) {
@@ -61,7 +61,7 @@ $(document).ready(function () {
         e.preventDefault();
         var formData = new FormData(this);
         formData.append('sequence', sequence_max++);
-        setBtnLoading('#btn-save', 'Save Changes');
+        setBtnLoading('#btn-save', 'Simpan Perubahan');
         resetErrorAfterInput();
         const route = isUpdate ? `{{ route(l_prefix($hpu, 'update')) }}` :
             `{{ route(l_prefix($hpu, 'insert')) }}`;
@@ -102,7 +102,7 @@ $(document).ready(function () {
             },
             complete: function () {
                 setBtnLoading('#btn-save',
-                    '<li class="fas fa-save mr-1"></li> Save changes',
+                    '<li class="fas fa-save mr-1"></li> Simpan Perubahan',
                     false);
             }
         });
@@ -304,6 +304,6 @@ function deleteFun(id) {
     });
 }
 
-$(window).on('load', function(){
+$(window).on('load', function () {
     menu();
 });

@@ -57,7 +57,7 @@
             </form>
             <div class="text-end">
                 <button type="submit" class="btn btn-primary" id="btn-save" form="MainForm">
-                    <li class="fas fa-save mr-1"></li> Save changes
+                    <li class="fas fa-save mr-1"></li> Simpan Perubahan
                 </button>
             </div>
         </div>

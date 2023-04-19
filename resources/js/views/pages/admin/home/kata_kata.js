@@ -94,7 +94,7 @@ $(document).ready(function () {
         e.preventDefault();
         resetErrorAfterInput();
         var formData = new FormData(this);
-        setBtnLoading('#btn-save', 'Save Changes');
+        setBtnLoading('#btn-save', 'Simpan Perubahan');
         const route = ($('#id').val() == '') ?
             "{{ route(l_prefix($hpu,'insert')) }}" :
             "{{ route(l_prefix($hpu,'update')) }}";
@@ -139,7 +139,7 @@ $(document).ready(function () {
             },
             complete: function () {
                 setBtnLoading('#btn-save',
-                    '<li class="fas fa-save mr-1"></li> Save changes',
+                    '<li class="fas fa-save mr-1"></li> Simpan Perubahan',
                     false);
             }
         });

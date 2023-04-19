@@ -140,7 +140,7 @@
                             </form>
                             <div class="text-end">
                                 <button type="submit" class="btn btn-primary" id="btn-save" form="menu-form">
-                                    <li class="fas fa-save mr-1"></li> Save changes
+                                    <li class="fas fa-save mr-1"></li> Simpan Perubahan
                                 </button>
                             </div>
                         </div>

@@ -106,7 +106,7 @@ $(document).ready(function () {
     $('#UserForm').submit(function (e) {
         e.preventDefault();
         var formData = new FormData(this);
-        setBtnLoading('#btn-save', 'Save Changes');
+        setBtnLoading('#btn-save', 'Simpan Perubahan');
         resetErrorAfterInput();
         const route = ($('#id').val() == '') ? "{{ route('admin.user.store') }}" :
             "{{ route('admin.user.update') }}";
@@ -150,7 +150,7 @@ $(document).ready(function () {
             },
             complete: function () {
                 setBtnLoading('#btn-save',
-                    '<li class="fas fa-save mr-1"></li> Save changes',
+                    '<li class="fas fa-save mr-1"></li> Simpan Perubahan',
                     false);
             }
         });

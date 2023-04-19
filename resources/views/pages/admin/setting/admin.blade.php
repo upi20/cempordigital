@@ -89,7 +89,7 @@
 
                     <div class="text-end mt-3">
                         <button type="submit" class="btn btn-primary" form="app-form">
-                            <li class="fas fa-save mr-1"></li> Save changes
+                            <li class="fas fa-save mr-1"></li> Simpan Perubahan
                         </button>
                     </div>
                 </div>
@@ -143,7 +143,7 @@
 
                     <div class="text-end mt-3">
                         <button type="submit" class="btn btn-primary" form="meta-form">
-                            <li class="fas fa-save mr-1"></li> Save changes
+                            <li class="fas fa-save mr-1"></li> Simpan Perubahan
                         </button>
                     </div>
                 </div>
@@ -217,7 +217,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="submit" class="btn btn-primary" form="meta_list_form">
-                        <li class="fas fa-save mr-1"></li> Save changes
+                        <li class="fas fa-save mr-1"></li> Simpan Perubahan
                     </button>
                     <button class="btn btn-light" data-bs-dismiss="modal">
                         <i class="fas fa-times"></i>

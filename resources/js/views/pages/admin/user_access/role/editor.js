@@ -3,7 +3,7 @@ $(document).ready(function () {
     $('#MainForm').submit(function (e) {
         e.preventDefault();
         var formData = new FormData(this);
-        setBtnLoading('#btn-save', 'Save Changes');
+        setBtnLoading('#btn-save', 'Simpan Perubahan');
         $.ajax({
             type: "POST",
             url: $('#id').val() == '' ? `{{ route(l_prefix($hpu, 'store', $route_min)) }}` :
@@ -48,7 +48,7 @@ $(document).ready(function () {
             },
             complete: function () {
                 setBtnLoading('#btn-save',
-                    '<li class="fas fa-save mr-1"></li> Save changes',
+                    '<li class="fas fa-save mr-1"></li> Simpan Perubahan',
                     false);
             }
         });

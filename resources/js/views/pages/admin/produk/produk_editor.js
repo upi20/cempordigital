@@ -294,12 +294,12 @@ $(document).ready(function () {
                     timer: 1500
                 })
                 setBtnLoading('button[form=FotoForm]',
-                    '<li class="fas fa-save mr-1"></li> Save changes',
+                    '<li class="fas fa-save mr-1"></li> Simpan Perubahan',
                     false);
             },
             complete: function () {
                 setBtnLoading('button[form=FotoForm]',
-                    '<li class="fas fa-save mr-1"></li> Save changes',
+                    '<li class="fas fa-save mr-1"></li> Simpan Perubahan',
                     false);
             }
         });
@@ -352,12 +352,12 @@ $(document).ready(function () {
                     timer: 1500
                 })
                 setBtnLoading('button[form=MarketplaceForm]',
-                    '<li class="fas fa-save mr-1"></li> Save changes',
+                    '<li class="fas fa-save mr-1"></li> Simpan Perubahan',
                     false);
             },
             complete: function () {
                 setBtnLoading('button[form=MarketplaceForm]',
-                    '<li class="fas fa-save mr-1"></li> Save changes',
+                    '<li class="fas fa-save mr-1"></li> Simpan Perubahan',
                     false);
             }
         });
