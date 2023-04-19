@@ -28,7 +28,7 @@ class ProgramPembelajaran extends Model
     public function fotoUrl()
     {
         $foto = $this->attributes['foto'];
-        return $foto ? url(static::image_folder . '/' . $foto) : asset('assets/logo.png');
+        return $foto ? url(static::image_folder . '/' . $foto) : asset(setting_get(set_admin('app.foto_dark_mode')));
     }
 
     public static function datatable(Request $request): mixed
