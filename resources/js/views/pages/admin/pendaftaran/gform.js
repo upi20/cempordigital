@@ -17,7 +17,9 @@ $(document).ready(function () {
                 }
                 return query;
             }
-        }
+        },
+        theme: "bootstrap-5",
+        width: $(this).data('width') ? $(this).data('width') : $(this).hasClass('w-100') ? '100%' : 'style',
     });
 
     // datatable ====================================================================================

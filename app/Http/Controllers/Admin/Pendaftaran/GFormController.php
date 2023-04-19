@@ -293,10 +293,9 @@ class GFormController extends Controller
     public function member_select2(Request $request)
     {
         try {
-            $model = User::select(['id', DB::raw("concat(angkatan,' | ',name) as text")])
+            $model = User::select(['id', DB::raw("name as text")])
                 ->whereRaw("(
                     `name` like '%$request->search%' or
-                    `angkatan` like '%$request->search%' or
                     `email` like '%$request->search%' or
                     `id` like '%$request->search%'
                     )")
