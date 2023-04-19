@@ -60,9 +60,9 @@
                             <textarea name="keterangan" id="portfolio_keterangan" class="form-control" rows="3" placeholder="Keterangan">{{ $portfolio->keterangan }}</textarea>
                         </div>
                         <div class="col-md-12">
-                            <div class="btn btn-primary" form="MainForm">
+                            <button type="submit" class="btn btn-primary" form="MainForm">
                                 <li class="fas fa-save mr-1"></li> Simpan
-                            </div>
+                            </button>
                         </div>
                     </form>
                 </div>
