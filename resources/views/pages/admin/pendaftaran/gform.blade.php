@@ -256,10 +256,9 @@
 @endsection
 
 @section('stylesheet')
-    <link href="{{ asset_admin('plugins/datatable/css/dataTables.bootstrap5.min.css') }}" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" />
-    <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/select2-bootstrap-5-theme@1.3.0/dist/select2-bootstrap-5-theme.min.css" />
+    <link rel="stylesheet" href="{{ asset_admin('plugins/datatable/css/dataTables.bootstrap5.min.css') }}"/>
+    <link rel="stylesheet" href="{{ asset_admin('plugins/select2/css/select2.min.css') }}" />
+    <link rel="stylesheet" href="{{ asset_admin('plugins/select2/css/select2-bootstrap-5-theme.min.css') }}" />
 @endsection
 
 @section('javascript')
@@ -268,7 +267,7 @@
     <script src="{{ asset_admin('plugins/loading/loadingoverlay.min.js', name: 'sash') }}"></script>
     <script src="{{ asset_admin('plugins/sweet-alert/sweetalert2.all.js', name: 'sash') }}"></script>
     <script src="{{ asset_admin('plugins/sweet-alert/sweetalert2.all.js', name: 'sash') }}"></script>
-    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script src="{{ asset_admin('plugins/select2/js/select2.min.js') }}"></script>
     <script src="{{ asset_admin('plugins/select2/js/select2-custom.js') }}"></script>
     @php
         $resource = resource_loader(

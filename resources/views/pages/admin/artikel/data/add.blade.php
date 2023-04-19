@@ -13,7 +13,7 @@
     $status = $is_edit ? $artikel->status : 1;
     $status = [$status == 0 ? 'checked' : '', $status == 1 ? 'checked' : ''];
     $user_id = $is_edit ? $artikel->user_id : auth()->user()->id;
-    
+
     $kategori = isset($kategori) ? $kategori : [];
     $tag = isset($tag) ? $tag : [];
 @endphp
@@ -141,15 +141,14 @@
 @endsection
 
 @section('stylesheet')
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" />
-    <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/select2-bootstrap-5-theme@1.3.0/dist/select2-bootstrap-5-theme.min.css" />
+    <link rel="stylesheet" href="{{ asset_admin('plugins/select2/css/select2.min.css') }}" />
+    <link rel="stylesheet" href="{{ asset_admin('plugins/select2/css/select2-bootstrap-5-theme.min.css') }}" />
     @vite(['resources/css/_summernote.scss']);
 @endsection
 
 @section('javascript')
     <script src="{{ asset_admin('plugins/sweet-alert/sweetalert2.all.js', name: 'sash') }}"></script>
-    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script src="{{ asset_admin('plugins/select2/js/select2.min.js') }}"></script>
     <script src="{{ asset_admin('plugins/select2/js/select2-custom.js') }}"></script>
     <script src="{{ asset_admin('plugins/summernote/summernote1.js', name: 'sash') }}"></script>
     @php
