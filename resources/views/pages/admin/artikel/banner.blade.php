@@ -89,9 +89,10 @@
                                 required="" />
                         </div>
                         <div class="form-group">
-                            <label class="form-label mb-1" for="foto">Foto
+                            <div class="flex">
+                                <label class="form-label mb-1" for="foto">Foto </label>
                                 <span class="badge bg-success" id="lihat-foto">Lihat</span>
-                            </label>
+                            </div>
                             <input type="file" class="form-control" id="foto" name="foto" required />
                         </div>
                         <div class="form-group">

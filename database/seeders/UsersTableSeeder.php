@@ -36,7 +36,7 @@ class UsersTableSeeder extends Seeder
                 'profile_photo_path' => NULL,
                 'remember_token' => NULL,
                 'created_at' => NULL,
-                'updated_at' => '2023-04-18 20:58:33',
+                'updated_at' => '2023-04-18 21:08:57',
             ),
             1 => 
             array (
