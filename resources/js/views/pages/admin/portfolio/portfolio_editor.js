@@ -173,7 +173,7 @@ $(document).ready(function () {
 function item_insert() {
     if (!isEditItem) return false;
     $('#ItemForm').trigger("reset");
-    $('#modal-item-title').html("Tambah Item");
+    $('#modal-default-title').html("Tambah Item");
     $('#modal-item').modal('show');
     $('#item_id').val('');
     resetErrorAfterInput();
@@ -194,7 +194,7 @@ function item_edit(id) {
         },
         success: (data) => {
             isEditItem = true;
-            $('#modal-item-title').html("Ubah Item");
+            $('#modal-default-title').html("Ubah Item");
             $('#modal-item').modal('show');
             $('#item_id').val(data.id);
             $('#item_nama').val(data.nama);
