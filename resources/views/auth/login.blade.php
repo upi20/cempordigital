@@ -131,8 +131,7 @@ $page_attr_title = ($page_attr->title == '' ? '' : $page_attr->title . ' | ') . 
                                     </div>
                                     <div class="form-body">
                                         <form class="row g-3" action="javascript:void(0)" id="Loginform"
-                                            name="Loginform" method="POST" enctype="multipart/form-data"
-                                            autocomplete="false">
+                                            name="Loginform" method="POST" enctype="multipart/form-data">
                                             <div class="col-12">
                                                 <label for="email" class="form-label">Email</label>
                                                 <input type="email" class="form-control" name="email"
@@ -142,7 +141,7 @@ $page_attr_title = ($page_attr->title == '' ? '' : $page_attr->title . ' | ') . 
                                                 <label for="password" class="form-label">Password</label>
                                                 <div class="input-group" id="show_hide_password">
                                                     <input type="password" class="form-control border-end-0"
-                                                        id="password" name="password" value="12345678"
+                                                        id="password" name="password"
                                                         placeholder="Masukan Password">
                                                     <a href="javascript:void;"
                                                         class="input-group-text bg-transparent">
