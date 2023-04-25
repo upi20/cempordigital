@@ -32,3 +32,10 @@ data-toggle="tooltip"
 
 <i class="fas fa-edit"></i></button>
 <i class="fas fa-trash"></i></button>
+
+[x] Halaman pengunjung detail di panel admin
+    [x] Detail ip
+    [x] Hapus localhost
+[] hapus pengunjung dengan ip ignore di config
+[] ignore ip local saat simpan data vistor tracker
+[] Buat halaman versioning di panel admin

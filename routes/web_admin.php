@@ -59,6 +59,7 @@ use App\Http\Controllers\Admin\Home\TestimonialController;
 use App\Http\Controllers\Admin\Portfolio\KategoriController as PortfolioKategoriController;
 use App\Http\Controllers\Admin\Portfolio\PortfolioController;
 use App\Http\Controllers\Admin\Produk\MarketplaceController;
+use App\Http\Controllers\Admin\VistorController;
 
 // ====================================================================================================================
 
@@ -534,7 +535,13 @@ Route::controller(UserController::class)->prefix($prefix)->group(function () use
     Route::post('/save/password', 'save_password')->name("$name.password.save")->middleware("permission:$name.password.save");
 });
 
-
+$prefix = 'vistor';
+Route::prefix($prefix)->controller(VistorController::class)->group(function () use ($prefix, $name) {
+    $name = "$name.$prefix"; // admin.vistor
+    Route::get('/', 'index')->name($name)->middleware("permission:$name");
+    Route::get('/find', 'find')->name("$name.find")->middleware("permission:$name");
+    Route::get('/refresh_detail_ip', 'refresh_detail_ip')->name("$name.refresh_detail_ip")->middleware("permission:$name");
+});
 
 $prefix = "password";
 Route::controller(UserController::class)->prefix($prefix)->group(function () use ($name, $prefix) {

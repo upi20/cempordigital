@@ -2323,6 +2323,1770 @@ class LogsTableSeeder extends Seeder
                 'log_type' => 'edit',
                 'data' => '{"id":8,"urutan":2,"nama":"Utama","foto":"20230419135903.png","judul":"Jasa Website, Desain, Foto, Video dan Sosial Media Marketing Cepat, Murah dan Berkualitas.","keterangan":"Banyak bisnis UKM, menengah dan besar telah menggunakan Cempor Digital untuk kebutuhan promosi dan branding bisnis mereka","tombol_judul":"Get Started","tombol_link":"__base_url__\\/contact","tampilkan":"Ya","created_at":"2023-04-19 13:59:03","updated_at":"2023-04-19 13:59:03","tombol_video_judul":null,"tombol_video_link":null}',
             ),
+            256 => 
+            array (
+                'id' => 257,
+                'user_id' => 1,
+                'log_date' => '2023-04-19 17:19:32',
+                'table_name' => '',
+                'log_type' => 'login',
+            'data' => '{"ip":"127.0.0.1","user_agent":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/112.0.0.0 Safari\\/537.36 Edg\\/112.0.1722.48"}',
+            ),
+            257 => 
+            array (
+                'id' => 258,
+                'user_id' => 1,
+                'log_date' => '2023-04-19 18:50:30',
+                'table_name' => 'p_menu',
+                'log_type' => 'edit',
+                'data' => '{"id":360,"parent_id":null,"title":"Galeri","icon":"fas fa-images","route":"admin.galeri","sequence":12,"active":0,"type":1,"created_at":"2022-08-05 23:50:28","updated_at":"2023-04-19 11:12:31"}',
+            ),
+            258 => 
+            array (
+                'id' => 259,
+                'user_id' => 1,
+                'log_date' => '2023-04-19 18:50:30',
+                'table_name' => 'p_role_has_menu',
+                'log_type' => 'create',
+                'data' => '{"role_id":1,"menu_id":360,"updated_at":"2023-04-19T11:50:30.000000Z","created_at":"2023-04-19T11:50:30.000000Z","id":238}',
+            ),
+            259 => 
+            array (
+                'id' => 260,
+                'user_id' => 1,
+                'log_date' => '2023-04-19 18:50:30',
+                'table_name' => 'p_role_has_menu',
+                'log_type' => 'create',
+                'data' => '{"role_id":9,"menu_id":360,"updated_at":"2023-04-19T11:50:30.000000Z","created_at":"2023-04-19T11:50:30.000000Z","id":239}',
+            ),
+            260 => 
+            array (
+                'id' => 261,
+                'user_id' => 1,
+                'log_date' => '2023-04-19 18:50:35',
+                'table_name' => 'p_menu',
+                'log_type' => 'edit',
+                'data' => '{"id":422,"parent_id":null,"title":"Tentang","icon":"fab fa-slack-hash","route":"admin.setting.about","sequence":11,"active":0,"type":1,"created_at":"2023-03-26 15:04:17","updated_at":"2023-04-19 11:12:31"}',
+            ),
+            261 => 
+            array (
+                'id' => 262,
+                'user_id' => 1,
+                'log_date' => '2023-04-19 18:50:35',
+                'table_name' => 'p_role_has_menu',
+                'log_type' => 'create',
+                'data' => '{"role_id":1,"menu_id":422,"updated_at":"2023-04-19T11:50:35.000000Z","created_at":"2023-04-19T11:50:35.000000Z","id":240}',
+            ),
+            262 => 
+            array (
+                'id' => 263,
+                'user_id' => 1,
+                'log_date' => '2023-04-19 18:50:35',
+                'table_name' => 'p_role_has_menu',
+                'log_type' => 'create',
+                'data' => '{"role_id":9,"menu_id":422,"updated_at":"2023-04-19T11:50:35.000000Z","created_at":"2023-04-19T11:50:35.000000Z","id":241}',
+            ),
+            263 => 
+            array (
+                'id' => 264,
+                'user_id' => 1,
+                'log_date' => '2023-04-19 19:04:11',
+                'table_name' => 'setting_activities',
+                'log_type' => 'create',
+            'data' => '{"key":"about.html","value":"<p>Masih dalam proses Testing<p><img data-bs-filename=\\"Group 4 (1).png\\" style=\\"width: 760px;\\" src=\\"\\/assets\\/about\\/16798180740.png\\"><br><\\/p><p><\\/p><\\/p>\\n","updated_at":"2023-04-19T12:04:11.000000Z","created_at":"2023-04-19T12:04:11.000000Z","id":1}',
+            ),
+            264 => 
+            array (
+                'id' => 265,
+                'user_id' => 1,
+                'log_date' => '2023-04-19 19:04:11',
+                'table_name' => 'setting_activities',
+                'log_type' => 'create',
+                'data' => '{"key":"about.judul","value":"Tentang Kami","updated_at":"2023-04-19T12:04:11.000000Z","created_at":"2023-04-19T12:04:11.000000Z","id":2}',
+            ),
+            265 => 
+            array (
+                'id' => 266,
+                'user_id' => 1,
+                'log_date' => '2023-04-19 19:08:10',
+                'table_name' => 'p_menu',
+                'log_type' => 'edit',
+                'data' => '{"id":364,"parent_id":null,"title":"Kontak","icon":"fas fa-phone","route":null,"sequence":19,"active":0,"type":1,"created_at":"2022-08-05 23:50:28","updated_at":"2023-04-19 11:12:31"}',
+            ),
+            266 => 
+            array (
+                'id' => 267,
+                'user_id' => 1,
+                'log_date' => '2023-04-19 19:08:10',
+                'table_name' => 'p_role_has_menu',
+                'log_type' => 'create',
+                'data' => '{"role_id":1,"menu_id":364,"updated_at":"2023-04-19T12:08:10.000000Z","created_at":"2023-04-19T12:08:10.000000Z","id":242}',
+            ),
+            267 => 
+            array (
+                'id' => 268,
+                'user_id' => 1,
+                'log_date' => '2023-04-19 19:08:10',
+                'table_name' => 'p_role_has_menu',
+                'log_type' => 'create',
+                'data' => '{"role_id":9,"menu_id":364,"updated_at":"2023-04-19T12:08:10.000000Z","created_at":"2023-04-19T12:08:10.000000Z","id":243}',
+            ),
+            268 => 
+            array (
+                'id' => 269,
+                'user_id' => 1,
+                'log_date' => '2023-04-19 19:13:28',
+                'table_name' => 'setting_activities',
+                'log_type' => 'create',
+                'data' => '{"key":"setting.contact.message.title","value":"Kirim Pesan","updated_at":"2023-04-19T12:13:28.000000Z","created_at":"2023-04-19T12:13:28.000000Z","id":3}',
+            ),
+            269 => 
+            array (
+                'id' => 270,
+                'user_id' => 1,
+                'log_date' => '2023-04-19 19:13:28',
+                'table_name' => 'setting_activities',
+                'log_type' => 'create',
+                'data' => '{"key":"setting.contact.message.sub_title","value":"Kirim pesan dibawah ini kepada kami jika ada yang ingin ditanyakan.","updated_at":"2023-04-19T12:13:28.000000Z","created_at":"2023-04-19T12:13:28.000000Z","id":4}',
+            ),
+            270 => 
+            array (
+                'id' => 271,
+                'user_id' => 1,
+                'log_date' => '2023-04-19 19:13:28',
+                'table_name' => 'setting_activities',
+                'log_type' => 'create',
+                'data' => '{"key":"setting.contact.message.name","value":null,"updated_at":"2023-04-19T12:13:28.000000Z","created_at":"2023-04-19T12:13:28.000000Z","id":5}',
+            ),
+            271 => 
+            array (
+                'id' => 272,
+                'user_id' => 1,
+                'log_date' => '2023-04-19 19:13:28',
+                'table_name' => 'setting_activities',
+                'log_type' => 'create',
+                'data' => '{"key":"setting.contact.message.name_placeholder","value":"Nama Lengkap*","updated_at":"2023-04-19T12:13:28.000000Z","created_at":"2023-04-19T12:13:28.000000Z","id":6}',
+            ),
+            272 => 
+            array (
+                'id' => 273,
+                'user_id' => 1,
+                'log_date' => '2023-04-19 19:13:28',
+                'table_name' => 'setting_activities',
+                'log_type' => 'create',
+                'data' => '{"key":"setting.contact.message.email","value":null,"updated_at":"2023-04-19T12:13:28.000000Z","created_at":"2023-04-19T12:13:28.000000Z","id":7}',
+            ),
+            273 => 
+            array (
+                'id' => 274,
+                'user_id' => 1,
+                'log_date' => '2023-04-19 19:13:28',
+                'table_name' => 'setting_activities',
+                'log_type' => 'create',
+                'data' => '{"key":"setting.contact.message.email_placeholder","value":"Email*","updated_at":"2023-04-19T12:13:28.000000Z","created_at":"2023-04-19T12:13:28.000000Z","id":8}',
+            ),
+            274 => 
+            array (
+                'id' => 275,
+                'user_id' => 1,
+                'log_date' => '2023-04-19 19:13:28',
+                'table_name' => 'setting_activities',
+                'log_type' => 'create',
+                'data' => '{"key":"setting.contact.message.message","value":null,"updated_at":"2023-04-19T12:13:28.000000Z","created_at":"2023-04-19T12:13:28.000000Z","id":9}',
+            ),
+            275 => 
+            array (
+                'id' => 276,
+                'user_id' => 1,
+                'log_date' => '2023-04-19 19:13:28',
+                'table_name' => 'setting_activities',
+                'log_type' => 'create',
+                'data' => '{"key":"setting.contact.message.message_placeholder","value":"Pesan*","updated_at":"2023-04-19T12:13:28.000000Z","created_at":"2023-04-19T12:13:28.000000Z","id":10}',
+            ),
+            276 => 
+            array (
+                'id' => 277,
+                'user_id' => 1,
+                'log_date' => '2023-04-19 19:13:28',
+                'table_name' => 'setting_activities',
+                'log_type' => 'create',
+                'data' => '{"key":"setting.contact.message.button_text","value":"Kirim Pesan","updated_at":"2023-04-19T12:13:28.000000Z","created_at":"2023-04-19T12:13:28.000000Z","id":11}',
+            ),
+            277 => 
+            array (
+                'id' => 278,
+                'user_id' => 1,
+                'log_date' => '2023-04-19 19:14:06',
+                'table_name' => 'p_menu',
+                'log_type' => 'edit',
+                'data' => '{"id":392,"parent_id":null,"title":"Google Form","icon":"fas fa-user-edit","route":"admin.pendaftaran.gform","sequence":44,"active":0,"type":1,"created_at":"2022-08-08 16:14:54","updated_at":"2023-04-19 11:12:31"}',
+            ),
+            278 => 
+            array (
+                'id' => 279,
+                'user_id' => 1,
+                'log_date' => '2023-04-19 19:14:06',
+                'table_name' => 'p_role_has_menu',
+                'log_type' => 'create',
+                'data' => '{"role_id":1,"menu_id":392,"updated_at":"2023-04-19T12:14:06.000000Z","created_at":"2023-04-19T12:14:06.000000Z","id":244}',
+            ),
+            279 => 
+            array (
+                'id' => 280,
+                'user_id' => 1,
+                'log_date' => '2023-04-19 19:14:06',
+                'table_name' => 'p_role_has_menu',
+                'log_type' => 'create',
+                'data' => '{"role_id":9,"menu_id":392,"updated_at":"2023-04-19T12:14:06.000000Z","created_at":"2023-04-19T12:14:06.000000Z","id":245}',
+            ),
+            280 => 
+            array (
+                'id' => 281,
+                'user_id' => 1,
+                'log_date' => '2023-04-19 19:35:24',
+                'table_name' => 'notif_admin_atas',
+                'log_type' => 'edit',
+                'data' => '{"id":2,"nama":"asdfasdf","deskripsi":"asdf","dari":"2023-04-01","sampai":"2023-04-03","link":null,"link_nama":"sadffasdf","created_at":"2023-04-15 16:58:15","updated_at":"2023-04-15 16:58:15"}',
+            ),
+            281 => 
+            array (
+                'id' => 282,
+                'user_id' => 1,
+                'log_date' => '2023-04-19 19:35:36',
+                'table_name' => 'notif_admin_atas',
+                'log_type' => 'edit',
+                'data' => '{"id":2,"nama":"asdfasdf","deskripsi":"asdf","dari":"2023-04-01","sampai":null,"link":null,"link_nama":"sadffasdf","created_at":"2023-04-15 16:58:15","updated_at":"2023-04-19 19:35:24"}',
+            ),
+            282 => 
+            array (
+                'id' => 283,
+                'user_id' => 1,
+                'log_date' => '2023-04-19 19:36:34',
+                'table_name' => 'notif_admin_atas',
+                'log_type' => 'edit',
+                'data' => '{"id":2,"nama":"asdfasdf","deskripsi":"asdf","dari":"2023-04-01","sampai":"2023-04-18","link":null,"link_nama":"sadffasdf","created_at":"2023-04-15 16:58:15","updated_at":"2023-04-19 19:35:36"}',
+            ),
+            283 => 
+            array (
+                'id' => 284,
+                'user_id' => 1,
+                'log_date' => '2023-04-19 19:36:41',
+                'table_name' => 'notif_admin_atas',
+                'log_type' => 'edit',
+                'data' => '{"id":2,"nama":"asdfasdf","deskripsi":"asdf","dari":"2023-04-01","sampai":null,"link":null,"link_nama":"sadffasdf","created_at":"2023-04-15 16:58:15","updated_at":"2023-04-19 19:36:34"}',
+            ),
+            284 => 
+            array (
+                'id' => 285,
+                'user_id' => 1,
+                'log_date' => '2023-04-19 20:11:33',
+                'table_name' => '',
+                'log_type' => 'login',
+            'data' => '{"ip":"127.0.0.1","user_agent":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/112.0.0.0 Safari\\/537.36 Edg\\/112.0.1722.48"}',
+            ),
+            285 => 
+            array (
+                'id' => 286,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 11:40:43',
+                'table_name' => '',
+                'log_type' => 'login',
+            'data' => '{"ip":"127.0.0.1","user_agent":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/112.0.0.0 Safari\\/537.36 Edg\\/112.0.1722.58"}',
+            ),
+            286 => 
+            array (
+                'id' => 287,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 11:42:33',
+                'table_name' => 'p_menu',
+                'log_type' => 'edit',
+                'data' => '{"id":392,"parent_id":null,"title":"Google Form","icon":"fas fa-user-edit","route":"admin.pendaftaran.gform","sequence":44,"active":1,"type":1,"created_at":"2022-08-08 16:14:54","updated_at":"2023-04-19 19:14:06"}',
+            ),
+            287 => 
+            array (
+                'id' => 288,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 11:42:33',
+                'table_name' => 'p_role_has_menu',
+                'log_type' => 'create',
+                'data' => '{"role_id":1,"menu_id":392,"updated_at":"2023-04-24T04:42:33.000000Z","created_at":"2023-04-24T04:42:33.000000Z","id":246}',
+            ),
+            288 => 
+            array (
+                'id' => 289,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 11:42:33',
+                'table_name' => 'p_role_has_menu',
+                'log_type' => 'create',
+                'data' => '{"role_id":9,"menu_id":392,"updated_at":"2023-04-24T04:42:33.000000Z","created_at":"2023-04-24T04:42:33.000000Z","id":247}',
+            ),
+            289 => 
+            array (
+                'id' => 290,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:24:35',
+                'table_name' => '',
+                'log_type' => 'login',
+            'data' => '{"ip":"127.0.0.1","user_agent":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/112.0.0.0 Safari\\/537.36 Edg\\/112.0.1722.58"}',
+            ),
+            290 => 
+            array (
+                'id' => 291,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:23',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"127.0.0.1","visitors_id":14,"updated_at":"2023-04-24T13:33:23.000000Z","created_at":"2023-04-24T13:33:23.000000Z","id":1}',
+            ),
+            291 => 
+            array (
+                'id' => 292,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:24',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"127.0.0.1","visitors_id":15,"updated_at":"2023-04-24T13:33:24.000000Z","created_at":"2023-04-24T13:33:24.000000Z","id":2}',
+            ),
+            292 => 
+            array (
+                'id' => 293,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:24',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"127.0.0.1","visitors_id":34,"updated_at":"2023-04-24T13:33:24.000000Z","created_at":"2023-04-24T13:33:24.000000Z","id":3}',
+            ),
+            293 => 
+            array (
+                'id' => 294,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:25',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"127.0.0.1","visitors_id":35,"updated_at":"2023-04-24T13:33:25.000000Z","created_at":"2023-04-24T13:33:25.000000Z","id":4}',
+            ),
+            294 => 
+            array (
+                'id' => 295,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:25',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"127.0.0.1","visitors_id":36,"updated_at":"2023-04-24T13:33:25.000000Z","created_at":"2023-04-24T13:33:25.000000Z","id":5}',
+            ),
+            295 => 
+            array (
+                'id' => 296,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:25',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"127.0.0.1","visitors_id":37,"updated_at":"2023-04-24T13:33:25.000000Z","created_at":"2023-04-24T13:33:25.000000Z","id":6}',
+            ),
+            296 => 
+            array (
+                'id' => 297,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:26',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"127.0.0.1","visitors_id":38,"updated_at":"2023-04-24T13:33:26.000000Z","created_at":"2023-04-24T13:33:26.000000Z","id":7}',
+            ),
+            297 => 
+            array (
+                'id' => 298,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:26',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"127.0.0.1","visitors_id":39,"updated_at":"2023-04-24T13:33:26.000000Z","created_at":"2023-04-24T13:33:26.000000Z","id":8}',
+            ),
+            298 => 
+            array (
+                'id' => 299,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:27',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"127.0.0.1","visitors_id":40,"updated_at":"2023-04-24T13:33:26.000000Z","created_at":"2023-04-24T13:33:26.000000Z","id":9}',
+            ),
+            299 => 
+            array (
+                'id' => 300,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:27',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"127.0.0.1","visitors_id":41,"updated_at":"2023-04-24T13:33:27.000000Z","created_at":"2023-04-24T13:33:27.000000Z","id":10}',
+            ),
+            300 => 
+            array (
+                'id' => 301,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:28',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"127.0.0.1","visitors_id":42,"updated_at":"2023-04-24T13:33:28.000000Z","created_at":"2023-04-24T13:33:28.000000Z","id":11}',
+            ),
+            301 => 
+            array (
+                'id' => 302,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:28',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"192.168.190.26","visitors_id":43,"updated_at":"2023-04-24T13:33:28.000000Z","created_at":"2023-04-24T13:33:28.000000Z","id":12}',
+            ),
+            302 => 
+            array (
+                'id' => 303,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:28',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"127.0.0.1","visitors_id":44,"updated_at":"2023-04-24T13:33:28.000000Z","created_at":"2023-04-24T13:33:28.000000Z","id":13}',
+            ),
+            303 => 
+            array (
+                'id' => 304,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:29',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"127.0.0.1","visitors_id":45,"updated_at":"2023-04-24T13:33:29.000000Z","created_at":"2023-04-24T13:33:29.000000Z","id":14}',
+            ),
+            304 => 
+            array (
+                'id' => 305,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:29',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"127.0.0.1","visitors_id":46,"updated_at":"2023-04-24T13:33:29.000000Z","created_at":"2023-04-24T13:33:29.000000Z","id":15}',
+            ),
+            305 => 
+            array (
+                'id' => 306,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:30',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"114.122.106.250","visitors_id":47,"city":"Bandung","region":"West Java","country_code":"ID","country":"Indonesia","loc":"-6.9222,107.6069","timezone":"Asia\\/Jakarta","updated_at":"2023-04-24T13:33:30.000000Z","created_at":"2023-04-24T13:33:30.000000Z","id":16}',
+            ),
+            306 => 
+            array (
+                'id' => 307,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:30',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"114.122.106.250","visitors_id":48,"city":"Bandung","region":"West Java","country_code":"ID","country":"Indonesia","loc":"-6.9222,107.6069","timezone":"Asia\\/Jakarta","updated_at":"2023-04-24T13:33:30.000000Z","created_at":"2023-04-24T13:33:30.000000Z","id":17}',
+            ),
+            307 => 
+            array (
+                'id' => 308,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:30',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"185.229.118.32","visitors_id":49,"city":"Singapore","region":"Singapore","country_code":"SG","country":"Singapore","loc":"1.2800,103.8539","timezone":"Asia\\/Singapore","updated_at":"2023-04-24T13:33:30.000000Z","created_at":"2023-04-24T13:33:30.000000Z","id":18}',
+            ),
+            308 => 
+            array (
+                'id' => 309,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:31',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"114.122.106.226","visitors_id":50,"city":"Bandung","region":"West Java","country_code":"ID","country":"Indonesia","loc":"-6.9222,107.6069","timezone":"Asia\\/Jakarta","updated_at":"2023-04-24T13:33:31.000000Z","created_at":"2023-04-24T13:33:31.000000Z","id":19}',
+            ),
+            309 => 
+            array (
+                'id' => 310,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:31',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"114.122.106.226","visitors_id":51,"city":"Bandung","region":"West Java","country_code":"ID","country":"Indonesia","loc":"-6.9222,107.6069","timezone":"Asia\\/Jakarta","updated_at":"2023-04-24T13:33:31.000000Z","created_at":"2023-04-24T13:33:31.000000Z","id":20}',
+            ),
+            310 => 
+            array (
+                'id' => 311,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:32',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"34.195.25.237","visitors_id":52,"city":"Ashburn","region":"Virginia","country_code":"US","country":"United States of America","loc":"39.0437,-77.4875","timezone":"America\\/New_York","updated_at":"2023-04-24T13:33:32.000000Z","created_at":"2023-04-24T13:33:32.000000Z","id":21}',
+            ),
+            311 => 
+            array (
+                'id' => 312,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:32',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"114.122.100.106","visitors_id":53,"city":"Bandung","region":"West Java","country_code":"ID","country":"Indonesia","loc":"-6.9222,107.6069","timezone":"Asia\\/Jakarta","updated_at":"2023-04-24T13:33:32.000000Z","created_at":"2023-04-24T13:33:32.000000Z","id":22}',
+            ),
+            312 => 
+            array (
+                'id' => 313,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:33',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"64.233.172.221","visitors_id":54,"city":"Des Moines","region":"Iowa","country_code":"US","country":"United States of America","loc":"41.6005,-93.6091","timezone":"America\\/Chicago","updated_at":"2023-04-24T13:33:33.000000Z","created_at":"2023-04-24T13:33:33.000000Z","id":23}',
+            ),
+            313 => 
+            array (
+                'id' => 314,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:33',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"109.75.212.102","visitors_id":55,"city":"Frankfurt am Main","region":"Hesse","country_code":"DE","country":"Germany","loc":"50.1155,8.6842","timezone":"Europe\\/Berlin","updated_at":"2023-04-24T13:33:33.000000Z","created_at":"2023-04-24T13:33:33.000000Z","id":24}',
+            ),
+            314 => 
+            array (
+                'id' => 315,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:34',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"175.101.69.68","visitors_id":56,"city":"Chennai","region":"Tamil Nadu","country_code":"IN","country":"India","loc":"13.0878,80.2785","timezone":"Asia\\/Kolkata","updated_at":"2023-04-24T13:33:34.000000Z","created_at":"2023-04-24T13:33:34.000000Z","id":25}',
+            ),
+            315 => 
+            array (
+                'id' => 316,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:34',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"66.249.89.196","visitors_id":57,"city":"Columbia","region":"South Carolina","country_code":"US","country":"United States of America","loc":"34.0007,-81.0348","timezone":"America\\/New_York","updated_at":"2023-04-24T13:33:34.000000Z","created_at":"2023-04-24T13:33:34.000000Z","id":26}',
+            ),
+            316 => 
+            array (
+                'id' => 317,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:35',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"66.249.89.193","visitors_id":58,"city":"Columbia","region":"South Carolina","country_code":"US","country":"United States of America","loc":"34.0007,-81.0348","timezone":"America\\/New_York","updated_at":"2023-04-24T13:33:35.000000Z","created_at":"2023-04-24T13:33:35.000000Z","id":27}',
+            ),
+            317 => 
+            array (
+                'id' => 318,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:35',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"66.249.64.195","visitors_id":59,"city":"Columbia","region":"South Carolina","country_code":"US","country":"United States of America","loc":"34.0007,-81.0348","timezone":"America\\/New_York","updated_at":"2023-04-24T13:33:35.000000Z","created_at":"2023-04-24T13:33:35.000000Z","id":28}',
+            ),
+            318 => 
+            array (
+                'id' => 319,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:35',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"66.249.71.192","visitors_id":60,"city":"Mountain View","region":"California","country_code":"US","country":"United States of America","loc":"37.4056,-122.0775","timezone":"America\\/Los_Angeles","updated_at":"2023-04-24T13:33:35.000000Z","created_at":"2023-04-24T13:33:35.000000Z","id":29}',
+            ),
+            319 => 
+            array (
+                'id' => 320,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:36',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"66.249.64.198","visitors_id":61,"city":"Columbia","region":"South Carolina","country_code":"US","country":"United States of America","loc":"34.0007,-81.0348","timezone":"America\\/New_York","updated_at":"2023-04-24T13:33:36.000000Z","created_at":"2023-04-24T13:33:36.000000Z","id":30}',
+            ),
+            320 => 
+            array (
+                'id' => 321,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:36',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"114.122.106.246","visitors_id":62,"city":"Bandung","region":"West Java","country_code":"ID","country":"Indonesia","loc":"-6.9222,107.6069","timezone":"Asia\\/Jakarta","updated_at":"2023-04-24T13:33:36.000000Z","created_at":"2023-04-24T13:33:36.000000Z","id":31}',
+            ),
+            321 => 
+            array (
+                'id' => 322,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:37',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"114.122.100.106","visitors_id":63,"city":"Bandung","region":"West Java","country_code":"ID","country":"Indonesia","loc":"-6.9222,107.6069","timezone":"Asia\\/Jakarta","updated_at":"2023-04-24T13:33:37.000000Z","created_at":"2023-04-24T13:33:37.000000Z","id":32}',
+            ),
+            322 => 
+            array (
+                'id' => 323,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:37',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"114.122.106.246","visitors_id":64,"city":"Bandung","region":"West Java","country_code":"ID","country":"Indonesia","loc":"-6.9222,107.6069","timezone":"Asia\\/Jakarta","updated_at":"2023-04-24T13:33:37.000000Z","created_at":"2023-04-24T13:33:37.000000Z","id":33}',
+            ),
+            323 => 
+            array (
+                'id' => 324,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:38',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"114.122.70.80","visitors_id":65,"city":"Bandung","region":"West Java","country_code":"ID","country":"Indonesia","loc":"-6.9222,107.6069","timezone":"Asia\\/Jakarta","updated_at":"2023-04-24T13:33:38.000000Z","created_at":"2023-04-24T13:33:38.000000Z","id":34}',
+            ),
+            324 => 
+            array (
+                'id' => 325,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:38',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"205.169.39.25","visitors_id":66,"city":"Bartlesville","region":"Oklahoma","country_code":"US","country":"United States of America","loc":"36.7473,-95.9808","timezone":"America\\/Chicago","updated_at":"2023-04-24T13:33:38.000000Z","created_at":"2023-04-24T13:33:38.000000Z","id":35}',
+            ),
+            325 => 
+            array (
+                'id' => 326,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:39',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"114.122.73.36","visitors_id":67,"city":"Bandung","region":"West Java","country_code":"ID","country":"Indonesia","loc":"-6.9222,107.6069","timezone":"Asia\\/Jakarta","updated_at":"2023-04-24T13:33:39.000000Z","created_at":"2023-04-24T13:33:39.000000Z","id":36}',
+            ),
+            326 => 
+            array (
+                'id' => 327,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:39',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"114.122.70.28","visitors_id":68,"city":"Bandung","region":"West Java","country_code":"ID","country":"Indonesia","loc":"-6.9222,107.6069","timezone":"Asia\\/Jakarta","updated_at":"2023-04-24T13:33:39.000000Z","created_at":"2023-04-24T13:33:39.000000Z","id":37}',
+            ),
+            327 => 
+            array (
+                'id' => 328,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:40',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"103.147.8.97","visitors_id":69,"city":"Bandung","region":"West Java","country_code":"ID","country":"Indonesia","loc":"-6.9222,107.6069","timezone":"Asia\\/Jakarta","updated_at":"2023-04-24T13:33:39.000000Z","created_at":"2023-04-24T13:33:39.000000Z","id":38}',
+            ),
+            328 => 
+            array (
+                'id' => 329,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:40',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"114.122.71.32","visitors_id":70,"city":"Bandung","region":"West Java","country_code":"ID","country":"Indonesia","loc":"-6.9222,107.6069","timezone":"Asia\\/Jakarta","updated_at":"2023-04-24T13:33:40.000000Z","created_at":"2023-04-24T13:33:40.000000Z","id":39}',
+            ),
+            329 => 
+            array (
+                'id' => 330,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:40',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"114.122.73.36","visitors_id":71,"city":"Bandung","region":"West Java","country_code":"ID","country":"Indonesia","loc":"-6.9222,107.6069","timezone":"Asia\\/Jakarta","updated_at":"2023-04-24T13:33:40.000000Z","created_at":"2023-04-24T13:33:40.000000Z","id":40}',
+            ),
+            330 => 
+            array (
+                'id' => 331,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:41',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"114.122.71.32","visitors_id":72,"city":"Bandung","region":"West Java","country_code":"ID","country":"Indonesia","loc":"-6.9222,107.6069","timezone":"Asia\\/Jakarta","updated_at":"2023-04-24T13:33:41.000000Z","created_at":"2023-04-24T13:33:41.000000Z","id":41}',
+            ),
+            331 => 
+            array (
+                'id' => 332,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:41',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"114.5.217.132","visitors_id":73,"city":"Bandung","region":"West Java","country_code":"ID","country":"Indonesia","loc":"-6.9222,107.6069","timezone":"Asia\\/Jakarta","updated_at":"2023-04-24T13:33:41.000000Z","created_at":"2023-04-24T13:33:41.000000Z","id":42}',
+            ),
+            332 => 
+            array (
+                'id' => 333,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:42',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"45.55.112.20","visitors_id":74,"city":"San Francisco","region":"California","country_code":"US","country":"United States of America","loc":"37.7309,-122.3886","timezone":"America\\/Los_Angeles","updated_at":"2023-04-24T13:33:42.000000Z","created_at":"2023-04-24T13:33:42.000000Z","id":43}',
+            ),
+            333 => 
+            array (
+                'id' => 334,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:42',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"45.90.62.183","visitors_id":75,"city":"Pos\\u00eblok Mar\\u2019ino","region":"Moscow Oblast","country_code":"RU","country":"Russian Federation","loc":"55.5500,37.3200","timezone":"Europe\\/Moscow","updated_at":"2023-04-24T13:33:42.000000Z","created_at":"2023-04-24T13:33:42.000000Z","id":44}',
+            ),
+            334 => 
+            array (
+                'id' => 335,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:43',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"176.53.217.213","visitors_id":76,"city":"Pos\\u00eblok Mar\\u2019ino","region":"Moscow Oblast","country_code":"RU","country":"Russian Federation","loc":"55.5500,37.3200","timezone":"Europe\\/Moscow","updated_at":"2023-04-24T13:33:43.000000Z","created_at":"2023-04-24T13:33:43.000000Z","id":45}',
+            ),
+            335 => 
+            array (
+                'id' => 336,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:43',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"185.229.118.32","visitors_id":77,"city":"Singapore","region":"Singapore","country_code":"SG","country":"Singapore","loc":"1.2800,103.8539","timezone":"Asia\\/Singapore","updated_at":"2023-04-24T13:33:43.000000Z","created_at":"2023-04-24T13:33:43.000000Z","id":46}',
+            ),
+            336 => 
+            array (
+                'id' => 337,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:44',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"183.129.153.157","visitors_id":78,"city":"Hangzhou","region":"Zhejiang","country_code":"CN","country":"China","loc":"30.2936,120.1614","timezone":"Asia\\/Shanghai","updated_at":"2023-04-24T13:33:44.000000Z","created_at":"2023-04-24T13:33:44.000000Z","id":47}',
+            ),
+            337 => 
+            array (
+                'id' => 338,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:44',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"185.229.118.32","visitors_id":79,"city":"Singapore","region":"Singapore","country_code":"SG","country":"Singapore","loc":"1.2800,103.8539","timezone":"Asia\\/Singapore","updated_at":"2023-04-24T13:33:44.000000Z","created_at":"2023-04-24T13:33:44.000000Z","id":48}',
+            ),
+            338 => 
+            array (
+                'id' => 339,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:45',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"66.249.71.192","visitors_id":80,"city":"Mountain View","region":"California","country_code":"US","country":"United States of America","loc":"37.4056,-122.0775","timezone":"America\\/Los_Angeles","updated_at":"2023-04-24T13:33:45.000000Z","created_at":"2023-04-24T13:33:45.000000Z","id":49}',
+            ),
+            339 => 
+            array (
+                'id' => 340,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:45',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"176.53.220.156","visitors_id":81,"city":"Pos\\u00eblok Mar\\u2019ino","region":"Moscow Oblast","country_code":"RU","country":"Russian Federation","loc":"55.5500,37.3200","timezone":"Europe\\/Moscow","updated_at":"2023-04-24T13:33:45.000000Z","created_at":"2023-04-24T13:33:45.000000Z","id":50}',
+            ),
+            340 => 
+            array (
+                'id' => 341,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:45',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"45.90.63.167","visitors_id":82,"city":"Pos\\u00eblok Mar\\u2019ino","region":"Moscow Oblast","country_code":"RU","country":"Russian Federation","loc":"55.5500,37.3200","timezone":"Europe\\/Moscow","updated_at":"2023-04-24T13:33:45.000000Z","created_at":"2023-04-24T13:33:45.000000Z","id":51}',
+            ),
+            341 => 
+            array (
+                'id' => 342,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:46',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"66.249.71.198","visitors_id":83,"city":"Mountain View","region":"California","country_code":"US","country":"United States of America","loc":"37.4056,-122.0775","timezone":"America\\/Los_Angeles","updated_at":"2023-04-24T13:33:46.000000Z","created_at":"2023-04-24T13:33:46.000000Z","id":52}',
+            ),
+            342 => 
+            array (
+                'id' => 343,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:46',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"185.229.118.32","visitors_id":84,"city":"Singapore","region":"Singapore","country_code":"SG","country":"Singapore","loc":"1.2800,103.8539","timezone":"Asia\\/Singapore","updated_at":"2023-04-24T13:33:46.000000Z","created_at":"2023-04-24T13:33:46.000000Z","id":53}',
+            ),
+            343 => 
+            array (
+                'id' => 344,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:47',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"185.229.118.32","visitors_id":85,"city":"Singapore","region":"Singapore","country_code":"SG","country":"Singapore","loc":"1.2800,103.8539","timezone":"Asia\\/Singapore","updated_at":"2023-04-24T13:33:47.000000Z","created_at":"2023-04-24T13:33:47.000000Z","id":54}',
+            ),
+            344 => 
+            array (
+                'id' => 345,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:47',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"66.249.71.192","visitors_id":86,"city":"Mountain View","region":"California","country_code":"US","country":"United States of America","loc":"37.4056,-122.0775","timezone":"America\\/Los_Angeles","updated_at":"2023-04-24T13:33:47.000000Z","created_at":"2023-04-24T13:33:47.000000Z","id":55}',
+            ),
+            345 => 
+            array (
+                'id' => 346,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:48',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"66.249.71.195","visitors_id":87,"city":"Mountain View","region":"California","country_code":"US","country":"United States of America","loc":"37.4056,-122.0775","timezone":"America\\/Los_Angeles","updated_at":"2023-04-24T13:33:48.000000Z","created_at":"2023-04-24T13:33:48.000000Z","id":56}',
+            ),
+            346 => 
+            array (
+                'id' => 347,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:48',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"185.229.118.32","visitors_id":88,"city":"Singapore","region":"Singapore","country_code":"SG","country":"Singapore","loc":"1.2800,103.8539","timezone":"Asia\\/Singapore","updated_at":"2023-04-24T13:33:48.000000Z","created_at":"2023-04-24T13:33:48.000000Z","id":57}',
+            ),
+            347 => 
+            array (
+                'id' => 348,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:49',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"114.122.106.6","visitors_id":89,"city":"Bandung","region":"West Java","country_code":"ID","country":"Indonesia","loc":"-6.9222,107.6069","timezone":"Asia\\/Jakarta","updated_at":"2023-04-24T13:33:49.000000Z","created_at":"2023-04-24T13:33:49.000000Z","id":58}',
+            ),
+            348 => 
+            array (
+                'id' => 349,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:49',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"185.229.118.32","visitors_id":90,"city":"Singapore","region":"Singapore","country_code":"SG","country":"Singapore","loc":"1.2800,103.8539","timezone":"Asia\\/Singapore","updated_at":"2023-04-24T13:33:49.000000Z","created_at":"2023-04-24T13:33:49.000000Z","id":59}',
+            ),
+            349 => 
+            array (
+                'id' => 350,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:49',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"66.249.79.70","visitors_id":91,"city":"Salem","region":"Oregon","country_code":"US","country":"United States of America","loc":"44.9429,-123.0351","timezone":"America\\/Los_Angeles","updated_at":"2023-04-24T13:33:49.000000Z","created_at":"2023-04-24T13:33:49.000000Z","id":60}',
+            ),
+            350 => 
+            array (
+                'id' => 351,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:50',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"185.229.118.32","visitors_id":92,"city":"Singapore","region":"Singapore","country_code":"SG","country":"Singapore","loc":"1.2800,103.8539","timezone":"Asia\\/Singapore","updated_at":"2023-04-24T13:33:50.000000Z","created_at":"2023-04-24T13:33:50.000000Z","id":61}',
+            ),
+            351 => 
+            array (
+                'id' => 352,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:50',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"66.249.71.198","visitors_id":93,"city":"Mountain View","region":"California","country_code":"US","country":"United States of America","loc":"37.4056,-122.0775","timezone":"America\\/Los_Angeles","updated_at":"2023-04-24T13:33:50.000000Z","created_at":"2023-04-24T13:33:50.000000Z","id":62}',
+            ),
+            352 => 
+            array (
+                'id' => 353,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:51',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"114.122.70.191","visitors_id":94,"city":"Bandung","region":"West Java","country_code":"ID","country":"Indonesia","loc":"-6.9222,107.6069","timezone":"Asia\\/Jakarta","updated_at":"2023-04-24T13:33:51.000000Z","created_at":"2023-04-24T13:33:51.000000Z","id":63}',
+            ),
+            353 => 
+            array (
+                'id' => 354,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:51',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"185.229.118.32","visitors_id":95,"city":"Singapore","region":"Singapore","country_code":"SG","country":"Singapore","loc":"1.2800,103.8539","timezone":"Asia\\/Singapore","updated_at":"2023-04-24T13:33:51.000000Z","created_at":"2023-04-24T13:33:51.000000Z","id":64}',
+            ),
+            354 => 
+            array (
+                'id' => 355,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:52',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"66.249.79.73","visitors_id":96,"city":"Salem","region":"Oregon","country_code":"US","country":"United States of America","loc":"44.9429,-123.0351","timezone":"America\\/Los_Angeles","updated_at":"2023-04-24T13:33:52.000000Z","created_at":"2023-04-24T13:33:52.000000Z","id":65}',
+            ),
+            355 => 
+            array (
+                'id' => 356,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:52',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"66.249.71.195","visitors_id":97,"city":"Mountain View","region":"California","country_code":"US","country":"United States of America","loc":"37.4056,-122.0775","timezone":"America\\/Los_Angeles","updated_at":"2023-04-24T13:33:52.000000Z","created_at":"2023-04-24T13:33:52.000000Z","id":66}',
+            ),
+            356 => 
+            array (
+                'id' => 357,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:53',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"185.229.118.32","visitors_id":98,"city":"Singapore","region":"Singapore","country_code":"SG","country":"Singapore","loc":"1.2800,103.8539","timezone":"Asia\\/Singapore","updated_at":"2023-04-24T13:33:52.000000Z","created_at":"2023-04-24T13:33:52.000000Z","id":67}',
+            ),
+            357 => 
+            array (
+                'id' => 358,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:53',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"103.147.8.97","visitors_id":99,"city":"Bandung","region":"West Java","country_code":"ID","country":"Indonesia","loc":"-6.9222,107.6069","timezone":"Asia\\/Jakarta","updated_at":"2023-04-24T13:33:53.000000Z","created_at":"2023-04-24T13:33:53.000000Z","id":68}',
+            ),
+            358 => 
+            array (
+                'id' => 359,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:53',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"127.0.0.1","visitors_id":100,"updated_at":"2023-04-24T13:33:53.000000Z","created_at":"2023-04-24T13:33:53.000000Z","id":69}',
+            ),
+            359 => 
+            array (
+                'id' => 360,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:54',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"127.0.0.1","visitors_id":101,"updated_at":"2023-04-24T13:33:54.000000Z","created_at":"2023-04-24T13:33:54.000000Z","id":70}',
+            ),
+            360 => 
+            array (
+                'id' => 361,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:54',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"127.0.0.1","visitors_id":102,"updated_at":"2023-04-24T13:33:54.000000Z","created_at":"2023-04-24T13:33:54.000000Z","id":71}',
+            ),
+            361 => 
+            array (
+                'id' => 362,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:55',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"103.147.8.161","visitors_id":103,"city":"Bandung","region":"West Java","country_code":"ID","country":"Indonesia","loc":"-6.9222,107.6069","timezone":"Asia\\/Jakarta","updated_at":"2023-04-24T13:33:55.000000Z","created_at":"2023-04-24T13:33:55.000000Z","id":72}',
+            ),
+            362 => 
+            array (
+                'id' => 363,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:55',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"139.162.7.175","visitors_id":104,"city":"Singapore","region":"Singapore","country_code":"SG","country":"Singapore","loc":"1.2935,103.8603","timezone":"Asia\\/Singapore","updated_at":"2023-04-24T13:33:55.000000Z","created_at":"2023-04-24T13:33:55.000000Z","id":73}',
+            ),
+            363 => 
+            array (
+                'id' => 364,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:56',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"157.230.185.127","visitors_id":105,"city":"North Bergen","region":"New Jersey","country_code":"US","country":"United States of America","loc":"40.8043,-74.0121","timezone":"America\\/New_York","updated_at":"2023-04-24T13:33:56.000000Z","created_at":"2023-04-24T13:33:56.000000Z","id":74}',
+            ),
+            364 => 
+            array (
+                'id' => 365,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:56',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"39.110.218.101","visitors_id":106,"city":"Tokyo","region":"Tokyo","country_code":"JP","country":"Japan","loc":"35.6940,139.7536","timezone":"Asia\\/Tokyo","updated_at":"2023-04-24T13:33:56.000000Z","created_at":"2023-04-24T13:33:56.000000Z","id":75}',
+            ),
+            365 => 
+            array (
+                'id' => 366,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:57',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"34.168.208.65","visitors_id":107,"city":"The Dalles","region":"Oregon","country_code":"US","country":"United States of America","loc":"45.5946,-121.1787","timezone":"America\\/Los_Angeles","updated_at":"2023-04-24T13:33:57.000000Z","created_at":"2023-04-24T13:33:57.000000Z","id":76}',
+            ),
+            366 => 
+            array (
+                'id' => 367,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:57',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"34.168.208.65","visitors_id":108,"city":"The Dalles","region":"Oregon","country_code":"US","country":"United States of America","loc":"45.5946,-121.1787","timezone":"America\\/Los_Angeles","updated_at":"2023-04-24T13:33:57.000000Z","created_at":"2023-04-24T13:33:57.000000Z","id":77}',
+            ),
+            367 => 
+            array (
+                'id' => 368,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:58',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"103.147.8.161","visitors_id":109,"city":"Bandung","region":"West Java","country_code":"ID","country":"Indonesia","loc":"-6.9222,107.6069","timezone":"Asia\\/Jakarta","updated_at":"2023-04-24T13:33:58.000000Z","created_at":"2023-04-24T13:33:58.000000Z","id":78}',
+            ),
+            368 => 
+            array (
+                'id' => 369,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:58',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"103.147.8.161","visitors_id":110,"city":"Bandung","region":"West Java","country_code":"ID","country":"Indonesia","loc":"-6.9222,107.6069","timezone":"Asia\\/Jakarta","updated_at":"2023-04-24T13:33:58.000000Z","created_at":"2023-04-24T13:33:58.000000Z","id":79}',
+            ),
+            369 => 
+            array (
+                'id' => 370,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:58',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"133.242.174.119","visitors_id":111,"city":"Tokyo","region":"Tokyo","country_code":"JP","country":"Japan","loc":"35.6910,139.7679","timezone":"Asia\\/Tokyo","updated_at":"2023-04-24T13:33:58.000000Z","created_at":"2023-04-24T13:33:58.000000Z","id":80}',
+            ),
+            370 => 
+            array (
+                'id' => 371,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:59',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"65.154.226.170","visitors_id":112,"city":"Irving","region":"Texas","country_code":"US","country":"United States of America","loc":"32.8140,-96.9489","timezone":"America\\/Chicago","updated_at":"2023-04-24T13:33:59.000000Z","created_at":"2023-04-24T13:33:59.000000Z","id":81}',
+            ),
+            371 => 
+            array (
+                'id' => 372,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:33:59',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"205.169.39.67","visitors_id":113,"city":"Bartlesville","region":"Oklahoma","country_code":"US","country":"United States of America","loc":"36.7473,-95.9808","timezone":"America\\/Chicago","updated_at":"2023-04-24T13:33:59.000000Z","created_at":"2023-04-24T13:33:59.000000Z","id":82}',
+            ),
+            372 => 
+            array (
+                'id' => 373,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:34:00',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"205.169.39.67","visitors_id":114,"city":"Bartlesville","region":"Oklahoma","country_code":"US","country":"United States of America","loc":"36.7473,-95.9808","timezone":"America\\/Chicago","updated_at":"2023-04-24T13:34:00.000000Z","created_at":"2023-04-24T13:34:00.000000Z","id":83}',
+            ),
+            373 => 
+            array (
+                'id' => 374,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:34:00',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"34.254.53.125","visitors_id":115,"city":"Dublin","region":"Leinster","country_code":"IE","country":"Ireland","loc":"53.3331,-6.2489","timezone":"Europe\\/Dublin","updated_at":"2023-04-24T13:34:00.000000Z","created_at":"2023-04-24T13:34:00.000000Z","id":84}',
+            ),
+            374 => 
+            array (
+                'id' => 375,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:34:01',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"34.254.53.125","visitors_id":116,"city":"Dublin","region":"Leinster","country_code":"IE","country":"Ireland","loc":"53.3331,-6.2489","timezone":"Europe\\/Dublin","updated_at":"2023-04-24T13:34:00.000000Z","created_at":"2023-04-24T13:34:00.000000Z","id":85}',
+            ),
+            375 => 
+            array (
+                'id' => 376,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:34:01',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"34.254.53.125","visitors_id":117,"city":"Dublin","region":"Leinster","country_code":"IE","country":"Ireland","loc":"53.3331,-6.2489","timezone":"Europe\\/Dublin","updated_at":"2023-04-24T13:34:01.000000Z","created_at":"2023-04-24T13:34:01.000000Z","id":86}',
+            ),
+            376 => 
+            array (
+                'id' => 377,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:34:01',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"65.109.163.80","visitors_id":118,"city":"Vaala","region":"Kainuu","country_code":"FI","country":"Finland","loc":"64.5739,26.7669","timezone":"Europe\\/Helsinki","updated_at":"2023-04-24T13:34:01.000000Z","created_at":"2023-04-24T13:34:01.000000Z","id":87}',
+            ),
+            377 => 
+            array (
+                'id' => 378,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:34:02',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"95.216.188.234","visitors_id":119,"city":"Helsinki","region":"Uusimaa","country_code":"FI","country":"Finland","loc":"60.1695,24.9354","timezone":"Europe\\/Helsinki","updated_at":"2023-04-24T13:34:02.000000Z","created_at":"2023-04-24T13:34:02.000000Z","id":88}',
+            ),
+            378 => 
+            array (
+                'id' => 379,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:34:02',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"47.242.105.176","visitors_id":120,"city":"Hong Kong","region":"Central and Western","country_code":"HK","country":"Hong Kong","loc":"22.2783,114.1747","timezone":"Asia\\/Hong_Kong","updated_at":"2023-04-24T13:34:02.000000Z","created_at":"2023-04-24T13:34:02.000000Z","id":89}',
+            ),
+            379 => 
+            array (
+                'id' => 380,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:34:03',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"205.169.39.115","visitors_id":121,"city":"Bartlesville","region":"Oklahoma","country_code":"US","country":"United States of America","loc":"36.7473,-95.9808","timezone":"America\\/Chicago","updated_at":"2023-04-24T13:34:03.000000Z","created_at":"2023-04-24T13:34:03.000000Z","id":90}',
+            ),
+            380 => 
+            array (
+                'id' => 381,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:34:03',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"205.169.39.115","visitors_id":122,"city":"Bartlesville","region":"Oklahoma","country_code":"US","country":"United States of America","loc":"36.7473,-95.9808","timezone":"America\\/Chicago","updated_at":"2023-04-24T13:34:03.000000Z","created_at":"2023-04-24T13:34:03.000000Z","id":91}',
+            ),
+            381 => 
+            array (
+                'id' => 382,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:34:03',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"127.0.0.1","visitors_id":123,"updated_at":"2023-04-24T13:34:03.000000Z","created_at":"2023-04-24T13:34:03.000000Z","id":92}',
+            ),
+            382 => 
+            array (
+                'id' => 383,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:34:04',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"185.229.118.32","visitors_id":124,"city":"Singapore","region":"Singapore","country_code":"SG","country":"Singapore","loc":"1.2800,103.8539","timezone":"Asia\\/Singapore","updated_at":"2023-04-24T13:34:04.000000Z","created_at":"2023-04-24T13:34:04.000000Z","id":93}',
+            ),
+            383 => 
+            array (
+                'id' => 384,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:34:05',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"103.147.9.27","visitors_id":125,"city":"Bandung","region":"West Java","country_code":"ID","country":"Indonesia","loc":"-6.9222,107.6069","timezone":"Asia\\/Jakarta","updated_at":"2023-04-24T13:34:05.000000Z","created_at":"2023-04-24T13:34:05.000000Z","id":94}',
+            ),
+            384 => 
+            array (
+                'id' => 385,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:34:05',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"103.147.9.27","visitors_id":126,"city":"Bandung","region":"West Java","country_code":"ID","country":"Indonesia","loc":"-6.9222,107.6069","timezone":"Asia\\/Jakarta","updated_at":"2023-04-24T13:34:05.000000Z","created_at":"2023-04-24T13:34:05.000000Z","id":95}',
+            ),
+            385 => 
+            array (
+                'id' => 386,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:34:06',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"51.120.79.218","visitors_id":127,"city":"Oslo","region":"Oslo","country_code":"NO","country":"Norway","loc":"59.8457,10.7823","timezone":"Europe\\/Oslo","updated_at":"2023-04-24T13:34:06.000000Z","created_at":"2023-04-24T13:34:06.000000Z","id":96}',
+            ),
+            386 => 
+            array (
+                'id' => 387,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:34:06',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"103.147.8.161","visitors_id":128,"city":"Bandung","region":"West Java","country_code":"ID","country":"Indonesia","loc":"-6.9222,107.6069","timezone":"Asia\\/Jakarta","updated_at":"2023-04-24T13:34:06.000000Z","created_at":"2023-04-24T13:34:06.000000Z","id":97}',
+            ),
+            387 => 
+            array (
+                'id' => 388,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:34:07',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"185.229.118.32","visitors_id":129,"city":"Singapore","region":"Singapore","country_code":"SG","country":"Singapore","loc":"1.2842,103.8590","timezone":"Asia\\/Singapore","updated_at":"2023-04-24T13:34:07.000000Z","created_at":"2023-04-24T13:34:07.000000Z","id":98}',
+            ),
+            388 => 
+            array (
+                'id' => 389,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:34:07',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"114.122.111.103","visitors_id":130,"city":"Cileunyi","region":"West Java","country_code":"ID","country":"Indonesia","loc":"-6.9389,107.7528","timezone":"Asia\\/Jakarta","updated_at":"2023-04-24T13:34:07.000000Z","created_at":"2023-04-24T13:34:07.000000Z","id":99}',
+            ),
+            389 => 
+            array (
+                'id' => 390,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:34:07',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"134.209.103.110","visitors_id":131,"city":"Singapore","region":"Singapore","country_code":"SG","country":"Singapore","loc":"1.3215,103.6957","timezone":"Asia\\/Singapore","updated_at":"2023-04-24T13:34:07.000000Z","created_at":"2023-04-24T13:34:07.000000Z","id":100}',
+            ),
+            390 => 
+            array (
+                'id' => 391,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:34:08',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"114.122.111.107","visitors_id":132,"city":"Cileunyi","region":"West Java","country_code":"ID","country":"Indonesia","loc":"-6.9389,107.7528","timezone":"Asia\\/Jakarta","updated_at":"2023-04-24T13:34:08.000000Z","created_at":"2023-04-24T13:34:08.000000Z","id":101}',
+            ),
+            391 => 
+            array (
+                'id' => 392,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:34:08',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"127.0.0.1","visitors_id":133,"updated_at":"2023-04-24T13:34:08.000000Z","created_at":"2023-04-24T13:34:08.000000Z","id":102}',
+            ),
+            392 => 
+            array (
+                'id' => 393,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:34:09',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"127.0.0.1","visitors_id":134,"updated_at":"2023-04-24T13:34:09.000000Z","created_at":"2023-04-24T13:34:09.000000Z","id":103}',
+            ),
+            393 => 
+            array (
+                'id' => 394,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:34:09',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"127.0.0.1","visitors_id":135,"updated_at":"2023-04-24T13:34:09.000000Z","created_at":"2023-04-24T13:34:09.000000Z","id":104}',
+            ),
+            394 => 
+            array (
+                'id' => 395,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:34:09',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"127.0.0.1","visitors_id":136,"updated_at":"2023-04-24T13:34:09.000000Z","created_at":"2023-04-24T13:34:09.000000Z","id":105}',
+            ),
+            395 => 
+            array (
+                'id' => 396,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:34:10',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"127.0.0.1","visitors_id":137,"updated_at":"2023-04-24T13:34:10.000000Z","created_at":"2023-04-24T13:34:10.000000Z","id":106}',
+            ),
+            396 => 
+            array (
+                'id' => 397,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:34:10',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"114.124.131.102","visitors_id":1,"city":"Jakarta","region":"Jakarta","country_code":"ID","country":"Indonesia","loc":"-6.2146,106.8451","timezone":"Asia\\/Jakarta","updated_at":"2023-04-24T13:34:10.000000Z","created_at":"2023-04-24T13:34:10.000000Z","id":107}',
+            ),
+            397 => 
+            array (
+                'id' => 398,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:34:11',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"103.147.8.244","visitors_id":2,"city":"Bandung","region":"West Java","country_code":"ID","country":"Indonesia","loc":"-6.9222,107.6069","timezone":"Asia\\/Jakarta","updated_at":"2023-04-24T13:34:11.000000Z","created_at":"2023-04-24T13:34:11.000000Z","id":108}',
+            ),
+            398 => 
+            array (
+                'id' => 399,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:34:11',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"149.154.161.233","visitors_id":3,"city":"Amsterdam","region":"North Holland","country_code":"NL","country":"Netherlands the","loc":"52.3740,4.8897","timezone":"Europe\\/Amsterdam","updated_at":"2023-04-24T13:34:11.000000Z","created_at":"2023-04-24T13:34:11.000000Z","id":109}',
+            ),
+            399 => 
+            array (
+                'id' => 400,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:34:12',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"114.124.131.102","visitors_id":4,"city":"Jakarta","region":"Jakarta","country_code":"ID","country":"Indonesia","loc":"-6.2146,106.8451","timezone":"Asia\\/Jakarta","updated_at":"2023-04-24T13:34:12.000000Z","created_at":"2023-04-24T13:34:12.000000Z","id":110}',
+            ),
+            400 => 
+            array (
+                'id' => 401,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:34:12',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"114.124.131.38","visitors_id":5,"city":"Jakarta","region":"Jakarta","country_code":"ID","country":"Indonesia","loc":"-6.2146,106.8451","timezone":"Asia\\/Jakarta","updated_at":"2023-04-24T13:34:12.000000Z","created_at":"2023-04-24T13:34:12.000000Z","id":111}',
+            ),
+            401 => 
+            array (
+                'id' => 402,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:34:12',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"114.124.131.102","visitors_id":6,"city":"Jakarta","region":"Jakarta","country_code":"ID","country":"Indonesia","loc":"-6.2146,106.8451","timezone":"Asia\\/Jakarta","updated_at":"2023-04-24T13:34:12.000000Z","created_at":"2023-04-24T13:34:12.000000Z","id":112}',
+            ),
+            402 => 
+            array (
+                'id' => 403,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:34:13',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"114.124.130.38","visitors_id":7,"city":"Jakarta","region":"Jakarta","country_code":"ID","country":"Indonesia","loc":"-6.2146,106.8451","timezone":"Asia\\/Jakarta","updated_at":"2023-04-24T13:34:13.000000Z","created_at":"2023-04-24T13:34:13.000000Z","id":113}',
+            ),
+            403 => 
+            array (
+                'id' => 404,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:34:13',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"114.124.131.102","visitors_id":8,"city":"Jakarta","region":"Jakarta","country_code":"ID","country":"Indonesia","loc":"-6.2146,106.8451","timezone":"Asia\\/Jakarta","updated_at":"2023-04-24T13:34:13.000000Z","created_at":"2023-04-24T13:34:13.000000Z","id":114}',
+            ),
+            404 => 
+            array (
+                'id' => 405,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:34:14',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"114.124.130.38","visitors_id":9,"city":"Jakarta","region":"Jakarta","country_code":"ID","country":"Indonesia","loc":"-6.2146,106.8451","timezone":"Asia\\/Jakarta","updated_at":"2023-04-24T13:34:14.000000Z","created_at":"2023-04-24T13:34:14.000000Z","id":115}',
+            ),
+            405 => 
+            array (
+                'id' => 406,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:34:14',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"103.147.8.244","visitors_id":10,"city":"Bandung","region":"West Java","country_code":"ID","country":"Indonesia","loc":"-6.9222,107.6069","timezone":"Asia\\/Jakarta","updated_at":"2023-04-24T13:34:14.000000Z","created_at":"2023-04-24T13:34:14.000000Z","id":116}',
+            ),
+            406 => 
+            array (
+                'id' => 407,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:34:15',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"103.147.8.244","visitors_id":11,"city":"Bandung","region":"West Java","country_code":"ID","country":"Indonesia","loc":"-6.9222,107.6069","timezone":"Asia\\/Jakarta","updated_at":"2023-04-24T13:34:15.000000Z","created_at":"2023-04-24T13:34:15.000000Z","id":117}',
+            ),
+            407 => 
+            array (
+                'id' => 408,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:34:15',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"54.39.107.46","visitors_id":12,"city":"Montr\\u00e9al","region":"Quebec","country_code":"CA","country":"Canada","loc":"45.5088,-73.5878","timezone":"America\\/Toronto","updated_at":"2023-04-24T13:34:15.000000Z","created_at":"2023-04-24T13:34:15.000000Z","id":118}',
+            ),
+            408 => 
+            array (
+                'id' => 409,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:34:16',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"185.229.118.1","visitors_id":13,"city":"Singapore","region":"Singapore","country_code":"SG","country":"Singapore","loc":"1.2800,103.8539","timezone":"Asia\\/Singapore","updated_at":"2023-04-24T13:34:16.000000Z","created_at":"2023-04-24T13:34:16.000000Z","id":119}',
+            ),
+            409 => 
+            array (
+                'id' => 410,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:34:16',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"103.147.9.137","visitors_id":16,"city":"Bandung","region":"West Java","country_code":"ID","country":"Indonesia","loc":"-6.9222,107.6069","timezone":"Asia\\/Jakarta","updated_at":"2023-04-24T13:34:16.000000Z","created_at":"2023-04-24T13:34:16.000000Z","id":120}',
+            ),
+            410 => 
+            array (
+                'id' => 411,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:34:16',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"103.147.9.137","visitors_id":17,"city":"Bandung","region":"West Java","country_code":"ID","country":"Indonesia","loc":"-6.9222,107.6069","timezone":"Asia\\/Jakarta","updated_at":"2023-04-24T13:34:16.000000Z","created_at":"2023-04-24T13:34:16.000000Z","id":121}',
+            ),
+            411 => 
+            array (
+                'id' => 412,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:34:17',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"52.167.144.87","visitors_id":18,"city":"Boydton","region":"Virginia","country_code":"US","country":"United States of America","loc":"36.6676,-78.3875","timezone":"America\\/New_York","updated_at":"2023-04-24T13:34:17.000000Z","created_at":"2023-04-24T13:34:17.000000Z","id":122}',
+            ),
+            412 => 
+            array (
+                'id' => 413,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:34:18',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"185.229.118.32","visitors_id":19,"city":"Singapore","region":"Singapore","country_code":"SG","country":"Singapore","loc":"1.2842,103.8590","timezone":"Asia\\/Singapore","updated_at":"2023-04-24T13:34:17.000000Z","created_at":"2023-04-24T13:34:17.000000Z","id":123}',
+            ),
+            413 => 
+            array (
+                'id' => 414,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:34:18',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"40.77.167.228","visitors_id":20,"city":"Boydton","region":"Virginia","country_code":"US","country":"United States of America","loc":"36.6676,-78.3875","timezone":"America\\/New_York","updated_at":"2023-04-24T13:34:18.000000Z","created_at":"2023-04-24T13:34:18.000000Z","id":124}',
+            ),
+            414 => 
+            array (
+                'id' => 415,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:34:19',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"207.46.13.211","visitors_id":21,"city":"Moses Lake","region":"Washington","country_code":"US","country":"United States of America","loc":"47.1301,-119.2781","timezone":"America\\/Los_Angeles","updated_at":"2023-04-24T13:34:19.000000Z","created_at":"2023-04-24T13:34:19.000000Z","id":125}',
+            ),
+            415 => 
+            array (
+                'id' => 416,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:34:19',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"40.77.167.167","visitors_id":22,"city":"Boydton","region":"Virginia","country_code":"US","country":"United States of America","loc":"36.6676,-78.3875","timezone":"America\\/New_York","updated_at":"2023-04-24T13:34:19.000000Z","created_at":"2023-04-24T13:34:19.000000Z","id":126}',
+            ),
+            416 => 
+            array (
+                'id' => 417,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:34:20',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"141.98.255.211","visitors_id":23,"city":"Malm\\u00f6","region":"Sk\\u00e5ne","country_code":"SE","country":"Sweden","loc":"55.6059,13.0007","timezone":"Europe\\/Stockholm","updated_at":"2023-04-24T13:34:20.000000Z","created_at":"2023-04-24T13:34:20.000000Z","id":127}',
+            ),
+            417 => 
+            array (
+                'id' => 418,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:34:20',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"35.90.145.18","visitors_id":24,"city":"Boardman","region":"Oregon","country_code":"US","country":"United States of America","loc":"45.8399,-119.7006","timezone":"America\\/Los_Angeles","updated_at":"2023-04-24T13:34:20.000000Z","created_at":"2023-04-24T13:34:20.000000Z","id":128}',
+            ),
+            418 => 
+            array (
+                'id' => 419,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:34:21',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"35.89.207.13","visitors_id":25,"city":"Boardman","region":"Oregon","country_code":"US","country":"United States of America","loc":"45.8399,-119.7006","timezone":"America\\/Los_Angeles","updated_at":"2023-04-24T13:34:21.000000Z","created_at":"2023-04-24T13:34:21.000000Z","id":129}',
+            ),
+            419 => 
+            array (
+                'id' => 420,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:34:21',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"34.254.53.125","visitors_id":26,"city":"Dublin","region":"Leinster","country_code":"IE","country":"Ireland","loc":"53.3331,-6.2489","timezone":"Europe\\/Dublin","updated_at":"2023-04-24T13:34:21.000000Z","created_at":"2023-04-24T13:34:21.000000Z","id":130}',
+            ),
+            420 => 
+            array (
+                'id' => 421,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:34:21',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"34.254.53.125","visitors_id":27,"city":"Dublin","region":"Leinster","country_code":"IE","country":"Ireland","loc":"53.3331,-6.2489","timezone":"Europe\\/Dublin","updated_at":"2023-04-24T13:34:21.000000Z","created_at":"2023-04-24T13:34:21.000000Z","id":131}',
+            ),
+            421 => 
+            array (
+                'id' => 422,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:34:22',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"34.254.53.125","visitors_id":28,"city":"Dublin","region":"Leinster","country_code":"IE","country":"Ireland","loc":"53.3331,-6.2489","timezone":"Europe\\/Dublin","updated_at":"2023-04-24T13:34:22.000000Z","created_at":"2023-04-24T13:34:22.000000Z","id":132}',
+            ),
+            422 => 
+            array (
+                'id' => 423,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:34:23',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"94.176.82.49","visitors_id":29,"city":"San Francisco","region":"California","country_code":"US","country":"United States of America","loc":"37.7749,-122.4194","timezone":"America\\/Los_Angeles","updated_at":"2023-04-24T13:34:23.000000Z","created_at":"2023-04-24T13:34:23.000000Z","id":133}',
+            ),
+            423 => 
+            array (
+                'id' => 424,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:34:23',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"36.69.128.176","visitors_id":30,"city":"Bandung","region":"West Java","country_code":"ID","country":"Indonesia","loc":"-6.9222,107.6069","timezone":"Asia\\/Jakarta","updated_at":"2023-04-24T13:34:23.000000Z","created_at":"2023-04-24T13:34:23.000000Z","id":134}',
+            ),
+            424 => 
+            array (
+                'id' => 425,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:34:24',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"185.229.118.32","visitors_id":31,"city":"Singapore","region":"Singapore","country_code":"SG","country":"Singapore","loc":"1.2800,103.8539","timezone":"Asia\\/Singapore","updated_at":"2023-04-24T13:34:24.000000Z","created_at":"2023-04-24T13:34:24.000000Z","id":135}',
+            ),
+            425 => 
+            array (
+                'id' => 426,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:34:24',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"103.147.8.13","visitors_id":32,"city":"Bandung","region":"West Java","country_code":"ID","country":"Indonesia","loc":"-6.9222,107.6069","timezone":"Asia\\/Jakarta","updated_at":"2023-04-24T13:34:24.000000Z","created_at":"2023-04-24T13:34:24.000000Z","id":136}',
+            ),
+            426 => 
+            array (
+                'id' => 427,
+                'user_id' => 1,
+                'log_date' => '2023-04-24 20:34:24',
+                'table_name' => 'visitors_ip_detail',
+                'log_type' => 'create',
+                'data' => '{"ip":"35.189.210.103","visitors_id":33,"city":"Brussels","region":"Brussels Capital","country_code":"BE","country":"Belgium","loc":"50.8505,4.3488","timezone":"Europe\\/Brussels","updated_at":"2023-04-24T13:34:24.000000Z","created_at":"2023-04-24T13:34:24.000000Z","id":137}',
+            ),
+            427 => 
+            array (
+                'id' => 428,
+                'user_id' => 1,
+                'log_date' => '2023-04-25 01:26:46',
+                'table_name' => '',
+                'log_type' => 'login',
+            'data' => '{"ip":"127.0.0.1","user_agent":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/112.0.0.0 Safari\\/537.36 Edg\\/112.0.1722.58"}',
+            ),
+            428 => 
+            array (
+                'id' => 429,
+                'user_id' => 1,
+                'log_date' => '2023-04-25 10:46:01',
+                'table_name' => '',
+                'log_type' => 'login',
+            'data' => '{"ip":"127.0.0.1","user_agent":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/112.0.0.0 Safari\\/537.36 Edg\\/112.0.1722.58"}',
+            ),
+            429 => 
+            array (
+                'id' => 430,
+                'user_id' => 1,
+                'log_date' => '2023-04-25 10:52:08',
+                'table_name' => 'p_menu',
+                'log_type' => 'create',
+                'data' => '{"sequence":"45","parent_id":null,"active":"1","title":"Pengunjung","icon":"fas fa-desktop","route":"admin.vistor","type":"1","updated_at":"2023-04-25T03:52:08.000000Z","created_at":"2023-04-25T03:52:08.000000Z","id":426}',
+            ),
+            430 => 
+            array (
+                'id' => 431,
+                'user_id' => 1,
+                'log_date' => '2023-04-25 10:52:08',
+                'table_name' => 'p_role_has_menu',
+                'log_type' => 'create',
+                'data' => '{"role_id":1,"menu_id":426,"updated_at":"2023-04-25T03:52:08.000000Z","created_at":"2023-04-25T03:52:08.000000Z","id":248}',
+            ),
+            431 => 
+            array (
+                'id' => 432,
+                'user_id' => 1,
+                'log_date' => '2023-04-25 10:52:08',
+                'table_name' => 'p_role_has_menu',
+                'log_type' => 'create',
+                'data' => '{"role_id":9,"menu_id":426,"updated_at":"2023-04-25T03:52:08.000000Z","created_at":"2023-04-25T03:52:08.000000Z","id":249}',
+            ),
+            432 => 
+            array (
+                'id' => 433,
+                'user_id' => 1,
+                'log_date' => '2023-04-25 10:52:23',
+                'table_name' => 'p_menu',
+                'log_type' => 'edit',
+                'data' => '{"id":426,"parent_id":null,"title":"Pengunjung","icon":"fas fa-desktop","route":"admin.vistor","sequence":45,"active":1,"type":1,"created_at":"2023-04-25 10:52:08","updated_at":"2023-04-25 10:52:08"}',
+            ),
+            433 => 
+            array (
+                'id' => 434,
+                'user_id' => 1,
+                'log_date' => '2023-04-25 10:52:23',
+                'table_name' => 'p_menu',
+                'log_type' => 'edit',
+                'data' => '{"id":411,"parent_id":null,"title":"Menu Lainnya","icon":null,"route":null,"sequence":27,"active":1,"type":0,"created_at":"2022-09-15 21:18:04","updated_at":"2023-04-19 11:12:31"}',
+            ),
+            434 => 
+            array (
+                'id' => 435,
+                'user_id' => 1,
+                'log_date' => '2023-04-25 10:52:23',
+                'table_name' => 'p_menu',
+                'log_type' => 'edit',
+                'data' => '{"id":397,"parent_id":null,"title":"Pengaturan","icon":"fas fa-wrench","route":null,"sequence":28,"active":1,"type":1,"created_at":"2022-08-14 21:10:57","updated_at":"2023-04-19 11:12:31"}',
+            ),
+            435 => 
+            array (
+                'id' => 436,
+                'user_id' => 1,
+                'log_date' => '2023-04-25 10:52:23',
+                'table_name' => 'p_menu',
+                'log_type' => 'edit',
+                'data' => '{"id":398,"parent_id":397,"title":"Informasi Admin","icon":null,"route":"admin.setting.admin","sequence":29,"active":1,"type":1,"created_at":"2022-08-14 21:11:42","updated_at":"2023-04-19 11:12:31"}',
+            ),
+            436 => 
+            array (
+                'id' => 437,
+                'user_id' => 1,
+                'log_date' => '2023-04-25 10:52:23',
+                'table_name' => 'p_menu',
+                'log_type' => 'edit',
+                'data' => '{"id":399,"parent_id":397,"title":"Informasi Depan","icon":null,"route":"admin.setting.front","sequence":30,"active":1,"type":1,"created_at":"2022-08-14 21:52:45","updated_at":"2023-04-19 11:12:31"}',
+            ),
+            437 => 
+            array (
+                'id' => 438,
+                'user_id' => 1,
+                'log_date' => '2023-04-25 10:52:23',
+                'table_name' => 'p_menu',
+                'log_type' => 'edit',
+                'data' => '{"id":393,"parent_id":null,"title":"Peralatan","icon":"fas fa-tools","route":null,"sequence":31,"active":1,"type":1,"created_at":"2022-08-08 22:41:26","updated_at":"2023-04-19 11:12:31"}',
+            ),
+            438 => 
+            array (
+                'id' => 439,
+                'user_id' => 1,
+                'log_date' => '2023-04-25 10:52:23',
+                'table_name' => 'p_menu',
+                'log_type' => 'edit',
+                'data' => '{"id":402,"parent_id":393,"title":"Notifikasi Admin","icon":null,"route":"admin.utility.notif_admin_atas","sequence":32,"active":1,"type":1,"created_at":"2022-08-18 16:42:00","updated_at":"2023-04-19 11:12:31"}',
+            ),
+            439 => 
+            array (
+                'id' => 440,
+                'user_id' => 1,
+                'log_date' => '2023-04-25 10:52:23',
+                'table_name' => 'p_menu',
+                'log_type' => 'edit',
+                'data' => '{"id":394,"parent_id":393,"title":"Notifikasi Depan","icon":null,"route":"admin.utility.notif_depan_atas","sequence":33,"active":1,"type":1,"created_at":"2022-08-08 22:41:53","updated_at":"2023-04-19 11:12:31"}',
+            ),
+            440 => 
+            array (
+                'id' => 441,
+                'user_id' => 1,
+                'log_date' => '2023-04-25 10:52:23',
+                'table_name' => 'p_menu',
+                'log_type' => 'edit',
+                'data' => '{"id":401,"parent_id":393,"title":"Hari Besar Nasional","icon":null,"route":"admin.utility.hari_besar_nasional","sequence":34,"active":1,"type":1,"created_at":"2022-08-17 21:19:05","updated_at":"2023-04-19 11:12:31"}',
+            ),
+            441 => 
+            array (
+                'id' => 442,
+                'user_id' => 1,
+                'log_date' => '2023-04-25 10:52:23',
+                'table_name' => 'p_menu',
+                'log_type' => 'edit',
+                'data' => '{"id":346,"parent_id":null,"title":"Manajemen Pengguna","icon":"fas fa-users","route":"admin.user","sequence":35,"active":1,"type":1,"created_at":"2022-08-05 23:50:28","updated_at":"2023-04-19 11:12:31"}',
+            ),
+            442 => 
+            array (
+                'id' => 443,
+                'user_id' => 1,
+                'log_date' => '2023-04-25 10:52:23',
+                'table_name' => 'p_menu',
+                'log_type' => 'edit',
+                'data' => '{"id":361,"parent_id":null,"title":"Menu Management","icon":"fas fa-stream","route":null,"sequence":36,"active":1,"type":1,"created_at":"2022-08-05 23:50:28","updated_at":"2023-04-19 11:12:31"}',
+            ),
+            443 => 
+            array (
+                'id' => 444,
+                'user_id' => 1,
+                'log_date' => '2023-04-25 10:52:23',
+                'table_name' => 'p_menu',
+                'log_type' => 'edit',
+                'data' => '{"id":405,"parent_id":361,"title":"Admin","icon":null,"route":"admin.menu.admin","sequence":37,"active":1,"type":1,"created_at":"2022-08-20 14:12:45","updated_at":"2023-04-19 11:12:31"}',
+            ),
+            444 => 
+            array (
+                'id' => 445,
+                'user_id' => 1,
+                'log_date' => '2023-04-25 10:52:23',
+                'table_name' => 'p_menu',
+                'log_type' => 'edit',
+                'data' => '{"id":406,"parent_id":361,"title":"Depan","icon":null,"route":"admin.menu.frontend","sequence":38,"active":1,"type":1,"created_at":"2022-08-20 14:16:07","updated_at":"2023-04-19 11:12:31"}',
+            ),
+            445 => 
+            array (
+                'id' => 446,
+                'user_id' => 1,
+                'log_date' => '2023-04-25 10:52:23',
+                'table_name' => 'p_menu',
+                'log_type' => 'edit',
+                'data' => '{"id":367,"parent_id":null,"title":"User Access","icon":"fas fa-user-check","route":null,"sequence":39,"active":1,"type":1,"created_at":"2022-08-05 23:50:28","updated_at":"2023-04-19 11:12:31"}',
+            ),
+            446 => 
+            array (
+                'id' => 447,
+                'user_id' => 1,
+                'log_date' => '2023-04-25 10:52:23',
+                'table_name' => 'p_menu',
+                'log_type' => 'edit',
+                'data' => '{"id":368,"parent_id":367,"title":"Permission","icon":null,"route":"admin.user_access.permission","sequence":40,"active":1,"type":1,"created_at":"2022-08-05 23:50:28","updated_at":"2023-04-19 11:12:31"}',
+            ),
+            447 => 
+            array (
+                'id' => 448,
+                'user_id' => 1,
+                'log_date' => '2023-04-25 10:52:23',
+                'table_name' => 'p_menu',
+                'log_type' => 'edit',
+                'data' => '{"id":369,"parent_id":367,"title":"Role","icon":null,"route":"admin.user_access.role","sequence":41,"active":1,"type":1,"created_at":"2022-08-05 23:50:28","updated_at":"2023-04-19 11:12:31"}',
+            ),
+            448 => 
+            array (
+                'id' => 449,
+                'user_id' => 1,
+                'log_date' => '2023-04-25 10:52:23',
+                'table_name' => 'p_menu',
+                'log_type' => 'edit',
+                'data' => '{"id":373,"parent_id":null,"title":"Profile","icon":"fas fa-user","route":"admin.profile","sequence":42,"active":1,"type":1,"created_at":"2022-08-05 23:50:28","updated_at":"2023-04-19 11:12:31"}',
+            ),
+            449 => 
+            array (
+                'id' => 450,
+                'user_id' => 1,
+                'log_date' => '2023-04-25 10:52:23',
+                'table_name' => 'p_menu',
+                'log_type' => 'edit',
+                'data' => '{"id":386,"parent_id":null,"title":"Logout","icon":"fas fa-sign-out-alt","route":"logout","sequence":43,"active":1,"type":1,"created_at":"2022-08-05 23:54:09","updated_at":"2023-04-19 11:12:31"}',
+            ),
+            450 => 
+            array (
+                'id' => 451,
+                'user_id' => 1,
+                'log_date' => '2023-04-25 10:52:23',
+                'table_name' => 'p_menu',
+                'log_type' => 'edit',
+                'data' => '{"id":392,"parent_id":null,"title":"Google Form","icon":"fas fa-user-edit","route":"admin.pendaftaran.gform","sequence":44,"active":0,"type":1,"created_at":"2022-08-08 16:14:54","updated_at":"2023-04-24 11:42:33"}',
+            ),
+            451 => 
+            array (
+                'id' => 452,
+                'user_id' => 1,
+                'log_date' => '2023-04-25 10:52:23',
+                'table_name' => 'p_menu',
+                'log_type' => 'edit',
+                'data' => '{"id":414,"parent_id":null,"title":"Visi Dan Misi","icon":null,"route":"admin.setting.visi_misi","sequence":45,"active":0,"type":1,"created_at":"2023-01-18 01:51:32","updated_at":"2023-04-13 13:06:20"}',
+            ),
         ));
         
         

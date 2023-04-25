@@ -249,9 +249,11 @@ class LabController extends Controller
 
     public function count(Request $request)
     {
-        // Perangkat pengunjung
-        // - Platform
-        // - Browser
+
+        // return Tracker::datatable($request);
+        // // Perangkat pengunjung
+        // // - Platform
+        // // - Browser
 
 
 

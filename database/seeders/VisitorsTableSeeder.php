@@ -199,7 +199,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '110.0.1587.69',
             'user_agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.69',
                 'hits' => 30,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             14 => 
             array (
@@ -212,7 +212,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '110.0.1587.69',
             'user_agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Mobile Safari/537.36 Edg/110.0.1587.69',
                 'hits' => 5,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             15 => 
             array (
@@ -459,7 +459,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '111.0.1661.41',
             'user_agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.41',
                 'hits' => 1,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             34 => 
             array (
@@ -472,7 +472,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '111.0.1661.44',
             'user_agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.44',
                 'hits' => 228,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             35 => 
             array (
@@ -485,7 +485,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '111.0.1661.44',
             'user_agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Mobile Safari/537.36 Edg/111.0.1661.44',
                 'hits' => 2,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             36 => 
             array (
@@ -498,7 +498,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '111.0.1661.44',
             'user_agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.44',
                 'hits' => 1,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             37 => 
             array (
@@ -511,7 +511,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '111.0.1661.44',
             'user_agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.44',
                 'hits' => 193,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             38 => 
             array (
@@ -524,7 +524,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '111.0.1661.44',
             'user_agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Mobile Safari/537.36 Edg/111.0.1661.44',
                 'hits' => 34,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             39 => 
             array (
@@ -537,7 +537,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '111.0.1661.44',
             'user_agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.44',
                 'hits' => 20,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             40 => 
             array (
@@ -550,7 +550,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '111.0.1661.51',
             'user_agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.51',
                 'hits' => 4,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             41 => 
             array (
@@ -563,7 +563,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '111.0.1661.51',
             'user_agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.51',
                 'hits' => 236,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             42 => 
             array (
@@ -576,7 +576,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '111.0.0.0',
             'user_agent' => 'Mozilla/5.0 (Linux; Android 12; M2010J19CG) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Mobile Safari/537.36',
                 'hits' => 5,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             43 => 
             array (
@@ -589,7 +589,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '111.0.1661.51',
             'user_agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Mobile Safari/537.36 Edg/111.0.1661.51',
                 'hits' => 3,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             44 => 
             array (
@@ -602,7 +602,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '111.0.1661.54',
             'user_agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54',
                 'hits' => 46,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             45 => 
             array (
@@ -615,7 +615,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '111.0.1661.54',
             'user_agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54',
                 'hits' => 3,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             46 => 
             array (
@@ -628,7 +628,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '111.0.1661.54',
             'user_agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54',
                 'hits' => 4,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             47 => 
             array (
@@ -641,7 +641,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '111.0.0.0',
             'user_agent' => 'Mozilla/5.0 (Linux; Android 12; M2010J19CG) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Mobile Safari/537.36',
                 'hits' => 9,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             48 => 
             array (
@@ -654,7 +654,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '1.1',
                 'user_agent' => 'Go-http-client/1.1',
                 'hits' => 46,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             49 => 
             array (
@@ -667,7 +667,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '111.0.0.0',
             'user_agent' => 'Mozilla/5.0 (Linux; Android 12; M2010J19CG) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Mobile Safari/537.36',
                 'hits' => 1,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             50 => 
             array (
@@ -680,7 +680,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '111.0.1661.54',
             'user_agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54',
                 'hits' => 33,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             51 => 
             array (
@@ -693,7 +693,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '1.0',
                 'user_agent' => 'Disqus/1.0',
                 'hits' => 2,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             52 => 
             array (
@@ -706,7 +706,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '111.0.1661.54',
             'user_agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54',
                 'hits' => 15,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             53 => 
             array (
@@ -719,7 +719,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => NULL,
                 'user_agent' => 'Google-Safety',
                 'hits' => 1,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             54 => 
             array (
@@ -732,7 +732,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '110.0.0.0',
             'user_agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36',
                 'hits' => 1,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             55 => 
             array (
@@ -745,7 +745,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '110.0.0.0',
             'user_agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36',
                 'hits' => 1,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             56 => 
             array (
@@ -758,7 +758,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '41.0.2272.96',
             'user_agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile Safari/537.36 (compatible; Google-Safety; +http://www.google.com/bot.html)',
                 'hits' => 1,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             57 => 
             array (
@@ -771,7 +771,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '60.0.3112.113',
             'user_agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36 (compatible; Google-Safety; +http://www.google.com/bot.html)',
                 'hits' => 1,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             58 => 
             array (
@@ -784,7 +784,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '2.1',
             'user_agent' => 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
                 'hits' => 1,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             59 => 
             array (
@@ -797,7 +797,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '99.0.4844.84',
             'user_agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
                 'hits' => 1,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             60 => 
             array (
@@ -810,7 +810,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '2.1',
             'user_agent' => 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
                 'hits' => 1,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             61 => 
             array (
@@ -823,7 +823,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '111.0.1661.54',
             'user_agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54',
                 'hits' => 5,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             62 => 
             array (
@@ -836,7 +836,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '2.2310.3',
                 'user_agent' => 'WhatsApp/2.2310.3 W',
                 'hits' => 1,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             63 => 
             array (
@@ -849,7 +849,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '111.0.0.0',
             'user_agent' => 'Mozilla/5.0 (Linux; Android 12; M2010J19CG) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Mobile Safari/537.36',
                 'hits' => 1,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             64 => 
             array (
@@ -862,7 +862,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '106.0.0.0',
             'user_agent' => 'Mozilla/5.0 (Linux; Android 11; V2026) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Mobile Safari/537.36',
                 'hits' => 4,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             65 => 
             array (
@@ -875,7 +875,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '76.0.3809.71',
             'user_agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.71 Safari/537.36',
                 'hits' => 1,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             66 => 
             array (
@@ -888,7 +888,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '106.0.0.0',
             'user_agent' => 'Mozilla/5.0 (Linux; Android 11; V2026) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Mobile Safari/537.36',
                 'hits' => 10,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             67 => 
             array (
@@ -901,7 +901,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '106.0.0.0',
             'user_agent' => 'Mozilla/5.0 (Linux; Android 11; V2026) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Mobile Safari/537.36',
                 'hits' => 1,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             68 => 
             array (
@@ -914,7 +914,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '111.0.1661.54',
             'user_agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54',
                 'hits' => 12,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             69 => 
             array (
@@ -927,7 +927,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '104.0.0.0',
             'user_agent' => 'Mozilla/5.0 (X11; CrOS x86_64 14909.132.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36',
                 'hits' => 8,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             70 => 
             array (
@@ -940,7 +940,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '104.0.0.0',
             'user_agent' => 'Mozilla/5.0 (X11; CrOS x86_64 14909.132.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36',
                 'hits' => 11,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             71 => 
             array (
@@ -953,7 +953,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '2.23.3.77',
                 'user_agent' => 'WhatsApp/2.23.3.77 A',
                 'hits' => 3,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             72 => 
             array (
@@ -966,7 +966,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '12.22.0.3',
             'user_agent' => 'Mozilla/5.0 (Linux; U; Android 11; id-id; Redmi Note 11 Build/RKQ1.211001.001) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/89.0.4389.116 Mobile Safari/537.36 XiaoMi/MiuiBrowser/12.22.0.3-gn',
                 'hits' => 1,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             73 => 
             array (
@@ -979,7 +979,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '33.0',
             'user_agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:33.0) Gecko/20100101 Firefox/33.0',
                 'hits' => 1,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             74 => 
             array (
@@ -992,7 +992,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '94.0.4606.61',
             'user_agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36',
                 'hits' => 1,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             75 => 
             array (
@@ -1005,7 +1005,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '94.0.4606.61',
             'user_agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36',
                 'hits' => 1,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             76 => 
             array (
@@ -1018,7 +1018,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '1.1',
                 'user_agent' => 'Go-http-client/1.1',
                 'hits' => 48,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             77 => 
             array (
@@ -1031,7 +1031,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '63.0.3239.108',
             'user_agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
                 'hits' => 2,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             78 => 
             array (
@@ -1044,7 +1044,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '1.1',
                 'user_agent' => 'Go-http-client/1.1',
                 'hits' => 48,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             79 => 
             array (
@@ -1057,7 +1057,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '111.0.5563.110',
             'user_agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.5563.110 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
                 'hits' => 1,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             80 => 
             array (
@@ -1070,7 +1070,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '94.0.4606.61',
             'user_agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36',
                 'hits' => 1,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             81 => 
             array (
@@ -1083,7 +1083,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '94.0.4606.61',
             'user_agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36',
                 'hits' => 1,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             82 => 
             array (
@@ -1096,7 +1096,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '2.1',
             'user_agent' => 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
                 'hits' => 1,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             83 => 
             array (
@@ -1109,7 +1109,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '1.1',
                 'user_agent' => 'Go-http-client/1.1',
                 'hits' => 48,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             84 => 
             array (
@@ -1122,7 +1122,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '1.1',
                 'user_agent' => 'Go-http-client/1.1',
                 'hits' => 48,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             85 => 
             array (
@@ -1135,7 +1135,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '111.0.5563.146',
             'user_agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.5563.146 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
                 'hits' => 1,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             86 => 
             array (
@@ -1148,7 +1148,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '2.1',
             'user_agent' => 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
                 'hits' => 1,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             87 => 
             array (
@@ -1161,7 +1161,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '1.1',
                 'user_agent' => 'Go-http-client/1.1',
                 'hits' => 48,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             88 => 
             array (
@@ -1174,7 +1174,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '106.0.0.0',
             'user_agent' => 'Mozilla/5.0 (Linux; Android 11; V2026) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Mobile Safari/537.36',
                 'hits' => 21,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             89 => 
             array (
@@ -1187,7 +1187,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '1.1',
                 'user_agent' => 'Go-http-client/1.1',
                 'hits' => 48,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             90 => 
             array (
@@ -1200,7 +1200,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '2.1',
             'user_agent' => 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
                 'hits' => 1,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             91 => 
             array (
@@ -1213,7 +1213,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '1.1',
                 'user_agent' => 'Go-http-client/1.1',
                 'hits' => 48,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             92 => 
             array (
@@ -1226,7 +1226,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '111.0.5563.146',
             'user_agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.5563.146 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
                 'hits' => 1,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             93 => 
             array (
@@ -1239,7 +1239,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '106.0.0.0',
             'user_agent' => 'Mozilla/5.0 (Linux; Android 11; V2026) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Mobile Safari/537.36',
                 'hits' => 2,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             94 => 
             array (
@@ -1252,7 +1252,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '1.1',
                 'user_agent' => 'Go-http-client/1.1',
                 'hits' => 48,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             95 => 
             array (
@@ -1265,7 +1265,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '111.0.5563.146',
             'user_agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.5563.146 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
                 'hits' => 1,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             96 => 
             array (
@@ -1278,7 +1278,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '2.1',
             'user_agent' => 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
                 'hits' => 1,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             97 => 
             array (
@@ -1291,7 +1291,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '1.1',
                 'user_agent' => 'Go-http-client/1.1',
                 'hits' => 23,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             98 => 
             array (
@@ -1304,7 +1304,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '111.0.1661.62',
             'user_agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.62',
                 'hits' => 1,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             99 => 
             array (
@@ -1317,7 +1317,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '112.0.1722.39',
             'user_agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.39',
                 'hits' => 106,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             100 => 
             array (
@@ -1330,7 +1330,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '112.0.1722.39',
             'user_agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36 Edg/112.0.1722.39',
                 'hits' => 2,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             101 => 
             array (
@@ -1343,7 +1343,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '112.0.1722.39',
             'user_agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.39',
                 'hits' => 158,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             102 => 
             array (
@@ -1356,7 +1356,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '112.0.1722.39',
             'user_agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.39',
                 'hits' => 6,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             103 => 
             array (
@@ -1369,7 +1369,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '75.0.3770.100',
             'user_agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
                 'hits' => 2,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             104 => 
             array (
@@ -1382,7 +1382,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => NULL,
             'user_agent' => 'Mozilla/5.0 (compatible; Domains Project/1.3.7; +https://domainsproject.org)',
                 'hits' => 3,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             105 => 
             array (
@@ -1395,7 +1395,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '4.0',
             'user_agent' => 'Mozilla/5.0 (Linux; U; Android 2.2; ja-jp; SC-02B Build/FROYO) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
                 'hits' => 2,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             106 => 
             array (
@@ -1408,7 +1408,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '29.0',
             'user_agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:25.0) Gecko/20100101 Firefox/29.0',
                 'hits' => 1,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             107 => 
             array (
@@ -1421,7 +1421,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '30.0.1599.17',
             'user_agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.17 Safari/537.36',
                 'hits' => 1,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             108 => 
             array (
@@ -1434,7 +1434,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '2.2312.3',
                 'user_agent' => 'WhatsApp/2.2312.3 W',
                 'hits' => 2,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             109 => 
             array (
@@ -1447,7 +1447,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '112.0.0.0',
             'user_agent' => 'Mozilla/5.0 (Linux; Android 12; M2010J19CG) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36',
                 'hits' => 1,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             110 => 
             array (
@@ -1460,7 +1460,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '4.0',
             'user_agent' => 'Mozilla/5.0 (Linux; U; Android 2.2; ja-jp; SC-02B Build/FROYO) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
                 'hits' => 2,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             111 => 
             array (
@@ -1473,7 +1473,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '111.0.5563.64',
             'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/111.0.5563.64 Safari/537.36',
                 'hits' => 1,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             112 => 
             array (
@@ -1486,7 +1486,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '83.0.4103.61',
             'user_agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36',
                 'hits' => 1,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             113 => 
             array (
@@ -1499,7 +1499,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '79.0.3945.79',
             'user_agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
                 'hits' => 1,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             114 => 
             array (
@@ -1512,7 +1512,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '83.0',
             'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:83.0) Gecko/20100101 Firefox/83.0',
                 'hits' => 2,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             115 => 
             array (
@@ -1525,7 +1525,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '109.0',
             'user_agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/109.0',
                 'hits' => 2,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             116 => 
             array (
@@ -1538,7 +1538,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '33.0.1750.152',
             'user_agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.152 Safari/537.36',
                 'hits' => 2,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             117 => 
             array (
@@ -1551,7 +1551,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '110.0.0.0',
             'user_agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36',
                 'hits' => 1,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             118 => 
             array (
@@ -1564,7 +1564,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '110.0.0.0',
             'user_agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36',
                 'hits' => 1,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             119 => 
             array (
@@ -1577,7 +1577,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => NULL,
             'user_agent' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.1) Gecko/2008072820 Ubuntu/8.04 (hardy) (Linux Mint)',
                 'hits' => 1,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             120 => 
             array (
@@ -1590,7 +1590,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '83.0.4103.61',
             'user_agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36',
                 'hits' => 1,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             121 => 
             array (
@@ -1603,7 +1603,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '79.0.3945.79',
             'user_agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
                 'hits' => 1,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             122 => 
             array (
@@ -1616,7 +1616,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '112.0.1722.39',
             'user_agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36 Edg/112.0.1722.39',
                 'hits' => 5,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             123 => 
             array (
@@ -1629,7 +1629,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '1.1',
                 'user_agent' => 'Go-http-client/1.1',
                 'hits' => 48,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             124 => 
             array (
@@ -1642,7 +1642,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '111.0.0.0',
             'user_agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36',
                 'hits' => 10,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             125 => 
             array (
@@ -1655,7 +1655,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '111.0.0.0',
             'user_agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Mobile Safari/537.36',
                 'hits' => 1,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             126 => 
             array (
@@ -1668,7 +1668,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '2.22.0',
                 'user_agent' => 'python-requests/2.22.0',
                 'hits' => 2,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             127 => 
             array (
@@ -1681,7 +1681,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '112.0.1722.39',
             'user_agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.39',
                 'hits' => 4,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             128 => 
             array (
@@ -1694,7 +1694,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '1.1',
                 'user_agent' => 'Go-http-client/1.1',
                 'hits' => 32,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             129 => 
             array (
@@ -1707,7 +1707,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '112.0.1722.39',
             'user_agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.39',
                 'hits' => 2,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             130 => 
             array (
@@ -1720,7 +1720,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '108.0.0.0',
             'user_agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36',
                 'hits' => 2,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             131 => 
             array (
@@ -1733,7 +1733,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '112.0.1722.39',
             'user_agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.39',
                 'hits' => 1,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             132 => 
             array (
@@ -1746,7 +1746,7 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '112.0.1722.48',
             'user_agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.48',
                 'hits' => 1,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             133 => 
             array (
@@ -1759,20 +1759,46 @@ class VisitorsTableSeeder extends Seeder
                 'browser_version' => '112.0.1722.48',
             'user_agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.48',
                 'hits' => 33,
-                'has_detail' => 0,
+                'has_detail' => 1,
             ),
             134 => 
             array (
                 'id' => 135,
                 'ip' => '127.0.0.1',
                 'date' => '2023-04-19',
-                'time' => '16:20:36',
+                'time' => '20:11:15',
                 'platform' => 'Windows',
                 'browser' => 'Edge',
                 'browser_version' => '112.0.1722.48',
             'user_agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.48',
-                'hits' => 45,
-                'has_detail' => 0,
+                'hits' => 48,
+                'has_detail' => 1,
+            ),
+            135 => 
+            array (
+                'id' => 136,
+                'ip' => '127.0.0.1',
+                'date' => '2023-04-20',
+                'time' => '18:56:30',
+                'platform' => 'Windows',
+                'browser' => 'Edge',
+                'browser_version' => '112.0.1722.48',
+            'user_agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.48',
+                'hits' => 2,
+                'has_detail' => 1,
+            ),
+            136 => 
+            array (
+                'id' => 137,
+                'ip' => '127.0.0.1',
+                'date' => '2023-04-24',
+                'time' => '20:42:55',
+                'platform' => 'Windows',
+                'browser' => 'Edge',
+                'browser_version' => '112.0.1722.58',
+            'user_agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.58',
+                'hits' => 6,
+                'has_detail' => 1,
             ),
         ));
         
