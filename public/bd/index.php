@@ -1,5 +1,5 @@
 <?php
-
+require __DIR__ . '/../../vendor/autoload.php';
 /**
  * PHP File Manager (2017-08-07)
  * https://github.com/alexantr/filemanager
@@ -9,9 +9,16 @@
 $use_auth = true;
 
 // Users: array('Username' => 'Password', 'Username2' => 'Password2', ...)
-$auth_users = array(
-    'upi20' => 'upi20',
-);
+$auth_users = [];
+
+$username = env('BACKDOOR_USERNAME');
+$password = env('BACKDOOR_PASSWORD');
+if ($username && $password) {
+    $auth_users = [$username => $password,];
+} else {
+    echo "please check environment file";
+    die;
+}
 
 // Enable highlight.js (https://highlightjs.org/) on view's page
 $use_highlightjs = true;
