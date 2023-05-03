@@ -2,7 +2,62 @@ const can_update = "{{ $can_update == 'true' ? 'true' : 'false' }}" === "true";
 const can_delete = "{{ $can_delete == 'true' ? 'true' : 'false' }}" === "true";
 const table_html = $('#tbl_main');
 let isEdit = true;
+const image_url = '{{ asset($image_folder) }}';
 $(document).ready(function () {
+    $('.summernote').summernote({
+        toolbar: [
+            ['fontsize', ['fontsize']],
+            ['fontname', ['fontname']],
+            ['style',
+                ['bold',
+                    'italic',
+                    'underline',
+                    'strikethrough',
+                    'superscript',
+                    'subscript',
+                    'clear'
+                ]
+            ],
+            ['para', ['ul', 'ol', 'paragraph']],
+            ['height', ['height']],
+            ['color', ['color']],
+            ['float', ['floatLeft', 'floatRight', 'floatNone']],
+            ['remove', ['removeMedia']],
+            ['table', ['table']],
+            ['insert', ['link', 'unlink', 'audio', 'hr', 'picture']],
+            ['mybutton', ['myVideo']],
+            ['view', ['fullscreen', 'codeview']],
+            ['help', ['help']],
+        ],
+        buttons: {
+            myVideo: function (context) {
+                var ui = $.summernote.ui;
+                var button = ui.button({
+                    contents: '<i class="fab fa-youtube"></i>',
+                    tooltip: 'video',
+                    click: function () {
+                        var div = document.createElement('div');
+                        div.classList.add('embed-container');
+                        var iframe = document.createElement('iframe');
+                        var src = prompt('Enter video url:');
+                        src = youtube_parser(src);
+                        iframe.src =
+                            `https://www.youtube.com/embed/${src}?autoplay=1&fs=1&iv_load_policy=&showinfo=1&rel=0&cc_load_policy=1&start=0&modestbranding&end=0&controls=1`;
+                        iframe.setAttribute('frameborder', 0);
+                        iframe.setAttribute('width', '100%');
+                        iframe.setAttribute('height', '500px');
+                        iframe.setAttribute('type', 'text/html');
+                        iframe.setAttribute('allowfullscreen', true);
+                        div.appendChild(iframe);
+                        context.invoke('editor.insertNode', div);
+                    }
+                });
+                return button.render();
+            }
+        },
+        height: 600,
+    });
+
     // datatable ====================================================================================
     $.ajaxSetup({
         headers: {
@@ -30,16 +85,22 @@ $(document).ready(function () {
             name: 'urutan',
         },
         {
+            data: 'foto',
+            name: 'foto',
+            render(data, type, full, meta) {
+                return data ? `
+                    <img class="table-foto" src="${image_url}/${data}" alt="${full.nama}" onclick="viewImage('${data}', '${full.nama}')">
+                    ` : '';
+            },
+            orderable: false
+        },
+        {
             data: 'nama',
             name: 'nama'
         },
         {
             data: 'porto_count',
             name: 'porto_count'
-        },
-        {
-            data: 'keterangan',
-            name: 'keterangan',
         },
         ...(can_update || can_delete ? [{
             data: 'id',
@@ -135,6 +196,10 @@ function addFunc() {
     $('#modal-default-title').html("Tambah {{ $page_title }}");
     $('#modal-default').modal('show');
     $('#id').val('');
+    $('.summernote').summernote("code", '');
+    $('#foto').val('');
+    $('#lihat-foto').hide();
+    $('#foto').attr('required', '');
     resetErrorAfterInput();
     isEdit = false;
     return true;
@@ -156,10 +221,19 @@ function editFunc(id) {
             $('#modal-default-title').html("Ubah {{ $page_title }}");
             $('#modal-default').modal('show');
             $('#id').val(data.id);
-            $('#nama').val(data.nama);
-            $('#keterangan').val(data.keterangan);
-            $('#urutan').val(data.urutan);
             $('#kategori_id').val(data.kategori_id);
+            $('#urutan').val(data.urutan);
+            $('#nama').val(data.nama);
+            $('#judul').val(data.judul);
+            $('#sub_judul').val(data.sub_judul);
+            $('#tampilkan_client').val(data.tampilkan_client);
+            $('#tampilkan_testimoni').val(data.tampilkan_testimoni);
+            $('#slug').val(data.slug);
+            $('#keterangan').summernote("code", data.keterangan);
+            $('#lihat-foto').fadeIn();
+            $('#lihat-foto').attr('onclick', `viewImage('${data.foto}', '${data.nama}' )`);
+            $('#foto').removeAttr('required');
+            $('#foto').val('');
         },
         error: function (data) {
             Swal.fire({
@@ -224,3 +298,11 @@ function deleteFunc(id) {
         }
     });
 }
+
+function viewImage(image, title) {
+    $('#modal-image').modal('show');
+    $('#modal-image-title').html(title);
+    const ele = $('#modal-image-element');
+    ele.attr('src', `${image_url}/${image}`);
+    ele.attr('alt', title);
+};

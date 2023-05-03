@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Admin\Portfolio;
 
+use App\Helpers\Summernote;
 use App\Http\Controllers\Controller;
 use App\Models\Portfolio\Kategori;
 use App\Models\Portfolio\SubKategori;
@@ -16,7 +17,14 @@ class SubKategoriController extends Controller
         'nama' => ['required', 'string'],
         'keterangan' => ['nullable', 'string'],
         'kategori_id' => ['required', 'integer'],
+        'judul' => ['nullable', 'string'],
+        'sub_judul' => ['nullable', 'string'],
+        'tampilkan_client' => ['required', 'string'],
+        'tampilkan_testimoni' => ['required', 'string'],
+        'foto' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg',
     ];
+
+    private $image_folder = SubKategori::image_folder;
 
     public function index(Request $request, Kategori $kategori)
     {
@@ -34,8 +42,10 @@ class SubKategoriController extends Controller
             ]
         ];
 
+        $image_folder = $this->image_folder;
+
         $view = path_view('pages.admin.portfolio.sub_kategori');
-        $data = compact('page_attr', 'view', 'kategori');
+        $data = compact('page_attr', 'view', 'kategori', 'image_folder');
         $data['compact'] = $data;
         return view($view, $data);
     }
@@ -48,10 +58,21 @@ class SubKategoriController extends Controller
             $model = new SubKategori();
 
             $urutan = $request->urutan ?? ((SubKategori::where('kategori_id', $request->kategori_id)->max('urutan') ?? 0) + 1);
-            $model->keterangan = $request->keterangan;
+            $keterangan = Summernote::insert($request->keterangan ?? '<p></p>', $this->image_folder, 'keterangan');
+            $foto = '';
+            if ($image = $request->file('foto')) {
+                $foto = date('YmdHis') . "." . $image->getClientOriginalExtension();
+                $image->move(public_path($this->image_folder), $foto);
+            }
+            $model->urutan = $urutan;
+            $model->foto = $foto;
+            $model->keterangan =  $keterangan->html;
             $model->nama = $request->nama;
             $model->kategori_id = $request->kategori_id;
-            $model->urutan = $urutan;
+            $model->judul = $request->judul;
+            $model->sub_judul = $request->sub_judul;
+            $model->tampilkan_client = $request->tampilkan_client;
+            $model->tampilkan_testimoni = $request->tampilkan_testimoni;
             $model->save();
             Portfolio::clearCache();
             return response()->json();
@@ -73,10 +94,31 @@ class SubKategoriController extends Controller
             ]], $this->validate_model));
 
             $urutan = $request->urutan ?? ((SubKategori::where('kategori_id', $request->kategori_id)->max('urutan') ?? 0) + 1);
-            $model->nama = $request->nama;
-            $model->keterangan = $request->keterangan;
-            $model->kategori_id = $request->kategori_id;
+            $keterangan = Summernote::update($request->keterangan, $this->image_folder, '', 'keterangan');
+
+            // foto handle
+            $foto = '';
+            if ($image = $request->file('foto')) {
+                $foto = date('YmdHis') . "." . $image->getClientOriginalExtension();
+                $image->move(public_path($this->image_folder), $foto);
+
+                // delete foto
+                if ($model->foto) {
+                    $path = public_path("$this->image_folder/$model->foto");
+                    delete_file($path);
+                }
+                // save foto
+                $model->foto = $foto;
+            }
+
             $model->urutan =  $urutan;
+            $model->keterangan =  $keterangan->html;
+            $model->nama = $request->nama;
+            $model->kategori_id = $request->kategori_id;
+            $model->judul = $request->judul;
+            $model->sub_judul = $request->sub_judul;
+            $model->tampilkan_client = $request->tampilkan_client;
+            $model->tampilkan_testimoni = $request->tampilkan_testimoni;
             $model->save();
             Portfolio::clearCache();
             return response()->json();
@@ -91,6 +133,15 @@ class SubKategoriController extends Controller
     public function delete(SubKategori $model): mixed
     {
         try {
+            // cek folder
+            Summernote::delete($model->keterangan);
+
+            // delete foto
+            if ($model->foto) {
+                $path = public_path("$this->image_folder/$model->foto");
+                delete_file($path);
+            }
+
             $model->delete();
             Portfolio::clearCache();
             return response()->json();

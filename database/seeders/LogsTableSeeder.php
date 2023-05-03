@@ -5574,6 +5574,51 @@ class LogsTableSeeder extends Seeder
                 'log_type' => 'edit',
                 'data' => '{"id":106,"kategori_id":16,"urutan":16,"nama":"Website Maintenance","slug":"website-maintenance","keterangan":null,"created_at":"2023-05-03 21:54:54","updated_at":"2023-05-04 01:51:14"}',
             ),
+            117 => 
+            array (
+                'id' => 661,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 02:45:52',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'edit',
+                'data' => '{"id":94,"kategori_id":16,"urutan":1,"nama":"Bug Fixes","judul":null,"sub_judul":null,"foto":null,"tampilkan_client":0,"tampilkan_testimoni":0,"slug":"bug-fixes","keterangan":null,"created_at":"2023-05-03 21:54:54","updated_at":"2023-05-03 21:54:54"}',
+            ),
+            118 => 
+            array (
+                'id' => 662,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 02:47:10',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'edit',
+                'data' => '{"id":94,"kategori_id":16,"urutan":1,"nama":"Bug Fixes","judul":null,"sub_judul":null,"foto":"20230504024552.png","tampilkan_client":0,"tampilkan_testimoni":0,"slug":"bug-fixes","keterangan":"","created_at":"2023-05-03 21:54:54","updated_at":"2023-05-04 02:45:52"}',
+            ),
+            119 => 
+            array (
+                'id' => 663,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 02:47:30',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'edit',
+                'data' => '{"id":94,"kategori_id":16,"urutan":1,"nama":"Bug Fixes","judul":null,"sub_judul":null,"foto":"20230504024552.png","tampilkan_client":1,"tampilkan_testimoni":1,"slug":"bug-fixes","keterangan":"","created_at":"2023-05-03 21:54:54","updated_at":"2023-05-04 02:47:10"}',
+            ),
+            120 => 
+            array (
+                'id' => 664,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 02:47:59',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'edit',
+                'data' => '{"id":94,"kategori_id":16,"urutan":1,"nama":"Bug Fixes","judul":null,"sub_judul":null,"foto":"20230504024552.png","tampilkan_client":1,"tampilkan_testimoni":1,"slug":"bug-fixes","keterangan":"<p><img data-bs-filename=\\"1681873855530_53.png\\" style=\\"width: 744.8px;\\" src=\\"\\/assets\\/portfolio\\/kategori\\/sub\\/keterangan16831432500.png\\"><br><\\/p>\\n","created_at":"2023-05-03 21:54:54","updated_at":"2023-05-04 02:47:30"}',
+            ),
+            121 => 
+            array (
+                'id' => 665,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 02:49:34',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'edit',
+                'data' => '{"id":107,"kategori_id":16,"urutan":3,"nama":"Website Development","judul":null,"sub_judul":null,"foto":null,"tampilkan_client":0,"tampilkan_testimoni":0,"slug":"website-development","keterangan":null,"created_at":"2023-05-03 21:54:54","updated_at":"2023-05-04 01:51:08"}',
+            ),
         ));
         
         

@@ -10,22 +10,27 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Http\Request;
 use Haruncpi\LaravelUserActivity\Traits\Loggable;
 use Illuminate\Database\Eloquent\Relations\Relation;
-use Illuminate\Support\Facades\Cache;
 
 class SubKategori extends Model
 {
     use HasFactory, Sluggable, Loggable;
     protected $fillable = [
+        'kategori_id',
         'urutan',
         'nama',
+        'judul',
+        'sub_judul',
+        'foto',
+        'tampilkan_client',
+        'tampilkan_testimoni',
         'slug',
         'keterangan',
-        'kategori_id',
     ];
     protected $primaryKey = 'id';
     protected $table = 'portfolio_sub_kategori';
     const tableName = 'portfolio_sub_kategori';
-    const feCacheKey = 'fePortfolioSubKategoriHome';
+    const image_folder = '/assets/portfolio/kategori/sub';
+    const image_default = 'assets/portfolio/kategori/sub/default.png';
 
     public function sluggable(): array
     {
@@ -46,12 +51,19 @@ class SubKategori extends Model
         return $this->hasMany(Portfolio::class, 'kategori_id', 'id');
     }
 
+    public function fotoUrl()
+    {
+        $foto = $this->attributes['foto'];
+        return $foto ? url(static::image_folder . '/' . $foto) : asset(static::image_default);
+    }
+
     public static function datatable(Request $request): mixed
     {
         // list table
         $query = [];
         $table = static::tableName;
         $t_portofolio = Portfolio::tableName;
+        $base_url_image_folder = url(str_replace('./', '', static::image_folder)) . '/';
 
         // cusotm query
         // ========================================================================================================
@@ -78,6 +90,13 @@ class SubKategori extends Model
                     (select count(*) from $t_portofolio where $t_portofolio.kategori_id = $table.id limit 1)
                 SQL;
         $query["{$c_porto_count}_alias"] = $c_porto_count;
+
+        // foto
+        $c_foto_link = 'foto_link';
+        $query[$c_foto_link] = <<<SQL
+                (concat('$base_url_image_folder',$table.foto))
+        SQL;
+        $query["{$c_foto_link}_alias"] = $c_foto_link;
         // ========================================================================================================
 
 
@@ -91,7 +110,8 @@ class SubKategori extends Model
             $c_created_str,
             $c_updated,
             $c_updated_str,
-            $c_porto_count
+            $c_porto_count,
+            $c_foto_link
         ];
 
         $to_db_raw = array_map(function ($a) use ($sraa) {

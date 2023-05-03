@@ -17,8 +17,13 @@ return new class extends Migration
             $table->id();
             $table->bigInteger('kategori_id', false, true)->nullable()->default(null);
             $table->integer('urutan')->nullable()->default(1);
-            $table->string('nama')->nullable()->default(null);
-            $table->string('slug')->nullable()->default(null)->unique();
+            $table->text('nama')->nullable()->default(null);
+            $table->text('judul')->nullable()->default(null);
+            $table->text('sub_judul')->nullable()->default(null);
+            $table->text('foto')->nullable()->default(null);
+            $table->boolean('tampilkan_client')->nullable()->default(false);
+            $table->boolean('tampilkan_testimoni')->nullable()->default(false);
+            $table->text('slug')->nullable()->default(null)->unique();
             $table->text('keterangan')->nullable()->default(null);
             $table->timestamps();
 
