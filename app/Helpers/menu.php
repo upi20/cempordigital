@@ -225,7 +225,7 @@ if (!function_exists('navbar_menu_front')) {
                 foreach ($kategories as $c) {
                     $sub_str = '';
                     foreach ($c->sub as $sub) {
-                        $link = url('layanan/' . $sub);
+                        $link = url('layanan/' . $sub->slug);
                         $sub_str .= <<<HTML
                             <li><a href="{$link}">{$sub->nama}</a></li>
                         HTML;
