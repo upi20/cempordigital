@@ -5457,6 +5457,24 @@ class LogsTableSeeder extends Seeder
                 'log_type' => 'edit',
                 'data' => '{"id":14,"kategori_id":110,"nama":"apa kabar","slug":"apa-kabar","foto":"20230504001219.jpg","keterangan":null,"is_insert":1,"created_by":1,"created_at":"2023-05-04 00:12:19","updated_at":"2023-05-04 00:12:19"}',
             ),
+            104 => 
+            array (
+                'id' => 648,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 01:05:09',
+                'table_name' => 'p_menu_frontends',
+                'log_type' => 'edit',
+                'data' => '{"id":32,"parent_id":31,"title":"Website","icon":null,"route":"#","sequence":3,"active":1,"type":1,"created_at":"2023-04-18 14:05:14","updated_at":"2023-04-18 14:05:19"}',
+            ),
+            105 => 
+            array (
+                'id' => 649,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 01:05:28',
+                'table_name' => 'p_menu_frontends',
+                'log_type' => 'edit',
+                'data' => '{"id":31,"parent_id":null,"title":"Layanan","icon":null,"route":"#","sequence":2,"active":1,"type":1,"created_at":"2023-04-18 14:04:31","updated_at":"2023-04-18 14:05:19"}',
+            ),
         ));
         
         
