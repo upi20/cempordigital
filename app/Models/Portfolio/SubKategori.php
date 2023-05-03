@@ -46,7 +46,7 @@ class SubKategori extends Model
         return $this->hasMany(Kategori::class, 'kategori_id', 'id');
     }
 
-    public function protfolios()
+    public function portofolios()
     {
         return $this->hasMany(Portfolio::class, 'kategori_id', 'id');
     }

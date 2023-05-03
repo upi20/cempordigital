@@ -35,7 +35,7 @@ class PortfolioTableSeeder extends Seeder
             1 => 
             array (
                 'id' => 14,
-                'kategori_id' => 106,
+                'kategori_id' => 107,
                 'nama' => 'apa kabar',
                 'slug' => 'apa-kabar',
                 'foto' => '20230504001219.jpg',
@@ -43,7 +43,7 @@ class PortfolioTableSeeder extends Seeder
                 'is_insert' => 1,
                 'created_by' => 1,
                 'created_at' => '2023-05-04 00:12:19',
-                'updated_at' => '2023-05-04 00:12:43',
+                'updated_at' => '2023-05-04 03:46:48',
             ),
         ));
         

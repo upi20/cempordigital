@@ -21,6 +21,7 @@ use App\Http\Controllers\Frontend\KontakController;
 use App\Http\Controllers\Frontend\GaleriController;
 use App\Http\Controllers\Frontend\ArtikelController;
 use App\Http\Controllers\Frontend\KatalogController;
+use App\Http\Controllers\Frontend\LayananController;
 use App\Http\Controllers\Frontend\MarketplaceController;
 use App\Http\Controllers\Frontend\PendaftaranController;
 use App\Http\Controllers\Frontend\ProdukController;
@@ -117,6 +118,13 @@ Route::controller(AboutController::class)->prefix($name)->group(function () use 
 $name = 'marketplace';
 Route::controller(MarketplaceController::class)->prefix($name)->group(function () use ($name) {
     Route::get('/', 'index')->name($name);
+});
+// ====================================================================================================================
+
+// Layanan ===========================================================================================================
+$name = 'layanan';
+Route::controller(LayananController::class)->prefix($name)->group(function () use ($name) {
+    Route::get('/{sub_kategori:slug}', 'index')->name($name);
 });
 // ====================================================================================================================
 

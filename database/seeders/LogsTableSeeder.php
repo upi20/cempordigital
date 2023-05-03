@@ -5619,6 +5619,78 @@ class LogsTableSeeder extends Seeder
                 'log_type' => 'edit',
                 'data' => '{"id":107,"kategori_id":16,"urutan":3,"nama":"Website Development","judul":null,"sub_judul":null,"foto":null,"tampilkan_client":0,"tampilkan_testimoni":0,"slug":"website-development","keterangan":null,"created_at":"2023-05-03 21:54:54","updated_at":"2023-05-04 01:51:08"}',
             ),
+            122 => 
+            array (
+                'id' => 666,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 02:55:44',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":5,"foto":"20230504025544.png","keterangan":"<p>bil hax<\\/p>\\n","nama":"Testing","kategori_id":"16","judul":"judul","sub_judul":"sub judul","tampilkan_client":"1","tampilkan_testimoni":"1","slug":"testing","updated_at":"2023-05-03T19:55:44.000000Z","created_at":"2023-05-03T19:55:44.000000Z","id":164}',
+            ),
+            123 => 
+            array (
+                'id' => 667,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 02:55:48',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'delete',
+                'data' => '{"id":164,"kategori_id":16,"urutan":5,"nama":"Testing","judul":"judul","sub_judul":"sub judul","foto":"20230504025544.png","tampilkan_client":1,"tampilkan_testimoni":1,"slug":"testing","keterangan":"<p>bil hax<\\/p>\\n","created_at":"2023-05-04 02:55:44","updated_at":"2023-05-04 02:55:44"}',
+            ),
+            124 => 
+            array (
+                'id' => 668,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 03:12:32',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'edit',
+                'data' => '{"id":107,"kategori_id":16,"urutan":3,"nama":"Website Development","judul":null,"sub_judul":null,"foto":"20230504024934.png","tampilkan_client":1,"tampilkan_testimoni":1,"slug":"website-development","keterangan":"<div class=\\"solution-text\\">\\r\\n                  <h1 class=\\"h1\\" id=\\"page_title\\" data-testid=\\"title_landing_page\\">\\r\\n                     \\r\\n                     Professional Web Programming Services. Money-back Guarantee.\\r\\n                  <\\/h1>\\r\\n                  <h2 class=\\"h2\\" data-testid=\\"subtitle_landing_page\\">\\r\\n                     \\r\\n                     Experienced web programming service. Fast &amp; efficient work. Has helped 30,000+ SME &amp; corporate clients. Guaranteed.\\r\\n                  <\\/h2>\\r\\n\\r\\n                  \\r\\n                  <div class=\\"solution-list\\">\\r\\n                     <ul>\\r\\n                        \\r\\n                        <li>\\r\\n                           No Risk, Money Back Guarantee\\r\\n                        <\\/li>\\r\\n                        \\r\\n                        <li>\\r\\n                           Budget that you can set yourself\\r\\n                        <\\/li>\\r\\n                        \\r\\n                        <li>\\r\\n                           6+ years experienced team\\r\\n                        <\\/li>\\r\\n                        \\r\\n                        <li>\\r\\n                           Up-to-date and secure technology\\r\\n                        <\\/li>\\r\\n                        \\r\\n                        <li>\\r\\n                           Fast and Efficient in processing\\r\\n                        <\\/li>\\r\\n                        \\r\\n                     <\\/ul>\\r\\n                  <\\/div>\\r\\n                  \\r\\n                  \\r\\n                  <div class=\\"btn-2-wrapper\\" style=\\"margin-top: 32px\\">\\r\\n                     <a class=\\"btn btn-primary p\\" data-testid=\\"button_check_price1\\" style=\\"--p: 20px 30px; min-width: 200px;\\" href=\\"\\/en\\/packages?category=website-and-development\\">\\r\\n                        <h6 class=\\"h6 m-0\\">\\r\\n                           Check Package Price\\r\\n                        <\\/h6>\\r\\n                     <\\/a>\\r\\n                  <\\/div>\\r\\n\\r\\n                  <!-- \\r\\n                  \\r\\n                  \\r\\n                  <div class=\\"btn-2-wrapper\\" style=\\"margin-top: 32px\\">\\r\\n                     <a class=\\"btn btn-primary p\\" style=\\"--p: 20px 30px; min-width: 200px;\\"\\r\\n                        href=\\"\\/en\\/browse-freelancer\\/ad62c648-d223-446c-9a00-28c99613d0b5\\/5f9e2589-f52b-4296-914f-7f0156445976\\">\\r\\n                        <h6 class=\\"h6 m-0\\">\\r\\n                           Browse Freelancer\\r\\n                        <\\/h6>\\r\\n                     <\\/a>\\r\\n                  <\\/div>\\r\\n                   -->\\r\\n               <\\/div>\\n","created_at":"2023-05-03 21:54:54","updated_at":"2023-05-04 02:49:34"}',
+            ),
+            125 => 
+            array (
+                'id' => 669,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 03:33:27',
+                'table_name' => 'portfolio',
+                'log_type' => 'edit',
+                'data' => '{"id":14,"kategori_id":106,"nama":"apa kabar","slug":"apa-kabar","foto":"20230504001219.jpg","keterangan":null,"is_insert":1,"created_by":1,"created_at":"2023-05-04 00:12:19","updated_at":"2023-05-04 00:12:43"}',
+            ),
+            126 => 
+            array (
+                'id' => 670,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 03:38:08',
+                'table_name' => 'portfolio',
+                'log_type' => 'edit',
+                'data' => '{"id":14,"kategori_id":163,"nama":"apa kabar","slug":"apa-kabar","foto":"20230504001219.jpg","keterangan":null,"is_insert":1,"created_by":1,"created_at":"2023-05-04 00:12:19","updated_at":"2023-05-04 03:33:27"}',
+            ),
+            127 => 
+            array (
+                'id' => 671,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 03:40:19',
+                'table_name' => 'portfolio',
+                'log_type' => 'edit',
+                'data' => '{"id":14,"kategori_id":107,"nama":"apa kabar","slug":"apa-kabar","foto":"20230504001219.jpg","keterangan":null,"is_insert":1,"created_by":1,"created_at":"2023-05-04 00:12:19","updated_at":"2023-05-04 03:38:08"}',
+            ),
+            128 => 
+            array (
+                'id' => 672,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 03:46:48',
+                'table_name' => 'portfolio',
+                'log_type' => 'edit',
+                'data' => '{"id":14,"kategori_id":162,"nama":"apa kabar","slug":"apa-kabar","foto":"20230504001219.jpg","keterangan":null,"is_insert":1,"created_by":1,"created_at":"2023-05-04 00:12:19","updated_at":"2023-05-04 03:40:19"}',
+            ),
+            129 => 
+            array (
+                'id' => 673,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 04:10:02',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'edit',
+                'data' => '{"id":107,"kategori_id":16,"urutan":3,"nama":"Website Development","judul":"We design and develop web and mobile applications for our clients worldwide","sub_judul":"Lorem ipsum dolor sit amet, sed nulla ante amet, elementum tincidunt arcu sed laoreet, natoque ac eget imperdiet. Ac scelerisque nibh dolores consectetuer,","foto":"20230504024934.png","tampilkan_client":1,"tampilkan_testimoni":1,"slug":"website-development","keterangan":"<div class=\\"solution-text\\">\\r\\n                  <h1 class=\\"h1\\" id=\\"page_title\\" data-testid=\\"title_landing_page\\">\\r\\n                     \\r\\n                     Professional Web Programming Services. Money-back Guarantee.\\r\\n                  <\\/h1>\\r\\n                  <h2 class=\\"h2\\" data-testid=\\"subtitle_landing_page\\">\\r\\n                     \\r\\n                     Experienced web programming service. Fast &amp; efficient work. Has helped 30,000+ SME &amp; corporate clients. Guaranteed.\\r\\n                  <\\/h2>\\r\\n\\r\\n                  \\r\\n                  <div class=\\"solution-list\\">\\r\\n                     <ul>\\r\\n                        \\r\\n                        <li>\\r\\n                           No Risk, Money Back Guarantee\\r\\n                        <\\/li>\\r\\n                        \\r\\n                        <li>\\r\\n                           Budget that you can set yourself\\r\\n                        <\\/li>\\r\\n                        \\r\\n                        <li>\\r\\n                           6+ years experienced team\\r\\n                        <\\/li>\\r\\n                        \\r\\n                        <li>\\r\\n                           Up-to-date and secure technology\\r\\n                        <\\/li>\\r\\n                        \\r\\n                        <li>\\r\\n                           Fast and Efficient in processing\\r\\n                        <\\/li>\\r\\n                        \\r\\n                     <\\/ul>\\r\\n                  <\\/div>\\r\\n                  \\r\\n                  \\r\\n                  <div class=\\"btn-2-wrapper\\" style=\\"margin-top: 32px\\">\\r\\n                     <a class=\\"btn btn-primary p\\" data-testid=\\"button_check_price1\\" style=\\"--p: 20px 30px; min-width: 200px;\\" href=\\"\\/en\\/packages?category=website-and-development\\">\\r\\n                        <h6 class=\\"h6 m-0\\">\\r\\n                           Check Package Price\\r\\n                        <\\/h6>\\r\\n                     <\\/a>\\r\\n                  <\\/div>\\r\\n\\r\\n                  <!-- \\r\\n                  \\r\\n                  \\r\\n                  <div class=\\"btn-2-wrapper\\" style=\\"margin-top: 32px\\">\\r\\n                     <a class=\\"btn btn-primary p\\" style=\\"--p: 20px 30px; min-width: 200px;\\"\\r\\n                        href=\\"\\/en\\/browse-freelancer\\/ad62c648-d223-446c-9a00-28c99613d0b5\\/5f9e2589-f52b-4296-914f-7f0156445976\\">\\r\\n                        <h6 class=\\"h6 m-0\\">\\r\\n                           Browse Freelancer\\r\\n                        <\\/h6>\\r\\n                     <\\/a>\\r\\n                  <\\/div>\\r\\n                   -->\\r\\n               <\\/div>\\n","created_at":"2023-05-03 21:54:54","updated_at":"2023-05-04 03:12:32"}',
+            ),
         ));
         
         

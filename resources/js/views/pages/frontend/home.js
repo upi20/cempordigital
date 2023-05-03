@@ -13,7 +13,7 @@ function setBtnLoading(element, text, status = true) {
     }
 }
 
-function protfolioDetail(element, key) {
+function portofolioDetail(element, key) {
     setBtnLoading(element, `Loading...`);
     $.ajax({
         type: "GET",

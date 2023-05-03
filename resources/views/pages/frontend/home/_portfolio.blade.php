@@ -34,43 +34,30 @@
                                 aria-labelledby="{{ $kategori->slug }}-tab">
                                 <div class="swiper-container project-active-three">
                                     <div class="swiper-wrapper">
-                                        @php
-                                            $portos = $kategori->sub->filter(function ($q2) {
-                                                return $q2->protfolios->count() > 0; // filter portfolio
-                                            });
-
-                                            $new_portos = [];
-                                            foreach ($portos as $p) {
-                                                foreach ($p->protfolios as $q) {
-                                                    $new_portos[] = $q;
-                                                }
-                                            }
-                                        @endphp
-
-                                        @foreach ($new_portos as $protfolio)
+                                        @foreach ($kategori->portofolios as $portofolio)
                                             <div class="swiper-slide">
                                                 <div class="project-item-three">
                                                     <div class="project-content-three">
                                                         <h2 class="title">
-                                                            <a onclick="protfolioDetail('.btnPortofolio-{{ $protfolio->slug }}','{{ $protfolio->slug }}')"
+                                                            <a onclick="portofolioDetail('.btnPortofolio-{{ $portofolio->slug }}','{{ $portofolio->slug }}')"
                                                                 href="javascript:void(0)">
-                                                                {{ $protfolio->nama }}
+                                                                {{ $portofolio->nama }}
                                                             </a>
                                                         </h2>
-                                                        <p>{{ text_cutter($protfolio->keterangan, 50) }} </p>
+                                                        <p>{{ text_cutter($portofolio->keterangan, 50) }} </p>
                                                     </div>
                                                     <div class="project-thumb-three">
-                                                        <a onclick="protfolioDetail('.btnPortofolio-{{ $protfolio->slug }}','{{ $protfolio->slug }}')"
+                                                        <a onclick="portofolioDetail('.btnPortofolio-{{ $portofolio->slug }}','{{ $portofolio->slug }}')"
                                                             href="javascript:void(0)">
-                                                            <img data-src="{{ $protfolio->fotoUrl() }}"
+                                                            <img data-src="{{ $portofolio->fotoUrl() }}"
                                                                 style="height: 280px; width:100%; object-fit: cover;"
-                                                                class="lazy" alt="{{ $protfolio->nama }}">
+                                                                class="lazy" alt="{{ $portofolio->nama }}">
                                                         </a>
                                                     </div>
                                                     <div class="project-details-btn">
                                                         <a href="javascript:void(0)"
-                                                            class="btnPortofolio-{{ $protfolio->slug }}"
-                                                            onclick="protfolioDetail('.btnPortofolio-{{ $protfolio->slug }}','{{ $protfolio->slug }}')">
+                                                            class="btnPortofolio-{{ $portofolio->slug }}"
+                                                            onclick="portofolioDetail('.btnPortofolio-{{ $portofolio->slug }}','{{ $portofolio->slug }}')">
                                                             Lihat Detail
                                                         </a>
                                                     </div>

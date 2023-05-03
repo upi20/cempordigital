@@ -22,7 +22,7 @@ class Item extends Model
     protected $table = 'portfolio_item';
     const tableName = 'portfolio_item';
 
-    public function protfolio()
+    public function portofolio()
     {
         return $this->belongsTo(Portfolio::class, 'portfolio_id', 'id');
     }
