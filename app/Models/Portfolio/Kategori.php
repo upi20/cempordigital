@@ -46,6 +46,7 @@ class Kategori extends Model
         $query = [];
         $table = static::tableName;
         $t_sub = SubKategori::tableName;
+        $t_portofolio = Portfolio::tableName;
 
         // cusotm query
         // ========================================================================================================
@@ -72,6 +73,13 @@ class Kategori extends Model
                     (select count(*) from $t_sub where $t_sub.kategori_id = $table.id limit 1)
                 SQL;
         $query["{$c_sub_count}_alias"] = $c_sub_count;
+
+        $c_porto_count = 'porto_count';
+        $query[$c_porto_count] = <<<SQL
+                    (select count(*) from $t_portofolio as z
+                        join $t_sub as x on z.kategori_id = x.id where x.kategori_id = $table.id limit 1)
+                SQL;
+        $query["{$c_porto_count}_alias"] = $c_porto_count;
         // ========================================================================================================
 
 
@@ -86,6 +94,7 @@ class Kategori extends Model
             $c_updated,
             $c_updated_str,
             $c_sub_count,
+            $c_porto_count,
         ];
 
         $to_db_raw = array_map(function ($a) use ($sraa) {

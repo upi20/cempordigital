@@ -30,6 +30,7 @@
                     <tr>
                         <th>Urutan</th>
                         <th>Nama</th>
+                        <th>Dipakai</th>
                         <th>Keterangan</th>
                         {!! $can_delete || $can_update ? '<th>Aksi</th>' : '' !!}
                     </tr>

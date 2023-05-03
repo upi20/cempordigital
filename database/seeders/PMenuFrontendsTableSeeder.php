@@ -53,10 +53,10 @@ class PMenuFrontendsTableSeeder extends Seeder
                 'icon' => NULL,
                 'route' => 'kontak',
                 'sequence' => 10,
-                'active' => 0,
+                'active' => 1,
                 'type' => 1,
                 'created_at' => '2022-08-20 14:47:10',
-                'updated_at' => '2023-04-18 14:06:22',
+                'updated_at' => '2023-05-04 01:23:09',
             ),
             3 => 
             array (
@@ -66,10 +66,10 @@ class PMenuFrontendsTableSeeder extends Seeder
                 'icon' => NULL,
                 'route' => 'artikel',
                 'sequence' => 8,
-                'active' => 0,
+                'active' => 1,
                 'type' => 1,
                 'created_at' => '2022-09-02 00:45:45',
-                'updated_at' => '2023-04-18 14:06:22',
+                'updated_at' => '2023-05-04 01:22:26',
             ),
             4 => 
             array (
@@ -164,29 +164,16 @@ class PMenuFrontendsTableSeeder extends Seeder
             ),
             11 => 
             array (
-                'id' => 33,
-                'parent_id' => NULL,
-                'title' => 'Tentang',
-                'icon' => NULL,
-                'route' => '#',
-                'sequence' => 6,
-                'active' => 1,
-                'type' => 1,
-                'created_at' => '2023-04-18 14:05:51',
-                'updated_at' => '2023-04-18 14:06:22',
-            ),
-            12 => 
-            array (
                 'id' => 34,
                 'parent_id' => NULL,
                 'title' => 'Portfolio',
                 'icon' => NULL,
                 'route' => '#',
                 'sequence' => 5,
-                'active' => 1,
+                'active' => 0,
                 'type' => 1,
                 'created_at' => '2023-04-18 14:06:16',
-                'updated_at' => '2023-04-18 14:06:22',
+                'updated_at' => '2023-05-04 01:23:40',
             ),
         ));
         

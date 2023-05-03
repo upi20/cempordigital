@@ -51,6 +51,7 @@ class SubKategori extends Model
         // list table
         $query = [];
         $table = static::tableName;
+        $t_portofolio = Portfolio::tableName;
 
         // cusotm query
         // ========================================================================================================
@@ -71,6 +72,12 @@ class SubKategori extends Model
         $query = array_merge($query, $date_format_fun('updated_at', '%d-%b-%Y', $c_updated));
         $query = array_merge($query, $date_format_fun('updated_at', '%W, %d %M %Y %H:%i:%s', $c_updated_str));
 
+        // hitung portofolio
+        $c_porto_count = 'porto_count';
+        $query[$c_porto_count] = <<<SQL
+                    (select count(*) from $t_portofolio where $t_portofolio.kategori_id = $table.id limit 1)
+                SQL;
+        $query["{$c_porto_count}_alias"] = $c_porto_count;
         // ========================================================================================================
 
 
@@ -84,6 +91,7 @@ class SubKategori extends Model
             $c_created_str,
             $c_updated,
             $c_updated_str,
+            $c_porto_count
         ];
 
         $to_db_raw = array_map(function ($a) use ($sraa) {

@@ -84,6 +84,10 @@ class KategoriController extends Controller
     public function delete(PortfolioKategori $model): mixed
     {
         try {
+            foreach ($model->sub ?? [] as $sub) {
+                $controller = new SubKategoriController();
+                $controller->delete($sub);
+            }
             $model->delete();
             Portfolio::clearCache();
             return response()->json();

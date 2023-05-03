@@ -38,6 +38,10 @@ $(document).ready(function () {
             name: 'sub_count'
         },
         {
+            data: 'porto_count',
+            name: 'porto_count'
+        },
+        {
             data: 'keterangan',
             name: 'keterangan',
         },

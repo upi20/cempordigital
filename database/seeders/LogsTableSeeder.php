@@ -5475,6 +5475,105 @@ class LogsTableSeeder extends Seeder
                 'log_type' => 'edit',
                 'data' => '{"id":31,"parent_id":null,"title":"Layanan","icon":null,"route":"#","sequence":2,"active":1,"type":1,"created_at":"2023-04-18 14:04:31","updated_at":"2023-04-18 14:05:19"}',
             ),
+            106 => 
+            array (
+                'id' => 650,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 01:22:20',
+                'table_name' => 'p_menu_frontends',
+                'log_type' => 'delete',
+                'data' => '{"id":33,"parent_id":null,"title":"Tentang","icon":null,"route":"#","sequence":6,"active":1,"type":1,"created_at":"2023-04-18 14:05:51","updated_at":"2023-04-18 14:06:22"}',
+            ),
+            107 => 
+            array (
+                'id' => 651,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 01:22:26',
+                'table_name' => 'p_menu_frontends',
+                'log_type' => 'edit',
+                'data' => '{"id":20,"parent_id":null,"title":"Artikel","icon":null,"route":"artikel","sequence":8,"active":0,"type":1,"created_at":"2022-09-02 00:45:45","updated_at":"2023-04-18 14:06:22"}',
+            ),
+            108 => 
+            array (
+                'id' => 652,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 01:22:33',
+                'table_name' => 'banners',
+                'log_type' => 'edit',
+                'data' => '{"id":5,"nama":"Iklan 5","foto":"20230324234545.jpg","status":1,"ditampilkan":37,"created_at":"2023-03-24 23:45:45","updated_at":"2023-03-27 05:18:32"}',
+            ),
+            109 => 
+            array (
+                'id' => 653,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 01:23:09',
+                'table_name' => 'p_menu_frontends',
+                'log_type' => 'edit',
+                'data' => '{"id":18,"parent_id":null,"title":"Kontak","icon":null,"route":"kontak","sequence":10,"active":0,"type":1,"created_at":"2022-08-20 14:47:10","updated_at":"2023-04-18 14:06:22"}',
+            ),
+            110 => 
+            array (
+                'id' => 654,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 01:23:16',
+                'table_name' => 'banners',
+                'log_type' => 'edit',
+                'data' => '{"id":3,"nama":"Iklan 3","foto":"20230324234525.jpg","status":1,"ditampilkan":28,"created_at":"2023-03-24 23:45:25","updated_at":"2023-04-01 21:18:02"}',
+            ),
+            111 => 
+            array (
+                'id' => 655,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 01:23:40',
+                'table_name' => 'p_menu_frontends',
+                'log_type' => 'edit',
+                'data' => '{"id":34,"parent_id":null,"title":"Portfolio","icon":null,"route":"#","sequence":5,"active":1,"type":1,"created_at":"2023-04-18 14:06:16","updated_at":"2023-04-18 14:06:22"}',
+            ),
+            112 => 
+            array (
+                'id' => 656,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 01:23:58',
+                'table_name' => 'banners',
+                'log_type' => 'edit',
+                'data' => '{"id":4,"nama":"Iklan 4","foto":"20230324234534.jpg","status":1,"ditampilkan":25,"created_at":"2023-03-24 23:45:34","updated_at":"2023-03-27 16:46:33"}',
+            ),
+            113 => 
+            array (
+                'id' => 657,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 01:50:57',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'edit',
+                'data' => '{"id":106,"kategori_id":16,"urutan":13,"nama":"Website Maintenance","slug":"website-maintenance","keterangan":null,"created_at":"2023-05-03 21:54:54","updated_at":"2023-05-03 21:54:54"}',
+            ),
+            114 => 
+            array (
+                'id' => 658,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 01:51:08',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'edit',
+                'data' => '{"id":107,"kategori_id":16,"urutan":14,"nama":"Website Development","slug":"website-development","keterangan":null,"created_at":"2023-05-03 21:54:54","updated_at":"2023-05-03 21:54:54"}',
+            ),
+            115 => 
+            array (
+                'id' => 659,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 01:51:14',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'edit',
+                'data' => '{"id":106,"kategori_id":16,"urutan":15,"nama":"Website Maintenance","slug":"website-maintenance","keterangan":null,"created_at":"2023-05-03 21:54:54","updated_at":"2023-05-04 01:50:57"}',
+            ),
+            116 => 
+            array (
+                'id' => 660,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 01:51:19',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'edit',
+                'data' => '{"id":106,"kategori_id":16,"urutan":16,"nama":"Website Maintenance","slug":"website-maintenance","keterangan":null,"created_at":"2023-05-03 21:54:54","updated_at":"2023-05-04 01:51:14"}',
+            ),
         ));
         
         

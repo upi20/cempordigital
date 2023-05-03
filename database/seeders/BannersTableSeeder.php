@@ -45,9 +45,9 @@ class BannersTableSeeder extends Seeder
                 'nama' => 'Iklan 3',
                 'foto' => '20230324234525.jpg',
                 'status' => 1,
-                'ditampilkan' => 28,
+                'ditampilkan' => 29,
                 'created_at' => '2023-03-24 23:45:25',
-                'updated_at' => '2023-04-01 21:18:02',
+                'updated_at' => '2023-05-04 01:23:16',
             ),
             3 => 
             array (
@@ -55,9 +55,9 @@ class BannersTableSeeder extends Seeder
                 'nama' => 'Iklan 4',
                 'foto' => '20230324234534.jpg',
                 'status' => 1,
-                'ditampilkan' => 25,
+                'ditampilkan' => 26,
                 'created_at' => '2023-03-24 23:45:34',
-                'updated_at' => '2023-03-27 16:46:33',
+                'updated_at' => '2023-05-04 01:23:58',
             ),
             4 => 
             array (
@@ -65,9 +65,9 @@ class BannersTableSeeder extends Seeder
                 'nama' => 'Iklan 5',
                 'foto' => '20230324234545.jpg',
                 'status' => 1,
-                'ditampilkan' => 37,
+                'ditampilkan' => 38,
                 'created_at' => '2023-03-24 23:45:45',
-                'updated_at' => '2023-03-27 05:18:32',
+                'updated_at' => '2023-05-04 01:22:33',
             ),
         ));
         

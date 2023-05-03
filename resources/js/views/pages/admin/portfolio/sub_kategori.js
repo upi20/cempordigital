@@ -34,6 +34,10 @@ $(document).ready(function () {
             name: 'nama'
         },
         {
+            data: 'porto_count',
+            name: 'porto_count'
+        },
+        {
             data: 'keterangan',
             name: 'keterangan',
         },
