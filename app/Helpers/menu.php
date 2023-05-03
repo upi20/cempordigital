@@ -222,17 +222,29 @@ if (!function_exists('navbar_menu_front')) {
             } elseif ($menu->icon == "__layanan__") { // khusus
                 $kategories = PortfolioKategori::getNavData();
                 $child_menu = '';
+                $menu_parent_active = false;
                 foreach ($kategories as $c) {
                     $sub_str = '';
+                    $is_active = false;
                     foreach ($c->sub as $sub) {
                         $link = url('layanan/' . $sub->slug);
+                        $check_menu_active = ($link == current_url());
+
+                        $menu_active_class = $check_menu_active ? 'style="color:var(--tg-primary-color);"' : '';
+
+                        if ($check_menu_active) {
+                            $menu_parent_active = true;
+                            $is_active = true;
+                        }
+
                         $sub_str .= <<<HTML
-                            <li><a href="{$link}">{$sub->nama}</a></li>
+                            <li><a $menu_active_class href="{$link}">{$sub->nama}</a></li>
                         HTML;
                     }
 
+                    $menu_active_class = $is_active ? 'style="color:var(--tg-primary-color);"' : '';
                     $child_menu .= <<<HTML
-                        <li class="menu-item-has-children"><a href="#">{$c->nama}</a>
+                        <li class="menu-item-has-children"><a $menu_active_class href="#">{$c->nama}</a>
                             <ul class="sub-menu">
                                 {$sub_str}
                             </ul>
@@ -240,9 +252,9 @@ if (!function_exists('navbar_menu_front')) {
                     HTML;
                 }
 
-
+                $menu_active_class = $menu_parent_active ? 'active' : '';
                 $menu_body .= <<<HTML
-                            <li class="menu-item-has-children"><a href="javascript:void(0)">$menu->title</a>
+                            <li class="menu-item-has-children $menu_active_class"><a href="javascript:void(0)">$menu->title</a>
                                 <ul class="sub-menu">
                                     {$child_menu}
                                 </ul>
