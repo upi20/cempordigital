@@ -4159,6 +4159,1268 @@ class LogsTableSeeder extends Seeder
                 'log_type' => 'create',
                 'data' => '{"keterangan":null,"nama":"logo2","kategori_id":"11","urutan":2,"slug":"logo2","updated_at":"2023-05-03T02:49:59.000000Z","created_at":"2023-05-03T02:49:59.000000Z","id":6}',
             ),
+            460 => 
+            array (
+                'id' => 461,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:33:41',
+                'table_name' => 'portfolio_kategori',
+                'log_type' => 'edit',
+                'data' => '{"id":16,"urutan":10,"nama":"Website","slug":"website","keterangan":null,"created_at":"2023-04-14 02:25:53","updated_at":"2023-04-15 15:39:26"}',
+            ),
+            461 => 
+            array (
+                'id' => 505,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":1,"nama":"Banner or Billboard Design","kategori_id":17,"slug":"banner-or-billboard-design","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":50}',
+            ),
+            462 => 
+            array (
+                'id' => 506,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":2,"nama":"Poster Design","kategori_id":17,"slug":"poster-design","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":51}',
+            ),
+            463 => 
+            array (
+                'id' => 507,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":3,"nama":"Packaging Design","kategori_id":17,"slug":"packaging-design","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":52}',
+            ),
+            464 => 
+            array (
+                'id' => 508,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":4,"nama":"Product Design","kategori_id":17,"slug":"product-design","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":53}',
+            ),
+            465 => 
+            array (
+                'id' => 509,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":5,"nama":"Signage Design","kategori_id":17,"slug":"signage-design","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":54}',
+            ),
+            466 => 
+            array (
+                'id' => 510,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":6,"nama":"Booth Design","kategori_id":17,"slug":"booth-design","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":55}',
+            ),
+            467 => 
+            array (
+                'id' => 511,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":7,"nama":"Infographic Design","kategori_id":17,"slug":"infographic-design","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":56}',
+            ),
+            468 => 
+            array (
+                'id' => 512,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":8,"nama":"Icon Design","kategori_id":17,"slug":"icon-design","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":57}',
+            ),
+            469 => 
+            array (
+                'id' => 513,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":9,"nama":"UI\\/UX Design","kategori_id":17,"slug":"ui-ux-design","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":58}',
+            ),
+            470 => 
+            array (
+                'id' => 514,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":10,"nama":"Social Media Design","kategori_id":17,"slug":"social-media-design","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":59}',
+            ),
+            471 => 
+            array (
+                'id' => 515,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":11,"nama":"Logo Design","kategori_id":17,"slug":"logo-design","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":60}',
+            ),
+            472 => 
+            array (
+                'id' => 516,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":12,"nama":"Line Sticker","kategori_id":17,"slug":"line-sticker","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":61}',
+            ),
+            473 => 
+            array (
+                'id' => 517,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":13,"nama":"Vector Design","kategori_id":17,"slug":"vector-design","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":62}',
+            ),
+            474 => 
+            array (
+                'id' => 518,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":14,"nama":"AutoCAD Drafter","kategori_id":17,"slug":"autocad-drafter","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":63}',
+            ),
+            475 => 
+            array (
+                'id' => 519,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":15,"nama":"Graphic Design","kategori_id":17,"slug":"graphic-design","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":64}',
+            ),
+            476 => 
+            array (
+                'id' => 520,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":16,"nama":"Invitation Design","kategori_id":17,"slug":"invitation-design","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":65}',
+            ),
+            477 => 
+            array (
+                'id' => 521,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":17,"nama":"Web Design","kategori_id":17,"slug":"web-design","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":66}',
+            ),
+            478 => 
+            array (
+                'id' => 522,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":18,"nama":"Mobile Apps Design","kategori_id":17,"slug":"mobile-apps-design","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":67}',
+            ),
+            479 => 
+            array (
+                'id' => 523,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":19,"nama":"Mascot\\/Character Design","kategori_id":17,"slug":"mascot-character-design","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":68}',
+            ),
+            480 => 
+            array (
+                'id' => 524,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":20,"nama":"Other Design","kategori_id":17,"slug":"other-design","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":69}',
+            ),
+            481 => 
+            array (
+                'id' => 525,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":21,"nama":"Image & Illustration ","kategori_id":17,"slug":"image-illustration","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":70}',
+            ),
+            482 => 
+            array (
+                'id' => 526,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":22,"nama":"Book Design","kategori_id":17,"slug":"book-design","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":71}',
+            ),
+            483 => 
+            array (
+                'id' => 527,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":23,"nama":"Landing Page Design","kategori_id":17,"slug":"landing-page-design","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":72}',
+            ),
+            484 => 
+            array (
+                'id' => 528,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":24,"nama":"Office Uniform\\/Clothing Design","kategori_id":17,"slug":"office-uniform-clothing-design","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":73}',
+            ),
+            485 => 
+            array (
+                'id' => 529,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":25,"nama":"Calendar Design","kategori_id":17,"slug":"calendar-design","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":74}',
+            ),
+            486 => 
+            array (
+                'id' => 530,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":26,"nama":"Image Editing & Photoshop","kategori_id":17,"slug":"image-editing-photoshop","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":75}',
+            ),
+            487 => 
+            array (
+                'id' => 531,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":27,"nama":"Interior Design","kategori_id":17,"slug":"interior-design","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":76}',
+            ),
+            488 => 
+            array (
+                'id' => 532,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":28,"nama":"Cellphone Case Design","kategori_id":17,"slug":"cellphone-case-design","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":77}',
+            ),
+            489 => 
+            array (
+                'id' => 533,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":29,"nama":"Menu Design","kategori_id":17,"slug":"menu-design","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":78}',
+            ),
+            490 => 
+            array (
+                'id' => 534,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":30,"nama":"Email Design","kategori_id":17,"slug":"email-design","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":79}',
+            ),
+            491 => 
+            array (
+                'id' => 535,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":31,"nama":"Label Design","kategori_id":17,"slug":"label-design","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":80}',
+            ),
+            492 => 
+            array (
+                'id' => 536,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":32,"nama":"Business Card & Stationery Design","kategori_id":17,"slug":"business-card-stationery-design","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":81}',
+            ),
+            493 => 
+            array (
+                'id' => 537,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":33,"nama":"Brochure or Flyer Design","kategori_id":17,"slug":"brochure-or-flyer-design","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":82}',
+            ),
+            494 => 
+            array (
+                'id' => 538,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":34,"nama":"Presentation Design","kategori_id":17,"slug":"presentation-design","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":83}',
+            ),
+            495 => 
+            array (
+                'id' => 539,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":35,"nama":"Brochure","kategori_id":17,"slug":"brochure","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":84}',
+            ),
+            496 => 
+            array (
+                'id' => 540,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":36,"nama":"Brand Guidelines","kategori_id":17,"slug":"brand-guidelines","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":85}',
+            ),
+            497 => 
+            array (
+                'id' => 541,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":37,"nama":"Portrait Image","kategori_id":17,"slug":"portrait-image","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":86}',
+            ),
+            498 => 
+            array (
+                'id' => 542,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":38,"nama":"Portfolio & Resume Design","kategori_id":17,"slug":"portfolio-resume-design","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":87}',
+            ),
+            499 => 
+            array (
+                'id' => 543,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":39,"nama":"Book\\/Magazine Cover Design","kategori_id":17,"slug":"book-magazine-cover-design","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":88}',
+            ),
+        ));
+        \DB::table('logs')->insert(array (
+            0 => 
+            array (
+                'id' => 544,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":40,"nama":"3D & Perspective","kategori_id":17,"slug":"3d-perspective","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":89}',
+            ),
+            1 => 
+            array (
+                'id' => 545,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":41,"nama":"Catalog Design","kategori_id":17,"slug":"catalog-design","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":90}',
+            ),
+            2 => 
+            array (
+                'id' => 546,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":42,"nama":"Company Profile Design","kategori_id":17,"slug":"company-profile-design","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":91}',
+            ),
+            3 => 
+            array (
+                'id' => 547,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":43,"nama":"Merchandising Design","kategori_id":17,"slug":"merchandising-design","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":92}',
+            ),
+            4 => 
+            array (
+                'id' => 548,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":44,"nama":"Ecommerce Development","kategori_id":17,"slug":"ecommerce-development","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":93}',
+            ),
+            5 => 
+            array (
+                'id' => 549,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":1,"nama":"Bug Fixes","kategori_id":16,"slug":"bug-fixes","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":94}',
+            ),
+            6 => 
+            array (
+                'id' => 550,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":2,"nama":"Other Website & Development Work","kategori_id":16,"slug":"other-website-development-work","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":95}',
+            ),
+            7 => 
+            array (
+                'id' => 551,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+            'data' => '{"urutan":3,"nama":"Quality Assurance (QA)","kategori_id":16,"slug":"quality-assurance-qa","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":96}',
+            ),
+            8 => 
+            array (
+                'id' => 552,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":4,"nama":"Slicing to HTML","kategori_id":16,"slug":"slicing-to-html","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":97}',
+            ),
+            9 => 
+            array (
+                'id' => 553,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":5,"nama":"Mobile App Development for Android","kategori_id":16,"slug":"mobile-app-development-for-android","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":98}',
+            ),
+            10 => 
+            array (
+                'id' => 554,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":6,"nama":"IT Support","kategori_id":16,"slug":"it-support","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":99}',
+            ),
+            11 => 
+            array (
+                'id' => 555,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":7,"nama":"Wordpress","kategori_id":16,"slug":"wordpress","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":100}',
+            ),
+            12 => 
+            array (
+                'id' => 556,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":8,"nama":"Ecommerce Development","kategori_id":16,"slug":"ecommerce-development-2","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":101}',
+            ),
+            13 => 
+            array (
+                'id' => 557,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":9,"nama":"Mobile Apps","kategori_id":16,"slug":"mobile-apps","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":102}',
+            ),
+            14 => 
+            array (
+                'id' => 558,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":10,"nama":"Game Development","kategori_id":16,"slug":"game-development","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":103}',
+            ),
+            15 => 
+            array (
+                'id' => 559,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":11,"nama":"Desktop Application","kategori_id":16,"slug":"desktop-application","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":104}',
+            ),
+            16 => 
+            array (
+                'id' => 560,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":12,"nama":"Web Programming","kategori_id":16,"slug":"web-programming","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":105}',
+            ),
+            17 => 
+            array (
+                'id' => 561,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":13,"nama":"Website Maintenance","kategori_id":16,"slug":"website-maintenance","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":106}',
+            ),
+            18 => 
+            array (
+                'id' => 562,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":14,"nama":"Website Development","kategori_id":16,"slug":"website-development","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":107}',
+            ),
+            19 => 
+            array (
+                'id' => 563,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":15,"nama":"Aerial Photography","kategori_id":16,"slug":"aerial-photography","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":108}',
+            ),
+            20 => 
+            array (
+                'id' => 564,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":1,"nama":"Catalog Photography","kategori_id":18,"slug":"catalog-photography","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":109}',
+            ),
+            21 => 
+            array (
+                'id' => 565,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":2,"nama":"2D & Animasi","kategori_id":18,"slug":"2d-animasi","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":110}',
+            ),
+            22 => 
+            array (
+                'id' => 566,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":3,"nama":"Social Media Videos","kategori_id":18,"slug":"social-media-videos","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":111}',
+            ),
+            23 => 
+            array (
+                'id' => 567,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":4,"nama":"E-commerce Product Videos","kategori_id":18,"slug":"e-commerce-product-videos","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":112}',
+            ),
+            24 => 
+            array (
+                'id' => 568,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":5,"nama":"Food & Beverage Photography","kategori_id":18,"slug":"food-beverage-photography","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":113}',
+            ),
+            25 => 
+            array (
+                'id' => 569,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":6,"nama":"Video Ads & Commercials","kategori_id":18,"slug":"video-ads-commercials","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":114}',
+            ),
+            26 => 
+            array (
+                'id' => 570,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":7,"nama":"Video Production","kategori_id":18,"slug":"video-production","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":115}',
+            ),
+            27 => 
+            array (
+                'id' => 571,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":8,"nama":"Video Editing","kategori_id":18,"slug":"video-editing","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":116}',
+            ),
+            28 => 
+            array (
+                'id' => 572,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":9,"nama":"Product Photography","kategori_id":18,"slug":"product-photography","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":117}',
+            ),
+            29 => 
+            array (
+                'id' => 573,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":10,"nama":"Portrait Photography","kategori_id":18,"slug":"portrait-photography","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":118}',
+            ),
+            30 => 
+            array (
+                'id' => 574,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":11,"nama":"Sound Effects","kategori_id":18,"slug":"sound-effects","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":119}',
+            ),
+            31 => 
+            array (
+                'id' => 575,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":12,"nama":"Wedding Photography","kategori_id":18,"slug":"wedding-photography","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":120}',
+            ),
+            32 => 
+            array (
+                'id' => 576,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":13,"nama":"Event Documentation","kategori_id":18,"slug":"event-documentation","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":121}',
+            ),
+            33 => 
+            array (
+                'id' => 577,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":14,"nama":"Whiteboard & Animated Explainers","kategori_id":18,"slug":"whiteboard-animated-explainers","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":122}',
+            ),
+            34 => 
+            array (
+                'id' => 578,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":15,"nama":"Real Estate Photography","kategori_id":18,"slug":"real-estate-photography","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":123}',
+            ),
+            35 => 
+            array (
+                'id' => 579,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":16,"nama":"Photo Editing","kategori_id":18,"slug":"photo-editing","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":124}',
+            ),
+            36 => 
+            array (
+                'id' => 580,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":17,"nama":"Animation for Streamers","kategori_id":18,"slug":"animation-for-streamers","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":125}',
+            ),
+            37 => 
+            array (
+                'id' => 581,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":18,"nama":"Voice Editing","kategori_id":18,"slug":"voice-editing","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":126}',
+            ),
+            38 => 
+            array (
+                'id' => 582,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":19,"nama":"Unboxing Videos","kategori_id":18,"slug":"unboxing-videos","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":127}',
+            ),
+            39 => 
+            array (
+                'id' => 583,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":20,"nama":"Voice Over","kategori_id":18,"slug":"voice-over","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":128}',
+            ),
+            40 => 
+            array (
+                'id' => 584,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":21,"nama":"Lifestyle & Fashion Photography","kategori_id":18,"slug":"lifestyle-fashion-photography","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":129}',
+            ),
+            41 => 
+            array (
+                'id' => 585,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":22,"nama":"Other Video, Photography, Audio","kategori_id":18,"slug":"other-video-photography-audio","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":130}',
+            ),
+            42 => 
+            array (
+                'id' => 586,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":23,"nama":"Corporate Videos","kategori_id":18,"slug":"corporate-videos","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":131}',
+            ),
+            43 => 
+            array (
+                'id' => 587,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":24,"nama":"Subtitle","kategori_id":18,"slug":"subtitle","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":132}',
+            ),
+            44 => 
+            array (
+                'id' => 588,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":25,"nama":"Visual Effects","kategori_id":18,"slug":"visual-effects","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":133}',
+            ),
+            45 => 
+            array (
+                'id' => 589,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":26,"nama":"3D & Animation","kategori_id":18,"slug":"3d-animation","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":134}',
+            ),
+            46 => 
+            array (
+                'id' => 590,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":27,"nama":"Motion Graphics","kategori_id":18,"slug":"motion-graphics","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":135}',
+            ),
+            47 => 
+            array (
+                'id' => 591,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":28,"nama":"Website Content","kategori_id":18,"slug":"website-content","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":136}',
+            ),
+            48 => 
+            array (
+                'id' => 592,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":1,"nama":"Articles & Blog Posts","kategori_id":19,"slug":"articles-blog-posts","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":137}',
+            ),
+            49 => 
+            array (
+                'id' => 593,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+            'data' => '{"urutan":2,"nama":"Product Description Writing (Bahasa)","kategori_id":19,"slug":"product-description-writing-bahasa","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":138}',
+            ),
+            50 => 
+            array (
+                'id' => 594,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":3,"nama":"Book & eBook Writing","kategori_id":19,"slug":"book-ebook-writing","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":139}',
+            ),
+            51 => 
+            array (
+                'id' => 595,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":4,"nama":"Resume Writing","kategori_id":19,"slug":"resume-writing","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":140}',
+            ),
+            52 => 
+            array (
+                'id' => 596,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":5,"nama":"Sales Copy","kategori_id":19,"slug":"sales-copy","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":141}',
+            ),
+            53 => 
+            array (
+                'id' => 597,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":6,"nama":"Creative Writing","kategori_id":19,"slug":"creative-writing","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":142}',
+            ),
+            54 => 
+            array (
+                'id' => 598,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":7,"nama":"Ads Copy","kategori_id":19,"slug":"ads-copy","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":143}',
+            ),
+            55 => 
+            array (
+                'id' => 599,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":8,"nama":"Translation","kategori_id":19,"slug":"translation","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":144}',
+            ),
+            56 => 
+            array (
+                'id' => 600,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":9,"nama":"Proofreading & Editing","kategori_id":19,"slug":"proofreading-editing","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":145}',
+            ),
+            57 => 
+            array (
+                'id' => 601,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":10,"nama":"Other Writing, Translations, Data Entry","kategori_id":19,"slug":"other-writing-translations-data-entry","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":146}',
+            ),
+            58 => 
+            array (
+                'id' => 602,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":11,"nama":"Research & Summaries","kategori_id":19,"slug":"research-summaries","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":147}',
+            ),
+            59 => 
+            array (
+                'id' => 603,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":12,"nama":"Business Names & Slogans","kategori_id":19,"slug":"business-names-slogans","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":148}',
+            ),
+            60 => 
+            array (
+                'id' => 604,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":13,"nama":"Technical Writing","kategori_id":19,"slug":"technical-writing","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":149}',
+            ),
+            61 => 
+            array (
+                'id' => 605,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":14,"nama":"Data Entry in Excel","kategori_id":19,"slug":"data-entry-in-excel","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":150}',
+            ),
+            62 => 
+            array (
+                'id' => 606,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":15,"nama":"Email Copy","kategori_id":19,"slug":"email-copy","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":151}',
+            ),
+            63 => 
+            array (
+                'id' => 607,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":16,"nama":"Social Media Copy","kategori_id":19,"slug":"social-media-copy","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":152}',
+            ),
+            64 => 
+            array (
+                'id' => 608,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":17,"nama":"Data Entry in Website","kategori_id":19,"slug":"data-entry-in-website","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":153}',
+            ),
+            65 => 
+            array (
+                'id' => 609,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":18,"nama":"Podcast Writing","kategori_id":19,"slug":"podcast-writing","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":154}',
+            ),
+            66 => 
+            array (
+                'id' => 610,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":19,"nama":"Press Releases","kategori_id":19,"slug":"press-releases","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":155}',
+            ),
+            67 => 
+            array (
+                'id' => 611,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":20,"nama":"Case Studies","kategori_id":19,"slug":"case-studies","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":156}',
+            ),
+            68 => 
+            array (
+                'id' => 612,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":21,"nama":"Scriptwriting","kategori_id":19,"slug":"scriptwriting","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":157}',
+            ),
+            69 => 
+            array (
+                'id' => 613,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":22,"nama":"Job Descriptions","kategori_id":19,"slug":"job-descriptions","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":158}',
+            ),
+            70 => 
+            array (
+                'id' => 614,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":23,"nama":"Speechwriting","kategori_id":19,"slug":"speechwriting","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":159}',
+            ),
+            71 => 
+            array (
+                'id' => 615,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":24,"nama":"Product Description","kategori_id":19,"slug":"product-description","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":160}',
+            ),
+            72 => 
+            array (
+                'id' => 616,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":25,"nama":"Web Traffic & Analytics","kategori_id":19,"slug":"web-traffic-analytics","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":161}',
+            ),
+            73 => 
+            array (
+                'id' => 617,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":1,"nama":"Mobile App Marketing","kategori_id":20,"slug":"mobile-app-marketing","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":162}',
+            ),
+            74 => 
+            array (
+                'id' => 618,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":2,"nama":"Youtube Marketing","kategori_id":20,"slug":"youtube-marketing","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":163}',
+            ),
+            75 => 
+            array (
+                'id' => 619,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":3,"nama":"Blogger Marketing","kategori_id":20,"slug":"blogger-marketing","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":164}',
+            ),
+            76 => 
+            array (
+                'id' => 620,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":4,"nama":"Social Media Marketing","kategori_id":20,"slug":"social-media-marketing","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":165}',
+            ),
+            77 => 
+            array (
+                'id' => 621,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":5,"nama":"Market Research","kategori_id":20,"slug":"market-research","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":166}',
+            ),
+            78 => 
+            array (
+                'id' => 622,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":6,"nama":"Other Online Marketing Work","kategori_id":20,"slug":"other-online-marketing-work","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":167}',
+            ),
+            79 => 
+            array (
+                'id' => 623,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":7,"nama":"Affiliate Marketing","kategori_id":20,"slug":"affiliate-marketing","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":168}',
+            ),
+            80 => 
+            array (
+                'id' => 624,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":8,"nama":"Buzzer Marketing","kategori_id":20,"slug":"buzzer-marketing","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":169}',
+            ),
+            81 => 
+            array (
+                'id' => 625,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":9,"nama":"Add Social Media Followers","kategori_id":20,"slug":"add-social-media-followers","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":170}',
+            ),
+            82 => 
+            array (
+                'id' => 626,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":10,"nama":"Add Reviews","kategori_id":20,"slug":"add-reviews","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":171}',
+            ),
+            83 => 
+            array (
+                'id' => 627,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+            'data' => '{"urutan":11,"nama":"Search Engine Marketing (SEM)","kategori_id":20,"slug":"search-engine-marketing-sem","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":172}',
+            ),
+            84 => 
+            array (
+                'id' => 628,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":12,"nama":"Public Relation","kategori_id":20,"slug":"public-relation","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":173}',
+            ),
+            85 => 
+            array (
+                'id' => 629,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":13,"nama":"Video Marketing","kategori_id":20,"slug":"video-marketing","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":174}',
+            ),
+            86 => 
+            array (
+                'id' => 630,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":14,"nama":"Ecommerce Marketing","kategori_id":20,"slug":"ecommerce-marketing","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":175}',
+            ),
+            87 => 
+            array (
+                'id' => 631,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":15,"nama":"Paid ads - Instagram","kategori_id":20,"slug":"paid-ads-instagram","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":176}',
+            ),
+            88 => 
+            array (
+                'id' => 632,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":16,"nama":"Book & eBook Marketing","kategori_id":20,"slug":"book-ebook-marketing","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":177}',
+            ),
+            89 => 
+            array (
+                'id' => 633,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":17,"nama":"Beauty Product Reviews","kategori_id":20,"slug":"beauty-product-reviews","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":178}',
+            ),
+            90 => 
+            array (
+                'id' => 634,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":18,"nama":"Email Marketing","kategori_id":20,"slug":"email-marketing","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":179}',
+            ),
+            91 => 
+            array (
+                'id' => 635,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":19,"nama":"Create IG Reels","kategori_id":20,"slug":"create-ig-reels","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":180}',
+            ),
+            92 => 
+            array (
+                'id' => 636,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+            'data' => '{"urutan":20,"nama":"Influencer Marketing (Selebgram)","kategori_id":20,"slug":"influencer-marketing-selebgram","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":181}',
+            ),
+            93 => 
+            array (
+                'id' => 637,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":21,"nama":"Online Store Product Updates","kategori_id":20,"slug":"online-store-product-updates","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":182}',
+            ),
+            94 => 
+            array (
+                'id' => 638,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":22,"nama":"Tiktok Live Marketing","kategori_id":20,"slug":"tiktok-live-marketing","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":183}',
+            ),
+            95 => 
+            array (
+                'id' => 639,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+            'data' => '{"urutan":23,"nama":"SEO (Search Engine Optimization)","kategori_id":20,"slug":"seo-search-engine-optimization","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":184}',
+            ),
+            96 => 
+            array (
+                'id' => 640,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":24,"nama":"Backlink PBN","kategori_id":20,"slug":"backlink-pbn","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":185}',
+            ),
+            97 => 
+            array (
+                'id' => 641,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":25,"nama":"Podcast Marketing","kategori_id":20,"slug":"podcast-marketing","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":186}',
+            ),
+            98 => 
+            array (
+                'id' => 642,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":26,"nama":"Paid ads - Facebook","kategori_id":20,"slug":"paid-ads-facebook","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":187}',
+            ),
+            99 => 
+            array (
+                'id' => 643,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 21:54:54',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"urutan":27,"nama":"Guest Posting","kategori_id":20,"slug":"guest-posting","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":188}',
+            ),
         ));
         
         
