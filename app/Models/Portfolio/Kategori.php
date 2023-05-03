@@ -24,6 +24,7 @@ class Kategori extends Model
     protected $table = 'portfolio_kategori';
     const tableName = 'portfolio_kategori';
     const feCacheKey = 'fePortfolioKategoriHome';
+    const feNavKey = 'fePortfolioNav';
 
     public function sluggable(): array
     {
@@ -37,6 +38,11 @@ class Kategori extends Model
     public function protfolios()
     {
         return $this->hasMany(Portfolio::class, 'kategori_id', 'id');
+    }
+
+    public function sub()
+    {
+        return $this->hasMany(SubKategori::class, 'kategori_id', 'id');
     }
 
     public static function datatable(Request $request): mixed
@@ -160,6 +166,21 @@ class Kategori extends Model
 
     public static function clearCache()
     {
-        return Cache::pull(static::feCacheKey);
+
+        $cacheKey = [
+            static::feCacheKey,
+            static::feNavKey,
+        ];
+
+        foreach ($cacheKey as $key) Cache::pull($key);
+    }
+
+    public static function getNavData()
+    {
+        return Cache::rememberForever(static::feNavKey, function () {
+            return static::with(['sub' => function ($query) {
+                return $query->orderBy('urutan');
+            }])->get();
+        });
     }
 }

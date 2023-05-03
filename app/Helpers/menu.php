@@ -2,6 +2,7 @@
 
 use App\Models\Menu\Admin as MenuAdmin;
 use App\Models\Menu\Frontend as MenuFrontend;
+use App\Models\Portfolio\Kategori as PortfolioKategori;
 use Illuminate\Support\Facades\Route;
 
 if (!function_exists('menu_parse')) {
@@ -218,6 +219,35 @@ if (!function_exists('navbar_menu_front')) {
             if ($separator) {
                 // separator
                 // $menu_body .= "<li class=\"sub-category\"><h3>{$menu->title}</h3></li> ";
+            } elseif ($menu->icon == "__layanan__") { // khusus
+                $kategories = PortfolioKategori::getNavData();
+                $child_menu = '';
+                foreach ($kategories as $c) {
+                    $sub_str = '';
+                    foreach ($c->sub as $sub) {
+                        $link = url('layanan/' . $sub);
+                        $sub_str .= <<<HTML
+                            <li><a href="{$link}">{$sub->nama}</a></li>
+                        HTML;
+                    }
+
+                    $child_menu .= <<<HTML
+                        <li class="menu-item-has-children"><a href="#">{$c->nama}</a>
+                            <ul class="sub-menu">
+                                {$sub_str}
+                            </ul>
+                        </li>
+                    HTML;
+                }
+
+
+                $menu_body .= <<<HTML
+                            <li class="menu-item-has-children"><a href="javascript:void(0)">$menu->title</a>
+                                <ul class="sub-menu">
+                                    {$child_menu}
+                                </ul>
+                            </li>
+                HTML;
             } elseif ($menu->children) {
                 $child_menu = '';
                 $child_active = false;
@@ -235,7 +265,7 @@ if (!function_exists('navbar_menu_front')) {
                 $menu_body .= <<<HTML
                             <li class="menu-item-has-children $menu_active"><a href="javascript:void(0)">$menu->title</a>
                                 <ul class="sub-menu">
-                                $child_menu
+                                    $child_menu
                                 </ul>
                             </li>
                 HTML;

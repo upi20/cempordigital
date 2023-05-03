@@ -210,6 +210,7 @@ class Portfolio extends Model
 
     public static function clearCache()
     {
+        Kategori::clearCache();
         return Cache::pull(static::feCacheKey);
     }
 }
