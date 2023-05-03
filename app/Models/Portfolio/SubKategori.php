@@ -9,9 +9,10 @@ use Yajra\Datatables\Datatables;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Http\Request;
 use Haruncpi\LaravelUserActivity\Traits\Loggable;
+use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Support\Facades\Cache;
 
-class Kategori extends Model
+class SubKategori extends Model
 {
     use HasFactory, Sluggable, Loggable;
     protected $fillable = [
@@ -19,11 +20,12 @@ class Kategori extends Model
         'nama',
         'slug',
         'keterangan',
+        'kategori_id',
     ];
     protected $primaryKey = 'id';
-    protected $table = 'portfolio_kategori';
-    const tableName = 'portfolio_kategori';
-    const feCacheKey = 'fePortfolioKategoriHome';
+    protected $table = 'portfolio_sub_kategori';
+    const tableName = 'portfolio_sub_kategori';
+    const feCacheKey = 'fePortfolioSubKategoriHome';
 
     public function sluggable(): array
     {
@@ -34,9 +36,9 @@ class Kategori extends Model
         ];
     }
 
-    public function protfolios()
+    public function kategori(): Relation
     {
-        return $this->hasMany(Portfolio::class, 'kategori_id', 'id');
+        return $this->hasMany(Kategori::class, 'kategori_id', 'id');
     }
 
     public static function datatable(Request $request): mixed
@@ -44,7 +46,6 @@ class Kategori extends Model
         // list table
         $query = [];
         $table = static::tableName;
-        $t_sub = SubKategori::tableName;
 
         // cusotm query
         // ========================================================================================================
@@ -65,12 +66,6 @@ class Kategori extends Model
         $query = array_merge($query, $date_format_fun('updated_at', '%d-%b-%Y', $c_updated));
         $query = array_merge($query, $date_format_fun('updated_at', '%W, %d %M %Y %H:%i:%s', $c_updated_str));
 
-        // sub
-        $c_sub_count = 'sub_count';
-        $query[$c_sub_count] = <<<SQL
-                    (select count(*) from $t_sub where $t_sub.kategori_id = $table.id limit 1)
-                SQL;
-        $query["{$c_sub_count}_alias"] = $c_sub_count;
         // ========================================================================================================
 
 
@@ -84,7 +79,6 @@ class Kategori extends Model
             $c_created_str,
             $c_updated,
             $c_updated_str,
-            $c_sub_count,
         ];
 
         $to_db_raw = array_map(function ($a) use ($sraa) {
@@ -106,7 +100,7 @@ class Kategori extends Model
         };
 
         // filter custom
-        $filters = [];
+        $filters = ['kategori_id'];
         foreach ($filters as  $f) {
             if ($f_c($f) !== false) {
                 $model->whereRaw("$table.$f='{$f_c($f)}'");
@@ -148,18 +142,5 @@ class Kategori extends Model
 
         // create datatable
         return $datatable->make(true);
-    }
-
-    public static function getFeHomeData()
-    {
-        return Cache::rememberForever(static::feCacheKey, function () {
-            return static::with(['kategori', 'fotos', 'marketplaces.jenis'])
-                ->where('tampilkan_di_halaman_utama', 1)->orderBy('created_at', 'desc')->get();
-        });
-    }
-
-    public static function clearCache()
-    {
-        return Cache::pull(static::feCacheKey);
     }
 }

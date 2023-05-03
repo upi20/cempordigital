@@ -56,10 +56,14 @@ use App\Http\Controllers\Admin\Home\KataKataController;
 use App\Http\Controllers\Admin\Home\PengurusController;
 use App\Http\Controllers\Admin\Home\ProgramPembelajaranController;
 use App\Http\Controllers\Admin\Home\TestimonialController;
-use App\Http\Controllers\Admin\Portfolio\KategoriController as PortfolioKategoriController;
-use App\Http\Controllers\Admin\Portfolio\PortfolioController;
 use App\Http\Controllers\Admin\Produk\MarketplaceController;
 use App\Http\Controllers\Admin\VistorController;
+
+// Portfolio ==========================================================================================================
+use App\Http\Controllers\Admin\Portfolio\KategoriController as PortfolioKategoriController;
+use App\Http\Controllers\Admin\Portfolio\PortfolioController;
+use App\Http\Controllers\Admin\Portfolio\SubKategoriController as PortfolioSubKategoriController;
+
 
 // ====================================================================================================================
 
@@ -523,6 +527,16 @@ Route::prefix($prefix)->group(function () use ($prefix, $name) {
         Route::post('/', 'insert')->name("$name.insert")->middleware("permission:$name.insert");
         Route::post('/update', 'update')->name("$name.update")->middleware("permission:$name.update");
         Route::delete('/{model}', 'delete')->name("$name.delete")->middleware("permission:$name.delete");
+    });
+
+    $prefix = 'sub_kategori';
+    Route::prefix($prefix)->controller(PortfolioSubKategoriController::class)->group(function () use ($prefix, $name) {
+        $name = "$name.$prefix"; // admin.portfolio.sub_kategori
+        Route::post('/', 'insert')->name("$name.insert")->middleware("permission:$name.insert");
+        Route::get('/find', 'find')->name("$name.find")->middleware("permission:$name.update");
+        Route::post('/update', 'update')->name("$name.update")->middleware("permission:$name.update");
+        Route::delete('/{model}', 'delete')->name("$name.delete")->middleware("permission:$name.delete");
+        Route::get('/{kategori:slug}', 'index')->name($name)->middleware("permission:$name");
     });
 });
 

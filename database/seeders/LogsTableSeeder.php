@@ -4087,6 +4087,78 @@ class LogsTableSeeder extends Seeder
                 'log_type' => 'edit',
                 'data' => '{"id":414,"parent_id":null,"title":"Visi Dan Misi","icon":null,"route":"admin.setting.visi_misi","sequence":45,"active":0,"type":1,"created_at":"2023-01-18 01:51:32","updated_at":"2023-04-13 13:06:20"}',
             ),
+            452 => 
+            array (
+                'id' => 453,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 09:42:58',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"keterangan":null,"nama":"sub logo","kategori_id":"11","urutan":1,"slug":"sub-logo","updated_at":"2023-05-03T02:42:58.000000Z","created_at":"2023-05-03T02:42:58.000000Z","id":1}',
+            ),
+            453 => 
+            array (
+                'id' => 454,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 09:43:58',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'delete',
+                'data' => '{"id":1,"kategori_id":11,"urutan":1,"nama":"sub logo","slug":"sub-logo","keterangan":null,"created_at":"2023-05-03 09:42:58","updated_at":"2023-05-03 09:42:58"}',
+            ),
+            454 => 
+            array (
+                'id' => 455,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 09:44:05',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"keterangan":null,"nama":"sub logo","kategori_id":"11","urutan":1,"slug":"sub-logo","updated_at":"2023-05-03T02:44:05.000000Z","created_at":"2023-05-03T02:44:05.000000Z","id":2}',
+            ),
+            455 => 
+            array (
+                'id' => 456,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 09:47:46',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"keterangan":null,"nama":"Sub ilustrator","kategori_id":"7","urutan":2,"slug":"sub-ilustrator","updated_at":"2023-05-03T02:47:46.000000Z","created_at":"2023-05-03T02:47:46.000000Z","id":3}',
+            ),
+            456 => 
+            array (
+                'id' => 457,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 09:48:41',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'delete',
+                'data' => '{"id":3,"kategori_id":7,"urutan":2,"nama":"Sub ilustrator","slug":"sub-ilustrator","keterangan":null,"created_at":"2023-05-03 09:47:46","updated_at":"2023-05-03 09:47:46"}',
+            ),
+            457 => 
+            array (
+                'id' => 458,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 09:48:48',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"keterangan":null,"nama":"Sub ilustrator","kategori_id":"7","urutan":1,"slug":"sub-ilustrator","updated_at":"2023-05-03T02:48:48.000000Z","created_at":"2023-05-03T02:48:48.000000Z","id":4}',
+            ),
+            458 => 
+            array (
+                'id' => 459,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 09:48:53',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"keterangan":null,"nama":"ss","kategori_id":"7","urutan":2,"slug":"ss","updated_at":"2023-05-03T02:48:53.000000Z","created_at":"2023-05-03T02:48:53.000000Z","id":5}',
+            ),
+            459 => 
+            array (
+                'id' => 460,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 09:49:59',
+                'table_name' => 'portfolio_sub_kategori',
+                'log_type' => 'create',
+                'data' => '{"keterangan":null,"nama":"logo2","kategori_id":"11","urutan":2,"slug":"logo2","updated_at":"2023-05-03T02:49:59.000000Z","created_at":"2023-05-03T02:49:59.000000Z","id":6}',
+            ),
         ));
         
         

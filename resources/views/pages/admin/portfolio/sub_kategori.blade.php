@@ -2,25 +2,27 @@
 
 @section('content')
     @php
-        $can_insert = auth_can(h_prefix('insert'));
-        $can_update = auth_can(h_prefix('update'));
-        $can_delete = auth_can(h_prefix('delete'));
-        $can_sub_kategori = auth_can(h_prefix('sub_kategori', 1));
+        $can_insert = auth_can(h_prefix('insert', 1));
+        $can_update = auth_can(h_prefix('update', 1));
+        $can_delete = auth_can(h_prefix('delete', 1));
     @endphp
     <div class="card mt-3">
         <div class="card-body">
             <div class="card-title d-md-flex flex-row justify-content-between">
                 <div>
-                    <h6 class="mt-2 text-uppercase">Data {{ $page_attr['title'] }}</h6>
+                    <h6 class="mt-2 text-uppercase">Data {{ $page_attr['title'] }} | {{ $kategori->nama }}</h6>
                 </div>
-                @if ($can_insert)
-                    <div>
+                <div>
+                    <a class="btn btn-rounded btn-secondary btn-sm" href="{{ URL::previous() }}">
+                        <i class="fas fa-arrow-left"></i> Kembali
+                    </a>
+                    @if ($can_insert)
                         <button type="button" class="btn btn-rounded btn-primary btn-sm" data-bs-effect="effect-scale"
                             data-bs-toggle="modal" href="#modal-default" onclick="addFunc()" data-target="#modal-default">
                             <i class="fas fa-plus"></i> Tambah
                         </button>
-                    </div>
-                @endif
+                    @endif
+                </div>
             </div>
             <hr class="mt-1" />
             <table class="table table-striped table-hover" id="tbl_main">
@@ -28,7 +30,6 @@
                     <tr>
                         <th>Urutan</th>
                         <th>Nama</th>
-                        <th>Sub</th>
                         <th>Keterangan</th>
                         {!! $can_delete || $can_update ? '<th>Aksi</th>' : '' !!}
                     </tr>
@@ -52,6 +53,7 @@
                     <form action="javascript:void(0)" id="MainForm" name="MainForm" method="POST"
                         enctype="multipart/form-data" class="row g-3">
                         <input type="hidden" name="id" id="id">
+                        <input type="hidden" name="kategori_id" id="kategori_id" value="{{ $kategori->id }}">
                         <div class="col-12">
                             <label class="form-label mb-1" for="urutan">Urutan</label>
                             <input type="number" class="form-control" id="urutan" name="urutan" placeholder="Urutan" />
@@ -97,7 +99,6 @@
             params: [
                 'can_update' => $can_update ? 'true' : 'false',
                 'can_delete' => $can_delete ? 'true' : 'false',
-                'can_sub_kategori' => $can_sub_kategori ? 'true' : 'false',
                 'page_title' => $page_attr['title'],
             ],
         );

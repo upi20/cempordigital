@@ -20,6 +20,7 @@ use App\Models\Pendaftaran\GForm;
 use App\Models\Portfolio\Item as PortfolioItem;
 use App\Models\Portfolio\Kategori as PortfolioKategori;
 use App\Models\Portfolio\Portfolio;
+use App\Models\Portfolio\SubKategori as PortfolioSubKategori;
 use App\Models\RoleHasMenu;
 use App\Models\Setting\HomeSlider;
 use App\Models\SocialMedia;
@@ -139,6 +140,7 @@ class backup extends Command
             // ],
             'portfolio' => [
                 PortfolioKategori::tableName,
+                PortfolioSubKategori::tableName,
                 Portfolio::tableName,
                 PortfolioItem::tableName,
             ],

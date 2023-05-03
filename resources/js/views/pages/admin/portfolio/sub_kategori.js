@@ -1,6 +1,5 @@
 const can_update = "{{ $can_update == 'true' ? 'true' : 'false' }}" === "true";
 const can_delete = "{{ $can_delete == 'true' ? 'true' : 'false' }}" === "true";
-const can_sub_kategori = "{{ $can_sub_kategori == 'true' ? 'true' : 'false' }}" === "true";
 const table_html = $('#tbl_main');
 let isEdit = true;
 $(document).ready(function () {
@@ -20,9 +19,10 @@ $(document).ready(function () {
         bAutoWidth: false,
         type: 'GET',
         ajax: {
-            url: "{{ route(l_prefix($hpu)) }}",
+            url: "{{ url(l_prefix_uri($hpu)) }}",
             data: function (d) {
                 d['filter[tampilkan]'] = $('#filter_tampilkan').val();
+                d['filter[kategori_id]'] = $('#kategori_id').val();
             }
         },
         columns: [{
@@ -34,24 +34,18 @@ $(document).ready(function () {
             name: 'nama'
         },
         {
-            data: 'sub_count',
-            name: 'sub_count'
-        },
-        {
             data: 'keterangan',
             name: 'keterangan',
         },
-        ...(can_update || can_delete || can_sub_kategori ? [{
+        ...(can_update || can_delete ? [{
             data: 'id',
             name: 'id',
             render(data, type, full, meta) {
-                const btn_sub_kategori = can_sub_kategori ? `<a class="btn btn-rounded btn-secondary btn-sm me-1" data-toggle="tooltip" title="Sub Kategori" href="{{route(l_prefix($hpu, min:1))}}/sub_kategori/${full.slug}">
-                                <i class="fas fa-list"></i></a>` : '';
                 const btn_update = can_update ? `<button type="button" class="btn btn-rounded btn-primary btn-sm me-1" data-toggle="tooltip" title="Ubah Data" onClick="editFunc('${data}')">
                                 <i class="fas fa-edit"></i></button>` : '';
                 const btn_delete = can_delete ? `<button type="button" class="btn btn-rounded btn-danger btn-sm me-1" data-toggle="tooltip" title="Hapus Data" onClick="deleteFunc('${data}')">
                                 <i class="fas fa-trash"></i></button>` : '';
-                return btn_sub_kategori + btn_update + btn_delete;
+                return btn_update + btn_delete;
             },
             orderable: false
         }] : []),
@@ -81,8 +75,8 @@ $(document).ready(function () {
         var formData = new FormData(this);
         setBtnLoading('#btn-save', 'Simpan Perubahan');
         const route = ($('#id').val() == '') ?
-            "{{ route(l_prefix($hpu, 'insert')) }}" :
-            "{{ route(l_prefix($hpu, 'update')) }}";
+            "{{ route(l_prefix($hpu, 'insert', 1)) }}" :
+            "{{ route(l_prefix($hpu, 'update', 1)) }}";
         $.ajax({
             type: "POST",
             url: route,
@@ -146,7 +140,7 @@ function editFunc(id) {
     $.LoadingOverlay("show");
     $.ajax({
         type: "GET",
-        url: `{{ route(l_prefix($hpu, 'find')) }}`,
+        url: `{{ route(l_prefix($hpu, 'find', 1)) }}`,
         headers: {
             'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
         },
@@ -161,6 +155,7 @@ function editFunc(id) {
             $('#nama').val(data.nama);
             $('#keterangan').val(data.keterangan);
             $('#urutan').val(data.urutan);
+            $('#kategori_id').val(data.kategori_id);
         },
         error: function (data) {
             Swal.fire({
@@ -188,7 +183,7 @@ function deleteFunc(id) {
     }).then(function (result) {
         if (result.value) {
             $.ajax({
-                url: `{{ url(l_prefix_uri($hpu)) }}/${id}`,
+                url: `{{ url(l_prefix_uri($hpu, null, 1)) }}/${id}`,
                 type: 'DELETE',
                 dataType: 'json',
                 headers: {

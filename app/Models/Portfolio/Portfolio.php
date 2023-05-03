@@ -50,6 +50,11 @@ class Portfolio extends Model
         return $this->belongsTo(Kategori::class, 'kategori_id', 'id');
     }
 
+    public function sub()
+    {
+        return $this->hasMany(SubKategori::class, 'kategori_id', 'id');
+    }
+
     public function items()
     {
         return $this->hasMany(Item::class, 'portfolio_id', 'id');
