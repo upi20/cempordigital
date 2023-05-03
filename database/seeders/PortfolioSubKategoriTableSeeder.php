@@ -21,50 +21,6 @@ class PortfolioSubKategoriTableSeeder extends Seeder
         \DB::table('portfolio_sub_kategori')->insert(array (
             0 => 
             array (
-                'id' => 2,
-                'kategori_id' => 11,
-                'urutan' => 1,
-                'nama' => 'sub logo',
-                'slug' => 'sub-logo',
-                'keterangan' => NULL,
-                'created_at' => '2023-05-03 09:44:05',
-                'updated_at' => '2023-05-03 09:44:05',
-            ),
-            1 => 
-            array (
-                'id' => 4,
-                'kategori_id' => 7,
-                'urutan' => 1,
-                'nama' => 'Sub ilustrator',
-                'slug' => 'sub-ilustrator',
-                'keterangan' => NULL,
-                'created_at' => '2023-05-03 09:48:48',
-                'updated_at' => '2023-05-03 09:48:48',
-            ),
-            2 => 
-            array (
-                'id' => 5,
-                'kategori_id' => 7,
-                'urutan' => 2,
-                'nama' => 'ss',
-                'slug' => 'ss',
-                'keterangan' => NULL,
-                'created_at' => '2023-05-03 09:48:53',
-                'updated_at' => '2023-05-03 09:48:53',
-            ),
-            3 => 
-            array (
-                'id' => 6,
-                'kategori_id' => 11,
-                'urutan' => 2,
-                'nama' => 'logo2',
-                'slug' => 'logo2',
-                'keterangan' => NULL,
-                'created_at' => '2023-05-03 09:49:59',
-                'updated_at' => '2023-05-03 09:49:59',
-            ),
-            4 => 
-            array (
                 'id' => 50,
                 'kategori_id' => 17,
                 'urutan' => 1,
@@ -74,7 +30,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            5 => 
+            1 => 
             array (
                 'id' => 51,
                 'kategori_id' => 17,
@@ -85,7 +41,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            6 => 
+            2 => 
             array (
                 'id' => 52,
                 'kategori_id' => 17,
@@ -96,7 +52,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            7 => 
+            3 => 
             array (
                 'id' => 53,
                 'kategori_id' => 17,
@@ -107,7 +63,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            8 => 
+            4 => 
             array (
                 'id' => 54,
                 'kategori_id' => 17,
@@ -118,7 +74,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            9 => 
+            5 => 
             array (
                 'id' => 55,
                 'kategori_id' => 17,
@@ -129,7 +85,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            10 => 
+            6 => 
             array (
                 'id' => 56,
                 'kategori_id' => 17,
@@ -140,7 +96,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            11 => 
+            7 => 
             array (
                 'id' => 57,
                 'kategori_id' => 17,
@@ -151,7 +107,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            12 => 
+            8 => 
             array (
                 'id' => 58,
                 'kategori_id' => 17,
@@ -162,7 +118,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            13 => 
+            9 => 
             array (
                 'id' => 59,
                 'kategori_id' => 17,
@@ -173,7 +129,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            14 => 
+            10 => 
             array (
                 'id' => 60,
                 'kategori_id' => 17,
@@ -184,7 +140,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            15 => 
+            11 => 
             array (
                 'id' => 61,
                 'kategori_id' => 17,
@@ -195,7 +151,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            16 => 
+            12 => 
             array (
                 'id' => 62,
                 'kategori_id' => 17,
@@ -206,7 +162,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            17 => 
+            13 => 
             array (
                 'id' => 63,
                 'kategori_id' => 17,
@@ -217,7 +173,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            18 => 
+            14 => 
             array (
                 'id' => 64,
                 'kategori_id' => 17,
@@ -228,7 +184,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            19 => 
+            15 => 
             array (
                 'id' => 65,
                 'kategori_id' => 17,
@@ -239,7 +195,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            20 => 
+            16 => 
             array (
                 'id' => 66,
                 'kategori_id' => 17,
@@ -250,7 +206,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            21 => 
+            17 => 
             array (
                 'id' => 67,
                 'kategori_id' => 17,
@@ -261,7 +217,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            22 => 
+            18 => 
             array (
                 'id' => 68,
                 'kategori_id' => 17,
@@ -272,7 +228,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            23 => 
+            19 => 
             array (
                 'id' => 69,
                 'kategori_id' => 17,
@@ -283,7 +239,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            24 => 
+            20 => 
             array (
                 'id' => 70,
                 'kategori_id' => 17,
@@ -294,7 +250,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            25 => 
+            21 => 
             array (
                 'id' => 71,
                 'kategori_id' => 17,
@@ -305,7 +261,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            26 => 
+            22 => 
             array (
                 'id' => 72,
                 'kategori_id' => 17,
@@ -316,7 +272,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            27 => 
+            23 => 
             array (
                 'id' => 73,
                 'kategori_id' => 17,
@@ -327,7 +283,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            28 => 
+            24 => 
             array (
                 'id' => 74,
                 'kategori_id' => 17,
@@ -338,7 +294,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            29 => 
+            25 => 
             array (
                 'id' => 75,
                 'kategori_id' => 17,
@@ -349,7 +305,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            30 => 
+            26 => 
             array (
                 'id' => 76,
                 'kategori_id' => 17,
@@ -360,7 +316,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            31 => 
+            27 => 
             array (
                 'id' => 77,
                 'kategori_id' => 17,
@@ -371,7 +327,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            32 => 
+            28 => 
             array (
                 'id' => 78,
                 'kategori_id' => 17,
@@ -382,7 +338,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            33 => 
+            29 => 
             array (
                 'id' => 79,
                 'kategori_id' => 17,
@@ -393,7 +349,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            34 => 
+            30 => 
             array (
                 'id' => 80,
                 'kategori_id' => 17,
@@ -404,7 +360,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            35 => 
+            31 => 
             array (
                 'id' => 81,
                 'kategori_id' => 17,
@@ -415,7 +371,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            36 => 
+            32 => 
             array (
                 'id' => 82,
                 'kategori_id' => 17,
@@ -426,7 +382,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            37 => 
+            33 => 
             array (
                 'id' => 83,
                 'kategori_id' => 17,
@@ -437,7 +393,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            38 => 
+            34 => 
             array (
                 'id' => 84,
                 'kategori_id' => 17,
@@ -448,7 +404,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            39 => 
+            35 => 
             array (
                 'id' => 85,
                 'kategori_id' => 17,
@@ -459,7 +415,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            40 => 
+            36 => 
             array (
                 'id' => 86,
                 'kategori_id' => 17,
@@ -470,7 +426,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            41 => 
+            37 => 
             array (
                 'id' => 87,
                 'kategori_id' => 17,
@@ -481,7 +437,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            42 => 
+            38 => 
             array (
                 'id' => 88,
                 'kategori_id' => 17,
@@ -492,7 +448,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            43 => 
+            39 => 
             array (
                 'id' => 89,
                 'kategori_id' => 17,
@@ -503,7 +459,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            44 => 
+            40 => 
             array (
                 'id' => 90,
                 'kategori_id' => 17,
@@ -514,7 +470,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            45 => 
+            41 => 
             array (
                 'id' => 91,
                 'kategori_id' => 17,
@@ -525,7 +481,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            46 => 
+            42 => 
             array (
                 'id' => 92,
                 'kategori_id' => 17,
@@ -536,7 +492,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            47 => 
+            43 => 
             array (
                 'id' => 93,
                 'kategori_id' => 17,
@@ -547,7 +503,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            48 => 
+            44 => 
             array (
                 'id' => 94,
                 'kategori_id' => 16,
@@ -558,7 +514,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            49 => 
+            45 => 
             array (
                 'id' => 95,
                 'kategori_id' => 16,
@@ -569,7 +525,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            50 => 
+            46 => 
             array (
                 'id' => 96,
                 'kategori_id' => 16,
@@ -580,7 +536,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            51 => 
+            47 => 
             array (
                 'id' => 97,
                 'kategori_id' => 16,
@@ -591,7 +547,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            52 => 
+            48 => 
             array (
                 'id' => 98,
                 'kategori_id' => 16,
@@ -602,7 +558,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            53 => 
+            49 => 
             array (
                 'id' => 99,
                 'kategori_id' => 16,
@@ -613,7 +569,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            54 => 
+            50 => 
             array (
                 'id' => 100,
                 'kategori_id' => 16,
@@ -624,7 +580,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            55 => 
+            51 => 
             array (
                 'id' => 101,
                 'kategori_id' => 16,
@@ -635,7 +591,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            56 => 
+            52 => 
             array (
                 'id' => 102,
                 'kategori_id' => 16,
@@ -646,7 +602,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            57 => 
+            53 => 
             array (
                 'id' => 103,
                 'kategori_id' => 16,
@@ -657,7 +613,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            58 => 
+            54 => 
             array (
                 'id' => 104,
                 'kategori_id' => 16,
@@ -668,7 +624,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            59 => 
+            55 => 
             array (
                 'id' => 105,
                 'kategori_id' => 16,
@@ -679,7 +635,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            60 => 
+            56 => 
             array (
                 'id' => 106,
                 'kategori_id' => 16,
@@ -690,7 +646,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            61 => 
+            57 => 
             array (
                 'id' => 107,
                 'kategori_id' => 16,
@@ -701,7 +657,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            62 => 
+            58 => 
             array (
                 'id' => 108,
                 'kategori_id' => 16,
@@ -712,7 +668,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            63 => 
+            59 => 
             array (
                 'id' => 109,
                 'kategori_id' => 18,
@@ -723,7 +679,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            64 => 
+            60 => 
             array (
                 'id' => 110,
                 'kategori_id' => 18,
@@ -734,7 +690,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            65 => 
+            61 => 
             array (
                 'id' => 111,
                 'kategori_id' => 18,
@@ -745,7 +701,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            66 => 
+            62 => 
             array (
                 'id' => 112,
                 'kategori_id' => 18,
@@ -756,7 +712,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            67 => 
+            63 => 
             array (
                 'id' => 113,
                 'kategori_id' => 18,
@@ -767,7 +723,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            68 => 
+            64 => 
             array (
                 'id' => 114,
                 'kategori_id' => 18,
@@ -778,7 +734,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            69 => 
+            65 => 
             array (
                 'id' => 115,
                 'kategori_id' => 18,
@@ -789,7 +745,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            70 => 
+            66 => 
             array (
                 'id' => 116,
                 'kategori_id' => 18,
@@ -800,7 +756,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            71 => 
+            67 => 
             array (
                 'id' => 117,
                 'kategori_id' => 18,
@@ -811,7 +767,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            72 => 
+            68 => 
             array (
                 'id' => 118,
                 'kategori_id' => 18,
@@ -822,7 +778,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            73 => 
+            69 => 
             array (
                 'id' => 119,
                 'kategori_id' => 18,
@@ -833,7 +789,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            74 => 
+            70 => 
             array (
                 'id' => 120,
                 'kategori_id' => 18,
@@ -844,7 +800,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            75 => 
+            71 => 
             array (
                 'id' => 121,
                 'kategori_id' => 18,
@@ -855,7 +811,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            76 => 
+            72 => 
             array (
                 'id' => 122,
                 'kategori_id' => 18,
@@ -866,7 +822,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            77 => 
+            73 => 
             array (
                 'id' => 123,
                 'kategori_id' => 18,
@@ -877,7 +833,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            78 => 
+            74 => 
             array (
                 'id' => 124,
                 'kategori_id' => 18,
@@ -888,7 +844,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            79 => 
+            75 => 
             array (
                 'id' => 125,
                 'kategori_id' => 18,
@@ -899,7 +855,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            80 => 
+            76 => 
             array (
                 'id' => 126,
                 'kategori_id' => 18,
@@ -910,7 +866,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            81 => 
+            77 => 
             array (
                 'id' => 127,
                 'kategori_id' => 18,
@@ -921,7 +877,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            82 => 
+            78 => 
             array (
                 'id' => 128,
                 'kategori_id' => 18,
@@ -932,7 +888,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            83 => 
+            79 => 
             array (
                 'id' => 129,
                 'kategori_id' => 18,
@@ -943,7 +899,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            84 => 
+            80 => 
             array (
                 'id' => 130,
                 'kategori_id' => 18,
@@ -954,7 +910,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            85 => 
+            81 => 
             array (
                 'id' => 131,
                 'kategori_id' => 18,
@@ -965,7 +921,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            86 => 
+            82 => 
             array (
                 'id' => 132,
                 'kategori_id' => 18,
@@ -976,7 +932,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            87 => 
+            83 => 
             array (
                 'id' => 133,
                 'kategori_id' => 18,
@@ -987,7 +943,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            88 => 
+            84 => 
             array (
                 'id' => 134,
                 'kategori_id' => 18,
@@ -998,7 +954,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            89 => 
+            85 => 
             array (
                 'id' => 135,
                 'kategori_id' => 18,
@@ -1009,7 +965,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            90 => 
+            86 => 
             array (
                 'id' => 136,
                 'kategori_id' => 18,
@@ -1020,7 +976,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            91 => 
+            87 => 
             array (
                 'id' => 137,
                 'kategori_id' => 19,
@@ -1031,7 +987,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            92 => 
+            88 => 
             array (
                 'id' => 138,
                 'kategori_id' => 19,
@@ -1042,7 +998,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            93 => 
+            89 => 
             array (
                 'id' => 139,
                 'kategori_id' => 19,
@@ -1053,7 +1009,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            94 => 
+            90 => 
             array (
                 'id' => 140,
                 'kategori_id' => 19,
@@ -1064,7 +1020,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            95 => 
+            91 => 
             array (
                 'id' => 141,
                 'kategori_id' => 19,
@@ -1075,7 +1031,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            96 => 
+            92 => 
             array (
                 'id' => 142,
                 'kategori_id' => 19,
@@ -1086,7 +1042,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            97 => 
+            93 => 
             array (
                 'id' => 143,
                 'kategori_id' => 19,
@@ -1097,7 +1053,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            98 => 
+            94 => 
             array (
                 'id' => 144,
                 'kategori_id' => 19,
@@ -1108,7 +1064,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            99 => 
+            95 => 
             array (
                 'id' => 145,
                 'kategori_id' => 19,
@@ -1119,7 +1075,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            100 => 
+            96 => 
             array (
                 'id' => 146,
                 'kategori_id' => 19,
@@ -1130,7 +1086,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            101 => 
+            97 => 
             array (
                 'id' => 147,
                 'kategori_id' => 19,
@@ -1141,7 +1097,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            102 => 
+            98 => 
             array (
                 'id' => 148,
                 'kategori_id' => 19,
@@ -1152,7 +1108,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            103 => 
+            99 => 
             array (
                 'id' => 149,
                 'kategori_id' => 19,
@@ -1163,7 +1119,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            104 => 
+            100 => 
             array (
                 'id' => 150,
                 'kategori_id' => 19,
@@ -1174,7 +1130,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            105 => 
+            101 => 
             array (
                 'id' => 151,
                 'kategori_id' => 19,
@@ -1185,7 +1141,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            106 => 
+            102 => 
             array (
                 'id' => 152,
                 'kategori_id' => 19,
@@ -1196,7 +1152,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            107 => 
+            103 => 
             array (
                 'id' => 153,
                 'kategori_id' => 19,
@@ -1207,7 +1163,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            108 => 
+            104 => 
             array (
                 'id' => 154,
                 'kategori_id' => 19,
@@ -1218,7 +1174,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            109 => 
+            105 => 
             array (
                 'id' => 155,
                 'kategori_id' => 19,
@@ -1229,7 +1185,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            110 => 
+            106 => 
             array (
                 'id' => 156,
                 'kategori_id' => 19,
@@ -1240,7 +1196,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            111 => 
+            107 => 
             array (
                 'id' => 157,
                 'kategori_id' => 19,
@@ -1251,7 +1207,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            112 => 
+            108 => 
             array (
                 'id' => 158,
                 'kategori_id' => 19,
@@ -1262,7 +1218,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            113 => 
+            109 => 
             array (
                 'id' => 159,
                 'kategori_id' => 19,
@@ -1273,7 +1229,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            114 => 
+            110 => 
             array (
                 'id' => 160,
                 'kategori_id' => 19,
@@ -1284,7 +1240,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            115 => 
+            111 => 
             array (
                 'id' => 161,
                 'kategori_id' => 19,
@@ -1295,7 +1251,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            116 => 
+            112 => 
             array (
                 'id' => 162,
                 'kategori_id' => 20,
@@ -1306,7 +1262,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            117 => 
+            113 => 
             array (
                 'id' => 163,
                 'kategori_id' => 20,
@@ -1317,7 +1273,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            118 => 
+            114 => 
             array (
                 'id' => 164,
                 'kategori_id' => 20,
@@ -1328,7 +1284,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            119 => 
+            115 => 
             array (
                 'id' => 165,
                 'kategori_id' => 20,
@@ -1339,7 +1295,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            120 => 
+            116 => 
             array (
                 'id' => 166,
                 'kategori_id' => 20,
@@ -1350,7 +1306,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            121 => 
+            117 => 
             array (
                 'id' => 167,
                 'kategori_id' => 20,
@@ -1361,7 +1317,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            122 => 
+            118 => 
             array (
                 'id' => 168,
                 'kategori_id' => 20,
@@ -1372,7 +1328,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            123 => 
+            119 => 
             array (
                 'id' => 169,
                 'kategori_id' => 20,
@@ -1383,7 +1339,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            124 => 
+            120 => 
             array (
                 'id' => 170,
                 'kategori_id' => 20,
@@ -1394,7 +1350,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            125 => 
+            121 => 
             array (
                 'id' => 171,
                 'kategori_id' => 20,
@@ -1405,7 +1361,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            126 => 
+            122 => 
             array (
                 'id' => 172,
                 'kategori_id' => 20,
@@ -1416,7 +1372,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            127 => 
+            123 => 
             array (
                 'id' => 173,
                 'kategori_id' => 20,
@@ -1427,7 +1383,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            128 => 
+            124 => 
             array (
                 'id' => 174,
                 'kategori_id' => 20,
@@ -1438,7 +1394,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            129 => 
+            125 => 
             array (
                 'id' => 175,
                 'kategori_id' => 20,
@@ -1449,7 +1405,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            130 => 
+            126 => 
             array (
                 'id' => 176,
                 'kategori_id' => 20,
@@ -1460,7 +1416,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            131 => 
+            127 => 
             array (
                 'id' => 177,
                 'kategori_id' => 20,
@@ -1471,7 +1427,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            132 => 
+            128 => 
             array (
                 'id' => 178,
                 'kategori_id' => 20,
@@ -1482,7 +1438,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            133 => 
+            129 => 
             array (
                 'id' => 179,
                 'kategori_id' => 20,
@@ -1493,7 +1449,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            134 => 
+            130 => 
             array (
                 'id' => 180,
                 'kategori_id' => 20,
@@ -1504,7 +1460,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            135 => 
+            131 => 
             array (
                 'id' => 181,
                 'kategori_id' => 20,
@@ -1515,7 +1471,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            136 => 
+            132 => 
             array (
                 'id' => 182,
                 'kategori_id' => 20,
@@ -1526,7 +1482,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            137 => 
+            133 => 
             array (
                 'id' => 183,
                 'kategori_id' => 20,
@@ -1537,7 +1493,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            138 => 
+            134 => 
             array (
                 'id' => 184,
                 'kategori_id' => 20,
@@ -1548,7 +1504,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            139 => 
+            135 => 
             array (
                 'id' => 185,
                 'kategori_id' => 20,
@@ -1559,7 +1515,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            140 => 
+            136 => 
             array (
                 'id' => 186,
                 'kategori_id' => 20,
@@ -1570,7 +1526,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            141 => 
+            137 => 
             array (
                 'id' => 187,
                 'kategori_id' => 20,
@@ -1581,7 +1537,7 @@ class PortfolioSubKategoriTableSeeder extends Seeder
                 'created_at' => '2023-05-03 21:54:54',
                 'updated_at' => '2023-05-03 21:54:54',
             ),
-            142 => 
+            138 => 
             array (
                 'id' => 188,
                 'kategori_id' => 20,

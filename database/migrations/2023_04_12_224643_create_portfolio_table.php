@@ -2,6 +2,7 @@
 
 use App\Models\Portfolio\Kategori;
 use App\Models\Portfolio\Portfolio;
+use App\Models\Portfolio\SubKategori;
 use App\Models\User;
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
@@ -31,7 +32,7 @@ return new class extends Migration
                 ->cascadeOnUpdate();
 
             $table->foreign('kategori_id')
-                ->references('id')->on(Kategori::tableName)
+                ->references('id')->on(SubKategori::tableName)
                 ->nullOnDelete()
                 ->cascadeOnUpdate();
         });

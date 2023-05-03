@@ -5421,6 +5421,42 @@ class LogsTableSeeder extends Seeder
                 'log_type' => 'create',
                 'data' => '{"urutan":27,"nama":"Guest Posting","kategori_id":20,"slug":"guest-posting","updated_at":"2023-05-03T14:54:54.000000Z","created_at":"2023-05-03T14:54:54.000000Z","id":188}',
             ),
+            100 => 
+            array (
+                'id' => 644,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 23:16:21',
+                'table_name' => 'portfolio',
+                'log_type' => 'edit',
+                'data' => '{"id":13,"kategori_id":107,"nama":"Warung Kopi Gunung Roastery","slug":"warung-kopi-gunung-roastery","foto":"20230414025039.png","keterangan":"MAnsdansld","is_insert":1,"created_by":4,"created_at":"2023-04-14 02:47:11","updated_at":"2023-04-14 02:50:39"}',
+            ),
+            101 => 
+            array (
+                'id' => 645,
+                'user_id' => 1,
+                'log_date' => '2023-05-03 23:54:02',
+                'table_name' => 'portfolio',
+                'log_type' => 'edit',
+                'data' => '{"id":13,"kategori_id":136,"nama":"Warung Kopi Gunung Roastery","slug":"warung-kopi-gunung-roastery","foto":"20230414025039.png","keterangan":"MAnsdansld","is_insert":1,"created_by":4,"created_at":"2023-04-14 02:47:11","updated_at":"2023-05-03 23:16:21"}',
+            ),
+            102 => 
+            array (
+                'id' => 646,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 00:12:19',
+                'table_name' => 'portfolio',
+                'log_type' => 'edit',
+                'data' => '{"id":14,"kategori_id":null,"nama":null,"slug":null,"foto":null,"keterangan":null,"is_insert":0,"created_by":1,"created_at":null,"updated_at":null}',
+            ),
+            103 => 
+            array (
+                'id' => 647,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 00:12:43',
+                'table_name' => 'portfolio',
+                'log_type' => 'edit',
+                'data' => '{"id":14,"kategori_id":110,"nama":"apa kabar","slug":"apa-kabar","foto":"20230504001219.jpg","keterangan":null,"is_insert":1,"created_by":1,"created_at":"2023-05-04 00:12:19","updated_at":"2023-05-04 00:12:19"}',
+            ),
         ));
         
         

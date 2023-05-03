@@ -79,7 +79,7 @@ class Portfolio extends Model
         $query = [];
         // list table
         $table = static::tableName;
-        $t_kategori = Kategori::tableName;
+        $t_kategori = SubKategori::tableName;
         $base_url_image_folder = url(str_replace('./', '', static::image_folder)) . '/';
 
         // cusotm query
@@ -198,12 +198,14 @@ class Portfolio extends Model
     public static function getFeHomeData()
     {
         return Cache::rememberForever(static::feCacheKey, function () {
-            $result =  Kategori::with(['protfolios' => function ($query) {
+            $result = Kategori::with(['sub.protfolios' => function ($query) {
                 $query->orderBy('nama');
             }])->orderBy('urutan')->get();
 
-            return $result->filter(function ($query) {
-                return $query->protfolios->count() > 0;
+            return $result->filter(function ($q) {
+                return $q->sub->filter(function ($q2) { // filter kategori
+                    return $q2->protfolios->count() > 0; // filter portfolio
+                })->count() > 0;
             });
         });
     }

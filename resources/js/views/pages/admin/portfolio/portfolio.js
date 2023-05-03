@@ -3,6 +3,10 @@ const can_delete = "{{ $can_delete == 'true' ? 'true' : 'false' }}" === "true";
 const table_html = $('#tbl_main');
 let isEdit = true;
 $(document).ready(function () {
+    $('#filter_kategori_id').select2({
+        theme: "bootstrap-5",
+        width: $(this).data('width') ? $(this).data('width') : $(this).hasClass('w-100') ? '100%' : 'style',
+    });
     // datatable ====================================================================================
     $.ajaxSetup({
         headers: {

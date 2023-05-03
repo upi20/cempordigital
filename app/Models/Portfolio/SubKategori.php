@@ -41,6 +41,11 @@ class SubKategori extends Model
         return $this->hasMany(Kategori::class, 'kategori_id', 'id');
     }
 
+    public function protfolios()
+    {
+        return $this->hasMany(Portfolio::class, 'kategori_id', 'id');
+    }
+
     public static function datatable(Request $request): mixed
     {
         // list table

@@ -2,6 +2,11 @@ const isEdit = "{{ $isEdit == 'true' ? 'true' : 'false' }}" === "true";
 let isEditItem = true;
 const table_html_item = $('#tbl_item');
 $(document).ready(function () {
+    $('#portfolio_kategori_id').select2({
+        placeholder: 'Pilih kategori',
+        theme: "bootstrap-5",
+        width: $(this).data('width') ? $(this).data('width') : $(this).hasClass('w-100') ? '100%' : 'style',
+    });
 
     // Datatable
     const table_item = table_html_item.DataTable({

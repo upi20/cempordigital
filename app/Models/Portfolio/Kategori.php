@@ -35,11 +35,6 @@ class Kategori extends Model
         ];
     }
 
-    public function protfolios()
-    {
-        return $this->hasMany(Portfolio::class, 'kategori_id', 'id');
-    }
-
     public function sub()
     {
         return $this->hasMany(SubKategori::class, 'kategori_id', 'id');

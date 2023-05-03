@@ -49,11 +49,11 @@ class DatabaseSeeder extends Seeder
         $this->call(HomeKataKatasTableSeeder::class);
         $this->call(HomePengurusTableSeeder::class);
         $this->call(PortfolioKategoriTableSeeder::class);
+        $this->call(PortfolioSubKategoriTableSeeder::class);
         $this->call(PortfolioTableSeeder::class);
         $this->call(PortfolioItemTableSeeder::class);
         $this->call(SessionsTableSeeder::class);
         $this->call(HomeTestimonialsTableSeeder::class);
         $this->call(LogsTableSeeder::class);
-        $this->call(PortfolioSubKategoriTableSeeder::class);
     }
 }

@@ -13,10 +13,7 @@
                 <div class="col-xl-2">
                     <div class="project-tab-wrap">
                         <ul class="nav nav-tabs" id="myTab" role="tablist">
-                            @foreach ($protfolios as $kategori)
-                                @if ($kategori->protfolios->count() < 1)
-                                    @continue
-                                @endif
+                            @foreach ($portofolios as $kategori)
                                 <li class="nav-item" role="presentation">
                                     <button class="nav-link {{ $loop->first ? 'active' : '' }}"
                                         id="{{ $kategori->slug }}-tab" data-bs-toggle="tab"
@@ -31,16 +28,26 @@
                 </div>
                 <div class="col-xl-10">
                     <div class="tab-content" id="myTabContent">
-                        @foreach ($protfolios as $kategori)
-                            @if ($kategori->protfolios->count() < 1)
-                                @continue
-                            @endif
+                        @foreach ($portofolios as $kategori)
                             <div class="tab-pane fade {{ $loop->first ? 'show active' : '' }}"
                                 id="{{ $kategori->slug }}-container" role="tabpanel"
                                 aria-labelledby="{{ $kategori->slug }}-tab">
                                 <div class="swiper-container project-active-three">
                                     <div class="swiper-wrapper">
-                                        @foreach ($kategori->protfolios as $protfolio)
+                                        @php
+                                            $portos = $kategori->sub->filter(function ($q2) {
+                                                return $q2->protfolios->count() > 0; // filter portfolio
+                                            });
+
+                                            $new_portos = [];
+                                            foreach ($portos as $p) {
+                                                foreach ($p->protfolios as $q) {
+                                                    $new_portos[] = $q;
+                                                }
+                                            }
+                                        @endphp
+
+                                        @foreach ($new_portos as $protfolio)
                                             <div class="swiper-slide">
                                                 <div class="project-item-three">
                                                     <div class="project-content-three">
@@ -70,6 +77,7 @@
                                                 </div>
                                             </div>
                                         @endforeach
+
                                     </div>
                                 </div>
                             </div>

@@ -53,8 +53,7 @@ class HomeController extends Controller
 
         $faqs = FAQ::getFeViewData();
 
-        $protfolios = Portfolio::getFeHomeData();
-
+        $portofolios = Portfolio::getFeHomeData();
         $data = compact(
             'testimonials',
             'faqs',
@@ -64,7 +63,7 @@ class HomeController extends Controller
             'kata_katas',
             'program_pembelajarans',
             'penguruses',
-            'protfolios',
+            'portofolios',
             'sliders',
         );
         $data['compact'] = $data;
