@@ -13,7 +13,7 @@
                     <h6 class="mt-2 text-uppercase">Data {{ $page_attr['title'] }} | {{ $kategori->nama }}</h6>
                 </div>
                 <div>
-                    <a class="btn btn-rounded btn-secondary btn-sm" href="{{ URL::previous() }}">
+                    <a class="btn btn-rounded btn-secondary btn-sm" href="{{ route(h_prefix('kategori', 2)) }}">
                         <i class="fas fa-arrow-left"></i> Kembali
                     </a>
                     @if ($can_insert)
