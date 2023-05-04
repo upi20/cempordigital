@@ -5988,6 +5988,24 @@ class LogsTableSeeder extends Seeder
                 'log_type' => 'create',
                 'data' => '{"role_id":1,"menu_id":427,"updated_at":"2023-05-04T11:21:34.000000Z","created_at":"2023-05-04T11:21:34.000000Z","id":251}',
             ),
+            163 => 
+            array (
+                'id' => 707,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 18:21:58',
+                'table_name' => 'p_menu',
+                'log_type' => 'edit',
+                'data' => '{"id":427,"parent_id":null,"title":"Clients","icon":"fas fa-th-large","route":"admin.client","sequence":28,"active":1,"type":1,"created_at":"2023-05-04 18:12:41","updated_at":"2023-05-04 18:21:34"}',
+            ),
+            164 => 
+            array (
+                'id' => 708,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 18:21:58',
+                'table_name' => 'p_role_has_menu',
+                'log_type' => 'create',
+                'data' => '{"role_id":1,"menu_id":427,"updated_at":"2023-05-04T11:21:58.000000Z","created_at":"2023-05-04T11:21:58.000000Z","id":252}',
+            ),
         ));
         
         

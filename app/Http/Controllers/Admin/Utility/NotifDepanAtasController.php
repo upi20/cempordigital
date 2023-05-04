@@ -28,13 +28,7 @@ class NotifDepanAtasController extends Controller
             return $this->datatable($request);
         }
 
-        $page_attr = [
-            'title' => 'Notifikasi Depan Atas',
-            'breadcrumbs' => [
-                ['name' => 'Dashboard', 'url' => 'admin.dashboard'],
-                ['name' => 'Peralatan'],
-            ]
-        ];
+        $page_attr = adminBreadcumb(h_prefix());
         $view = path_view('pages.admin.utility.notif_depan_atas');
         $data = compact('page_attr', 'view');
         $data['compact'] = $data;

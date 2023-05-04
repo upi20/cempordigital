@@ -32,14 +32,12 @@ class SubKategoriController extends Controller
         if (request()->ajax()) {
             return SubKategori::datatable($request);
         }
+        $page_attr = adminBreadcumb(h_prefix('kategori', 2), isChild: true);
+
         $page_attr = [
             'title' => 'Sub Kategori',
             'navigation' => h_prefix('kategori', 2),
-            'breadcrumbs' => [
-                ['name' => 'Dashboard', 'url' => 'admin.dashboard'],
-                ['name' => 'kategori', 'url' => h_prefix('kategori', 2)],
-                ['name' => 'Portfolio'],
-            ]
+            'breadcrumbs' => $page_attr['breadcrumbs']
         ];
 
         $image_folder = $this->image_folder;

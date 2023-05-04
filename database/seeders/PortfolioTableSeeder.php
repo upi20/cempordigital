@@ -45,6 +45,19 @@ class PortfolioTableSeeder extends Seeder
                 'created_at' => '2023-05-04 00:12:19',
                 'updated_at' => '2023-05-04 03:46:48',
             ),
+            2 => 
+            array (
+                'id' => 15,
+                'kategori_id' => NULL,
+                'nama' => NULL,
+                'slug' => NULL,
+                'foto' => NULL,
+                'keterangan' => NULL,
+                'is_insert' => 0,
+                'created_by' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
         ));
         
         

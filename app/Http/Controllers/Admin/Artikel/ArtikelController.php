@@ -36,13 +36,7 @@ class ArtikelController extends Controller
                 ->addIndexColumn()
                 ->make(true);
         }
-        $page_attr = [
-            'title' => 'Daftar Artikel',
-            'breadcrumbs' => [
-                ['name' => 'Dashboard', 'url' => 'admin.dashboard'],
-                ['name' => 'Artikel'],
-            ]
-        ];
+        $page_attr = adminBreadcumb(h_prefix());
         $view = path_view('pages.admin.artikel.data.list');
         $data = compact('page_attr', 'view');
         $data['compact'] = $data;
@@ -51,14 +45,11 @@ class ArtikelController extends Controller
 
     public function add(Request $request)
     {
-        $navigation = 'admin.artikel.data';
+        $page_attr = adminBreadcumb(h_prefix(min: 1), isChild: true);
         $page_attr = [
             'title' => 'Tambah Artikel',
-            'breadcrumbs' => [
-                ['name' => 'Artikel'],
-                ['name' => 'Daftar Artikel', 'url' => $navigation],
-            ],
-            'navigation' => $navigation
+            'breadcrumbs' => $page_attr['breadcrumbs'],
+            'navigation' => h_prefix(min: 1)
         ];
 
         Artikel::clearCache();
@@ -72,14 +63,11 @@ class ArtikelController extends Controller
 
     public function edit(Artikel $artikel)
     {
-        $navigation = 'admin.artikel.data';
+        $page_attr = adminBreadcumb(h_prefix(min: 2), isChild: true);
         $page_attr = [
-            'title' => 'Edit Artikel',
-            'breadcrumbs' => [
-                ['name' => 'Artikel'],
-                ['name' => 'Daftar Artikel', 'url' => $navigation],
-            ],
-            'navigation' => $navigation
+            'title' => 'Ubah Artikel',
+            'breadcrumbs' => $page_attr['breadcrumbs'],
+            'navigation' => h_prefix(min: 2)
         ];
         $edit = true;
         $tbl = KategoriArtikel::tableName;

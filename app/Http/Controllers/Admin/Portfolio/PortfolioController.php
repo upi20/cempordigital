@@ -38,7 +38,8 @@ class PortfolioController extends Controller
             return Portfolio::datatable($request);
         }
         $kategoris = PortfolioSubKategori::orderBy('nama')->get();
-        $page_attr = adminTitle(h_prefix());
+        $page_attr = adminBreadcumb(h_prefix());
+
         $setting = (object)[
             'visible' => setting_get("$this->key.visible"),
             'title' => setting_get("$this->key.title"),
@@ -56,11 +57,12 @@ class PortfolioController extends Controller
         $portfolio = Portfolio::getInsert();
         $kategoris = PortfolioSubKategori::orderBy('nama')->get();
         $isEdit = false;
-        $adminTitle = adminTitle(h_prefix(min: 1), isChild: true);
+        $page_attr = adminBreadcumb(h_prefix(min: 1), 'Tambah', isChild: true);
+
         $page_attr = [
-            'title' => 'Tambah',
+            'title' => $page_attr['title'],
             'navigation' => h_prefix(min: 1),
-            'breadcrumbs' => $adminTitle['breadcrumbs']
+            'breadcrumbs' => $page_attr['breadcrumbs']
         ];
 
         $route_save = route(h_prefix('save', 1), $portfolio->id);
@@ -75,12 +77,12 @@ class PortfolioController extends Controller
     {
         $kategoris = PortfolioSubKategori::orderBy('nama')->get();
         $isEdit = true;
-        $adminTitle = adminTitle(h_prefix(min: 2), isChild: true);
+        $page_attr = adminBreadcumb(h_prefix(min: 2), 'Ubah', isChild: true);
 
         $page_attr = [
-            'title' => 'Ubah',
+            'title' => $page_attr['title'],
             'navigation' => h_prefix(min: 2),
-            'breadcrumbs' => $adminTitle['breadcrumbs']
+            'breadcrumbs' => $page_attr['breadcrumbs']
         ];
         $route_save = route(h_prefix('save', 2), $portfolio->id);
 

@@ -641,7 +641,7 @@ class PMenuTableSeeder extends Seeder
                 'active' => 1,
                 'type' => 1,
                 'created_at' => '2023-05-04 18:12:41',
-                'updated_at' => '2023-05-04 18:12:51',
+                'updated_at' => '2023-05-04 18:21:58',
             ),
         ));
         

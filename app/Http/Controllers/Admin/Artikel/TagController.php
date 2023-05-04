@@ -40,13 +40,7 @@ class TagController extends Controller
                 })
                 ->make(true);
         }
-        $page_attr = [
-            'title' => 'Artikel Tag',
-            'breadcrumbs' => [
-                ['name' => 'Dashboard', 'url' => 'admin.dashboard'],
-                ['name' => 'Artikel'],
-            ]
-        ];
+        $page_attr = adminBreadcumb(h_prefix());
 
         $view = path_view('pages.admin.artikel.tag');
         $data = compact('page_attr', 'view');

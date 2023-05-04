@@ -35,13 +35,7 @@ class GFormController extends Controller
             return $this->datatable($request);
         }
         $image_folder = $this->image_folder;
-        $page_attr = [
-            'title' => 'Google Form',
-            'breadcrumbs' => [
-                ['name' => 'Dashboard', 'url' => 'admin.dashboard'],
-                ['name' => 'Pendaftaran'],
-            ]
-        ];
+        $page_attr = adminBreadcumb(h_prefix());
 
         $view = path_view('pages.admin.pendaftaran.gform');
         $data = compact('page_attr', 'image_folder', 'view');

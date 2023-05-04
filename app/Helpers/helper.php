@@ -9,6 +9,7 @@ use MatthiasMullie\Minify\JS;
 use MatthiasMullie\Minify\CSS;
 use App\Models\Menu\Admin as MenuAdmin;
 use App\Models\SettingActivity;
+use Illuminate\Support\Facades\Route;
 
 if (!function_exists('h_prefix_uri')) {
     function h_prefix_uri(?string $param = null, int $min = 0)
@@ -262,46 +263,51 @@ if (!function_exists('get_file_attr_attribute')) {
     }
 }
 
-if (!function_exists('adminTitle')) {
-    // example
-    // 1 layer
-    // $page_attr = adminTitle(h_prefix());
-
-    // 2 layer
-    // $adminTitle = adminTitle(h_prefix(min: 1), isChild: true);
-    // $page_attr = [
-    //     'title' => 'Tambah',
-    //     'navigation' => h_prefix(min: 1),
-    //     'breadcrumbs' => $adminTitle['breadcrumbs']
-    // ];
-
-    // 3 layer
-    // $adminTitle = adminTitle(h_prefix(min: 2), isChild: true);
+if (!function_exists('adminBreadcumb')) {
+    // kasus
+    // custom title
+    // $page_attr = adminBreadcumb(h_prefix(min: 2), 'Ubah');
 
     // $page_attr = [
-    //     'title' => 'Ubah',
+    //     'title' => $page_attr['title'],
     //     'navigation' => h_prefix(min: 2),
-    //     'breadcrumbs' => $adminTitle['breadcrumbs']
+    //     'breadcrumbs' => $page_attr['breadcrumbs']
     // ];
 
-    function adminTitle($route, $dashboardTitle = 'Dashboard', $addbreadcrumbs = [], $isChild = false)
+    function adminBreadcumb($route, $title = null,  $addbreadcrumbs = [], $addDashboard = true, $isChild = false)
     {
+        // deklarasi variable
+        $dashboardTitle = env('ADMIN_BREADCRUMB_DEFAULT_TITLE');
+        $dashboardRoute = env('ADMIN_BREADCRUMB_DEFAULT_ROUTE');
         $breadcrumbs = [];
-        $routeData = MenuAdmin::with(['parent'])->select(['title', 'parent_id'])->where('route', $route)->first();
+
+        // get menu
+        $routeData = MenuAdmin::with(['parent'])->select(['title', 'parent_id', 'route'])->where('route', $route)->first();
         $menuTitle = is_null($routeData) ? null : $routeData->title;
-        $breadcrumbs[] = ['name' => $dashboardTitle, 'url' => 'admin.dashboard'];
+
+        // jika menu ingin ada dashboard
+        if ($addDashboard) {
+            $breadcrumbs[] = ['name' => $dashboardTitle, 'url' => $dashboardRoute];
+        }
+
         if (($routeData != null) ? ($routeData->parent != null) : false) {
             $breadcrumbs[] =  [
                 'name' => $routeData->parent->title,
-                'url' => $routeData->parent->route
+                'url' => Route::has($routeData->parent->route) ? $routeData->parent->route : null
             ];
         }
 
+        // digunakan jika ingin custom title makan menu utama nya di masukin ke breadcumb
         if ($isChild) {
             $breadcrumbs[] =  [
                 'name' => $routeData->title,
-                'url' => $routeData->route
+                'url' => Route::has($routeData->route) ? $routeData->route : null
             ];
+        }
+
+        if ($title !== null) {
+            // dan title dari parameter title
+            $menuTitle = $title;
         }
 
         return [

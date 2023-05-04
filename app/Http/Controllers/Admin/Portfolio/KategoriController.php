@@ -21,13 +21,7 @@ class KategoriController extends Controller
         if (request()->ajax()) {
             return PortfolioKategori::datatable($request);
         }
-        $page_attr = [
-            'title' => 'Kategori',
-            'breadcrumbs' => [
-                ['name' => 'Dashboard', 'url' => 'admin.dashboard'],
-                ['name' => 'Portfolio'],
-            ]
-        ];
+        $page_attr = adminBreadcumb(h_prefix());
 
         $view = path_view('pages.admin.portfolio.kategori');
         $data = compact('page_attr', 'view');

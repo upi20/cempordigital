@@ -31,12 +31,7 @@ class GaleriController extends Controller
                 ->addIndexColumn()
                 ->make(true);
         }
-        $page_attr = [
-            'title' => 'Galeri',
-            'breadcrumbs' => [
-                ['name' => 'Dashboard', 'url' => 'admin.dashboard'],
-            ]
-        ];
+        $page_attr = adminBreadcumb(h_prefix());
 
         $view = path_view('pages.admin.galeri');
         $data = compact('page_attr', 'view');
