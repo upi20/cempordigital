@@ -18,6 +18,7 @@ class LayananController extends Controller
         $page_attr = [
             'navigation' => 'layanan',
             'title' => $sub_kategori->nama,
+            'image' => $sub_kategori->fotoUrl()
         ];
 
         $testimonials = Testimonial::getFeViewData();

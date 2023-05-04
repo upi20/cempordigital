@@ -3,8 +3,8 @@ $(document).ready(function () {
         const form = this;
         e.preventDefault();
         var formData = new FormData(this);
-        setBtnLoading('button[type=submit]',
-            `Mengirim...`);
+        setBtnLoading('button[type=submit]', `Mengirim...<span></span>`, false);
+        $('button[type=submit]').attr("disabled", "");
         $.ajax({
             type: "POST",
             url: "{{ route('kontak.send') }}",
@@ -37,12 +37,12 @@ $(document).ready(function () {
                     timer: 1500
                 })
                 setBtnLoading('button[type=submit]',
-                    `{{ setting_get('setting.contact.message.button_text') }}`,
+                    `{{ setting_get('setting.contact.message.button_text') }}<span></span>`,
                     false);
             },
             complete: function () {
                 setBtnLoading('button[type=submit]',
-                    `{{ setting_get('setting.contact.message.button_text') }}`,
+                    `{{ setting_get('setting.contact.message.button_text') }}<span></span>`,
                     false);
             }
         });

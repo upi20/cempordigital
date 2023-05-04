@@ -99,6 +99,26 @@ class ContactMessagesTableSeeder extends Seeder
                 'created_at' => '2023-03-27 05:20:57',
                 'updated_at' => '2023-03-27 05:20:57',
             ),
+            8 => 
+            array (
+                'id' => 9,
+                'nama' => 'Isep lutt',
+                'email' => 'igmail@gmail.com',
+                'message' => 'fasdf',
+                'status' => NULL,
+                'created_at' => '2023-05-04 21:28:29',
+                'updated_at' => '2023-05-04 21:28:29',
+            ),
+            9 => 
+            array (
+                'id' => 10,
+                'nama' => 'Isep lutt',
+                'email' => 'igmail@gmail.com',
+                'message' => 's',
+                'status' => NULL,
+                'created_at' => '2023-05-04 21:30:06',
+                'updated_at' => '2023-05-04 21:30:06',
+            ),
         ));
         
         

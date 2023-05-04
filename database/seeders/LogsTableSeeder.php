@@ -6006,6 +6006,699 @@ class LogsTableSeeder extends Seeder
                 'log_type' => 'create',
                 'data' => '{"role_id":1,"menu_id":427,"updated_at":"2023-05-04T11:21:58.000000Z","created_at":"2023-05-04T11:21:58.000000Z","id":252}',
             ),
+            165 => 
+            array (
+                'id' => 709,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 21:28:29',
+                'table_name' => 'contact_messages',
+                'log_type' => 'create',
+                'data' => '{"nama":"Isep lutt","email":"igmail@gmail.com","message":"fasdf","updated_at":"2023-05-04T14:28:29.000000Z","created_at":"2023-05-04T14:28:29.000000Z","id":9}',
+            ),
+            166 => 
+            array (
+                'id' => 710,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 21:30:06',
+                'table_name' => 'contact_messages',
+                'log_type' => 'create',
+                'data' => '{"nama":"Isep lutt","email":"igmail@gmail.com","message":"s","updated_at":"2023-05-04T14:30:06.000000Z","created_at":"2023-05-04T14:30:06.000000Z","id":10}',
+            ),
+            167 => 
+            array (
+                'id' => 711,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 21:31:51',
+                'table_name' => 'contact_messages',
+                'log_type' => 'create',
+                'data' => '{"nama":"Davin Koss","email":"DavinKoss@mail.com","message":"asdf","updated_at":"2023-05-04T14:31:51.000000Z","created_at":"2023-05-04T14:31:51.000000Z","id":11}',
+            ),
+            168 => 
+            array (
+                'id' => 712,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 21:32:23',
+                'table_name' => 'contact_messages',
+                'log_type' => 'delete',
+                'data' => '{"id":11,"nama":"Davin Koss","email":"DavinKoss@mail.com","message":"asdf","status":null,"created_at":"2023-05-04 21:31:51","updated_at":"2023-05-04 21:31:51"}',
+            ),
+            169 => 
+            array (
+                'id' => 713,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 21:36:25',
+                'table_name' => 'p_menu',
+                'log_type' => 'edit',
+                'data' => '{"id":360,"parent_id":null,"title":"Galeri","icon":"fas fa-images","route":"admin.galeri","sequence":12,"active":1,"type":1,"created_at":"2022-08-05 23:50:28","updated_at":"2023-04-19 18:50:30"}',
+            ),
+            170 => 
+            array (
+                'id' => 714,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 21:36:25',
+                'table_name' => 'p_role_has_menu',
+                'log_type' => 'create',
+                'data' => '{"role_id":1,"menu_id":360,"updated_at":"2023-05-04T14:36:25.000000Z","created_at":"2023-05-04T14:36:25.000000Z","id":253}',
+            ),
+            171 => 
+            array (
+                'id' => 715,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 21:36:25',
+                'table_name' => 'p_role_has_menu',
+                'log_type' => 'create',
+                'data' => '{"role_id":9,"menu_id":360,"updated_at":"2023-05-04T14:36:25.000000Z","created_at":"2023-05-04T14:36:25.000000Z","id":254}',
+            ),
+            172 => 
+            array (
+                'id' => 716,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 21:38:41',
+                'table_name' => 'banners',
+                'log_type' => 'edit',
+                'data' => '{"id":3,"nama":"Iklan 3","foto":"20230324234525.jpg","status":1,"ditampilkan":29,"created_at":"2023-03-24 23:45:25","updated_at":"2023-05-04 01:23:16"}',
+            ),
+            173 => 
+            array (
+                'id' => 717,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 21:41:46',
+                'table_name' => 'banners',
+                'log_type' => 'edit',
+                'data' => '{"id":4,"nama":"Iklan 4","foto":"20230324234534.jpg","status":1,"ditampilkan":26,"created_at":"2023-03-24 23:45:34","updated_at":"2023-05-04 01:23:58"}',
+            ),
+            174 => 
+            array (
+                'id' => 718,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 21:43:14',
+                'table_name' => 'banners',
+                'log_type' => 'edit',
+                'data' => '{"id":3,"nama":"Iklan 3","foto":"20230324234525.jpg","status":1,"ditampilkan":30,"created_at":"2023-03-24 23:45:25","updated_at":"2023-05-04 21:38:41"}',
+            ),
+            175 => 
+            array (
+                'id' => 719,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 21:43:29',
+                'table_name' => 'banners',
+                'log_type' => 'edit',
+                'data' => '{"id":3,"nama":"Iklan 3","foto":"20230324234525.jpg","status":1,"ditampilkan":31,"created_at":"2023-03-24 23:45:25","updated_at":"2023-05-04 21:43:14"}',
+            ),
+            176 => 
+            array (
+                'id' => 720,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 21:43:42',
+                'table_name' => 'banners',
+                'log_type' => 'edit',
+                'data' => '{"id":5,"nama":"Iklan 5","foto":"20230324234545.jpg","status":1,"ditampilkan":38,"created_at":"2023-03-24 23:45:45","updated_at":"2023-05-04 01:22:33"}',
+            ),
+            177 => 
+            array (
+                'id' => 721,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 21:43:45',
+                'table_name' => 'banners',
+                'log_type' => 'edit',
+                'data' => '{"id":4,"nama":"Iklan 4","foto":"20230324234534.jpg","status":1,"ditampilkan":27,"created_at":"2023-03-24 23:45:34","updated_at":"2023-05-04 21:41:46"}',
+            ),
+            178 => 
+            array (
+                'id' => 722,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 21:44:33',
+                'table_name' => 'banners',
+                'log_type' => 'edit',
+                'data' => '{"id":4,"nama":"Iklan 4","foto":"20230324234534.jpg","status":1,"ditampilkan":28,"created_at":"2023-03-24 23:45:34","updated_at":"2023-05-04 21:43:45"}',
+            ),
+            179 => 
+            array (
+                'id' => 723,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 21:45:02',
+                'table_name' => 'banners',
+                'log_type' => 'edit',
+                'data' => '{"id":5,"nama":"Iklan 5","foto":"20230324234545.jpg","status":1,"ditampilkan":39,"created_at":"2023-03-24 23:45:45","updated_at":"2023-05-04 21:43:42"}',
+            ),
+            180 => 
+            array (
+                'id' => 724,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 21:46:00',
+                'table_name' => 'banners',
+                'log_type' => 'edit',
+                'data' => '{"id":4,"nama":"Iklan 4","foto":"20230324234534.jpg","status":1,"ditampilkan":29,"created_at":"2023-03-24 23:45:34","updated_at":"2023-05-04 21:44:33"}',
+            ),
+            181 => 
+            array (
+                'id' => 725,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 21:55:03',
+                'table_name' => 'banners',
+                'log_type' => 'edit',
+                'data' => '{"id":4,"nama":"Iklan 4","foto":"20230324234534.jpg","status":1,"ditampilkan":30,"created_at":"2023-03-24 23:45:34","updated_at":"2023-05-04 21:46:00"}',
+            ),
+            182 => 
+            array (
+                'id' => 726,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 21:55:10',
+                'table_name' => 'banners',
+                'log_type' => 'edit',
+                'data' => '{"id":4,"nama":"Iklan 4","foto":"20230324234534.jpg","status":1,"ditampilkan":31,"created_at":"2023-03-24 23:45:34","updated_at":"2023-05-04 21:55:03"}',
+            ),
+            183 => 
+            array (
+                'id' => 727,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 21:55:54',
+                'table_name' => 'banners',
+                'log_type' => 'edit',
+                'data' => '{"id":3,"nama":"Iklan 3","foto":"20230324234525.jpg","status":1,"ditampilkan":32,"created_at":"2023-03-24 23:45:25","updated_at":"2023-05-04 21:43:29"}',
+            ),
+            184 => 
+            array (
+                'id' => 728,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 21:56:03',
+                'table_name' => 'banners',
+                'log_type' => 'edit',
+                'data' => '{"id":5,"nama":"Iklan 5","foto":"20230324234545.jpg","status":1,"ditampilkan":40,"created_at":"2023-03-24 23:45:45","updated_at":"2023-05-04 21:45:02"}',
+            ),
+            185 => 
+            array (
+                'id' => 729,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 21:56:06',
+                'table_name' => 'banners',
+                'log_type' => 'edit',
+                'data' => '{"id":5,"nama":"Iklan 5","foto":"20230324234545.jpg","status":1,"ditampilkan":41,"created_at":"2023-03-24 23:45:45","updated_at":"2023-05-04 21:56:03"}',
+            ),
+            186 => 
+            array (
+                'id' => 730,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 22:01:50',
+                'table_name' => 'banners',
+                'log_type' => 'edit',
+                'data' => '{"id":3,"nama":"Iklan 3","foto":"20230324234525.jpg","status":1,"ditampilkan":33,"created_at":"2023-03-24 23:45:25","updated_at":"2023-05-04 21:55:54"}',
+            ),
+            187 => 
+            array (
+                'id' => 731,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 22:02:22',
+                'table_name' => 'banners',
+                'log_type' => 'edit',
+                'data' => '{"id":5,"nama":"Iklan 5","foto":"20230324234545.jpg","status":1,"ditampilkan":42,"created_at":"2023-03-24 23:45:45","updated_at":"2023-05-04 21:56:06"}',
+            ),
+            188 => 
+            array (
+                'id' => 732,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 22:02:25',
+                'table_name' => 'banners',
+                'log_type' => 'edit',
+                'data' => '{"id":3,"nama":"Iklan 3","foto":"20230324234525.jpg","status":1,"ditampilkan":34,"created_at":"2023-03-24 23:45:25","updated_at":"2023-05-04 22:01:50"}',
+            ),
+            189 => 
+            array (
+                'id' => 733,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 22:02:38',
+                'table_name' => 'banners',
+                'log_type' => 'edit',
+                'data' => '{"id":3,"nama":"Iklan 3","foto":"20230324234525.jpg","status":1,"ditampilkan":35,"created_at":"2023-03-24 23:45:25","updated_at":"2023-05-04 22:02:25"}',
+            ),
+            190 => 
+            array (
+                'id' => 734,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 22:03:34',
+                'table_name' => 'banners',
+                'log_type' => 'edit',
+                'data' => '{"id":5,"nama":"Iklan 5","foto":"20230324234545.jpg","status":1,"ditampilkan":43,"created_at":"2023-03-24 23:45:45","updated_at":"2023-05-04 22:02:22"}',
+            ),
+            191 => 
+            array (
+                'id' => 735,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 22:03:45',
+                'table_name' => 'banners',
+                'log_type' => 'edit',
+                'data' => '{"id":3,"nama":"Iklan 3","foto":"20230324234525.jpg","status":1,"ditampilkan":36,"created_at":"2023-03-24 23:45:25","updated_at":"2023-05-04 22:02:38"}',
+            ),
+            192 => 
+            array (
+                'id' => 736,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 22:05:19',
+                'table_name' => 'banners',
+                'log_type' => 'edit',
+                'data' => '{"id":3,"nama":"Iklan 3","foto":"20230324234525.jpg","status":1,"ditampilkan":37,"created_at":"2023-03-24 23:45:25","updated_at":"2023-05-04 22:03:45"}',
+            ),
+            193 => 
+            array (
+                'id' => 737,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 22:05:31',
+                'table_name' => 'banners',
+                'log_type' => 'edit',
+                'data' => '{"id":3,"nama":"Iklan 3","foto":"20230324234525.jpg","status":1,"ditampilkan":38,"created_at":"2023-03-24 23:45:25","updated_at":"2023-05-04 22:05:19"}',
+            ),
+            194 => 
+            array (
+                'id' => 738,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 22:05:40',
+                'table_name' => 'banners',
+                'log_type' => 'edit',
+                'data' => '{"id":4,"nama":"Iklan 4","foto":"20230324234534.jpg","status":1,"ditampilkan":32,"created_at":"2023-03-24 23:45:34","updated_at":"2023-05-04 21:55:10"}',
+            ),
+            195 => 
+            array (
+                'id' => 739,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 22:07:30',
+                'table_name' => 'banners',
+                'log_type' => 'edit',
+                'data' => '{"id":4,"nama":"Iklan 4","foto":"20230324234534.jpg","status":1,"ditampilkan":33,"created_at":"2023-03-24 23:45:34","updated_at":"2023-05-04 22:05:40"}',
+            ),
+            196 => 
+            array (
+                'id' => 740,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 22:07:32',
+                'table_name' => 'banners',
+                'log_type' => 'edit',
+                'data' => '{"id":5,"nama":"Iklan 5","foto":"20230324234545.jpg","status":1,"ditampilkan":44,"created_at":"2023-03-24 23:45:45","updated_at":"2023-05-04 22:03:34"}',
+            ),
+            197 => 
+            array (
+                'id' => 741,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 22:08:12',
+                'table_name' => 'banners',
+                'log_type' => 'edit',
+                'data' => '{"id":4,"nama":"Iklan 4","foto":"20230324234534.jpg","status":1,"ditampilkan":34,"created_at":"2023-03-24 23:45:34","updated_at":"2023-05-04 22:07:30"}',
+            ),
+            198 => 
+            array (
+                'id' => 742,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 22:08:35',
+                'table_name' => 'banners',
+                'log_type' => 'edit',
+                'data' => '{"id":4,"nama":"Iklan 4","foto":"20230324234534.jpg","status":1,"ditampilkan":35,"created_at":"2023-03-24 23:45:34","updated_at":"2023-05-04 22:08:12"}',
+            ),
+            199 => 
+            array (
+                'id' => 743,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 22:09:00',
+                'table_name' => 'banners',
+                'log_type' => 'edit',
+                'data' => '{"id":4,"nama":"Iklan 4","foto":"20230324234534.jpg","status":1,"ditampilkan":36,"created_at":"2023-03-24 23:45:34","updated_at":"2023-05-04 22:08:35"}',
+            ),
+            200 => 
+            array (
+                'id' => 744,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 22:09:13',
+                'table_name' => 'banners',
+                'log_type' => 'edit',
+                'data' => '{"id":4,"nama":"Iklan 4","foto":"20230324234534.jpg","status":1,"ditampilkan":37,"created_at":"2023-03-24 23:45:34","updated_at":"2023-05-04 22:09:00"}',
+            ),
+            201 => 
+            array (
+                'id' => 745,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 22:09:16',
+                'table_name' => 'banners',
+                'log_type' => 'edit',
+                'data' => '{"id":4,"nama":"Iklan 4","foto":"20230324234534.jpg","status":1,"ditampilkan":38,"created_at":"2023-03-24 23:45:34","updated_at":"2023-05-04 22:09:13"}',
+            ),
+            202 => 
+            array (
+                'id' => 746,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 22:09:38',
+                'table_name' => 'banners',
+                'log_type' => 'edit',
+                'data' => '{"id":4,"nama":"Iklan 4","foto":"20230324234534.jpg","status":1,"ditampilkan":39,"created_at":"2023-03-24 23:45:34","updated_at":"2023-05-04 22:09:16"}',
+            ),
+            203 => 
+            array (
+                'id' => 747,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 22:11:52',
+                'table_name' => 'banners',
+                'log_type' => 'edit',
+                'data' => '{"id":4,"nama":"Iklan 4","foto":"20230324234534.jpg","status":1,"ditampilkan":40,"created_at":"2023-03-24 23:45:34","updated_at":"2023-05-04 22:09:38"}',
+            ),
+            204 => 
+            array (
+                'id' => 748,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 22:11:54',
+                'table_name' => 'banners',
+                'log_type' => 'edit',
+                'data' => '{"id":5,"nama":"Iklan 5","foto":"20230324234545.jpg","status":1,"ditampilkan":45,"created_at":"2023-03-24 23:45:45","updated_at":"2023-05-04 22:07:32"}',
+            ),
+            205 => 
+            array (
+                'id' => 749,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 22:11:59',
+                'table_name' => 'banners',
+                'log_type' => 'edit',
+                'data' => '{"id":5,"nama":"Iklan 5","foto":"20230324234545.jpg","status":1,"ditampilkan":46,"created_at":"2023-03-24 23:45:45","updated_at":"2023-05-04 22:11:54"}',
+            ),
+            206 => 
+            array (
+                'id' => 750,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 22:12:36',
+                'table_name' => 'banners',
+                'log_type' => 'edit',
+                'data' => '{"id":4,"nama":"Iklan 4","foto":"20230324234534.jpg","status":1,"ditampilkan":41,"created_at":"2023-03-24 23:45:34","updated_at":"2023-05-04 22:11:52"}',
+            ),
+            207 => 
+            array (
+                'id' => 751,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 22:12:42',
+                'table_name' => 'banners',
+                'log_type' => 'edit',
+                'data' => '{"id":4,"nama":"Iklan 4","foto":"20230324234534.jpg","status":1,"ditampilkan":42,"created_at":"2023-03-24 23:45:34","updated_at":"2023-05-04 22:12:36"}',
+            ),
+            208 => 
+            array (
+                'id' => 752,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 22:12:45',
+                'table_name' => 'banners',
+                'log_type' => 'edit',
+                'data' => '{"id":4,"nama":"Iklan 4","foto":"20230324234534.jpg","status":1,"ditampilkan":43,"created_at":"2023-03-24 23:45:34","updated_at":"2023-05-04 22:12:42"}',
+            ),
+            209 => 
+            array (
+                'id' => 753,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 22:14:34',
+                'table_name' => 'banners',
+                'log_type' => 'edit',
+                'data' => '{"id":5,"nama":"Iklan 5","foto":"20230324234545.jpg","status":1,"ditampilkan":47,"created_at":"2023-03-24 23:45:45","updated_at":"2023-05-04 22:11:59"}',
+            ),
+            210 => 
+            array (
+                'id' => 754,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 22:14:37',
+                'table_name' => 'banners',
+                'log_type' => 'edit',
+                'data' => '{"id":4,"nama":"Iklan 4","foto":"20230324234534.jpg","status":1,"ditampilkan":44,"created_at":"2023-03-24 23:45:34","updated_at":"2023-05-04 22:12:45"}',
+            ),
+            211 => 
+            array (
+                'id' => 755,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 22:14:50',
+                'table_name' => 'banners',
+                'log_type' => 'edit',
+                'data' => '{"id":4,"nama":"Iklan 4","foto":"20230324234534.jpg","status":1,"ditampilkan":45,"created_at":"2023-03-24 23:45:34","updated_at":"2023-05-04 22:14:37"}',
+            ),
+            212 => 
+            array (
+                'id' => 756,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 22:14:56',
+                'table_name' => 'banners',
+                'log_type' => 'edit',
+                'data' => '{"id":5,"nama":"Iklan 5","foto":"20230324234545.jpg","status":1,"ditampilkan":48,"created_at":"2023-03-24 23:45:45","updated_at":"2023-05-04 22:14:34"}',
+            ),
+            213 => 
+            array (
+                'id' => 757,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 22:15:07',
+                'table_name' => 'artikel',
+                'log_type' => 'edit',
+                'data' => '{"id":36,"nama":"IDEAL COCKTAILS FROM OUR BARMEN FOR PEFECT MOOD","slug":"ideal-cocktails-from-our-barmen-for-pefect-mood","foto":"\\/assets\\/artikel\\/ideal-cock16784303220.png","detail":"<h2 class=\\"title mb-10\\" style=\\"text-align: center; \\"><img data-bs-filename=\\"blog-post-1.jpg\\" style=\\"width: 748px;\\" src=\\"\\/assets\\/artikel\\/ideal-cock16784303220.png\\"><br>\\r\\n\\n<h2 class=\\"title mb-10\\">ideal cocktails from our barmen for pefect mood<\\/h2><div class=\\"mt-10\\">\\r\\n<p>For those of us who want to say thank you to our moms, it\'s not always easy\\r\\nto put those big feelings in words. Which is where Dribbble comes in.<\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>These eight shots crystallize the hard work moms put into keeping their kids\\r\\nalive, happy, and healthy. They might give you the inspiration you need for\\r\\nfilling out that card&Atilde;&cent;&acirc;&#130;&not;&acirc;&#128;&#157;or stand alone for your mom\'s interpretation.<\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>Moms are the ones who bandage our boo-boos when we\'re little and continue to\\r\\ntake care of us as we get older&Atilde;&cent;&acirc;&#130;&not;&acirc;&#128;&#157;often sacrificing their own needs so they\\r\\ncan help with ours. Cruising on a bike <\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<h3>Here come the moms in space<\\/h3>\\r\\n<p>A supermarket worker was spat at by a customer attempting to stockpile Pot\\r\\nNoodles while another was told: &Atilde;&cent;&acirc;&#130;&not;&Aring;&#147;I hope you get the virus and die&Atilde;&cent;&acirc;&#130;&not;&Acirc;&#157;, as\\r\\npanic-buying blighted the nations response to coronavirus pandemic.<img data-filename=\\"wkg-roastery.png\\" style=\\"width: 885.578px;\\" src=\\"\\/assets\\/artikel\\/ideal-cock16817970281.png\\"><\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>An eyewitness described the scene at a packed branch of Asda in the Wirral,\\r\\nMerseyside, on Saturday, as a man in his 30s attempted to buy more than the\\r\\nthree Pot Noodles allowed by the <\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<h3>Here come the moms in space<\\/h3>\\r\\n<p>The incident, which was raised in parliament by Labour MP Bill Esterson, was\\r\\njust one of the horrendous cases of abuse revealed by supermarket workers in\\r\\nrecent days as some customers grow angry over restrictions and empty\\r\\nshelves.<\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>The doctor was exposed to the virus when the 38-year-old woman visited the\\r\\nclinic on March 12, the minister said. Five days later, she tested positive.\\r\\nThat day, the doctor was also admitted in hospital.Lorem ipsum dolor sit\\r\\namet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut\\r\\nlabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud\\r\\nexercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore\\r\\neu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,\\r\\nsunt in culpa qui officia deserunt mollit <\\/p>\\r\\n<\\/div><\\/h2>\\n","excerpt":"Ronec et nibh maximus, congue est eu, mattis nunc. Praesent ut quam quis quam venenatis fringilla. Morbi vestibulum id tellus mmodo mattis. Aliquam erat volutpat. Aenean accumsan id mi nec semper. Lorem ipsum.","counter":91,"date":"2023-03-10","status":1,"created_at":"2022-04-28 07:19:02","updated_at":"2023-04-18 12:50:28","user_id":1}',
+            ),
+            214 => 
+            array (
+                'id' => 758,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 22:15:08',
+                'table_name' => 'banners',
+                'log_type' => 'edit',
+                'data' => '{"id":4,"nama":"Iklan 4","foto":"20230324234534.jpg","status":1,"ditampilkan":46,"created_at":"2023-03-24 23:45:34","updated_at":"2023-05-04 22:14:50"}',
+            ),
+            215 => 
+            array (
+                'id' => 759,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 22:16:16',
+                'table_name' => 'artikel',
+                'log_type' => 'edit',
+                'data' => '{"id":36,"nama":"IDEAL COCKTAILS FROM OUR BARMEN FOR PEFECT MOOD","slug":"ideal-cocktails-from-our-barmen-for-pefect-mood","foto":"\\/assets\\/artikel\\/ideal-cock16784303220.png","detail":"<h2 class=\\"title mb-10\\" style=\\"text-align: center; \\"><img data-bs-filename=\\"blog-post-1.jpg\\" style=\\"width: 748px;\\" src=\\"\\/assets\\/artikel\\/ideal-cock16784303220.png\\"><br>\\r\\n\\n<h2 class=\\"title mb-10\\">ideal cocktails from our barmen for pefect mood<\\/h2><div class=\\"mt-10\\">\\r\\n<p>For those of us who want to say thank you to our moms, it\'s not always easy\\r\\nto put those big feelings in words. Which is where Dribbble comes in.<\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>These eight shots crystallize the hard work moms put into keeping their kids\\r\\nalive, happy, and healthy. They might give you the inspiration you need for\\r\\nfilling out that card&Atilde;&cent;&acirc;&#130;&not;&acirc;&#128;&#157;or stand alone for your mom\'s interpretation.<\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>Moms are the ones who bandage our boo-boos when we\'re little and continue to\\r\\ntake care of us as we get older&Atilde;&cent;&acirc;&#130;&not;&acirc;&#128;&#157;often sacrificing their own needs so they\\r\\ncan help with ours. Cruising on a bike <\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<h3>Here come the moms in space<\\/h3>\\r\\n<p>A supermarket worker was spat at by a customer attempting to stockpile Pot\\r\\nNoodles while another was told: &Atilde;&cent;&acirc;&#130;&not;&Aring;&#147;I hope you get the virus and die&Atilde;&cent;&acirc;&#130;&not;&Acirc;&#157;, as\\r\\npanic-buying blighted the nations response to coronavirus pandemic.<img data-filename=\\"wkg-roastery.png\\" style=\\"width: 885.578px;\\" src=\\"\\/assets\\/artikel\\/ideal-cock16817970281.png\\"><\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>An eyewitness described the scene at a packed branch of Asda in the Wirral,\\r\\nMerseyside, on Saturday, as a man in his 30s attempted to buy more than the\\r\\nthree Pot Noodles allowed by the <\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<h3>Here come the moms in space<\\/h3>\\r\\n<p>The incident, which was raised in parliament by Labour MP Bill Esterson, was\\r\\njust one of the horrendous cases of abuse revealed by supermarket workers in\\r\\nrecent days as some customers grow angry over restrictions and empty\\r\\nshelves.<\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>The doctor was exposed to the virus when the 38-year-old woman visited the\\r\\nclinic on March 12, the minister said. Five days later, she tested positive.\\r\\nThat day, the doctor was also admitted in hospital.Lorem ipsum dolor sit\\r\\namet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut\\r\\nlabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud\\r\\nexercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore\\r\\neu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,\\r\\nsunt in culpa qui officia deserunt mollit <\\/p>\\r\\n<\\/div><\\/h2>\\n","excerpt":"Ronec et nibh maximus, congue est eu, mattis nunc. Praesent ut quam quis quam venenatis fringilla. Morbi vestibulum id tellus mmodo mattis. Aliquam erat volutpat. Aenean accumsan id mi nec semper. Lorem ipsum.","counter":92,"date":"2023-03-10","status":1,"created_at":"2022-04-28 07:19:02","updated_at":"2023-05-04 22:15:07","user_id":1}',
+            ),
+            216 => 
+            array (
+                'id' => 760,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 22:16:16',
+                'table_name' => 'banners',
+                'log_type' => 'edit',
+                'data' => '{"id":3,"nama":"Iklan 3","foto":"20230324234525.jpg","status":1,"ditampilkan":39,"created_at":"2023-03-24 23:45:25","updated_at":"2023-05-04 22:05:31"}',
+            ),
+            217 => 
+            array (
+                'id' => 761,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 22:16:20',
+                'table_name' => 'artikel',
+                'log_type' => 'edit',
+                'data' => '{"id":36,"nama":"IDEAL COCKTAILS FROM OUR BARMEN FOR PEFECT MOOD","slug":"ideal-cocktails-from-our-barmen-for-pefect-mood","foto":"\\/assets\\/artikel\\/ideal-cock16784303220.png","detail":"<h2 class=\\"title mb-10\\" style=\\"text-align: center; \\"><img data-bs-filename=\\"blog-post-1.jpg\\" style=\\"width: 748px;\\" src=\\"\\/assets\\/artikel\\/ideal-cock16784303220.png\\"><br>\\r\\n\\n<h2 class=\\"title mb-10\\">ideal cocktails from our barmen for pefect mood<\\/h2><div class=\\"mt-10\\">\\r\\n<p>For those of us who want to say thank you to our moms, it\'s not always easy\\r\\nto put those big feelings in words. Which is where Dribbble comes in.<\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>These eight shots crystallize the hard work moms put into keeping their kids\\r\\nalive, happy, and healthy. They might give you the inspiration you need for\\r\\nfilling out that card&Atilde;&cent;&acirc;&#130;&not;&acirc;&#128;&#157;or stand alone for your mom\'s interpretation.<\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>Moms are the ones who bandage our boo-boos when we\'re little and continue to\\r\\ntake care of us as we get older&Atilde;&cent;&acirc;&#130;&not;&acirc;&#128;&#157;often sacrificing their own needs so they\\r\\ncan help with ours. Cruising on a bike <\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<h3>Here come the moms in space<\\/h3>\\r\\n<p>A supermarket worker was spat at by a customer attempting to stockpile Pot\\r\\nNoodles while another was told: &Atilde;&cent;&acirc;&#130;&not;&Aring;&#147;I hope you get the virus and die&Atilde;&cent;&acirc;&#130;&not;&Acirc;&#157;, as\\r\\npanic-buying blighted the nations response to coronavirus pandemic.<img data-filename=\\"wkg-roastery.png\\" style=\\"width: 885.578px;\\" src=\\"\\/assets\\/artikel\\/ideal-cock16817970281.png\\"><\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>An eyewitness described the scene at a packed branch of Asda in the Wirral,\\r\\nMerseyside, on Saturday, as a man in his 30s attempted to buy more than the\\r\\nthree Pot Noodles allowed by the <\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<h3>Here come the moms in space<\\/h3>\\r\\n<p>The incident, which was raised in parliament by Labour MP Bill Esterson, was\\r\\njust one of the horrendous cases of abuse revealed by supermarket workers in\\r\\nrecent days as some customers grow angry over restrictions and empty\\r\\nshelves.<\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>The doctor was exposed to the virus when the 38-year-old woman visited the\\r\\nclinic on March 12, the minister said. Five days later, she tested positive.\\r\\nThat day, the doctor was also admitted in hospital.Lorem ipsum dolor sit\\r\\namet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut\\r\\nlabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud\\r\\nexercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore\\r\\neu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,\\r\\nsunt in culpa qui officia deserunt mollit <\\/p>\\r\\n<\\/div><\\/h2>\\n","excerpt":"Ronec et nibh maximus, congue est eu, mattis nunc. Praesent ut quam quis quam venenatis fringilla. Morbi vestibulum id tellus mmodo mattis. Aliquam erat volutpat. Aenean accumsan id mi nec semper. Lorem ipsum.","counter":93,"date":"2023-03-10","status":1,"created_at":"2022-04-28 07:19:02","updated_at":"2023-05-04 22:16:16","user_id":1}',
+            ),
+            218 => 
+            array (
+                'id' => 762,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 22:16:20',
+                'table_name' => 'banners',
+                'log_type' => 'edit',
+                'data' => '{"id":3,"nama":"Iklan 3","foto":"20230324234525.jpg","status":1,"ditampilkan":40,"created_at":"2023-03-24 23:45:25","updated_at":"2023-05-04 22:16:16"}',
+            ),
+            219 => 
+            array (
+                'id' => 763,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 22:17:22',
+                'table_name' => 'artikel',
+                'log_type' => 'edit',
+                'data' => '{"id":36,"nama":"IDEAL COCKTAILS FROM OUR BARMEN FOR PEFECT MOOD","slug":"ideal-cocktails-from-our-barmen-for-pefect-mood","foto":"\\/assets\\/artikel\\/ideal-cock16784303220.png","detail":"<h2 class=\\"title mb-10\\" style=\\"text-align: center; \\"><img data-bs-filename=\\"blog-post-1.jpg\\" style=\\"width: 748px;\\" src=\\"\\/assets\\/artikel\\/ideal-cock16784303220.png\\"><br>\\r\\n\\n<h2 class=\\"title mb-10\\">ideal cocktails from our barmen for pefect mood<\\/h2><div class=\\"mt-10\\">\\r\\n<p>For those of us who want to say thank you to our moms, it\'s not always easy\\r\\nto put those big feelings in words. Which is where Dribbble comes in.<\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>These eight shots crystallize the hard work moms put into keeping their kids\\r\\nalive, happy, and healthy. They might give you the inspiration you need for\\r\\nfilling out that card&Atilde;&cent;&acirc;&#130;&not;&acirc;&#128;&#157;or stand alone for your mom\'s interpretation.<\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>Moms are the ones who bandage our boo-boos when we\'re little and continue to\\r\\ntake care of us as we get older&Atilde;&cent;&acirc;&#130;&not;&acirc;&#128;&#157;often sacrificing their own needs so they\\r\\ncan help with ours. Cruising on a bike <\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<h3>Here come the moms in space<\\/h3>\\r\\n<p>A supermarket worker was spat at by a customer attempting to stockpile Pot\\r\\nNoodles while another was told: &Atilde;&cent;&acirc;&#130;&not;&Aring;&#147;I hope you get the virus and die&Atilde;&cent;&acirc;&#130;&not;&Acirc;&#157;, as\\r\\npanic-buying blighted the nations response to coronavirus pandemic.<img data-filename=\\"wkg-roastery.png\\" style=\\"width: 885.578px;\\" src=\\"\\/assets\\/artikel\\/ideal-cock16817970281.png\\"><\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>An eyewitness described the scene at a packed branch of Asda in the Wirral,\\r\\nMerseyside, on Saturday, as a man in his 30s attempted to buy more than the\\r\\nthree Pot Noodles allowed by the <\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<h3>Here come the moms in space<\\/h3>\\r\\n<p>The incident, which was raised in parliament by Labour MP Bill Esterson, was\\r\\njust one of the horrendous cases of abuse revealed by supermarket workers in\\r\\nrecent days as some customers grow angry over restrictions and empty\\r\\nshelves.<\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>The doctor was exposed to the virus when the 38-year-old woman visited the\\r\\nclinic on March 12, the minister said. Five days later, she tested positive.\\r\\nThat day, the doctor was also admitted in hospital.Lorem ipsum dolor sit\\r\\namet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut\\r\\nlabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud\\r\\nexercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore\\r\\neu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,\\r\\nsunt in culpa qui officia deserunt mollit <\\/p>\\r\\n<\\/div><\\/h2>\\n","excerpt":"Ronec et nibh maximus, congue est eu, mattis nunc. Praesent ut quam quis quam venenatis fringilla. Morbi vestibulum id tellus mmodo mattis. Aliquam erat volutpat. Aenean accumsan id mi nec semper. Lorem ipsum.","counter":94,"date":"2023-03-10","status":1,"created_at":"2022-04-28 07:19:02","updated_at":"2023-05-04 22:16:20","user_id":1}',
+            ),
+            220 => 
+            array (
+                'id' => 764,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 22:17:22',
+                'table_name' => 'banners',
+                'log_type' => 'edit',
+                'data' => '{"id":3,"nama":"Iklan 3","foto":"20230324234525.jpg","status":1,"ditampilkan":41,"created_at":"2023-03-24 23:45:25","updated_at":"2023-05-04 22:16:20"}',
+            ),
+            221 => 
+            array (
+                'id' => 765,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 22:17:39',
+                'table_name' => 'artikel',
+                'log_type' => 'edit',
+                'data' => '{"id":36,"nama":"IDEAL COCKTAILS FROM OUR BARMEN FOR PEFECT MOOD","slug":"ideal-cocktails-from-our-barmen-for-pefect-mood","foto":"\\/assets\\/artikel\\/ideal-cock16784303220.png","detail":"<h2 class=\\"title mb-10\\" style=\\"text-align: center; \\"><img data-bs-filename=\\"blog-post-1.jpg\\" style=\\"width: 748px;\\" src=\\"\\/assets\\/artikel\\/ideal-cock16784303220.png\\"><br>\\r\\n\\n<h2 class=\\"title mb-10\\">ideal cocktails from our barmen for pefect mood<\\/h2><div class=\\"mt-10\\">\\r\\n<p>For those of us who want to say thank you to our moms, it\'s not always easy\\r\\nto put those big feelings in words. Which is where Dribbble comes in.<\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>These eight shots crystallize the hard work moms put into keeping their kids\\r\\nalive, happy, and healthy. They might give you the inspiration you need for\\r\\nfilling out that card&Atilde;&cent;&acirc;&#130;&not;&acirc;&#128;&#157;or stand alone for your mom\'s interpretation.<\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>Moms are the ones who bandage our boo-boos when we\'re little and continue to\\r\\ntake care of us as we get older&Atilde;&cent;&acirc;&#130;&not;&acirc;&#128;&#157;often sacrificing their own needs so they\\r\\ncan help with ours. Cruising on a bike <\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<h3>Here come the moms in space<\\/h3>\\r\\n<p>A supermarket worker was spat at by a customer attempting to stockpile Pot\\r\\nNoodles while another was told: &Atilde;&cent;&acirc;&#130;&not;&Aring;&#147;I hope you get the virus and die&Atilde;&cent;&acirc;&#130;&not;&Acirc;&#157;, as\\r\\npanic-buying blighted the nations response to coronavirus pandemic.<img data-filename=\\"wkg-roastery.png\\" style=\\"width: 885.578px;\\" src=\\"\\/assets\\/artikel\\/ideal-cock16817970281.png\\"><\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>An eyewitness described the scene at a packed branch of Asda in the Wirral,\\r\\nMerseyside, on Saturday, as a man in his 30s attempted to buy more than the\\r\\nthree Pot Noodles allowed by the <\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<h3>Here come the moms in space<\\/h3>\\r\\n<p>The incident, which was raised in parliament by Labour MP Bill Esterson, was\\r\\njust one of the horrendous cases of abuse revealed by supermarket workers in\\r\\nrecent days as some customers grow angry over restrictions and empty\\r\\nshelves.<\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>The doctor was exposed to the virus when the 38-year-old woman visited the\\r\\nclinic on March 12, the minister said. Five days later, she tested positive.\\r\\nThat day, the doctor was also admitted in hospital.Lorem ipsum dolor sit\\r\\namet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut\\r\\nlabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud\\r\\nexercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore\\r\\neu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,\\r\\nsunt in culpa qui officia deserunt mollit <\\/p>\\r\\n<\\/div><\\/h2>\\n","excerpt":"Ronec et nibh maximus, congue est eu, mattis nunc. Praesent ut quam quis quam venenatis fringilla. Morbi vestibulum id tellus mmodo mattis. Aliquam erat volutpat. Aenean accumsan id mi nec semper. Lorem ipsum.","counter":95,"date":"2023-03-10","status":1,"created_at":"2022-04-28 07:19:02","updated_at":"2023-05-04 22:17:22","user_id":1}',
+            ),
+            222 => 
+            array (
+                'id' => 766,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 22:17:39',
+                'table_name' => 'banners',
+                'log_type' => 'edit',
+                'data' => '{"id":5,"nama":"Iklan 5","foto":"20230324234545.jpg","status":1,"ditampilkan":49,"created_at":"2023-03-24 23:45:45","updated_at":"2023-05-04 22:14:56"}',
+            ),
+            223 => 
+            array (
+                'id' => 767,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 22:17:51',
+                'table_name' => 'artikel',
+                'log_type' => 'edit',
+                'data' => '{"id":36,"nama":"IDEAL COCKTAILS FROM OUR BARMEN FOR PEFECT MOOD","slug":"ideal-cocktails-from-our-barmen-for-pefect-mood","foto":"\\/assets\\/artikel\\/ideal-cock16784303220.png","detail":"<h2 class=\\"title mb-10\\" style=\\"text-align: center; \\"><img data-bs-filename=\\"blog-post-1.jpg\\" style=\\"width: 748px;\\" src=\\"\\/assets\\/artikel\\/ideal-cock16784303220.png\\"><br>\\r\\n\\n<h2 class=\\"title mb-10\\">ideal cocktails from our barmen for pefect mood<\\/h2><div class=\\"mt-10\\">\\r\\n<p>For those of us who want to say thank you to our moms, it\'s not always easy\\r\\nto put those big feelings in words. Which is where Dribbble comes in.<\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>These eight shots crystallize the hard work moms put into keeping their kids\\r\\nalive, happy, and healthy. They might give you the inspiration you need for\\r\\nfilling out that card&Atilde;&cent;&acirc;&#130;&not;&acirc;&#128;&#157;or stand alone for your mom\'s interpretation.<\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>Moms are the ones who bandage our boo-boos when we\'re little and continue to\\r\\ntake care of us as we get older&Atilde;&cent;&acirc;&#130;&not;&acirc;&#128;&#157;often sacrificing their own needs so they\\r\\ncan help with ours. Cruising on a bike <\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<h3>Here come the moms in space<\\/h3>\\r\\n<p>A supermarket worker was spat at by a customer attempting to stockpile Pot\\r\\nNoodles while another was told: &Atilde;&cent;&acirc;&#130;&not;&Aring;&#147;I hope you get the virus and die&Atilde;&cent;&acirc;&#130;&not;&Acirc;&#157;, as\\r\\npanic-buying blighted the nations response to coronavirus pandemic.<img data-filename=\\"wkg-roastery.png\\" style=\\"width: 885.578px;\\" src=\\"\\/assets\\/artikel\\/ideal-cock16817970281.png\\"><\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>An eyewitness described the scene at a packed branch of Asda in the Wirral,\\r\\nMerseyside, on Saturday, as a man in his 30s attempted to buy more than the\\r\\nthree Pot Noodles allowed by the <\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<h3>Here come the moms in space<\\/h3>\\r\\n<p>The incident, which was raised in parliament by Labour MP Bill Esterson, was\\r\\njust one of the horrendous cases of abuse revealed by supermarket workers in\\r\\nrecent days as some customers grow angry over restrictions and empty\\r\\nshelves.<\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>The doctor was exposed to the virus when the 38-year-old woman visited the\\r\\nclinic on March 12, the minister said. Five days later, she tested positive.\\r\\nThat day, the doctor was also admitted in hospital.Lorem ipsum dolor sit\\r\\namet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut\\r\\nlabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud\\r\\nexercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore\\r\\neu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,\\r\\nsunt in culpa qui officia deserunt mollit <\\/p>\\r\\n<\\/div><\\/h2>\\n","excerpt":"Ronec et nibh maximus, congue est eu, mattis nunc. Praesent ut quam quis quam venenatis fringilla. Morbi vestibulum id tellus mmodo mattis. Aliquam erat volutpat. Aenean accumsan id mi nec semper. Lorem ipsum.","counter":96,"date":"2023-03-10","status":1,"created_at":"2022-04-28 07:19:02","updated_at":"2023-05-04 22:17:39","user_id":1}',
+            ),
+            224 => 
+            array (
+                'id' => 768,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 22:17:51',
+                'table_name' => 'banners',
+                'log_type' => 'edit',
+                'data' => '{"id":5,"nama":"Iklan 5","foto":"20230324234545.jpg","status":1,"ditampilkan":50,"created_at":"2023-03-24 23:45:45","updated_at":"2023-05-04 22:17:39"}',
+            ),
+            225 => 
+            array (
+                'id' => 769,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 22:19:02',
+                'table_name' => 'artikel',
+                'log_type' => 'edit',
+                'data' => '{"id":36,"nama":"IDEAL COCKTAILS FROM OUR BARMEN FOR PEFECT MOOD","slug":"ideal-cocktails-from-our-barmen-for-pefect-mood","foto":"\\/assets\\/artikel\\/ideal-cock16784303220.png","detail":"<h2 class=\\"title mb-10\\" style=\\"text-align: center; \\"><img data-bs-filename=\\"blog-post-1.jpg\\" style=\\"width: 748px;\\" src=\\"\\/assets\\/artikel\\/ideal-cock16784303220.png\\"><br>\\r\\n\\n<h2 class=\\"title mb-10\\">ideal cocktails from our barmen for pefect mood<\\/h2><div class=\\"mt-10\\">\\r\\n<p>For those of us who want to say thank you to our moms, it\'s not always easy\\r\\nto put those big feelings in words. Which is where Dribbble comes in.<\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>These eight shots crystallize the hard work moms put into keeping their kids\\r\\nalive, happy, and healthy. They might give you the inspiration you need for\\r\\nfilling out that card&Atilde;&cent;&acirc;&#130;&not;&acirc;&#128;&#157;or stand alone for your mom\'s interpretation.<\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>Moms are the ones who bandage our boo-boos when we\'re little and continue to\\r\\ntake care of us as we get older&Atilde;&cent;&acirc;&#130;&not;&acirc;&#128;&#157;often sacrificing their own needs so they\\r\\ncan help with ours. Cruising on a bike <\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<h3>Here come the moms in space<\\/h3>\\r\\n<p>A supermarket worker was spat at by a customer attempting to stockpile Pot\\r\\nNoodles while another was told: &Atilde;&cent;&acirc;&#130;&not;&Aring;&#147;I hope you get the virus and die&Atilde;&cent;&acirc;&#130;&not;&Acirc;&#157;, as\\r\\npanic-buying blighted the nations response to coronavirus pandemic.<img data-filename=\\"wkg-roastery.png\\" style=\\"width: 885.578px;\\" src=\\"\\/assets\\/artikel\\/ideal-cock16817970281.png\\"><\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>An eyewitness described the scene at a packed branch of Asda in the Wirral,\\r\\nMerseyside, on Saturday, as a man in his 30s attempted to buy more than the\\r\\nthree Pot Noodles allowed by the <\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<h3>Here come the moms in space<\\/h3>\\r\\n<p>The incident, which was raised in parliament by Labour MP Bill Esterson, was\\r\\njust one of the horrendous cases of abuse revealed by supermarket workers in\\r\\nrecent days as some customers grow angry over restrictions and empty\\r\\nshelves.<\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>The doctor was exposed to the virus when the 38-year-old woman visited the\\r\\nclinic on March 12, the minister said. Five days later, she tested positive.\\r\\nThat day, the doctor was also admitted in hospital.Lorem ipsum dolor sit\\r\\namet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut\\r\\nlabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud\\r\\nexercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore\\r\\neu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,\\r\\nsunt in culpa qui officia deserunt mollit <\\/p>\\r\\n<\\/div><\\/h2>\\n","excerpt":"Ronec et nibh maximus, congue est eu, mattis nunc. Praesent ut quam quis quam venenatis fringilla. Morbi vestibulum id tellus mmodo mattis. Aliquam erat volutpat. Aenean accumsan id mi nec semper. Lorem ipsum.","counter":97,"date":"2023-03-10","status":1,"created_at":"2022-04-28 07:19:02","updated_at":"2023-05-04 22:17:51","user_id":1}',
+            ),
+            226 => 
+            array (
+                'id' => 770,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 22:19:02',
+                'table_name' => 'banners',
+                'log_type' => 'edit',
+                'data' => '{"id":3,"nama":"Iklan 3","foto":"20230324234525.jpg","status":1,"ditampilkan":42,"created_at":"2023-03-24 23:45:25","updated_at":"2023-05-04 22:17:22"}',
+            ),
+            227 => 
+            array (
+                'id' => 771,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 22:19:10',
+                'table_name' => 'artikel',
+                'log_type' => 'edit',
+                'data' => '{"id":36,"nama":"IDEAL COCKTAILS FROM OUR BARMEN FOR PEFECT MOOD","slug":"ideal-cocktails-from-our-barmen-for-pefect-mood","foto":"\\/assets\\/artikel\\/ideal-cock16784303220.png","detail":"<h2 class=\\"title mb-10\\" style=\\"text-align: center; \\"><img data-bs-filename=\\"blog-post-1.jpg\\" style=\\"width: 748px;\\" src=\\"\\/assets\\/artikel\\/ideal-cock16784303220.png\\"><br>\\r\\n\\n<h2 class=\\"title mb-10\\">ideal cocktails from our barmen for pefect mood<\\/h2><div class=\\"mt-10\\">\\r\\n<p>For those of us who want to say thank you to our moms, it\'s not always easy\\r\\nto put those big feelings in words. Which is where Dribbble comes in.<\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>These eight shots crystallize the hard work moms put into keeping their kids\\r\\nalive, happy, and healthy. They might give you the inspiration you need for\\r\\nfilling out that card&Atilde;&cent;&acirc;&#130;&not;&acirc;&#128;&#157;or stand alone for your mom\'s interpretation.<\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>Moms are the ones who bandage our boo-boos when we\'re little and continue to\\r\\ntake care of us as we get older&Atilde;&cent;&acirc;&#130;&not;&acirc;&#128;&#157;often sacrificing their own needs so they\\r\\ncan help with ours. Cruising on a bike <\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<h3>Here come the moms in space<\\/h3>\\r\\n<p>A supermarket worker was spat at by a customer attempting to stockpile Pot\\r\\nNoodles while another was told: &Atilde;&cent;&acirc;&#130;&not;&Aring;&#147;I hope you get the virus and die&Atilde;&cent;&acirc;&#130;&not;&Acirc;&#157;, as\\r\\npanic-buying blighted the nations response to coronavirus pandemic.<img data-filename=\\"wkg-roastery.png\\" style=\\"width: 885.578px;\\" src=\\"\\/assets\\/artikel\\/ideal-cock16817970281.png\\"><\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>An eyewitness described the scene at a packed branch of Asda in the Wirral,\\r\\nMerseyside, on Saturday, as a man in his 30s attempted to buy more than the\\r\\nthree Pot Noodles allowed by the <\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<h3>Here come the moms in space<\\/h3>\\r\\n<p>The incident, which was raised in parliament by Labour MP Bill Esterson, was\\r\\njust one of the horrendous cases of abuse revealed by supermarket workers in\\r\\nrecent days as some customers grow angry over restrictions and empty\\r\\nshelves.<\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>The doctor was exposed to the virus when the 38-year-old woman visited the\\r\\nclinic on March 12, the minister said. Five days later, she tested positive.\\r\\nThat day, the doctor was also admitted in hospital.Lorem ipsum dolor sit\\r\\namet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut\\r\\nlabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud\\r\\nexercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore\\r\\neu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,\\r\\nsunt in culpa qui officia deserunt mollit <\\/p>\\r\\n<\\/div><\\/h2>\\n","excerpt":"Ronec et nibh maximus, congue est eu, mattis nunc. Praesent ut quam quis quam venenatis fringilla. Morbi vestibulum id tellus mmodo mattis. Aliquam erat volutpat. Aenean accumsan id mi nec semper. Lorem ipsum.","counter":98,"date":"2023-03-10","status":1,"created_at":"2022-04-28 07:19:02","updated_at":"2023-05-04 22:19:02","user_id":1}',
+            ),
+            228 => 
+            array (
+                'id' => 772,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 22:19:10',
+                'table_name' => 'banners',
+                'log_type' => 'edit',
+                'data' => '{"id":5,"nama":"Iklan 5","foto":"20230324234545.jpg","status":1,"ditampilkan":51,"created_at":"2023-03-24 23:45:45","updated_at":"2023-05-04 22:17:51"}',
+            ),
+            229 => 
+            array (
+                'id' => 773,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 22:19:56',
+                'table_name' => 'artikel',
+                'log_type' => 'edit',
+                'data' => '{"id":36,"nama":"IDEAL COCKTAILS FROM OUR BARMEN FOR PEFECT MOOD","slug":"ideal-cocktails-from-our-barmen-for-pefect-mood","foto":"\\/assets\\/artikel\\/ideal-cock16784303220.png","detail":"<h2 class=\\"title mb-10\\" style=\\"text-align: center; \\"><img data-bs-filename=\\"blog-post-1.jpg\\" style=\\"width: 748px;\\" src=\\"\\/assets\\/artikel\\/ideal-cock16784303220.png\\"><br>\\r\\n\\n<h2 class=\\"title mb-10\\">ideal cocktails from our barmen for pefect mood<\\/h2><div class=\\"mt-10\\">\\r\\n<p>For those of us who want to say thank you to our moms, it\'s not always easy\\r\\nto put those big feelings in words. Which is where Dribbble comes in.<\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>These eight shots crystallize the hard work moms put into keeping their kids\\r\\nalive, happy, and healthy. They might give you the inspiration you need for\\r\\nfilling out that card&Atilde;&cent;&acirc;&#130;&not;&acirc;&#128;&#157;or stand alone for your mom\'s interpretation.<\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>Moms are the ones who bandage our boo-boos when we\'re little and continue to\\r\\ntake care of us as we get older&Atilde;&cent;&acirc;&#130;&not;&acirc;&#128;&#157;often sacrificing their own needs so they\\r\\ncan help with ours. Cruising on a bike <\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<h3>Here come the moms in space<\\/h3>\\r\\n<p>A supermarket worker was spat at by a customer attempting to stockpile Pot\\r\\nNoodles while another was told: &Atilde;&cent;&acirc;&#130;&not;&Aring;&#147;I hope you get the virus and die&Atilde;&cent;&acirc;&#130;&not;&Acirc;&#157;, as\\r\\npanic-buying blighted the nations response to coronavirus pandemic.<img data-filename=\\"wkg-roastery.png\\" style=\\"width: 885.578px;\\" src=\\"\\/assets\\/artikel\\/ideal-cock16817970281.png\\"><\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>An eyewitness described the scene at a packed branch of Asda in the Wirral,\\r\\nMerseyside, on Saturday, as a man in his 30s attempted to buy more than the\\r\\nthree Pot Noodles allowed by the <\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<h3>Here come the moms in space<\\/h3>\\r\\n<p>The incident, which was raised in parliament by Labour MP Bill Esterson, was\\r\\njust one of the horrendous cases of abuse revealed by supermarket workers in\\r\\nrecent days as some customers grow angry over restrictions and empty\\r\\nshelves.<\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>The doctor was exposed to the virus when the 38-year-old woman visited the\\r\\nclinic on March 12, the minister said. Five days later, she tested positive.\\r\\nThat day, the doctor was also admitted in hospital.Lorem ipsum dolor sit\\r\\namet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut\\r\\nlabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud\\r\\nexercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore\\r\\neu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,\\r\\nsunt in culpa qui officia deserunt mollit <\\/p>\\r\\n<\\/div><\\/h2>\\n","excerpt":"Ronec et nibh maximus, congue est eu, mattis nunc. Praesent ut quam quis quam venenatis fringilla. Morbi vestibulum id tellus mmodo mattis. Aliquam erat volutpat. Aenean accumsan id mi nec semper. Lorem ipsum.","counter":99,"date":"2023-03-10","status":1,"created_at":"2022-04-28 07:19:02","updated_at":"2023-05-04 22:19:10","user_id":1}',
+            ),
+            230 => 
+            array (
+                'id' => 774,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 22:19:56',
+                'table_name' => 'banners',
+                'log_type' => 'edit',
+                'data' => '{"id":3,"nama":"Iklan 3","foto":"20230324234525.jpg","status":1,"ditampilkan":43,"created_at":"2023-03-24 23:45:25","updated_at":"2023-05-04 22:19:02"}',
+            ),
+            231 => 
+            array (
+                'id' => 775,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 22:20:26',
+                'table_name' => 'artikel',
+                'log_type' => 'edit',
+                'data' => '{"id":36,"nama":"IDEAL COCKTAILS FROM OUR BARMEN FOR PEFECT MOOD","slug":"ideal-cocktails-from-our-barmen-for-pefect-mood","foto":"\\/assets\\/artikel\\/ideal-cock16784303220.png","detail":"<h2 class=\\"title mb-10\\" style=\\"text-align: center; \\"><img data-bs-filename=\\"blog-post-1.jpg\\" style=\\"width: 748px;\\" src=\\"\\/assets\\/artikel\\/ideal-cock16784303220.png\\"><br>\\r\\n\\n<h2 class=\\"title mb-10\\">ideal cocktails from our barmen for pefect mood<\\/h2><div class=\\"mt-10\\">\\r\\n<p>For those of us who want to say thank you to our moms, it\'s not always easy\\r\\nto put those big feelings in words. Which is where Dribbble comes in.<\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>These eight shots crystallize the hard work moms put into keeping their kids\\r\\nalive, happy, and healthy. They might give you the inspiration you need for\\r\\nfilling out that card&Atilde;&cent;&acirc;&#130;&not;&acirc;&#128;&#157;or stand alone for your mom\'s interpretation.<\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>Moms are the ones who bandage our boo-boos when we\'re little and continue to\\r\\ntake care of us as we get older&Atilde;&cent;&acirc;&#130;&not;&acirc;&#128;&#157;often sacrificing their own needs so they\\r\\ncan help with ours. Cruising on a bike <\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<h3>Here come the moms in space<\\/h3>\\r\\n<p>A supermarket worker was spat at by a customer attempting to stockpile Pot\\r\\nNoodles while another was told: &Atilde;&cent;&acirc;&#130;&not;&Aring;&#147;I hope you get the virus and die&Atilde;&cent;&acirc;&#130;&not;&Acirc;&#157;, as\\r\\npanic-buying blighted the nations response to coronavirus pandemic.<img data-filename=\\"wkg-roastery.png\\" style=\\"width: 885.578px;\\" src=\\"\\/assets\\/artikel\\/ideal-cock16817970281.png\\"><\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>An eyewitness described the scene at a packed branch of Asda in the Wirral,\\r\\nMerseyside, on Saturday, as a man in his 30s attempted to buy more than the\\r\\nthree Pot Noodles allowed by the <\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<h3>Here come the moms in space<\\/h3>\\r\\n<p>The incident, which was raised in parliament by Labour MP Bill Esterson, was\\r\\njust one of the horrendous cases of abuse revealed by supermarket workers in\\r\\nrecent days as some customers grow angry over restrictions and empty\\r\\nshelves.<\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>The doctor was exposed to the virus when the 38-year-old woman visited the\\r\\nclinic on March 12, the minister said. Five days later, she tested positive.\\r\\nThat day, the doctor was also admitted in hospital.Lorem ipsum dolor sit\\r\\namet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut\\r\\nlabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud\\r\\nexercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore\\r\\neu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,\\r\\nsunt in culpa qui officia deserunt mollit <\\/p>\\r\\n<\\/div><\\/h2>\\n","excerpt":"Ronec et nibh maximus, congue est eu, mattis nunc. Praesent ut quam quis quam venenatis fringilla. Morbi vestibulum id tellus mmodo mattis. Aliquam erat volutpat. Aenean accumsan id mi nec semper. Lorem ipsum.","counter":100,"date":"2023-03-10","status":1,"created_at":"2022-04-28 07:19:02","updated_at":"2023-05-04 22:19:56","user_id":1}',
+            ),
+            232 => 
+            array (
+                'id' => 776,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 22:20:26',
+                'table_name' => 'banners',
+                'log_type' => 'edit',
+                'data' => '{"id":4,"nama":"Iklan 4","foto":"20230324234534.jpg","status":1,"ditampilkan":47,"created_at":"2023-03-24 23:45:34","updated_at":"2023-05-04 22:15:08"}',
+            ),
+            233 => 
+            array (
+                'id' => 777,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 22:20:41',
+                'table_name' => 'artikel',
+                'log_type' => 'edit',
+                'data' => '{"id":36,"nama":"IDEAL COCKTAILS FROM OUR BARMEN FOR PEFECT MOOD","slug":"ideal-cocktails-from-our-barmen-for-pefect-mood","foto":"\\/assets\\/artikel\\/ideal-cock16784303220.png","detail":"<h2 class=\\"title mb-10\\" style=\\"text-align: center; \\"><img data-bs-filename=\\"blog-post-1.jpg\\" style=\\"width: 748px;\\" src=\\"\\/assets\\/artikel\\/ideal-cock16784303220.png\\"><br>\\r\\n\\n<h2 class=\\"title mb-10\\">ideal cocktails from our barmen for pefect mood<\\/h2><div class=\\"mt-10\\">\\r\\n<p>For those of us who want to say thank you to our moms, it\'s not always easy\\r\\nto put those big feelings in words. Which is where Dribbble comes in.<\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>These eight shots crystallize the hard work moms put into keeping their kids\\r\\nalive, happy, and healthy. They might give you the inspiration you need for\\r\\nfilling out that card&Atilde;&cent;&acirc;&#130;&not;&acirc;&#128;&#157;or stand alone for your mom\'s interpretation.<\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>Moms are the ones who bandage our boo-boos when we\'re little and continue to\\r\\ntake care of us as we get older&Atilde;&cent;&acirc;&#130;&not;&acirc;&#128;&#157;often sacrificing their own needs so they\\r\\ncan help with ours. Cruising on a bike <\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<h3>Here come the moms in space<\\/h3>\\r\\n<p>A supermarket worker was spat at by a customer attempting to stockpile Pot\\r\\nNoodles while another was told: &Atilde;&cent;&acirc;&#130;&not;&Aring;&#147;I hope you get the virus and die&Atilde;&cent;&acirc;&#130;&not;&Acirc;&#157;, as\\r\\npanic-buying blighted the nations response to coronavirus pandemic.<img data-filename=\\"wkg-roastery.png\\" style=\\"width: 885.578px;\\" src=\\"\\/assets\\/artikel\\/ideal-cock16817970281.png\\"><\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>An eyewitness described the scene at a packed branch of Asda in the Wirral,\\r\\nMerseyside, on Saturday, as a man in his 30s attempted to buy more than the\\r\\nthree Pot Noodles allowed by the <\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<h3>Here come the moms in space<\\/h3>\\r\\n<p>The incident, which was raised in parliament by Labour MP Bill Esterson, was\\r\\njust one of the horrendous cases of abuse revealed by supermarket workers in\\r\\nrecent days as some customers grow angry over restrictions and empty\\r\\nshelves.<\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>The doctor was exposed to the virus when the 38-year-old woman visited the\\r\\nclinic on March 12, the minister said. Five days later, she tested positive.\\r\\nThat day, the doctor was also admitted in hospital.Lorem ipsum dolor sit\\r\\namet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut\\r\\nlabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud\\r\\nexercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore\\r\\neu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,\\r\\nsunt in culpa qui officia deserunt mollit <\\/p>\\r\\n<\\/div><\\/h2>\\n","excerpt":"Ronec et nibh maximus, congue est eu, mattis nunc. Praesent ut quam quis quam venenatis fringilla. Morbi vestibulum id tellus mmodo mattis. Aliquam erat volutpat. Aenean accumsan id mi nec semper. Lorem ipsum.","counter":101,"date":"2023-03-10","status":1,"created_at":"2022-04-28 07:19:02","updated_at":"2023-05-04 22:20:26","user_id":1}',
+            ),
+            234 => 
+            array (
+                'id' => 778,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 22:20:41',
+                'table_name' => 'banners',
+                'log_type' => 'edit',
+                'data' => '{"id":3,"nama":"Iklan 3","foto":"20230324234525.jpg","status":1,"ditampilkan":44,"created_at":"2023-03-24 23:45:25","updated_at":"2023-05-04 22:19:56"}',
+            ),
+            235 => 
+            array (
+                'id' => 779,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 22:22:29',
+                'table_name' => 'artikel',
+                'log_type' => 'edit',
+                'data' => '{"id":36,"nama":"IDEAL COCKTAILS FROM OUR BARMEN FOR PEFECT MOOD","slug":"ideal-cocktails-from-our-barmen-for-pefect-mood","foto":"\\/assets\\/artikel\\/ideal-cock16784303220.png","detail":"<h2 class=\\"title mb-10\\" style=\\"text-align: center; \\"><img data-bs-filename=\\"blog-post-1.jpg\\" style=\\"width: 748px;\\" src=\\"\\/assets\\/artikel\\/ideal-cock16784303220.png\\"><br>\\r\\n\\n<h2 class=\\"title mb-10\\">ideal cocktails from our barmen for pefect mood<\\/h2><div class=\\"mt-10\\">\\r\\n<p>For those of us who want to say thank you to our moms, it\'s not always easy\\r\\nto put those big feelings in words. Which is where Dribbble comes in.<\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>These eight shots crystallize the hard work moms put into keeping their kids\\r\\nalive, happy, and healthy. They might give you the inspiration you need for\\r\\nfilling out that card&Atilde;&cent;&acirc;&#130;&not;&acirc;&#128;&#157;or stand alone for your mom\'s interpretation.<\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>Moms are the ones who bandage our boo-boos when we\'re little and continue to\\r\\ntake care of us as we get older&Atilde;&cent;&acirc;&#130;&not;&acirc;&#128;&#157;often sacrificing their own needs so they\\r\\ncan help with ours. Cruising on a bike <\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<h3>Here come the moms in space<\\/h3>\\r\\n<p>A supermarket worker was spat at by a customer attempting to stockpile Pot\\r\\nNoodles while another was told: &Atilde;&cent;&acirc;&#130;&not;&Aring;&#147;I hope you get the virus and die&Atilde;&cent;&acirc;&#130;&not;&Acirc;&#157;, as\\r\\npanic-buying blighted the nations response to coronavirus pandemic.<img data-filename=\\"wkg-roastery.png\\" style=\\"width: 885.578px;\\" src=\\"\\/assets\\/artikel\\/ideal-cock16817970281.png\\"><\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>An eyewitness described the scene at a packed branch of Asda in the Wirral,\\r\\nMerseyside, on Saturday, as a man in his 30s attempted to buy more than the\\r\\nthree Pot Noodles allowed by the <\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<h3>Here come the moms in space<\\/h3>\\r\\n<p>The incident, which was raised in parliament by Labour MP Bill Esterson, was\\r\\njust one of the horrendous cases of abuse revealed by supermarket workers in\\r\\nrecent days as some customers grow angry over restrictions and empty\\r\\nshelves.<\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>The doctor was exposed to the virus when the 38-year-old woman visited the\\r\\nclinic on March 12, the minister said. Five days later, she tested positive.\\r\\nThat day, the doctor was also admitted in hospital.Lorem ipsum dolor sit\\r\\namet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut\\r\\nlabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud\\r\\nexercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore\\r\\neu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,\\r\\nsunt in culpa qui officia deserunt mollit <\\/p>\\r\\n<\\/div><\\/h2>\\n","excerpt":"Ronec et nibh maximus, congue est eu, mattis nunc. Praesent ut quam quis quam venenatis fringilla. Morbi vestibulum id tellus mmodo mattis. Aliquam erat volutpat. Aenean accumsan id mi nec semper. Lorem ipsum.","counter":102,"date":"2023-03-10","status":1,"created_at":"2022-04-28 07:19:02","updated_at":"2023-05-04 22:20:41","user_id":1}',
+            ),
+            236 => 
+            array (
+                'id' => 780,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 22:22:29',
+                'table_name' => 'banners',
+                'log_type' => 'edit',
+                'data' => '{"id":3,"nama":"Iklan 3","foto":"20230324234525.jpg","status":1,"ditampilkan":45,"created_at":"2023-03-24 23:45:25","updated_at":"2023-05-04 22:20:41"}',
+            ),
+            237 => 
+            array (
+                'id' => 781,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 22:22:48',
+                'table_name' => 'artikel',
+                'log_type' => 'edit',
+                'data' => '{"id":36,"nama":"IDEAL COCKTAILS FROM OUR BARMEN FOR PEFECT MOOD","slug":"ideal-cocktails-from-our-barmen-for-pefect-mood","foto":"\\/assets\\/artikel\\/ideal-cock16784303220.png","detail":"<h2 class=\\"title mb-10\\" style=\\"text-align: center; \\"><img data-bs-filename=\\"blog-post-1.jpg\\" style=\\"width: 748px;\\" src=\\"\\/assets\\/artikel\\/ideal-cock16784303220.png\\"><br>\\r\\n\\n<h2 class=\\"title mb-10\\">ideal cocktails from our barmen for pefect mood<\\/h2><div class=\\"mt-10\\">\\r\\n<p>For those of us who want to say thank you to our moms, it\'s not always easy\\r\\nto put those big feelings in words. Which is where Dribbble comes in.<\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>These eight shots crystallize the hard work moms put into keeping their kids\\r\\nalive, happy, and healthy. They might give you the inspiration you need for\\r\\nfilling out that card&Atilde;&cent;&acirc;&#130;&not;&acirc;&#128;&#157;or stand alone for your mom\'s interpretation.<\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>Moms are the ones who bandage our boo-boos when we\'re little and continue to\\r\\ntake care of us as we get older&Atilde;&cent;&acirc;&#130;&not;&acirc;&#128;&#157;often sacrificing their own needs so they\\r\\ncan help with ours. Cruising on a bike <\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<h3>Here come the moms in space<\\/h3>\\r\\n<p>A supermarket worker was spat at by a customer attempting to stockpile Pot\\r\\nNoodles while another was told: &Atilde;&cent;&acirc;&#130;&not;&Aring;&#147;I hope you get the virus and die&Atilde;&cent;&acirc;&#130;&not;&Acirc;&#157;, as\\r\\npanic-buying blighted the nations response to coronavirus pandemic.<img data-filename=\\"wkg-roastery.png\\" style=\\"width: 885.578px;\\" src=\\"\\/assets\\/artikel\\/ideal-cock16817970281.png\\"><\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>An eyewitness described the scene at a packed branch of Asda in the Wirral,\\r\\nMerseyside, on Saturday, as a man in his 30s attempted to buy more than the\\r\\nthree Pot Noodles allowed by the <\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<h3>Here come the moms in space<\\/h3>\\r\\n<p>The incident, which was raised in parliament by Labour MP Bill Esterson, was\\r\\njust one of the horrendous cases of abuse revealed by supermarket workers in\\r\\nrecent days as some customers grow angry over restrictions and empty\\r\\nshelves.<\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>The doctor was exposed to the virus when the 38-year-old woman visited the\\r\\nclinic on March 12, the minister said. Five days later, she tested positive.\\r\\nThat day, the doctor was also admitted in hospital.Lorem ipsum dolor sit\\r\\namet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut\\r\\nlabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud\\r\\nexercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore\\r\\neu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,\\r\\nsunt in culpa qui officia deserunt mollit <\\/p>\\r\\n<\\/div><\\/h2>\\n","excerpt":"Ronec et nibh maximus, congue est eu, mattis nunc. Praesent ut quam quis quam venenatis fringilla. Morbi vestibulum id tellus mmodo mattis. Aliquam erat volutpat. Aenean accumsan id mi nec semper. Lorem ipsum.","counter":103,"date":"2023-03-10","status":1,"created_at":"2022-04-28 07:19:02","updated_at":"2023-05-04 22:22:29","user_id":1}',
+            ),
+            238 => 
+            array (
+                'id' => 782,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 22:22:48',
+                'table_name' => 'banners',
+                'log_type' => 'edit',
+                'data' => '{"id":3,"nama":"Iklan 3","foto":"20230324234525.jpg","status":1,"ditampilkan":46,"created_at":"2023-03-24 23:45:25","updated_at":"2023-05-04 22:22:29"}',
+            ),
+            239 => 
+            array (
+                'id' => 783,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 22:23:11',
+                'table_name' => 'artikel',
+                'log_type' => 'edit',
+                'data' => '{"id":36,"nama":"IDEAL COCKTAILS FROM OUR BARMEN FOR PEFECT MOOD","slug":"ideal-cocktails-from-our-barmen-for-pefect-mood","foto":"\\/assets\\/artikel\\/ideal-cock16784303220.png","detail":"<h2 class=\\"title mb-10\\" style=\\"text-align: center; \\"><img data-bs-filename=\\"blog-post-1.jpg\\" style=\\"width: 748px;\\" src=\\"\\/assets\\/artikel\\/ideal-cock16784303220.png\\"><br>\\r\\n\\n<h2 class=\\"title mb-10\\">ideal cocktails from our barmen for pefect mood<\\/h2><div class=\\"mt-10\\">\\r\\n<p>For those of us who want to say thank you to our moms, it\'s not always easy\\r\\nto put those big feelings in words. Which is where Dribbble comes in.<\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>These eight shots crystallize the hard work moms put into keeping their kids\\r\\nalive, happy, and healthy. They might give you the inspiration you need for\\r\\nfilling out that card&Atilde;&cent;&acirc;&#130;&not;&acirc;&#128;&#157;or stand alone for your mom\'s interpretation.<\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>Moms are the ones who bandage our boo-boos when we\'re little and continue to\\r\\ntake care of us as we get older&Atilde;&cent;&acirc;&#130;&not;&acirc;&#128;&#157;often sacrificing their own needs so they\\r\\ncan help with ours. Cruising on a bike <\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<h3>Here come the moms in space<\\/h3>\\r\\n<p>A supermarket worker was spat at by a customer attempting to stockpile Pot\\r\\nNoodles while another was told: &Atilde;&cent;&acirc;&#130;&not;&Aring;&#147;I hope you get the virus and die&Atilde;&cent;&acirc;&#130;&not;&Acirc;&#157;, as\\r\\npanic-buying blighted the nations response to coronavirus pandemic.<img data-filename=\\"wkg-roastery.png\\" style=\\"width: 885.578px;\\" src=\\"\\/assets\\/artikel\\/ideal-cock16817970281.png\\"><\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>An eyewitness described the scene at a packed branch of Asda in the Wirral,\\r\\nMerseyside, on Saturday, as a man in his 30s attempted to buy more than the\\r\\nthree Pot Noodles allowed by the <\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<h3>Here come the moms in space<\\/h3>\\r\\n<p>The incident, which was raised in parliament by Labour MP Bill Esterson, was\\r\\njust one of the horrendous cases of abuse revealed by supermarket workers in\\r\\nrecent days as some customers grow angry over restrictions and empty\\r\\nshelves.<\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>The doctor was exposed to the virus when the 38-year-old woman visited the\\r\\nclinic on March 12, the minister said. Five days later, she tested positive.\\r\\nThat day, the doctor was also admitted in hospital.Lorem ipsum dolor sit\\r\\namet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut\\r\\nlabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud\\r\\nexercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\\/p>\\r\\n<\\/div><div class=\\"mt-20\\">\\r\\n<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore\\r\\neu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,\\r\\nsunt in culpa qui officia deserunt mollit <\\/p>\\r\\n<\\/div><\\/h2>\\n","excerpt":"Ronec et nibh maximus, congue est eu, mattis nunc. Praesent ut quam quis quam venenatis fringilla. Morbi vestibulum id tellus mmodo mattis. Aliquam erat volutpat. Aenean accumsan id mi nec semper. Lorem ipsum.","counter":104,"date":"2023-03-10","status":1,"created_at":"2022-04-28 07:19:02","updated_at":"2023-05-04 22:22:48","user_id":1}',
+            ),
+            240 => 
+            array (
+                'id' => 784,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 22:23:11',
+                'table_name' => 'banners',
+                'log_type' => 'edit',
+                'data' => '{"id":3,"nama":"Iklan 3","foto":"20230324234525.jpg","status":1,"ditampilkan":47,"created_at":"2023-03-24 23:45:25","updated_at":"2023-05-04 22:22:48"}',
+            ),
+            241 => 
+            array (
+                'id' => 785,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 22:23:34',
+                'table_name' => 'banners',
+                'log_type' => 'edit',
+                'data' => '{"id":4,"nama":"Iklan 4","foto":"20230324234534.jpg","status":1,"ditampilkan":48,"created_at":"2023-03-24 23:45:34","updated_at":"2023-05-04 22:20:26"}',
+            ),
         ));
         
         

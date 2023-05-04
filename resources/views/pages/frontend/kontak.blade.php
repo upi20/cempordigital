@@ -1,78 +1,106 @@
 @extends('layouts.frontend.master')
 @section('content')
-    <!-- Page Header Section Start Here -->
-    <section class="page-header bg_img padding-tb">
-        <div class="overlay"></div>
+    <!-- breadcrumb-area -->
+    <section class="breadcrumb-area breadcrumb-area-four pt-175 pb-160">
         <div class="container">
-            <div class="page-header-content-area">
-                <h4 class="ph-title">{{ $routeTitle }}</h4>
-                <ul class="lab-ul">
-                    <li><a href="{{ url('') }}">Utama</a></li>
-                    <li><a class="active">{{ $routeTitle }}</a></li>
-                </ul>
+            <div class="row">
+                <div class="col-12">
+                    <div class="breadcrumb-content">
+                        <h2 class="title">{{ $routeTitle }}</h2>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="{{ url('') }}">Beranda</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">{{ $routeTitle }}</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
             </div>
         </div>
+        <div class="breadcrumb-shape-wrap-three">
+            <img data-src="{{ asset('assets/templates/frontend/img/images/breadcrumb_shape04.png') }}"
+                alt="breadcrumb_shape04" class="wow zoomIn lazy" data-wow-delay=".2s">
+            <img data-src="{{ asset('assets/templates/frontend/img/images/breadcrumb_shape05.png') }}"
+                alt="breadcrumb_shape05" class="wow zoomIn lazy" data-wow-delay=".2s">
+            <img data-src="{{ asset('assets/templates/frontend/img/images/breadcrumb_shape06.png') }}"
+                alt="breadcrumb_shape06" class="wow zoomIn lazy" data-wow-delay=".2s">
+        </div>
     </section>
-    <!-- Page Header Section Ending Here -->
+    <!-- breadcrumb-area-end -->
 
-    <!-- Contact Us Section Start Here -->
-    <div class="contact-section">
-        <div class="contact-top padding-tb aside-bg padding-b">
-            <div class="container">
+    <!-- contact-area -->
+
+
+    <!-- contact-area -->
+    <section class="inner-contact-area">
+        <div class="container">
+            <div class="inner-contact-wrap">
                 <div class="row">
-                    <div class="col-lg-8">
-                        <article class="contact-form-wrapper">
-                            <div class="contact-form">
-                                <h4>{{ setting_get('setting.contact.message.title') }}</h4>
-                                <p class="mb-5">
-                                    {{ setting_get('setting.contact.message.sub_title') }}
-                                </p>
-                                <form action="#" method="POST" id="message_form" class="comment-form">
-                                    <input type="text" name="nama" id="nama" class=""
+                    <div class="col-12">
+                        <div class="section-title title-style-two mb-50">
+                            <h2 class="title">{!! setting_get('setting.contact.message.title') !!}</h2>
+                        </div>
+                    </div>
+                    <div class="col-xl-9 col-lg-10">
+                        <div class="inner-contact-form-wrap">
+                            <form action="#" method="POST" id="message_form" class="comment-form">
+                                <div class="form-grp">
+                                    <label for="nama"><i class="fas fa-user"></i></label>
+                                    <input type="text" name="nama" id="nama"
                                         placeholder="{{ setting_get('setting.contact.message.name_placeholder') }}"
                                         required>
-                                    <input type="email" name="email" id="email" class=""
+                                </div>
+                                <div class="form-grp">
+                                    <label for="email"><i class="fas fa-envelope"></i></label>
+                                    <input type="email" id="email" name="email"
                                         placeholder="{{ setting_get('setting.contact.message.email_placeholder') }}"
                                         required>
-                                    <textarea name="message" id="message" cols="30" rows="9"
-                                        placeholder="{{ setting_get('setting.contact.message.message_placeholder') }}" required></textarea>
-                                    <button type="submit" class="lab-btn">
-                                        <span>{{ setting_get('setting.contact.message.button_text') }}</span>
-                                    </button>
-                                </form>
-                            </div>
-                        </article>
+                                </div>
+                                <div class="form-grp">
+                                    <label for="message"><i class="far fa-comment-alt"></i></label>
+                                    <textarea name="message" id="message" placeholder="{{ setting_get('setting.contact.message.message_placeholder') }}"
+                                        required></textarea>
+                                </div>
+                                <button type="submit" class="btn">
+                                    {{ setting_get('setting.contact.message.button_text') }}<span></span>
+                                </button>
+                            </form>
+                        </div>
                     </div>
-
-                    <div class="col-lg-4">
-                        <div class="contact-info-wrapper">
-                            <div class="contact-info-title">
-                                <h5>Kontak Kami</h5>
-                                <p>Daftar kontak kami yang bisa di hubungi:</p>
-                            </div>
-                            <div class="contact-info-content">
-
+                    <div class="col-xl-3 col-lg-2">
+                        <div class="inner-contact-info">
+                            <ul class="list-wrap">
                                 @foreach ($contacts as $v)
-                                    <div class="contact-info-item">
-                                        <div class="contact-info-inner">
-                                            <div class="contact-info-thumb">
-                                                <i class="{{ $v->icon }}" style="font-size: 2em"></i>
+                                    <li>
+                                        <div class="contact-info-item">
+                                            <div class="icon">
+                                                <i class="{{ $v->icon }}" style="font-size: 2.5em"></i>
                                             </div>
-                                            <div class="contact-info-details">
-                                                <span class="fw-bold">{{ $v->nama }}</span>
+                                            <div class="content">
+                                                <h6 class="title">{{ $v->nama }}</h6>
                                                 <p> <a href="{!! $v->url !!}">{!! $v->keterangan !!}</a></p>
                                             </div>
                                         </div>
-                                    </div>
+                                    </li>
                                 @endforeach
-                            </div>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Contact Us Section ENding Here -->
+    </section>
+    <!-- contact-area-end -->
+@endsection
+
+@section('stylesheet')
+    <style>
+        .inner-contact-form-wrap {
+            width: 100%;
+            position: unset;
+            margin-bottom: 40px;
+        }
+    </style>
 @endsection
 
 @section('javascript')

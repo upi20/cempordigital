@@ -28,7 +28,7 @@
                                     {!! navbar_menu_front($page_attr->navigation) !!}
                                 </ul>
                             </div>
-                            <div class="header-action">
+                            {{-- <div class="header-action">
                                 <ul class="list-wrap">
                                     <li class="header-btn">
                                         <a href="#!" class="btn">
@@ -36,7 +36,7 @@
                                         </a>
                                     </li>
                                 </ul>
-                            </div>
+                            </div> --}}
                         </nav>
                     </div>
 

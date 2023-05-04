@@ -105,10 +105,10 @@ class PMenuTableSeeder extends Seeder
                 'icon' => 'fas fa-images',
                 'route' => 'admin.galeri',
                 'sequence' => 12,
-                'active' => 1,
+                'active' => 0,
                 'type' => 1,
                 'created_at' => '2022-08-05 23:50:28',
-                'updated_at' => '2023-04-19 18:50:30',
+                'updated_at' => '2023-05-04 21:36:25',
             ),
             7 => 
             array (
