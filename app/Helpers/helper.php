@@ -263,6 +263,27 @@ if (!function_exists('get_file_attr_attribute')) {
 }
 
 if (!function_exists('adminTitle')) {
+    // example
+    // 1 layer
+    // $page_attr = adminTitle(h_prefix());
+
+    // 2 layer
+    // $adminTitle = adminTitle(h_prefix(min: 1), isChild: true);
+    // $page_attr = [
+    //     'title' => 'Tambah',
+    //     'navigation' => h_prefix(min: 1),
+    //     'breadcrumbs' => $adminTitle['breadcrumbs']
+    // ];
+
+    // 3 layer
+    // $adminTitle = adminTitle(h_prefix(min: 2), isChild: true);
+
+    // $page_attr = [
+    //     'title' => 'Ubah',
+    //     'navigation' => h_prefix(min: 2),
+    //     'breadcrumbs' => $adminTitle['breadcrumbs']
+    // ];
+
     function adminTitle($route, $dashboardTitle = 'Dashboard', $addbreadcrumbs = [], $isChild = false)
     {
         $breadcrumbs = [];

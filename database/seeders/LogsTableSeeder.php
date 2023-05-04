@@ -5691,6 +5691,303 @@ class LogsTableSeeder extends Seeder
                 'log_type' => 'edit',
                 'data' => '{"id":107,"kategori_id":16,"urutan":3,"nama":"Website Development","judul":"We design and develop web and mobile applications for our clients worldwide","sub_judul":"Lorem ipsum dolor sit amet, sed nulla ante amet, elementum tincidunt arcu sed laoreet, natoque ac eget imperdiet. Ac scelerisque nibh dolores consectetuer,","foto":"20230504024934.png","tampilkan_client":1,"tampilkan_testimoni":1,"slug":"website-development","keterangan":"<div class=\\"solution-text\\">\\r\\n                  <h1 class=\\"h1\\" id=\\"page_title\\" data-testid=\\"title_landing_page\\">\\r\\n                     \\r\\n                     Professional Web Programming Services. Money-back Guarantee.\\r\\n                  <\\/h1>\\r\\n                  <h2 class=\\"h2\\" data-testid=\\"subtitle_landing_page\\">\\r\\n                     \\r\\n                     Experienced web programming service. Fast &amp; efficient work. Has helped 30,000+ SME &amp; corporate clients. Guaranteed.\\r\\n                  <\\/h2>\\r\\n\\r\\n                  \\r\\n                  <div class=\\"solution-list\\">\\r\\n                     <ul>\\r\\n                        \\r\\n                        <li>\\r\\n                           No Risk, Money Back Guarantee\\r\\n                        <\\/li>\\r\\n                        \\r\\n                        <li>\\r\\n                           Budget that you can set yourself\\r\\n                        <\\/li>\\r\\n                        \\r\\n                        <li>\\r\\n                           6+ years experienced team\\r\\n                        <\\/li>\\r\\n                        \\r\\n                        <li>\\r\\n                           Up-to-date and secure technology\\r\\n                        <\\/li>\\r\\n                        \\r\\n                        <li>\\r\\n                           Fast and Efficient in processing\\r\\n                        <\\/li>\\r\\n                        \\r\\n                     <\\/ul>\\r\\n                  <\\/div>\\r\\n                  \\r\\n                  \\r\\n                  <div class=\\"btn-2-wrapper\\" style=\\"margin-top: 32px\\">\\r\\n                     <a class=\\"btn btn-primary p\\" data-testid=\\"button_check_price1\\" style=\\"--p: 20px 30px; min-width: 200px;\\" href=\\"\\/en\\/packages?category=website-and-development\\">\\r\\n                        <h6 class=\\"h6 m-0\\">\\r\\n                           Check Package Price\\r\\n                        <\\/h6>\\r\\n                     <\\/a>\\r\\n                  <\\/div>\\r\\n\\r\\n                  <!-- \\r\\n                  \\r\\n                  \\r\\n                  <div class=\\"btn-2-wrapper\\" style=\\"margin-top: 32px\\">\\r\\n                     <a class=\\"btn btn-primary p\\" style=\\"--p: 20px 30px; min-width: 200px;\\"\\r\\n                        href=\\"\\/en\\/browse-freelancer\\/ad62c648-d223-446c-9a00-28c99613d0b5\\/5f9e2589-f52b-4296-914f-7f0156445976\\">\\r\\n                        <h6 class=\\"h6 m-0\\">\\r\\n                           Browse Freelancer\\r\\n                        <\\/h6>\\r\\n                     <\\/a>\\r\\n                  <\\/div>\\r\\n                   -->\\r\\n               <\\/div>\\n","created_at":"2023-05-03 21:54:54","updated_at":"2023-05-04 03:12:32"}',
             ),
+            130 => 
+            array (
+                'id' => 674,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 17:57:30',
+                'table_name' => 'clients',
+                'log_type' => 'create',
+                'data' => '{"foto":"20230504175730.png","nama":"Shopeify","status":"1","updated_at":"2023-05-04T10:57:30.000000Z","created_at":"2023-05-04T10:57:30.000000Z","id":1}',
+            ),
+            131 => 
+            array (
+                'id' => 675,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 17:57:45',
+                'table_name' => 'clients',
+                'log_type' => 'create',
+                'data' => '{"foto":"20230504175745.png","nama":"Airbnb","status":"1","updated_at":"2023-05-04T10:57:45.000000Z","created_at":"2023-05-04T10:57:45.000000Z","id":2}',
+            ),
+            132 => 
+            array (
+                'id' => 676,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 17:57:54',
+                'table_name' => 'clients',
+                'log_type' => 'create',
+                'data' => '{"foto":"20230504175754.png","nama":"Amazon","status":"1","updated_at":"2023-05-04T10:57:54.000000Z","created_at":"2023-05-04T10:57:54.000000Z","id":3}',
+            ),
+            133 => 
+            array (
+                'id' => 677,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 17:58:04',
+                'table_name' => 'clients',
+                'log_type' => 'create',
+                'data' => '{"foto":"20230504175804.png","nama":"Google","status":"1","updated_at":"2023-05-04T10:58:04.000000Z","created_at":"2023-05-04T10:58:04.000000Z","id":4}',
+            ),
+            134 => 
+            array (
+                'id' => 678,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 17:58:30',
+                'table_name' => 'clients',
+                'log_type' => 'create',
+                'data' => '{"foto":"20230504175830.png","nama":"Paypal","status":"1","updated_at":"2023-05-04T10:58:30.000000Z","created_at":"2023-05-04T10:58:30.000000Z","id":5}',
+            ),
+            135 => 
+            array (
+                'id' => 679,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 17:58:41',
+                'table_name' => 'clients',
+                'log_type' => 'create',
+                'data' => '{"foto":"20230504175841.png","nama":"Slack","status":"1","updated_at":"2023-05-04T10:58:41.000000Z","created_at":"2023-05-04T10:58:41.000000Z","id":6}',
+            ),
+            136 => 
+            array (
+                'id' => 680,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 18:04:06',
+                'table_name' => 'clients',
+                'log_type' => 'edit',
+                'data' => '{"id":1,"nama":"Shopeify","foto":"20230504175730.png","status":1,"created_at":"2023-05-04 17:57:30","updated_at":"2023-05-04 17:57:30"}',
+            ),
+            137 => 
+            array (
+                'id' => 681,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 18:04:13',
+                'table_name' => 'clients',
+                'log_type' => 'edit',
+                'data' => '{"id":3,"nama":"Amazon","foto":"20230504175754.png","status":1,"created_at":"2023-05-04 17:57:54","updated_at":"2023-05-04 17:57:54"}',
+            ),
+            138 => 
+            array (
+                'id' => 682,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 18:04:26',
+                'table_name' => 'clients',
+                'log_type' => 'edit',
+                'data' => '{"id":6,"nama":"Slack","foto":"20230504175841.png","status":1,"created_at":"2023-05-04 17:58:41","updated_at":"2023-05-04 17:58:41"}',
+            ),
+            139 => 
+            array (
+                'id' => 683,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 18:12:41',
+                'table_name' => 'p_menu',
+                'log_type' => 'create',
+                'data' => '{"sequence":"46","parent_id":null,"active":"1","title":"Client","icon":"fas fa-th-large","route":"admin.client","type":"1","updated_at":"2023-05-04T11:12:41.000000Z","created_at":"2023-05-04T11:12:41.000000Z","id":427}',
+            ),
+            140 => 
+            array (
+                'id' => 684,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 18:12:41',
+                'table_name' => 'p_role_has_menu',
+                'log_type' => 'create',
+                'data' => '{"role_id":1,"menu_id":427,"updated_at":"2023-05-04T11:12:41.000000Z","created_at":"2023-05-04T11:12:41.000000Z","id":250}',
+            ),
+            141 => 
+            array (
+                'id' => 685,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 18:12:51',
+                'table_name' => 'p_menu',
+                'log_type' => 'edit',
+                'data' => '{"id":427,"parent_id":null,"title":"Client","icon":"fas fa-th-large","route":"admin.client","sequence":46,"active":1,"type":1,"created_at":"2023-05-04 18:12:41","updated_at":"2023-05-04 18:12:41"}',
+            ),
+            142 => 
+            array (
+                'id' => 686,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 18:12:51',
+                'table_name' => 'p_menu',
+                'log_type' => 'edit',
+                'data' => '{"id":411,"parent_id":null,"title":"Menu Lainnya","icon":null,"route":null,"sequence":28,"active":1,"type":0,"created_at":"2022-09-15 21:18:04","updated_at":"2023-04-25 10:52:23"}',
+            ),
+            143 => 
+            array (
+                'id' => 687,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 18:12:51',
+                'table_name' => 'p_menu',
+                'log_type' => 'edit',
+                'data' => '{"id":397,"parent_id":null,"title":"Pengaturan","icon":"fas fa-wrench","route":null,"sequence":29,"active":1,"type":1,"created_at":"2022-08-14 21:10:57","updated_at":"2023-04-25 10:52:23"}',
+            ),
+            144 => 
+            array (
+                'id' => 688,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 18:12:51',
+                'table_name' => 'p_menu',
+                'log_type' => 'edit',
+                'data' => '{"id":398,"parent_id":397,"title":"Informasi Admin","icon":null,"route":"admin.setting.admin","sequence":30,"active":1,"type":1,"created_at":"2022-08-14 21:11:42","updated_at":"2023-04-25 10:52:23"}',
+            ),
+            145 => 
+            array (
+                'id' => 689,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 18:12:51',
+                'table_name' => 'p_menu',
+                'log_type' => 'edit',
+                'data' => '{"id":399,"parent_id":397,"title":"Informasi Depan","icon":null,"route":"admin.setting.front","sequence":31,"active":1,"type":1,"created_at":"2022-08-14 21:52:45","updated_at":"2023-04-25 10:52:23"}',
+            ),
+            146 => 
+            array (
+                'id' => 690,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 18:12:51',
+                'table_name' => 'p_menu',
+                'log_type' => 'edit',
+                'data' => '{"id":393,"parent_id":null,"title":"Peralatan","icon":"fas fa-tools","route":null,"sequence":32,"active":1,"type":1,"created_at":"2022-08-08 22:41:26","updated_at":"2023-04-25 10:52:23"}',
+            ),
+            147 => 
+            array (
+                'id' => 691,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 18:12:51',
+                'table_name' => 'p_menu',
+                'log_type' => 'edit',
+                'data' => '{"id":402,"parent_id":393,"title":"Notifikasi Admin","icon":null,"route":"admin.utility.notif_admin_atas","sequence":33,"active":1,"type":1,"created_at":"2022-08-18 16:42:00","updated_at":"2023-04-25 10:52:23"}',
+            ),
+            148 => 
+            array (
+                'id' => 692,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 18:12:51',
+                'table_name' => 'p_menu',
+                'log_type' => 'edit',
+                'data' => '{"id":394,"parent_id":393,"title":"Notifikasi Depan","icon":null,"route":"admin.utility.notif_depan_atas","sequence":34,"active":1,"type":1,"created_at":"2022-08-08 22:41:53","updated_at":"2023-04-25 10:52:23"}',
+            ),
+            149 => 
+            array (
+                'id' => 693,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 18:12:51',
+                'table_name' => 'p_menu',
+                'log_type' => 'edit',
+                'data' => '{"id":401,"parent_id":393,"title":"Hari Besar Nasional","icon":null,"route":"admin.utility.hari_besar_nasional","sequence":35,"active":1,"type":1,"created_at":"2022-08-17 21:19:05","updated_at":"2023-04-25 10:52:23"}',
+            ),
+            150 => 
+            array (
+                'id' => 694,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 18:12:51',
+                'table_name' => 'p_menu',
+                'log_type' => 'edit',
+                'data' => '{"id":346,"parent_id":null,"title":"Manajemen Pengguna","icon":"fas fa-users","route":"admin.user","sequence":36,"active":1,"type":1,"created_at":"2022-08-05 23:50:28","updated_at":"2023-04-25 10:52:23"}',
+            ),
+            151 => 
+            array (
+                'id' => 695,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 18:12:51',
+                'table_name' => 'p_menu',
+                'log_type' => 'edit',
+                'data' => '{"id":361,"parent_id":null,"title":"Menu Management","icon":"fas fa-stream","route":null,"sequence":37,"active":1,"type":1,"created_at":"2022-08-05 23:50:28","updated_at":"2023-04-25 10:52:23"}',
+            ),
+            152 => 
+            array (
+                'id' => 696,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 18:12:51',
+                'table_name' => 'p_menu',
+                'log_type' => 'edit',
+                'data' => '{"id":405,"parent_id":361,"title":"Admin","icon":null,"route":"admin.menu.admin","sequence":38,"active":1,"type":1,"created_at":"2022-08-20 14:12:45","updated_at":"2023-04-25 10:52:23"}',
+            ),
+            153 => 
+            array (
+                'id' => 697,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 18:12:51',
+                'table_name' => 'p_menu',
+                'log_type' => 'edit',
+                'data' => '{"id":406,"parent_id":361,"title":"Depan","icon":null,"route":"admin.menu.frontend","sequence":39,"active":1,"type":1,"created_at":"2022-08-20 14:16:07","updated_at":"2023-04-25 10:52:23"}',
+            ),
+            154 => 
+            array (
+                'id' => 698,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 18:12:51',
+                'table_name' => 'p_menu',
+                'log_type' => 'edit',
+                'data' => '{"id":367,"parent_id":null,"title":"User Access","icon":"fas fa-user-check","route":null,"sequence":40,"active":1,"type":1,"created_at":"2022-08-05 23:50:28","updated_at":"2023-04-25 10:52:23"}',
+            ),
+            155 => 
+            array (
+                'id' => 699,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 18:12:51',
+                'table_name' => 'p_menu',
+                'log_type' => 'edit',
+                'data' => '{"id":368,"parent_id":367,"title":"Permission","icon":null,"route":"admin.user_access.permission","sequence":41,"active":1,"type":1,"created_at":"2022-08-05 23:50:28","updated_at":"2023-04-25 10:52:23"}',
+            ),
+            156 => 
+            array (
+                'id' => 700,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 18:12:51',
+                'table_name' => 'p_menu',
+                'log_type' => 'edit',
+                'data' => '{"id":369,"parent_id":367,"title":"Role","icon":null,"route":"admin.user_access.role","sequence":42,"active":1,"type":1,"created_at":"2022-08-05 23:50:28","updated_at":"2023-04-25 10:52:23"}',
+            ),
+            157 => 
+            array (
+                'id' => 701,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 18:12:51',
+                'table_name' => 'p_menu',
+                'log_type' => 'edit',
+                'data' => '{"id":373,"parent_id":null,"title":"Profile","icon":"fas fa-user","route":"admin.profile","sequence":43,"active":1,"type":1,"created_at":"2022-08-05 23:50:28","updated_at":"2023-04-25 10:52:23"}',
+            ),
+            158 => 
+            array (
+                'id' => 702,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 18:12:51',
+                'table_name' => 'p_menu',
+                'log_type' => 'edit',
+                'data' => '{"id":386,"parent_id":null,"title":"Logout","icon":"fas fa-sign-out-alt","route":"logout","sequence":44,"active":1,"type":1,"created_at":"2022-08-05 23:54:09","updated_at":"2023-04-25 10:52:23"}',
+            ),
+            159 => 
+            array (
+                'id' => 703,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 18:12:51',
+                'table_name' => 'p_menu',
+                'log_type' => 'edit',
+                'data' => '{"id":392,"parent_id":null,"title":"Google Form","icon":"fas fa-user-edit","route":"admin.pendaftaran.gform","sequence":45,"active":0,"type":1,"created_at":"2022-08-08 16:14:54","updated_at":"2023-04-25 10:52:23"}',
+            ),
+            160 => 
+            array (
+                'id' => 704,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 18:12:51',
+                'table_name' => 'p_menu',
+                'log_type' => 'edit',
+                'data' => '{"id":414,"parent_id":null,"title":"Visi Dan Misi","icon":null,"route":"admin.setting.visi_misi","sequence":46,"active":0,"type":1,"created_at":"2023-01-18 01:51:32","updated_at":"2023-04-25 10:52:23"}',
+            ),
+            161 => 
+            array (
+                'id' => 705,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 18:21:34',
+                'table_name' => 'p_menu',
+                'log_type' => 'edit',
+                'data' => '{"id":427,"parent_id":null,"title":"Client","icon":"fas fa-th-large","route":"admin.client","sequence":28,"active":1,"type":1,"created_at":"2023-05-04 18:12:41","updated_at":"2023-05-04 18:12:51"}',
+            ),
+            162 => 
+            array (
+                'id' => 706,
+                'user_id' => 1,
+                'log_date' => '2023-05-04 18:21:34',
+                'table_name' => 'p_role_has_menu',
+                'log_type' => 'create',
+                'data' => '{"role_id":1,"menu_id":427,"updated_at":"2023-05-04T11:21:34.000000Z","created_at":"2023-05-04T11:21:34.000000Z","id":251}',
+            ),
         ));
         
         

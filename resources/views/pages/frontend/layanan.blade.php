@@ -34,48 +34,13 @@
                     </div>
                 </div>
                 <div class="row brand-active">
-                    <div class="col-12">
-                        <div class="brand-item">
-                            <img class="lazy"
-                                data-src="{{ asset('assets/templates/frontend/img/brand/h3_brand_img01.png') }}"
-                                alt="">
+                    @foreach ($clients as $client)
+                        <div class="col-12">
+                            <div class="brand-item">
+                                <img class="lazy" data-src="{!! $client->fotoUrl() !!}" alt="{{ $client->nama }}">
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="brand-item">
-                            <img class="lazy"
-                                data-src="{{ asset('assets/templates/frontend/img/brand/h3_brand_img02.png') }}"
-                                alt="">
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="brand-item">
-                            <img class="lazy"
-                                data-src="{{ asset('assets/templates/frontend/img/brand/h3_brand_img03.png') }}"
-                                alt="">
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="brand-item">
-                            <img class="lazy"
-                                data-src="{{ asset('assets/templates/frontend/img/brand/h3_brand_img04.png') }}"
-                                alt="">
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="brand-item">
-                            <img class="lazy"
-                                data-src="{{ asset('assets/templates/frontend/img/brand/h3_brand_img05.png') }}"
-                                alt="">
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="brand-item">
-                            <img class="lazy"
-                                data-src="{{ asset('assets/templates/frontend/img/brand/h3_brand_img06.png') }}"
-                                alt="">
-                        </div>
-                    </div>
+                    @endforeach
                 </div>
             </div>
         </section>

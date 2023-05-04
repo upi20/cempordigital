@@ -8,6 +8,7 @@ use App\Models\Artikel\KategoriArtikel;
 use App\Models\Artikel\Tag;
 use App\Models\Artikel\TagArtikel;
 use App\Models\Banner;
+use App\Models\Client;
 use App\Models\Contact\FAQ;
 use App\Models\Contact\ListContact;
 use App\Models\Contact\Message;
@@ -143,6 +144,7 @@ class backup extends Command
                 PortfolioSubKategori::tableName,
                 Portfolio::tableName,
                 PortfolioItem::tableName,
+                Client::tableName,
             ],
         ];
         if ($opt_users == 1 || $arg_type == 'users') echo shell_exec('php artisan iseed users --force');

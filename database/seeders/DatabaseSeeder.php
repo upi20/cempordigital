@@ -55,5 +55,6 @@ class DatabaseSeeder extends Seeder
         $this->call(SessionsTableSeeder::class);
         $this->call(HomeTestimonialsTableSeeder::class);
         $this->call(LogsTableSeeder::class);
+        $this->call(ClientsTableSeeder::class);
     }
 }

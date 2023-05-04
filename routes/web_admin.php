@@ -16,6 +16,7 @@ use App\Http\Controllers\Admin\Artikel\ArtikelController;
 use App\Http\Controllers\Admin\Artikel\KategoriController;
 use App\Http\Controllers\Admin\Artikel\TagController;
 use App\Http\Controllers\Admin\BannerController;
+use App\Http\Controllers\Admin\ClientController;
 
 // Contact ============================================================================================================
 use App\Http\Controllers\Admin\Contact\FAQController;
@@ -63,7 +64,6 @@ use App\Http\Controllers\Admin\VistorController;
 use App\Http\Controllers\Admin\Portfolio\KategoriController as PortfolioKategoriController;
 use App\Http\Controllers\Admin\Portfolio\PortfolioController;
 use App\Http\Controllers\Admin\Portfolio\SubKategoriController as PortfolioSubKategoriController;
-
 
 // ====================================================================================================================
 
@@ -207,6 +207,16 @@ Route::group(['prefix' => $prefix], function () use ($name, $prefix) {
 $prefix = 'banner';
 Route::controller(BannerController::class)->prefix($prefix)->group(function () use ($name, $prefix) {
     $name = "$name.$prefix"; // admin.banner
+    Route::get('/', 'index')->name($name)->middleware("permission:$name");
+    Route::get('/find', 'find')->name("$name.find")->middleware("permission:$name.update");
+    Route::post('/', 'insert')->name("$name.insert")->middleware("permission:$name.insert");
+    Route::post('/update', 'update')->name("$name.update")->middleware("permission:$name.update");
+    Route::delete('/{model}', 'delete')->name("$name.delete")->middleware("permission:$name.delete");
+});
+
+$prefix = 'client';
+Route::controller(ClientController::class)->prefix($prefix)->group(function () use ($name, $prefix) {
+    $name = "$name.$prefix"; // admin.client
     Route::get('/', 'index')->name($name)->middleware("permission:$name");
     Route::get('/find', 'find')->name("$name.find")->middleware("permission:$name.update");
     Route::post('/', 'insert')->name("$name.insert")->middleware("permission:$name.insert");
