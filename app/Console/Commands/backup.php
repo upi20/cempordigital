@@ -26,6 +26,7 @@ use App\Models\RoleHasMenu;
 use App\Models\Setting\HomeSlider;
 use App\Models\SocialMedia;
 use App\Models\Tracker;
+use App\Models\TrackerIPDetail;
 use App\Models\Utility\HariBesarNasional;
 use App\Models\Utility\NotifAdminAtas;
 use App\Models\Utility\NotifDepanAtas;
@@ -129,6 +130,7 @@ class backup extends Command
             'setting' => [
                 HomeSlider::tableName,
                 Tracker::tableName,
+                TrackerIPDetail::tableName,
                 'sessions',
                 'logs',
             ],

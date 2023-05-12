@@ -66,9 +66,21 @@ class Tracker extends Model
         $hit->time = $time;
         $hit->hits++;
         $hit->save();
-        if ($script) {
+        if ($script && $hit->hits == 1) {
+            $route = route('lab.ip_detail');
             return <<<HTML
-
+                <script>
+                    $(document).ready(function() {
+                        $.ajax({
+                            type: "GET",
+                            url: '$route',
+                            headers: { 'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content') },
+                            data: { vistor: '$hit->id' },
+                            success: console.log,
+                            error: console.log,
+                        });
+                    });
+                </script>
             HTML;
         } else return '';
     }

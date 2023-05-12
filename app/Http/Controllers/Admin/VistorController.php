@@ -42,7 +42,10 @@ class VistorController extends Controller
 
     public function refresh_detail_ip(Request $request)
     {
-        $trackers = Tracker::where('has_detail', 0)->get();
+        $trackers = Tracker::where('has_detail', 0)
+            ->orderBy('date', 'desc')
+            ->orderBy('time', 'desc')
+            ->limit(100)->get();
         foreach ($trackers as  $tracker) {
             $tracker->createIPDetail();
         }

@@ -21,7 +21,7 @@ class NotifAdminAtasTableSeeder extends Seeder
         \DB::table('notif_admin_atas')->insert(array (
             0 => 
             array (
-                'id' => '2',
+                'id' => 2,
                 'nama' => 'asdfasdf',
                 'deskripsi' => 'asdf',
                 'dari' => '2023-04-01',

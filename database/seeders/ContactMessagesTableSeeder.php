@@ -21,7 +21,7 @@ class ContactMessagesTableSeeder extends Seeder
         \DB::table('contact_messages')->insert(array (
             0 => 
             array (
-                'id' => '1',
+                'id' => 1,
                 'nama' => 'Isep Lutpi Nur',
                 'email' => 'iseplutpinur7@gmail.com',
                 'message' => 'Tes via hp',
@@ -31,7 +31,7 @@ class ContactMessagesTableSeeder extends Seeder
             ),
             1 => 
             array (
-                'id' => '2',
+                'id' => 2,
                 'nama' => 'CANDIDO CRUICKSHANK JR.',
                 'email' => 'admin@mail.com',
                 'message' => 'a',
@@ -41,7 +41,7 @@ class ContactMessagesTableSeeder extends Seeder
             ),
             2 => 
             array (
-                'id' => '3',
+                'id' => 3,
                 'nama' => 'Testing',
                 'email' => 'admin@mail.com',
                 'message' => '123',
@@ -51,7 +51,7 @@ class ContactMessagesTableSeeder extends Seeder
             ),
             3 => 
             array (
-                'id' => '4',
+                'id' => 4,
                 'nama' => 'wkgroastery',
                 'email' => 'Dr-Bernard-Casper@mail.com',
                 'message' => 'Message',
@@ -61,7 +61,7 @@ class ContactMessagesTableSeeder extends Seeder
             ),
             4 => 
             array (
-                'id' => '5',
+                'id' => 5,
                 'nama' => 'Testing',
                 'email' => 'maill@testing.com',
                 'message' => 'testing message',
@@ -71,7 +71,7 @@ class ContactMessagesTableSeeder extends Seeder
             ),
             5 => 
             array (
-                'id' => '6',
+                'id' => 6,
                 'nama' => 'Tes Kontak',
                 'email' => 'kirimpesan@gmail.com',
                 'message' => 'Pesan aaaaaaaaa',
@@ -81,7 +81,7 @@ class ContactMessagesTableSeeder extends Seeder
             ),
             6 => 
             array (
-                'id' => '7',
+                'id' => 7,
                 'nama' => 'fasdfsadf',
                 'email' => 'admin@gmail.com',
                 'message' => 'asdfasdf',
@@ -91,7 +91,7 @@ class ContactMessagesTableSeeder extends Seeder
             ),
             7 => 
             array (
-                'id' => '8',
+                'id' => 8,
                 'nama' => 'Contoh pesan diterima dari',
                 'email' => 'iseplutpinur7@gmail.com',
                 'message' => 'Ini adalah contoh pesan di terima',
@@ -101,7 +101,7 @@ class ContactMessagesTableSeeder extends Seeder
             ),
             8 => 
             array (
-                'id' => '9',
+                'id' => 9,
                 'nama' => 'Isep lutt',
                 'email' => 'igmail@gmail.com',
                 'message' => 'fasdf',
@@ -111,7 +111,7 @@ class ContactMessagesTableSeeder extends Seeder
             ),
             9 => 
             array (
-                'id' => '10',
+                'id' => 10,
                 'nama' => 'Isep lutt',
                 'email' => 'igmail@gmail.com',
                 'message' => 's',
