@@ -8,7 +8,6 @@ let isEdit = true;
 $(document).ready(function () {
     // insertForm ===================================================================================
     $('#MainForm').submit(function (e) {
-        console.log(this.id);
         e.preventDefault();
         resetErrorAfterInput();
         var formData = new FormData(this);
@@ -236,7 +235,6 @@ function renderTable(element_table) {
 
 function getTable() {
     const renderTabelCalon = (datas) => {
-        console.log(datas);
         // return;
         const element_table = $('#tbl_main');
         const table_body = element_table.find('tbody');
@@ -266,7 +264,7 @@ function getTable() {
         datas.body.forEach(e => {
             let table_body_html_item = '';
             e.nilais.forEach((j, i) => {
-                table_body_html_item += ` <td>${j.nilai ?? ''}</td> `;
+                table_body_html_item += ` <td>${j ? j.nilai : ''}</td> `;
             });
 
             const id = e.id
