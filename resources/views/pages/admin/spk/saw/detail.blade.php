@@ -56,7 +56,8 @@
                     </div>
                     <p class="mb-1">Pastikan sebelumnya sudah mengisi data kriteria.</p>
                 </a>
-                <a href="javascript:;" class="list-group-item list-group-item-action">
+                <a href="{{ route(h_prefix('perhitungan', 1), $spk->slug) }}"
+                    class="list-group-item list-group-item-action">
                     <div class="d-flex w-100 justify-content-between">
                         <h5 class="mb-1">3. Perhitungan dan hasil</h5>
                     </div>
@@ -72,7 +73,6 @@
 
 @section('stylesheet')
     <link rel="stylesheet" href="{{ asset_admin('plugins/datatable/css/dataTables.bootstrap5.min.css') }}" />
-    @vite(['resources/css/_summernote.scss']);
 @endsection
 
 @section('javascript')
@@ -80,8 +80,6 @@
     <script src="{{ asset_admin('plugins/datatable/js/dataTables.bootstrap5.min.js') }}"></script>
     <script src="{{ asset_admin('plugins/loading/loadingoverlay.min.js', name: 'sash') }}"></script>
     <script src="{{ asset_admin('plugins/sweet-alert/sweetalert2.all.js', name: 'sash') }}"></script>
-    <script src="{{ asset_admin('plugins/select2/js/select2.full.min.js', name: 'sash') }}"></script>
-    <script src="{{ asset_admin('plugins/summernote/summernote1.js', name: 'sash') }}"></script>
     @php
         $resource = resource_loader(
             blade_path: $view,

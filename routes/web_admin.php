@@ -591,6 +591,7 @@ Route::prefix($prefix)->group(function () use ($name, $prefix) {
             Route::post('/', 'insert')->name("$name.insert")->middleware("permission:$name.insert");
             Route::get('/find', 'find')->name("$name.find")->middleware("permission:$name");
             Route::post('/update', 'update')->name("$name.update")->middleware("permission:$name.update");
+            Route::get('/perhitungan/{spk:slug}', 'perhitungan')->name("$name.perhitungan")->middleware("permission:$name");
             Route::get('/{spk:slug}', 'detail')->name("$name.detail")->middleware("permission:$name");
             Route::delete('/{model}', 'delete')->name("$name.delete")->middleware("permission:$name.delete");
         });

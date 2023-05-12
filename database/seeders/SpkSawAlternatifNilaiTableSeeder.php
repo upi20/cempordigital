@@ -156,30 +156,30 @@ class SpkSawAlternatifNilaiTableSeeder extends Seeder
             ),
             15 => 
             array (
-                'id' => 22,
+                'id' => 29,
                 'kriteria_id' => 1,
                 'alternatif_id' => 16,
                 'nilai' => 98.25,
-                'created_at' => '2023-05-13 04:15:39',
-                'updated_at' => '2023-05-13 04:15:39',
+                'created_at' => '2023-05-13 04:49:41',
+                'updated_at' => '2023-05-13 04:49:41',
             ),
             16 => 
             array (
-                'id' => 23,
+                'id' => 30,
                 'kriteria_id' => 2,
                 'alternatif_id' => 16,
                 'nilai' => 26.8,
-                'created_at' => '2023-05-13 04:15:39',
-                'updated_at' => '2023-05-13 04:15:39',
+                'created_at' => '2023-05-13 04:49:41',
+                'updated_at' => '2023-05-13 04:49:41',
             ),
             17 => 
             array (
-                'id' => 24,
+                'id' => 31,
                 'kriteria_id' => 3,
                 'alternatif_id' => 16,
                 'nilai' => 44.93,
-                'created_at' => '2023-05-13 04:15:39',
-                'updated_at' => '2023-05-13 04:15:39',
+                'created_at' => '2023-05-13 04:49:41',
+                'updated_at' => '2023-05-13 04:49:41',
             ),
         ));
         

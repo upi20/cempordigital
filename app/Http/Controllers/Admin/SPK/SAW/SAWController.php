@@ -112,4 +112,28 @@ class SAWController extends Controller
     {
         return SAW::findOrFail($request->id);
     }
+
+    public function perhitungan(SAW $spk): mixed
+    {
+        try {
+
+            $page_attr = adminBreadcumb(h_prefix(min: 2), isChild: true);
+            $page_attr = [
+                'title' => 'Perhitungan',
+                'breadcrumbs' => $page_attr['breadcrumbs'],
+                'navigation' => h_prefix(min: 2)
+            ];
+
+            $perhitungan = $spk->perhitungan();
+            $view = path_view('pages.admin.spk.saw.perhitungan');
+            $data = compact('page_attr', 'spk', 'perhitungan', 'view');
+            $data['compact'] = $data;
+            return view($view, $data);
+        } catch (ValidationException $error) {
+            return response()->json([
+                'message' => 'Something went wrong',
+                'error' => $error,
+            ], 500);
+        }
+    }
 }

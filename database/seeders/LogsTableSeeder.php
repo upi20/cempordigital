@@ -12947,6 +12947,96 @@ class LogsTableSeeder extends Seeder
                 'log_type' => 'edit',
                 'data' => '{"id":414,"parent_id":null,"title":"Visi Dan Misi","icon":null,"route":"admin.setting.visi_misi","sequence":47,"active":0,"type":1,"created_at":"2023-01-18 01:51:32","updated_at":"2023-05-04 18:12:51"}',
             ),
+            436 => 
+            array (
+                'id' => 1493,
+                'user_id' => 1,
+                'log_date' => '2023-05-13 04:29:18',
+                'table_name' => 'spk_saw_kriteria',
+                'log_type' => 'create',
+                'data' => '{"spk_id":"1","nama":"Situs ini masih dalam masa pengembangan.","kode":"PU","bobot":"1","updated_at":"2023-05-12T21:29:18.000000Z","created_at":"2023-05-12T21:29:18.000000Z","id":5}',
+            ),
+            437 => 
+            array (
+                'id' => 1494,
+                'user_id' => 1,
+                'log_date' => '2023-05-13 04:31:26',
+                'table_name' => 'spk_saw_alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"kriteria_id":1,"alternatif_id":16,"nilai":"98.25","updated_at":"2023-05-12T21:31:26.000000Z","created_at":"2023-05-12T21:31:26.000000Z","id":25}',
+            ),
+            438 => 
+            array (
+                'id' => 1495,
+                'user_id' => 1,
+                'log_date' => '2023-05-13 04:31:26',
+                'table_name' => 'spk_saw_alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"kriteria_id":2,"alternatif_id":16,"nilai":"26.8","updated_at":"2023-05-12T21:31:26.000000Z","created_at":"2023-05-12T21:31:26.000000Z","id":26}',
+            ),
+            439 => 
+            array (
+                'id' => 1496,
+                'user_id' => 1,
+                'log_date' => '2023-05-13 04:31:26',
+                'table_name' => 'spk_saw_alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"kriteria_id":3,"alternatif_id":16,"nilai":"44.93","updated_at":"2023-05-12T21:31:26.000000Z","created_at":"2023-05-12T21:31:26.000000Z","id":27}',
+            ),
+            440 => 
+            array (
+                'id' => 1497,
+                'user_id' => 1,
+                'log_date' => '2023-05-13 04:31:26',
+                'table_name' => 'spk_saw_alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"kriteria_id":5,"alternatif_id":16,"nilai":"90","updated_at":"2023-05-12T21:31:26.000000Z","created_at":"2023-05-12T21:31:26.000000Z","id":28}',
+            ),
+            441 => 
+            array (
+                'id' => 1498,
+                'user_id' => 1,
+                'log_date' => '2023-05-13 04:49:41',
+                'table_name' => 'spk_saw_alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"kriteria_id":1,"alternatif_id":16,"nilai":"98.25","updated_at":"2023-05-12T21:49:41.000000Z","created_at":"2023-05-12T21:49:41.000000Z","id":29}',
+            ),
+            442 => 
+            array (
+                'id' => 1499,
+                'user_id' => 1,
+                'log_date' => '2023-05-13 04:49:41',
+                'table_name' => 'spk_saw_alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"kriteria_id":2,"alternatif_id":16,"nilai":"26.8","updated_at":"2023-05-12T21:49:41.000000Z","created_at":"2023-05-12T21:49:41.000000Z","id":30}',
+            ),
+            443 => 
+            array (
+                'id' => 1500,
+                'user_id' => 1,
+                'log_date' => '2023-05-13 04:49:41',
+                'table_name' => 'spk_saw_alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"kriteria_id":3,"alternatif_id":16,"nilai":"44.93","updated_at":"2023-05-12T21:49:41.000000Z","created_at":"2023-05-12T21:49:41.000000Z","id":31}',
+            ),
+            444 => 
+            array (
+                'id' => 1501,
+                'user_id' => 1,
+                'log_date' => '2023-05-13 04:49:41',
+                'table_name' => 'spk_saw_alternatif_nilai',
+                'log_type' => 'create',
+                'data' => '{"kriteria_id":5,"alternatif_id":16,"nilai":"56","updated_at":"2023-05-12T21:49:41.000000Z","created_at":"2023-05-12T21:49:41.000000Z","id":32}',
+            ),
+            445 => 
+            array (
+                'id' => 1502,
+                'user_id' => 1,
+                'log_date' => '2023-05-13 06:02:28',
+                'table_name' => 'spk_saw_kriteria',
+                'log_type' => 'delete',
+                'data' => '{"id":5,"spk_id":1,"nama":"Situs ini masih dalam masa pengembangan.","kode":"PU","bobot":1,"created_at":"2023-05-13 04:29:18","updated_at":"2023-05-13 04:29:18"}',
+            ),
         ));
         
         
