@@ -32,6 +32,11 @@ use App\Models\Utility\NotifAdminAtas;
 use App\Models\Utility\NotifDepanAtas;
 use Illuminate\Console\Command;
 
+use App\Models\SPK\SAW\Alternatif as SPK_SAW_Alternatif;
+use App\Models\SPK\SAW\AlternatifNilai as SPK_SAW_AlternatifNilai;
+use App\Models\SPK\SAW\Kriteria as SPK_SAW_Kriteria;
+use App\Models\SPK\SAW\SAW as SPK_SAW;
+
 class backup extends Command
 {
     /**
@@ -147,6 +152,12 @@ class backup extends Command
                 Portfolio::tableName,
                 PortfolioItem::tableName,
                 Client::tableName,
+            ],
+            'spk_saw' => [
+                SPK_SAW::tableName,
+                SPK_SAW_Kriteria::tableName,
+                SPK_SAW_Alternatif::tableName,
+                SPK_SAW_AlternatifNilai::tableName,
             ],
         ];
         if ($opt_users == 1 || $arg_type == 'users') echo shell_exec('php artisan iseed users --force');

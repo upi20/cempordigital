@@ -65,6 +65,11 @@ use App\Http\Controllers\Admin\Portfolio\KategoriController as PortfolioKategori
 use App\Http\Controllers\Admin\Portfolio\PortfolioController;
 use App\Http\Controllers\Admin\Portfolio\SubKategoriController as PortfolioSubKategoriController;
 
+// Portfolio ==========================================================================================================
+use App\Http\Controllers\Admin\SPK\SAW\SAWController as SPK_SAW_Controller;
+use App\Http\Controllers\Admin\SPK\SAW\KriteriaController as SPK_SAW_KriteriaController;
+use App\Http\Controllers\Admin\SPK\SAW\AlternatifController as SPK_SAW_AlternatifController;
+
 // ====================================================================================================================
 
 
@@ -572,4 +577,69 @@ Route::controller(UserController::class)->prefix($prefix)->group(function () use
     $name = "$name.$prefix"; // admin.password
     Route::get('/', 'change_password')->name($name)->middleware("permission:$name");
     Route::post('/save', 'save_password')->name("$name.save")->middleware("permission:$name.save");
+});
+
+$prefix = 'spk';
+Route::prefix($prefix)->group(function () use ($name, $prefix) {
+    $name = "$name.$prefix"; // admin.spk
+
+    $prefix = 'saw';
+    Route::prefix($prefix)->group(function () use ($name, $prefix) {
+        $name = "$name.$prefix"; // admin.spk.saw
+        Route::controller(SPK_SAW_Controller::class)->group(function () use ($name) {
+            Route::get('/', 'index')->name($name)->middleware("permission:$name");
+            Route::post('/', 'insert')->name("$name.insert")->middleware("permission:$name.insert");
+            Route::get('/find', 'find')->name("$name.find")->middleware("permission:$name");
+            Route::post('/update', 'update')->name("$name.update")->middleware("permission:$name.update");
+            Route::get('/{spk:slug}', 'detail')->name("$name.detail")->middleware("permission:$name");
+            Route::delete('/{model}', 'delete')->name("$name.delete")->middleware("permission:$name.delete");
+        });
+
+
+        $prefix = 'kriteria';
+        Route::controller(SPK_SAW_KriteriaController::class)->prefix($prefix)->group(function () use ($name, $prefix) {
+            $name = "$name.$prefix"; // admin.spk.saw.kriteria
+            Route::post('/', 'insert')->name("$name.insert")->middleware("permission:$name.insert");
+            Route::get('/find', 'find')->name("$name.find")->middleware("permission:$name");
+            Route::get('/datatable', 'datatable')->name("$name.datatable")->middleware("permission:$name");
+            Route::post('/update', 'update')->name("$name.update")->middleware("permission:$name.update");
+            Route::get('/{spk:slug}', 'index')->name($name)->middleware("permission:$name");
+            Route::delete('/{model}', 'delete')->name("$name.delete")->middleware("permission:$name.delete");
+        });
+
+        $prefix = 'alternatif';
+        Route::controller(SPK_SAW_AlternatifController::class)->prefix($prefix)->group(function () use ($name, $prefix) {
+            $name = "$name.$prefix"; // admin.spk.saw.alternatif
+            Route::post('/', 'insert')->name("$name.insert")->middleware("permission:$name.insert");
+            Route::get('/find', 'find')->name("$name.find")->middleware("permission:$name");
+            Route::get('/datatable/{spk:slug}', 'datatable')->name("$name.datatable")->middleware("permission:$name");
+            Route::post('/update', 'update')->name("$name.update")->middleware("permission:$name.update");
+            Route::get('/kriteria/{spk:slug}', 'kriteria')->name("$name.kriteria")->middleware("permission:$name");
+            Route::get('/{spk:slug}', 'index')->name($name)->middleware("permission:$name");
+            Route::delete('/{model}', 'delete')->name("$name.delete")->middleware("permission:$name.delete");
+        });
+
+        // $prefix = 'alternatif';
+        // Route::controller(SPK_SAW_AlternatifController::class)->prefix($prefix)->group(function () use ($name, $prefix) {
+        //     $name = "$name.$prefix"; // admin.spk.saw.alternatif
+        //     Route::get('/', 'index')->name($name)->middleware("permission:$name");
+        //     Route::post('/', 'insert')->name("$name.insert")->middleware("permission:$name.insert");
+
+        //     Route::get('/table', 'table')->name("$name.table")->middleware("permission:$name");
+        //     Route::get('/option', 'option')->name("$name.option")->middleware("permission:$name");
+        //     Route::get('/select2', 'select2')->name("$name.select2")->middleware("permission:$name");
+
+        //     Route::get('/find', 'find')->name("$name.find")->middleware("permission:$name");
+        //     Route::post('/update', 'update')->name("$name.update")->middleware("permission:$name.update");
+        //     Route::delete('/{model}', 'delete')->name("$name.delete")->middleware("permission:$name.delete");
+        // });
+
+        // $prefix = 'perhitungan';
+        // Route::controller(SPK_SAW_PerhitunganController::class)->prefix($prefix)->group(function () use ($name, $prefix) {
+        //     $name = "$name.$prefix"; // admin.spk.saw.perhitungan
+        //     Route::get('/', 'index')->name($name)->middleware("permission:$name");
+        //     Route::get('/hasil', 'hasil')->name("$name.hasil")->middleware("permission:$name");
+        //     Route::post('/setting', 'setting')->name("$name.setting")->middleware("permission:$name.setting");
+        // });
+    });
 });

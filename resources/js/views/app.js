@@ -30,6 +30,7 @@ $(function () {
                 scrollTop: 0
             }, 600), !1
         })
+        tooltip_refresh();
     });
 
     // set menu active

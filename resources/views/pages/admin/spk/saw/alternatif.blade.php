@@ -6,27 +6,38 @@
         $can_update = auth_can(h_prefix('update'));
         $can_delete = auth_can(h_prefix('delete'));
     @endphp
-    <div class="card">
-        <div class="card-header d-md-flex flex-row justify-content-between">
-            <h3 class="card-title">Data {{ $page_attr['title'] }}</h3>
-            @if ($can_insert)
-                <button type="button" class="btn btn-rounded btn-primary btn-sm" data-bs-effect="effect-scale"
-                    data-bs-toggle="modal" href="#modal-default" onclick="addFunc()" data-target="#modal-default">
-                    <i class="fas fa-plus"></i> Tambah
-                </button>
-            @endif
-        </div>
+    <div class="card mt-3">
         <div class="card-body">
-            <table class="table table-striped table-hover" id="tbl_main">
+            <div class="card-title d-md-flex flex-row justify-content-between">
+                <div>
+                    <h6 class="mt-2 text-uppercase">Data {{ $page_attr['title'] }}</h6>
+                    <small>{{ $spk->nama }}</small>
+                </div>
+                <div>
+                    <a class="btn btn-rounded btn-secondary btn-sm" href="{{ route(h_prefix('detail', 2), $spk->slug) }}">
+                        <i class="fas fa-arrow-left"></i> Kembali
+                    </a>
+                    @if ($can_insert)
+                        <button type="button" class="btn btn-rounded btn-primary btn-sm" data-bs-effect="effect-scale"
+                            data-bs-toggle="modal" href="#modal-default" onclick="addFunc()" data-target="#modal-default">
+                            <i class="fas fa-plus"></i> Tambah
+                        </button>
+                    @endif
+                </div>
+            </div>
+            <table class="table table-striped table-hover w-100" id="tbl_main">
                 <thead>
                     <tr>
-                        <th>No</th>
-                        <th>Nama</th>
-                        <th>Keterangan</th>
-                        {!! $can_delete || $can_update ? '<th>Aksi</th>' : '' !!}
+                        <th></th>
+                        <th></th>
                     </tr>
                 </thead>
-                <tbody> </tbody>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
             </table>
         </div>
     </div>
@@ -45,15 +56,14 @@
                     <form action="javascript:void(0)" id="MainForm" name="MainForm" method="POST"
                         enctype="multipart/form-data">
                         <input type="hidden" name="id" id="id">
+                        <input type="hidden" name="spk_id" id="spk_id" value="{{ $spk->id }}">
                         <div class="form-group">
-                            <label class="form-label mb-1" for="nama">Nama<span class="text-danger">*</span></label>
+                            <label class="form-label mb-1" for="nama">Nama <span class="text-danger">*</span></label>
                             <input type="text" class="form-control" id="nama" name="nama" placeholder="Nama"
                                 required="" />
                         </div>
-                        <div class="form-group">
-                            <label class="form-label mb-1" for="keterangan">Keterangan</label>
-                            <input type="text" class="form-control" id="keterangan" name="keterangan"
-                                placeholder="Keterangan" />
+                        <div id="myForm">
+
                         </div>
                     </form>
                 </div>
@@ -71,9 +81,9 @@
     </div>
 @endsection
 
-@section('javascript')
 @section('stylesheet')
     <link rel="stylesheet" href="{{ asset_admin('plugins/datatable/css/dataTables.bootstrap5.min.css') }}" />
+    @vite(['resources/css/_summernote.scss']);
 @endsection
 
 @section('javascript')
@@ -82,6 +92,7 @@
     <script src="{{ asset_admin('plugins/loading/loadingoverlay.min.js', name: 'sash') }}"></script>
     <script src="{{ asset_admin('plugins/sweet-alert/sweetalert2.all.js', name: 'sash') }}"></script>
     <script src="{{ asset_admin('plugins/select2/js/select2.full.min.js', name: 'sash') }}"></script>
+    <script src="{{ asset_admin('plugins/summernote/summernote1.js', name: 'sash') }}"></script>
     @php
         $resource = resource_loader(
             blade_path: $view,
@@ -89,6 +100,7 @@
                 'can_update' => $can_update ? 'true' : 'false',
                 'can_delete' => $can_delete ? 'true' : 'false',
                 'page_title' => $page_attr['title'],
+                'slug' => $spk->slug,
             ],
         );
     @endphp

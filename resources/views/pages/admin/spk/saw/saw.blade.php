@@ -35,12 +35,13 @@
                         <div class="accordion-body">
                             <form action="javascript:void(0)" class="ml-md-3 mb-md-3" id="FilterForm">
                                 <div class="form-group float-start me-2">
-                                    <label for="filter_status">Tampilkan</label>
+                                    <label for="filter_status">Status</label>
                                     <select class="form-control" id="filter_status" name="filter_status"
                                         style="max-width: 200px">
                                         <option value="">Semua</option>
-                                        <option value="1">Ya</option>
-                                        <option value="0">Tidak</option>
+                                        <option value="2">Selesai</option>
+                                        <option value="1">Diumumkan</option>
+                                        <option value="0">Diproses</option>
                                     </select>
                                 </div>
                             </form>
@@ -57,10 +58,8 @@
                 <thead>
                     <tr>
                         <th>No</th>
-                        <th>Foto</th>
                         <th>Nama</th>
-                        <th>Dilihat</th>
-                        <th>Tampilkan</th>
+                        <th>Status</th>
                         {!! $can_delete || $can_update ? '<th>Aksi</th>' : '' !!}
                     </tr>
                 </thead>
@@ -71,7 +70,7 @@
 
     <!-- End Row -->
     <div class="modal fade" id="modal-default">
-        <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
             <div class="modal-content modal-content-demo">
                 <div class="modal-header">
                     <h6 class="modal-title" id="modal-default-title"></h6>
@@ -89,18 +88,8 @@
                                 required="" />
                         </div>
                         <div class="form-group">
-                            <div class="flex">
-                                <label class="form-label mb-1" for="foto">Foto </label>
-                                <span class="badge bg-success" id="lihat-foto">Lihat</span>
-                            </div>
-                            <input type="file" class="form-control" id="foto" name="foto" required />
-                        </div>
-                        <div class="form-group">
-                            <label class="form-label mb-1" for="status">Tampilkan</label>
-                            <select class="form-control" required="" id="status" name="status">
-                                <option value="1">Ya</option>
-                                <option value="0">Tidak</option>
-                            </select>
+                            <label class="form-label mb-1" for="keterangan">Keterangan</label>
+                            <textarea type="text" class="summernote" id="keterangan" name="keterangan"></textarea>
                         </div>
                     </form>
                 </div>
@@ -116,31 +105,11 @@
             </div>
         </div>
     </div>
-
-    {{-- modal --}}
-    <div class="modal fade" id="modal-image">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content modal-content-demo">
-                <div class="modal-header">
-                    <h6 class="modal-title" id="modal-image-title">View Foto</h6><button aria-label="Close"
-                        class="btn-close" data-bs-dismiss="modal"><span aria-hidden="true"></span></button>
-                </div>
-                <div class="modal-body">
-                    <img src="" class="img-fluid" id="modal-image-element" alt="Icon Pendaftaran">
-                </div>
-                <div class="modal-footer">
-                    <button class="btn btn-light" data-bs-dismiss="modal">
-                        <i class="fas fa-times"></i>
-                        Close
-                    </button>
-                </div>
-            </div>
-        </div>
-    </div>
 @endsection
 
 @section('stylesheet')
     <link rel="stylesheet" href="{{ asset_admin('plugins/datatable/css/dataTables.bootstrap5.min.css') }}" />
+    @vite(['resources/css/_summernote.scss']);
 @endsection
 
 @section('javascript')
@@ -149,6 +118,7 @@
     <script src="{{ asset_admin('plugins/loading/loadingoverlay.min.js', name: 'sash') }}"></script>
     <script src="{{ asset_admin('plugins/sweet-alert/sweetalert2.all.js', name: 'sash') }}"></script>
     <script src="{{ asset_admin('plugins/select2/js/select2.full.min.js', name: 'sash') }}"></script>
+    <script src="{{ asset_admin('plugins/summernote/summernote1.js', name: 'sash') }}"></script>
     @php
         $resource = resource_loader(
             blade_path: $view,
