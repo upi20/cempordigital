@@ -37,6 +37,11 @@ use App\Models\SPK\SAW\AlternatifNilai as SPK_SAW_AlternatifNilai;
 use App\Models\SPK\SAW\Kriteria as SPK_SAW_Kriteria;
 use App\Models\SPK\SAW\SAW as SPK_SAW;
 
+use App\Models\SPK\WP\Alternatif as SPK_WP_Alternatif;
+use App\Models\SPK\WP\AlternatifNilai as SPK_WP_AlternatifNilai;
+use App\Models\SPK\WP\Kriteria as SPK_WP_Kriteria;
+use App\Models\SPK\WP\WP as SPK_WP;
+
 class backup extends Command
 {
     /**
@@ -158,6 +163,12 @@ class backup extends Command
                 SPK_SAW_Kriteria::tableName,
                 SPK_SAW_Alternatif::tableName,
                 SPK_SAW_AlternatifNilai::tableName,
+            ],
+            'spk_wp' => [
+                SPK_WP::tableName,
+                SPK_WP_Kriteria::tableName,
+                SPK_WP_Alternatif::tableName,
+                SPK_WP_AlternatifNilai::tableName,
             ],
         ];
         if ($opt_users == 1 || $arg_type == 'users') echo shell_exec('php artisan iseed users --force');

@@ -57,9 +57,14 @@ class DatabaseSeeder extends Seeder
         $this->call(LogsTableSeeder::class);
         $this->call(ClientsTableSeeder::class);
         $this->call(VisitorsIpDetailTableSeeder::class);
+
         $this->call(SpkSawTableSeeder::class);
         $this->call(SpkSawKriteriaTableSeeder::class);
         $this->call(SpkSawAlternatifTableSeeder::class);
         $this->call(SpkSawAlternatifNilaiTableSeeder::class);
+        $this->call(SpkWpTableSeeder::class);
+        $this->call(SpkWpKriteriaTableSeeder::class);
+        $this->call(SpkWpAlternatifTableSeeder::class);
+        $this->call(SpkWpAlternatifNilaiTableSeeder::class);
     }
 }
