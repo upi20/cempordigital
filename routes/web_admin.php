@@ -57,6 +57,7 @@ use App\Http\Controllers\Admin\Home\KataKataController;
 use App\Http\Controllers\Admin\Home\PengurusController;
 use App\Http\Controllers\Admin\Home\ProgramPembelajaranController;
 use App\Http\Controllers\Admin\Home\TestimonialController;
+use App\Http\Controllers\Admin\Import\PesertaController as ImportPesertaController;
 use App\Http\Controllers\Admin\Produk\MarketplaceController;
 use App\Http\Controllers\Admin\VistorController;
 
@@ -73,6 +74,8 @@ use App\Http\Controllers\Admin\SPK\SAW\AlternatifController as SPK_SAW_Alternati
 use App\Http\Controllers\Admin\SPK\WP\WPController as SPK_WP_Controller;
 use App\Http\Controllers\Admin\SPK\WP\KriteriaController as SPK_WP_KriteriaController;
 use App\Http\Controllers\Admin\SPK\WP\AlternatifController as SPK_WP_AlternatifController;
+
+use App\Http\Controllers\Admin\SPK\Kegiatan\PesertaController as SPK_Kegiatan_PesertaController;
 
 // ====================================================================================================================
 
@@ -661,5 +664,38 @@ Route::prefix($prefix)->group(function () use ($name, $prefix) {
             Route::get('/{spk:slug}', 'index')->name($name)->middleware("permission:$name");
             Route::delete('/{model}', 'delete')->name("$name.delete")->middleware("permission:$name.delete");
         });
+    });
+
+    $prefix = 'kegiatan';
+    Route::prefix($prefix)->group(function () use ($name, $prefix) {
+        $name = "$name.$prefix"; // admin.spk.kegiatan
+
+        $prefix = 'peserta';
+        Route::controller(SPK_Kegiatan_PesertaController::class)->prefix($prefix)->group(function () use ($name, $prefix) {
+            $name = "$name.$prefix"; // admin.spk.kegiatan.peserta
+            Route::get('/', 'index')->name($name)->middleware("permission:$name");
+            Route::get('/find', 'find')->name("$name.find")->middleware("permission:$name");
+            Route::get('/export', 'export')->name("$name.export")->middleware("permission:$name");
+            Route::post('/', 'insert')->name("$name.insert")->middleware("permission:$name.insert");
+            Route::post('/update', 'update')->name("$name.update")->middleware("permission:$name.update");
+            Route::delete('/{model}', 'delete')->name("$name.delete")->middleware("permission:$name.delete");
+        });
+    });
+});
+
+
+$prefix = 'import';
+Route::prefix($prefix)->group(function () use ($name, $prefix) {
+    $name = "$name.$prefix"; // admin.import
+
+    $prefix = 'peserta';
+    Route::controller(ImportPesertaController::class)->prefix($prefix)->group(function () use ($name, $prefix) {
+        $name = "$name.$prefix"; // admin.import.peserta
+        Route::get('/', 'index')->name($name)->middleware("permission:$name");
+        Route::get('/find', 'find')->name("$name.find")->middleware("permission:$name.update");
+        Route::get('/format', 'format')->name("$name.format")->middleware("permission:$name");
+        Route::post('/', 'insert')->name("$name.insert")->middleware("permission:$name.insert");
+        Route::post('/update', 'update')->name("$name.update")->middleware("permission:$name.update");
+        Route::delete('/{model}', 'delete')->name("$name.delete")->middleware("permission:$name.delete");
     });
 });

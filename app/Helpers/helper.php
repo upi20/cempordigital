@@ -9,6 +9,7 @@ use MatthiasMullie\Minify\JS;
 use MatthiasMullie\Minify\CSS;
 use App\Models\Menu\Admin as MenuAdmin;
 use App\Models\SettingActivity;
+use Cocur\Slugify\Slugify;
 use Illuminate\Support\Facades\Route;
 
 if (!function_exists('h_prefix_uri')) {
@@ -512,5 +513,14 @@ if (!function_exists('setting_set')) {
         $setting->save();
 
         return settings()->set($key, $value)->save();
+    }
+}
+
+// slug
+if (!function_exists('create_slug')) {
+    function create_slug($text)
+    {
+        $slugify = new Slugify();
+        return $slugify->slugify($text);
     }
 }
