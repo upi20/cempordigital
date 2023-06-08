@@ -21,8 +21,8 @@ class LogsTableSeeder extends Seeder
         \DB::table('logs')->insert(array (
             0 => 
             array (
-                'id' => 1,
-                'user_id' => 1,
+                'id' => '1',
+                'user_id' => '1',
                 'log_date' => '2023-04-13 14:22:56',
                 'table_name' => 'visitors',
                 'log_type' => 'edit',
@@ -30,8 +30,8 @@ class LogsTableSeeder extends Seeder
             ),
             1 => 
             array (
-                'id' => 2,
-                'user_id' => 1,
+                'id' => '2',
+                'user_id' => '1',
                 'log_date' => '2023-04-13 20:44:45',
                 'table_name' => '',
                 'log_type' => 'login',
@@ -39,8 +39,8 @@ class LogsTableSeeder extends Seeder
             ),
             2 => 
             array (
-                'id' => 3,
-                'user_id' => 4,
+                'id' => '3',
+                'user_id' => '4',
                 'log_date' => '2023-04-14 02:06:18',
                 'table_name' => '',
                 'log_type' => 'login',
@@ -48,8 +48,8 @@ class LogsTableSeeder extends Seeder
             ),
             3 => 
             array (
-                'id' => 4,
-                'user_id' => 4,
+                'id' => '4',
+                'user_id' => '4',
                 'log_date' => '2023-04-14 02:08:40',
                 'table_name' => 'portfolio',
                 'log_type' => 'edit',
@@ -57,8 +57,8 @@ class LogsTableSeeder extends Seeder
             ),
             4 => 
             array (
-                'id' => 5,
-                'user_id' => 4,
+                'id' => '5',
+                'user_id' => '4',
                 'log_date' => '2023-04-14 02:08:44',
                 'table_name' => 'visitors',
                 'log_type' => 'edit',
@@ -66,8 +66,8 @@ class LogsTableSeeder extends Seeder
             ),
             5 => 
             array (
-                'id' => 6,
-                'user_id' => 4,
+                'id' => '6',
+                'user_id' => '4',
                 'log_date' => '2023-04-14 02:17:30',
                 'table_name' => 'portfolio',
                 'log_type' => 'delete',
@@ -75,8 +75,8 @@ class LogsTableSeeder extends Seeder
             ),
             6 => 
             array (
-                'id' => 7,
-                'user_id' => 4,
+                'id' => '7',
+                'user_id' => '4',
                 'log_date' => '2023-04-14 02:17:33',
                 'table_name' => 'portfolio',
                 'log_type' => 'delete',
@@ -84,8 +84,8 @@ class LogsTableSeeder extends Seeder
             ),
             7 => 
             array (
-                'id' => 8,
-                'user_id' => 4,
+                'id' => '8',
+                'user_id' => '4',
                 'log_date' => '2023-04-14 02:17:36',
                 'table_name' => 'portfolio',
                 'log_type' => 'delete',
@@ -93,8 +93,8 @@ class LogsTableSeeder extends Seeder
             ),
             8 => 
             array (
-                'id' => 9,
-                'user_id' => 4,
+                'id' => '9',
+                'user_id' => '4',
                 'log_date' => '2023-04-14 02:17:39',
                 'table_name' => 'portfolio',
                 'log_type' => 'delete',
@@ -102,8 +102,8 @@ class LogsTableSeeder extends Seeder
             ),
             9 => 
             array (
-                'id' => 10,
-                'user_id' => 4,
+                'id' => '10',
+                'user_id' => '4',
                 'log_date' => '2023-04-14 02:17:43',
                 'table_name' => 'portfolio',
                 'log_type' => 'delete',
@@ -111,8 +111,8 @@ class LogsTableSeeder extends Seeder
             ),
             10 => 
             array (
-                'id' => 11,
-                'user_id' => 4,
+                'id' => '11',
+                'user_id' => '4',
                 'log_date' => '2023-04-14 02:17:48',
                 'table_name' => 'portfolio',
                 'log_type' => 'delete',
@@ -120,8 +120,8 @@ class LogsTableSeeder extends Seeder
             ),
             11 => 
             array (
-                'id' => 12,
-                'user_id' => 4,
+                'id' => '12',
+                'user_id' => '4',
                 'log_date' => '2023-04-14 02:17:52',
                 'table_name' => 'portfolio_item',
                 'log_type' => 'delete',
@@ -129,8 +129,8 @@ class LogsTableSeeder extends Seeder
             ),
             12 => 
             array (
-                'id' => 13,
-                'user_id' => 4,
+                'id' => '13',
+                'user_id' => '4',
                 'log_date' => '2023-04-14 02:17:52',
                 'table_name' => 'portfolio_item',
                 'log_type' => 'delete',
@@ -138,8 +138,8 @@ class LogsTableSeeder extends Seeder
             ),
             13 => 
             array (
-                'id' => 14,
-                'user_id' => 4,
+                'id' => '14',
+                'user_id' => '4',
                 'log_date' => '2023-04-14 02:17:52',
                 'table_name' => 'portfolio_item',
                 'log_type' => 'delete',
@@ -147,8 +147,8 @@ class LogsTableSeeder extends Seeder
             ),
             14 => 
             array (
-                'id' => 15,
-                'user_id' => 4,
+                'id' => '15',
+                'user_id' => '4',
                 'log_date' => '2023-04-14 02:17:52',
                 'table_name' => 'portfolio_item',
                 'log_type' => 'delete',
@@ -156,8 +156,8 @@ class LogsTableSeeder extends Seeder
             ),
             15 => 
             array (
-                'id' => 16,
-                'user_id' => 4,
+                'id' => '16',
+                'user_id' => '4',
                 'log_date' => '2023-04-14 02:17:52',
                 'table_name' => 'portfolio_item',
                 'log_type' => 'delete',
@@ -165,8 +165,8 @@ class LogsTableSeeder extends Seeder
             ),
             16 => 
             array (
-                'id' => 17,
-                'user_id' => 4,
+                'id' => '17',
+                'user_id' => '4',
                 'log_date' => '2023-04-14 02:17:52',
                 'table_name' => 'portfolio',
                 'log_type' => 'delete',
@@ -174,8 +174,8 @@ class LogsTableSeeder extends Seeder
             ),
             17 => 
             array (
-                'id' => 18,
-                'user_id' => 4,
+                'id' => '18',
+                'user_id' => '4',
                 'log_date' => '2023-04-14 02:17:55',
                 'table_name' => 'portfolio_item',
                 'log_type' => 'delete',
@@ -183,8 +183,8 @@ class LogsTableSeeder extends Seeder
             ),
             18 => 
             array (
-                'id' => 19,
-                'user_id' => 4,
+                'id' => '19',
+                'user_id' => '4',
                 'log_date' => '2023-04-14 02:17:55',
                 'table_name' => 'portfolio',
                 'log_type' => 'delete',
@@ -192,8 +192,8 @@ class LogsTableSeeder extends Seeder
             ),
             19 => 
             array (
-                'id' => 20,
-                'user_id' => 4,
+                'id' => '20',
+                'user_id' => '4',
                 'log_date' => '2023-04-14 02:17:59',
                 'table_name' => 'portfolio_item',
                 'log_type' => 'delete',
@@ -201,8 +201,8 @@ class LogsTableSeeder extends Seeder
             ),
             20 => 
             array (
-                'id' => 21,
-                'user_id' => 4,
+                'id' => '21',
+                'user_id' => '4',
                 'log_date' => '2023-04-14 02:17:59',
                 'table_name' => 'portfolio_item',
                 'log_type' => 'delete',
@@ -210,8 +210,8 @@ class LogsTableSeeder extends Seeder
             ),
             21 => 
             array (
-                'id' => 22,
-                'user_id' => 4,
+                'id' => '22',
+                'user_id' => '4',
                 'log_date' => '2023-04-14 02:17:59',
                 'table_name' => 'portfolio_item',
                 'log_type' => 'delete',
@@ -219,8 +219,8 @@ class LogsTableSeeder extends Seeder
             ),
             22 => 
             array (
-                'id' => 23,
-                'user_id' => 4,
+                'id' => '23',
+                'user_id' => '4',
                 'log_date' => '2023-04-14 02:17:59',
                 'table_name' => 'portfolio',
                 'log_type' => 'delete',
@@ -228,8 +228,8 @@ class LogsTableSeeder extends Seeder
             ),
             23 => 
             array (
-                'id' => 24,
-                'user_id' => 4,
+                'id' => '24',
+                'user_id' => '4',
                 'log_date' => '2023-04-14 02:18:02',
                 'table_name' => 'portfolio',
                 'log_type' => 'delete',
@@ -237,8 +237,8 @@ class LogsTableSeeder extends Seeder
             ),
             24 => 
             array (
-                'id' => 25,
-                'user_id' => 4,
+                'id' => '25',
+                'user_id' => '4',
                 'log_date' => '2023-04-14 02:18:05',
                 'table_name' => 'portfolio_item',
                 'log_type' => 'delete',
@@ -246,8 +246,8 @@ class LogsTableSeeder extends Seeder
             ),
             25 => 
             array (
-                'id' => 26,
-                'user_id' => 4,
+                'id' => '26',
+                'user_id' => '4',
                 'log_date' => '2023-04-14 02:18:05',
                 'table_name' => 'portfolio_item',
                 'log_type' => 'delete',
@@ -255,8 +255,8 @@ class LogsTableSeeder extends Seeder
             ),
             26 => 
             array (
-                'id' => 27,
-                'user_id' => 4,
+                'id' => '27',
+                'user_id' => '4',
                 'log_date' => '2023-04-14 02:18:05',
                 'table_name' => 'portfolio',
                 'log_type' => 'delete',
@@ -264,8 +264,8 @@ class LogsTableSeeder extends Seeder
             ),
             27 => 
             array (
-                'id' => 28,
-                'user_id' => 4,
+                'id' => '28',
+                'user_id' => '4',
                 'log_date' => '2023-04-14 02:20:02',
                 'table_name' => 'portfolio_kategori',
                 'log_type' => 'delete',
@@ -273,8 +273,8 @@ class LogsTableSeeder extends Seeder
             ),
             28 => 
             array (
-                'id' => 29,
-                'user_id' => 4,
+                'id' => '29',
+                'user_id' => '4',
                 'log_date' => '2023-04-14 02:20:07',
                 'table_name' => 'visitors',
                 'log_type' => 'edit',
@@ -282,8 +282,8 @@ class LogsTableSeeder extends Seeder
             ),
             29 => 
             array (
-                'id' => 30,
-                'user_id' => 4,
+                'id' => '30',
+                'user_id' => '4',
                 'log_date' => '2023-04-14 02:20:54',
                 'table_name' => 'portfolio',
                 'log_type' => 'edit',
@@ -291,8 +291,8 @@ class LogsTableSeeder extends Seeder
             ),
             30 => 
             array (
-                'id' => 31,
-                'user_id' => 4,
+                'id' => '31',
+                'user_id' => '4',
                 'log_date' => '2023-04-14 02:20:57',
                 'table_name' => 'visitors',
                 'log_type' => 'edit',
@@ -300,8 +300,8 @@ class LogsTableSeeder extends Seeder
             ),
             31 => 
             array (
-                'id' => 32,
-                'user_id' => 4,
+                'id' => '32',
+                'user_id' => '4',
                 'log_date' => '2023-04-14 02:21:19',
                 'table_name' => 'portfolio',
                 'log_type' => 'delete',
@@ -309,8 +309,8 @@ class LogsTableSeeder extends Seeder
             ),
             32 => 
             array (
-                'id' => 33,
-                'user_id' => 4,
+                'id' => '33',
+                'user_id' => '4',
                 'log_date' => '2023-04-14 02:22:07',
                 'table_name' => 'portfolio_kategori',
                 'log_type' => 'edit',
@@ -318,8 +318,8 @@ class LogsTableSeeder extends Seeder
             ),
             33 => 
             array (
-                'id' => 34,
-                'user_id' => 4,
+                'id' => '34',
+                'user_id' => '4',
                 'log_date' => '2023-04-14 02:22:58',
                 'table_name' => 'portfolio_kategori',
                 'log_type' => 'edit',
@@ -327,8 +327,8 @@ class LogsTableSeeder extends Seeder
             ),
             34 => 
             array (
-                'id' => 35,
-                'user_id' => 4,
+                'id' => '35',
+                'user_id' => '4',
                 'log_date' => '2023-04-14 02:23:14',
                 'table_name' => 'portfolio_kategori',
                 'log_type' => 'edit',
@@ -336,8 +336,8 @@ class LogsTableSeeder extends Seeder
             ),
             35 => 
             array (
-                'id' => 36,
-                'user_id' => 4,
+                'id' => '36',
+                'user_id' => '4',
                 'log_date' => '2023-04-14 02:25:58',
                 'table_name' => 'visitors',
                 'log_type' => 'edit',
@@ -345,8 +345,8 @@ class LogsTableSeeder extends Seeder
             ),
             36 => 
             array (
-                'id' => 37,
-                'user_id' => 4,
+                'id' => '37',
+                'user_id' => '4',
                 'log_date' => '2023-04-14 02:30:26',
                 'table_name' => 'visitors',
                 'log_type' => 'edit',
@@ -354,8 +354,8 @@ class LogsTableSeeder extends Seeder
             ),
             37 => 
             array (
-                'id' => 38,
-                'user_id' => 4,
+                'id' => '38',
+                'user_id' => '4',
                 'log_date' => '2023-04-14 02:38:45',
                 'table_name' => 'visitors',
                 'log_type' => 'edit',
@@ -363,8 +363,8 @@ class LogsTableSeeder extends Seeder
             ),
             38 => 
             array (
-                'id' => 39,
-                'user_id' => 4,
+                'id' => '39',
+                'user_id' => '4',
                 'log_date' => '2023-04-14 02:47:11',
                 'table_name' => 'portfolio',
                 'log_type' => 'edit',
@@ -372,8 +372,8 @@ class LogsTableSeeder extends Seeder
             ),
             39 => 
             array (
-                'id' => 40,
-                'user_id' => 4,
+                'id' => '40',
+                'user_id' => '4',
                 'log_date' => '2023-04-14 02:47:32',
                 'table_name' => 'visitors',
                 'log_type' => 'edit',
@@ -381,8 +381,8 @@ class LogsTableSeeder extends Seeder
             ),
             40 => 
             array (
-                'id' => 41,
-                'user_id' => 4,
+                'id' => '41',
+                'user_id' => '4',
                 'log_date' => '2023-04-14 02:47:51',
                 'table_name' => 'portfolio',
                 'log_type' => 'edit',
@@ -390,8 +390,8 @@ class LogsTableSeeder extends Seeder
             ),
             41 => 
             array (
-                'id' => 42,
-                'user_id' => 4,
+                'id' => '42',
+                'user_id' => '4',
                 'log_date' => '2023-04-14 02:48:04',
                 'table_name' => 'visitors',
                 'log_type' => 'edit',
@@ -399,8 +399,8 @@ class LogsTableSeeder extends Seeder
             ),
             42 => 
             array (
-                'id' => 43,
-                'user_id' => 4,
+                'id' => '43',
+                'user_id' => '4',
                 'log_date' => '2023-04-14 02:50:39',
                 'table_name' => 'portfolio',
                 'log_type' => 'edit',
@@ -408,8 +408,8 @@ class LogsTableSeeder extends Seeder
             ),
             43 => 
             array (
-                'id' => 44,
-                'user_id' => 4,
+                'id' => '44',
+                'user_id' => '4',
                 'log_date' => '2023-04-14 02:50:48',
                 'table_name' => 'visitors',
                 'log_type' => 'edit',
@@ -417,8 +417,8 @@ class LogsTableSeeder extends Seeder
             ),
             44 => 
             array (
-                'id' => 45,
-                'user_id' => 1,
+                'id' => '45',
+                'user_id' => '1',
                 'log_date' => '2023-04-14 09:26:38',
                 'table_name' => '',
                 'log_type' => 'login',
@@ -426,8 +426,8 @@ class LogsTableSeeder extends Seeder
             ),
             45 => 
             array (
-                'id' => 46,
-                'user_id' => 1,
+                'id' => '46',
+                'user_id' => '1',
                 'log_date' => '2023-04-14 09:29:29',
                 'table_name' => '',
                 'log_type' => 'login',
@@ -435,8 +435,8 @@ class LogsTableSeeder extends Seeder
             ),
             46 => 
             array (
-                'id' => 47,
-                'user_id' => 1,
+                'id' => '47',
+                'user_id' => '1',
                 'log_date' => '2023-04-14 09:29:43',
                 'table_name' => 'visitors',
                 'log_type' => 'edit',
@@ -444,8 +444,8 @@ class LogsTableSeeder extends Seeder
             ),
             47 => 
             array (
-                'id' => 48,
-                'user_id' => 1,
+                'id' => '48',
+                'user_id' => '1',
                 'log_date' => '2023-04-14 09:31:01',
                 'table_name' => 'visitors',
                 'log_type' => 'edit',
@@ -453,8 +453,8 @@ class LogsTableSeeder extends Seeder
             ),
             48 => 
             array (
-                'id' => 49,
-                'user_id' => 1,
+                'id' => '49',
+                'user_id' => '1',
                 'log_date' => '2023-04-14 09:34:55',
                 'table_name' => 'visitors',
                 'log_type' => 'edit',
@@ -462,8 +462,8 @@ class LogsTableSeeder extends Seeder
             ),
             49 => 
             array (
-                'id' => 50,
-                'user_id' => 1,
+                'id' => '50',
+                'user_id' => '1',
                 'log_date' => '2023-04-15 06:57:00',
                 'table_name' => '',
                 'log_type' => 'login',
@@ -471,8 +471,8 @@ class LogsTableSeeder extends Seeder
             ),
             50 => 
             array (
-                'id' => 51,
-                'user_id' => 1,
+                'id' => '51',
+                'user_id' => '1',
                 'log_date' => '2023-04-15 07:01:09',
                 'table_name' => 'visitors',
                 'log_type' => 'edit',
@@ -480,8 +480,8 @@ class LogsTableSeeder extends Seeder
             ),
             51 => 
             array (
-                'id' => 52,
-                'user_id' => 1,
+                'id' => '52',
+                'user_id' => '1',
                 'log_date' => '2023-04-15 15:02:00',
                 'table_name' => '',
                 'log_type' => 'login',
@@ -489,8 +489,8 @@ class LogsTableSeeder extends Seeder
             ),
             52 => 
             array (
-                'id' => 53,
-                'user_id' => 1,
+                'id' => '53',
+                'user_id' => '1',
                 'log_date' => '2023-04-15 15:39:16',
                 'table_name' => 'portfolio_kategori',
                 'log_type' => 'edit',
@@ -498,8 +498,8 @@ class LogsTableSeeder extends Seeder
             ),
             53 => 
             array (
-                'id' => 54,
-                'user_id' => 1,
+                'id' => '54',
+                'user_id' => '1',
                 'log_date' => '2023-04-15 15:39:26',
                 'table_name' => 'portfolio_kategori',
                 'log_type' => 'edit',
@@ -507,8 +507,8 @@ class LogsTableSeeder extends Seeder
             ),
             54 => 
             array (
-                'id' => 55,
-                'user_id' => 1,
+                'id' => '55',
+                'user_id' => '1',
                 'log_date' => '2023-04-15 15:42:20',
                 'table_name' => 'portfolio_kategori',
                 'log_type' => 'edit',
@@ -516,8 +516,8 @@ class LogsTableSeeder extends Seeder
             ),
             55 => 
             array (
-                'id' => 56,
-                'user_id' => 1,
+                'id' => '56',
+                'user_id' => '1',
                 'log_date' => '2023-04-15 15:42:34',
                 'table_name' => 'portfolio_kategori',
                 'log_type' => 'edit',
@@ -525,8 +525,8 @@ class LogsTableSeeder extends Seeder
             ),
             56 => 
             array (
-                'id' => 57,
-                'user_id' => 1,
+                'id' => '57',
+                'user_id' => '1',
                 'log_date' => '2023-04-15 16:02:08',
                 'table_name' => 'setting_activities',
                 'log_type' => 'edit',
@@ -534,8 +534,8 @@ class LogsTableSeeder extends Seeder
             ),
             57 => 
             array (
-                'id' => 58,
-                'user_id' => 1,
+                'id' => '58',
+                'user_id' => '1',
                 'log_date' => '2023-04-15 16:02:08',
                 'table_name' => 'setting_activities',
                 'log_type' => 'edit',
@@ -543,8 +543,8 @@ class LogsTableSeeder extends Seeder
             ),
             58 => 
             array (
-                'id' => 59,
-                'user_id' => 1,
+                'id' => '59',
+                'user_id' => '1',
                 'log_date' => '2023-04-15 16:02:26',
                 'table_name' => 'setting_activities',
                 'log_type' => 'edit',
@@ -552,8 +552,8 @@ class LogsTableSeeder extends Seeder
             ),
             59 => 
             array (
-                'id' => 60,
-                'user_id' => 1,
+                'id' => '60',
+                'user_id' => '1',
                 'log_date' => '2023-04-15 16:07:55',
                 'table_name' => 'setting_activities',
                 'log_type' => 'edit',
@@ -561,8 +561,8 @@ class LogsTableSeeder extends Seeder
             ),
             60 => 
             array (
-                'id' => 61,
-                'user_id' => 1,
+                'id' => '61',
+                'user_id' => '1',
                 'log_date' => '2023-04-15 16:08:06',
                 'table_name' => 'setting_activities',
                 'log_type' => 'edit',
@@ -570,8 +570,8 @@ class LogsTableSeeder extends Seeder
             ),
             61 => 
             array (
-                'id' => 62,
-                'user_id' => 1,
+                'id' => '62',
+                'user_id' => '1',
                 'log_date' => '2023-04-15 17:00:05',
                 'table_name' => 'notif_admin_atas',
                 'log_type' => 'delete',
@@ -579,8 +579,8 @@ class LogsTableSeeder extends Seeder
             ),
             62 => 
             array (
-                'id' => 63,
-                'user_id' => 1,
+                'id' => '63',
+                'user_id' => '1',
                 'log_date' => '2023-04-15 17:32:33',
                 'table_name' => 'setting_activities',
                 'log_type' => 'create',
@@ -588,8 +588,8 @@ class LogsTableSeeder extends Seeder
             ),
             63 => 
             array (
-                'id' => 64,
-                'user_id' => 1,
+                'id' => '64',
+                'user_id' => '1',
                 'log_date' => '2023-04-15 17:32:33',
                 'table_name' => 'setting_activities',
                 'log_type' => 'create',
@@ -597,8 +597,8 @@ class LogsTableSeeder extends Seeder
             ),
             64 => 
             array (
-                'id' => 65,
-                'user_id' => 1,
+                'id' => '65',
+                'user_id' => '1',
                 'log_date' => '2023-04-15 17:32:33',
                 'table_name' => 'setting_activities',
                 'log_type' => 'create',
@@ -606,8 +606,8 @@ class LogsTableSeeder extends Seeder
             ),
             65 => 
             array (
-                'id' => 66,
-                'user_id' => 1,
+                'id' => '66',
+                'user_id' => '1',
                 'log_date' => '2023-04-15 21:00:51',
                 'table_name' => '',
                 'log_type' => 'login',
@@ -615,8 +615,8 @@ class LogsTableSeeder extends Seeder
             ),
             66 => 
             array (
-                'id' => 67,
-                'user_id' => 1,
+                'id' => '67',
+                'user_id' => '1',
                 'log_date' => '2023-04-15 21:01:01',
                 'table_name' => 'setting_activities',
                 'log_type' => 'create',
@@ -624,8 +624,8 @@ class LogsTableSeeder extends Seeder
             ),
             67 => 
             array (
-                'id' => 68,
-                'user_id' => 1,
+                'id' => '68',
+                'user_id' => '1',
                 'log_date' => '2023-04-15 21:01:01',
                 'table_name' => 'setting_activities',
                 'log_type' => 'create',
@@ -633,8 +633,8 @@ class LogsTableSeeder extends Seeder
             ),
             68 => 
             array (
-                'id' => 69,
-                'user_id' => 1,
+                'id' => '69',
+                'user_id' => '1',
                 'log_date' => '2023-04-15 21:01:01',
                 'table_name' => 'setting_activities',
                 'log_type' => 'create',
@@ -642,8 +642,8 @@ class LogsTableSeeder extends Seeder
             ),
             69 => 
             array (
-                'id' => 70,
-                'user_id' => 1,
+                'id' => '70',
+                'user_id' => '1',
                 'log_date' => '2023-04-15 21:01:01',
                 'table_name' => 'setting_activities',
                 'log_type' => 'create',
@@ -651,8 +651,8 @@ class LogsTableSeeder extends Seeder
             ),
             70 => 
             array (
-                'id' => 71,
-                'user_id' => 1,
+                'id' => '71',
+                'user_id' => '1',
                 'log_date' => '2023-04-15 21:01:01',
                 'table_name' => 'setting_activities',
                 'log_type' => 'create',
@@ -660,8 +660,8 @@ class LogsTableSeeder extends Seeder
             ),
             71 => 
             array (
-                'id' => 72,
-                'user_id' => 1,
+                'id' => '72',
+                'user_id' => '1',
                 'log_date' => '2023-04-15 21:01:01',
                 'table_name' => 'setting_activities',
                 'log_type' => 'create',
@@ -669,8 +669,8 @@ class LogsTableSeeder extends Seeder
             ),
             72 => 
             array (
-                'id' => 73,
-                'user_id' => 1,
+                'id' => '73',
+                'user_id' => '1',
                 'log_date' => '2023-04-15 21:01:06',
                 'table_name' => 'setting_activities',
                 'log_type' => 'create',
@@ -678,8 +678,8 @@ class LogsTableSeeder extends Seeder
             ),
             73 => 
             array (
-                'id' => 74,
-                'user_id' => 1,
+                'id' => '74',
+                'user_id' => '1',
                 'log_date' => '2023-04-15 21:01:06',
                 'table_name' => 'setting_activities',
                 'log_type' => 'create',
@@ -687,8 +687,8 @@ class LogsTableSeeder extends Seeder
             ),
             74 => 
             array (
-                'id' => 75,
-                'user_id' => 1,
+                'id' => '75',
+                'user_id' => '1',
                 'log_date' => '2023-04-15 21:01:06',
                 'table_name' => 'setting_activities',
                 'log_type' => 'create',
@@ -696,8 +696,8 @@ class LogsTableSeeder extends Seeder
             ),
             75 => 
             array (
-                'id' => 76,
-                'user_id' => 1,
+                'id' => '76',
+                'user_id' => '1',
                 'log_date' => '2023-04-15 21:01:16',
                 'table_name' => 'setting_activities',
                 'log_type' => 'create',
@@ -705,8 +705,8 @@ class LogsTableSeeder extends Seeder
             ),
             76 => 
             array (
-                'id' => 77,
-                'user_id' => 1,
+                'id' => '77',
+                'user_id' => '1',
                 'log_date' => '2023-04-15 21:01:16',
                 'table_name' => 'setting_activities',
                 'log_type' => 'create',
@@ -714,8 +714,8 @@ class LogsTableSeeder extends Seeder
             ),
             77 => 
             array (
-                'id' => 78,
-                'user_id' => 1,
+                'id' => '78',
+                'user_id' => '1',
                 'log_date' => '2023-04-15 21:01:23',
                 'table_name' => 'setting_activities',
                 'log_type' => 'create',
@@ -723,8 +723,8 @@ class LogsTableSeeder extends Seeder
             ),
             78 => 
             array (
-                'id' => 79,
-                'user_id' => 1,
+                'id' => '79',
+                'user_id' => '1',
                 'log_date' => '2023-04-15 21:01:23',
                 'table_name' => 'setting_activities',
                 'log_type' => 'create',
@@ -732,8 +732,8 @@ class LogsTableSeeder extends Seeder
             ),
             79 => 
             array (
-                'id' => 80,
-                'user_id' => 1,
+                'id' => '80',
+                'user_id' => '1',
                 'log_date' => '2023-04-15 21:01:23',
                 'table_name' => 'setting_activities',
                 'log_type' => 'create',
@@ -741,8 +741,8 @@ class LogsTableSeeder extends Seeder
             ),
             80 => 
             array (
-                'id' => 81,
-                'user_id' => 1,
+                'id' => '81',
+                'user_id' => '1',
                 'log_date' => '2023-04-15 21:01:23',
                 'table_name' => 'setting_activities',
                 'log_type' => 'create',
@@ -750,8 +750,8 @@ class LogsTableSeeder extends Seeder
             ),
             81 => 
             array (
-                'id' => 82,
-                'user_id' => 1,
+                'id' => '82',
+                'user_id' => '1',
                 'log_date' => '2023-04-17 23:15:40',
                 'table_name' => '',
                 'log_type' => 'login',
@@ -759,8 +759,8 @@ class LogsTableSeeder extends Seeder
             ),
             82 => 
             array (
-                'id' => 83,
-                'user_id' => 1,
+                'id' => '83',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 03:45:08',
                 'table_name' => 'portfolio_kategori',
                 'log_type' => 'create',
@@ -768,8 +768,8 @@ class LogsTableSeeder extends Seeder
             ),
             83 => 
             array (
-                'id' => 84,
-                'user_id' => 1,
+                'id' => '84',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 03:45:14',
                 'table_name' => 'portfolio_kategori',
                 'log_type' => 'delete',
@@ -777,8 +777,8 @@ class LogsTableSeeder extends Seeder
             ),
             84 => 
             array (
-                'id' => 85,
-                'user_id' => 1,
+                'id' => '85',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 04:44:56',
                 'table_name' => 'users',
                 'log_type' => 'edit',
@@ -786,8 +786,8 @@ class LogsTableSeeder extends Seeder
             ),
             85 => 
             array (
-                'id' => 86,
-                'user_id' => 1,
+                'id' => '86',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 05:16:35',
                 'table_name' => 'portfolio_item',
                 'log_type' => 'create',
@@ -795,8 +795,8 @@ class LogsTableSeeder extends Seeder
             ),
             86 => 
             array (
-                'id' => 87,
-                'user_id' => 1,
+                'id' => '87',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 05:36:55',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -804,8 +804,8 @@ class LogsTableSeeder extends Seeder
             ),
             87 => 
             array (
-                'id' => 88,
-                'user_id' => 1,
+                'id' => '88',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 05:36:55',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -813,8 +813,8 @@ class LogsTableSeeder extends Seeder
             ),
             88 => 
             array (
-                'id' => 89,
-                'user_id' => 1,
+                'id' => '89',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 05:36:59',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -822,8 +822,8 @@ class LogsTableSeeder extends Seeder
             ),
             89 => 
             array (
-                'id' => 90,
-                'user_id' => 1,
+                'id' => '90',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 05:37:00',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -831,8 +831,8 @@ class LogsTableSeeder extends Seeder
             ),
             90 => 
             array (
-                'id' => 91,
-                'user_id' => 1,
+                'id' => '91',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 05:43:44',
                 'table_name' => 'p_role_has_menu',
                 'log_type' => 'create',
@@ -840,8 +840,8 @@ class LogsTableSeeder extends Seeder
             ),
             91 => 
             array (
-                'id' => 92,
-                'user_id' => 1,
+                'id' => '92',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 05:43:44',
                 'table_name' => 'p_role_has_menu',
                 'log_type' => 'create',
@@ -849,8 +849,8 @@ class LogsTableSeeder extends Seeder
             ),
             92 => 
             array (
-                'id' => 93,
-                'user_id' => 1,
+                'id' => '93',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 05:44:21',
                 'table_name' => 'p_role_has_menu',
                 'log_type' => 'create',
@@ -858,8 +858,8 @@ class LogsTableSeeder extends Seeder
             ),
             93 => 
             array (
-                'id' => 94,
-                'user_id' => 1,
+                'id' => '94',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 05:44:21',
                 'table_name' => 'p_role_has_menu',
                 'log_type' => 'create',
@@ -867,8 +867,8 @@ class LogsTableSeeder extends Seeder
             ),
             94 => 
             array (
-                'id' => 95,
-                'user_id' => 1,
+                'id' => '95',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 10:49:36',
                 'table_name' => '',
                 'log_type' => 'login',
@@ -876,8 +876,8 @@ class LogsTableSeeder extends Seeder
             ),
             95 => 
             array (
-                'id' => 96,
-                'user_id' => 1,
+                'id' => '96',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 10:52:23',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -885,8 +885,8 @@ class LogsTableSeeder extends Seeder
             ),
             96 => 
             array (
-                'id' => 97,
-                'user_id' => 1,
+                'id' => '97',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 10:52:23',
                 'table_name' => 'p_role_has_menu',
                 'log_type' => 'create',
@@ -894,8 +894,8 @@ class LogsTableSeeder extends Seeder
             ),
             97 => 
             array (
-                'id' => 98,
-                'user_id' => 1,
+                'id' => '98',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 10:52:23',
                 'table_name' => 'p_role_has_menu',
                 'log_type' => 'create',
@@ -903,8 +903,8 @@ class LogsTableSeeder extends Seeder
             ),
             98 => 
             array (
-                'id' => 99,
-                'user_id' => 1,
+                'id' => '99',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 12:50:10',
                 'table_name' => 'artikel',
                 'log_type' => 'edit',
@@ -912,8 +912,8 @@ class LogsTableSeeder extends Seeder
             ),
             99 => 
             array (
-                'id' => 100,
-                'user_id' => 1,
+                'id' => '100',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 12:50:28',
                 'table_name' => 'artikel',
                 'log_type' => 'edit',
@@ -921,8 +921,8 @@ class LogsTableSeeder extends Seeder
             ),
             100 => 
             array (
-                'id' => 101,
-                'user_id' => 1,
+                'id' => '101',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 13:30:22',
                 'table_name' => 'setting_activities',
                 'log_type' => 'edit',
@@ -930,8 +930,8 @@ class LogsTableSeeder extends Seeder
             ),
             101 => 
             array (
-                'id' => 102,
-                'user_id' => 1,
+                'id' => '102',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 13:33:08',
                 'table_name' => 'setting_activities',
                 'log_type' => 'edit',
@@ -939,8 +939,8 @@ class LogsTableSeeder extends Seeder
             ),
             102 => 
             array (
-                'id' => 103,
-                'user_id' => 1,
+                'id' => '103',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 13:33:13',
                 'table_name' => 'setting_activities',
                 'log_type' => 'edit',
@@ -948,8 +948,8 @@ class LogsTableSeeder extends Seeder
             ),
             103 => 
             array (
-                'id' => 104,
-                'user_id' => 1,
+                'id' => '104',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 13:42:14',
                 'table_name' => 'setting_activities',
                 'log_type' => 'edit',
@@ -957,8 +957,8 @@ class LogsTableSeeder extends Seeder
             ),
             104 => 
             array (
-                'id' => 105,
-                'user_id' => 1,
+                'id' => '105',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 13:47:25',
                 'table_name' => 'setting_activities',
                 'log_type' => 'edit',
@@ -966,8 +966,8 @@ class LogsTableSeeder extends Seeder
             ),
             105 => 
             array (
-                'id' => 106,
-                'user_id' => 1,
+                'id' => '106',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:01:26',
                 'table_name' => '',
                 'log_type' => 'login',
@@ -975,8 +975,8 @@ class LogsTableSeeder extends Seeder
             ),
             106 => 
             array (
-                'id' => 107,
-                'user_id' => 1,
+                'id' => '107',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:01:55',
                 'table_name' => '',
                 'log_type' => 'login',
@@ -984,8 +984,8 @@ class LogsTableSeeder extends Seeder
             ),
             107 => 
             array (
-                'id' => 108,
-                'user_id' => 1,
+                'id' => '108',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:03:29',
                 'table_name' => 'visitors',
                 'log_type' => 'edit',
@@ -993,8 +993,8 @@ class LogsTableSeeder extends Seeder
             ),
             108 => 
             array (
-                'id' => 109,
-                'user_id' => 1,
+                'id' => '109',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:04:08',
                 'table_name' => 'p_menu_frontends',
                 'log_type' => 'edit',
@@ -1002,8 +1002,8 @@ class LogsTableSeeder extends Seeder
             ),
             109 => 
             array (
-                'id' => 110,
-                'user_id' => 1,
+                'id' => '110',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:04:31',
                 'table_name' => 'p_menu_frontends',
                 'log_type' => 'create',
@@ -1011,8 +1011,8 @@ class LogsTableSeeder extends Seeder
             ),
             110 => 
             array (
-                'id' => 111,
-                'user_id' => 1,
+                'id' => '111',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:05:14',
                 'table_name' => 'p_menu_frontends',
                 'log_type' => 'create',
@@ -1020,8 +1020,8 @@ class LogsTableSeeder extends Seeder
             ),
             111 => 
             array (
-                'id' => 112,
-                'user_id' => 1,
+                'id' => '112',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:05:19',
                 'table_name' => 'p_menu_frontends',
                 'log_type' => 'edit',
@@ -1029,8 +1029,8 @@ class LogsTableSeeder extends Seeder
             ),
             112 => 
             array (
-                'id' => 113,
-                'user_id' => 1,
+                'id' => '113',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:05:19',
                 'table_name' => 'p_menu_frontends',
                 'log_type' => 'edit',
@@ -1038,8 +1038,8 @@ class LogsTableSeeder extends Seeder
             ),
             113 => 
             array (
-                'id' => 114,
-                'user_id' => 1,
+                'id' => '114',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:05:19',
                 'table_name' => 'p_menu_frontends',
                 'log_type' => 'edit',
@@ -1047,8 +1047,8 @@ class LogsTableSeeder extends Seeder
             ),
             114 => 
             array (
-                'id' => 115,
-                'user_id' => 1,
+                'id' => '115',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:05:19',
                 'table_name' => 'p_menu_frontends',
                 'log_type' => 'edit',
@@ -1056,8 +1056,8 @@ class LogsTableSeeder extends Seeder
             ),
             115 => 
             array (
-                'id' => 116,
-                'user_id' => 1,
+                'id' => '116',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:05:19',
                 'table_name' => 'p_menu_frontends',
                 'log_type' => 'edit',
@@ -1065,8 +1065,8 @@ class LogsTableSeeder extends Seeder
             ),
             116 => 
             array (
-                'id' => 117,
-                'user_id' => 1,
+                'id' => '117',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:05:19',
                 'table_name' => 'p_menu_frontends',
                 'log_type' => 'edit',
@@ -1074,8 +1074,8 @@ class LogsTableSeeder extends Seeder
             ),
             117 => 
             array (
-                'id' => 118,
-                'user_id' => 1,
+                'id' => '118',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:05:19',
                 'table_name' => 'p_menu_frontends',
                 'log_type' => 'edit',
@@ -1083,8 +1083,8 @@ class LogsTableSeeder extends Seeder
             ),
             118 => 
             array (
-                'id' => 119,
-                'user_id' => 1,
+                'id' => '119',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:05:19',
                 'table_name' => 'p_menu_frontends',
                 'log_type' => 'edit',
@@ -1092,8 +1092,8 @@ class LogsTableSeeder extends Seeder
             ),
             119 => 
             array (
-                'id' => 120,
-                'user_id' => 1,
+                'id' => '120',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:05:19',
                 'table_name' => 'p_menu_frontends',
                 'log_type' => 'edit',
@@ -1101,8 +1101,8 @@ class LogsTableSeeder extends Seeder
             ),
             120 => 
             array (
-                'id' => 121,
-                'user_id' => 1,
+                'id' => '121',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:05:19',
                 'table_name' => 'p_menu_frontends',
                 'log_type' => 'edit',
@@ -1110,8 +1110,8 @@ class LogsTableSeeder extends Seeder
             ),
             121 => 
             array (
-                'id' => 122,
-                'user_id' => 1,
+                'id' => '122',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:05:37',
                 'table_name' => 'p_menu_frontends',
                 'log_type' => 'edit',
@@ -1119,8 +1119,8 @@ class LogsTableSeeder extends Seeder
             ),
             122 => 
             array (
-                'id' => 123,
-                'user_id' => 1,
+                'id' => '123',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:05:51',
                 'table_name' => 'p_menu_frontends',
                 'log_type' => 'create',
@@ -1128,8 +1128,8 @@ class LogsTableSeeder extends Seeder
             ),
             123 => 
             array (
-                'id' => 124,
-                'user_id' => 1,
+                'id' => '124',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:05:55',
                 'table_name' => 'p_menu_frontends',
                 'log_type' => 'edit',
@@ -1137,8 +1137,8 @@ class LogsTableSeeder extends Seeder
             ),
             124 => 
             array (
-                'id' => 125,
-                'user_id' => 1,
+                'id' => '125',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:05:55',
                 'table_name' => 'p_menu_frontends',
                 'log_type' => 'edit',
@@ -1146,8 +1146,8 @@ class LogsTableSeeder extends Seeder
             ),
             125 => 
             array (
-                'id' => 126,
-                'user_id' => 1,
+                'id' => '126',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:05:55',
                 'table_name' => 'p_menu_frontends',
                 'log_type' => 'edit',
@@ -1155,8 +1155,8 @@ class LogsTableSeeder extends Seeder
             ),
             126 => 
             array (
-                'id' => 127,
-                'user_id' => 1,
+                'id' => '127',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:05:55',
                 'table_name' => 'p_menu_frontends',
                 'log_type' => 'edit',
@@ -1164,8 +1164,8 @@ class LogsTableSeeder extends Seeder
             ),
             127 => 
             array (
-                'id' => 128,
-                'user_id' => 1,
+                'id' => '128',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:05:55',
                 'table_name' => 'p_menu_frontends',
                 'log_type' => 'edit',
@@ -1173,8 +1173,8 @@ class LogsTableSeeder extends Seeder
             ),
             128 => 
             array (
-                'id' => 129,
-                'user_id' => 1,
+                'id' => '129',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:05:55',
                 'table_name' => 'p_menu_frontends',
                 'log_type' => 'edit',
@@ -1182,8 +1182,8 @@ class LogsTableSeeder extends Seeder
             ),
             129 => 
             array (
-                'id' => 130,
-                'user_id' => 1,
+                'id' => '130',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:05:55',
                 'table_name' => 'p_menu_frontends',
                 'log_type' => 'edit',
@@ -1191,8 +1191,8 @@ class LogsTableSeeder extends Seeder
             ),
             130 => 
             array (
-                'id' => 131,
-                'user_id' => 1,
+                'id' => '131',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:05:55',
                 'table_name' => 'p_menu_frontends',
                 'log_type' => 'edit',
@@ -1200,8 +1200,8 @@ class LogsTableSeeder extends Seeder
             ),
             131 => 
             array (
-                'id' => 132,
-                'user_id' => 1,
+                'id' => '132',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:05:58',
                 'table_name' => 'visitors',
                 'log_type' => 'edit',
@@ -1209,8 +1209,8 @@ class LogsTableSeeder extends Seeder
             ),
             132 => 
             array (
-                'id' => 133,
-                'user_id' => 1,
+                'id' => '133',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:06:16',
                 'table_name' => 'p_menu_frontends',
                 'log_type' => 'create',
@@ -1218,8 +1218,8 @@ class LogsTableSeeder extends Seeder
             ),
             133 => 
             array (
-                'id' => 134,
-                'user_id' => 1,
+                'id' => '134',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:06:22',
                 'table_name' => 'p_menu_frontends',
                 'log_type' => 'edit',
@@ -1227,8 +1227,8 @@ class LogsTableSeeder extends Seeder
             ),
             134 => 
             array (
-                'id' => 135,
-                'user_id' => 1,
+                'id' => '135',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:06:22',
                 'table_name' => 'p_menu_frontends',
                 'log_type' => 'edit',
@@ -1236,8 +1236,8 @@ class LogsTableSeeder extends Seeder
             ),
             135 => 
             array (
-                'id' => 136,
-                'user_id' => 1,
+                'id' => '136',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:06:22',
                 'table_name' => 'p_menu_frontends',
                 'log_type' => 'edit',
@@ -1245,8 +1245,8 @@ class LogsTableSeeder extends Seeder
             ),
             136 => 
             array (
-                'id' => 137,
-                'user_id' => 1,
+                'id' => '137',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:06:22',
                 'table_name' => 'p_menu_frontends',
                 'log_type' => 'edit',
@@ -1254,8 +1254,8 @@ class LogsTableSeeder extends Seeder
             ),
             137 => 
             array (
-                'id' => 138,
-                'user_id' => 1,
+                'id' => '138',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:06:22',
                 'table_name' => 'p_menu_frontends',
                 'log_type' => 'edit',
@@ -1263,8 +1263,8 @@ class LogsTableSeeder extends Seeder
             ),
             138 => 
             array (
-                'id' => 139,
-                'user_id' => 1,
+                'id' => '139',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:06:22',
                 'table_name' => 'p_menu_frontends',
                 'log_type' => 'edit',
@@ -1272,8 +1272,8 @@ class LogsTableSeeder extends Seeder
             ),
             139 => 
             array (
-                'id' => 140,
-                'user_id' => 1,
+                'id' => '140',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:06:22',
                 'table_name' => 'p_menu_frontends',
                 'log_type' => 'edit',
@@ -1281,8 +1281,8 @@ class LogsTableSeeder extends Seeder
             ),
             140 => 
             array (
-                'id' => 141,
-                'user_id' => 1,
+                'id' => '141',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:06:22',
                 'table_name' => 'p_menu_frontends',
                 'log_type' => 'edit',
@@ -1290,8 +1290,8 @@ class LogsTableSeeder extends Seeder
             ),
             141 => 
             array (
-                'id' => 142,
-                'user_id' => 1,
+                'id' => '142',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:06:22',
                 'table_name' => 'p_menu_frontends',
                 'log_type' => 'edit',
@@ -1299,8 +1299,8 @@ class LogsTableSeeder extends Seeder
             ),
             142 => 
             array (
-                'id' => 143,
-                'user_id' => 1,
+                'id' => '143',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:08:09',
                 'table_name' => 'visitors',
                 'log_type' => 'edit',
@@ -1308,8 +1308,8 @@ class LogsTableSeeder extends Seeder
             ),
             143 => 
             array (
-                'id' => 144,
-                'user_id' => 1,
+                'id' => '144',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:08:15',
                 'table_name' => 'visitors',
                 'log_type' => 'edit',
@@ -1317,8 +1317,8 @@ class LogsTableSeeder extends Seeder
             ),
             144 => 
             array (
-                'id' => 145,
-                'user_id' => 1,
+                'id' => '145',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:08:34',
                 'table_name' => 'visitors',
                 'log_type' => 'edit',
@@ -1326,8 +1326,8 @@ class LogsTableSeeder extends Seeder
             ),
             145 => 
             array (
-                'id' => 146,
-                'user_id' => 1,
+                'id' => '146',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:09:21',
                 'table_name' => 'visitors',
                 'log_type' => 'edit',
@@ -1335,8 +1335,8 @@ class LogsTableSeeder extends Seeder
             ),
             146 => 
             array (
-                'id' => 147,
-                'user_id' => 1,
+                'id' => '147',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:09:29',
                 'table_name' => 'visitors',
                 'log_type' => 'edit',
@@ -1344,8 +1344,8 @@ class LogsTableSeeder extends Seeder
             ),
             147 => 
             array (
-                'id' => 148,
-                'user_id' => 1,
+                'id' => '148',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:10:18',
                 'table_name' => 'visitors',
                 'log_type' => 'edit',
@@ -1353,8 +1353,8 @@ class LogsTableSeeder extends Seeder
             ),
             148 => 
             array (
-                'id' => 149,
-                'user_id' => 1,
+                'id' => '149',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:10:41',
                 'table_name' => 'visitors',
                 'log_type' => 'edit',
@@ -1362,8 +1362,8 @@ class LogsTableSeeder extends Seeder
             ),
             149 => 
             array (
-                'id' => 150,
-                'user_id' => 1,
+                'id' => '150',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:13:14',
                 'table_name' => 'visitors',
                 'log_type' => 'edit',
@@ -1371,8 +1371,8 @@ class LogsTableSeeder extends Seeder
             ),
             150 => 
             array (
-                'id' => 151,
-                'user_id' => 1,
+                'id' => '151',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:13:45',
                 'table_name' => 'visitors',
                 'log_type' => 'edit',
@@ -1380,8 +1380,8 @@ class LogsTableSeeder extends Seeder
             ),
             151 => 
             array (
-                'id' => 152,
-                'user_id' => 1,
+                'id' => '152',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:14:10',
                 'table_name' => 'visitors',
                 'log_type' => 'edit',
@@ -1389,8 +1389,8 @@ class LogsTableSeeder extends Seeder
             ),
             152 => 
             array (
-                'id' => 153,
-                'user_id' => 1,
+                'id' => '153',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:14:30',
                 'table_name' => 'setting_activities',
                 'log_type' => 'create',
@@ -1398,8 +1398,8 @@ class LogsTableSeeder extends Seeder
             ),
             153 => 
             array (
-                'id' => 154,
-                'user_id' => 1,
+                'id' => '154',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:14:30',
                 'table_name' => 'setting_activities',
                 'log_type' => 'create',
@@ -1407,8 +1407,8 @@ class LogsTableSeeder extends Seeder
             ),
             154 => 
             array (
-                'id' => 155,
-                'user_id' => 1,
+                'id' => '155',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:14:30',
                 'table_name' => 'setting_activities',
                 'log_type' => 'create',
@@ -1416,8 +1416,8 @@ class LogsTableSeeder extends Seeder
             ),
             155 => 
             array (
-                'id' => 156,
-                'user_id' => 1,
+                'id' => '156',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:14:53',
                 'table_name' => 'visitors',
                 'log_type' => 'edit',
@@ -1425,8 +1425,8 @@ class LogsTableSeeder extends Seeder
             ),
             156 => 
             array (
-                'id' => 157,
-                'user_id' => 1,
+                'id' => '157',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:15:05',
                 'table_name' => 'visitors',
                 'log_type' => 'edit',
@@ -1434,8 +1434,8 @@ class LogsTableSeeder extends Seeder
             ),
             157 => 
             array (
-                'id' => 158,
-                'user_id' => 1,
+                'id' => '158',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:15:45',
                 'table_name' => 'setting_activities',
                 'log_type' => 'edit',
@@ -1443,8 +1443,8 @@ class LogsTableSeeder extends Seeder
             ),
             158 => 
             array (
-                'id' => 159,
-                'user_id' => 1,
+                'id' => '159',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:16:33',
                 'table_name' => 'setting_activities',
                 'log_type' => 'edit',
@@ -1452,8 +1452,8 @@ class LogsTableSeeder extends Seeder
             ),
             159 => 
             array (
-                'id' => 160,
-                'user_id' => 1,
+                'id' => '160',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:17:16',
                 'table_name' => 'visitors',
                 'log_type' => 'edit',
@@ -1461,8 +1461,8 @@ class LogsTableSeeder extends Seeder
             ),
             160 => 
             array (
-                'id' => 161,
-                'user_id' => 1,
+                'id' => '161',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:17:32',
                 'table_name' => 'visitors',
                 'log_type' => 'edit',
@@ -1470,8 +1470,8 @@ class LogsTableSeeder extends Seeder
             ),
             161 => 
             array (
-                'id' => 162,
-                'user_id' => 1,
+                'id' => '162',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:17:46',
                 'table_name' => 'visitors',
                 'log_type' => 'edit',
@@ -1479,8 +1479,8 @@ class LogsTableSeeder extends Seeder
             ),
             162 => 
             array (
-                'id' => 163,
-                'user_id' => 1,
+                'id' => '163',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:18:33',
                 'table_name' => 'visitors',
                 'log_type' => 'edit',
@@ -1488,8 +1488,8 @@ class LogsTableSeeder extends Seeder
             ),
             163 => 
             array (
-                'id' => 164,
-                'user_id' => 1,
+                'id' => '164',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:19:14',
                 'table_name' => 'visitors',
                 'log_type' => 'edit',
@@ -1497,8 +1497,8 @@ class LogsTableSeeder extends Seeder
             ),
             164 => 
             array (
-                'id' => 165,
-                'user_id' => 1,
+                'id' => '165',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:20:44',
                 'table_name' => 'visitors',
                 'log_type' => 'edit',
@@ -1506,8 +1506,8 @@ class LogsTableSeeder extends Seeder
             ),
             165 => 
             array (
-                'id' => 166,
-                'user_id' => 1,
+                'id' => '166',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:22:45',
                 'table_name' => 'visitors',
                 'log_type' => 'edit',
@@ -1515,8 +1515,8 @@ class LogsTableSeeder extends Seeder
             ),
             166 => 
             array (
-                'id' => 167,
-                'user_id' => 1,
+                'id' => '167',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:22:56',
                 'table_name' => 'visitors',
                 'log_type' => 'edit',
@@ -1524,8 +1524,8 @@ class LogsTableSeeder extends Seeder
             ),
             167 => 
             array (
-                'id' => 168,
-                'user_id' => 1,
+                'id' => '168',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:23:14',
                 'table_name' => 'visitors',
                 'log_type' => 'edit',
@@ -1533,8 +1533,8 @@ class LogsTableSeeder extends Seeder
             ),
             168 => 
             array (
-                'id' => 169,
-                'user_id' => 1,
+                'id' => '169',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:23:25',
                 'table_name' => 'visitors',
                 'log_type' => 'edit',
@@ -1542,8 +1542,8 @@ class LogsTableSeeder extends Seeder
             ),
             169 => 
             array (
-                'id' => 170,
-                'user_id' => 1,
+                'id' => '170',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:27:00',
                 'table_name' => 'visitors',
                 'log_type' => 'edit',
@@ -1551,8 +1551,8 @@ class LogsTableSeeder extends Seeder
             ),
             170 => 
             array (
-                'id' => 171,
-                'user_id' => 1,
+                'id' => '171',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:27:13',
                 'table_name' => 'visitors',
                 'log_type' => 'edit',
@@ -1560,8 +1560,8 @@ class LogsTableSeeder extends Seeder
             ),
             171 => 
             array (
-                'id' => 172,
-                'user_id' => 1,
+                'id' => '172',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:27:29',
                 'table_name' => 'visitors',
                 'log_type' => 'edit',
@@ -1569,8 +1569,8 @@ class LogsTableSeeder extends Seeder
             ),
             172 => 
             array (
-                'id' => 173,
-                'user_id' => 1,
+                'id' => '173',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:27:39',
                 'table_name' => 'visitors',
                 'log_type' => 'edit',
@@ -1578,8 +1578,8 @@ class LogsTableSeeder extends Seeder
             ),
             173 => 
             array (
-                'id' => 174,
-                'user_id' => 1,
+                'id' => '174',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:27:42',
                 'table_name' => 'visitors',
                 'log_type' => 'edit',
@@ -1587,8 +1587,8 @@ class LogsTableSeeder extends Seeder
             ),
             174 => 
             array (
-                'id' => 175,
-                'user_id' => 1,
+                'id' => '175',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 14:28:24',
                 'table_name' => 'visitors',
                 'log_type' => 'edit',
@@ -1596,8 +1596,8 @@ class LogsTableSeeder extends Seeder
             ),
             175 => 
             array (
-                'id' => 176,
-                'user_id' => 1,
+                'id' => '176',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 20:17:25',
                 'table_name' => '',
                 'log_type' => 'login',
@@ -1605,8 +1605,8 @@ class LogsTableSeeder extends Seeder
             ),
             176 => 
             array (
-                'id' => 177,
-                'user_id' => 1,
+                'id' => '177',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 20:39:59',
                 'table_name' => 'users',
                 'log_type' => 'edit',
@@ -1614,8 +1614,8 @@ class LogsTableSeeder extends Seeder
             ),
             177 => 
             array (
-                'id' => 178,
-                'user_id' => 1,
+                'id' => '178',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 20:40:56',
                 'table_name' => 'users',
                 'log_type' => 'edit',
@@ -1623,8 +1623,8 @@ class LogsTableSeeder extends Seeder
             ),
             178 => 
             array (
-                'id' => 179,
-                'user_id' => 1,
+                'id' => '179',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 20:56:55',
                 'table_name' => 'users',
                 'log_type' => 'edit',
@@ -1632,8 +1632,8 @@ class LogsTableSeeder extends Seeder
             ),
             179 => 
             array (
-                'id' => 180,
-                'user_id' => 1,
+                'id' => '180',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 20:58:12',
                 'table_name' => 'users',
                 'log_type' => 'edit',
@@ -1641,8 +1641,8 @@ class LogsTableSeeder extends Seeder
             ),
             180 => 
             array (
-                'id' => 181,
-                'user_id' => 1,
+                'id' => '181',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 20:58:20',
                 'table_name' => 'users',
                 'log_type' => 'edit',
@@ -1650,8 +1650,8 @@ class LogsTableSeeder extends Seeder
             ),
             181 => 
             array (
-                'id' => 182,
-                'user_id' => 1,
+                'id' => '182',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 20:58:33',
                 'table_name' => 'users',
                 'log_type' => 'edit',
@@ -1659,8 +1659,8 @@ class LogsTableSeeder extends Seeder
             ),
             182 => 
             array (
-                'id' => 183,
-                'user_id' => 1,
+                'id' => '183',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 21:00:47',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -1668,8 +1668,8 @@ class LogsTableSeeder extends Seeder
             ),
             183 => 
             array (
-                'id' => 184,
-                'user_id' => 1,
+                'id' => '184',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 21:00:47',
                 'table_name' => 'p_role_has_menu',
                 'log_type' => 'create',
@@ -1677,8 +1677,8 @@ class LogsTableSeeder extends Seeder
             ),
             184 => 
             array (
-                'id' => 185,
-                'user_id' => 1,
+                'id' => '185',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 21:00:47',
                 'table_name' => 'p_role_has_menu',
                 'log_type' => 'create',
@@ -1686,8 +1686,8 @@ class LogsTableSeeder extends Seeder
             ),
             185 => 
             array (
-                'id' => 186,
-                'user_id' => 1,
+                'id' => '186',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 21:08:41',
                 'table_name' => 'users',
                 'log_type' => 'edit',
@@ -1695,8 +1695,8 @@ class LogsTableSeeder extends Seeder
             ),
             186 => 
             array (
-                'id' => 187,
-                'user_id' => 1,
+                'id' => '187',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 21:08:47',
                 'table_name' => 'users',
                 'log_type' => 'edit',
@@ -1704,8 +1704,8 @@ class LogsTableSeeder extends Seeder
             ),
             187 => 
             array (
-                'id' => 188,
-                'user_id' => 1,
+                'id' => '188',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 21:08:52',
                 'table_name' => 'users',
                 'log_type' => 'edit',
@@ -1713,8 +1713,8 @@ class LogsTableSeeder extends Seeder
             ),
             188 => 
             array (
-                'id' => 189,
-                'user_id' => 1,
+                'id' => '189',
+                'user_id' => '1',
                 'log_date' => '2023-04-18 21:08:57',
                 'table_name' => 'users',
                 'log_type' => 'edit',
@@ -1722,8 +1722,8 @@ class LogsTableSeeder extends Seeder
             ),
             189 => 
             array (
-                'id' => 190,
-                'user_id' => 1,
+                'id' => '190',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 10:28:54',
                 'table_name' => '',
                 'log_type' => 'login',
@@ -1731,8 +1731,8 @@ class LogsTableSeeder extends Seeder
             ),
             190 => 
             array (
-                'id' => 191,
-                'user_id' => 1,
+                'id' => '191',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 11:04:08',
                 'table_name' => 'visitors',
                 'log_type' => 'edit',
@@ -1740,8 +1740,8 @@ class LogsTableSeeder extends Seeder
             ),
             191 => 
             array (
-                'id' => 192,
-                'user_id' => 1,
+                'id' => '192',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 11:04:18',
                 'table_name' => 'visitors',
                 'log_type' => 'edit',
@@ -1749,8 +1749,8 @@ class LogsTableSeeder extends Seeder
             ),
             192 => 
             array (
-                'id' => 193,
-                'user_id' => 1,
+                'id' => '193',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 11:04:45',
                 'table_name' => 'visitors',
                 'log_type' => 'edit',
@@ -1758,8 +1758,8 @@ class LogsTableSeeder extends Seeder
             ),
             193 => 
             array (
-                'id' => 194,
-                'user_id' => 1,
+                'id' => '194',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 11:04:49',
                 'table_name' => 'visitors',
                 'log_type' => 'edit',
@@ -1767,8 +1767,8 @@ class LogsTableSeeder extends Seeder
             ),
             194 => 
             array (
-                'id' => 195,
-                'user_id' => 1,
+                'id' => '195',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 11:12:31',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -1776,8 +1776,8 @@ class LogsTableSeeder extends Seeder
             ),
             195 => 
             array (
-                'id' => 196,
-                'user_id' => 1,
+                'id' => '196',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 11:12:31',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -1785,8 +1785,8 @@ class LogsTableSeeder extends Seeder
             ),
             196 => 
             array (
-                'id' => 197,
-                'user_id' => 1,
+                'id' => '197',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 11:12:31',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -1794,8 +1794,8 @@ class LogsTableSeeder extends Seeder
             ),
             197 => 
             array (
-                'id' => 198,
-                'user_id' => 1,
+                'id' => '198',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 11:12:31',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -1803,8 +1803,8 @@ class LogsTableSeeder extends Seeder
             ),
             198 => 
             array (
-                'id' => 199,
-                'user_id' => 1,
+                'id' => '199',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 11:12:31',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -1812,8 +1812,8 @@ class LogsTableSeeder extends Seeder
             ),
             199 => 
             array (
-                'id' => 200,
-                'user_id' => 1,
+                'id' => '200',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 11:12:31',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -1821,8 +1821,8 @@ class LogsTableSeeder extends Seeder
             ),
             200 => 
             array (
-                'id' => 201,
-                'user_id' => 1,
+                'id' => '201',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 11:12:31',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -1830,8 +1830,8 @@ class LogsTableSeeder extends Seeder
             ),
             201 => 
             array (
-                'id' => 202,
-                'user_id' => 1,
+                'id' => '202',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 11:12:31',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -1839,8 +1839,8 @@ class LogsTableSeeder extends Seeder
             ),
             202 => 
             array (
-                'id' => 203,
-                'user_id' => 1,
+                'id' => '203',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 11:12:31',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -1848,8 +1848,8 @@ class LogsTableSeeder extends Seeder
             ),
             203 => 
             array (
-                'id' => 204,
-                'user_id' => 1,
+                'id' => '204',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 11:12:31',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -1857,8 +1857,8 @@ class LogsTableSeeder extends Seeder
             ),
             204 => 
             array (
-                'id' => 205,
-                'user_id' => 1,
+                'id' => '205',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 11:12:31',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -1866,8 +1866,8 @@ class LogsTableSeeder extends Seeder
             ),
             205 => 
             array (
-                'id' => 206,
-                'user_id' => 1,
+                'id' => '206',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 11:12:31',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -1875,8 +1875,8 @@ class LogsTableSeeder extends Seeder
             ),
             206 => 
             array (
-                'id' => 207,
-                'user_id' => 1,
+                'id' => '207',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 11:12:31',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -1884,8 +1884,8 @@ class LogsTableSeeder extends Seeder
             ),
             207 => 
             array (
-                'id' => 208,
-                'user_id' => 1,
+                'id' => '208',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 11:12:31',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -1893,8 +1893,8 @@ class LogsTableSeeder extends Seeder
             ),
             208 => 
             array (
-                'id' => 209,
-                'user_id' => 1,
+                'id' => '209',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 11:12:31',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -1902,8 +1902,8 @@ class LogsTableSeeder extends Seeder
             ),
             209 => 
             array (
-                'id' => 210,
-                'user_id' => 1,
+                'id' => '210',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 11:12:31',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -1911,8 +1911,8 @@ class LogsTableSeeder extends Seeder
             ),
             210 => 
             array (
-                'id' => 211,
-                'user_id' => 1,
+                'id' => '211',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 11:12:31',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -1920,8 +1920,8 @@ class LogsTableSeeder extends Seeder
             ),
             211 => 
             array (
-                'id' => 212,
-                'user_id' => 1,
+                'id' => '212',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 11:12:31',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -1929,8 +1929,8 @@ class LogsTableSeeder extends Seeder
             ),
             212 => 
             array (
-                'id' => 213,
-                'user_id' => 1,
+                'id' => '213',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 11:12:31',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -1938,8 +1938,8 @@ class LogsTableSeeder extends Seeder
             ),
             213 => 
             array (
-                'id' => 214,
-                'user_id' => 1,
+                'id' => '214',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 11:12:31',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -1947,8 +1947,8 @@ class LogsTableSeeder extends Seeder
             ),
             214 => 
             array (
-                'id' => 215,
-                'user_id' => 1,
+                'id' => '215',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 11:12:31',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -1956,8 +1956,8 @@ class LogsTableSeeder extends Seeder
             ),
             215 => 
             array (
-                'id' => 216,
-                'user_id' => 1,
+                'id' => '216',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 11:12:31',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -1965,8 +1965,8 @@ class LogsTableSeeder extends Seeder
             ),
             216 => 
             array (
-                'id' => 217,
-                'user_id' => 1,
+                'id' => '217',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 11:12:31',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -1974,8 +1974,8 @@ class LogsTableSeeder extends Seeder
             ),
             217 => 
             array (
-                'id' => 218,
-                'user_id' => 1,
+                'id' => '218',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 11:12:31',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -1983,8 +1983,8 @@ class LogsTableSeeder extends Seeder
             ),
             218 => 
             array (
-                'id' => 219,
-                'user_id' => 1,
+                'id' => '219',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 11:12:31',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -1992,8 +1992,8 @@ class LogsTableSeeder extends Seeder
             ),
             219 => 
             array (
-                'id' => 220,
-                'user_id' => 1,
+                'id' => '220',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 11:12:31',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -2001,8 +2001,8 @@ class LogsTableSeeder extends Seeder
             ),
             220 => 
             array (
-                'id' => 221,
-                'user_id' => 1,
+                'id' => '221',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 11:12:31',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -2010,8 +2010,8 @@ class LogsTableSeeder extends Seeder
             ),
             221 => 
             array (
-                'id' => 222,
-                'user_id' => 1,
+                'id' => '222',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 11:12:31',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -2019,8 +2019,8 @@ class LogsTableSeeder extends Seeder
             ),
             222 => 
             array (
-                'id' => 223,
-                'user_id' => 1,
+                'id' => '223',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 11:12:31',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -2028,8 +2028,8 @@ class LogsTableSeeder extends Seeder
             ),
             223 => 
             array (
-                'id' => 224,
-                'user_id' => 1,
+                'id' => '224',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 11:12:31',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -2037,8 +2037,8 @@ class LogsTableSeeder extends Seeder
             ),
             224 => 
             array (
-                'id' => 225,
-                'user_id' => 1,
+                'id' => '225',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 11:12:31',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -2046,8 +2046,8 @@ class LogsTableSeeder extends Seeder
             ),
             225 => 
             array (
-                'id' => 226,
-                'user_id' => 1,
+                'id' => '226',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 11:12:31',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -2055,8 +2055,8 @@ class LogsTableSeeder extends Seeder
             ),
             226 => 
             array (
-                'id' => 227,
-                'user_id' => 1,
+                'id' => '227',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 11:12:31',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -2064,8 +2064,8 @@ class LogsTableSeeder extends Seeder
             ),
             227 => 
             array (
-                'id' => 228,
-                'user_id' => 1,
+                'id' => '228',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 11:12:31',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -2073,8 +2073,8 @@ class LogsTableSeeder extends Seeder
             ),
             228 => 
             array (
-                'id' => 229,
-                'user_id' => 1,
+                'id' => '229',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 11:12:31',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -2082,8 +2082,8 @@ class LogsTableSeeder extends Seeder
             ),
             229 => 
             array (
-                'id' => 230,
-                'user_id' => 1,
+                'id' => '230',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 11:12:31',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -2091,8 +2091,8 @@ class LogsTableSeeder extends Seeder
             ),
             230 => 
             array (
-                'id' => 231,
-                'user_id' => 1,
+                'id' => '231',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 11:12:31',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -2100,8 +2100,8 @@ class LogsTableSeeder extends Seeder
             ),
             231 => 
             array (
-                'id' => 232,
-                'user_id' => 1,
+                'id' => '232',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 11:12:31',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -2109,8 +2109,8 @@ class LogsTableSeeder extends Seeder
             ),
             232 => 
             array (
-                'id' => 233,
-                'user_id' => 1,
+                'id' => '233',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 11:12:31',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -2118,8 +2118,8 @@ class LogsTableSeeder extends Seeder
             ),
             233 => 
             array (
-                'id' => 234,
-                'user_id' => 1,
+                'id' => '234',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 11:12:31',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -2127,8 +2127,8 @@ class LogsTableSeeder extends Seeder
             ),
             234 => 
             array (
-                'id' => 235,
-                'user_id' => 1,
+                'id' => '235',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 11:12:31',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -2136,8 +2136,8 @@ class LogsTableSeeder extends Seeder
             ),
             235 => 
             array (
-                'id' => 236,
-                'user_id' => 1,
+                'id' => '236',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 11:12:38',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -2145,8 +2145,8 @@ class LogsTableSeeder extends Seeder
             ),
             236 => 
             array (
-                'id' => 237,
-                'user_id' => 1,
+                'id' => '237',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 11:12:38',
                 'table_name' => 'p_role_has_menu',
                 'log_type' => 'create',
@@ -2154,8 +2154,8 @@ class LogsTableSeeder extends Seeder
             ),
             237 => 
             array (
-                'id' => 238,
-                'user_id' => 1,
+                'id' => '238',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 11:12:38',
                 'table_name' => 'p_role_has_menu',
                 'log_type' => 'create',
@@ -2163,8 +2163,8 @@ class LogsTableSeeder extends Seeder
             ),
             238 => 
             array (
-                'id' => 239,
-                'user_id' => 1,
+                'id' => '239',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 11:12:50',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -2172,8 +2172,8 @@ class LogsTableSeeder extends Seeder
             ),
             239 => 
             array (
-                'id' => 240,
-                'user_id' => 1,
+                'id' => '240',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 11:12:50',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -2181,8 +2181,8 @@ class LogsTableSeeder extends Seeder
             ),
             240 => 
             array (
-                'id' => 241,
-                'user_id' => 1,
+                'id' => '241',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 11:13:04',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -2190,8 +2190,8 @@ class LogsTableSeeder extends Seeder
             ),
             241 => 
             array (
-                'id' => 242,
-                'user_id' => 1,
+                'id' => '242',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 11:13:04',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -2199,8 +2199,8 @@ class LogsTableSeeder extends Seeder
             ),
             242 => 
             array (
-                'id' => 243,
-                'user_id' => 1,
+                'id' => '243',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 13:32:35',
                 'table_name' => 'home_sliders',
                 'log_type' => 'edit',
@@ -2208,8 +2208,8 @@ class LogsTableSeeder extends Seeder
             ),
             243 => 
             array (
-                'id' => 244,
-                'user_id' => 1,
+                'id' => '244',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 13:33:43',
                 'table_name' => 'portfolio_item',
                 'log_type' => 'create',
@@ -2217,8 +2217,8 @@ class LogsTableSeeder extends Seeder
             ),
             244 => 
             array (
-                'id' => 245,
-                'user_id' => 1,
+                'id' => '245',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 13:33:46',
                 'table_name' => 'portfolio_item',
                 'log_type' => 'delete',
@@ -2226,8 +2226,8 @@ class LogsTableSeeder extends Seeder
             ),
             245 => 
             array (
-                'id' => 246,
-                'user_id' => 1,
+                'id' => '246',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 13:34:33',
                 'table_name' => 'home_sliders',
                 'log_type' => 'delete',
@@ -2235,8 +2235,8 @@ class LogsTableSeeder extends Seeder
             ),
             246 => 
             array (
-                'id' => 247,
-                'user_id' => 1,
+                'id' => '247',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 13:34:35',
                 'table_name' => 'home_sliders',
                 'log_type' => 'delete',
@@ -2244,8 +2244,8 @@ class LogsTableSeeder extends Seeder
             ),
             247 => 
             array (
-                'id' => 248,
-                'user_id' => 1,
+                'id' => '248',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 13:34:39',
                 'table_name' => 'home_sliders',
                 'log_type' => 'delete',
@@ -2253,8 +2253,8 @@ class LogsTableSeeder extends Seeder
             ),
             248 => 
             array (
-                'id' => 249,
-                'user_id' => 1,
+                'id' => '249',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 13:34:42',
                 'table_name' => 'home_sliders',
                 'log_type' => 'delete',
@@ -2262,8 +2262,8 @@ class LogsTableSeeder extends Seeder
             ),
             249 => 
             array (
-                'id' => 250,
-                'user_id' => 1,
+                'id' => '250',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 13:35:45',
                 'table_name' => 'home_sliders',
                 'log_type' => 'edit',
@@ -2271,8 +2271,8 @@ class LogsTableSeeder extends Seeder
             ),
             250 => 
             array (
-                'id' => 251,
-                'user_id' => 1,
+                'id' => '251',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 13:57:55',
                 'table_name' => 'home_sliders',
                 'log_type' => 'edit',
@@ -2280,8 +2280,8 @@ class LogsTableSeeder extends Seeder
             ),
             251 => 
             array (
-                'id' => 252,
-                'user_id' => 1,
+                'id' => '252',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 13:58:23',
                 'table_name' => 'home_sliders',
                 'log_type' => 'edit',
@@ -2289,8 +2289,8 @@ class LogsTableSeeder extends Seeder
             ),
             252 => 
             array (
-                'id' => 253,
-                'user_id' => 1,
+                'id' => '253',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 13:59:03',
                 'table_name' => 'home_sliders',
                 'log_type' => 'create',
@@ -2298,8 +2298,8 @@ class LogsTableSeeder extends Seeder
             ),
             253 => 
             array (
-                'id' => 254,
-                'user_id' => 1,
+                'id' => '254',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 13:59:21',
                 'table_name' => 'home_sliders',
                 'log_type' => 'create',
@@ -2307,8 +2307,8 @@ class LogsTableSeeder extends Seeder
             ),
             254 => 
             array (
-                'id' => 255,
-                'user_id' => 1,
+                'id' => '255',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 16:16:53',
                 'table_name' => '',
                 'log_type' => 'login',
@@ -2316,8 +2316,8 @@ class LogsTableSeeder extends Seeder
             ),
             255 => 
             array (
-                'id' => 256,
-                'user_id' => 1,
+                'id' => '256',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 16:18:43',
                 'table_name' => 'home_sliders',
                 'log_type' => 'edit',
@@ -2325,8 +2325,8 @@ class LogsTableSeeder extends Seeder
             ),
             256 => 
             array (
-                'id' => 257,
-                'user_id' => 1,
+                'id' => '257',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 17:19:32',
                 'table_name' => '',
                 'log_type' => 'login',
@@ -2334,8 +2334,8 @@ class LogsTableSeeder extends Seeder
             ),
             257 => 
             array (
-                'id' => 258,
-                'user_id' => 1,
+                'id' => '258',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 18:50:30',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -2343,8 +2343,8 @@ class LogsTableSeeder extends Seeder
             ),
             258 => 
             array (
-                'id' => 259,
-                'user_id' => 1,
+                'id' => '259',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 18:50:30',
                 'table_name' => 'p_role_has_menu',
                 'log_type' => 'create',
@@ -2352,8 +2352,8 @@ class LogsTableSeeder extends Seeder
             ),
             259 => 
             array (
-                'id' => 260,
-                'user_id' => 1,
+                'id' => '260',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 18:50:30',
                 'table_name' => 'p_role_has_menu',
                 'log_type' => 'create',
@@ -2361,8 +2361,8 @@ class LogsTableSeeder extends Seeder
             ),
             260 => 
             array (
-                'id' => 261,
-                'user_id' => 1,
+                'id' => '261',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 18:50:35',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -2370,8 +2370,8 @@ class LogsTableSeeder extends Seeder
             ),
             261 => 
             array (
-                'id' => 262,
-                'user_id' => 1,
+                'id' => '262',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 18:50:35',
                 'table_name' => 'p_role_has_menu',
                 'log_type' => 'create',
@@ -2379,8 +2379,8 @@ class LogsTableSeeder extends Seeder
             ),
             262 => 
             array (
-                'id' => 263,
-                'user_id' => 1,
+                'id' => '263',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 18:50:35',
                 'table_name' => 'p_role_has_menu',
                 'log_type' => 'create',
@@ -2388,8 +2388,8 @@ class LogsTableSeeder extends Seeder
             ),
             263 => 
             array (
-                'id' => 264,
-                'user_id' => 1,
+                'id' => '264',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 19:04:11',
                 'table_name' => 'setting_activities',
                 'log_type' => 'create',
@@ -2397,8 +2397,8 @@ class LogsTableSeeder extends Seeder
             ),
             264 => 
             array (
-                'id' => 265,
-                'user_id' => 1,
+                'id' => '265',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 19:04:11',
                 'table_name' => 'setting_activities',
                 'log_type' => 'create',
@@ -2406,8 +2406,8 @@ class LogsTableSeeder extends Seeder
             ),
             265 => 
             array (
-                'id' => 266,
-                'user_id' => 1,
+                'id' => '266',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 19:08:10',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -2415,8 +2415,8 @@ class LogsTableSeeder extends Seeder
             ),
             266 => 
             array (
-                'id' => 267,
-                'user_id' => 1,
+                'id' => '267',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 19:08:10',
                 'table_name' => 'p_role_has_menu',
                 'log_type' => 'create',
@@ -2424,8 +2424,8 @@ class LogsTableSeeder extends Seeder
             ),
             267 => 
             array (
-                'id' => 268,
-                'user_id' => 1,
+                'id' => '268',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 19:08:10',
                 'table_name' => 'p_role_has_menu',
                 'log_type' => 'create',
@@ -2433,8 +2433,8 @@ class LogsTableSeeder extends Seeder
             ),
             268 => 
             array (
-                'id' => 269,
-                'user_id' => 1,
+                'id' => '269',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 19:13:28',
                 'table_name' => 'setting_activities',
                 'log_type' => 'create',
@@ -2442,8 +2442,8 @@ class LogsTableSeeder extends Seeder
             ),
             269 => 
             array (
-                'id' => 270,
-                'user_id' => 1,
+                'id' => '270',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 19:13:28',
                 'table_name' => 'setting_activities',
                 'log_type' => 'create',
@@ -2451,8 +2451,8 @@ class LogsTableSeeder extends Seeder
             ),
             270 => 
             array (
-                'id' => 271,
-                'user_id' => 1,
+                'id' => '271',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 19:13:28',
                 'table_name' => 'setting_activities',
                 'log_type' => 'create',
@@ -2460,8 +2460,8 @@ class LogsTableSeeder extends Seeder
             ),
             271 => 
             array (
-                'id' => 272,
-                'user_id' => 1,
+                'id' => '272',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 19:13:28',
                 'table_name' => 'setting_activities',
                 'log_type' => 'create',
@@ -2469,8 +2469,8 @@ class LogsTableSeeder extends Seeder
             ),
             272 => 
             array (
-                'id' => 273,
-                'user_id' => 1,
+                'id' => '273',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 19:13:28',
                 'table_name' => 'setting_activities',
                 'log_type' => 'create',
@@ -2478,8 +2478,8 @@ class LogsTableSeeder extends Seeder
             ),
             273 => 
             array (
-                'id' => 274,
-                'user_id' => 1,
+                'id' => '274',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 19:13:28',
                 'table_name' => 'setting_activities',
                 'log_type' => 'create',
@@ -2487,8 +2487,8 @@ class LogsTableSeeder extends Seeder
             ),
             274 => 
             array (
-                'id' => 275,
-                'user_id' => 1,
+                'id' => '275',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 19:13:28',
                 'table_name' => 'setting_activities',
                 'log_type' => 'create',
@@ -2496,8 +2496,8 @@ class LogsTableSeeder extends Seeder
             ),
             275 => 
             array (
-                'id' => 276,
-                'user_id' => 1,
+                'id' => '276',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 19:13:28',
                 'table_name' => 'setting_activities',
                 'log_type' => 'create',
@@ -2505,8 +2505,8 @@ class LogsTableSeeder extends Seeder
             ),
             276 => 
             array (
-                'id' => 277,
-                'user_id' => 1,
+                'id' => '277',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 19:13:28',
                 'table_name' => 'setting_activities',
                 'log_type' => 'create',
@@ -2514,8 +2514,8 @@ class LogsTableSeeder extends Seeder
             ),
             277 => 
             array (
-                'id' => 278,
-                'user_id' => 1,
+                'id' => '278',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 19:14:06',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -2523,8 +2523,8 @@ class LogsTableSeeder extends Seeder
             ),
             278 => 
             array (
-                'id' => 279,
-                'user_id' => 1,
+                'id' => '279',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 19:14:06',
                 'table_name' => 'p_role_has_menu',
                 'log_type' => 'create',
@@ -2532,8 +2532,8 @@ class LogsTableSeeder extends Seeder
             ),
             279 => 
             array (
-                'id' => 280,
-                'user_id' => 1,
+                'id' => '280',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 19:14:06',
                 'table_name' => 'p_role_has_menu',
                 'log_type' => 'create',
@@ -2541,8 +2541,8 @@ class LogsTableSeeder extends Seeder
             ),
             280 => 
             array (
-                'id' => 281,
-                'user_id' => 1,
+                'id' => '281',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 19:35:24',
                 'table_name' => 'notif_admin_atas',
                 'log_type' => 'edit',
@@ -2550,8 +2550,8 @@ class LogsTableSeeder extends Seeder
             ),
             281 => 
             array (
-                'id' => 282,
-                'user_id' => 1,
+                'id' => '282',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 19:35:36',
                 'table_name' => 'notif_admin_atas',
                 'log_type' => 'edit',
@@ -2559,8 +2559,8 @@ class LogsTableSeeder extends Seeder
             ),
             282 => 
             array (
-                'id' => 283,
-                'user_id' => 1,
+                'id' => '283',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 19:36:34',
                 'table_name' => 'notif_admin_atas',
                 'log_type' => 'edit',
@@ -2568,8 +2568,8 @@ class LogsTableSeeder extends Seeder
             ),
             283 => 
             array (
-                'id' => 284,
-                'user_id' => 1,
+                'id' => '284',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 19:36:41',
                 'table_name' => 'notif_admin_atas',
                 'log_type' => 'edit',
@@ -2577,8 +2577,8 @@ class LogsTableSeeder extends Seeder
             ),
             284 => 
             array (
-                'id' => 285,
-                'user_id' => 1,
+                'id' => '285',
+                'user_id' => '1',
                 'log_date' => '2023-04-19 20:11:33',
                 'table_name' => '',
                 'log_type' => 'login',
@@ -2586,8 +2586,8 @@ class LogsTableSeeder extends Seeder
             ),
             285 => 
             array (
-                'id' => 286,
-                'user_id' => 1,
+                'id' => '286',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 11:40:43',
                 'table_name' => '',
                 'log_type' => 'login',
@@ -2595,8 +2595,8 @@ class LogsTableSeeder extends Seeder
             ),
             286 => 
             array (
-                'id' => 287,
-                'user_id' => 1,
+                'id' => '287',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 11:42:33',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -2604,8 +2604,8 @@ class LogsTableSeeder extends Seeder
             ),
             287 => 
             array (
-                'id' => 288,
-                'user_id' => 1,
+                'id' => '288',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 11:42:33',
                 'table_name' => 'p_role_has_menu',
                 'log_type' => 'create',
@@ -2613,8 +2613,8 @@ class LogsTableSeeder extends Seeder
             ),
             288 => 
             array (
-                'id' => 289,
-                'user_id' => 1,
+                'id' => '289',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 11:42:33',
                 'table_name' => 'p_role_has_menu',
                 'log_type' => 'create',
@@ -2622,8 +2622,8 @@ class LogsTableSeeder extends Seeder
             ),
             289 => 
             array (
-                'id' => 290,
-                'user_id' => 1,
+                'id' => '290',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:24:35',
                 'table_name' => '',
                 'log_type' => 'login',
@@ -2631,8 +2631,8 @@ class LogsTableSeeder extends Seeder
             ),
             290 => 
             array (
-                'id' => 291,
-                'user_id' => 1,
+                'id' => '291',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:23',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -2640,8 +2640,8 @@ class LogsTableSeeder extends Seeder
             ),
             291 => 
             array (
-                'id' => 292,
-                'user_id' => 1,
+                'id' => '292',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:24',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -2649,8 +2649,8 @@ class LogsTableSeeder extends Seeder
             ),
             292 => 
             array (
-                'id' => 293,
-                'user_id' => 1,
+                'id' => '293',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:24',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -2658,8 +2658,8 @@ class LogsTableSeeder extends Seeder
             ),
             293 => 
             array (
-                'id' => 294,
-                'user_id' => 1,
+                'id' => '294',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:25',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -2667,8 +2667,8 @@ class LogsTableSeeder extends Seeder
             ),
             294 => 
             array (
-                'id' => 295,
-                'user_id' => 1,
+                'id' => '295',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:25',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -2676,8 +2676,8 @@ class LogsTableSeeder extends Seeder
             ),
             295 => 
             array (
-                'id' => 296,
-                'user_id' => 1,
+                'id' => '296',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:25',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -2685,8 +2685,8 @@ class LogsTableSeeder extends Seeder
             ),
             296 => 
             array (
-                'id' => 297,
-                'user_id' => 1,
+                'id' => '297',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:26',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -2694,8 +2694,8 @@ class LogsTableSeeder extends Seeder
             ),
             297 => 
             array (
-                'id' => 298,
-                'user_id' => 1,
+                'id' => '298',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:26',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -2703,8 +2703,8 @@ class LogsTableSeeder extends Seeder
             ),
             298 => 
             array (
-                'id' => 299,
-                'user_id' => 1,
+                'id' => '299',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:27',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -2712,8 +2712,8 @@ class LogsTableSeeder extends Seeder
             ),
             299 => 
             array (
-                'id' => 300,
-                'user_id' => 1,
+                'id' => '300',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:27',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -2721,8 +2721,8 @@ class LogsTableSeeder extends Seeder
             ),
             300 => 
             array (
-                'id' => 301,
-                'user_id' => 1,
+                'id' => '301',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:28',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -2730,8 +2730,8 @@ class LogsTableSeeder extends Seeder
             ),
             301 => 
             array (
-                'id' => 302,
-                'user_id' => 1,
+                'id' => '302',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:28',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -2739,8 +2739,8 @@ class LogsTableSeeder extends Seeder
             ),
             302 => 
             array (
-                'id' => 303,
-                'user_id' => 1,
+                'id' => '303',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:28',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -2748,8 +2748,8 @@ class LogsTableSeeder extends Seeder
             ),
             303 => 
             array (
-                'id' => 304,
-                'user_id' => 1,
+                'id' => '304',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:29',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -2757,8 +2757,8 @@ class LogsTableSeeder extends Seeder
             ),
             304 => 
             array (
-                'id' => 305,
-                'user_id' => 1,
+                'id' => '305',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:29',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -2766,8 +2766,8 @@ class LogsTableSeeder extends Seeder
             ),
             305 => 
             array (
-                'id' => 306,
-                'user_id' => 1,
+                'id' => '306',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:30',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -2775,8 +2775,8 @@ class LogsTableSeeder extends Seeder
             ),
             306 => 
             array (
-                'id' => 307,
-                'user_id' => 1,
+                'id' => '307',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:30',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -2784,8 +2784,8 @@ class LogsTableSeeder extends Seeder
             ),
             307 => 
             array (
-                'id' => 308,
-                'user_id' => 1,
+                'id' => '308',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:30',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -2793,8 +2793,8 @@ class LogsTableSeeder extends Seeder
             ),
             308 => 
             array (
-                'id' => 309,
-                'user_id' => 1,
+                'id' => '309',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:31',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -2802,8 +2802,8 @@ class LogsTableSeeder extends Seeder
             ),
             309 => 
             array (
-                'id' => 310,
-                'user_id' => 1,
+                'id' => '310',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:31',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -2811,8 +2811,8 @@ class LogsTableSeeder extends Seeder
             ),
             310 => 
             array (
-                'id' => 311,
-                'user_id' => 1,
+                'id' => '311',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:32',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -2820,8 +2820,8 @@ class LogsTableSeeder extends Seeder
             ),
             311 => 
             array (
-                'id' => 312,
-                'user_id' => 1,
+                'id' => '312',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:32',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -2829,8 +2829,8 @@ class LogsTableSeeder extends Seeder
             ),
             312 => 
             array (
-                'id' => 313,
-                'user_id' => 1,
+                'id' => '313',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:33',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -2838,8 +2838,8 @@ class LogsTableSeeder extends Seeder
             ),
             313 => 
             array (
-                'id' => 314,
-                'user_id' => 1,
+                'id' => '314',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:33',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -2847,8 +2847,8 @@ class LogsTableSeeder extends Seeder
             ),
             314 => 
             array (
-                'id' => 315,
-                'user_id' => 1,
+                'id' => '315',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:34',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -2856,8 +2856,8 @@ class LogsTableSeeder extends Seeder
             ),
             315 => 
             array (
-                'id' => 316,
-                'user_id' => 1,
+                'id' => '316',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:34',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -2865,8 +2865,8 @@ class LogsTableSeeder extends Seeder
             ),
             316 => 
             array (
-                'id' => 317,
-                'user_id' => 1,
+                'id' => '317',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:35',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -2874,8 +2874,8 @@ class LogsTableSeeder extends Seeder
             ),
             317 => 
             array (
-                'id' => 318,
-                'user_id' => 1,
+                'id' => '318',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:35',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -2883,8 +2883,8 @@ class LogsTableSeeder extends Seeder
             ),
             318 => 
             array (
-                'id' => 319,
-                'user_id' => 1,
+                'id' => '319',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:35',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -2892,8 +2892,8 @@ class LogsTableSeeder extends Seeder
             ),
             319 => 
             array (
-                'id' => 320,
-                'user_id' => 1,
+                'id' => '320',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:36',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -2901,8 +2901,8 @@ class LogsTableSeeder extends Seeder
             ),
             320 => 
             array (
-                'id' => 321,
-                'user_id' => 1,
+                'id' => '321',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:36',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -2910,8 +2910,8 @@ class LogsTableSeeder extends Seeder
             ),
             321 => 
             array (
-                'id' => 322,
-                'user_id' => 1,
+                'id' => '322',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:37',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -2919,8 +2919,8 @@ class LogsTableSeeder extends Seeder
             ),
             322 => 
             array (
-                'id' => 323,
-                'user_id' => 1,
+                'id' => '323',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:37',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -2928,8 +2928,8 @@ class LogsTableSeeder extends Seeder
             ),
             323 => 
             array (
-                'id' => 324,
-                'user_id' => 1,
+                'id' => '324',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:38',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -2937,8 +2937,8 @@ class LogsTableSeeder extends Seeder
             ),
             324 => 
             array (
-                'id' => 325,
-                'user_id' => 1,
+                'id' => '325',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:38',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -2946,8 +2946,8 @@ class LogsTableSeeder extends Seeder
             ),
             325 => 
             array (
-                'id' => 326,
-                'user_id' => 1,
+                'id' => '326',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:39',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -2955,8 +2955,8 @@ class LogsTableSeeder extends Seeder
             ),
             326 => 
             array (
-                'id' => 327,
-                'user_id' => 1,
+                'id' => '327',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:39',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -2964,8 +2964,8 @@ class LogsTableSeeder extends Seeder
             ),
             327 => 
             array (
-                'id' => 328,
-                'user_id' => 1,
+                'id' => '328',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:40',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -2973,8 +2973,8 @@ class LogsTableSeeder extends Seeder
             ),
             328 => 
             array (
-                'id' => 329,
-                'user_id' => 1,
+                'id' => '329',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:40',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -2982,8 +2982,8 @@ class LogsTableSeeder extends Seeder
             ),
             329 => 
             array (
-                'id' => 330,
-                'user_id' => 1,
+                'id' => '330',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:40',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -2991,8 +2991,8 @@ class LogsTableSeeder extends Seeder
             ),
             330 => 
             array (
-                'id' => 331,
-                'user_id' => 1,
+                'id' => '331',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:41',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3000,8 +3000,8 @@ class LogsTableSeeder extends Seeder
             ),
             331 => 
             array (
-                'id' => 332,
-                'user_id' => 1,
+                'id' => '332',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:41',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3009,8 +3009,8 @@ class LogsTableSeeder extends Seeder
             ),
             332 => 
             array (
-                'id' => 333,
-                'user_id' => 1,
+                'id' => '333',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:42',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3018,8 +3018,8 @@ class LogsTableSeeder extends Seeder
             ),
             333 => 
             array (
-                'id' => 334,
-                'user_id' => 1,
+                'id' => '334',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:42',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3027,8 +3027,8 @@ class LogsTableSeeder extends Seeder
             ),
             334 => 
             array (
-                'id' => 335,
-                'user_id' => 1,
+                'id' => '335',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:43',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3036,8 +3036,8 @@ class LogsTableSeeder extends Seeder
             ),
             335 => 
             array (
-                'id' => 336,
-                'user_id' => 1,
+                'id' => '336',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:43',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3045,8 +3045,8 @@ class LogsTableSeeder extends Seeder
             ),
             336 => 
             array (
-                'id' => 337,
-                'user_id' => 1,
+                'id' => '337',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:44',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3054,8 +3054,8 @@ class LogsTableSeeder extends Seeder
             ),
             337 => 
             array (
-                'id' => 338,
-                'user_id' => 1,
+                'id' => '338',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:44',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3063,8 +3063,8 @@ class LogsTableSeeder extends Seeder
             ),
             338 => 
             array (
-                'id' => 339,
-                'user_id' => 1,
+                'id' => '339',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:45',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3072,8 +3072,8 @@ class LogsTableSeeder extends Seeder
             ),
             339 => 
             array (
-                'id' => 340,
-                'user_id' => 1,
+                'id' => '340',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:45',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3081,8 +3081,8 @@ class LogsTableSeeder extends Seeder
             ),
             340 => 
             array (
-                'id' => 341,
-                'user_id' => 1,
+                'id' => '341',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:45',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3090,8 +3090,8 @@ class LogsTableSeeder extends Seeder
             ),
             341 => 
             array (
-                'id' => 342,
-                'user_id' => 1,
+                'id' => '342',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:46',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3099,8 +3099,8 @@ class LogsTableSeeder extends Seeder
             ),
             342 => 
             array (
-                'id' => 343,
-                'user_id' => 1,
+                'id' => '343',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:46',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3108,8 +3108,8 @@ class LogsTableSeeder extends Seeder
             ),
             343 => 
             array (
-                'id' => 344,
-                'user_id' => 1,
+                'id' => '344',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:47',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3117,8 +3117,8 @@ class LogsTableSeeder extends Seeder
             ),
             344 => 
             array (
-                'id' => 345,
-                'user_id' => 1,
+                'id' => '345',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:47',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3126,8 +3126,8 @@ class LogsTableSeeder extends Seeder
             ),
             345 => 
             array (
-                'id' => 346,
-                'user_id' => 1,
+                'id' => '346',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:48',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3135,8 +3135,8 @@ class LogsTableSeeder extends Seeder
             ),
             346 => 
             array (
-                'id' => 347,
-                'user_id' => 1,
+                'id' => '347',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:48',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3144,8 +3144,8 @@ class LogsTableSeeder extends Seeder
             ),
             347 => 
             array (
-                'id' => 348,
-                'user_id' => 1,
+                'id' => '348',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:49',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3153,8 +3153,8 @@ class LogsTableSeeder extends Seeder
             ),
             348 => 
             array (
-                'id' => 349,
-                'user_id' => 1,
+                'id' => '349',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:49',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3162,8 +3162,8 @@ class LogsTableSeeder extends Seeder
             ),
             349 => 
             array (
-                'id' => 350,
-                'user_id' => 1,
+                'id' => '350',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:49',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3171,8 +3171,8 @@ class LogsTableSeeder extends Seeder
             ),
             350 => 
             array (
-                'id' => 351,
-                'user_id' => 1,
+                'id' => '351',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:50',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3180,8 +3180,8 @@ class LogsTableSeeder extends Seeder
             ),
             351 => 
             array (
-                'id' => 352,
-                'user_id' => 1,
+                'id' => '352',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:50',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3189,8 +3189,8 @@ class LogsTableSeeder extends Seeder
             ),
             352 => 
             array (
-                'id' => 353,
-                'user_id' => 1,
+                'id' => '353',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:51',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3198,8 +3198,8 @@ class LogsTableSeeder extends Seeder
             ),
             353 => 
             array (
-                'id' => 354,
-                'user_id' => 1,
+                'id' => '354',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:51',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3207,8 +3207,8 @@ class LogsTableSeeder extends Seeder
             ),
             354 => 
             array (
-                'id' => 355,
-                'user_id' => 1,
+                'id' => '355',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:52',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3216,8 +3216,8 @@ class LogsTableSeeder extends Seeder
             ),
             355 => 
             array (
-                'id' => 356,
-                'user_id' => 1,
+                'id' => '356',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:52',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3225,8 +3225,8 @@ class LogsTableSeeder extends Seeder
             ),
             356 => 
             array (
-                'id' => 357,
-                'user_id' => 1,
+                'id' => '357',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:53',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3234,8 +3234,8 @@ class LogsTableSeeder extends Seeder
             ),
             357 => 
             array (
-                'id' => 358,
-                'user_id' => 1,
+                'id' => '358',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:53',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3243,8 +3243,8 @@ class LogsTableSeeder extends Seeder
             ),
             358 => 
             array (
-                'id' => 359,
-                'user_id' => 1,
+                'id' => '359',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:53',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3252,8 +3252,8 @@ class LogsTableSeeder extends Seeder
             ),
             359 => 
             array (
-                'id' => 360,
-                'user_id' => 1,
+                'id' => '360',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:54',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3261,8 +3261,8 @@ class LogsTableSeeder extends Seeder
             ),
             360 => 
             array (
-                'id' => 361,
-                'user_id' => 1,
+                'id' => '361',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:54',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3270,8 +3270,8 @@ class LogsTableSeeder extends Seeder
             ),
             361 => 
             array (
-                'id' => 362,
-                'user_id' => 1,
+                'id' => '362',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:55',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3279,8 +3279,8 @@ class LogsTableSeeder extends Seeder
             ),
             362 => 
             array (
-                'id' => 363,
-                'user_id' => 1,
+                'id' => '363',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:55',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3288,8 +3288,8 @@ class LogsTableSeeder extends Seeder
             ),
             363 => 
             array (
-                'id' => 364,
-                'user_id' => 1,
+                'id' => '364',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:56',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3297,8 +3297,8 @@ class LogsTableSeeder extends Seeder
             ),
             364 => 
             array (
-                'id' => 365,
-                'user_id' => 1,
+                'id' => '365',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:56',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3306,8 +3306,8 @@ class LogsTableSeeder extends Seeder
             ),
             365 => 
             array (
-                'id' => 366,
-                'user_id' => 1,
+                'id' => '366',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:57',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3315,8 +3315,8 @@ class LogsTableSeeder extends Seeder
             ),
             366 => 
             array (
-                'id' => 367,
-                'user_id' => 1,
+                'id' => '367',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:57',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3324,8 +3324,8 @@ class LogsTableSeeder extends Seeder
             ),
             367 => 
             array (
-                'id' => 368,
-                'user_id' => 1,
+                'id' => '368',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:58',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3333,8 +3333,8 @@ class LogsTableSeeder extends Seeder
             ),
             368 => 
             array (
-                'id' => 369,
-                'user_id' => 1,
+                'id' => '369',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:58',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3342,8 +3342,8 @@ class LogsTableSeeder extends Seeder
             ),
             369 => 
             array (
-                'id' => 370,
-                'user_id' => 1,
+                'id' => '370',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:58',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3351,8 +3351,8 @@ class LogsTableSeeder extends Seeder
             ),
             370 => 
             array (
-                'id' => 371,
-                'user_id' => 1,
+                'id' => '371',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:59',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3360,8 +3360,8 @@ class LogsTableSeeder extends Seeder
             ),
             371 => 
             array (
-                'id' => 372,
-                'user_id' => 1,
+                'id' => '372',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:33:59',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3369,8 +3369,8 @@ class LogsTableSeeder extends Seeder
             ),
             372 => 
             array (
-                'id' => 373,
-                'user_id' => 1,
+                'id' => '373',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:34:00',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3378,8 +3378,8 @@ class LogsTableSeeder extends Seeder
             ),
             373 => 
             array (
-                'id' => 374,
-                'user_id' => 1,
+                'id' => '374',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:34:00',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3387,8 +3387,8 @@ class LogsTableSeeder extends Seeder
             ),
             374 => 
             array (
-                'id' => 375,
-                'user_id' => 1,
+                'id' => '375',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:34:01',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3396,8 +3396,8 @@ class LogsTableSeeder extends Seeder
             ),
             375 => 
             array (
-                'id' => 376,
-                'user_id' => 1,
+                'id' => '376',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:34:01',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3405,8 +3405,8 @@ class LogsTableSeeder extends Seeder
             ),
             376 => 
             array (
-                'id' => 377,
-                'user_id' => 1,
+                'id' => '377',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:34:01',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3414,8 +3414,8 @@ class LogsTableSeeder extends Seeder
             ),
             377 => 
             array (
-                'id' => 378,
-                'user_id' => 1,
+                'id' => '378',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:34:02',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3423,8 +3423,8 @@ class LogsTableSeeder extends Seeder
             ),
             378 => 
             array (
-                'id' => 379,
-                'user_id' => 1,
+                'id' => '379',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:34:02',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3432,8 +3432,8 @@ class LogsTableSeeder extends Seeder
             ),
             379 => 
             array (
-                'id' => 380,
-                'user_id' => 1,
+                'id' => '380',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:34:03',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3441,8 +3441,8 @@ class LogsTableSeeder extends Seeder
             ),
             380 => 
             array (
-                'id' => 381,
-                'user_id' => 1,
+                'id' => '381',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:34:03',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3450,8 +3450,8 @@ class LogsTableSeeder extends Seeder
             ),
             381 => 
             array (
-                'id' => 382,
-                'user_id' => 1,
+                'id' => '382',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:34:03',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3459,8 +3459,8 @@ class LogsTableSeeder extends Seeder
             ),
             382 => 
             array (
-                'id' => 383,
-                'user_id' => 1,
+                'id' => '383',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:34:04',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3468,8 +3468,8 @@ class LogsTableSeeder extends Seeder
             ),
             383 => 
             array (
-                'id' => 384,
-                'user_id' => 1,
+                'id' => '384',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:34:05',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3477,8 +3477,8 @@ class LogsTableSeeder extends Seeder
             ),
             384 => 
             array (
-                'id' => 385,
-                'user_id' => 1,
+                'id' => '385',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:34:05',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3486,8 +3486,8 @@ class LogsTableSeeder extends Seeder
             ),
             385 => 
             array (
-                'id' => 386,
-                'user_id' => 1,
+                'id' => '386',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:34:06',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3495,8 +3495,8 @@ class LogsTableSeeder extends Seeder
             ),
             386 => 
             array (
-                'id' => 387,
-                'user_id' => 1,
+                'id' => '387',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:34:06',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3504,8 +3504,8 @@ class LogsTableSeeder extends Seeder
             ),
             387 => 
             array (
-                'id' => 388,
-                'user_id' => 1,
+                'id' => '388',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:34:07',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3513,8 +3513,8 @@ class LogsTableSeeder extends Seeder
             ),
             388 => 
             array (
-                'id' => 389,
-                'user_id' => 1,
+                'id' => '389',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:34:07',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3522,8 +3522,8 @@ class LogsTableSeeder extends Seeder
             ),
             389 => 
             array (
-                'id' => 390,
-                'user_id' => 1,
+                'id' => '390',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:34:07',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3531,8 +3531,8 @@ class LogsTableSeeder extends Seeder
             ),
             390 => 
             array (
-                'id' => 391,
-                'user_id' => 1,
+                'id' => '391',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:34:08',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3540,8 +3540,8 @@ class LogsTableSeeder extends Seeder
             ),
             391 => 
             array (
-                'id' => 392,
-                'user_id' => 1,
+                'id' => '392',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:34:08',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3549,8 +3549,8 @@ class LogsTableSeeder extends Seeder
             ),
             392 => 
             array (
-                'id' => 393,
-                'user_id' => 1,
+                'id' => '393',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:34:09',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3558,8 +3558,8 @@ class LogsTableSeeder extends Seeder
             ),
             393 => 
             array (
-                'id' => 394,
-                'user_id' => 1,
+                'id' => '394',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:34:09',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3567,8 +3567,8 @@ class LogsTableSeeder extends Seeder
             ),
             394 => 
             array (
-                'id' => 395,
-                'user_id' => 1,
+                'id' => '395',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:34:09',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3576,8 +3576,8 @@ class LogsTableSeeder extends Seeder
             ),
             395 => 
             array (
-                'id' => 396,
-                'user_id' => 1,
+                'id' => '396',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:34:10',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3585,8 +3585,8 @@ class LogsTableSeeder extends Seeder
             ),
             396 => 
             array (
-                'id' => 397,
-                'user_id' => 1,
+                'id' => '397',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:34:10',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3594,8 +3594,8 @@ class LogsTableSeeder extends Seeder
             ),
             397 => 
             array (
-                'id' => 398,
-                'user_id' => 1,
+                'id' => '398',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:34:11',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3603,8 +3603,8 @@ class LogsTableSeeder extends Seeder
             ),
             398 => 
             array (
-                'id' => 399,
-                'user_id' => 1,
+                'id' => '399',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:34:11',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3612,8 +3612,8 @@ class LogsTableSeeder extends Seeder
             ),
             399 => 
             array (
-                'id' => 400,
-                'user_id' => 1,
+                'id' => '400',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:34:12',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3621,8 +3621,8 @@ class LogsTableSeeder extends Seeder
             ),
             400 => 
             array (
-                'id' => 401,
-                'user_id' => 1,
+                'id' => '401',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:34:12',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3630,8 +3630,8 @@ class LogsTableSeeder extends Seeder
             ),
             401 => 
             array (
-                'id' => 402,
-                'user_id' => 1,
+                'id' => '402',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:34:12',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3639,8 +3639,8 @@ class LogsTableSeeder extends Seeder
             ),
             402 => 
             array (
-                'id' => 403,
-                'user_id' => 1,
+                'id' => '403',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:34:13',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3648,8 +3648,8 @@ class LogsTableSeeder extends Seeder
             ),
             403 => 
             array (
-                'id' => 404,
-                'user_id' => 1,
+                'id' => '404',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:34:13',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3657,8 +3657,8 @@ class LogsTableSeeder extends Seeder
             ),
             404 => 
             array (
-                'id' => 405,
-                'user_id' => 1,
+                'id' => '405',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:34:14',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3666,8 +3666,8 @@ class LogsTableSeeder extends Seeder
             ),
             405 => 
             array (
-                'id' => 406,
-                'user_id' => 1,
+                'id' => '406',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:34:14',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3675,8 +3675,8 @@ class LogsTableSeeder extends Seeder
             ),
             406 => 
             array (
-                'id' => 407,
-                'user_id' => 1,
+                'id' => '407',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:34:15',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3684,8 +3684,8 @@ class LogsTableSeeder extends Seeder
             ),
             407 => 
             array (
-                'id' => 408,
-                'user_id' => 1,
+                'id' => '408',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:34:15',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3693,8 +3693,8 @@ class LogsTableSeeder extends Seeder
             ),
             408 => 
             array (
-                'id' => 409,
-                'user_id' => 1,
+                'id' => '409',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:34:16',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3702,8 +3702,8 @@ class LogsTableSeeder extends Seeder
             ),
             409 => 
             array (
-                'id' => 410,
-                'user_id' => 1,
+                'id' => '410',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:34:16',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3711,8 +3711,8 @@ class LogsTableSeeder extends Seeder
             ),
             410 => 
             array (
-                'id' => 411,
-                'user_id' => 1,
+                'id' => '411',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:34:16',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3720,8 +3720,8 @@ class LogsTableSeeder extends Seeder
             ),
             411 => 
             array (
-                'id' => 412,
-                'user_id' => 1,
+                'id' => '412',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:34:17',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3729,8 +3729,8 @@ class LogsTableSeeder extends Seeder
             ),
             412 => 
             array (
-                'id' => 413,
-                'user_id' => 1,
+                'id' => '413',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:34:18',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3738,8 +3738,8 @@ class LogsTableSeeder extends Seeder
             ),
             413 => 
             array (
-                'id' => 414,
-                'user_id' => 1,
+                'id' => '414',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:34:18',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3747,8 +3747,8 @@ class LogsTableSeeder extends Seeder
             ),
             414 => 
             array (
-                'id' => 415,
-                'user_id' => 1,
+                'id' => '415',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:34:19',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3756,8 +3756,8 @@ class LogsTableSeeder extends Seeder
             ),
             415 => 
             array (
-                'id' => 416,
-                'user_id' => 1,
+                'id' => '416',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:34:19',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3765,8 +3765,8 @@ class LogsTableSeeder extends Seeder
             ),
             416 => 
             array (
-                'id' => 417,
-                'user_id' => 1,
+                'id' => '417',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:34:20',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3774,8 +3774,8 @@ class LogsTableSeeder extends Seeder
             ),
             417 => 
             array (
-                'id' => 418,
-                'user_id' => 1,
+                'id' => '418',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:34:20',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3783,8 +3783,8 @@ class LogsTableSeeder extends Seeder
             ),
             418 => 
             array (
-                'id' => 419,
-                'user_id' => 1,
+                'id' => '419',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:34:21',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3792,8 +3792,8 @@ class LogsTableSeeder extends Seeder
             ),
             419 => 
             array (
-                'id' => 420,
-                'user_id' => 1,
+                'id' => '420',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:34:21',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3801,8 +3801,8 @@ class LogsTableSeeder extends Seeder
             ),
             420 => 
             array (
-                'id' => 421,
-                'user_id' => 1,
+                'id' => '421',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:34:21',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3810,8 +3810,8 @@ class LogsTableSeeder extends Seeder
             ),
             421 => 
             array (
-                'id' => 422,
-                'user_id' => 1,
+                'id' => '422',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:34:22',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3819,8 +3819,8 @@ class LogsTableSeeder extends Seeder
             ),
             422 => 
             array (
-                'id' => 423,
-                'user_id' => 1,
+                'id' => '423',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:34:23',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3828,8 +3828,8 @@ class LogsTableSeeder extends Seeder
             ),
             423 => 
             array (
-                'id' => 424,
-                'user_id' => 1,
+                'id' => '424',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:34:23',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3837,8 +3837,8 @@ class LogsTableSeeder extends Seeder
             ),
             424 => 
             array (
-                'id' => 425,
-                'user_id' => 1,
+                'id' => '425',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:34:24',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3846,8 +3846,8 @@ class LogsTableSeeder extends Seeder
             ),
             425 => 
             array (
-                'id' => 426,
-                'user_id' => 1,
+                'id' => '426',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:34:24',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3855,8 +3855,8 @@ class LogsTableSeeder extends Seeder
             ),
             426 => 
             array (
-                'id' => 427,
-                'user_id' => 1,
+                'id' => '427',
+                'user_id' => '1',
                 'log_date' => '2023-04-24 20:34:24',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -3864,8 +3864,8 @@ class LogsTableSeeder extends Seeder
             ),
             427 => 
             array (
-                'id' => 428,
-                'user_id' => 1,
+                'id' => '428',
+                'user_id' => '1',
                 'log_date' => '2023-04-25 01:26:46',
                 'table_name' => '',
                 'log_type' => 'login',
@@ -3873,8 +3873,8 @@ class LogsTableSeeder extends Seeder
             ),
             428 => 
             array (
-                'id' => 429,
-                'user_id' => 1,
+                'id' => '429',
+                'user_id' => '1',
                 'log_date' => '2023-04-25 10:46:01',
                 'table_name' => '',
                 'log_type' => 'login',
@@ -3882,8 +3882,8 @@ class LogsTableSeeder extends Seeder
             ),
             429 => 
             array (
-                'id' => 430,
-                'user_id' => 1,
+                'id' => '430',
+                'user_id' => '1',
                 'log_date' => '2023-04-25 10:52:08',
                 'table_name' => 'p_menu',
                 'log_type' => 'create',
@@ -3891,8 +3891,8 @@ class LogsTableSeeder extends Seeder
             ),
             430 => 
             array (
-                'id' => 431,
-                'user_id' => 1,
+                'id' => '431',
+                'user_id' => '1',
                 'log_date' => '2023-04-25 10:52:08',
                 'table_name' => 'p_role_has_menu',
                 'log_type' => 'create',
@@ -3900,8 +3900,8 @@ class LogsTableSeeder extends Seeder
             ),
             431 => 
             array (
-                'id' => 432,
-                'user_id' => 1,
+                'id' => '432',
+                'user_id' => '1',
                 'log_date' => '2023-04-25 10:52:08',
                 'table_name' => 'p_role_has_menu',
                 'log_type' => 'create',
@@ -3909,8 +3909,8 @@ class LogsTableSeeder extends Seeder
             ),
             432 => 
             array (
-                'id' => 433,
-                'user_id' => 1,
+                'id' => '433',
+                'user_id' => '1',
                 'log_date' => '2023-04-25 10:52:23',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -3918,8 +3918,8 @@ class LogsTableSeeder extends Seeder
             ),
             433 => 
             array (
-                'id' => 434,
-                'user_id' => 1,
+                'id' => '434',
+                'user_id' => '1',
                 'log_date' => '2023-04-25 10:52:23',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -3927,8 +3927,8 @@ class LogsTableSeeder extends Seeder
             ),
             434 => 
             array (
-                'id' => 435,
-                'user_id' => 1,
+                'id' => '435',
+                'user_id' => '1',
                 'log_date' => '2023-04-25 10:52:23',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -3936,8 +3936,8 @@ class LogsTableSeeder extends Seeder
             ),
             435 => 
             array (
-                'id' => 436,
-                'user_id' => 1,
+                'id' => '436',
+                'user_id' => '1',
                 'log_date' => '2023-04-25 10:52:23',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -3945,8 +3945,8 @@ class LogsTableSeeder extends Seeder
             ),
             436 => 
             array (
-                'id' => 437,
-                'user_id' => 1,
+                'id' => '437',
+                'user_id' => '1',
                 'log_date' => '2023-04-25 10:52:23',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -3954,8 +3954,8 @@ class LogsTableSeeder extends Seeder
             ),
             437 => 
             array (
-                'id' => 438,
-                'user_id' => 1,
+                'id' => '438',
+                'user_id' => '1',
                 'log_date' => '2023-04-25 10:52:23',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -3963,8 +3963,8 @@ class LogsTableSeeder extends Seeder
             ),
             438 => 
             array (
-                'id' => 439,
-                'user_id' => 1,
+                'id' => '439',
+                'user_id' => '1',
                 'log_date' => '2023-04-25 10:52:23',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -3972,8 +3972,8 @@ class LogsTableSeeder extends Seeder
             ),
             439 => 
             array (
-                'id' => 440,
-                'user_id' => 1,
+                'id' => '440',
+                'user_id' => '1',
                 'log_date' => '2023-04-25 10:52:23',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -3981,8 +3981,8 @@ class LogsTableSeeder extends Seeder
             ),
             440 => 
             array (
-                'id' => 441,
-                'user_id' => 1,
+                'id' => '441',
+                'user_id' => '1',
                 'log_date' => '2023-04-25 10:52:23',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -3990,8 +3990,8 @@ class LogsTableSeeder extends Seeder
             ),
             441 => 
             array (
-                'id' => 442,
-                'user_id' => 1,
+                'id' => '442',
+                'user_id' => '1',
                 'log_date' => '2023-04-25 10:52:23',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -3999,8 +3999,8 @@ class LogsTableSeeder extends Seeder
             ),
             442 => 
             array (
-                'id' => 443,
-                'user_id' => 1,
+                'id' => '443',
+                'user_id' => '1',
                 'log_date' => '2023-04-25 10:52:23',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -4008,8 +4008,8 @@ class LogsTableSeeder extends Seeder
             ),
             443 => 
             array (
-                'id' => 444,
-                'user_id' => 1,
+                'id' => '444',
+                'user_id' => '1',
                 'log_date' => '2023-04-25 10:52:23',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -4017,8 +4017,8 @@ class LogsTableSeeder extends Seeder
             ),
             444 => 
             array (
-                'id' => 445,
-                'user_id' => 1,
+                'id' => '445',
+                'user_id' => '1',
                 'log_date' => '2023-04-25 10:52:23',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -4026,8 +4026,8 @@ class LogsTableSeeder extends Seeder
             ),
             445 => 
             array (
-                'id' => 446,
-                'user_id' => 1,
+                'id' => '446',
+                'user_id' => '1',
                 'log_date' => '2023-04-25 10:52:23',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -4035,8 +4035,8 @@ class LogsTableSeeder extends Seeder
             ),
             446 => 
             array (
-                'id' => 447,
-                'user_id' => 1,
+                'id' => '447',
+                'user_id' => '1',
                 'log_date' => '2023-04-25 10:52:23',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -4044,8 +4044,8 @@ class LogsTableSeeder extends Seeder
             ),
             447 => 
             array (
-                'id' => 448,
-                'user_id' => 1,
+                'id' => '448',
+                'user_id' => '1',
                 'log_date' => '2023-04-25 10:52:23',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -4053,8 +4053,8 @@ class LogsTableSeeder extends Seeder
             ),
             448 => 
             array (
-                'id' => 449,
-                'user_id' => 1,
+                'id' => '449',
+                'user_id' => '1',
                 'log_date' => '2023-04-25 10:52:23',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -4062,8 +4062,8 @@ class LogsTableSeeder extends Seeder
             ),
             449 => 
             array (
-                'id' => 450,
-                'user_id' => 1,
+                'id' => '450',
+                'user_id' => '1',
                 'log_date' => '2023-04-25 10:52:23',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -4071,8 +4071,8 @@ class LogsTableSeeder extends Seeder
             ),
             450 => 
             array (
-                'id' => 451,
-                'user_id' => 1,
+                'id' => '451',
+                'user_id' => '1',
                 'log_date' => '2023-04-25 10:52:23',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -4080,8 +4080,8 @@ class LogsTableSeeder extends Seeder
             ),
             451 => 
             array (
-                'id' => 452,
-                'user_id' => 1,
+                'id' => '452',
+                'user_id' => '1',
                 'log_date' => '2023-04-25 10:52:23',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -4089,8 +4089,8 @@ class LogsTableSeeder extends Seeder
             ),
             452 => 
             array (
-                'id' => 453,
-                'user_id' => 1,
+                'id' => '453',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 09:42:58',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4098,8 +4098,8 @@ class LogsTableSeeder extends Seeder
             ),
             453 => 
             array (
-                'id' => 454,
-                'user_id' => 1,
+                'id' => '454',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 09:43:58',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'delete',
@@ -4107,8 +4107,8 @@ class LogsTableSeeder extends Seeder
             ),
             454 => 
             array (
-                'id' => 455,
-                'user_id' => 1,
+                'id' => '455',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 09:44:05',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4116,8 +4116,8 @@ class LogsTableSeeder extends Seeder
             ),
             455 => 
             array (
-                'id' => 456,
-                'user_id' => 1,
+                'id' => '456',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 09:47:46',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4125,8 +4125,8 @@ class LogsTableSeeder extends Seeder
             ),
             456 => 
             array (
-                'id' => 457,
-                'user_id' => 1,
+                'id' => '457',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 09:48:41',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'delete',
@@ -4134,8 +4134,8 @@ class LogsTableSeeder extends Seeder
             ),
             457 => 
             array (
-                'id' => 458,
-                'user_id' => 1,
+                'id' => '458',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 09:48:48',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4143,8 +4143,8 @@ class LogsTableSeeder extends Seeder
             ),
             458 => 
             array (
-                'id' => 459,
-                'user_id' => 1,
+                'id' => '459',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 09:48:53',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4152,8 +4152,8 @@ class LogsTableSeeder extends Seeder
             ),
             459 => 
             array (
-                'id' => 460,
-                'user_id' => 1,
+                'id' => '460',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 09:49:59',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4161,8 +4161,8 @@ class LogsTableSeeder extends Seeder
             ),
             460 => 
             array (
-                'id' => 461,
-                'user_id' => 1,
+                'id' => '461',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:33:41',
                 'table_name' => 'portfolio_kategori',
                 'log_type' => 'edit',
@@ -4170,8 +4170,8 @@ class LogsTableSeeder extends Seeder
             ),
             461 => 
             array (
-                'id' => 505,
-                'user_id' => 1,
+                'id' => '505',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4179,8 +4179,8 @@ class LogsTableSeeder extends Seeder
             ),
             462 => 
             array (
-                'id' => 506,
-                'user_id' => 1,
+                'id' => '506',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4188,8 +4188,8 @@ class LogsTableSeeder extends Seeder
             ),
             463 => 
             array (
-                'id' => 507,
-                'user_id' => 1,
+                'id' => '507',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4197,8 +4197,8 @@ class LogsTableSeeder extends Seeder
             ),
             464 => 
             array (
-                'id' => 508,
-                'user_id' => 1,
+                'id' => '508',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4206,8 +4206,8 @@ class LogsTableSeeder extends Seeder
             ),
             465 => 
             array (
-                'id' => 509,
-                'user_id' => 1,
+                'id' => '509',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4215,8 +4215,8 @@ class LogsTableSeeder extends Seeder
             ),
             466 => 
             array (
-                'id' => 510,
-                'user_id' => 1,
+                'id' => '510',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4224,8 +4224,8 @@ class LogsTableSeeder extends Seeder
             ),
             467 => 
             array (
-                'id' => 511,
-                'user_id' => 1,
+                'id' => '511',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4233,8 +4233,8 @@ class LogsTableSeeder extends Seeder
             ),
             468 => 
             array (
-                'id' => 512,
-                'user_id' => 1,
+                'id' => '512',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4242,8 +4242,8 @@ class LogsTableSeeder extends Seeder
             ),
             469 => 
             array (
-                'id' => 513,
-                'user_id' => 1,
+                'id' => '513',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4251,8 +4251,8 @@ class LogsTableSeeder extends Seeder
             ),
             470 => 
             array (
-                'id' => 514,
-                'user_id' => 1,
+                'id' => '514',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4260,8 +4260,8 @@ class LogsTableSeeder extends Seeder
             ),
             471 => 
             array (
-                'id' => 515,
-                'user_id' => 1,
+                'id' => '515',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4269,8 +4269,8 @@ class LogsTableSeeder extends Seeder
             ),
             472 => 
             array (
-                'id' => 516,
-                'user_id' => 1,
+                'id' => '516',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4278,8 +4278,8 @@ class LogsTableSeeder extends Seeder
             ),
             473 => 
             array (
-                'id' => 517,
-                'user_id' => 1,
+                'id' => '517',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4287,8 +4287,8 @@ class LogsTableSeeder extends Seeder
             ),
             474 => 
             array (
-                'id' => 518,
-                'user_id' => 1,
+                'id' => '518',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4296,8 +4296,8 @@ class LogsTableSeeder extends Seeder
             ),
             475 => 
             array (
-                'id' => 519,
-                'user_id' => 1,
+                'id' => '519',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4305,8 +4305,8 @@ class LogsTableSeeder extends Seeder
             ),
             476 => 
             array (
-                'id' => 520,
-                'user_id' => 1,
+                'id' => '520',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4314,8 +4314,8 @@ class LogsTableSeeder extends Seeder
             ),
             477 => 
             array (
-                'id' => 521,
-                'user_id' => 1,
+                'id' => '521',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4323,8 +4323,8 @@ class LogsTableSeeder extends Seeder
             ),
             478 => 
             array (
-                'id' => 522,
-                'user_id' => 1,
+                'id' => '522',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4332,8 +4332,8 @@ class LogsTableSeeder extends Seeder
             ),
             479 => 
             array (
-                'id' => 523,
-                'user_id' => 1,
+                'id' => '523',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4341,8 +4341,8 @@ class LogsTableSeeder extends Seeder
             ),
             480 => 
             array (
-                'id' => 524,
-                'user_id' => 1,
+                'id' => '524',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4350,8 +4350,8 @@ class LogsTableSeeder extends Seeder
             ),
             481 => 
             array (
-                'id' => 525,
-                'user_id' => 1,
+                'id' => '525',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4359,8 +4359,8 @@ class LogsTableSeeder extends Seeder
             ),
             482 => 
             array (
-                'id' => 526,
-                'user_id' => 1,
+                'id' => '526',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4368,8 +4368,8 @@ class LogsTableSeeder extends Seeder
             ),
             483 => 
             array (
-                'id' => 527,
-                'user_id' => 1,
+                'id' => '527',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4377,8 +4377,8 @@ class LogsTableSeeder extends Seeder
             ),
             484 => 
             array (
-                'id' => 528,
-                'user_id' => 1,
+                'id' => '528',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4386,8 +4386,8 @@ class LogsTableSeeder extends Seeder
             ),
             485 => 
             array (
-                'id' => 529,
-                'user_id' => 1,
+                'id' => '529',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4395,8 +4395,8 @@ class LogsTableSeeder extends Seeder
             ),
             486 => 
             array (
-                'id' => 530,
-                'user_id' => 1,
+                'id' => '530',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4404,8 +4404,8 @@ class LogsTableSeeder extends Seeder
             ),
             487 => 
             array (
-                'id' => 531,
-                'user_id' => 1,
+                'id' => '531',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4413,8 +4413,8 @@ class LogsTableSeeder extends Seeder
             ),
             488 => 
             array (
-                'id' => 532,
-                'user_id' => 1,
+                'id' => '532',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4422,8 +4422,8 @@ class LogsTableSeeder extends Seeder
             ),
             489 => 
             array (
-                'id' => 533,
-                'user_id' => 1,
+                'id' => '533',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4431,8 +4431,8 @@ class LogsTableSeeder extends Seeder
             ),
             490 => 
             array (
-                'id' => 534,
-                'user_id' => 1,
+                'id' => '534',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4440,8 +4440,8 @@ class LogsTableSeeder extends Seeder
             ),
             491 => 
             array (
-                'id' => 535,
-                'user_id' => 1,
+                'id' => '535',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4449,8 +4449,8 @@ class LogsTableSeeder extends Seeder
             ),
             492 => 
             array (
-                'id' => 536,
-                'user_id' => 1,
+                'id' => '536',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4458,8 +4458,8 @@ class LogsTableSeeder extends Seeder
             ),
             493 => 
             array (
-                'id' => 537,
-                'user_id' => 1,
+                'id' => '537',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4467,8 +4467,8 @@ class LogsTableSeeder extends Seeder
             ),
             494 => 
             array (
-                'id' => 538,
-                'user_id' => 1,
+                'id' => '538',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4476,8 +4476,8 @@ class LogsTableSeeder extends Seeder
             ),
             495 => 
             array (
-                'id' => 539,
-                'user_id' => 1,
+                'id' => '539',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4485,8 +4485,8 @@ class LogsTableSeeder extends Seeder
             ),
             496 => 
             array (
-                'id' => 540,
-                'user_id' => 1,
+                'id' => '540',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4494,8 +4494,8 @@ class LogsTableSeeder extends Seeder
             ),
             497 => 
             array (
-                'id' => 541,
-                'user_id' => 1,
+                'id' => '541',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4503,8 +4503,8 @@ class LogsTableSeeder extends Seeder
             ),
             498 => 
             array (
-                'id' => 542,
-                'user_id' => 1,
+                'id' => '542',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4512,8 +4512,8 @@ class LogsTableSeeder extends Seeder
             ),
             499 => 
             array (
-                'id' => 543,
-                'user_id' => 1,
+                'id' => '543',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4523,8 +4523,8 @@ class LogsTableSeeder extends Seeder
         \DB::table('logs')->insert(array (
             0 => 
             array (
-                'id' => 544,
-                'user_id' => 1,
+                'id' => '544',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4532,8 +4532,8 @@ class LogsTableSeeder extends Seeder
             ),
             1 => 
             array (
-                'id' => 545,
-                'user_id' => 1,
+                'id' => '545',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4541,8 +4541,8 @@ class LogsTableSeeder extends Seeder
             ),
             2 => 
             array (
-                'id' => 546,
-                'user_id' => 1,
+                'id' => '546',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4550,8 +4550,8 @@ class LogsTableSeeder extends Seeder
             ),
             3 => 
             array (
-                'id' => 547,
-                'user_id' => 1,
+                'id' => '547',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4559,8 +4559,8 @@ class LogsTableSeeder extends Seeder
             ),
             4 => 
             array (
-                'id' => 548,
-                'user_id' => 1,
+                'id' => '548',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4568,8 +4568,8 @@ class LogsTableSeeder extends Seeder
             ),
             5 => 
             array (
-                'id' => 549,
-                'user_id' => 1,
+                'id' => '549',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4577,8 +4577,8 @@ class LogsTableSeeder extends Seeder
             ),
             6 => 
             array (
-                'id' => 550,
-                'user_id' => 1,
+                'id' => '550',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4586,8 +4586,8 @@ class LogsTableSeeder extends Seeder
             ),
             7 => 
             array (
-                'id' => 551,
-                'user_id' => 1,
+                'id' => '551',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4595,8 +4595,8 @@ class LogsTableSeeder extends Seeder
             ),
             8 => 
             array (
-                'id' => 552,
-                'user_id' => 1,
+                'id' => '552',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4604,8 +4604,8 @@ class LogsTableSeeder extends Seeder
             ),
             9 => 
             array (
-                'id' => 553,
-                'user_id' => 1,
+                'id' => '553',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4613,8 +4613,8 @@ class LogsTableSeeder extends Seeder
             ),
             10 => 
             array (
-                'id' => 554,
-                'user_id' => 1,
+                'id' => '554',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4622,8 +4622,8 @@ class LogsTableSeeder extends Seeder
             ),
             11 => 
             array (
-                'id' => 555,
-                'user_id' => 1,
+                'id' => '555',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4631,8 +4631,8 @@ class LogsTableSeeder extends Seeder
             ),
             12 => 
             array (
-                'id' => 556,
-                'user_id' => 1,
+                'id' => '556',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4640,8 +4640,8 @@ class LogsTableSeeder extends Seeder
             ),
             13 => 
             array (
-                'id' => 557,
-                'user_id' => 1,
+                'id' => '557',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4649,8 +4649,8 @@ class LogsTableSeeder extends Seeder
             ),
             14 => 
             array (
-                'id' => 558,
-                'user_id' => 1,
+                'id' => '558',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4658,8 +4658,8 @@ class LogsTableSeeder extends Seeder
             ),
             15 => 
             array (
-                'id' => 559,
-                'user_id' => 1,
+                'id' => '559',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4667,8 +4667,8 @@ class LogsTableSeeder extends Seeder
             ),
             16 => 
             array (
-                'id' => 560,
-                'user_id' => 1,
+                'id' => '560',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4676,8 +4676,8 @@ class LogsTableSeeder extends Seeder
             ),
             17 => 
             array (
-                'id' => 561,
-                'user_id' => 1,
+                'id' => '561',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4685,8 +4685,8 @@ class LogsTableSeeder extends Seeder
             ),
             18 => 
             array (
-                'id' => 562,
-                'user_id' => 1,
+                'id' => '562',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4694,8 +4694,8 @@ class LogsTableSeeder extends Seeder
             ),
             19 => 
             array (
-                'id' => 563,
-                'user_id' => 1,
+                'id' => '563',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4703,8 +4703,8 @@ class LogsTableSeeder extends Seeder
             ),
             20 => 
             array (
-                'id' => 564,
-                'user_id' => 1,
+                'id' => '564',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4712,8 +4712,8 @@ class LogsTableSeeder extends Seeder
             ),
             21 => 
             array (
-                'id' => 565,
-                'user_id' => 1,
+                'id' => '565',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4721,8 +4721,8 @@ class LogsTableSeeder extends Seeder
             ),
             22 => 
             array (
-                'id' => 566,
-                'user_id' => 1,
+                'id' => '566',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4730,8 +4730,8 @@ class LogsTableSeeder extends Seeder
             ),
             23 => 
             array (
-                'id' => 567,
-                'user_id' => 1,
+                'id' => '567',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4739,8 +4739,8 @@ class LogsTableSeeder extends Seeder
             ),
             24 => 
             array (
-                'id' => 568,
-                'user_id' => 1,
+                'id' => '568',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4748,8 +4748,8 @@ class LogsTableSeeder extends Seeder
             ),
             25 => 
             array (
-                'id' => 569,
-                'user_id' => 1,
+                'id' => '569',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4757,8 +4757,8 @@ class LogsTableSeeder extends Seeder
             ),
             26 => 
             array (
-                'id' => 570,
-                'user_id' => 1,
+                'id' => '570',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4766,8 +4766,8 @@ class LogsTableSeeder extends Seeder
             ),
             27 => 
             array (
-                'id' => 571,
-                'user_id' => 1,
+                'id' => '571',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4775,8 +4775,8 @@ class LogsTableSeeder extends Seeder
             ),
             28 => 
             array (
-                'id' => 572,
-                'user_id' => 1,
+                'id' => '572',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4784,8 +4784,8 @@ class LogsTableSeeder extends Seeder
             ),
             29 => 
             array (
-                'id' => 573,
-                'user_id' => 1,
+                'id' => '573',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4793,8 +4793,8 @@ class LogsTableSeeder extends Seeder
             ),
             30 => 
             array (
-                'id' => 574,
-                'user_id' => 1,
+                'id' => '574',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4802,8 +4802,8 @@ class LogsTableSeeder extends Seeder
             ),
             31 => 
             array (
-                'id' => 575,
-                'user_id' => 1,
+                'id' => '575',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4811,8 +4811,8 @@ class LogsTableSeeder extends Seeder
             ),
             32 => 
             array (
-                'id' => 576,
-                'user_id' => 1,
+                'id' => '576',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4820,8 +4820,8 @@ class LogsTableSeeder extends Seeder
             ),
             33 => 
             array (
-                'id' => 577,
-                'user_id' => 1,
+                'id' => '577',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4829,8 +4829,8 @@ class LogsTableSeeder extends Seeder
             ),
             34 => 
             array (
-                'id' => 578,
-                'user_id' => 1,
+                'id' => '578',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4838,8 +4838,8 @@ class LogsTableSeeder extends Seeder
             ),
             35 => 
             array (
-                'id' => 579,
-                'user_id' => 1,
+                'id' => '579',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4847,8 +4847,8 @@ class LogsTableSeeder extends Seeder
             ),
             36 => 
             array (
-                'id' => 580,
-                'user_id' => 1,
+                'id' => '580',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4856,8 +4856,8 @@ class LogsTableSeeder extends Seeder
             ),
             37 => 
             array (
-                'id' => 581,
-                'user_id' => 1,
+                'id' => '581',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4865,8 +4865,8 @@ class LogsTableSeeder extends Seeder
             ),
             38 => 
             array (
-                'id' => 582,
-                'user_id' => 1,
+                'id' => '582',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4874,8 +4874,8 @@ class LogsTableSeeder extends Seeder
             ),
             39 => 
             array (
-                'id' => 583,
-                'user_id' => 1,
+                'id' => '583',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4883,8 +4883,8 @@ class LogsTableSeeder extends Seeder
             ),
             40 => 
             array (
-                'id' => 584,
-                'user_id' => 1,
+                'id' => '584',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4892,8 +4892,8 @@ class LogsTableSeeder extends Seeder
             ),
             41 => 
             array (
-                'id' => 585,
-                'user_id' => 1,
+                'id' => '585',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4901,8 +4901,8 @@ class LogsTableSeeder extends Seeder
             ),
             42 => 
             array (
-                'id' => 586,
-                'user_id' => 1,
+                'id' => '586',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4910,8 +4910,8 @@ class LogsTableSeeder extends Seeder
             ),
             43 => 
             array (
-                'id' => 587,
-                'user_id' => 1,
+                'id' => '587',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4919,8 +4919,8 @@ class LogsTableSeeder extends Seeder
             ),
             44 => 
             array (
-                'id' => 588,
-                'user_id' => 1,
+                'id' => '588',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4928,8 +4928,8 @@ class LogsTableSeeder extends Seeder
             ),
             45 => 
             array (
-                'id' => 589,
-                'user_id' => 1,
+                'id' => '589',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4937,8 +4937,8 @@ class LogsTableSeeder extends Seeder
             ),
             46 => 
             array (
-                'id' => 590,
-                'user_id' => 1,
+                'id' => '590',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4946,8 +4946,8 @@ class LogsTableSeeder extends Seeder
             ),
             47 => 
             array (
-                'id' => 591,
-                'user_id' => 1,
+                'id' => '591',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4955,8 +4955,8 @@ class LogsTableSeeder extends Seeder
             ),
             48 => 
             array (
-                'id' => 592,
-                'user_id' => 1,
+                'id' => '592',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4964,8 +4964,8 @@ class LogsTableSeeder extends Seeder
             ),
             49 => 
             array (
-                'id' => 593,
-                'user_id' => 1,
+                'id' => '593',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4973,8 +4973,8 @@ class LogsTableSeeder extends Seeder
             ),
             50 => 
             array (
-                'id' => 594,
-                'user_id' => 1,
+                'id' => '594',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4982,8 +4982,8 @@ class LogsTableSeeder extends Seeder
             ),
             51 => 
             array (
-                'id' => 595,
-                'user_id' => 1,
+                'id' => '595',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -4991,8 +4991,8 @@ class LogsTableSeeder extends Seeder
             ),
             52 => 
             array (
-                'id' => 596,
-                'user_id' => 1,
+                'id' => '596',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -5000,8 +5000,8 @@ class LogsTableSeeder extends Seeder
             ),
             53 => 
             array (
-                'id' => 597,
-                'user_id' => 1,
+                'id' => '597',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -5009,8 +5009,8 @@ class LogsTableSeeder extends Seeder
             ),
             54 => 
             array (
-                'id' => 598,
-                'user_id' => 1,
+                'id' => '598',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -5018,8 +5018,8 @@ class LogsTableSeeder extends Seeder
             ),
             55 => 
             array (
-                'id' => 599,
-                'user_id' => 1,
+                'id' => '599',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -5027,8 +5027,8 @@ class LogsTableSeeder extends Seeder
             ),
             56 => 
             array (
-                'id' => 600,
-                'user_id' => 1,
+                'id' => '600',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -5036,8 +5036,8 @@ class LogsTableSeeder extends Seeder
             ),
             57 => 
             array (
-                'id' => 601,
-                'user_id' => 1,
+                'id' => '601',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -5045,8 +5045,8 @@ class LogsTableSeeder extends Seeder
             ),
             58 => 
             array (
-                'id' => 602,
-                'user_id' => 1,
+                'id' => '602',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -5054,8 +5054,8 @@ class LogsTableSeeder extends Seeder
             ),
             59 => 
             array (
-                'id' => 603,
-                'user_id' => 1,
+                'id' => '603',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -5063,8 +5063,8 @@ class LogsTableSeeder extends Seeder
             ),
             60 => 
             array (
-                'id' => 604,
-                'user_id' => 1,
+                'id' => '604',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -5072,8 +5072,8 @@ class LogsTableSeeder extends Seeder
             ),
             61 => 
             array (
-                'id' => 605,
-                'user_id' => 1,
+                'id' => '605',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -5081,8 +5081,8 @@ class LogsTableSeeder extends Seeder
             ),
             62 => 
             array (
-                'id' => 606,
-                'user_id' => 1,
+                'id' => '606',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -5090,8 +5090,8 @@ class LogsTableSeeder extends Seeder
             ),
             63 => 
             array (
-                'id' => 607,
-                'user_id' => 1,
+                'id' => '607',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -5099,8 +5099,8 @@ class LogsTableSeeder extends Seeder
             ),
             64 => 
             array (
-                'id' => 608,
-                'user_id' => 1,
+                'id' => '608',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -5108,8 +5108,8 @@ class LogsTableSeeder extends Seeder
             ),
             65 => 
             array (
-                'id' => 609,
-                'user_id' => 1,
+                'id' => '609',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -5117,8 +5117,8 @@ class LogsTableSeeder extends Seeder
             ),
             66 => 
             array (
-                'id' => 610,
-                'user_id' => 1,
+                'id' => '610',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -5126,8 +5126,8 @@ class LogsTableSeeder extends Seeder
             ),
             67 => 
             array (
-                'id' => 611,
-                'user_id' => 1,
+                'id' => '611',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -5135,8 +5135,8 @@ class LogsTableSeeder extends Seeder
             ),
             68 => 
             array (
-                'id' => 612,
-                'user_id' => 1,
+                'id' => '612',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -5144,8 +5144,8 @@ class LogsTableSeeder extends Seeder
             ),
             69 => 
             array (
-                'id' => 613,
-                'user_id' => 1,
+                'id' => '613',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -5153,8 +5153,8 @@ class LogsTableSeeder extends Seeder
             ),
             70 => 
             array (
-                'id' => 614,
-                'user_id' => 1,
+                'id' => '614',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -5162,8 +5162,8 @@ class LogsTableSeeder extends Seeder
             ),
             71 => 
             array (
-                'id' => 615,
-                'user_id' => 1,
+                'id' => '615',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -5171,8 +5171,8 @@ class LogsTableSeeder extends Seeder
             ),
             72 => 
             array (
-                'id' => 616,
-                'user_id' => 1,
+                'id' => '616',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -5180,8 +5180,8 @@ class LogsTableSeeder extends Seeder
             ),
             73 => 
             array (
-                'id' => 617,
-                'user_id' => 1,
+                'id' => '617',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -5189,8 +5189,8 @@ class LogsTableSeeder extends Seeder
             ),
             74 => 
             array (
-                'id' => 618,
-                'user_id' => 1,
+                'id' => '618',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -5198,8 +5198,8 @@ class LogsTableSeeder extends Seeder
             ),
             75 => 
             array (
-                'id' => 619,
-                'user_id' => 1,
+                'id' => '619',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -5207,8 +5207,8 @@ class LogsTableSeeder extends Seeder
             ),
             76 => 
             array (
-                'id' => 620,
-                'user_id' => 1,
+                'id' => '620',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -5216,8 +5216,8 @@ class LogsTableSeeder extends Seeder
             ),
             77 => 
             array (
-                'id' => 621,
-                'user_id' => 1,
+                'id' => '621',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -5225,8 +5225,8 @@ class LogsTableSeeder extends Seeder
             ),
             78 => 
             array (
-                'id' => 622,
-                'user_id' => 1,
+                'id' => '622',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -5234,8 +5234,8 @@ class LogsTableSeeder extends Seeder
             ),
             79 => 
             array (
-                'id' => 623,
-                'user_id' => 1,
+                'id' => '623',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -5243,8 +5243,8 @@ class LogsTableSeeder extends Seeder
             ),
             80 => 
             array (
-                'id' => 624,
-                'user_id' => 1,
+                'id' => '624',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -5252,8 +5252,8 @@ class LogsTableSeeder extends Seeder
             ),
             81 => 
             array (
-                'id' => 625,
-                'user_id' => 1,
+                'id' => '625',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -5261,8 +5261,8 @@ class LogsTableSeeder extends Seeder
             ),
             82 => 
             array (
-                'id' => 626,
-                'user_id' => 1,
+                'id' => '626',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -5270,8 +5270,8 @@ class LogsTableSeeder extends Seeder
             ),
             83 => 
             array (
-                'id' => 627,
-                'user_id' => 1,
+                'id' => '627',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -5279,8 +5279,8 @@ class LogsTableSeeder extends Seeder
             ),
             84 => 
             array (
-                'id' => 628,
-                'user_id' => 1,
+                'id' => '628',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -5288,8 +5288,8 @@ class LogsTableSeeder extends Seeder
             ),
             85 => 
             array (
-                'id' => 629,
-                'user_id' => 1,
+                'id' => '629',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -5297,8 +5297,8 @@ class LogsTableSeeder extends Seeder
             ),
             86 => 
             array (
-                'id' => 630,
-                'user_id' => 1,
+                'id' => '630',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -5306,8 +5306,8 @@ class LogsTableSeeder extends Seeder
             ),
             87 => 
             array (
-                'id' => 631,
-                'user_id' => 1,
+                'id' => '631',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -5315,8 +5315,8 @@ class LogsTableSeeder extends Seeder
             ),
             88 => 
             array (
-                'id' => 632,
-                'user_id' => 1,
+                'id' => '632',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -5324,8 +5324,8 @@ class LogsTableSeeder extends Seeder
             ),
             89 => 
             array (
-                'id' => 633,
-                'user_id' => 1,
+                'id' => '633',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -5333,8 +5333,8 @@ class LogsTableSeeder extends Seeder
             ),
             90 => 
             array (
-                'id' => 634,
-                'user_id' => 1,
+                'id' => '634',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -5342,8 +5342,8 @@ class LogsTableSeeder extends Seeder
             ),
             91 => 
             array (
-                'id' => 635,
-                'user_id' => 1,
+                'id' => '635',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -5351,8 +5351,8 @@ class LogsTableSeeder extends Seeder
             ),
             92 => 
             array (
-                'id' => 636,
-                'user_id' => 1,
+                'id' => '636',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -5360,8 +5360,8 @@ class LogsTableSeeder extends Seeder
             ),
             93 => 
             array (
-                'id' => 637,
-                'user_id' => 1,
+                'id' => '637',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -5369,8 +5369,8 @@ class LogsTableSeeder extends Seeder
             ),
             94 => 
             array (
-                'id' => 638,
-                'user_id' => 1,
+                'id' => '638',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -5378,8 +5378,8 @@ class LogsTableSeeder extends Seeder
             ),
             95 => 
             array (
-                'id' => 639,
-                'user_id' => 1,
+                'id' => '639',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -5387,8 +5387,8 @@ class LogsTableSeeder extends Seeder
             ),
             96 => 
             array (
-                'id' => 640,
-                'user_id' => 1,
+                'id' => '640',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -5396,8 +5396,8 @@ class LogsTableSeeder extends Seeder
             ),
             97 => 
             array (
-                'id' => 641,
-                'user_id' => 1,
+                'id' => '641',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -5405,8 +5405,8 @@ class LogsTableSeeder extends Seeder
             ),
             98 => 
             array (
-                'id' => 642,
-                'user_id' => 1,
+                'id' => '642',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -5414,8 +5414,8 @@ class LogsTableSeeder extends Seeder
             ),
             99 => 
             array (
-                'id' => 643,
-                'user_id' => 1,
+                'id' => '643',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 21:54:54',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -5423,8 +5423,8 @@ class LogsTableSeeder extends Seeder
             ),
             100 => 
             array (
-                'id' => 644,
-                'user_id' => 1,
+                'id' => '644',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 23:16:21',
                 'table_name' => 'portfolio',
                 'log_type' => 'edit',
@@ -5432,8 +5432,8 @@ class LogsTableSeeder extends Seeder
             ),
             101 => 
             array (
-                'id' => 645,
-                'user_id' => 1,
+                'id' => '645',
+                'user_id' => '1',
                 'log_date' => '2023-05-03 23:54:02',
                 'table_name' => 'portfolio',
                 'log_type' => 'edit',
@@ -5441,8 +5441,8 @@ class LogsTableSeeder extends Seeder
             ),
             102 => 
             array (
-                'id' => 646,
-                'user_id' => 1,
+                'id' => '646',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 00:12:19',
                 'table_name' => 'portfolio',
                 'log_type' => 'edit',
@@ -5450,8 +5450,8 @@ class LogsTableSeeder extends Seeder
             ),
             103 => 
             array (
-                'id' => 647,
-                'user_id' => 1,
+                'id' => '647',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 00:12:43',
                 'table_name' => 'portfolio',
                 'log_type' => 'edit',
@@ -5459,8 +5459,8 @@ class LogsTableSeeder extends Seeder
             ),
             104 => 
             array (
-                'id' => 648,
-                'user_id' => 1,
+                'id' => '648',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 01:05:09',
                 'table_name' => 'p_menu_frontends',
                 'log_type' => 'edit',
@@ -5468,8 +5468,8 @@ class LogsTableSeeder extends Seeder
             ),
             105 => 
             array (
-                'id' => 649,
-                'user_id' => 1,
+                'id' => '649',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 01:05:28',
                 'table_name' => 'p_menu_frontends',
                 'log_type' => 'edit',
@@ -5477,8 +5477,8 @@ class LogsTableSeeder extends Seeder
             ),
             106 => 
             array (
-                'id' => 650,
-                'user_id' => 1,
+                'id' => '650',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 01:22:20',
                 'table_name' => 'p_menu_frontends',
                 'log_type' => 'delete',
@@ -5486,8 +5486,8 @@ class LogsTableSeeder extends Seeder
             ),
             107 => 
             array (
-                'id' => 651,
-                'user_id' => 1,
+                'id' => '651',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 01:22:26',
                 'table_name' => 'p_menu_frontends',
                 'log_type' => 'edit',
@@ -5495,8 +5495,8 @@ class LogsTableSeeder extends Seeder
             ),
             108 => 
             array (
-                'id' => 652,
-                'user_id' => 1,
+                'id' => '652',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 01:22:33',
                 'table_name' => 'banners',
                 'log_type' => 'edit',
@@ -5504,8 +5504,8 @@ class LogsTableSeeder extends Seeder
             ),
             109 => 
             array (
-                'id' => 653,
-                'user_id' => 1,
+                'id' => '653',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 01:23:09',
                 'table_name' => 'p_menu_frontends',
                 'log_type' => 'edit',
@@ -5513,8 +5513,8 @@ class LogsTableSeeder extends Seeder
             ),
             110 => 
             array (
-                'id' => 654,
-                'user_id' => 1,
+                'id' => '654',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 01:23:16',
                 'table_name' => 'banners',
                 'log_type' => 'edit',
@@ -5522,8 +5522,8 @@ class LogsTableSeeder extends Seeder
             ),
             111 => 
             array (
-                'id' => 655,
-                'user_id' => 1,
+                'id' => '655',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 01:23:40',
                 'table_name' => 'p_menu_frontends',
                 'log_type' => 'edit',
@@ -5531,8 +5531,8 @@ class LogsTableSeeder extends Seeder
             ),
             112 => 
             array (
-                'id' => 656,
-                'user_id' => 1,
+                'id' => '656',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 01:23:58',
                 'table_name' => 'banners',
                 'log_type' => 'edit',
@@ -5540,8 +5540,8 @@ class LogsTableSeeder extends Seeder
             ),
             113 => 
             array (
-                'id' => 657,
-                'user_id' => 1,
+                'id' => '657',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 01:50:57',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'edit',
@@ -5549,8 +5549,8 @@ class LogsTableSeeder extends Seeder
             ),
             114 => 
             array (
-                'id' => 658,
-                'user_id' => 1,
+                'id' => '658',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 01:51:08',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'edit',
@@ -5558,8 +5558,8 @@ class LogsTableSeeder extends Seeder
             ),
             115 => 
             array (
-                'id' => 659,
-                'user_id' => 1,
+                'id' => '659',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 01:51:14',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'edit',
@@ -5567,8 +5567,8 @@ class LogsTableSeeder extends Seeder
             ),
             116 => 
             array (
-                'id' => 660,
-                'user_id' => 1,
+                'id' => '660',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 01:51:19',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'edit',
@@ -5576,8 +5576,8 @@ class LogsTableSeeder extends Seeder
             ),
             117 => 
             array (
-                'id' => 661,
-                'user_id' => 1,
+                'id' => '661',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 02:45:52',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'edit',
@@ -5585,8 +5585,8 @@ class LogsTableSeeder extends Seeder
             ),
             118 => 
             array (
-                'id' => 662,
-                'user_id' => 1,
+                'id' => '662',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 02:47:10',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'edit',
@@ -5594,8 +5594,8 @@ class LogsTableSeeder extends Seeder
             ),
             119 => 
             array (
-                'id' => 663,
-                'user_id' => 1,
+                'id' => '663',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 02:47:30',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'edit',
@@ -5603,8 +5603,8 @@ class LogsTableSeeder extends Seeder
             ),
             120 => 
             array (
-                'id' => 664,
-                'user_id' => 1,
+                'id' => '664',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 02:47:59',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'edit',
@@ -5612,8 +5612,8 @@ class LogsTableSeeder extends Seeder
             ),
             121 => 
             array (
-                'id' => 665,
-                'user_id' => 1,
+                'id' => '665',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 02:49:34',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'edit',
@@ -5621,8 +5621,8 @@ class LogsTableSeeder extends Seeder
             ),
             122 => 
             array (
-                'id' => 666,
-                'user_id' => 1,
+                'id' => '666',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 02:55:44',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'create',
@@ -5630,8 +5630,8 @@ class LogsTableSeeder extends Seeder
             ),
             123 => 
             array (
-                'id' => 667,
-                'user_id' => 1,
+                'id' => '667',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 02:55:48',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'delete',
@@ -5639,8 +5639,8 @@ class LogsTableSeeder extends Seeder
             ),
             124 => 
             array (
-                'id' => 668,
-                'user_id' => 1,
+                'id' => '668',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 03:12:32',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'edit',
@@ -5648,8 +5648,8 @@ class LogsTableSeeder extends Seeder
             ),
             125 => 
             array (
-                'id' => 669,
-                'user_id' => 1,
+                'id' => '669',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 03:33:27',
                 'table_name' => 'portfolio',
                 'log_type' => 'edit',
@@ -5657,8 +5657,8 @@ class LogsTableSeeder extends Seeder
             ),
             126 => 
             array (
-                'id' => 670,
-                'user_id' => 1,
+                'id' => '670',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 03:38:08',
                 'table_name' => 'portfolio',
                 'log_type' => 'edit',
@@ -5666,8 +5666,8 @@ class LogsTableSeeder extends Seeder
             ),
             127 => 
             array (
-                'id' => 671,
-                'user_id' => 1,
+                'id' => '671',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 03:40:19',
                 'table_name' => 'portfolio',
                 'log_type' => 'edit',
@@ -5675,8 +5675,8 @@ class LogsTableSeeder extends Seeder
             ),
             128 => 
             array (
-                'id' => 672,
-                'user_id' => 1,
+                'id' => '672',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 03:46:48',
                 'table_name' => 'portfolio',
                 'log_type' => 'edit',
@@ -5684,8 +5684,8 @@ class LogsTableSeeder extends Seeder
             ),
             129 => 
             array (
-                'id' => 673,
-                'user_id' => 1,
+                'id' => '673',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 04:10:02',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'edit',
@@ -5693,8 +5693,8 @@ class LogsTableSeeder extends Seeder
             ),
             130 => 
             array (
-                'id' => 674,
-                'user_id' => 1,
+                'id' => '674',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 17:57:30',
                 'table_name' => 'clients',
                 'log_type' => 'create',
@@ -5702,8 +5702,8 @@ class LogsTableSeeder extends Seeder
             ),
             131 => 
             array (
-                'id' => 675,
-                'user_id' => 1,
+                'id' => '675',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 17:57:45',
                 'table_name' => 'clients',
                 'log_type' => 'create',
@@ -5711,8 +5711,8 @@ class LogsTableSeeder extends Seeder
             ),
             132 => 
             array (
-                'id' => 676,
-                'user_id' => 1,
+                'id' => '676',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 17:57:54',
                 'table_name' => 'clients',
                 'log_type' => 'create',
@@ -5720,8 +5720,8 @@ class LogsTableSeeder extends Seeder
             ),
             133 => 
             array (
-                'id' => 677,
-                'user_id' => 1,
+                'id' => '677',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 17:58:04',
                 'table_name' => 'clients',
                 'log_type' => 'create',
@@ -5729,8 +5729,8 @@ class LogsTableSeeder extends Seeder
             ),
             134 => 
             array (
-                'id' => 678,
-                'user_id' => 1,
+                'id' => '678',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 17:58:30',
                 'table_name' => 'clients',
                 'log_type' => 'create',
@@ -5738,8 +5738,8 @@ class LogsTableSeeder extends Seeder
             ),
             135 => 
             array (
-                'id' => 679,
-                'user_id' => 1,
+                'id' => '679',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 17:58:41',
                 'table_name' => 'clients',
                 'log_type' => 'create',
@@ -5747,8 +5747,8 @@ class LogsTableSeeder extends Seeder
             ),
             136 => 
             array (
-                'id' => 680,
-                'user_id' => 1,
+                'id' => '680',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 18:04:06',
                 'table_name' => 'clients',
                 'log_type' => 'edit',
@@ -5756,8 +5756,8 @@ class LogsTableSeeder extends Seeder
             ),
             137 => 
             array (
-                'id' => 681,
-                'user_id' => 1,
+                'id' => '681',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 18:04:13',
                 'table_name' => 'clients',
                 'log_type' => 'edit',
@@ -5765,8 +5765,8 @@ class LogsTableSeeder extends Seeder
             ),
             138 => 
             array (
-                'id' => 682,
-                'user_id' => 1,
+                'id' => '682',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 18:04:26',
                 'table_name' => 'clients',
                 'log_type' => 'edit',
@@ -5774,8 +5774,8 @@ class LogsTableSeeder extends Seeder
             ),
             139 => 
             array (
-                'id' => 683,
-                'user_id' => 1,
+                'id' => '683',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 18:12:41',
                 'table_name' => 'p_menu',
                 'log_type' => 'create',
@@ -5783,8 +5783,8 @@ class LogsTableSeeder extends Seeder
             ),
             140 => 
             array (
-                'id' => 684,
-                'user_id' => 1,
+                'id' => '684',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 18:12:41',
                 'table_name' => 'p_role_has_menu',
                 'log_type' => 'create',
@@ -5792,8 +5792,8 @@ class LogsTableSeeder extends Seeder
             ),
             141 => 
             array (
-                'id' => 685,
-                'user_id' => 1,
+                'id' => '685',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 18:12:51',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -5801,8 +5801,8 @@ class LogsTableSeeder extends Seeder
             ),
             142 => 
             array (
-                'id' => 686,
-                'user_id' => 1,
+                'id' => '686',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 18:12:51',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -5810,8 +5810,8 @@ class LogsTableSeeder extends Seeder
             ),
             143 => 
             array (
-                'id' => 687,
-                'user_id' => 1,
+                'id' => '687',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 18:12:51',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -5819,8 +5819,8 @@ class LogsTableSeeder extends Seeder
             ),
             144 => 
             array (
-                'id' => 688,
-                'user_id' => 1,
+                'id' => '688',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 18:12:51',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -5828,8 +5828,8 @@ class LogsTableSeeder extends Seeder
             ),
             145 => 
             array (
-                'id' => 689,
-                'user_id' => 1,
+                'id' => '689',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 18:12:51',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -5837,8 +5837,8 @@ class LogsTableSeeder extends Seeder
             ),
             146 => 
             array (
-                'id' => 690,
-                'user_id' => 1,
+                'id' => '690',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 18:12:51',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -5846,8 +5846,8 @@ class LogsTableSeeder extends Seeder
             ),
             147 => 
             array (
-                'id' => 691,
-                'user_id' => 1,
+                'id' => '691',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 18:12:51',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -5855,8 +5855,8 @@ class LogsTableSeeder extends Seeder
             ),
             148 => 
             array (
-                'id' => 692,
-                'user_id' => 1,
+                'id' => '692',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 18:12:51',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -5864,8 +5864,8 @@ class LogsTableSeeder extends Seeder
             ),
             149 => 
             array (
-                'id' => 693,
-                'user_id' => 1,
+                'id' => '693',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 18:12:51',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -5873,8 +5873,8 @@ class LogsTableSeeder extends Seeder
             ),
             150 => 
             array (
-                'id' => 694,
-                'user_id' => 1,
+                'id' => '694',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 18:12:51',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -5882,8 +5882,8 @@ class LogsTableSeeder extends Seeder
             ),
             151 => 
             array (
-                'id' => 695,
-                'user_id' => 1,
+                'id' => '695',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 18:12:51',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -5891,8 +5891,8 @@ class LogsTableSeeder extends Seeder
             ),
             152 => 
             array (
-                'id' => 696,
-                'user_id' => 1,
+                'id' => '696',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 18:12:51',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -5900,8 +5900,8 @@ class LogsTableSeeder extends Seeder
             ),
             153 => 
             array (
-                'id' => 697,
-                'user_id' => 1,
+                'id' => '697',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 18:12:51',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -5909,8 +5909,8 @@ class LogsTableSeeder extends Seeder
             ),
             154 => 
             array (
-                'id' => 698,
-                'user_id' => 1,
+                'id' => '698',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 18:12:51',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -5918,8 +5918,8 @@ class LogsTableSeeder extends Seeder
             ),
             155 => 
             array (
-                'id' => 699,
-                'user_id' => 1,
+                'id' => '699',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 18:12:51',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -5927,8 +5927,8 @@ class LogsTableSeeder extends Seeder
             ),
             156 => 
             array (
-                'id' => 700,
-                'user_id' => 1,
+                'id' => '700',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 18:12:51',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -5936,8 +5936,8 @@ class LogsTableSeeder extends Seeder
             ),
             157 => 
             array (
-                'id' => 701,
-                'user_id' => 1,
+                'id' => '701',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 18:12:51',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -5945,8 +5945,8 @@ class LogsTableSeeder extends Seeder
             ),
             158 => 
             array (
-                'id' => 702,
-                'user_id' => 1,
+                'id' => '702',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 18:12:51',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -5954,8 +5954,8 @@ class LogsTableSeeder extends Seeder
             ),
             159 => 
             array (
-                'id' => 703,
-                'user_id' => 1,
+                'id' => '703',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 18:12:51',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -5963,8 +5963,8 @@ class LogsTableSeeder extends Seeder
             ),
             160 => 
             array (
-                'id' => 704,
-                'user_id' => 1,
+                'id' => '704',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 18:12:51',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -5972,8 +5972,8 @@ class LogsTableSeeder extends Seeder
             ),
             161 => 
             array (
-                'id' => 705,
-                'user_id' => 1,
+                'id' => '705',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 18:21:34',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -5981,8 +5981,8 @@ class LogsTableSeeder extends Seeder
             ),
             162 => 
             array (
-                'id' => 706,
-                'user_id' => 1,
+                'id' => '706',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 18:21:34',
                 'table_name' => 'p_role_has_menu',
                 'log_type' => 'create',
@@ -5990,8 +5990,8 @@ class LogsTableSeeder extends Seeder
             ),
             163 => 
             array (
-                'id' => 707,
-                'user_id' => 1,
+                'id' => '707',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 18:21:58',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -5999,8 +5999,8 @@ class LogsTableSeeder extends Seeder
             ),
             164 => 
             array (
-                'id' => 708,
-                'user_id' => 1,
+                'id' => '708',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 18:21:58',
                 'table_name' => 'p_role_has_menu',
                 'log_type' => 'create',
@@ -6008,8 +6008,8 @@ class LogsTableSeeder extends Seeder
             ),
             165 => 
             array (
-                'id' => 709,
-                'user_id' => 1,
+                'id' => '709',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 21:28:29',
                 'table_name' => 'contact_messages',
                 'log_type' => 'create',
@@ -6017,8 +6017,8 @@ class LogsTableSeeder extends Seeder
             ),
             166 => 
             array (
-                'id' => 710,
-                'user_id' => 1,
+                'id' => '710',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 21:30:06',
                 'table_name' => 'contact_messages',
                 'log_type' => 'create',
@@ -6026,8 +6026,8 @@ class LogsTableSeeder extends Seeder
             ),
             167 => 
             array (
-                'id' => 711,
-                'user_id' => 1,
+                'id' => '711',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 21:31:51',
                 'table_name' => 'contact_messages',
                 'log_type' => 'create',
@@ -6035,8 +6035,8 @@ class LogsTableSeeder extends Seeder
             ),
             168 => 
             array (
-                'id' => 712,
-                'user_id' => 1,
+                'id' => '712',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 21:32:23',
                 'table_name' => 'contact_messages',
                 'log_type' => 'delete',
@@ -6044,8 +6044,8 @@ class LogsTableSeeder extends Seeder
             ),
             169 => 
             array (
-                'id' => 713,
-                'user_id' => 1,
+                'id' => '713',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 21:36:25',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -6053,8 +6053,8 @@ class LogsTableSeeder extends Seeder
             ),
             170 => 
             array (
-                'id' => 714,
-                'user_id' => 1,
+                'id' => '714',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 21:36:25',
                 'table_name' => 'p_role_has_menu',
                 'log_type' => 'create',
@@ -6062,8 +6062,8 @@ class LogsTableSeeder extends Seeder
             ),
             171 => 
             array (
-                'id' => 715,
-                'user_id' => 1,
+                'id' => '715',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 21:36:25',
                 'table_name' => 'p_role_has_menu',
                 'log_type' => 'create',
@@ -6071,8 +6071,8 @@ class LogsTableSeeder extends Seeder
             ),
             172 => 
             array (
-                'id' => 716,
-                'user_id' => 1,
+                'id' => '716',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 21:38:41',
                 'table_name' => 'banners',
                 'log_type' => 'edit',
@@ -6080,8 +6080,8 @@ class LogsTableSeeder extends Seeder
             ),
             173 => 
             array (
-                'id' => 717,
-                'user_id' => 1,
+                'id' => '717',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 21:41:46',
                 'table_name' => 'banners',
                 'log_type' => 'edit',
@@ -6089,8 +6089,8 @@ class LogsTableSeeder extends Seeder
             ),
             174 => 
             array (
-                'id' => 718,
-                'user_id' => 1,
+                'id' => '718',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 21:43:14',
                 'table_name' => 'banners',
                 'log_type' => 'edit',
@@ -6098,8 +6098,8 @@ class LogsTableSeeder extends Seeder
             ),
             175 => 
             array (
-                'id' => 719,
-                'user_id' => 1,
+                'id' => '719',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 21:43:29',
                 'table_name' => 'banners',
                 'log_type' => 'edit',
@@ -6107,8 +6107,8 @@ class LogsTableSeeder extends Seeder
             ),
             176 => 
             array (
-                'id' => 720,
-                'user_id' => 1,
+                'id' => '720',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 21:43:42',
                 'table_name' => 'banners',
                 'log_type' => 'edit',
@@ -6116,8 +6116,8 @@ class LogsTableSeeder extends Seeder
             ),
             177 => 
             array (
-                'id' => 721,
-                'user_id' => 1,
+                'id' => '721',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 21:43:45',
                 'table_name' => 'banners',
                 'log_type' => 'edit',
@@ -6125,8 +6125,8 @@ class LogsTableSeeder extends Seeder
             ),
             178 => 
             array (
-                'id' => 722,
-                'user_id' => 1,
+                'id' => '722',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 21:44:33',
                 'table_name' => 'banners',
                 'log_type' => 'edit',
@@ -6134,8 +6134,8 @@ class LogsTableSeeder extends Seeder
             ),
             179 => 
             array (
-                'id' => 723,
-                'user_id' => 1,
+                'id' => '723',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 21:45:02',
                 'table_name' => 'banners',
                 'log_type' => 'edit',
@@ -6143,8 +6143,8 @@ class LogsTableSeeder extends Seeder
             ),
             180 => 
             array (
-                'id' => 724,
-                'user_id' => 1,
+                'id' => '724',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 21:46:00',
                 'table_name' => 'banners',
                 'log_type' => 'edit',
@@ -6152,8 +6152,8 @@ class LogsTableSeeder extends Seeder
             ),
             181 => 
             array (
-                'id' => 725,
-                'user_id' => 1,
+                'id' => '725',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 21:55:03',
                 'table_name' => 'banners',
                 'log_type' => 'edit',
@@ -6161,8 +6161,8 @@ class LogsTableSeeder extends Seeder
             ),
             182 => 
             array (
-                'id' => 726,
-                'user_id' => 1,
+                'id' => '726',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 21:55:10',
                 'table_name' => 'banners',
                 'log_type' => 'edit',
@@ -6170,8 +6170,8 @@ class LogsTableSeeder extends Seeder
             ),
             183 => 
             array (
-                'id' => 727,
-                'user_id' => 1,
+                'id' => '727',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 21:55:54',
                 'table_name' => 'banners',
                 'log_type' => 'edit',
@@ -6179,8 +6179,8 @@ class LogsTableSeeder extends Seeder
             ),
             184 => 
             array (
-                'id' => 728,
-                'user_id' => 1,
+                'id' => '728',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 21:56:03',
                 'table_name' => 'banners',
                 'log_type' => 'edit',
@@ -6188,8 +6188,8 @@ class LogsTableSeeder extends Seeder
             ),
             185 => 
             array (
-                'id' => 729,
-                'user_id' => 1,
+                'id' => '729',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 21:56:06',
                 'table_name' => 'banners',
                 'log_type' => 'edit',
@@ -6197,8 +6197,8 @@ class LogsTableSeeder extends Seeder
             ),
             186 => 
             array (
-                'id' => 730,
-                'user_id' => 1,
+                'id' => '730',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 22:01:50',
                 'table_name' => 'banners',
                 'log_type' => 'edit',
@@ -6206,8 +6206,8 @@ class LogsTableSeeder extends Seeder
             ),
             187 => 
             array (
-                'id' => 731,
-                'user_id' => 1,
+                'id' => '731',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 22:02:22',
                 'table_name' => 'banners',
                 'log_type' => 'edit',
@@ -6215,8 +6215,8 @@ class LogsTableSeeder extends Seeder
             ),
             188 => 
             array (
-                'id' => 732,
-                'user_id' => 1,
+                'id' => '732',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 22:02:25',
                 'table_name' => 'banners',
                 'log_type' => 'edit',
@@ -6224,8 +6224,8 @@ class LogsTableSeeder extends Seeder
             ),
             189 => 
             array (
-                'id' => 733,
-                'user_id' => 1,
+                'id' => '733',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 22:02:38',
                 'table_name' => 'banners',
                 'log_type' => 'edit',
@@ -6233,8 +6233,8 @@ class LogsTableSeeder extends Seeder
             ),
             190 => 
             array (
-                'id' => 734,
-                'user_id' => 1,
+                'id' => '734',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 22:03:34',
                 'table_name' => 'banners',
                 'log_type' => 'edit',
@@ -6242,8 +6242,8 @@ class LogsTableSeeder extends Seeder
             ),
             191 => 
             array (
-                'id' => 735,
-                'user_id' => 1,
+                'id' => '735',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 22:03:45',
                 'table_name' => 'banners',
                 'log_type' => 'edit',
@@ -6251,8 +6251,8 @@ class LogsTableSeeder extends Seeder
             ),
             192 => 
             array (
-                'id' => 736,
-                'user_id' => 1,
+                'id' => '736',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 22:05:19',
                 'table_name' => 'banners',
                 'log_type' => 'edit',
@@ -6260,8 +6260,8 @@ class LogsTableSeeder extends Seeder
             ),
             193 => 
             array (
-                'id' => 737,
-                'user_id' => 1,
+                'id' => '737',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 22:05:31',
                 'table_name' => 'banners',
                 'log_type' => 'edit',
@@ -6269,8 +6269,8 @@ class LogsTableSeeder extends Seeder
             ),
             194 => 
             array (
-                'id' => 738,
-                'user_id' => 1,
+                'id' => '738',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 22:05:40',
                 'table_name' => 'banners',
                 'log_type' => 'edit',
@@ -6278,8 +6278,8 @@ class LogsTableSeeder extends Seeder
             ),
             195 => 
             array (
-                'id' => 739,
-                'user_id' => 1,
+                'id' => '739',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 22:07:30',
                 'table_name' => 'banners',
                 'log_type' => 'edit',
@@ -6287,8 +6287,8 @@ class LogsTableSeeder extends Seeder
             ),
             196 => 
             array (
-                'id' => 740,
-                'user_id' => 1,
+                'id' => '740',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 22:07:32',
                 'table_name' => 'banners',
                 'log_type' => 'edit',
@@ -6296,8 +6296,8 @@ class LogsTableSeeder extends Seeder
             ),
             197 => 
             array (
-                'id' => 741,
-                'user_id' => 1,
+                'id' => '741',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 22:08:12',
                 'table_name' => 'banners',
                 'log_type' => 'edit',
@@ -6305,8 +6305,8 @@ class LogsTableSeeder extends Seeder
             ),
             198 => 
             array (
-                'id' => 742,
-                'user_id' => 1,
+                'id' => '742',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 22:08:35',
                 'table_name' => 'banners',
                 'log_type' => 'edit',
@@ -6314,8 +6314,8 @@ class LogsTableSeeder extends Seeder
             ),
             199 => 
             array (
-                'id' => 743,
-                'user_id' => 1,
+                'id' => '743',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 22:09:00',
                 'table_name' => 'banners',
                 'log_type' => 'edit',
@@ -6323,8 +6323,8 @@ class LogsTableSeeder extends Seeder
             ),
             200 => 
             array (
-                'id' => 744,
-                'user_id' => 1,
+                'id' => '744',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 22:09:13',
                 'table_name' => 'banners',
                 'log_type' => 'edit',
@@ -6332,8 +6332,8 @@ class LogsTableSeeder extends Seeder
             ),
             201 => 
             array (
-                'id' => 745,
-                'user_id' => 1,
+                'id' => '745',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 22:09:16',
                 'table_name' => 'banners',
                 'log_type' => 'edit',
@@ -6341,8 +6341,8 @@ class LogsTableSeeder extends Seeder
             ),
             202 => 
             array (
-                'id' => 746,
-                'user_id' => 1,
+                'id' => '746',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 22:09:38',
                 'table_name' => 'banners',
                 'log_type' => 'edit',
@@ -6350,8 +6350,8 @@ class LogsTableSeeder extends Seeder
             ),
             203 => 
             array (
-                'id' => 747,
-                'user_id' => 1,
+                'id' => '747',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 22:11:52',
                 'table_name' => 'banners',
                 'log_type' => 'edit',
@@ -6359,8 +6359,8 @@ class LogsTableSeeder extends Seeder
             ),
             204 => 
             array (
-                'id' => 748,
-                'user_id' => 1,
+                'id' => '748',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 22:11:54',
                 'table_name' => 'banners',
                 'log_type' => 'edit',
@@ -6368,8 +6368,8 @@ class LogsTableSeeder extends Seeder
             ),
             205 => 
             array (
-                'id' => 749,
-                'user_id' => 1,
+                'id' => '749',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 22:11:59',
                 'table_name' => 'banners',
                 'log_type' => 'edit',
@@ -6377,8 +6377,8 @@ class LogsTableSeeder extends Seeder
             ),
             206 => 
             array (
-                'id' => 750,
-                'user_id' => 1,
+                'id' => '750',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 22:12:36',
                 'table_name' => 'banners',
                 'log_type' => 'edit',
@@ -6386,8 +6386,8 @@ class LogsTableSeeder extends Seeder
             ),
             207 => 
             array (
-                'id' => 751,
-                'user_id' => 1,
+                'id' => '751',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 22:12:42',
                 'table_name' => 'banners',
                 'log_type' => 'edit',
@@ -6395,8 +6395,8 @@ class LogsTableSeeder extends Seeder
             ),
             208 => 
             array (
-                'id' => 752,
-                'user_id' => 1,
+                'id' => '752',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 22:12:45',
                 'table_name' => 'banners',
                 'log_type' => 'edit',
@@ -6404,8 +6404,8 @@ class LogsTableSeeder extends Seeder
             ),
             209 => 
             array (
-                'id' => 753,
-                'user_id' => 1,
+                'id' => '753',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 22:14:34',
                 'table_name' => 'banners',
                 'log_type' => 'edit',
@@ -6413,8 +6413,8 @@ class LogsTableSeeder extends Seeder
             ),
             210 => 
             array (
-                'id' => 754,
-                'user_id' => 1,
+                'id' => '754',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 22:14:37',
                 'table_name' => 'banners',
                 'log_type' => 'edit',
@@ -6422,8 +6422,8 @@ class LogsTableSeeder extends Seeder
             ),
             211 => 
             array (
-                'id' => 755,
-                'user_id' => 1,
+                'id' => '755',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 22:14:50',
                 'table_name' => 'banners',
                 'log_type' => 'edit',
@@ -6431,8 +6431,8 @@ class LogsTableSeeder extends Seeder
             ),
             212 => 
             array (
-                'id' => 756,
-                'user_id' => 1,
+                'id' => '756',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 22:14:56',
                 'table_name' => 'banners',
                 'log_type' => 'edit',
@@ -6440,8 +6440,8 @@ class LogsTableSeeder extends Seeder
             ),
             213 => 
             array (
-                'id' => 757,
-                'user_id' => 1,
+                'id' => '757',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 22:15:07',
                 'table_name' => 'artikel',
                 'log_type' => 'edit',
@@ -6449,8 +6449,8 @@ class LogsTableSeeder extends Seeder
             ),
             214 => 
             array (
-                'id' => 758,
-                'user_id' => 1,
+                'id' => '758',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 22:15:08',
                 'table_name' => 'banners',
                 'log_type' => 'edit',
@@ -6458,8 +6458,8 @@ class LogsTableSeeder extends Seeder
             ),
             215 => 
             array (
-                'id' => 759,
-                'user_id' => 1,
+                'id' => '759',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 22:16:16',
                 'table_name' => 'artikel',
                 'log_type' => 'edit',
@@ -6467,8 +6467,8 @@ class LogsTableSeeder extends Seeder
             ),
             216 => 
             array (
-                'id' => 760,
-                'user_id' => 1,
+                'id' => '760',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 22:16:16',
                 'table_name' => 'banners',
                 'log_type' => 'edit',
@@ -6476,8 +6476,8 @@ class LogsTableSeeder extends Seeder
             ),
             217 => 
             array (
-                'id' => 761,
-                'user_id' => 1,
+                'id' => '761',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 22:16:20',
                 'table_name' => 'artikel',
                 'log_type' => 'edit',
@@ -6485,8 +6485,8 @@ class LogsTableSeeder extends Seeder
             ),
             218 => 
             array (
-                'id' => 762,
-                'user_id' => 1,
+                'id' => '762',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 22:16:20',
                 'table_name' => 'banners',
                 'log_type' => 'edit',
@@ -6494,8 +6494,8 @@ class LogsTableSeeder extends Seeder
             ),
             219 => 
             array (
-                'id' => 763,
-                'user_id' => 1,
+                'id' => '763',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 22:17:22',
                 'table_name' => 'artikel',
                 'log_type' => 'edit',
@@ -6503,8 +6503,8 @@ class LogsTableSeeder extends Seeder
             ),
             220 => 
             array (
-                'id' => 764,
-                'user_id' => 1,
+                'id' => '764',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 22:17:22',
                 'table_name' => 'banners',
                 'log_type' => 'edit',
@@ -6512,8 +6512,8 @@ class LogsTableSeeder extends Seeder
             ),
             221 => 
             array (
-                'id' => 765,
-                'user_id' => 1,
+                'id' => '765',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 22:17:39',
                 'table_name' => 'artikel',
                 'log_type' => 'edit',
@@ -6521,8 +6521,8 @@ class LogsTableSeeder extends Seeder
             ),
             222 => 
             array (
-                'id' => 766,
-                'user_id' => 1,
+                'id' => '766',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 22:17:39',
                 'table_name' => 'banners',
                 'log_type' => 'edit',
@@ -6530,8 +6530,8 @@ class LogsTableSeeder extends Seeder
             ),
             223 => 
             array (
-                'id' => 767,
-                'user_id' => 1,
+                'id' => '767',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 22:17:51',
                 'table_name' => 'artikel',
                 'log_type' => 'edit',
@@ -6539,8 +6539,8 @@ class LogsTableSeeder extends Seeder
             ),
             224 => 
             array (
-                'id' => 768,
-                'user_id' => 1,
+                'id' => '768',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 22:17:51',
                 'table_name' => 'banners',
                 'log_type' => 'edit',
@@ -6548,8 +6548,8 @@ class LogsTableSeeder extends Seeder
             ),
             225 => 
             array (
-                'id' => 769,
-                'user_id' => 1,
+                'id' => '769',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 22:19:02',
                 'table_name' => 'artikel',
                 'log_type' => 'edit',
@@ -6557,8 +6557,8 @@ class LogsTableSeeder extends Seeder
             ),
             226 => 
             array (
-                'id' => 770,
-                'user_id' => 1,
+                'id' => '770',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 22:19:02',
                 'table_name' => 'banners',
                 'log_type' => 'edit',
@@ -6566,8 +6566,8 @@ class LogsTableSeeder extends Seeder
             ),
             227 => 
             array (
-                'id' => 771,
-                'user_id' => 1,
+                'id' => '771',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 22:19:10',
                 'table_name' => 'artikel',
                 'log_type' => 'edit',
@@ -6575,8 +6575,8 @@ class LogsTableSeeder extends Seeder
             ),
             228 => 
             array (
-                'id' => 772,
-                'user_id' => 1,
+                'id' => '772',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 22:19:10',
                 'table_name' => 'banners',
                 'log_type' => 'edit',
@@ -6584,8 +6584,8 @@ class LogsTableSeeder extends Seeder
             ),
             229 => 
             array (
-                'id' => 773,
-                'user_id' => 1,
+                'id' => '773',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 22:19:56',
                 'table_name' => 'artikel',
                 'log_type' => 'edit',
@@ -6593,8 +6593,8 @@ class LogsTableSeeder extends Seeder
             ),
             230 => 
             array (
-                'id' => 774,
-                'user_id' => 1,
+                'id' => '774',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 22:19:56',
                 'table_name' => 'banners',
                 'log_type' => 'edit',
@@ -6602,8 +6602,8 @@ class LogsTableSeeder extends Seeder
             ),
             231 => 
             array (
-                'id' => 775,
-                'user_id' => 1,
+                'id' => '775',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 22:20:26',
                 'table_name' => 'artikel',
                 'log_type' => 'edit',
@@ -6611,8 +6611,8 @@ class LogsTableSeeder extends Seeder
             ),
             232 => 
             array (
-                'id' => 776,
-                'user_id' => 1,
+                'id' => '776',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 22:20:26',
                 'table_name' => 'banners',
                 'log_type' => 'edit',
@@ -6620,8 +6620,8 @@ class LogsTableSeeder extends Seeder
             ),
             233 => 
             array (
-                'id' => 777,
-                'user_id' => 1,
+                'id' => '777',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 22:20:41',
                 'table_name' => 'artikel',
                 'log_type' => 'edit',
@@ -6629,8 +6629,8 @@ class LogsTableSeeder extends Seeder
             ),
             234 => 
             array (
-                'id' => 778,
-                'user_id' => 1,
+                'id' => '778',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 22:20:41',
                 'table_name' => 'banners',
                 'log_type' => 'edit',
@@ -6638,8 +6638,8 @@ class LogsTableSeeder extends Seeder
             ),
             235 => 
             array (
-                'id' => 779,
-                'user_id' => 1,
+                'id' => '779',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 22:22:29',
                 'table_name' => 'artikel',
                 'log_type' => 'edit',
@@ -6647,8 +6647,8 @@ class LogsTableSeeder extends Seeder
             ),
             236 => 
             array (
-                'id' => 780,
-                'user_id' => 1,
+                'id' => '780',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 22:22:29',
                 'table_name' => 'banners',
                 'log_type' => 'edit',
@@ -6656,8 +6656,8 @@ class LogsTableSeeder extends Seeder
             ),
             237 => 
             array (
-                'id' => 781,
-                'user_id' => 1,
+                'id' => '781',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 22:22:48',
                 'table_name' => 'artikel',
                 'log_type' => 'edit',
@@ -6665,8 +6665,8 @@ class LogsTableSeeder extends Seeder
             ),
             238 => 
             array (
-                'id' => 782,
-                'user_id' => 1,
+                'id' => '782',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 22:22:48',
                 'table_name' => 'banners',
                 'log_type' => 'edit',
@@ -6674,8 +6674,8 @@ class LogsTableSeeder extends Seeder
             ),
             239 => 
             array (
-                'id' => 783,
-                'user_id' => 1,
+                'id' => '783',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 22:23:11',
                 'table_name' => 'artikel',
                 'log_type' => 'edit',
@@ -6683,8 +6683,8 @@ class LogsTableSeeder extends Seeder
             ),
             240 => 
             array (
-                'id' => 784,
-                'user_id' => 1,
+                'id' => '784',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 22:23:11',
                 'table_name' => 'banners',
                 'log_type' => 'edit',
@@ -6692,8 +6692,8 @@ class LogsTableSeeder extends Seeder
             ),
             241 => 
             array (
-                'id' => 785,
-                'user_id' => 1,
+                'id' => '785',
+                'user_id' => '1',
                 'log_date' => '2023-05-04 22:23:34',
                 'table_name' => 'banners',
                 'log_type' => 'edit',
@@ -6701,8 +6701,8 @@ class LogsTableSeeder extends Seeder
             ),
             242 => 
             array (
-                'id' => 786,
-                'user_id' => 1,
+                'id' => '786',
+                'user_id' => '1',
                 'log_date' => '2023-05-05 09:28:50',
                 'table_name' => '',
                 'log_type' => 'login',
@@ -6710,8 +6710,8 @@ class LogsTableSeeder extends Seeder
             ),
             243 => 
             array (
-                'id' => 787,
-                'user_id' => 1,
+                'id' => '787',
+                'user_id' => '1',
                 'log_date' => '2023-05-05 09:29:26',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'delete',
@@ -6719,8 +6719,8 @@ class LogsTableSeeder extends Seeder
             ),
             244 => 
             array (
-                'id' => 788,
-                'user_id' => 1,
+                'id' => '788',
+                'user_id' => '1',
                 'log_date' => '2023-05-05 09:29:30',
                 'table_name' => 'portfolio_sub_kategori',
                 'log_type' => 'delete',
@@ -6728,8 +6728,8 @@ class LogsTableSeeder extends Seeder
             ),
             245 => 
             array (
-                'id' => 789,
-                'user_id' => 1,
+                'id' => '789',
+                'user_id' => '1',
                 'log_date' => '2023-05-05 09:29:40',
                 'table_name' => 'portfolio_kategori',
                 'log_type' => 'edit',
@@ -6737,8 +6737,8 @@ class LogsTableSeeder extends Seeder
             ),
             246 => 
             array (
-                'id' => 790,
-                'user_id' => 4,
+                'id' => '790',
+                'user_id' => '4',
                 'log_date' => '2023-05-09 11:47:20',
                 'table_name' => '',
                 'log_type' => 'login',
@@ -6746,8 +6746,8 @@ class LogsTableSeeder extends Seeder
             ),
             247 => 
             array (
-                'id' => 791,
-                'user_id' => 4,
+                'id' => '791',
+                'user_id' => '4',
                 'log_date' => '2023-05-10 14:57:41',
                 'table_name' => '',
                 'log_type' => 'login',
@@ -6755,8 +6755,8 @@ class LogsTableSeeder extends Seeder
             ),
             248 => 
             array (
-                'id' => 792,
-                'user_id' => 1,
+                'id' => '792',
+                'user_id' => '1',
                 'log_date' => '2023-05-12 20:14:41',
                 'table_name' => '',
                 'log_type' => 'login',
@@ -6764,8 +6764,8 @@ class LogsTableSeeder extends Seeder
             ),
             249 => 
             array (
-                'id' => 793,
-                'user_id' => 1,
+                'id' => '793',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:23:40',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -6773,8 +6773,8 @@ class LogsTableSeeder extends Seeder
             ),
             250 => 
             array (
-                'id' => 794,
-                'user_id' => 1,
+                'id' => '794',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:23:50',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -6782,8 +6782,8 @@ class LogsTableSeeder extends Seeder
             ),
             251 => 
             array (
-                'id' => 795,
-                'user_id' => 1,
+                'id' => '795',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:23:53',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -6791,8 +6791,8 @@ class LogsTableSeeder extends Seeder
             ),
             252 => 
             array (
-                'id' => 796,
-                'user_id' => 1,
+                'id' => '796',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:23:55',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -6800,8 +6800,8 @@ class LogsTableSeeder extends Seeder
             ),
             253 => 
             array (
-                'id' => 797,
-                'user_id' => 1,
+                'id' => '797',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:23:56',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -6809,8 +6809,8 @@ class LogsTableSeeder extends Seeder
             ),
             254 => 
             array (
-                'id' => 798,
-                'user_id' => 1,
+                'id' => '798',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:23:56',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -6818,8 +6818,8 @@ class LogsTableSeeder extends Seeder
             ),
             255 => 
             array (
-                'id' => 799,
-                'user_id' => 1,
+                'id' => '799',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:23:56',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -6827,8 +6827,8 @@ class LogsTableSeeder extends Seeder
             ),
             256 => 
             array (
-                'id' => 800,
-                'user_id' => 1,
+                'id' => '800',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:23:57',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -6836,8 +6836,8 @@ class LogsTableSeeder extends Seeder
             ),
             257 => 
             array (
-                'id' => 801,
-                'user_id' => 1,
+                'id' => '801',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:23:57',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -6845,8 +6845,8 @@ class LogsTableSeeder extends Seeder
             ),
             258 => 
             array (
-                'id' => 802,
-                'user_id' => 1,
+                'id' => '802',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:23:57',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -6854,8 +6854,8 @@ class LogsTableSeeder extends Seeder
             ),
             259 => 
             array (
-                'id' => 803,
-                'user_id' => 1,
+                'id' => '803',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:23:58',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -6863,8 +6863,8 @@ class LogsTableSeeder extends Seeder
             ),
             260 => 
             array (
-                'id' => 804,
-                'user_id' => 1,
+                'id' => '804',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:23:58',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -6872,8 +6872,8 @@ class LogsTableSeeder extends Seeder
             ),
             261 => 
             array (
-                'id' => 805,
-                'user_id' => 1,
+                'id' => '805',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:23:58',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -6881,8 +6881,8 @@ class LogsTableSeeder extends Seeder
             ),
             262 => 
             array (
-                'id' => 806,
-                'user_id' => 1,
+                'id' => '806',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:23:58',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -6890,8 +6890,8 @@ class LogsTableSeeder extends Seeder
             ),
             263 => 
             array (
-                'id' => 807,
-                'user_id' => 1,
+                'id' => '807',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:23:59',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -6899,8 +6899,8 @@ class LogsTableSeeder extends Seeder
             ),
             264 => 
             array (
-                'id' => 808,
-                'user_id' => 1,
+                'id' => '808',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:23:59',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -6908,8 +6908,8 @@ class LogsTableSeeder extends Seeder
             ),
             265 => 
             array (
-                'id' => 809,
-                'user_id' => 1,
+                'id' => '809',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:23:59',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -6917,8 +6917,8 @@ class LogsTableSeeder extends Seeder
             ),
             266 => 
             array (
-                'id' => 810,
-                'user_id' => 1,
+                'id' => '810',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:00',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -6926,8 +6926,8 @@ class LogsTableSeeder extends Seeder
             ),
             267 => 
             array (
-                'id' => 811,
-                'user_id' => 1,
+                'id' => '811',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:00',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -6935,8 +6935,8 @@ class LogsTableSeeder extends Seeder
             ),
             268 => 
             array (
-                'id' => 812,
-                'user_id' => 1,
+                'id' => '812',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:00',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -6944,8 +6944,8 @@ class LogsTableSeeder extends Seeder
             ),
             269 => 
             array (
-                'id' => 813,
-                'user_id' => 1,
+                'id' => '813',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:00',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -6953,8 +6953,8 @@ class LogsTableSeeder extends Seeder
             ),
             270 => 
             array (
-                'id' => 814,
-                'user_id' => 1,
+                'id' => '814',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:01',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -6962,8 +6962,8 @@ class LogsTableSeeder extends Seeder
             ),
             271 => 
             array (
-                'id' => 815,
-                'user_id' => 1,
+                'id' => '815',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:01',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -6971,8 +6971,8 @@ class LogsTableSeeder extends Seeder
             ),
             272 => 
             array (
-                'id' => 816,
-                'user_id' => 1,
+                'id' => '816',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:01',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -6980,8 +6980,8 @@ class LogsTableSeeder extends Seeder
             ),
             273 => 
             array (
-                'id' => 817,
-                'user_id' => 1,
+                'id' => '817',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:02',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -6989,8 +6989,8 @@ class LogsTableSeeder extends Seeder
             ),
             274 => 
             array (
-                'id' => 818,
-                'user_id' => 1,
+                'id' => '818',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:02',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -6998,8 +6998,8 @@ class LogsTableSeeder extends Seeder
             ),
             275 => 
             array (
-                'id' => 819,
-                'user_id' => 1,
+                'id' => '819',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:02',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7007,8 +7007,8 @@ class LogsTableSeeder extends Seeder
             ),
             276 => 
             array (
-                'id' => 820,
-                'user_id' => 1,
+                'id' => '820',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:03',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7016,8 +7016,8 @@ class LogsTableSeeder extends Seeder
             ),
             277 => 
             array (
-                'id' => 821,
-                'user_id' => 1,
+                'id' => '821',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:03',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7025,8 +7025,8 @@ class LogsTableSeeder extends Seeder
             ),
             278 => 
             array (
-                'id' => 822,
-                'user_id' => 1,
+                'id' => '822',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:03',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7034,8 +7034,8 @@ class LogsTableSeeder extends Seeder
             ),
             279 => 
             array (
-                'id' => 823,
-                'user_id' => 1,
+                'id' => '823',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:03',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7043,8 +7043,8 @@ class LogsTableSeeder extends Seeder
             ),
             280 => 
             array (
-                'id' => 824,
-                'user_id' => 1,
+                'id' => '824',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:04',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7052,8 +7052,8 @@ class LogsTableSeeder extends Seeder
             ),
             281 => 
             array (
-                'id' => 825,
-                'user_id' => 1,
+                'id' => '825',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:04',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7061,8 +7061,8 @@ class LogsTableSeeder extends Seeder
             ),
             282 => 
             array (
-                'id' => 826,
-                'user_id' => 1,
+                'id' => '826',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:04',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7070,8 +7070,8 @@ class LogsTableSeeder extends Seeder
             ),
             283 => 
             array (
-                'id' => 827,
-                'user_id' => 1,
+                'id' => '827',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:05',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7079,8 +7079,8 @@ class LogsTableSeeder extends Seeder
             ),
             284 => 
             array (
-                'id' => 828,
-                'user_id' => 1,
+                'id' => '828',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:05',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7088,8 +7088,8 @@ class LogsTableSeeder extends Seeder
             ),
             285 => 
             array (
-                'id' => 829,
-                'user_id' => 1,
+                'id' => '829',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:05',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7097,8 +7097,8 @@ class LogsTableSeeder extends Seeder
             ),
             286 => 
             array (
-                'id' => 830,
-                'user_id' => 1,
+                'id' => '830',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:06',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7106,8 +7106,8 @@ class LogsTableSeeder extends Seeder
             ),
             287 => 
             array (
-                'id' => 831,
-                'user_id' => 1,
+                'id' => '831',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:06',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7115,8 +7115,8 @@ class LogsTableSeeder extends Seeder
             ),
             288 => 
             array (
-                'id' => 832,
-                'user_id' => 1,
+                'id' => '832',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:06',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7124,8 +7124,8 @@ class LogsTableSeeder extends Seeder
             ),
             289 => 
             array (
-                'id' => 833,
-                'user_id' => 1,
+                'id' => '833',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:07',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7133,8 +7133,8 @@ class LogsTableSeeder extends Seeder
             ),
             290 => 
             array (
-                'id' => 834,
-                'user_id' => 1,
+                'id' => '834',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:07',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7142,8 +7142,8 @@ class LogsTableSeeder extends Seeder
             ),
             291 => 
             array (
-                'id' => 835,
-                'user_id' => 1,
+                'id' => '835',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:07',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7151,8 +7151,8 @@ class LogsTableSeeder extends Seeder
             ),
             292 => 
             array (
-                'id' => 836,
-                'user_id' => 1,
+                'id' => '836',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:08',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7160,8 +7160,8 @@ class LogsTableSeeder extends Seeder
             ),
             293 => 
             array (
-                'id' => 837,
-                'user_id' => 1,
+                'id' => '837',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:08',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7169,8 +7169,8 @@ class LogsTableSeeder extends Seeder
             ),
             294 => 
             array (
-                'id' => 838,
-                'user_id' => 1,
+                'id' => '838',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:08',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7178,8 +7178,8 @@ class LogsTableSeeder extends Seeder
             ),
             295 => 
             array (
-                'id' => 839,
-                'user_id' => 1,
+                'id' => '839',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:08',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7187,8 +7187,8 @@ class LogsTableSeeder extends Seeder
             ),
             296 => 
             array (
-                'id' => 840,
-                'user_id' => 1,
+                'id' => '840',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:09',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7196,8 +7196,8 @@ class LogsTableSeeder extends Seeder
             ),
             297 => 
             array (
-                'id' => 841,
-                'user_id' => 1,
+                'id' => '841',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:09',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7205,8 +7205,8 @@ class LogsTableSeeder extends Seeder
             ),
             298 => 
             array (
-                'id' => 842,
-                'user_id' => 1,
+                'id' => '842',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:09',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7214,8 +7214,8 @@ class LogsTableSeeder extends Seeder
             ),
             299 => 
             array (
-                'id' => 843,
-                'user_id' => 1,
+                'id' => '843',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:10',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7223,8 +7223,8 @@ class LogsTableSeeder extends Seeder
             ),
             300 => 
             array (
-                'id' => 844,
-                'user_id' => 1,
+                'id' => '844',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:10',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7232,8 +7232,8 @@ class LogsTableSeeder extends Seeder
             ),
             301 => 
             array (
-                'id' => 845,
-                'user_id' => 1,
+                'id' => '845',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:10',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7241,8 +7241,8 @@ class LogsTableSeeder extends Seeder
             ),
             302 => 
             array (
-                'id' => 846,
-                'user_id' => 1,
+                'id' => '846',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:10',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7250,8 +7250,8 @@ class LogsTableSeeder extends Seeder
             ),
             303 => 
             array (
-                'id' => 847,
-                'user_id' => 1,
+                'id' => '847',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:11',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7259,8 +7259,8 @@ class LogsTableSeeder extends Seeder
             ),
             304 => 
             array (
-                'id' => 848,
-                'user_id' => 1,
+                'id' => '848',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:11',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7268,8 +7268,8 @@ class LogsTableSeeder extends Seeder
             ),
             305 => 
             array (
-                'id' => 849,
-                'user_id' => 1,
+                'id' => '849',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:11',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7277,8 +7277,8 @@ class LogsTableSeeder extends Seeder
             ),
             306 => 
             array (
-                'id' => 850,
-                'user_id' => 1,
+                'id' => '850',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:12',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7286,8 +7286,8 @@ class LogsTableSeeder extends Seeder
             ),
             307 => 
             array (
-                'id' => 851,
-                'user_id' => 1,
+                'id' => '851',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:12',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7295,8 +7295,8 @@ class LogsTableSeeder extends Seeder
             ),
             308 => 
             array (
-                'id' => 852,
-                'user_id' => 1,
+                'id' => '852',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:12',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7304,8 +7304,8 @@ class LogsTableSeeder extends Seeder
             ),
             309 => 
             array (
-                'id' => 853,
-                'user_id' => 1,
+                'id' => '853',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:12',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7313,8 +7313,8 @@ class LogsTableSeeder extends Seeder
             ),
             310 => 
             array (
-                'id' => 854,
-                'user_id' => 1,
+                'id' => '854',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:13',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7322,8 +7322,8 @@ class LogsTableSeeder extends Seeder
             ),
             311 => 
             array (
-                'id' => 855,
-                'user_id' => 1,
+                'id' => '855',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:13',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7331,8 +7331,8 @@ class LogsTableSeeder extends Seeder
             ),
             312 => 
             array (
-                'id' => 856,
-                'user_id' => 1,
+                'id' => '856',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:13',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7340,8 +7340,8 @@ class LogsTableSeeder extends Seeder
             ),
             313 => 
             array (
-                'id' => 857,
-                'user_id' => 1,
+                'id' => '857',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:14',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7349,8 +7349,8 @@ class LogsTableSeeder extends Seeder
             ),
             314 => 
             array (
-                'id' => 858,
-                'user_id' => 1,
+                'id' => '858',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:14',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7358,8 +7358,8 @@ class LogsTableSeeder extends Seeder
             ),
             315 => 
             array (
-                'id' => 859,
-                'user_id' => 1,
+                'id' => '859',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:14',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7367,8 +7367,8 @@ class LogsTableSeeder extends Seeder
             ),
             316 => 
             array (
-                'id' => 860,
-                'user_id' => 1,
+                'id' => '860',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:14',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7376,8 +7376,8 @@ class LogsTableSeeder extends Seeder
             ),
             317 => 
             array (
-                'id' => 861,
-                'user_id' => 1,
+                'id' => '861',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:15',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7385,8 +7385,8 @@ class LogsTableSeeder extends Seeder
             ),
             318 => 
             array (
-                'id' => 862,
-                'user_id' => 1,
+                'id' => '862',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:15',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7394,8 +7394,8 @@ class LogsTableSeeder extends Seeder
             ),
             319 => 
             array (
-                'id' => 863,
-                'user_id' => 1,
+                'id' => '863',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:15',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7403,8 +7403,8 @@ class LogsTableSeeder extends Seeder
             ),
             320 => 
             array (
-                'id' => 864,
-                'user_id' => 1,
+                'id' => '864',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:16',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7412,8 +7412,8 @@ class LogsTableSeeder extends Seeder
             ),
             321 => 
             array (
-                'id' => 865,
-                'user_id' => 1,
+                'id' => '865',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:16',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7421,8 +7421,8 @@ class LogsTableSeeder extends Seeder
             ),
             322 => 
             array (
-                'id' => 866,
-                'user_id' => 1,
+                'id' => '866',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:16',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7430,8 +7430,8 @@ class LogsTableSeeder extends Seeder
             ),
             323 => 
             array (
-                'id' => 867,
-                'user_id' => 1,
+                'id' => '867',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:17',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7439,8 +7439,8 @@ class LogsTableSeeder extends Seeder
             ),
             324 => 
             array (
-                'id' => 868,
-                'user_id' => 1,
+                'id' => '868',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:17',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7448,8 +7448,8 @@ class LogsTableSeeder extends Seeder
             ),
             325 => 
             array (
-                'id' => 869,
-                'user_id' => 1,
+                'id' => '869',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:17',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7457,8 +7457,8 @@ class LogsTableSeeder extends Seeder
             ),
             326 => 
             array (
-                'id' => 870,
-                'user_id' => 1,
+                'id' => '870',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:17',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7466,8 +7466,8 @@ class LogsTableSeeder extends Seeder
             ),
             327 => 
             array (
-                'id' => 871,
-                'user_id' => 1,
+                'id' => '871',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:18',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7475,8 +7475,8 @@ class LogsTableSeeder extends Seeder
             ),
             328 => 
             array (
-                'id' => 872,
-                'user_id' => 1,
+                'id' => '872',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:18',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7484,8 +7484,8 @@ class LogsTableSeeder extends Seeder
             ),
             329 => 
             array (
-                'id' => 873,
-                'user_id' => 1,
+                'id' => '873',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:18',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7493,8 +7493,8 @@ class LogsTableSeeder extends Seeder
             ),
             330 => 
             array (
-                'id' => 874,
-                'user_id' => 1,
+                'id' => '874',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:19',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7502,8 +7502,8 @@ class LogsTableSeeder extends Seeder
             ),
             331 => 
             array (
-                'id' => 875,
-                'user_id' => 1,
+                'id' => '875',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:19',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7511,8 +7511,8 @@ class LogsTableSeeder extends Seeder
             ),
             332 => 
             array (
-                'id' => 876,
-                'user_id' => 1,
+                'id' => '876',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:19',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7520,8 +7520,8 @@ class LogsTableSeeder extends Seeder
             ),
             333 => 
             array (
-                'id' => 877,
-                'user_id' => 1,
+                'id' => '877',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:19',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7529,8 +7529,8 @@ class LogsTableSeeder extends Seeder
             ),
             334 => 
             array (
-                'id' => 878,
-                'user_id' => 1,
+                'id' => '878',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:20',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7538,8 +7538,8 @@ class LogsTableSeeder extends Seeder
             ),
             335 => 
             array (
-                'id' => 879,
-                'user_id' => 1,
+                'id' => '879',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:20',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7547,8 +7547,8 @@ class LogsTableSeeder extends Seeder
             ),
             336 => 
             array (
-                'id' => 880,
-                'user_id' => 1,
+                'id' => '880',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:20',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7556,8 +7556,8 @@ class LogsTableSeeder extends Seeder
             ),
             337 => 
             array (
-                'id' => 881,
-                'user_id' => 1,
+                'id' => '881',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:21',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7565,8 +7565,8 @@ class LogsTableSeeder extends Seeder
             ),
             338 => 
             array (
-                'id' => 882,
-                'user_id' => 1,
+                'id' => '882',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:21',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7574,8 +7574,8 @@ class LogsTableSeeder extends Seeder
             ),
             339 => 
             array (
-                'id' => 883,
-                'user_id' => 1,
+                'id' => '883',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:21',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7583,8 +7583,8 @@ class LogsTableSeeder extends Seeder
             ),
             340 => 
             array (
-                'id' => 884,
-                'user_id' => 1,
+                'id' => '884',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:22',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7592,8 +7592,8 @@ class LogsTableSeeder extends Seeder
             ),
             341 => 
             array (
-                'id' => 885,
-                'user_id' => 1,
+                'id' => '885',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:22',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7601,8 +7601,8 @@ class LogsTableSeeder extends Seeder
             ),
             342 => 
             array (
-                'id' => 886,
-                'user_id' => 1,
+                'id' => '886',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:22',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7610,8 +7610,8 @@ class LogsTableSeeder extends Seeder
             ),
             343 => 
             array (
-                'id' => 887,
-                'user_id' => 1,
+                'id' => '887',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:23',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7619,8 +7619,8 @@ class LogsTableSeeder extends Seeder
             ),
             344 => 
             array (
-                'id' => 888,
-                'user_id' => 1,
+                'id' => '888',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:23',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7628,8 +7628,8 @@ class LogsTableSeeder extends Seeder
             ),
             345 => 
             array (
-                'id' => 889,
-                'user_id' => 1,
+                'id' => '889',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:23',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7637,8 +7637,8 @@ class LogsTableSeeder extends Seeder
             ),
             346 => 
             array (
-                'id' => 890,
-                'user_id' => 1,
+                'id' => '890',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:23',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7646,8 +7646,8 @@ class LogsTableSeeder extends Seeder
             ),
             347 => 
             array (
-                'id' => 891,
-                'user_id' => 1,
+                'id' => '891',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:24',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7655,8 +7655,8 @@ class LogsTableSeeder extends Seeder
             ),
             348 => 
             array (
-                'id' => 892,
-                'user_id' => 1,
+                'id' => '892',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:24',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7664,8 +7664,8 @@ class LogsTableSeeder extends Seeder
             ),
             349 => 
             array (
-                'id' => 893,
-                'user_id' => 1,
+                'id' => '893',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:24',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7673,8 +7673,8 @@ class LogsTableSeeder extends Seeder
             ),
             350 => 
             array (
-                'id' => 894,
-                'user_id' => 1,
+                'id' => '894',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:25',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7682,8 +7682,8 @@ class LogsTableSeeder extends Seeder
             ),
             351 => 
             array (
-                'id' => 895,
-                'user_id' => 1,
+                'id' => '895',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:25',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7691,8 +7691,8 @@ class LogsTableSeeder extends Seeder
             ),
             352 => 
             array (
-                'id' => 896,
-                'user_id' => 1,
+                'id' => '896',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:25',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7700,8 +7700,8 @@ class LogsTableSeeder extends Seeder
             ),
             353 => 
             array (
-                'id' => 897,
-                'user_id' => 1,
+                'id' => '897',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:25',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7709,8 +7709,8 @@ class LogsTableSeeder extends Seeder
             ),
             354 => 
             array (
-                'id' => 898,
-                'user_id' => 1,
+                'id' => '898',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:26',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7718,8 +7718,8 @@ class LogsTableSeeder extends Seeder
             ),
             355 => 
             array (
-                'id' => 899,
-                'user_id' => 1,
+                'id' => '899',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:26',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7727,8 +7727,8 @@ class LogsTableSeeder extends Seeder
             ),
             356 => 
             array (
-                'id' => 900,
-                'user_id' => 1,
+                'id' => '900',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:26',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7736,8 +7736,8 @@ class LogsTableSeeder extends Seeder
             ),
             357 => 
             array (
-                'id' => 901,
-                'user_id' => 1,
+                'id' => '901',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:27',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7745,8 +7745,8 @@ class LogsTableSeeder extends Seeder
             ),
             358 => 
             array (
-                'id' => 902,
-                'user_id' => 1,
+                'id' => '902',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:27',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7754,8 +7754,8 @@ class LogsTableSeeder extends Seeder
             ),
             359 => 
             array (
-                'id' => 903,
-                'user_id' => 1,
+                'id' => '903',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:28',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7763,8 +7763,8 @@ class LogsTableSeeder extends Seeder
             ),
             360 => 
             array (
-                'id' => 904,
-                'user_id' => 1,
+                'id' => '904',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:28',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7772,8 +7772,8 @@ class LogsTableSeeder extends Seeder
             ),
             361 => 
             array (
-                'id' => 905,
-                'user_id' => 1,
+                'id' => '905',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:28',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7781,8 +7781,8 @@ class LogsTableSeeder extends Seeder
             ),
             362 => 
             array (
-                'id' => 906,
-                'user_id' => 1,
+                'id' => '906',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:28',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7790,8 +7790,8 @@ class LogsTableSeeder extends Seeder
             ),
             363 => 
             array (
-                'id' => 907,
-                'user_id' => 1,
+                'id' => '907',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:29',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7799,8 +7799,8 @@ class LogsTableSeeder extends Seeder
             ),
             364 => 
             array (
-                'id' => 908,
-                'user_id' => 1,
+                'id' => '908',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:30',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7808,8 +7808,8 @@ class LogsTableSeeder extends Seeder
             ),
             365 => 
             array (
-                'id' => 909,
-                'user_id' => 1,
+                'id' => '909',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:30',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7817,8 +7817,8 @@ class LogsTableSeeder extends Seeder
             ),
             366 => 
             array (
-                'id' => 910,
-                'user_id' => 1,
+                'id' => '910',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:30',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7826,8 +7826,8 @@ class LogsTableSeeder extends Seeder
             ),
             367 => 
             array (
-                'id' => 911,
-                'user_id' => 1,
+                'id' => '911',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:31',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7835,8 +7835,8 @@ class LogsTableSeeder extends Seeder
             ),
             368 => 
             array (
-                'id' => 912,
-                'user_id' => 1,
+                'id' => '912',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:31',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7844,8 +7844,8 @@ class LogsTableSeeder extends Seeder
             ),
             369 => 
             array (
-                'id' => 913,
-                'user_id' => 1,
+                'id' => '913',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:31',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7853,8 +7853,8 @@ class LogsTableSeeder extends Seeder
             ),
             370 => 
             array (
-                'id' => 914,
-                'user_id' => 1,
+                'id' => '914',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:31',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7862,8 +7862,8 @@ class LogsTableSeeder extends Seeder
             ),
             371 => 
             array (
-                'id' => 915,
-                'user_id' => 1,
+                'id' => '915',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:32',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7871,8 +7871,8 @@ class LogsTableSeeder extends Seeder
             ),
             372 => 
             array (
-                'id' => 916,
-                'user_id' => 1,
+                'id' => '916',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:32',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7880,8 +7880,8 @@ class LogsTableSeeder extends Seeder
             ),
             373 => 
             array (
-                'id' => 917,
-                'user_id' => 1,
+                'id' => '917',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:32',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7889,8 +7889,8 @@ class LogsTableSeeder extends Seeder
             ),
             374 => 
             array (
-                'id' => 918,
-                'user_id' => 1,
+                'id' => '918',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:33',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7898,8 +7898,8 @@ class LogsTableSeeder extends Seeder
             ),
             375 => 
             array (
-                'id' => 919,
-                'user_id' => 1,
+                'id' => '919',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:33',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7907,8 +7907,8 @@ class LogsTableSeeder extends Seeder
             ),
             376 => 
             array (
-                'id' => 920,
-                'user_id' => 1,
+                'id' => '920',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:33',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7916,8 +7916,8 @@ class LogsTableSeeder extends Seeder
             ),
             377 => 
             array (
-                'id' => 921,
-                'user_id' => 1,
+                'id' => '921',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:33',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7925,8 +7925,8 @@ class LogsTableSeeder extends Seeder
             ),
             378 => 
             array (
-                'id' => 922,
-                'user_id' => 1,
+                'id' => '922',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:34',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7934,8 +7934,8 @@ class LogsTableSeeder extends Seeder
             ),
             379 => 
             array (
-                'id' => 923,
-                'user_id' => 1,
+                'id' => '923',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:34',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7943,8 +7943,8 @@ class LogsTableSeeder extends Seeder
             ),
             380 => 
             array (
-                'id' => 924,
-                'user_id' => 1,
+                'id' => '924',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:34',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7952,8 +7952,8 @@ class LogsTableSeeder extends Seeder
             ),
             381 => 
             array (
-                'id' => 925,
-                'user_id' => 1,
+                'id' => '925',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:35',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7961,8 +7961,8 @@ class LogsTableSeeder extends Seeder
             ),
             382 => 
             array (
-                'id' => 926,
-                'user_id' => 1,
+                'id' => '926',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:35',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7970,8 +7970,8 @@ class LogsTableSeeder extends Seeder
             ),
             383 => 
             array (
-                'id' => 927,
-                'user_id' => 1,
+                'id' => '927',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:35',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7979,8 +7979,8 @@ class LogsTableSeeder extends Seeder
             ),
             384 => 
             array (
-                'id' => 928,
-                'user_id' => 1,
+                'id' => '928',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:36',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7988,8 +7988,8 @@ class LogsTableSeeder extends Seeder
             ),
             385 => 
             array (
-                'id' => 929,
-                'user_id' => 1,
+                'id' => '929',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:36',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -7997,8 +7997,8 @@ class LogsTableSeeder extends Seeder
             ),
             386 => 
             array (
-                'id' => 930,
-                'user_id' => 1,
+                'id' => '930',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:36',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8006,8 +8006,8 @@ class LogsTableSeeder extends Seeder
             ),
             387 => 
             array (
-                'id' => 931,
-                'user_id' => 1,
+                'id' => '931',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:37',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8015,8 +8015,8 @@ class LogsTableSeeder extends Seeder
             ),
             388 => 
             array (
-                'id' => 932,
-                'user_id' => 1,
+                'id' => '932',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:37',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8024,8 +8024,8 @@ class LogsTableSeeder extends Seeder
             ),
             389 => 
             array (
-                'id' => 933,
-                'user_id' => 1,
+                'id' => '933',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:37',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8033,8 +8033,8 @@ class LogsTableSeeder extends Seeder
             ),
             390 => 
             array (
-                'id' => 934,
-                'user_id' => 1,
+                'id' => '934',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:37',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8042,8 +8042,8 @@ class LogsTableSeeder extends Seeder
             ),
             391 => 
             array (
-                'id' => 935,
-                'user_id' => 1,
+                'id' => '935',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:38',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8051,8 +8051,8 @@ class LogsTableSeeder extends Seeder
             ),
             392 => 
             array (
-                'id' => 936,
-                'user_id' => 1,
+                'id' => '936',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:38',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8060,8 +8060,8 @@ class LogsTableSeeder extends Seeder
             ),
             393 => 
             array (
-                'id' => 937,
-                'user_id' => 1,
+                'id' => '937',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:38',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8069,8 +8069,8 @@ class LogsTableSeeder extends Seeder
             ),
             394 => 
             array (
-                'id' => 938,
-                'user_id' => 1,
+                'id' => '938',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:39',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8078,8 +8078,8 @@ class LogsTableSeeder extends Seeder
             ),
             395 => 
             array (
-                'id' => 939,
-                'user_id' => 1,
+                'id' => '939',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:39',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8087,8 +8087,8 @@ class LogsTableSeeder extends Seeder
             ),
             396 => 
             array (
-                'id' => 940,
-                'user_id' => 1,
+                'id' => '940',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:39',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8096,8 +8096,8 @@ class LogsTableSeeder extends Seeder
             ),
             397 => 
             array (
-                'id' => 941,
-                'user_id' => 1,
+                'id' => '941',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:39',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8105,8 +8105,8 @@ class LogsTableSeeder extends Seeder
             ),
             398 => 
             array (
-                'id' => 942,
-                'user_id' => 1,
+                'id' => '942',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:40',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8114,8 +8114,8 @@ class LogsTableSeeder extends Seeder
             ),
             399 => 
             array (
-                'id' => 943,
-                'user_id' => 1,
+                'id' => '943',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:40',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8123,8 +8123,8 @@ class LogsTableSeeder extends Seeder
             ),
             400 => 
             array (
-                'id' => 944,
-                'user_id' => 1,
+                'id' => '944',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:40',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8132,8 +8132,8 @@ class LogsTableSeeder extends Seeder
             ),
             401 => 
             array (
-                'id' => 945,
-                'user_id' => 1,
+                'id' => '945',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:41',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8141,8 +8141,8 @@ class LogsTableSeeder extends Seeder
             ),
             402 => 
             array (
-                'id' => 946,
-                'user_id' => 1,
+                'id' => '946',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:41',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8150,8 +8150,8 @@ class LogsTableSeeder extends Seeder
             ),
             403 => 
             array (
-                'id' => 947,
-                'user_id' => 1,
+                'id' => '947',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:41',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8159,8 +8159,8 @@ class LogsTableSeeder extends Seeder
             ),
             404 => 
             array (
-                'id' => 948,
-                'user_id' => 1,
+                'id' => '948',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:42',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8168,8 +8168,8 @@ class LogsTableSeeder extends Seeder
             ),
             405 => 
             array (
-                'id' => 949,
-                'user_id' => 1,
+                'id' => '949',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:42',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8177,8 +8177,8 @@ class LogsTableSeeder extends Seeder
             ),
             406 => 
             array (
-                'id' => 950,
-                'user_id' => 1,
+                'id' => '950',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:42',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8186,8 +8186,8 @@ class LogsTableSeeder extends Seeder
             ),
             407 => 
             array (
-                'id' => 951,
-                'user_id' => 1,
+                'id' => '951',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:42',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8195,8 +8195,8 @@ class LogsTableSeeder extends Seeder
             ),
             408 => 
             array (
-                'id' => 952,
-                'user_id' => 1,
+                'id' => '952',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:43',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8204,8 +8204,8 @@ class LogsTableSeeder extends Seeder
             ),
             409 => 
             array (
-                'id' => 953,
-                'user_id' => 1,
+                'id' => '953',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:43',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8213,8 +8213,8 @@ class LogsTableSeeder extends Seeder
             ),
             410 => 
             array (
-                'id' => 954,
-                'user_id' => 1,
+                'id' => '954',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:43',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8222,8 +8222,8 @@ class LogsTableSeeder extends Seeder
             ),
             411 => 
             array (
-                'id' => 955,
-                'user_id' => 1,
+                'id' => '955',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:44',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8231,8 +8231,8 @@ class LogsTableSeeder extends Seeder
             ),
             412 => 
             array (
-                'id' => 956,
-                'user_id' => 1,
+                'id' => '956',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:44',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8240,8 +8240,8 @@ class LogsTableSeeder extends Seeder
             ),
             413 => 
             array (
-                'id' => 957,
-                'user_id' => 1,
+                'id' => '957',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:44',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8249,8 +8249,8 @@ class LogsTableSeeder extends Seeder
             ),
             414 => 
             array (
-                'id' => 958,
-                'user_id' => 1,
+                'id' => '958',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:44',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8258,8 +8258,8 @@ class LogsTableSeeder extends Seeder
             ),
             415 => 
             array (
-                'id' => 959,
-                'user_id' => 1,
+                'id' => '959',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:45',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8267,8 +8267,8 @@ class LogsTableSeeder extends Seeder
             ),
             416 => 
             array (
-                'id' => 960,
-                'user_id' => 1,
+                'id' => '960',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:45',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8276,8 +8276,8 @@ class LogsTableSeeder extends Seeder
             ),
             417 => 
             array (
-                'id' => 961,
-                'user_id' => 1,
+                'id' => '961',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:45',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8285,8 +8285,8 @@ class LogsTableSeeder extends Seeder
             ),
             418 => 
             array (
-                'id' => 962,
-                'user_id' => 1,
+                'id' => '962',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:46',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8294,8 +8294,8 @@ class LogsTableSeeder extends Seeder
             ),
             419 => 
             array (
-                'id' => 963,
-                'user_id' => 1,
+                'id' => '963',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:46',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8303,8 +8303,8 @@ class LogsTableSeeder extends Seeder
             ),
             420 => 
             array (
-                'id' => 964,
-                'user_id' => 1,
+                'id' => '964',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:46',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8312,8 +8312,8 @@ class LogsTableSeeder extends Seeder
             ),
             421 => 
             array (
-                'id' => 965,
-                'user_id' => 1,
+                'id' => '965',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:46',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8321,8 +8321,8 @@ class LogsTableSeeder extends Seeder
             ),
             422 => 
             array (
-                'id' => 966,
-                'user_id' => 1,
+                'id' => '966',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:47',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8330,8 +8330,8 @@ class LogsTableSeeder extends Seeder
             ),
             423 => 
             array (
-                'id' => 967,
-                'user_id' => 1,
+                'id' => '967',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:47',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8339,8 +8339,8 @@ class LogsTableSeeder extends Seeder
             ),
             424 => 
             array (
-                'id' => 968,
-                'user_id' => 1,
+                'id' => '968',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:47',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8348,8 +8348,8 @@ class LogsTableSeeder extends Seeder
             ),
             425 => 
             array (
-                'id' => 969,
-                'user_id' => 1,
+                'id' => '969',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:48',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8357,8 +8357,8 @@ class LogsTableSeeder extends Seeder
             ),
             426 => 
             array (
-                'id' => 970,
-                'user_id' => 1,
+                'id' => '970',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:48',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8366,8 +8366,8 @@ class LogsTableSeeder extends Seeder
             ),
             427 => 
             array (
-                'id' => 971,
-                'user_id' => 1,
+                'id' => '971',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:48',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8375,8 +8375,8 @@ class LogsTableSeeder extends Seeder
             ),
             428 => 
             array (
-                'id' => 972,
-                'user_id' => 1,
+                'id' => '972',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:49',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8384,8 +8384,8 @@ class LogsTableSeeder extends Seeder
             ),
             429 => 
             array (
-                'id' => 973,
-                'user_id' => 1,
+                'id' => '973',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:49',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8393,8 +8393,8 @@ class LogsTableSeeder extends Seeder
             ),
             430 => 
             array (
-                'id' => 974,
-                'user_id' => 1,
+                'id' => '974',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:49',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8402,8 +8402,8 @@ class LogsTableSeeder extends Seeder
             ),
             431 => 
             array (
-                'id' => 975,
-                'user_id' => 1,
+                'id' => '975',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:49',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8411,8 +8411,8 @@ class LogsTableSeeder extends Seeder
             ),
             432 => 
             array (
-                'id' => 976,
-                'user_id' => 1,
+                'id' => '976',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:50',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8420,8 +8420,8 @@ class LogsTableSeeder extends Seeder
             ),
             433 => 
             array (
-                'id' => 977,
-                'user_id' => 1,
+                'id' => '977',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:50',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8429,8 +8429,8 @@ class LogsTableSeeder extends Seeder
             ),
             434 => 
             array (
-                'id' => 978,
-                'user_id' => 1,
+                'id' => '978',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:50',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8438,8 +8438,8 @@ class LogsTableSeeder extends Seeder
             ),
             435 => 
             array (
-                'id' => 979,
-                'user_id' => 1,
+                'id' => '979',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:51',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8447,8 +8447,8 @@ class LogsTableSeeder extends Seeder
             ),
             436 => 
             array (
-                'id' => 980,
-                'user_id' => 1,
+                'id' => '980',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:51',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8456,8 +8456,8 @@ class LogsTableSeeder extends Seeder
             ),
             437 => 
             array (
-                'id' => 981,
-                'user_id' => 1,
+                'id' => '981',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:51',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8465,8 +8465,8 @@ class LogsTableSeeder extends Seeder
             ),
             438 => 
             array (
-                'id' => 982,
-                'user_id' => 1,
+                'id' => '982',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:52',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8474,8 +8474,8 @@ class LogsTableSeeder extends Seeder
             ),
             439 => 
             array (
-                'id' => 983,
-                'user_id' => 1,
+                'id' => '983',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:52',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8483,8 +8483,8 @@ class LogsTableSeeder extends Seeder
             ),
             440 => 
             array (
-                'id' => 984,
-                'user_id' => 1,
+                'id' => '984',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:52',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8492,8 +8492,8 @@ class LogsTableSeeder extends Seeder
             ),
             441 => 
             array (
-                'id' => 985,
-                'user_id' => 1,
+                'id' => '985',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:53',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8501,8 +8501,8 @@ class LogsTableSeeder extends Seeder
             ),
             442 => 
             array (
-                'id' => 986,
-                'user_id' => 1,
+                'id' => '986',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:53',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8510,8 +8510,8 @@ class LogsTableSeeder extends Seeder
             ),
             443 => 
             array (
-                'id' => 987,
-                'user_id' => 1,
+                'id' => '987',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:53',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8519,8 +8519,8 @@ class LogsTableSeeder extends Seeder
             ),
             444 => 
             array (
-                'id' => 988,
-                'user_id' => 1,
+                'id' => '988',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:53',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8528,8 +8528,8 @@ class LogsTableSeeder extends Seeder
             ),
             445 => 
             array (
-                'id' => 989,
-                'user_id' => 1,
+                'id' => '989',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:54',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8537,8 +8537,8 @@ class LogsTableSeeder extends Seeder
             ),
             446 => 
             array (
-                'id' => 990,
-                'user_id' => 1,
+                'id' => '990',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:54',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8546,8 +8546,8 @@ class LogsTableSeeder extends Seeder
             ),
             447 => 
             array (
-                'id' => 991,
-                'user_id' => 1,
+                'id' => '991',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:54',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8555,8 +8555,8 @@ class LogsTableSeeder extends Seeder
             ),
             448 => 
             array (
-                'id' => 992,
-                'user_id' => 1,
+                'id' => '992',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:55',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8564,8 +8564,8 @@ class LogsTableSeeder extends Seeder
             ),
             449 => 
             array (
-                'id' => 993,
-                'user_id' => 1,
+                'id' => '993',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:55',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8573,8 +8573,8 @@ class LogsTableSeeder extends Seeder
             ),
             450 => 
             array (
-                'id' => 994,
-                'user_id' => 1,
+                'id' => '994',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:55',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8582,8 +8582,8 @@ class LogsTableSeeder extends Seeder
             ),
             451 => 
             array (
-                'id' => 995,
-                'user_id' => 1,
+                'id' => '995',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:56',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8591,8 +8591,8 @@ class LogsTableSeeder extends Seeder
             ),
             452 => 
             array (
-                'id' => 996,
-                'user_id' => 1,
+                'id' => '996',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:56',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8600,8 +8600,8 @@ class LogsTableSeeder extends Seeder
             ),
             453 => 
             array (
-                'id' => 997,
-                'user_id' => 1,
+                'id' => '997',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:56',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8609,8 +8609,8 @@ class LogsTableSeeder extends Seeder
             ),
             454 => 
             array (
-                'id' => 998,
-                'user_id' => 1,
+                'id' => '998',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:57',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8618,8 +8618,8 @@ class LogsTableSeeder extends Seeder
             ),
             455 => 
             array (
-                'id' => 999,
-                'user_id' => 1,
+                'id' => '999',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:57',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8627,8 +8627,8 @@ class LogsTableSeeder extends Seeder
             ),
             456 => 
             array (
-                'id' => 1000,
-                'user_id' => 1,
+                'id' => '1000',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:57',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8636,8 +8636,8 @@ class LogsTableSeeder extends Seeder
             ),
             457 => 
             array (
-                'id' => 1001,
-                'user_id' => 1,
+                'id' => '1001',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:58',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8645,8 +8645,8 @@ class LogsTableSeeder extends Seeder
             ),
             458 => 
             array (
-                'id' => 1002,
-                'user_id' => 1,
+                'id' => '1002',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:58',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8654,8 +8654,8 @@ class LogsTableSeeder extends Seeder
             ),
             459 => 
             array (
-                'id' => 1003,
-                'user_id' => 1,
+                'id' => '1003',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:58',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8663,8 +8663,8 @@ class LogsTableSeeder extends Seeder
             ),
             460 => 
             array (
-                'id' => 1004,
-                'user_id' => 1,
+                'id' => '1004',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:59',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8672,8 +8672,8 @@ class LogsTableSeeder extends Seeder
             ),
             461 => 
             array (
-                'id' => 1005,
-                'user_id' => 1,
+                'id' => '1005',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:59',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8681,8 +8681,8 @@ class LogsTableSeeder extends Seeder
             ),
             462 => 
             array (
-                'id' => 1006,
-                'user_id' => 1,
+                'id' => '1006',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:59',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8690,8 +8690,8 @@ class LogsTableSeeder extends Seeder
             ),
             463 => 
             array (
-                'id' => 1007,
-                'user_id' => 1,
+                'id' => '1007',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:24:59',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8699,8 +8699,8 @@ class LogsTableSeeder extends Seeder
             ),
             464 => 
             array (
-                'id' => 1008,
-                'user_id' => 1,
+                'id' => '1008',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:00',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8708,8 +8708,8 @@ class LogsTableSeeder extends Seeder
             ),
             465 => 
             array (
-                'id' => 1009,
-                'user_id' => 1,
+                'id' => '1009',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:00',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8717,8 +8717,8 @@ class LogsTableSeeder extends Seeder
             ),
             466 => 
             array (
-                'id' => 1010,
-                'user_id' => 1,
+                'id' => '1010',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:00',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8726,8 +8726,8 @@ class LogsTableSeeder extends Seeder
             ),
             467 => 
             array (
-                'id' => 1011,
-                'user_id' => 1,
+                'id' => '1011',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:01',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8735,8 +8735,8 @@ class LogsTableSeeder extends Seeder
             ),
             468 => 
             array (
-                'id' => 1012,
-                'user_id' => 1,
+                'id' => '1012',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:01',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8744,8 +8744,8 @@ class LogsTableSeeder extends Seeder
             ),
             469 => 
             array (
-                'id' => 1013,
-                'user_id' => 1,
+                'id' => '1013',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:01',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8753,8 +8753,8 @@ class LogsTableSeeder extends Seeder
             ),
             470 => 
             array (
-                'id' => 1014,
-                'user_id' => 1,
+                'id' => '1014',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:02',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8762,8 +8762,8 @@ class LogsTableSeeder extends Seeder
             ),
             471 => 
             array (
-                'id' => 1015,
-                'user_id' => 1,
+                'id' => '1015',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:02',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8771,8 +8771,8 @@ class LogsTableSeeder extends Seeder
             ),
             472 => 
             array (
-                'id' => 1016,
-                'user_id' => 1,
+                'id' => '1016',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:02',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8780,8 +8780,8 @@ class LogsTableSeeder extends Seeder
             ),
             473 => 
             array (
-                'id' => 1017,
-                'user_id' => 1,
+                'id' => '1017',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:02',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8789,8 +8789,8 @@ class LogsTableSeeder extends Seeder
             ),
             474 => 
             array (
-                'id' => 1018,
-                'user_id' => 1,
+                'id' => '1018',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:03',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8798,8 +8798,8 @@ class LogsTableSeeder extends Seeder
             ),
             475 => 
             array (
-                'id' => 1019,
-                'user_id' => 1,
+                'id' => '1019',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:03',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8807,8 +8807,8 @@ class LogsTableSeeder extends Seeder
             ),
             476 => 
             array (
-                'id' => 1020,
-                'user_id' => 1,
+                'id' => '1020',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:03',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8816,8 +8816,8 @@ class LogsTableSeeder extends Seeder
             ),
             477 => 
             array (
-                'id' => 1021,
-                'user_id' => 1,
+                'id' => '1021',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:04',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8825,8 +8825,8 @@ class LogsTableSeeder extends Seeder
             ),
             478 => 
             array (
-                'id' => 1022,
-                'user_id' => 1,
+                'id' => '1022',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:04',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8834,8 +8834,8 @@ class LogsTableSeeder extends Seeder
             ),
             479 => 
             array (
-                'id' => 1023,
-                'user_id' => 1,
+                'id' => '1023',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:04',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8843,8 +8843,8 @@ class LogsTableSeeder extends Seeder
             ),
             480 => 
             array (
-                'id' => 1024,
-                'user_id' => 1,
+                'id' => '1024',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:04',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8852,8 +8852,8 @@ class LogsTableSeeder extends Seeder
             ),
             481 => 
             array (
-                'id' => 1025,
-                'user_id' => 1,
+                'id' => '1025',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:05',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8861,8 +8861,8 @@ class LogsTableSeeder extends Seeder
             ),
             482 => 
             array (
-                'id' => 1026,
-                'user_id' => 1,
+                'id' => '1026',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:05',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8870,8 +8870,8 @@ class LogsTableSeeder extends Seeder
             ),
             483 => 
             array (
-                'id' => 1027,
-                'user_id' => 1,
+                'id' => '1027',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:05',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8879,8 +8879,8 @@ class LogsTableSeeder extends Seeder
             ),
             484 => 
             array (
-                'id' => 1028,
-                'user_id' => 1,
+                'id' => '1028',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:06',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8888,8 +8888,8 @@ class LogsTableSeeder extends Seeder
             ),
             485 => 
             array (
-                'id' => 1029,
-                'user_id' => 1,
+                'id' => '1029',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:06',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8897,8 +8897,8 @@ class LogsTableSeeder extends Seeder
             ),
             486 => 
             array (
-                'id' => 1030,
-                'user_id' => 1,
+                'id' => '1030',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:07',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8906,8 +8906,8 @@ class LogsTableSeeder extends Seeder
             ),
             487 => 
             array (
-                'id' => 1031,
-                'user_id' => 1,
+                'id' => '1031',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:07',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8915,8 +8915,8 @@ class LogsTableSeeder extends Seeder
             ),
             488 => 
             array (
-                'id' => 1032,
-                'user_id' => 1,
+                'id' => '1032',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:07',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8924,8 +8924,8 @@ class LogsTableSeeder extends Seeder
             ),
             489 => 
             array (
-                'id' => 1033,
-                'user_id' => 1,
+                'id' => '1033',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:08',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8933,8 +8933,8 @@ class LogsTableSeeder extends Seeder
             ),
             490 => 
             array (
-                'id' => 1034,
-                'user_id' => 1,
+                'id' => '1034',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:08',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8942,8 +8942,8 @@ class LogsTableSeeder extends Seeder
             ),
             491 => 
             array (
-                'id' => 1035,
-                'user_id' => 1,
+                'id' => '1035',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:08',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8951,8 +8951,8 @@ class LogsTableSeeder extends Seeder
             ),
             492 => 
             array (
-                'id' => 1036,
-                'user_id' => 1,
+                'id' => '1036',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:08',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8960,8 +8960,8 @@ class LogsTableSeeder extends Seeder
             ),
             493 => 
             array (
-                'id' => 1037,
-                'user_id' => 1,
+                'id' => '1037',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:09',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8969,8 +8969,8 @@ class LogsTableSeeder extends Seeder
             ),
             494 => 
             array (
-                'id' => 1038,
-                'user_id' => 1,
+                'id' => '1038',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:09',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8978,8 +8978,8 @@ class LogsTableSeeder extends Seeder
             ),
             495 => 
             array (
-                'id' => 1039,
-                'user_id' => 1,
+                'id' => '1039',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:09',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8987,8 +8987,8 @@ class LogsTableSeeder extends Seeder
             ),
             496 => 
             array (
-                'id' => 1040,
-                'user_id' => 1,
+                'id' => '1040',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:10',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -8996,8 +8996,8 @@ class LogsTableSeeder extends Seeder
             ),
             497 => 
             array (
-                'id' => 1041,
-                'user_id' => 1,
+                'id' => '1041',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:10',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9005,8 +9005,8 @@ class LogsTableSeeder extends Seeder
             ),
             498 => 
             array (
-                'id' => 1042,
-                'user_id' => 1,
+                'id' => '1042',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:10',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9014,8 +9014,8 @@ class LogsTableSeeder extends Seeder
             ),
             499 => 
             array (
-                'id' => 1043,
-                'user_id' => 1,
+                'id' => '1043',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:10',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9025,8 +9025,8 @@ class LogsTableSeeder extends Seeder
         \DB::table('logs')->insert(array (
             0 => 
             array (
-                'id' => 1044,
-                'user_id' => 1,
+                'id' => '1044',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:11',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9034,8 +9034,8 @@ class LogsTableSeeder extends Seeder
             ),
             1 => 
             array (
-                'id' => 1045,
-                'user_id' => 1,
+                'id' => '1045',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:11',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9043,8 +9043,8 @@ class LogsTableSeeder extends Seeder
             ),
             2 => 
             array (
-                'id' => 1046,
-                'user_id' => 1,
+                'id' => '1046',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:11',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9052,8 +9052,8 @@ class LogsTableSeeder extends Seeder
             ),
             3 => 
             array (
-                'id' => 1047,
-                'user_id' => 1,
+                'id' => '1047',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:12',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9061,8 +9061,8 @@ class LogsTableSeeder extends Seeder
             ),
             4 => 
             array (
-                'id' => 1048,
-                'user_id' => 1,
+                'id' => '1048',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:12',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9070,8 +9070,8 @@ class LogsTableSeeder extends Seeder
             ),
             5 => 
             array (
-                'id' => 1049,
-                'user_id' => 1,
+                'id' => '1049',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:12',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9079,8 +9079,8 @@ class LogsTableSeeder extends Seeder
             ),
             6 => 
             array (
-                'id' => 1050,
-                'user_id' => 1,
+                'id' => '1050',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:13',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9088,8 +9088,8 @@ class LogsTableSeeder extends Seeder
             ),
             7 => 
             array (
-                'id' => 1051,
-                'user_id' => 1,
+                'id' => '1051',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:13',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9097,8 +9097,8 @@ class LogsTableSeeder extends Seeder
             ),
             8 => 
             array (
-                'id' => 1052,
-                'user_id' => 1,
+                'id' => '1052',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:13',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9106,8 +9106,8 @@ class LogsTableSeeder extends Seeder
             ),
             9 => 
             array (
-                'id' => 1053,
-                'user_id' => 1,
+                'id' => '1053',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:14',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9115,8 +9115,8 @@ class LogsTableSeeder extends Seeder
             ),
             10 => 
             array (
-                'id' => 1054,
-                'user_id' => 1,
+                'id' => '1054',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:14',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9124,8 +9124,8 @@ class LogsTableSeeder extends Seeder
             ),
             11 => 
             array (
-                'id' => 1055,
-                'user_id' => 1,
+                'id' => '1055',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:14',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9133,8 +9133,8 @@ class LogsTableSeeder extends Seeder
             ),
             12 => 
             array (
-                'id' => 1056,
-                'user_id' => 1,
+                'id' => '1056',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:14',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9142,8 +9142,8 @@ class LogsTableSeeder extends Seeder
             ),
             13 => 
             array (
-                'id' => 1057,
-                'user_id' => 1,
+                'id' => '1057',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:15',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9151,8 +9151,8 @@ class LogsTableSeeder extends Seeder
             ),
             14 => 
             array (
-                'id' => 1058,
-                'user_id' => 1,
+                'id' => '1058',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:15',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9160,8 +9160,8 @@ class LogsTableSeeder extends Seeder
             ),
             15 => 
             array (
-                'id' => 1059,
-                'user_id' => 1,
+                'id' => '1059',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:15',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9169,8 +9169,8 @@ class LogsTableSeeder extends Seeder
             ),
             16 => 
             array (
-                'id' => 1060,
-                'user_id' => 1,
+                'id' => '1060',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:16',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9178,8 +9178,8 @@ class LogsTableSeeder extends Seeder
             ),
             17 => 
             array (
-                'id' => 1061,
-                'user_id' => 1,
+                'id' => '1061',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:16',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9187,8 +9187,8 @@ class LogsTableSeeder extends Seeder
             ),
             18 => 
             array (
-                'id' => 1062,
-                'user_id' => 1,
+                'id' => '1062',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:16',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9196,8 +9196,8 @@ class LogsTableSeeder extends Seeder
             ),
             19 => 
             array (
-                'id' => 1063,
-                'user_id' => 1,
+                'id' => '1063',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:16',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9205,8 +9205,8 @@ class LogsTableSeeder extends Seeder
             ),
             20 => 
             array (
-                'id' => 1064,
-                'user_id' => 1,
+                'id' => '1064',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:17',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9214,8 +9214,8 @@ class LogsTableSeeder extends Seeder
             ),
             21 => 
             array (
-                'id' => 1065,
-                'user_id' => 1,
+                'id' => '1065',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:17',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9223,8 +9223,8 @@ class LogsTableSeeder extends Seeder
             ),
             22 => 
             array (
-                'id' => 1066,
-                'user_id' => 1,
+                'id' => '1066',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:17',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9232,8 +9232,8 @@ class LogsTableSeeder extends Seeder
             ),
             23 => 
             array (
-                'id' => 1067,
-                'user_id' => 1,
+                'id' => '1067',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:18',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9241,8 +9241,8 @@ class LogsTableSeeder extends Seeder
             ),
             24 => 
             array (
-                'id' => 1068,
-                'user_id' => 1,
+                'id' => '1068',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:18',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9250,8 +9250,8 @@ class LogsTableSeeder extends Seeder
             ),
             25 => 
             array (
-                'id' => 1069,
-                'user_id' => 1,
+                'id' => '1069',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:18',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9259,8 +9259,8 @@ class LogsTableSeeder extends Seeder
             ),
             26 => 
             array (
-                'id' => 1070,
-                'user_id' => 1,
+                'id' => '1070',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:19',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9268,8 +9268,8 @@ class LogsTableSeeder extends Seeder
             ),
             27 => 
             array (
-                'id' => 1071,
-                'user_id' => 1,
+                'id' => '1071',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:19',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9277,8 +9277,8 @@ class LogsTableSeeder extends Seeder
             ),
             28 => 
             array (
-                'id' => 1072,
-                'user_id' => 1,
+                'id' => '1072',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:19',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9286,8 +9286,8 @@ class LogsTableSeeder extends Seeder
             ),
             29 => 
             array (
-                'id' => 1073,
-                'user_id' => 1,
+                'id' => '1073',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:19',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9295,8 +9295,8 @@ class LogsTableSeeder extends Seeder
             ),
             30 => 
             array (
-                'id' => 1074,
-                'user_id' => 1,
+                'id' => '1074',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:20',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9304,8 +9304,8 @@ class LogsTableSeeder extends Seeder
             ),
             31 => 
             array (
-                'id' => 1075,
-                'user_id' => 1,
+                'id' => '1075',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:20',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9313,8 +9313,8 @@ class LogsTableSeeder extends Seeder
             ),
             32 => 
             array (
-                'id' => 1076,
-                'user_id' => 1,
+                'id' => '1076',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:20',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9322,8 +9322,8 @@ class LogsTableSeeder extends Seeder
             ),
             33 => 
             array (
-                'id' => 1077,
-                'user_id' => 1,
+                'id' => '1077',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:21',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9331,8 +9331,8 @@ class LogsTableSeeder extends Seeder
             ),
             34 => 
             array (
-                'id' => 1078,
-                'user_id' => 1,
+                'id' => '1078',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:21',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9340,8 +9340,8 @@ class LogsTableSeeder extends Seeder
             ),
             35 => 
             array (
-                'id' => 1079,
-                'user_id' => 1,
+                'id' => '1079',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:21',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9349,8 +9349,8 @@ class LogsTableSeeder extends Seeder
             ),
             36 => 
             array (
-                'id' => 1080,
-                'user_id' => 1,
+                'id' => '1080',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:22',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9358,8 +9358,8 @@ class LogsTableSeeder extends Seeder
             ),
             37 => 
             array (
-                'id' => 1081,
-                'user_id' => 1,
+                'id' => '1081',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:22',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9367,8 +9367,8 @@ class LogsTableSeeder extends Seeder
             ),
             38 => 
             array (
-                'id' => 1082,
-                'user_id' => 1,
+                'id' => '1082',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:22',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9376,8 +9376,8 @@ class LogsTableSeeder extends Seeder
             ),
             39 => 
             array (
-                'id' => 1083,
-                'user_id' => 1,
+                'id' => '1083',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:23',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9385,8 +9385,8 @@ class LogsTableSeeder extends Seeder
             ),
             40 => 
             array (
-                'id' => 1084,
-                'user_id' => 1,
+                'id' => '1084',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:23',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9394,8 +9394,8 @@ class LogsTableSeeder extends Seeder
             ),
             41 => 
             array (
-                'id' => 1085,
-                'user_id' => 1,
+                'id' => '1085',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:23',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9403,8 +9403,8 @@ class LogsTableSeeder extends Seeder
             ),
             42 => 
             array (
-                'id' => 1086,
-                'user_id' => 1,
+                'id' => '1086',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:24',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9412,8 +9412,8 @@ class LogsTableSeeder extends Seeder
             ),
             43 => 
             array (
-                'id' => 1087,
-                'user_id' => 1,
+                'id' => '1087',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:24',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9421,8 +9421,8 @@ class LogsTableSeeder extends Seeder
             ),
             44 => 
             array (
-                'id' => 1088,
-                'user_id' => 1,
+                'id' => '1088',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:24',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9430,8 +9430,8 @@ class LogsTableSeeder extends Seeder
             ),
             45 => 
             array (
-                'id' => 1089,
-                'user_id' => 1,
+                'id' => '1089',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:25',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9439,8 +9439,8 @@ class LogsTableSeeder extends Seeder
             ),
             46 => 
             array (
-                'id' => 1090,
-                'user_id' => 1,
+                'id' => '1090',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:25',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9448,8 +9448,8 @@ class LogsTableSeeder extends Seeder
             ),
             47 => 
             array (
-                'id' => 1091,
-                'user_id' => 1,
+                'id' => '1091',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:25',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9457,8 +9457,8 @@ class LogsTableSeeder extends Seeder
             ),
             48 => 
             array (
-                'id' => 1092,
-                'user_id' => 1,
+                'id' => '1092',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:26',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9466,8 +9466,8 @@ class LogsTableSeeder extends Seeder
             ),
             49 => 
             array (
-                'id' => 1093,
-                'user_id' => 1,
+                'id' => '1093',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:26',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9475,8 +9475,8 @@ class LogsTableSeeder extends Seeder
             ),
             50 => 
             array (
-                'id' => 1094,
-                'user_id' => 1,
+                'id' => '1094',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:26',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9484,8 +9484,8 @@ class LogsTableSeeder extends Seeder
             ),
             51 => 
             array (
-                'id' => 1095,
-                'user_id' => 1,
+                'id' => '1095',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:26',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9493,8 +9493,8 @@ class LogsTableSeeder extends Seeder
             ),
             52 => 
             array (
-                'id' => 1096,
-                'user_id' => 1,
+                'id' => '1096',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:27',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9502,8 +9502,8 @@ class LogsTableSeeder extends Seeder
             ),
             53 => 
             array (
-                'id' => 1097,
-                'user_id' => 1,
+                'id' => '1097',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:27',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9511,8 +9511,8 @@ class LogsTableSeeder extends Seeder
             ),
             54 => 
             array (
-                'id' => 1098,
-                'user_id' => 1,
+                'id' => '1098',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:27',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9520,8 +9520,8 @@ class LogsTableSeeder extends Seeder
             ),
             55 => 
             array (
-                'id' => 1099,
-                'user_id' => 1,
+                'id' => '1099',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:28',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9529,8 +9529,8 @@ class LogsTableSeeder extends Seeder
             ),
             56 => 
             array (
-                'id' => 1100,
-                'user_id' => 1,
+                'id' => '1100',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:28',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9538,8 +9538,8 @@ class LogsTableSeeder extends Seeder
             ),
             57 => 
             array (
-                'id' => 1101,
-                'user_id' => 1,
+                'id' => '1101',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:28',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9547,8 +9547,8 @@ class LogsTableSeeder extends Seeder
             ),
             58 => 
             array (
-                'id' => 1102,
-                'user_id' => 1,
+                'id' => '1102',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:29',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9556,8 +9556,8 @@ class LogsTableSeeder extends Seeder
             ),
             59 => 
             array (
-                'id' => 1103,
-                'user_id' => 1,
+                'id' => '1103',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:29',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9565,8 +9565,8 @@ class LogsTableSeeder extends Seeder
             ),
             60 => 
             array (
-                'id' => 1104,
-                'user_id' => 1,
+                'id' => '1104',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:29',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9574,8 +9574,8 @@ class LogsTableSeeder extends Seeder
             ),
             61 => 
             array (
-                'id' => 1105,
-                'user_id' => 1,
+                'id' => '1105',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:29',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9583,8 +9583,8 @@ class LogsTableSeeder extends Seeder
             ),
             62 => 
             array (
-                'id' => 1106,
-                'user_id' => 1,
+                'id' => '1106',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:30',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9592,8 +9592,8 @@ class LogsTableSeeder extends Seeder
             ),
             63 => 
             array (
-                'id' => 1107,
-                'user_id' => 1,
+                'id' => '1107',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:30',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9601,8 +9601,8 @@ class LogsTableSeeder extends Seeder
             ),
             64 => 
             array (
-                'id' => 1108,
-                'user_id' => 1,
+                'id' => '1108',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:30',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9610,8 +9610,8 @@ class LogsTableSeeder extends Seeder
             ),
             65 => 
             array (
-                'id' => 1109,
-                'user_id' => 1,
+                'id' => '1109',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:31',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9619,8 +9619,8 @@ class LogsTableSeeder extends Seeder
             ),
             66 => 
             array (
-                'id' => 1110,
-                'user_id' => 1,
+                'id' => '1110',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:31',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9628,8 +9628,8 @@ class LogsTableSeeder extends Seeder
             ),
             67 => 
             array (
-                'id' => 1111,
-                'user_id' => 1,
+                'id' => '1111',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:31',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9637,8 +9637,8 @@ class LogsTableSeeder extends Seeder
             ),
             68 => 
             array (
-                'id' => 1112,
-                'user_id' => 1,
+                'id' => '1112',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:31',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9646,8 +9646,8 @@ class LogsTableSeeder extends Seeder
             ),
             69 => 
             array (
-                'id' => 1113,
-                'user_id' => 1,
+                'id' => '1113',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:32',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9655,8 +9655,8 @@ class LogsTableSeeder extends Seeder
             ),
             70 => 
             array (
-                'id' => 1114,
-                'user_id' => 1,
+                'id' => '1114',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:32',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9664,8 +9664,8 @@ class LogsTableSeeder extends Seeder
             ),
             71 => 
             array (
-                'id' => 1115,
-                'user_id' => 1,
+                'id' => '1115',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:32',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9673,8 +9673,8 @@ class LogsTableSeeder extends Seeder
             ),
             72 => 
             array (
-                'id' => 1116,
-                'user_id' => 1,
+                'id' => '1116',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:33',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9682,8 +9682,8 @@ class LogsTableSeeder extends Seeder
             ),
             73 => 
             array (
-                'id' => 1117,
-                'user_id' => 1,
+                'id' => '1117',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:33',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9691,8 +9691,8 @@ class LogsTableSeeder extends Seeder
             ),
             74 => 
             array (
-                'id' => 1118,
-                'user_id' => 1,
+                'id' => '1118',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:33',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9700,8 +9700,8 @@ class LogsTableSeeder extends Seeder
             ),
             75 => 
             array (
-                'id' => 1119,
-                'user_id' => 1,
+                'id' => '1119',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:33',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9709,8 +9709,8 @@ class LogsTableSeeder extends Seeder
             ),
             76 => 
             array (
-                'id' => 1120,
-                'user_id' => 1,
+                'id' => '1120',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:34',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9718,8 +9718,8 @@ class LogsTableSeeder extends Seeder
             ),
             77 => 
             array (
-                'id' => 1121,
-                'user_id' => 1,
+                'id' => '1121',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:34',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9727,8 +9727,8 @@ class LogsTableSeeder extends Seeder
             ),
             78 => 
             array (
-                'id' => 1122,
-                'user_id' => 1,
+                'id' => '1122',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:34',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9736,8 +9736,8 @@ class LogsTableSeeder extends Seeder
             ),
             79 => 
             array (
-                'id' => 1123,
-                'user_id' => 1,
+                'id' => '1123',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:35',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9745,8 +9745,8 @@ class LogsTableSeeder extends Seeder
             ),
             80 => 
             array (
-                'id' => 1124,
-                'user_id' => 1,
+                'id' => '1124',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:35',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9754,8 +9754,8 @@ class LogsTableSeeder extends Seeder
             ),
             81 => 
             array (
-                'id' => 1125,
-                'user_id' => 1,
+                'id' => '1125',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:35',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9763,8 +9763,8 @@ class LogsTableSeeder extends Seeder
             ),
             82 => 
             array (
-                'id' => 1126,
-                'user_id' => 1,
+                'id' => '1126',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:36',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9772,8 +9772,8 @@ class LogsTableSeeder extends Seeder
             ),
             83 => 
             array (
-                'id' => 1127,
-                'user_id' => 1,
+                'id' => '1127',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:36',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9781,8 +9781,8 @@ class LogsTableSeeder extends Seeder
             ),
             84 => 
             array (
-                'id' => 1128,
-                'user_id' => 1,
+                'id' => '1128',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:36',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9790,8 +9790,8 @@ class LogsTableSeeder extends Seeder
             ),
             85 => 
             array (
-                'id' => 1129,
-                'user_id' => 1,
+                'id' => '1129',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:36',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9799,8 +9799,8 @@ class LogsTableSeeder extends Seeder
             ),
             86 => 
             array (
-                'id' => 1130,
-                'user_id' => 1,
+                'id' => '1130',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:37',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9808,8 +9808,8 @@ class LogsTableSeeder extends Seeder
             ),
             87 => 
             array (
-                'id' => 1131,
-                'user_id' => 1,
+                'id' => '1131',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:37',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9817,8 +9817,8 @@ class LogsTableSeeder extends Seeder
             ),
             88 => 
             array (
-                'id' => 1132,
-                'user_id' => 1,
+                'id' => '1132',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:37',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9826,8 +9826,8 @@ class LogsTableSeeder extends Seeder
             ),
             89 => 
             array (
-                'id' => 1133,
-                'user_id' => 1,
+                'id' => '1133',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:38',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9835,8 +9835,8 @@ class LogsTableSeeder extends Seeder
             ),
             90 => 
             array (
-                'id' => 1134,
-                'user_id' => 1,
+                'id' => '1134',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:38',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9844,8 +9844,8 @@ class LogsTableSeeder extends Seeder
             ),
             91 => 
             array (
-                'id' => 1135,
-                'user_id' => 1,
+                'id' => '1135',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:38',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9853,8 +9853,8 @@ class LogsTableSeeder extends Seeder
             ),
             92 => 
             array (
-                'id' => 1136,
-                'user_id' => 1,
+                'id' => '1136',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:39',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9862,8 +9862,8 @@ class LogsTableSeeder extends Seeder
             ),
             93 => 
             array (
-                'id' => 1137,
-                'user_id' => 1,
+                'id' => '1137',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:39',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9871,8 +9871,8 @@ class LogsTableSeeder extends Seeder
             ),
             94 => 
             array (
-                'id' => 1138,
-                'user_id' => 1,
+                'id' => '1138',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:39',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9880,8 +9880,8 @@ class LogsTableSeeder extends Seeder
             ),
             95 => 
             array (
-                'id' => 1139,
-                'user_id' => 1,
+                'id' => '1139',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:39',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9889,8 +9889,8 @@ class LogsTableSeeder extends Seeder
             ),
             96 => 
             array (
-                'id' => 1140,
-                'user_id' => 1,
+                'id' => '1140',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:40',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9898,8 +9898,8 @@ class LogsTableSeeder extends Seeder
             ),
             97 => 
             array (
-                'id' => 1141,
-                'user_id' => 1,
+                'id' => '1141',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:40',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9907,8 +9907,8 @@ class LogsTableSeeder extends Seeder
             ),
             98 => 
             array (
-                'id' => 1142,
-                'user_id' => 1,
+                'id' => '1142',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:40',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9916,8 +9916,8 @@ class LogsTableSeeder extends Seeder
             ),
             99 => 
             array (
-                'id' => 1143,
-                'user_id' => 1,
+                'id' => '1143',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:41',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9925,8 +9925,8 @@ class LogsTableSeeder extends Seeder
             ),
             100 => 
             array (
-                'id' => 1144,
-                'user_id' => 1,
+                'id' => '1144',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:41',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9934,8 +9934,8 @@ class LogsTableSeeder extends Seeder
             ),
             101 => 
             array (
-                'id' => 1145,
-                'user_id' => 1,
+                'id' => '1145',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:41',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9943,8 +9943,8 @@ class LogsTableSeeder extends Seeder
             ),
             102 => 
             array (
-                'id' => 1146,
-                'user_id' => 1,
+                'id' => '1146',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:41',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9952,8 +9952,8 @@ class LogsTableSeeder extends Seeder
             ),
             103 => 
             array (
-                'id' => 1147,
-                'user_id' => 1,
+                'id' => '1147',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:42',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9961,8 +9961,8 @@ class LogsTableSeeder extends Seeder
             ),
             104 => 
             array (
-                'id' => 1148,
-                'user_id' => 1,
+                'id' => '1148',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:42',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9970,8 +9970,8 @@ class LogsTableSeeder extends Seeder
             ),
             105 => 
             array (
-                'id' => 1149,
-                'user_id' => 1,
+                'id' => '1149',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:42',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9979,8 +9979,8 @@ class LogsTableSeeder extends Seeder
             ),
             106 => 
             array (
-                'id' => 1150,
-                'user_id' => 1,
+                'id' => '1150',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:43',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9988,8 +9988,8 @@ class LogsTableSeeder extends Seeder
             ),
             107 => 
             array (
-                'id' => 1151,
-                'user_id' => 1,
+                'id' => '1151',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:43',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -9997,8 +9997,8 @@ class LogsTableSeeder extends Seeder
             ),
             108 => 
             array (
-                'id' => 1152,
-                'user_id' => 1,
+                'id' => '1152',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:43',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10006,8 +10006,8 @@ class LogsTableSeeder extends Seeder
             ),
             109 => 
             array (
-                'id' => 1153,
-                'user_id' => 1,
+                'id' => '1153',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:43',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10015,8 +10015,8 @@ class LogsTableSeeder extends Seeder
             ),
             110 => 
             array (
-                'id' => 1154,
-                'user_id' => 1,
+                'id' => '1154',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:44',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10024,8 +10024,8 @@ class LogsTableSeeder extends Seeder
             ),
             111 => 
             array (
-                'id' => 1155,
-                'user_id' => 1,
+                'id' => '1155',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:44',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10033,8 +10033,8 @@ class LogsTableSeeder extends Seeder
             ),
             112 => 
             array (
-                'id' => 1156,
-                'user_id' => 1,
+                'id' => '1156',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:44',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10042,8 +10042,8 @@ class LogsTableSeeder extends Seeder
             ),
             113 => 
             array (
-                'id' => 1157,
-                'user_id' => 1,
+                'id' => '1157',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:45',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10051,8 +10051,8 @@ class LogsTableSeeder extends Seeder
             ),
             114 => 
             array (
-                'id' => 1158,
-                'user_id' => 1,
+                'id' => '1158',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:45',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10060,8 +10060,8 @@ class LogsTableSeeder extends Seeder
             ),
             115 => 
             array (
-                'id' => 1159,
-                'user_id' => 1,
+                'id' => '1159',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:45',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10069,8 +10069,8 @@ class LogsTableSeeder extends Seeder
             ),
             116 => 
             array (
-                'id' => 1160,
-                'user_id' => 1,
+                'id' => '1160',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:46',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10078,8 +10078,8 @@ class LogsTableSeeder extends Seeder
             ),
             117 => 
             array (
-                'id' => 1161,
-                'user_id' => 1,
+                'id' => '1161',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:46',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10087,8 +10087,8 @@ class LogsTableSeeder extends Seeder
             ),
             118 => 
             array (
-                'id' => 1162,
-                'user_id' => 1,
+                'id' => '1162',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:46',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10096,8 +10096,8 @@ class LogsTableSeeder extends Seeder
             ),
             119 => 
             array (
-                'id' => 1163,
-                'user_id' => 1,
+                'id' => '1163',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:47',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10105,8 +10105,8 @@ class LogsTableSeeder extends Seeder
             ),
             120 => 
             array (
-                'id' => 1164,
-                'user_id' => 1,
+                'id' => '1164',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:47',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10114,8 +10114,8 @@ class LogsTableSeeder extends Seeder
             ),
             121 => 
             array (
-                'id' => 1165,
-                'user_id' => 1,
+                'id' => '1165',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:47',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10123,8 +10123,8 @@ class LogsTableSeeder extends Seeder
             ),
             122 => 
             array (
-                'id' => 1166,
-                'user_id' => 1,
+                'id' => '1166',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:48',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10132,8 +10132,8 @@ class LogsTableSeeder extends Seeder
             ),
             123 => 
             array (
-                'id' => 1167,
-                'user_id' => 1,
+                'id' => '1167',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:48',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10141,8 +10141,8 @@ class LogsTableSeeder extends Seeder
             ),
             124 => 
             array (
-                'id' => 1168,
-                'user_id' => 1,
+                'id' => '1168',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:48',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10150,8 +10150,8 @@ class LogsTableSeeder extends Seeder
             ),
             125 => 
             array (
-                'id' => 1169,
-                'user_id' => 1,
+                'id' => '1169',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:49',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10159,8 +10159,8 @@ class LogsTableSeeder extends Seeder
             ),
             126 => 
             array (
-                'id' => 1170,
-                'user_id' => 1,
+                'id' => '1170',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:49',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10168,8 +10168,8 @@ class LogsTableSeeder extends Seeder
             ),
             127 => 
             array (
-                'id' => 1171,
-                'user_id' => 1,
+                'id' => '1171',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:49',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10177,8 +10177,8 @@ class LogsTableSeeder extends Seeder
             ),
             128 => 
             array (
-                'id' => 1172,
-                'user_id' => 1,
+                'id' => '1172',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:49',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10186,8 +10186,8 @@ class LogsTableSeeder extends Seeder
             ),
             129 => 
             array (
-                'id' => 1173,
-                'user_id' => 1,
+                'id' => '1173',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:50',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10195,8 +10195,8 @@ class LogsTableSeeder extends Seeder
             ),
             130 => 
             array (
-                'id' => 1174,
-                'user_id' => 1,
+                'id' => '1174',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:50',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10204,8 +10204,8 @@ class LogsTableSeeder extends Seeder
             ),
             131 => 
             array (
-                'id' => 1175,
-                'user_id' => 1,
+                'id' => '1175',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:50',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10213,8 +10213,8 @@ class LogsTableSeeder extends Seeder
             ),
             132 => 
             array (
-                'id' => 1176,
-                'user_id' => 1,
+                'id' => '1176',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:51',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10222,8 +10222,8 @@ class LogsTableSeeder extends Seeder
             ),
             133 => 
             array (
-                'id' => 1177,
-                'user_id' => 1,
+                'id' => '1177',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:51',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10231,8 +10231,8 @@ class LogsTableSeeder extends Seeder
             ),
             134 => 
             array (
-                'id' => 1178,
-                'user_id' => 1,
+                'id' => '1178',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:51',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10240,8 +10240,8 @@ class LogsTableSeeder extends Seeder
             ),
             135 => 
             array (
-                'id' => 1179,
-                'user_id' => 1,
+                'id' => '1179',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:52',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10249,8 +10249,8 @@ class LogsTableSeeder extends Seeder
             ),
             136 => 
             array (
-                'id' => 1180,
-                'user_id' => 1,
+                'id' => '1180',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:52',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10258,8 +10258,8 @@ class LogsTableSeeder extends Seeder
             ),
             137 => 
             array (
-                'id' => 1181,
-                'user_id' => 1,
+                'id' => '1181',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:52',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10267,8 +10267,8 @@ class LogsTableSeeder extends Seeder
             ),
             138 => 
             array (
-                'id' => 1182,
-                'user_id' => 1,
+                'id' => '1182',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:52',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10276,8 +10276,8 @@ class LogsTableSeeder extends Seeder
             ),
             139 => 
             array (
-                'id' => 1183,
-                'user_id' => 1,
+                'id' => '1183',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:53',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10285,8 +10285,8 @@ class LogsTableSeeder extends Seeder
             ),
             140 => 
             array (
-                'id' => 1184,
-                'user_id' => 1,
+                'id' => '1184',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:53',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10294,8 +10294,8 @@ class LogsTableSeeder extends Seeder
             ),
             141 => 
             array (
-                'id' => 1185,
-                'user_id' => 1,
+                'id' => '1185',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:53',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10303,8 +10303,8 @@ class LogsTableSeeder extends Seeder
             ),
             142 => 
             array (
-                'id' => 1186,
-                'user_id' => 1,
+                'id' => '1186',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:54',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10312,8 +10312,8 @@ class LogsTableSeeder extends Seeder
             ),
             143 => 
             array (
-                'id' => 1187,
-                'user_id' => 1,
+                'id' => '1187',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:54',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10321,8 +10321,8 @@ class LogsTableSeeder extends Seeder
             ),
             144 => 
             array (
-                'id' => 1188,
-                'user_id' => 1,
+                'id' => '1188',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:54',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10330,8 +10330,8 @@ class LogsTableSeeder extends Seeder
             ),
             145 => 
             array (
-                'id' => 1189,
-                'user_id' => 1,
+                'id' => '1189',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:55',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10339,8 +10339,8 @@ class LogsTableSeeder extends Seeder
             ),
             146 => 
             array (
-                'id' => 1190,
-                'user_id' => 1,
+                'id' => '1190',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:25:55',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10348,8 +10348,8 @@ class LogsTableSeeder extends Seeder
             ),
             147 => 
             array (
-                'id' => 1191,
-                'user_id' => 1,
+                'id' => '1191',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:26:30',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10357,8 +10357,8 @@ class LogsTableSeeder extends Seeder
             ),
             148 => 
             array (
-                'id' => 1192,
-                'user_id' => 1,
+                'id' => '1192',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:26:41',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10366,8 +10366,8 @@ class LogsTableSeeder extends Seeder
             ),
             149 => 
             array (
-                'id' => 1193,
-                'user_id' => 1,
+                'id' => '1193',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:26:41',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10375,8 +10375,8 @@ class LogsTableSeeder extends Seeder
             ),
             150 => 
             array (
-                'id' => 1194,
-                'user_id' => 1,
+                'id' => '1194',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:26:42',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10384,8 +10384,8 @@ class LogsTableSeeder extends Seeder
             ),
             151 => 
             array (
-                'id' => 1195,
-                'user_id' => 1,
+                'id' => '1195',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:26:42',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10393,8 +10393,8 @@ class LogsTableSeeder extends Seeder
             ),
             152 => 
             array (
-                'id' => 1196,
-                'user_id' => 1,
+                'id' => '1196',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:26:42',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10402,8 +10402,8 @@ class LogsTableSeeder extends Seeder
             ),
             153 => 
             array (
-                'id' => 1197,
-                'user_id' => 1,
+                'id' => '1197',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:26:43',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10411,8 +10411,8 @@ class LogsTableSeeder extends Seeder
             ),
             154 => 
             array (
-                'id' => 1198,
-                'user_id' => 1,
+                'id' => '1198',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:26:43',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10420,8 +10420,8 @@ class LogsTableSeeder extends Seeder
             ),
             155 => 
             array (
-                'id' => 1199,
-                'user_id' => 1,
+                'id' => '1199',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:26:43',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10429,8 +10429,8 @@ class LogsTableSeeder extends Seeder
             ),
             156 => 
             array (
-                'id' => 1200,
-                'user_id' => 1,
+                'id' => '1200',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:26:44',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10438,8 +10438,8 @@ class LogsTableSeeder extends Seeder
             ),
             157 => 
             array (
-                'id' => 1201,
-                'user_id' => 1,
+                'id' => '1201',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:26:44',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10447,8 +10447,8 @@ class LogsTableSeeder extends Seeder
             ),
             158 => 
             array (
-                'id' => 1202,
-                'user_id' => 1,
+                'id' => '1202',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:26:44',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10456,8 +10456,8 @@ class LogsTableSeeder extends Seeder
             ),
             159 => 
             array (
-                'id' => 1203,
-                'user_id' => 1,
+                'id' => '1203',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:26:45',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10465,8 +10465,8 @@ class LogsTableSeeder extends Seeder
             ),
             160 => 
             array (
-                'id' => 1204,
-                'user_id' => 1,
+                'id' => '1204',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:26:45',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10474,8 +10474,8 @@ class LogsTableSeeder extends Seeder
             ),
             161 => 
             array (
-                'id' => 1205,
-                'user_id' => 1,
+                'id' => '1205',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:26:45',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10483,8 +10483,8 @@ class LogsTableSeeder extends Seeder
             ),
             162 => 
             array (
-                'id' => 1206,
-                'user_id' => 1,
+                'id' => '1206',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:26:46',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10492,8 +10492,8 @@ class LogsTableSeeder extends Seeder
             ),
             163 => 
             array (
-                'id' => 1207,
-                'user_id' => 1,
+                'id' => '1207',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:26:46',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10501,8 +10501,8 @@ class LogsTableSeeder extends Seeder
             ),
             164 => 
             array (
-                'id' => 1208,
-                'user_id' => 1,
+                'id' => '1208',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:26:46',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10510,8 +10510,8 @@ class LogsTableSeeder extends Seeder
             ),
             165 => 
             array (
-                'id' => 1209,
-                'user_id' => 1,
+                'id' => '1209',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:26:47',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10519,8 +10519,8 @@ class LogsTableSeeder extends Seeder
             ),
             166 => 
             array (
-                'id' => 1210,
-                'user_id' => 1,
+                'id' => '1210',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:26:47',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10528,8 +10528,8 @@ class LogsTableSeeder extends Seeder
             ),
             167 => 
             array (
-                'id' => 1211,
-                'user_id' => 1,
+                'id' => '1211',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:26:47',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10537,8 +10537,8 @@ class LogsTableSeeder extends Seeder
             ),
             168 => 
             array (
-                'id' => 1212,
-                'user_id' => 1,
+                'id' => '1212',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:26:48',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10546,8 +10546,8 @@ class LogsTableSeeder extends Seeder
             ),
             169 => 
             array (
-                'id' => 1213,
-                'user_id' => 1,
+                'id' => '1213',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:26:48',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10555,8 +10555,8 @@ class LogsTableSeeder extends Seeder
             ),
             170 => 
             array (
-                'id' => 1214,
-                'user_id' => 1,
+                'id' => '1214',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:26:48',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10564,8 +10564,8 @@ class LogsTableSeeder extends Seeder
             ),
             171 => 
             array (
-                'id' => 1215,
-                'user_id' => 1,
+                'id' => '1215',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:26:48',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10573,8 +10573,8 @@ class LogsTableSeeder extends Seeder
             ),
             172 => 
             array (
-                'id' => 1216,
-                'user_id' => 1,
+                'id' => '1216',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:26:49',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10582,8 +10582,8 @@ class LogsTableSeeder extends Seeder
             ),
             173 => 
             array (
-                'id' => 1217,
-                'user_id' => 1,
+                'id' => '1217',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:26:49',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10591,8 +10591,8 @@ class LogsTableSeeder extends Seeder
             ),
             174 => 
             array (
-                'id' => 1218,
-                'user_id' => 1,
+                'id' => '1218',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:26:49',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10600,8 +10600,8 @@ class LogsTableSeeder extends Seeder
             ),
             175 => 
             array (
-                'id' => 1219,
-                'user_id' => 1,
+                'id' => '1219',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:26:50',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10609,8 +10609,8 @@ class LogsTableSeeder extends Seeder
             ),
             176 => 
             array (
-                'id' => 1220,
-                'user_id' => 1,
+                'id' => '1220',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:26:50',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10618,8 +10618,8 @@ class LogsTableSeeder extends Seeder
             ),
             177 => 
             array (
-                'id' => 1221,
-                'user_id' => 1,
+                'id' => '1221',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:26:50',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10627,8 +10627,8 @@ class LogsTableSeeder extends Seeder
             ),
             178 => 
             array (
-                'id' => 1222,
-                'user_id' => 1,
+                'id' => '1222',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:26:50',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10636,8 +10636,8 @@ class LogsTableSeeder extends Seeder
             ),
             179 => 
             array (
-                'id' => 1223,
-                'user_id' => 1,
+                'id' => '1223',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:26:51',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10645,8 +10645,8 @@ class LogsTableSeeder extends Seeder
             ),
             180 => 
             array (
-                'id' => 1224,
-                'user_id' => 1,
+                'id' => '1224',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:26:51',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10654,8 +10654,8 @@ class LogsTableSeeder extends Seeder
             ),
             181 => 
             array (
-                'id' => 1225,
-                'user_id' => 1,
+                'id' => '1225',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:26:51',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10663,8 +10663,8 @@ class LogsTableSeeder extends Seeder
             ),
             182 => 
             array (
-                'id' => 1226,
-                'user_id' => 1,
+                'id' => '1226',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:26:52',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10672,8 +10672,8 @@ class LogsTableSeeder extends Seeder
             ),
             183 => 
             array (
-                'id' => 1227,
-                'user_id' => 1,
+                'id' => '1227',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:26:52',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10681,8 +10681,8 @@ class LogsTableSeeder extends Seeder
             ),
             184 => 
             array (
-                'id' => 1228,
-                'user_id' => 1,
+                'id' => '1228',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:26:52',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10690,8 +10690,8 @@ class LogsTableSeeder extends Seeder
             ),
             185 => 
             array (
-                'id' => 1229,
-                'user_id' => 1,
+                'id' => '1229',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:26:53',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10699,8 +10699,8 @@ class LogsTableSeeder extends Seeder
             ),
             186 => 
             array (
-                'id' => 1230,
-                'user_id' => 1,
+                'id' => '1230',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:26:53',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10708,8 +10708,8 @@ class LogsTableSeeder extends Seeder
             ),
             187 => 
             array (
-                'id' => 1231,
-                'user_id' => 1,
+                'id' => '1231',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:26:53',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10717,8 +10717,8 @@ class LogsTableSeeder extends Seeder
             ),
             188 => 
             array (
-                'id' => 1232,
-                'user_id' => 1,
+                'id' => '1232',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:26:54',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10726,8 +10726,8 @@ class LogsTableSeeder extends Seeder
             ),
             189 => 
             array (
-                'id' => 1233,
-                'user_id' => 1,
+                'id' => '1233',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:26:54',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10735,8 +10735,8 @@ class LogsTableSeeder extends Seeder
             ),
             190 => 
             array (
-                'id' => 1234,
-                'user_id' => 1,
+                'id' => '1234',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:26:54',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10744,8 +10744,8 @@ class LogsTableSeeder extends Seeder
             ),
             191 => 
             array (
-                'id' => 1235,
-                'user_id' => 1,
+                'id' => '1235',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:26:54',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10753,8 +10753,8 @@ class LogsTableSeeder extends Seeder
             ),
             192 => 
             array (
-                'id' => 1236,
-                'user_id' => 1,
+                'id' => '1236',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:26:55',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10762,8 +10762,8 @@ class LogsTableSeeder extends Seeder
             ),
             193 => 
             array (
-                'id' => 1237,
-                'user_id' => 1,
+                'id' => '1237',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:26:55',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10771,8 +10771,8 @@ class LogsTableSeeder extends Seeder
             ),
             194 => 
             array (
-                'id' => 1238,
-                'user_id' => 1,
+                'id' => '1238',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:26:55',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10780,8 +10780,8 @@ class LogsTableSeeder extends Seeder
             ),
             195 => 
             array (
-                'id' => 1239,
-                'user_id' => 1,
+                'id' => '1239',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:26:56',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10789,8 +10789,8 @@ class LogsTableSeeder extends Seeder
             ),
             196 => 
             array (
-                'id' => 1240,
-                'user_id' => 1,
+                'id' => '1240',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:26:56',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10798,8 +10798,8 @@ class LogsTableSeeder extends Seeder
             ),
             197 => 
             array (
-                'id' => 1241,
-                'user_id' => 1,
+                'id' => '1241',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:26:57',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10807,8 +10807,8 @@ class LogsTableSeeder extends Seeder
             ),
             198 => 
             array (
-                'id' => 1242,
-                'user_id' => 1,
+                'id' => '1242',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:26:58',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10816,8 +10816,8 @@ class LogsTableSeeder extends Seeder
             ),
             199 => 
             array (
-                'id' => 1243,
-                'user_id' => 1,
+                'id' => '1243',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:26:58',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10825,8 +10825,8 @@ class LogsTableSeeder extends Seeder
             ),
             200 => 
             array (
-                'id' => 1244,
-                'user_id' => 1,
+                'id' => '1244',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:26:59',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10834,8 +10834,8 @@ class LogsTableSeeder extends Seeder
             ),
             201 => 
             array (
-                'id' => 1245,
-                'user_id' => 1,
+                'id' => '1245',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:26:59',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10843,8 +10843,8 @@ class LogsTableSeeder extends Seeder
             ),
             202 => 
             array (
-                'id' => 1246,
-                'user_id' => 1,
+                'id' => '1246',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:26:59',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10852,8 +10852,8 @@ class LogsTableSeeder extends Seeder
             ),
             203 => 
             array (
-                'id' => 1247,
-                'user_id' => 1,
+                'id' => '1247',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:00',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10861,8 +10861,8 @@ class LogsTableSeeder extends Seeder
             ),
             204 => 
             array (
-                'id' => 1248,
-                'user_id' => 1,
+                'id' => '1248',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:00',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10870,8 +10870,8 @@ class LogsTableSeeder extends Seeder
             ),
             205 => 
             array (
-                'id' => 1249,
-                'user_id' => 1,
+                'id' => '1249',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:00',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10879,8 +10879,8 @@ class LogsTableSeeder extends Seeder
             ),
             206 => 
             array (
-                'id' => 1250,
-                'user_id' => 1,
+                'id' => '1250',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:01',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10888,8 +10888,8 @@ class LogsTableSeeder extends Seeder
             ),
             207 => 
             array (
-                'id' => 1251,
-                'user_id' => 1,
+                'id' => '1251',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:01',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10897,8 +10897,8 @@ class LogsTableSeeder extends Seeder
             ),
             208 => 
             array (
-                'id' => 1252,
-                'user_id' => 1,
+                'id' => '1252',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:02',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10906,8 +10906,8 @@ class LogsTableSeeder extends Seeder
             ),
             209 => 
             array (
-                'id' => 1253,
-                'user_id' => 1,
+                'id' => '1253',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:02',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10915,8 +10915,8 @@ class LogsTableSeeder extends Seeder
             ),
             210 => 
             array (
-                'id' => 1254,
-                'user_id' => 1,
+                'id' => '1254',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:02',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10924,8 +10924,8 @@ class LogsTableSeeder extends Seeder
             ),
             211 => 
             array (
-                'id' => 1255,
-                'user_id' => 1,
+                'id' => '1255',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:02',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10933,8 +10933,8 @@ class LogsTableSeeder extends Seeder
             ),
             212 => 
             array (
-                'id' => 1256,
-                'user_id' => 1,
+                'id' => '1256',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:03',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10942,8 +10942,8 @@ class LogsTableSeeder extends Seeder
             ),
             213 => 
             array (
-                'id' => 1257,
-                'user_id' => 1,
+                'id' => '1257',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:03',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10951,8 +10951,8 @@ class LogsTableSeeder extends Seeder
             ),
             214 => 
             array (
-                'id' => 1258,
-                'user_id' => 1,
+                'id' => '1258',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:03',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10960,8 +10960,8 @@ class LogsTableSeeder extends Seeder
             ),
             215 => 
             array (
-                'id' => 1259,
-                'user_id' => 1,
+                'id' => '1259',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:04',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10969,8 +10969,8 @@ class LogsTableSeeder extends Seeder
             ),
             216 => 
             array (
-                'id' => 1260,
-                'user_id' => 1,
+                'id' => '1260',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:04',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10978,8 +10978,8 @@ class LogsTableSeeder extends Seeder
             ),
             217 => 
             array (
-                'id' => 1261,
-                'user_id' => 1,
+                'id' => '1261',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:04',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10987,8 +10987,8 @@ class LogsTableSeeder extends Seeder
             ),
             218 => 
             array (
-                'id' => 1262,
-                'user_id' => 1,
+                'id' => '1262',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:05',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -10996,8 +10996,8 @@ class LogsTableSeeder extends Seeder
             ),
             219 => 
             array (
-                'id' => 1263,
-                'user_id' => 1,
+                'id' => '1263',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:05',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11005,8 +11005,8 @@ class LogsTableSeeder extends Seeder
             ),
             220 => 
             array (
-                'id' => 1264,
-                'user_id' => 1,
+                'id' => '1264',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:05',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11014,8 +11014,8 @@ class LogsTableSeeder extends Seeder
             ),
             221 => 
             array (
-                'id' => 1265,
-                'user_id' => 1,
+                'id' => '1265',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:06',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11023,8 +11023,8 @@ class LogsTableSeeder extends Seeder
             ),
             222 => 
             array (
-                'id' => 1266,
-                'user_id' => 1,
+                'id' => '1266',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:06',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11032,8 +11032,8 @@ class LogsTableSeeder extends Seeder
             ),
             223 => 
             array (
-                'id' => 1267,
-                'user_id' => 1,
+                'id' => '1267',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:06',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11041,8 +11041,8 @@ class LogsTableSeeder extends Seeder
             ),
             224 => 
             array (
-                'id' => 1268,
-                'user_id' => 1,
+                'id' => '1268',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:07',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11050,8 +11050,8 @@ class LogsTableSeeder extends Seeder
             ),
             225 => 
             array (
-                'id' => 1269,
-                'user_id' => 1,
+                'id' => '1269',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:07',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11059,8 +11059,8 @@ class LogsTableSeeder extends Seeder
             ),
             226 => 
             array (
-                'id' => 1270,
-                'user_id' => 1,
+                'id' => '1270',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:07',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11068,8 +11068,8 @@ class LogsTableSeeder extends Seeder
             ),
             227 => 
             array (
-                'id' => 1271,
-                'user_id' => 1,
+                'id' => '1271',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:08',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11077,8 +11077,8 @@ class LogsTableSeeder extends Seeder
             ),
             228 => 
             array (
-                'id' => 1272,
-                'user_id' => 1,
+                'id' => '1272',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:08',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11086,8 +11086,8 @@ class LogsTableSeeder extends Seeder
             ),
             229 => 
             array (
-                'id' => 1273,
-                'user_id' => 1,
+                'id' => '1273',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:08',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11095,8 +11095,8 @@ class LogsTableSeeder extends Seeder
             ),
             230 => 
             array (
-                'id' => 1274,
-                'user_id' => 1,
+                'id' => '1274',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:08',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11104,8 +11104,8 @@ class LogsTableSeeder extends Seeder
             ),
             231 => 
             array (
-                'id' => 1275,
-                'user_id' => 1,
+                'id' => '1275',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:09',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11113,8 +11113,8 @@ class LogsTableSeeder extends Seeder
             ),
             232 => 
             array (
-                'id' => 1276,
-                'user_id' => 1,
+                'id' => '1276',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:09',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11122,8 +11122,8 @@ class LogsTableSeeder extends Seeder
             ),
             233 => 
             array (
-                'id' => 1277,
-                'user_id' => 1,
+                'id' => '1277',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:09',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11131,8 +11131,8 @@ class LogsTableSeeder extends Seeder
             ),
             234 => 
             array (
-                'id' => 1278,
-                'user_id' => 1,
+                'id' => '1278',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:10',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11140,8 +11140,8 @@ class LogsTableSeeder extends Seeder
             ),
             235 => 
             array (
-                'id' => 1279,
-                'user_id' => 1,
+                'id' => '1279',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:10',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11149,8 +11149,8 @@ class LogsTableSeeder extends Seeder
             ),
             236 => 
             array (
-                'id' => 1280,
-                'user_id' => 1,
+                'id' => '1280',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:10',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11158,8 +11158,8 @@ class LogsTableSeeder extends Seeder
             ),
             237 => 
             array (
-                'id' => 1281,
-                'user_id' => 1,
+                'id' => '1281',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:10',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11167,8 +11167,8 @@ class LogsTableSeeder extends Seeder
             ),
             238 => 
             array (
-                'id' => 1282,
-                'user_id' => 1,
+                'id' => '1282',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:11',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11176,8 +11176,8 @@ class LogsTableSeeder extends Seeder
             ),
             239 => 
             array (
-                'id' => 1283,
-                'user_id' => 1,
+                'id' => '1283',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:11',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11185,8 +11185,8 @@ class LogsTableSeeder extends Seeder
             ),
             240 => 
             array (
-                'id' => 1284,
-                'user_id' => 1,
+                'id' => '1284',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:11',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11194,8 +11194,8 @@ class LogsTableSeeder extends Seeder
             ),
             241 => 
             array (
-                'id' => 1285,
-                'user_id' => 1,
+                'id' => '1285',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:12',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11203,8 +11203,8 @@ class LogsTableSeeder extends Seeder
             ),
             242 => 
             array (
-                'id' => 1286,
-                'user_id' => 1,
+                'id' => '1286',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:12',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11212,8 +11212,8 @@ class LogsTableSeeder extends Seeder
             ),
             243 => 
             array (
-                'id' => 1287,
-                'user_id' => 1,
+                'id' => '1287',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:12',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11221,8 +11221,8 @@ class LogsTableSeeder extends Seeder
             ),
             244 => 
             array (
-                'id' => 1288,
-                'user_id' => 1,
+                'id' => '1288',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:13',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11230,8 +11230,8 @@ class LogsTableSeeder extends Seeder
             ),
             245 => 
             array (
-                'id' => 1289,
-                'user_id' => 1,
+                'id' => '1289',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:13',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11239,8 +11239,8 @@ class LogsTableSeeder extends Seeder
             ),
             246 => 
             array (
-                'id' => 1290,
-                'user_id' => 1,
+                'id' => '1290',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:13',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11248,8 +11248,8 @@ class LogsTableSeeder extends Seeder
             ),
             247 => 
             array (
-                'id' => 1291,
-                'user_id' => 1,
+                'id' => '1291',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:13',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11257,8 +11257,8 @@ class LogsTableSeeder extends Seeder
             ),
             248 => 
             array (
-                'id' => 1292,
-                'user_id' => 1,
+                'id' => '1292',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:14',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11266,8 +11266,8 @@ class LogsTableSeeder extends Seeder
             ),
             249 => 
             array (
-                'id' => 1293,
-                'user_id' => 1,
+                'id' => '1293',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:14',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11275,8 +11275,8 @@ class LogsTableSeeder extends Seeder
             ),
             250 => 
             array (
-                'id' => 1294,
-                'user_id' => 1,
+                'id' => '1294',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:14',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11284,8 +11284,8 @@ class LogsTableSeeder extends Seeder
             ),
             251 => 
             array (
-                'id' => 1295,
-                'user_id' => 1,
+                'id' => '1295',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:15',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11293,8 +11293,8 @@ class LogsTableSeeder extends Seeder
             ),
             252 => 
             array (
-                'id' => 1296,
-                'user_id' => 1,
+                'id' => '1296',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:15',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11302,8 +11302,8 @@ class LogsTableSeeder extends Seeder
             ),
             253 => 
             array (
-                'id' => 1297,
-                'user_id' => 1,
+                'id' => '1297',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:15',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11311,8 +11311,8 @@ class LogsTableSeeder extends Seeder
             ),
             254 => 
             array (
-                'id' => 1298,
-                'user_id' => 1,
+                'id' => '1298',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:15',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11320,8 +11320,8 @@ class LogsTableSeeder extends Seeder
             ),
             255 => 
             array (
-                'id' => 1299,
-                'user_id' => 1,
+                'id' => '1299',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:16',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11329,8 +11329,8 @@ class LogsTableSeeder extends Seeder
             ),
             256 => 
             array (
-                'id' => 1300,
-                'user_id' => 1,
+                'id' => '1300',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:16',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11338,8 +11338,8 @@ class LogsTableSeeder extends Seeder
             ),
             257 => 
             array (
-                'id' => 1301,
-                'user_id' => 1,
+                'id' => '1301',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:16',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11347,8 +11347,8 @@ class LogsTableSeeder extends Seeder
             ),
             258 => 
             array (
-                'id' => 1302,
-                'user_id' => 1,
+                'id' => '1302',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:17',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11356,8 +11356,8 @@ class LogsTableSeeder extends Seeder
             ),
             259 => 
             array (
-                'id' => 1303,
-                'user_id' => 1,
+                'id' => '1303',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:17',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11365,8 +11365,8 @@ class LogsTableSeeder extends Seeder
             ),
             260 => 
             array (
-                'id' => 1304,
-                'user_id' => 1,
+                'id' => '1304',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:17',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11374,8 +11374,8 @@ class LogsTableSeeder extends Seeder
             ),
             261 => 
             array (
-                'id' => 1305,
-                'user_id' => 1,
+                'id' => '1305',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:17',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11383,8 +11383,8 @@ class LogsTableSeeder extends Seeder
             ),
             262 => 
             array (
-                'id' => 1306,
-                'user_id' => 1,
+                'id' => '1306',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:18',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11392,8 +11392,8 @@ class LogsTableSeeder extends Seeder
             ),
             263 => 
             array (
-                'id' => 1307,
-                'user_id' => 1,
+                'id' => '1307',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:18',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11401,8 +11401,8 @@ class LogsTableSeeder extends Seeder
             ),
             264 => 
             array (
-                'id' => 1308,
-                'user_id' => 1,
+                'id' => '1308',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:18',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11410,8 +11410,8 @@ class LogsTableSeeder extends Seeder
             ),
             265 => 
             array (
-                'id' => 1309,
-                'user_id' => 1,
+                'id' => '1309',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:19',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11419,8 +11419,8 @@ class LogsTableSeeder extends Seeder
             ),
             266 => 
             array (
-                'id' => 1310,
-                'user_id' => 1,
+                'id' => '1310',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:19',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11428,8 +11428,8 @@ class LogsTableSeeder extends Seeder
             ),
             267 => 
             array (
-                'id' => 1311,
-                'user_id' => 1,
+                'id' => '1311',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:19',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11437,8 +11437,8 @@ class LogsTableSeeder extends Seeder
             ),
             268 => 
             array (
-                'id' => 1312,
-                'user_id' => 1,
+                'id' => '1312',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:20',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11446,8 +11446,8 @@ class LogsTableSeeder extends Seeder
             ),
             269 => 
             array (
-                'id' => 1313,
-                'user_id' => 1,
+                'id' => '1313',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:20',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11455,8 +11455,8 @@ class LogsTableSeeder extends Seeder
             ),
             270 => 
             array (
-                'id' => 1314,
-                'user_id' => 1,
+                'id' => '1314',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:20',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11464,8 +11464,8 @@ class LogsTableSeeder extends Seeder
             ),
             271 => 
             array (
-                'id' => 1315,
-                'user_id' => 1,
+                'id' => '1315',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:20',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11473,8 +11473,8 @@ class LogsTableSeeder extends Seeder
             ),
             272 => 
             array (
-                'id' => 1316,
-                'user_id' => 1,
+                'id' => '1316',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:21',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11482,8 +11482,8 @@ class LogsTableSeeder extends Seeder
             ),
             273 => 
             array (
-                'id' => 1317,
-                'user_id' => 1,
+                'id' => '1317',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:21',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11491,8 +11491,8 @@ class LogsTableSeeder extends Seeder
             ),
             274 => 
             array (
-                'id' => 1318,
-                'user_id' => 1,
+                'id' => '1318',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:21',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11500,8 +11500,8 @@ class LogsTableSeeder extends Seeder
             ),
             275 => 
             array (
-                'id' => 1319,
-                'user_id' => 1,
+                'id' => '1319',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:22',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11509,8 +11509,8 @@ class LogsTableSeeder extends Seeder
             ),
             276 => 
             array (
-                'id' => 1320,
-                'user_id' => 1,
+                'id' => '1320',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:22',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11518,8 +11518,8 @@ class LogsTableSeeder extends Seeder
             ),
             277 => 
             array (
-                'id' => 1321,
-                'user_id' => 1,
+                'id' => '1321',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:22',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11527,8 +11527,8 @@ class LogsTableSeeder extends Seeder
             ),
             278 => 
             array (
-                'id' => 1322,
-                'user_id' => 1,
+                'id' => '1322',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:23',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11536,8 +11536,8 @@ class LogsTableSeeder extends Seeder
             ),
             279 => 
             array (
-                'id' => 1323,
-                'user_id' => 1,
+                'id' => '1323',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:23',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11545,8 +11545,8 @@ class LogsTableSeeder extends Seeder
             ),
             280 => 
             array (
-                'id' => 1324,
-                'user_id' => 1,
+                'id' => '1324',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:23',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11554,8 +11554,8 @@ class LogsTableSeeder extends Seeder
             ),
             281 => 
             array (
-                'id' => 1325,
-                'user_id' => 1,
+                'id' => '1325',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:24',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11563,8 +11563,8 @@ class LogsTableSeeder extends Seeder
             ),
             282 => 
             array (
-                'id' => 1326,
-                'user_id' => 1,
+                'id' => '1326',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:24',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11572,8 +11572,8 @@ class LogsTableSeeder extends Seeder
             ),
             283 => 
             array (
-                'id' => 1327,
-                'user_id' => 1,
+                'id' => '1327',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:24',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11581,8 +11581,8 @@ class LogsTableSeeder extends Seeder
             ),
             284 => 
             array (
-                'id' => 1328,
-                'user_id' => 1,
+                'id' => '1328',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:25',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11590,8 +11590,8 @@ class LogsTableSeeder extends Seeder
             ),
             285 => 
             array (
-                'id' => 1329,
-                'user_id' => 1,
+                'id' => '1329',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:25',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11599,8 +11599,8 @@ class LogsTableSeeder extends Seeder
             ),
             286 => 
             array (
-                'id' => 1330,
-                'user_id' => 1,
+                'id' => '1330',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:25',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11608,8 +11608,8 @@ class LogsTableSeeder extends Seeder
             ),
             287 => 
             array (
-                'id' => 1331,
-                'user_id' => 1,
+                'id' => '1331',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:26',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11617,8 +11617,8 @@ class LogsTableSeeder extends Seeder
             ),
             288 => 
             array (
-                'id' => 1332,
-                'user_id' => 1,
+                'id' => '1332',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:26',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11626,8 +11626,8 @@ class LogsTableSeeder extends Seeder
             ),
             289 => 
             array (
-                'id' => 1333,
-                'user_id' => 1,
+                'id' => '1333',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:26',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11635,8 +11635,8 @@ class LogsTableSeeder extends Seeder
             ),
             290 => 
             array (
-                'id' => 1334,
-                'user_id' => 1,
+                'id' => '1334',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:27',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11644,8 +11644,8 @@ class LogsTableSeeder extends Seeder
             ),
             291 => 
             array (
-                'id' => 1335,
-                'user_id' => 1,
+                'id' => '1335',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:27',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11653,8 +11653,8 @@ class LogsTableSeeder extends Seeder
             ),
             292 => 
             array (
-                'id' => 1336,
-                'user_id' => 1,
+                'id' => '1336',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:27',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11662,8 +11662,8 @@ class LogsTableSeeder extends Seeder
             ),
             293 => 
             array (
-                'id' => 1337,
-                'user_id' => 1,
+                'id' => '1337',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:27',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11671,8 +11671,8 @@ class LogsTableSeeder extends Seeder
             ),
             294 => 
             array (
-                'id' => 1338,
-                'user_id' => 1,
+                'id' => '1338',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:28',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11680,8 +11680,8 @@ class LogsTableSeeder extends Seeder
             ),
             295 => 
             array (
-                'id' => 1339,
-                'user_id' => 1,
+                'id' => '1339',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:28',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11689,8 +11689,8 @@ class LogsTableSeeder extends Seeder
             ),
             296 => 
             array (
-                'id' => 1340,
-                'user_id' => 1,
+                'id' => '1340',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:28',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11698,8 +11698,8 @@ class LogsTableSeeder extends Seeder
             ),
             297 => 
             array (
-                'id' => 1341,
-                'user_id' => 1,
+                'id' => '1341',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:29',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11707,8 +11707,8 @@ class LogsTableSeeder extends Seeder
             ),
             298 => 
             array (
-                'id' => 1342,
-                'user_id' => 1,
+                'id' => '1342',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:29',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11716,8 +11716,8 @@ class LogsTableSeeder extends Seeder
             ),
             299 => 
             array (
-                'id' => 1343,
-                'user_id' => 1,
+                'id' => '1343',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:29',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11725,8 +11725,8 @@ class LogsTableSeeder extends Seeder
             ),
             300 => 
             array (
-                'id' => 1344,
-                'user_id' => 1,
+                'id' => '1344',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:29',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11734,8 +11734,8 @@ class LogsTableSeeder extends Seeder
             ),
             301 => 
             array (
-                'id' => 1345,
-                'user_id' => 1,
+                'id' => '1345',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:30',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11743,8 +11743,8 @@ class LogsTableSeeder extends Seeder
             ),
             302 => 
             array (
-                'id' => 1346,
-                'user_id' => 1,
+                'id' => '1346',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:30',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11752,8 +11752,8 @@ class LogsTableSeeder extends Seeder
             ),
             303 => 
             array (
-                'id' => 1347,
-                'user_id' => 1,
+                'id' => '1347',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:30',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11761,8 +11761,8 @@ class LogsTableSeeder extends Seeder
             ),
             304 => 
             array (
-                'id' => 1348,
-                'user_id' => 1,
+                'id' => '1348',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:31',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11770,8 +11770,8 @@ class LogsTableSeeder extends Seeder
             ),
             305 => 
             array (
-                'id' => 1349,
-                'user_id' => 1,
+                'id' => '1349',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:31',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11779,8 +11779,8 @@ class LogsTableSeeder extends Seeder
             ),
             306 => 
             array (
-                'id' => 1350,
-                'user_id' => 1,
+                'id' => '1350',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:31',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11788,8 +11788,8 @@ class LogsTableSeeder extends Seeder
             ),
             307 => 
             array (
-                'id' => 1351,
-                'user_id' => 1,
+                'id' => '1351',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:32',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11797,8 +11797,8 @@ class LogsTableSeeder extends Seeder
             ),
             308 => 
             array (
-                'id' => 1352,
-                'user_id' => 1,
+                'id' => '1352',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:32',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11806,8 +11806,8 @@ class LogsTableSeeder extends Seeder
             ),
             309 => 
             array (
-                'id' => 1353,
-                'user_id' => 1,
+                'id' => '1353',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:32',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11815,8 +11815,8 @@ class LogsTableSeeder extends Seeder
             ),
             310 => 
             array (
-                'id' => 1354,
-                'user_id' => 1,
+                'id' => '1354',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:32',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11824,8 +11824,8 @@ class LogsTableSeeder extends Seeder
             ),
             311 => 
             array (
-                'id' => 1355,
-                'user_id' => 1,
+                'id' => '1355',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:33',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11833,8 +11833,8 @@ class LogsTableSeeder extends Seeder
             ),
             312 => 
             array (
-                'id' => 1356,
-                'user_id' => 1,
+                'id' => '1356',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:33',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11842,8 +11842,8 @@ class LogsTableSeeder extends Seeder
             ),
             313 => 
             array (
-                'id' => 1357,
-                'user_id' => 1,
+                'id' => '1357',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:33',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11851,8 +11851,8 @@ class LogsTableSeeder extends Seeder
             ),
             314 => 
             array (
-                'id' => 1358,
-                'user_id' => 1,
+                'id' => '1358',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:34',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11860,8 +11860,8 @@ class LogsTableSeeder extends Seeder
             ),
             315 => 
             array (
-                'id' => 1359,
-                'user_id' => 1,
+                'id' => '1359',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:34',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11869,8 +11869,8 @@ class LogsTableSeeder extends Seeder
             ),
             316 => 
             array (
-                'id' => 1360,
-                'user_id' => 1,
+                'id' => '1360',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:34',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11878,8 +11878,8 @@ class LogsTableSeeder extends Seeder
             ),
             317 => 
             array (
-                'id' => 1361,
-                'user_id' => 1,
+                'id' => '1361',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:34',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11887,8 +11887,8 @@ class LogsTableSeeder extends Seeder
             ),
             318 => 
             array (
-                'id' => 1362,
-                'user_id' => 1,
+                'id' => '1362',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:35',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11896,8 +11896,8 @@ class LogsTableSeeder extends Seeder
             ),
             319 => 
             array (
-                'id' => 1363,
-                'user_id' => 1,
+                'id' => '1363',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:35',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11905,8 +11905,8 @@ class LogsTableSeeder extends Seeder
             ),
             320 => 
             array (
-                'id' => 1364,
-                'user_id' => 1,
+                'id' => '1364',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:35',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11914,8 +11914,8 @@ class LogsTableSeeder extends Seeder
             ),
             321 => 
             array (
-                'id' => 1365,
-                'user_id' => 1,
+                'id' => '1365',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:36',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11923,8 +11923,8 @@ class LogsTableSeeder extends Seeder
             ),
             322 => 
             array (
-                'id' => 1366,
-                'user_id' => 1,
+                'id' => '1366',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:36',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11932,8 +11932,8 @@ class LogsTableSeeder extends Seeder
             ),
             323 => 
             array (
-                'id' => 1367,
-                'user_id' => 1,
+                'id' => '1367',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:36',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11941,8 +11941,8 @@ class LogsTableSeeder extends Seeder
             ),
             324 => 
             array (
-                'id' => 1368,
-                'user_id' => 1,
+                'id' => '1368',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:37',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11950,8 +11950,8 @@ class LogsTableSeeder extends Seeder
             ),
             325 => 
             array (
-                'id' => 1369,
-                'user_id' => 1,
+                'id' => '1369',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:37',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11959,8 +11959,8 @@ class LogsTableSeeder extends Seeder
             ),
             326 => 
             array (
-                'id' => 1370,
-                'user_id' => 1,
+                'id' => '1370',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:37',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11968,8 +11968,8 @@ class LogsTableSeeder extends Seeder
             ),
             327 => 
             array (
-                'id' => 1371,
-                'user_id' => 1,
+                'id' => '1371',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:38',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11977,8 +11977,8 @@ class LogsTableSeeder extends Seeder
             ),
             328 => 
             array (
-                'id' => 1372,
-                'user_id' => 1,
+                'id' => '1372',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:38',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11986,8 +11986,8 @@ class LogsTableSeeder extends Seeder
             ),
             329 => 
             array (
-                'id' => 1373,
-                'user_id' => 1,
+                'id' => '1373',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:38',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -11995,8 +11995,8 @@ class LogsTableSeeder extends Seeder
             ),
             330 => 
             array (
-                'id' => 1374,
-                'user_id' => 1,
+                'id' => '1374',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:38',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -12004,8 +12004,8 @@ class LogsTableSeeder extends Seeder
             ),
             331 => 
             array (
-                'id' => 1375,
-                'user_id' => 1,
+                'id' => '1375',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:39',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -12013,8 +12013,8 @@ class LogsTableSeeder extends Seeder
             ),
             332 => 
             array (
-                'id' => 1376,
-                'user_id' => 1,
+                'id' => '1376',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:39',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -12022,8 +12022,8 @@ class LogsTableSeeder extends Seeder
             ),
             333 => 
             array (
-                'id' => 1377,
-                'user_id' => 1,
+                'id' => '1377',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:39',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -12031,8 +12031,8 @@ class LogsTableSeeder extends Seeder
             ),
             334 => 
             array (
-                'id' => 1378,
-                'user_id' => 1,
+                'id' => '1378',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:40',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -12040,8 +12040,8 @@ class LogsTableSeeder extends Seeder
             ),
             335 => 
             array (
-                'id' => 1379,
-                'user_id' => 1,
+                'id' => '1379',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:40',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -12049,8 +12049,8 @@ class LogsTableSeeder extends Seeder
             ),
             336 => 
             array (
-                'id' => 1380,
-                'user_id' => 1,
+                'id' => '1380',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:40',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -12058,8 +12058,8 @@ class LogsTableSeeder extends Seeder
             ),
             337 => 
             array (
-                'id' => 1381,
-                'user_id' => 1,
+                'id' => '1381',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:41',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -12067,8 +12067,8 @@ class LogsTableSeeder extends Seeder
             ),
             338 => 
             array (
-                'id' => 1382,
-                'user_id' => 1,
+                'id' => '1382',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:41',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -12076,8 +12076,8 @@ class LogsTableSeeder extends Seeder
             ),
             339 => 
             array (
-                'id' => 1383,
-                'user_id' => 1,
+                'id' => '1383',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:41',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -12085,8 +12085,8 @@ class LogsTableSeeder extends Seeder
             ),
             340 => 
             array (
-                'id' => 1384,
-                'user_id' => 1,
+                'id' => '1384',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:41',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -12094,8 +12094,8 @@ class LogsTableSeeder extends Seeder
             ),
             341 => 
             array (
-                'id' => 1385,
-                'user_id' => 1,
+                'id' => '1385',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:42',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -12103,8 +12103,8 @@ class LogsTableSeeder extends Seeder
             ),
             342 => 
             array (
-                'id' => 1386,
-                'user_id' => 1,
+                'id' => '1386',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:42',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -12112,8 +12112,8 @@ class LogsTableSeeder extends Seeder
             ),
             343 => 
             array (
-                'id' => 1387,
-                'user_id' => 1,
+                'id' => '1387',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:42',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -12121,8 +12121,8 @@ class LogsTableSeeder extends Seeder
             ),
             344 => 
             array (
-                'id' => 1388,
-                'user_id' => 1,
+                'id' => '1388',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:43',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -12130,8 +12130,8 @@ class LogsTableSeeder extends Seeder
             ),
             345 => 
             array (
-                'id' => 1389,
-                'user_id' => 1,
+                'id' => '1389',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:43',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -12139,8 +12139,8 @@ class LogsTableSeeder extends Seeder
             ),
             346 => 
             array (
-                'id' => 1390,
-                'user_id' => 1,
+                'id' => '1390',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:43',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -12148,8 +12148,8 @@ class LogsTableSeeder extends Seeder
             ),
             347 => 
             array (
-                'id' => 1391,
-                'user_id' => 1,
+                'id' => '1391',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:43',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -12157,8 +12157,8 @@ class LogsTableSeeder extends Seeder
             ),
             348 => 
             array (
-                'id' => 1392,
-                'user_id' => 1,
+                'id' => '1392',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:44',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -12166,8 +12166,8 @@ class LogsTableSeeder extends Seeder
             ),
             349 => 
             array (
-                'id' => 1393,
-                'user_id' => 1,
+                'id' => '1393',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:44',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -12175,8 +12175,8 @@ class LogsTableSeeder extends Seeder
             ),
             350 => 
             array (
-                'id' => 1394,
-                'user_id' => 1,
+                'id' => '1394',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:44',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -12184,8 +12184,8 @@ class LogsTableSeeder extends Seeder
             ),
             351 => 
             array (
-                'id' => 1395,
-                'user_id' => 1,
+                'id' => '1395',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:45',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -12193,8 +12193,8 @@ class LogsTableSeeder extends Seeder
             ),
             352 => 
             array (
-                'id' => 1396,
-                'user_id' => 1,
+                'id' => '1396',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:45',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -12202,8 +12202,8 @@ class LogsTableSeeder extends Seeder
             ),
             353 => 
             array (
-                'id' => 1397,
-                'user_id' => 1,
+                'id' => '1397',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:45',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -12211,8 +12211,8 @@ class LogsTableSeeder extends Seeder
             ),
             354 => 
             array (
-                'id' => 1398,
-                'user_id' => 1,
+                'id' => '1398',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:45',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -12220,8 +12220,8 @@ class LogsTableSeeder extends Seeder
             ),
             355 => 
             array (
-                'id' => 1399,
-                'user_id' => 1,
+                'id' => '1399',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:46',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -12229,8 +12229,8 @@ class LogsTableSeeder extends Seeder
             ),
             356 => 
             array (
-                'id' => 1400,
-                'user_id' => 1,
+                'id' => '1400',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:46',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -12238,8 +12238,8 @@ class LogsTableSeeder extends Seeder
             ),
             357 => 
             array (
-                'id' => 1401,
-                'user_id' => 1,
+                'id' => '1401',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:46',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -12247,8 +12247,8 @@ class LogsTableSeeder extends Seeder
             ),
             358 => 
             array (
-                'id' => 1402,
-                'user_id' => 1,
+                'id' => '1402',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:47',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -12256,8 +12256,8 @@ class LogsTableSeeder extends Seeder
             ),
             359 => 
             array (
-                'id' => 1403,
-                'user_id' => 1,
+                'id' => '1403',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:47',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -12265,8 +12265,8 @@ class LogsTableSeeder extends Seeder
             ),
             360 => 
             array (
-                'id' => 1404,
-                'user_id' => 1,
+                'id' => '1404',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:47',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -12274,8 +12274,8 @@ class LogsTableSeeder extends Seeder
             ),
             361 => 
             array (
-                'id' => 1405,
-                'user_id' => 1,
+                'id' => '1405',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:48',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -12283,8 +12283,8 @@ class LogsTableSeeder extends Seeder
             ),
             362 => 
             array (
-                'id' => 1406,
-                'user_id' => 1,
+                'id' => '1406',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:48',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -12292,8 +12292,8 @@ class LogsTableSeeder extends Seeder
             ),
             363 => 
             array (
-                'id' => 1407,
-                'user_id' => 1,
+                'id' => '1407',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:49',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -12301,8 +12301,8 @@ class LogsTableSeeder extends Seeder
             ),
             364 => 
             array (
-                'id' => 1408,
-                'user_id' => 1,
+                'id' => '1408',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:49',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -12310,8 +12310,8 @@ class LogsTableSeeder extends Seeder
             ),
             365 => 
             array (
-                'id' => 1409,
-                'user_id' => 1,
+                'id' => '1409',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:49',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -12319,8 +12319,8 @@ class LogsTableSeeder extends Seeder
             ),
             366 => 
             array (
-                'id' => 1410,
-                'user_id' => 1,
+                'id' => '1410',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:50',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -12328,8 +12328,8 @@ class LogsTableSeeder extends Seeder
             ),
             367 => 
             array (
-                'id' => 1411,
-                'user_id' => 1,
+                'id' => '1411',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:50',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -12337,8 +12337,8 @@ class LogsTableSeeder extends Seeder
             ),
             368 => 
             array (
-                'id' => 1412,
-                'user_id' => 1,
+                'id' => '1412',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:50',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -12346,8 +12346,8 @@ class LogsTableSeeder extends Seeder
             ),
             369 => 
             array (
-                'id' => 1413,
-                'user_id' => 1,
+                'id' => '1413',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:50',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -12355,8 +12355,8 @@ class LogsTableSeeder extends Seeder
             ),
             370 => 
             array (
-                'id' => 1414,
-                'user_id' => 1,
+                'id' => '1414',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:51',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -12364,8 +12364,8 @@ class LogsTableSeeder extends Seeder
             ),
             371 => 
             array (
-                'id' => 1415,
-                'user_id' => 1,
+                'id' => '1415',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 00:27:51',
                 'table_name' => 'visitors_ip_detail',
                 'log_type' => 'create',
@@ -12373,8 +12373,8 @@ class LogsTableSeeder extends Seeder
             ),
             372 => 
             array (
-                'id' => 1416,
-                'user_id' => 1,
+                'id' => '1416',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 01:47:05',
                 'table_name' => 'spk_saw',
                 'log_type' => 'create',
@@ -12382,8 +12382,8 @@ class LogsTableSeeder extends Seeder
             ),
             373 => 
             array (
-                'id' => 1417,
-                'user_id' => 1,
+                'id' => '1417',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 01:51:37',
                 'table_name' => 'spk_saw',
                 'log_type' => 'edit',
@@ -12391,8 +12391,8 @@ class LogsTableSeeder extends Seeder
             ),
             374 => 
             array (
-                'id' => 1418,
-                'user_id' => 1,
+                'id' => '1418',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 02:55:05',
                 'table_name' => 'spk_saw_kriteria',
                 'log_type' => 'create',
@@ -12400,8 +12400,8 @@ class LogsTableSeeder extends Seeder
             ),
             375 => 
             array (
-                'id' => 1419,
-                'user_id' => 1,
+                'id' => '1419',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 02:56:27',
                 'table_name' => 'spk_saw_kriteria',
                 'log_type' => 'create',
@@ -12409,8 +12409,8 @@ class LogsTableSeeder extends Seeder
             ),
             376 => 
             array (
-                'id' => 1420,
-                'user_id' => 1,
+                'id' => '1420',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 02:57:14',
                 'table_name' => 'spk_saw_kriteria',
                 'log_type' => 'create',
@@ -12418,8 +12418,8 @@ class LogsTableSeeder extends Seeder
             ),
             377 => 
             array (
-                'id' => 1421,
-                'user_id' => 1,
+                'id' => '1421',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 03:00:05',
                 'table_name' => 'spk_saw_kriteria',
                 'log_type' => 'create',
@@ -12427,8 +12427,8 @@ class LogsTableSeeder extends Seeder
             ),
             378 => 
             array (
-                'id' => 1422,
-                'user_id' => 1,
+                'id' => '1422',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 03:00:53',
                 'table_name' => 'spk_saw_kriteria',
                 'log_type' => 'delete',
@@ -12436,8 +12436,8 @@ class LogsTableSeeder extends Seeder
             ),
             379 => 
             array (
-                'id' => 1423,
-                'user_id' => 1,
+                'id' => '1423',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 03:01:11',
                 'table_name' => 'spk_saw_kriteria',
                 'log_type' => 'edit',
@@ -12445,8 +12445,8 @@ class LogsTableSeeder extends Seeder
             ),
             380 => 
             array (
-                'id' => 1424,
-                'user_id' => 1,
+                'id' => '1424',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 03:01:17',
                 'table_name' => 'spk_saw_kriteria',
                 'log_type' => 'edit',
@@ -12454,8 +12454,8 @@ class LogsTableSeeder extends Seeder
             ),
             381 => 
             array (
-                'id' => 1425,
-                'user_id' => 1,
+                'id' => '1425',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 03:04:26',
                 'table_name' => 'spk_saw',
                 'log_type' => 'create',
@@ -12463,8 +12463,8 @@ class LogsTableSeeder extends Seeder
             ),
             382 => 
             array (
-                'id' => 1426,
-                'user_id' => 1,
+                'id' => '1426',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 03:04:29',
                 'table_name' => 'spk_saw',
                 'log_type' => 'delete',
@@ -12472,8 +12472,8 @@ class LogsTableSeeder extends Seeder
             ),
             383 => 
             array (
-                'id' => 1427,
-                'user_id' => 1,
+                'id' => '1427',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 03:04:37',
                 'table_name' => 'spk_saw',
                 'log_type' => 'edit',
@@ -12481,8 +12481,8 @@ class LogsTableSeeder extends Seeder
             ),
             384 => 
             array (
-                'id' => 1441,
-                'user_id' => 1,
+                'id' => '1441',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 03:30:30',
                 'table_name' => 'spk_saw_alternatif',
                 'log_type' => 'create',
@@ -12490,8 +12490,8 @@ class LogsTableSeeder extends Seeder
             ),
             385 => 
             array (
-                'id' => 1442,
-                'user_id' => 1,
+                'id' => '1442',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 03:30:30',
                 'table_name' => 'spk_saw_alternatif_nilai',
                 'log_type' => 'create',
@@ -12499,8 +12499,8 @@ class LogsTableSeeder extends Seeder
             ),
             386 => 
             array (
-                'id' => 1443,
-                'user_id' => 1,
+                'id' => '1443',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 03:30:30',
                 'table_name' => 'spk_saw_alternatif_nilai',
                 'log_type' => 'create',
@@ -12508,8 +12508,8 @@ class LogsTableSeeder extends Seeder
             ),
             387 => 
             array (
-                'id' => 1444,
-                'user_id' => 1,
+                'id' => '1444',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 03:30:30',
                 'table_name' => 'spk_saw_alternatif_nilai',
                 'log_type' => 'create',
@@ -12517,8 +12517,8 @@ class LogsTableSeeder extends Seeder
             ),
             388 => 
             array (
-                'id' => 1445,
-                'user_id' => 1,
+                'id' => '1445',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 03:31:41',
                 'table_name' => 'spk_saw_alternatif',
                 'log_type' => 'create',
@@ -12526,8 +12526,8 @@ class LogsTableSeeder extends Seeder
             ),
             389 => 
             array (
-                'id' => 1446,
-                'user_id' => 1,
+                'id' => '1446',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 03:31:41',
                 'table_name' => 'spk_saw_alternatif_nilai',
                 'log_type' => 'create',
@@ -12535,8 +12535,8 @@ class LogsTableSeeder extends Seeder
             ),
             390 => 
             array (
-                'id' => 1447,
-                'user_id' => 1,
+                'id' => '1447',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 03:31:41',
                 'table_name' => 'spk_saw_alternatif_nilai',
                 'log_type' => 'create',
@@ -12544,8 +12544,8 @@ class LogsTableSeeder extends Seeder
             ),
             391 => 
             array (
-                'id' => 1448,
-                'user_id' => 1,
+                'id' => '1448',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 03:31:41',
                 'table_name' => 'spk_saw_alternatif_nilai',
                 'log_type' => 'create',
@@ -12553,8 +12553,8 @@ class LogsTableSeeder extends Seeder
             ),
             392 => 
             array (
-                'id' => 1449,
-                'user_id' => 1,
+                'id' => '1449',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 03:32:04',
                 'table_name' => 'spk_saw_alternatif',
                 'log_type' => 'create',
@@ -12562,8 +12562,8 @@ class LogsTableSeeder extends Seeder
             ),
             393 => 
             array (
-                'id' => 1450,
-                'user_id' => 1,
+                'id' => '1450',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 03:32:04',
                 'table_name' => 'spk_saw_alternatif_nilai',
                 'log_type' => 'create',
@@ -12571,8 +12571,8 @@ class LogsTableSeeder extends Seeder
             ),
             394 => 
             array (
-                'id' => 1451,
-                'user_id' => 1,
+                'id' => '1451',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 03:32:04',
                 'table_name' => 'spk_saw_alternatif_nilai',
                 'log_type' => 'create',
@@ -12580,8 +12580,8 @@ class LogsTableSeeder extends Seeder
             ),
             395 => 
             array (
-                'id' => 1452,
-                'user_id' => 1,
+                'id' => '1452',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 03:32:04',
                 'table_name' => 'spk_saw_alternatif_nilai',
                 'log_type' => 'create',
@@ -12589,8 +12589,8 @@ class LogsTableSeeder extends Seeder
             ),
             396 => 
             array (
-                'id' => 1453,
-                'user_id' => 1,
+                'id' => '1453',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 03:32:22',
                 'table_name' => 'spk_saw_alternatif',
                 'log_type' => 'create',
@@ -12598,8 +12598,8 @@ class LogsTableSeeder extends Seeder
             ),
             397 => 
             array (
-                'id' => 1454,
-                'user_id' => 1,
+                'id' => '1454',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 03:32:22',
                 'table_name' => 'spk_saw_alternatif_nilai',
                 'log_type' => 'create',
@@ -12607,8 +12607,8 @@ class LogsTableSeeder extends Seeder
             ),
             398 => 
             array (
-                'id' => 1455,
-                'user_id' => 1,
+                'id' => '1455',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 03:32:22',
                 'table_name' => 'spk_saw_alternatif_nilai',
                 'log_type' => 'create',
@@ -12616,8 +12616,8 @@ class LogsTableSeeder extends Seeder
             ),
             399 => 
             array (
-                'id' => 1456,
-                'user_id' => 1,
+                'id' => '1456',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 03:32:22',
                 'table_name' => 'spk_saw_alternatif_nilai',
                 'log_type' => 'create',
@@ -12625,8 +12625,8 @@ class LogsTableSeeder extends Seeder
             ),
             400 => 
             array (
-                'id' => 1457,
-                'user_id' => 1,
+                'id' => '1457',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 03:32:39',
                 'table_name' => 'spk_saw_alternatif',
                 'log_type' => 'create',
@@ -12634,8 +12634,8 @@ class LogsTableSeeder extends Seeder
             ),
             401 => 
             array (
-                'id' => 1458,
-                'user_id' => 1,
+                'id' => '1458',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 03:32:39',
                 'table_name' => 'spk_saw_alternatif_nilai',
                 'log_type' => 'create',
@@ -12643,8 +12643,8 @@ class LogsTableSeeder extends Seeder
             ),
             402 => 
             array (
-                'id' => 1459,
-                'user_id' => 1,
+                'id' => '1459',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 03:32:39',
                 'table_name' => 'spk_saw_alternatif_nilai',
                 'log_type' => 'create',
@@ -12652,8 +12652,8 @@ class LogsTableSeeder extends Seeder
             ),
             403 => 
             array (
-                'id' => 1460,
-                'user_id' => 1,
+                'id' => '1460',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 03:32:39',
                 'table_name' => 'spk_saw_alternatif_nilai',
                 'log_type' => 'create',
@@ -12661,8 +12661,8 @@ class LogsTableSeeder extends Seeder
             ),
             404 => 
             array (
-                'id' => 1461,
-                'user_id' => 1,
+                'id' => '1461',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 03:33:00',
                 'table_name' => 'spk_saw_alternatif',
                 'log_type' => 'create',
@@ -12670,8 +12670,8 @@ class LogsTableSeeder extends Seeder
             ),
             405 => 
             array (
-                'id' => 1462,
-                'user_id' => 1,
+                'id' => '1462',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 03:33:00',
                 'table_name' => 'spk_saw_alternatif_nilai',
                 'log_type' => 'create',
@@ -12679,8 +12679,8 @@ class LogsTableSeeder extends Seeder
             ),
             406 => 
             array (
-                'id' => 1463,
-                'user_id' => 1,
+                'id' => '1463',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 03:33:00',
                 'table_name' => 'spk_saw_alternatif_nilai',
                 'log_type' => 'create',
@@ -12688,8 +12688,8 @@ class LogsTableSeeder extends Seeder
             ),
             407 => 
             array (
-                'id' => 1464,
-                'user_id' => 1,
+                'id' => '1464',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 03:33:00',
                 'table_name' => 'spk_saw_alternatif_nilai',
                 'log_type' => 'create',
@@ -12697,8 +12697,8 @@ class LogsTableSeeder extends Seeder
             ),
             408 => 
             array (
-                'id' => 1465,
-                'user_id' => 1,
+                'id' => '1465',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 04:15:35',
                 'table_name' => 'spk_saw_alternatif_nilai',
                 'log_type' => 'create',
@@ -12706,8 +12706,8 @@ class LogsTableSeeder extends Seeder
             ),
             409 => 
             array (
-                'id' => 1466,
-                'user_id' => 1,
+                'id' => '1466',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 04:15:35',
                 'table_name' => 'spk_saw_alternatif_nilai',
                 'log_type' => 'create',
@@ -12715,8 +12715,8 @@ class LogsTableSeeder extends Seeder
             ),
             410 => 
             array (
-                'id' => 1467,
-                'user_id' => 1,
+                'id' => '1467',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 04:15:35',
                 'table_name' => 'spk_saw_alternatif_nilai',
                 'log_type' => 'create',
@@ -12724,8 +12724,8 @@ class LogsTableSeeder extends Seeder
             ),
             411 => 
             array (
-                'id' => 1468,
-                'user_id' => 1,
+                'id' => '1468',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 04:15:39',
                 'table_name' => 'spk_saw_alternatif_nilai',
                 'log_type' => 'create',
@@ -12733,8 +12733,8 @@ class LogsTableSeeder extends Seeder
             ),
             412 => 
             array (
-                'id' => 1469,
-                'user_id' => 1,
+                'id' => '1469',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 04:15:39',
                 'table_name' => 'spk_saw_alternatif_nilai',
                 'log_type' => 'create',
@@ -12742,8 +12742,8 @@ class LogsTableSeeder extends Seeder
             ),
             413 => 
             array (
-                'id' => 1470,
-                'user_id' => 1,
+                'id' => '1470',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 04:15:39',
                 'table_name' => 'spk_saw_alternatif_nilai',
                 'log_type' => 'create',
@@ -12751,8 +12751,8 @@ class LogsTableSeeder extends Seeder
             ),
             414 => 
             array (
-                'id' => 1471,
-                'user_id' => 1,
+                'id' => '1471',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 04:19:56',
                 'table_name' => 'p_menu',
                 'log_type' => 'create',
@@ -12760,8 +12760,8 @@ class LogsTableSeeder extends Seeder
             ),
             415 => 
             array (
-                'id' => 1472,
-                'user_id' => 1,
+                'id' => '1472',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 04:19:56',
                 'table_name' => 'p_role_has_menu',
                 'log_type' => 'create',
@@ -12769,8 +12769,8 @@ class LogsTableSeeder extends Seeder
             ),
             416 => 
             array (
-                'id' => 1473,
-                'user_id' => 1,
+                'id' => '1473',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 04:20:09',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -12778,8 +12778,8 @@ class LogsTableSeeder extends Seeder
             ),
             417 => 
             array (
-                'id' => 1474,
-                'user_id' => 1,
+                'id' => '1474',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 04:20:09',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -12787,8 +12787,8 @@ class LogsTableSeeder extends Seeder
             ),
             418 => 
             array (
-                'id' => 1475,
-                'user_id' => 1,
+                'id' => '1475',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 04:20:09',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -12796,8 +12796,8 @@ class LogsTableSeeder extends Seeder
             ),
             419 => 
             array (
-                'id' => 1476,
-                'user_id' => 1,
+                'id' => '1476',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 04:20:09',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -12805,8 +12805,8 @@ class LogsTableSeeder extends Seeder
             ),
             420 => 
             array (
-                'id' => 1477,
-                'user_id' => 1,
+                'id' => '1477',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 04:20:09',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -12814,8 +12814,8 @@ class LogsTableSeeder extends Seeder
             ),
             421 => 
             array (
-                'id' => 1478,
-                'user_id' => 1,
+                'id' => '1478',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 04:20:09',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -12823,8 +12823,8 @@ class LogsTableSeeder extends Seeder
             ),
             422 => 
             array (
-                'id' => 1479,
-                'user_id' => 1,
+                'id' => '1479',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 04:20:09',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -12832,8 +12832,8 @@ class LogsTableSeeder extends Seeder
             ),
             423 => 
             array (
-                'id' => 1480,
-                'user_id' => 1,
+                'id' => '1480',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 04:20:09',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -12841,8 +12841,8 @@ class LogsTableSeeder extends Seeder
             ),
             424 => 
             array (
-                'id' => 1481,
-                'user_id' => 1,
+                'id' => '1481',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 04:20:09',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -12850,8 +12850,8 @@ class LogsTableSeeder extends Seeder
             ),
             425 => 
             array (
-                'id' => 1482,
-                'user_id' => 1,
+                'id' => '1482',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 04:20:09',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -12859,8 +12859,8 @@ class LogsTableSeeder extends Seeder
             ),
             426 => 
             array (
-                'id' => 1483,
-                'user_id' => 1,
+                'id' => '1483',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 04:20:09',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -12868,8 +12868,8 @@ class LogsTableSeeder extends Seeder
             ),
             427 => 
             array (
-                'id' => 1484,
-                'user_id' => 1,
+                'id' => '1484',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 04:20:09',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -12877,8 +12877,8 @@ class LogsTableSeeder extends Seeder
             ),
             428 => 
             array (
-                'id' => 1485,
-                'user_id' => 1,
+                'id' => '1485',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 04:20:09',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -12886,8 +12886,8 @@ class LogsTableSeeder extends Seeder
             ),
             429 => 
             array (
-                'id' => 1486,
-                'user_id' => 1,
+                'id' => '1486',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 04:20:09',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -12895,8 +12895,8 @@ class LogsTableSeeder extends Seeder
             ),
             430 => 
             array (
-                'id' => 1487,
-                'user_id' => 1,
+                'id' => '1487',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 04:20:09',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -12904,8 +12904,8 @@ class LogsTableSeeder extends Seeder
             ),
             431 => 
             array (
-                'id' => 1488,
-                'user_id' => 1,
+                'id' => '1488',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 04:20:09',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -12913,8 +12913,8 @@ class LogsTableSeeder extends Seeder
             ),
             432 => 
             array (
-                'id' => 1489,
-                'user_id' => 1,
+                'id' => '1489',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 04:20:09',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -12922,8 +12922,8 @@ class LogsTableSeeder extends Seeder
             ),
             433 => 
             array (
-                'id' => 1490,
-                'user_id' => 1,
+                'id' => '1490',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 04:20:09',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -12931,8 +12931,8 @@ class LogsTableSeeder extends Seeder
             ),
             434 => 
             array (
-                'id' => 1491,
-                'user_id' => 1,
+                'id' => '1491',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 04:20:09',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -12940,8 +12940,8 @@ class LogsTableSeeder extends Seeder
             ),
             435 => 
             array (
-                'id' => 1492,
-                'user_id' => 1,
+                'id' => '1492',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 04:20:09',
                 'table_name' => 'p_menu',
                 'log_type' => 'edit',
@@ -12949,8 +12949,8 @@ class LogsTableSeeder extends Seeder
             ),
             436 => 
             array (
-                'id' => 1493,
-                'user_id' => 1,
+                'id' => '1493',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 04:29:18',
                 'table_name' => 'spk_saw_kriteria',
                 'log_type' => 'create',
@@ -12958,8 +12958,8 @@ class LogsTableSeeder extends Seeder
             ),
             437 => 
             array (
-                'id' => 1494,
-                'user_id' => 1,
+                'id' => '1494',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 04:31:26',
                 'table_name' => 'spk_saw_alternatif_nilai',
                 'log_type' => 'create',
@@ -12967,8 +12967,8 @@ class LogsTableSeeder extends Seeder
             ),
             438 => 
             array (
-                'id' => 1495,
-                'user_id' => 1,
+                'id' => '1495',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 04:31:26',
                 'table_name' => 'spk_saw_alternatif_nilai',
                 'log_type' => 'create',
@@ -12976,8 +12976,8 @@ class LogsTableSeeder extends Seeder
             ),
             439 => 
             array (
-                'id' => 1496,
-                'user_id' => 1,
+                'id' => '1496',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 04:31:26',
                 'table_name' => 'spk_saw_alternatif_nilai',
                 'log_type' => 'create',
@@ -12985,8 +12985,8 @@ class LogsTableSeeder extends Seeder
             ),
             440 => 
             array (
-                'id' => 1497,
-                'user_id' => 1,
+                'id' => '1497',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 04:31:26',
                 'table_name' => 'spk_saw_alternatif_nilai',
                 'log_type' => 'create',
@@ -12994,8 +12994,8 @@ class LogsTableSeeder extends Seeder
             ),
             441 => 
             array (
-                'id' => 1498,
-                'user_id' => 1,
+                'id' => '1498',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 04:49:41',
                 'table_name' => 'spk_saw_alternatif_nilai',
                 'log_type' => 'create',
@@ -13003,8 +13003,8 @@ class LogsTableSeeder extends Seeder
             ),
             442 => 
             array (
-                'id' => 1499,
-                'user_id' => 1,
+                'id' => '1499',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 04:49:41',
                 'table_name' => 'spk_saw_alternatif_nilai',
                 'log_type' => 'create',
@@ -13012,8 +13012,8 @@ class LogsTableSeeder extends Seeder
             ),
             443 => 
             array (
-                'id' => 1500,
-                'user_id' => 1,
+                'id' => '1500',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 04:49:41',
                 'table_name' => 'spk_saw_alternatif_nilai',
                 'log_type' => 'create',
@@ -13021,8 +13021,8 @@ class LogsTableSeeder extends Seeder
             ),
             444 => 
             array (
-                'id' => 1501,
-                'user_id' => 1,
+                'id' => '1501',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 04:49:41',
                 'table_name' => 'spk_saw_alternatif_nilai',
                 'log_type' => 'create',
@@ -13030,12 +13030,210 @@ class LogsTableSeeder extends Seeder
             ),
             445 => 
             array (
-                'id' => 1502,
-                'user_id' => 1,
+                'id' => '1502',
+                'user_id' => '1',
                 'log_date' => '2023-05-13 06:02:28',
                 'table_name' => 'spk_saw_kriteria',
                 'log_type' => 'delete',
                 'data' => '{"id":5,"spk_id":1,"nama":"Situs ini masih dalam masa pengembangan.","kode":"PU","bobot":1,"created_at":"2023-05-13 04:29:18","updated_at":"2023-05-13 04:29:18"}',
+            ),
+            446 => 
+            array (
+                'id' => '1503',
+                'user_id' => '1',
+                'log_date' => '2023-05-13 14:57:14',
+                'table_name' => 'spk_saw',
+                'log_type' => 'edit',
+                'data' => '{"id":"1","nama":"Pendukung keputusan kelulusan pelatihan tahap 1","slug":"pendukung-keputusan-kelulusan-pelatihan-tahap-1","keterangan":"<p><b>keterangan<\\/b><p><img data-bs-filename=\\"1681873855530_53.png\\" style=\\"width: 744.375px;\\" src=\\"\\/assets\\/spk\\/saw\\/16839172250.png\\"><br><\\/p><p><\\/p><p><\\/p><\\/p>\\n","status":"0","created_at":"2023-05-13 01:47:05","updated_at":"2023-05-13 03:04:37"}',
+            ),
+            447 => 
+            array (
+                'id' => '1504',
+                'user_id' => '1',
+                'log_date' => '2023-05-13 15:21:04',
+                'table_name' => 'spk_saw',
+                'log_type' => 'edit',
+                'data' => '{"id":"1","nama":"Kecamatan Asu","slug":"kecamatan-asu","keterangan":"<p><b>keterangan<\\/b><p><img data-bs-filename=\\"1681873855530_53.png\\" style=\\"width: 744.375px;\\" src=\\"\\/assets\\/spk\\/saw\\/16839172250.png\\"><br><\\/p><p><\\/p><p><\\/p><p><\\/p><\\/p>\\n","status":"0","created_at":"2023-05-13 01:47:05","updated_at":"2023-05-13 14:57:14"}',
+            ),
+            448 => 
+            array (
+                'id' => '1505',
+                'user_id' => '1',
+                'log_date' => '2023-05-13 15:21:25',
+                'table_name' => 'spk_saw_kriteria',
+                'log_type' => 'edit',
+            'data' => '{"id":"2","spk_id":"1","nama":"Seleksi Computer Assisted Test (Tahapan test tulis)","kode":"B2","bobot":"35","created_at":"2023-05-13 02:56:27","updated_at":"2023-05-13 02:56:27"}',
+            ),
+            449 => 
+            array (
+                'id' => '1506',
+                'user_id' => '1',
+                'log_date' => '2023-05-13 15:21:32',
+                'table_name' => 'spk_saw_kriteria',
+                'log_type' => 'edit',
+            'data' => '{"id":"3","spk_id":"1","nama":"Seleksi  Test Wawancara (tahapan terakhir)","kode":"B3","bobot":"30","created_at":"2023-05-13 02:57:14","updated_at":"2023-05-13 02:57:14"}',
+            ),
+            450 => 
+            array (
+                'id' => '1507',
+                'user_id' => '1',
+                'log_date' => '2023-05-13 15:21:59',
+                'table_name' => 'spk_saw_kriteria',
+                'log_type' => 'edit',
+            'data' => '{"id":"2","spk_id":"1","nama":"Absensi (Kehadiarn)","kode":"B2","bobot":"35","created_at":"2023-05-13 02:56:27","updated_at":"2023-05-13 15:21:25"}',
+            ),
+            451 => 
+            array (
+                'id' => '1508',
+                'user_id' => '1',
+                'log_date' => '2023-05-13 15:22:08',
+                'table_name' => 'spk_saw_kriteria',
+                'log_type' => 'edit',
+            'data' => '{"id":"1","spk_id":"1","nama":"Seleksi Tahap Awal  (Administrasi)","kode":"B1","bobot":"35","created_at":"2023-05-13 02:55:05","updated_at":"2023-05-13 03:01:17"}',
+            ),
+            452 => 
+            array (
+                'id' => '1509',
+                'user_id' => '1',
+                'log_date' => '2023-05-13 15:22:18',
+                'table_name' => 'spk_saw_kriteria',
+                'log_type' => 'edit',
+            'data' => '{"id":"1","spk_id":"1","nama":"Seleksi Tahap Awal  (Administrasi)","kode":"B1","bobot":"15","created_at":"2023-05-13 02:55:05","updated_at":"2023-05-13 15:22:08"}',
+            ),
+            453 => 
+            array (
+                'id' => '1510',
+                'user_id' => '1',
+                'log_date' => '2023-05-13 15:22:23',
+                'table_name' => 'spk_saw_kriteria',
+                'log_type' => 'edit',
+                'data' => '{"id":"3","spk_id":"1","nama":"Tugas","kode":"B3","bobot":"30","created_at":"2023-05-13 02:57:14","updated_at":"2023-05-13 15:21:32"}',
+            ),
+            454 => 
+            array (
+                'id' => '1511',
+                'user_id' => '4',
+                'log_date' => '2023-05-15 11:29:15',
+                'table_name' => '',
+                'log_type' => 'login',
+            'data' => '{"ip":"112.215.211.37","user_agent":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/113.0.0.0 Mobile Safari\\/537.36"}',
+            ),
+            455 => 
+            array (
+                'id' => '1512',
+                'user_id' => '1',
+                'log_date' => '2023-05-15 21:44:25',
+                'table_name' => '',
+                'log_type' => 'login',
+            'data' => '{"ip":"114.122.79.121","user_agent":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/113.0.0.0 Mobile Safari\\/537.36"}',
+            ),
+            456 => 
+            array (
+                'id' => '1513',
+                'user_id' => '1',
+                'log_date' => '2023-05-21 18:55:27',
+                'table_name' => '',
+                'log_type' => 'login',
+            'data' => '{"ip":"103.147.8.105","user_agent":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/113.0.0.0 Safari\\/537.36 Edg\\/113.0.1774.50"}',
+            ),
+            457 => 
+            array (
+                'id' => '1514',
+                'user_id' => '1',
+                'log_date' => '2023-05-22 10:39:27',
+                'table_name' => '',
+                'log_type' => 'login',
+            'data' => '{"ip":"180.244.134.195","user_agent":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/113.0.0.0 Safari\\/537.36 Edg\\/113.0.1774.50"}',
+            ),
+            458 => 
+            array (
+                'id' => '1515',
+                'user_id' => '1',
+                'log_date' => '2023-05-22 11:20:38',
+                'table_name' => '',
+                'log_type' => 'login',
+            'data' => '{"ip":"140.213.16.183","user_agent":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/113.0.0.0 Safari\\/537.36 Edg\\/113.0.1774.50"}',
+            ),
+            459 => 
+            array (
+                'id' => '1516',
+                'user_id' => '1',
+                'log_date' => '2023-05-22 20:03:27',
+                'table_name' => '',
+                'log_type' => 'login',
+            'data' => '{"ip":"180.244.139.169","user_agent":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/113.0.0.0 Safari\\/537.36 Edg\\/113.0.1774.50"}',
+            ),
+            460 => 
+            array (
+                'id' => '1517',
+                'user_id' => '4',
+                'log_date' => '2023-05-25 09:48:00',
+                'table_name' => '',
+                'log_type' => 'login',
+            'data' => '{"ip":"116.206.14.60","user_agent":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/113.0.0.0 Safari\\/537.36"}',
+            ),
+            461 => 
+            array (
+                'id' => '1518',
+                'user_id' => '1',
+                'log_date' => '2023-05-26 19:27:40',
+                'table_name' => '',
+                'log_type' => 'login',
+            'data' => '{"ip":"180.244.139.169","user_agent":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/113.0.0.0 Safari\\/537.36 Edg\\/113.0.1774.50"}',
+            ),
+            462 => 
+            array (
+                'id' => '1519',
+                'user_id' => '1',
+                'log_date' => '2023-05-27 23:11:21',
+                'table_name' => '',
+                'log_type' => 'login',
+            'data' => '{"ip":"103.147.8.43","user_agent":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/113.0.0.0 Safari\\/537.36 Edg\\/113.0.1774.57"}',
+            ),
+            463 => 
+            array (
+                'id' => '1520',
+                'user_id' => '1',
+                'log_date' => '2023-06-05 10:35:27',
+                'table_name' => '',
+                'log_type' => 'login',
+            'data' => '{"ip":"103.147.8.43","user_agent":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/114.0.0.0 Safari\\/537.36 Edg\\/114.0.1823.37"}',
+            ),
+            464 => 
+            array (
+                'id' => '1521',
+                'user_id' => '4',
+                'log_date' => '2023-06-06 10:36:06',
+                'table_name' => '',
+                'log_type' => 'login',
+            'data' => '{"ip":"103.184.56.146","user_agent":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/114.0.0.0 Safari\\/537.36"}',
+            ),
+            465 => 
+            array (
+                'id' => '1522',
+                'user_id' => '4',
+                'log_date' => '2023-06-06 19:49:07',
+                'table_name' => '',
+                'log_type' => 'login',
+            'data' => '{"ip":"103.147.9.114","user_agent":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/114.0.0.0 Safari\\/537.36"}',
+            ),
+            466 => 
+            array (
+                'id' => '1523',
+                'user_id' => '1',
+                'log_date' => '2023-06-07 12:34:40',
+                'table_name' => '',
+                'log_type' => 'login',
+            'data' => '{"ip":"180.244.132.43","user_agent":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/114.0.0.0 Safari\\/537.36 Edg\\/114.0.1823.37"}',
+            ),
+            467 => 
+            array (
+                'id' => '1524',
+                'user_id' => '4',
+                'log_date' => '2023-06-07 17:10:53',
+                'table_name' => '',
+                'log_type' => 'login',
+            'data' => '{"ip":"103.90.64.253","user_agent":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/114.0.0.0 Safari\\/537.36"}',
             ),
         ));
         

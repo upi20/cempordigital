@@ -21,14 +21,14 @@ class UsersTableSeeder extends Seeder
         \DB::table('users')->insert(array (
             0 => 
             array (
-                'id' => 1,
+                'id' => '1',
                 'name' => 'Isep Lutpi Nur',
                 'email' => 'iseplutpinur7@gmail.com',
                 'foto' => '202304182058334.png',
                 'username' => NULL,
                 'email_verified_at' => NULL,
                 'password' => '$2y$10$n3MdfR0wImKMgwM6WnOH6.7vZQAdIQcv7gt1jWI47C.wKN3LwXx2O',
-                'active' => 1,
+                'active' => '1',
                 'two_factor_secret' => NULL,
                 'two_factor_recovery_codes' => NULL,
                 'two_factor_confirmed_at' => NULL,
@@ -40,14 +40,14 @@ class UsersTableSeeder extends Seeder
             ),
             1 => 
             array (
-                'id' => 3,
+                'id' => '3',
                 'name' => 'Admin',
                 'email' => 'admin@mail.com',
                 'foto' => NULL,
                 'username' => NULL,
                 'email_verified_at' => NULL,
                 'password' => '$2y$10$HL9ziBLtmEaeocsJwvnWveYUyFCMwmEty9H.DBi1Qu4VpR8q4Qyrq',
-                'active' => 1,
+                'active' => '1',
                 'two_factor_secret' => NULL,
                 'two_factor_recovery_codes' => NULL,
                 'two_factor_confirmed_at' => NULL,
@@ -59,14 +59,14 @@ class UsersTableSeeder extends Seeder
             ),
             2 => 
             array (
-                'id' => 4,
+                'id' => '4',
                 'name' => 'Super Admin',
                 'email' => 'superadmin@mail.com',
                 'foto' => NULL,
                 'username' => NULL,
                 'email_verified_at' => NULL,
                 'password' => '$2y$10$HszYiA4Yv0TAwsg5QNp3Mu8k730Vu.LEAxebMGUHUSzX4GyPlJG12',
-                'active' => 1,
+                'active' => '1',
                 'two_factor_secret' => NULL,
                 'two_factor_recovery_codes' => NULL,
                 'two_factor_confirmed_at' => NULL,

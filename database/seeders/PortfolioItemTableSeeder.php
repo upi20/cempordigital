@@ -21,9 +21,9 @@ class PortfolioItemTableSeeder extends Seeder
         \DB::table('portfolio_item')->insert(array (
             0 => 
             array (
-                'id' => 1,
-                'portfolio_id' => 14,
-                'urutan' => 1,
+                'id' => '1',
+                'portfolio_id' => '14',
+                'urutan' => '1',
                 'nama' => 'Email',
                 'keterangan' => 'iseplutpinur7@gmail.com',
                 'created_at' => '2023-04-18 05:16:35',
