@@ -21,7 +21,7 @@ class VisitorsIpDetailTableSeeder extends Seeder
         \DB::table('visitors_ip_detail')->insert(array (
             0 => 
             array (
-                'id' => '1',
+                'id' => 1,
                 'ip' => '54.36.149.69',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -31,11 +31,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:23:40',
                 'updated_at' => '2023-05-13 00:23:40',
-                'visitors_id' => '1591',
+                'visitors_id' => 1591,
             ),
             1 => 
             array (
-                'id' => '2',
+                'id' => 2,
                 'ip' => '54.36.148.90',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -45,11 +45,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:23:50',
                 'updated_at' => '2023-05-13 00:23:50',
-                'visitors_id' => '1539',
+                'visitors_id' => 1539,
             ),
             2 => 
             array (
-                'id' => '3',
+                'id' => 3,
                 'ip' => '54.36.149.0',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -59,11 +59,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:23:53',
                 'updated_at' => '2023-05-13 00:23:53',
-                'visitors_id' => '1749',
+                'visitors_id' => 1749,
             ),
             3 => 
             array (
-                'id' => '4',
+                'id' => 4,
                 'ip' => '103.147.8.35',
                 'city' => 'Bandung',
                 'region' => 'West Java',
@@ -73,11 +73,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Asia/Jakarta',
                 'created_at' => '2023-05-13 00:23:55',
                 'updated_at' => '2023-05-13 00:23:55',
-                'visitors_id' => '138',
+                'visitors_id' => 138,
             ),
             4 => 
             array (
-                'id' => '5',
+                'id' => 5,
                 'ip' => '66.249.79.173',
                 'city' => 'Salem',
                 'region' => 'Oregon',
@@ -87,11 +87,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Los_Angeles',
                 'created_at' => '2023-05-13 00:23:56',
                 'updated_at' => '2023-05-13 00:23:56',
-                'visitors_id' => '139',
+                'visitors_id' => 139,
             ),
             5 => 
             array (
-                'id' => '6',
+                'id' => 6,
                 'ip' => '185.229.118.32',
                 'city' => 'Singapore',
                 'region' => 'Singapore',
@@ -101,11 +101,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Asia/Singapore',
                 'created_at' => '2023-05-13 00:23:56',
                 'updated_at' => '2023-05-13 00:23:56',
-                'visitors_id' => '140',
+                'visitors_id' => 140,
             ),
             6 => 
             array (
-                'id' => '7',
+                'id' => 7,
                 'ip' => '40.77.167.228',
                 'city' => 'Boydton',
                 'region' => 'Virginia',
@@ -115,11 +115,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/New_York',
                 'created_at' => '2023-05-13 00:23:56',
                 'updated_at' => '2023-05-13 00:23:56',
-                'visitors_id' => '141',
+                'visitors_id' => 141,
             ),
             7 => 
             array (
-                'id' => '8',
+                'id' => 8,
                 'ip' => '66.249.79.166',
                 'city' => 'Salem',
                 'region' => 'Oregon',
@@ -129,11 +129,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Los_Angeles',
                 'created_at' => '2023-05-13 00:23:57',
                 'updated_at' => '2023-05-13 00:23:57',
-                'visitors_id' => '142',
+                'visitors_id' => 142,
             ),
             8 => 
             array (
-                'id' => '9',
+                'id' => 9,
                 'ip' => '66.249.71.139',
                 'city' => 'Mountain View',
                 'region' => 'California',
@@ -143,11 +143,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Los_Angeles',
                 'created_at' => '2023-05-13 00:23:57',
                 'updated_at' => '2023-05-13 00:23:57',
-                'visitors_id' => '143',
+                'visitors_id' => 143,
             ),
             9 => 
             array (
-                'id' => '10',
+                'id' => 10,
                 'ip' => '66.249.71.135',
                 'city' => 'Mountain View',
                 'region' => 'California',
@@ -157,11 +157,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Los_Angeles',
                 'created_at' => '2023-05-13 00:23:57',
                 'updated_at' => '2023-05-13 00:23:57',
-                'visitors_id' => '144',
+                'visitors_id' => 144,
             ),
             10 => 
             array (
-                'id' => '11',
+                'id' => 11,
                 'ip' => '66.249.71.137',
                 'city' => 'Mountain View',
                 'region' => 'California',
@@ -171,11 +171,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Los_Angeles',
                 'created_at' => '2023-05-13 00:23:58',
                 'updated_at' => '2023-05-13 00:23:58',
-                'visitors_id' => '145',
+                'visitors_id' => 145,
             ),
             11 => 
             array (
-                'id' => '12',
+                'id' => 12,
                 'ip' => '66.249.79.169',
                 'city' => 'Salem',
                 'region' => 'Oregon',
@@ -185,11 +185,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Los_Angeles',
                 'created_at' => '2023-05-13 00:23:58',
                 'updated_at' => '2023-05-13 00:23:58',
-                'visitors_id' => '146',
+                'visitors_id' => 146,
             ),
             12 => 
             array (
-                'id' => '13',
+                'id' => 13,
                 'ip' => '66.249.71.137',
                 'city' => 'Mountain View',
                 'region' => 'California',
@@ -199,11 +199,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Los_Angeles',
                 'created_at' => '2023-05-13 00:23:58',
                 'updated_at' => '2023-05-13 00:23:58',
-                'visitors_id' => '147',
+                'visitors_id' => 147,
             ),
             13 => 
             array (
-                'id' => '14',
+                'id' => 14,
                 'ip' => '74.84.150.150',
                 'city' => 'North Kansas City',
                 'region' => 'Missouri',
@@ -213,11 +213,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Chicago',
                 'created_at' => '2023-05-13 00:23:58',
                 'updated_at' => '2023-05-13 00:23:58',
-                'visitors_id' => '148',
+                'visitors_id' => 148,
             ),
             14 => 
             array (
-                'id' => '15',
+                'id' => 15,
                 'ip' => '51.222.253.3',
                 'city' => 'Montréal',
                 'region' => 'Quebec',
@@ -227,11 +227,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Toronto',
                 'created_at' => '2023-05-13 00:23:59',
                 'updated_at' => '2023-05-13 00:23:59',
-                'visitors_id' => '149',
+                'visitors_id' => 149,
             ),
             15 => 
             array (
-                'id' => '16',
+                'id' => 16,
                 'ip' => '193.235.141.60',
                 'city' => 'Märsta',
                 'region' => 'Stockholm',
@@ -241,11 +241,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Stockholm',
                 'created_at' => '2023-05-13 00:23:59',
                 'updated_at' => '2023-05-13 00:23:59',
-                'visitors_id' => '150',
+                'visitors_id' => 150,
             ),
             16 => 
             array (
-                'id' => '17',
+                'id' => 17,
                 'ip' => '193.235.141.152',
                 'city' => 'Märsta',
                 'region' => 'Stockholm',
@@ -255,11 +255,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Stockholm',
                 'created_at' => '2023-05-13 00:23:59',
                 'updated_at' => '2023-05-13 00:23:59',
-                'visitors_id' => '151',
+                'visitors_id' => 151,
             ),
             17 => 
             array (
-                'id' => '18',
+                'id' => 18,
                 'ip' => '135.148.195.6',
                 'city' => 'Washington',
                 'region' => 'Washington, D.C.',
@@ -269,11 +269,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/New_York',
                 'created_at' => '2023-05-13 00:24:00',
                 'updated_at' => '2023-05-13 00:24:00',
-                'visitors_id' => '152',
+                'visitors_id' => 152,
             ),
             18 => 
             array (
-                'id' => '19',
+                'id' => 19,
                 'ip' => '66.249.71.201',
                 'city' => 'Mountain View',
                 'region' => 'California',
@@ -283,11 +283,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Los_Angeles',
                 'created_at' => '2023-05-13 00:24:00',
                 'updated_at' => '2023-05-13 00:24:00',
-                'visitors_id' => '153',
+                'visitors_id' => 153,
             ),
             19 => 
             array (
-                'id' => '20',
+                'id' => 20,
                 'ip' => '54.36.148.122',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -297,11 +297,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:00',
                 'updated_at' => '2023-05-13 00:24:00',
-                'visitors_id' => '154',
+                'visitors_id' => 154,
             ),
             20 => 
             array (
-                'id' => '21',
+                'id' => 21,
                 'ip' => '54.36.148.144',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -311,11 +311,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:00',
                 'updated_at' => '2023-05-13 00:24:00',
-                'visitors_id' => '155',
+                'visitors_id' => 155,
             ),
             21 => 
             array (
-                'id' => '22',
+                'id' => 22,
                 'ip' => '54.36.148.33',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -325,11 +325,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:01',
                 'updated_at' => '2023-05-13 00:24:01',
-                'visitors_id' => '156',
+                'visitors_id' => 156,
             ),
             22 => 
             array (
-                'id' => '23',
+                'id' => 23,
                 'ip' => '54.36.149.34',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -339,11 +339,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:01',
                 'updated_at' => '2023-05-13 00:24:01',
-                'visitors_id' => '157',
+                'visitors_id' => 157,
             ),
             23 => 
             array (
-                'id' => '24',
+                'id' => 24,
                 'ip' => '51.222.253.11',
                 'city' => 'Montréal',
                 'region' => 'Quebec',
@@ -353,11 +353,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Toronto',
                 'created_at' => '2023-05-13 00:24:01',
                 'updated_at' => '2023-05-13 00:24:01',
-                'visitors_id' => '158',
+                'visitors_id' => 158,
             ),
             24 => 
             array (
-                'id' => '25',
+                'id' => 25,
                 'ip' => '51.222.253.2',
                 'city' => 'Montréal',
                 'region' => 'Quebec',
@@ -367,11 +367,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Toronto',
                 'created_at' => '2023-05-13 00:24:02',
                 'updated_at' => '2023-05-13 00:24:02',
-                'visitors_id' => '159',
+                'visitors_id' => 159,
             ),
             25 => 
             array (
-                'id' => '26',
+                'id' => 26,
                 'ip' => '54.36.149.54',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -381,11 +381,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:02',
                 'updated_at' => '2023-05-13 00:24:02',
-                'visitors_id' => '160',
+                'visitors_id' => 160,
             ),
             26 => 
             array (
-                'id' => '27',
+                'id' => 27,
                 'ip' => '54.36.148.210',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -395,11 +395,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:02',
                 'updated_at' => '2023-05-13 00:24:02',
-                'visitors_id' => '161',
+                'visitors_id' => 161,
             ),
             27 => 
             array (
-                'id' => '28',
+                'id' => 28,
                 'ip' => '54.36.148.38',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -409,11 +409,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:03',
                 'updated_at' => '2023-05-13 00:24:03',
-                'visitors_id' => '162',
+                'visitors_id' => 162,
             ),
             28 => 
             array (
-                'id' => '29',
+                'id' => 29,
                 'ip' => '54.36.149.27',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -423,11 +423,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:03',
                 'updated_at' => '2023-05-13 00:24:03',
-                'visitors_id' => '163',
+                'visitors_id' => 163,
             ),
             29 => 
             array (
-                'id' => '30',
+                'id' => 30,
                 'ip' => '52.88.162.229',
                 'city' => 'Boardman',
                 'region' => 'Oregon',
@@ -437,11 +437,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Los_Angeles',
                 'created_at' => '2023-05-13 00:24:03',
                 'updated_at' => '2023-05-13 00:24:03',
-                'visitors_id' => '164',
+                'visitors_id' => 164,
             ),
             30 => 
             array (
-                'id' => '31',
+                'id' => 31,
                 'ip' => '52.10.148.58',
                 'city' => 'Boardman',
                 'region' => 'Oregon',
@@ -451,11 +451,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Los_Angeles',
                 'created_at' => '2023-05-13 00:24:03',
                 'updated_at' => '2023-05-13 00:24:03',
-                'visitors_id' => '165',
+                'visitors_id' => 165,
             ),
             31 => 
             array (
-                'id' => '32',
+                'id' => 32,
                 'ip' => '54.36.148.103',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -465,11 +465,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:04',
                 'updated_at' => '2023-05-13 00:24:04',
-                'visitors_id' => '166',
+                'visitors_id' => 166,
             ),
             32 => 
             array (
-                'id' => '33',
+                'id' => 33,
                 'ip' => '66.249.70.132',
                 'city' => 'Columbia',
                 'region' => 'South Carolina',
@@ -479,11 +479,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/New_York',
                 'created_at' => '2023-05-13 00:24:04',
                 'updated_at' => '2023-05-13 00:24:04',
-                'visitors_id' => '167',
+                'visitors_id' => 167,
             ),
             33 => 
             array (
-                'id' => '34',
+                'id' => 34,
                 'ip' => '46.228.199.158',
                 'city' => 'Düsseldorf',
                 'region' => 'North Rhine-Westphalia',
@@ -493,11 +493,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Berlin',
                 'created_at' => '2023-05-13 00:24:04',
                 'updated_at' => '2023-05-13 00:24:04',
-                'visitors_id' => '168',
+                'visitors_id' => 168,
             ),
             34 => 
             array (
-                'id' => '35',
+                'id' => 35,
                 'ip' => '54.36.149.51',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -507,11 +507,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:05',
                 'updated_at' => '2023-05-13 00:24:05',
-                'visitors_id' => '169',
+                'visitors_id' => 169,
             ),
             35 => 
             array (
-                'id' => '36',
+                'id' => 36,
                 'ip' => '54.36.149.60',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -521,11 +521,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:05',
                 'updated_at' => '2023-05-13 00:24:05',
-                'visitors_id' => '170',
+                'visitors_id' => 170,
             ),
             36 => 
             array (
-                'id' => '37',
+                'id' => 37,
                 'ip' => '54.36.148.236',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -535,11 +535,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:05',
                 'updated_at' => '2023-05-13 00:24:05',
-                'visitors_id' => '171',
+                'visitors_id' => 171,
             ),
             37 => 
             array (
-                'id' => '38',
+                'id' => 38,
                 'ip' => '54.36.148.98',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -549,11 +549,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:06',
                 'updated_at' => '2023-05-13 00:24:06',
-                'visitors_id' => '172',
+                'visitors_id' => 172,
             ),
             38 => 
             array (
-                'id' => '39',
+                'id' => 39,
                 'ip' => '54.36.148.66',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -563,11 +563,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:06',
                 'updated_at' => '2023-05-13 00:24:06',
-                'visitors_id' => '173',
+                'visitors_id' => 173,
             ),
             39 => 
             array (
-                'id' => '40',
+                'id' => 40,
                 'ip' => '54.36.149.70',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -577,11 +577,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:06',
                 'updated_at' => '2023-05-13 00:24:06',
-                'visitors_id' => '174',
+                'visitors_id' => 174,
             ),
             40 => 
             array (
-                'id' => '41',
+                'id' => 41,
                 'ip' => '54.36.148.35',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -591,11 +591,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:07',
                 'updated_at' => '2023-05-13 00:24:07',
-                'visitors_id' => '175',
+                'visitors_id' => 175,
             ),
             41 => 
             array (
-                'id' => '42',
+                'id' => 42,
                 'ip' => '54.36.148.217',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -605,11 +605,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:07',
                 'updated_at' => '2023-05-13 00:24:07',
-                'visitors_id' => '176',
+                'visitors_id' => 176,
             ),
             42 => 
             array (
-                'id' => '43',
+                'id' => 43,
                 'ip' => '54.36.149.50',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -619,11 +619,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:07',
                 'updated_at' => '2023-05-13 00:24:07',
-                'visitors_id' => '177',
+                'visitors_id' => 177,
             ),
             43 => 
             array (
-                'id' => '44',
+                'id' => 44,
                 'ip' => '54.36.148.111',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -633,11 +633,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:08',
                 'updated_at' => '2023-05-13 00:24:08',
-                'visitors_id' => '178',
+                'visitors_id' => 178,
             ),
             44 => 
             array (
-                'id' => '45',
+                'id' => 45,
                 'ip' => '54.36.148.222',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -647,11 +647,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:08',
                 'updated_at' => '2023-05-13 00:24:08',
-                'visitors_id' => '179',
+                'visitors_id' => 179,
             ),
             45 => 
             array (
-                'id' => '46',
+                'id' => 46,
                 'ip' => '54.36.149.98',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -661,11 +661,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:08',
                 'updated_at' => '2023-05-13 00:24:08',
-                'visitors_id' => '180',
+                'visitors_id' => 180,
             ),
             46 => 
             array (
-                'id' => '47',
+                'id' => 47,
                 'ip' => '54.36.148.125',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -675,11 +675,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:08',
                 'updated_at' => '2023-05-13 00:24:08',
-                'visitors_id' => '181',
+                'visitors_id' => 181,
             ),
             47 => 
             array (
-                'id' => '48',
+                'id' => 48,
                 'ip' => '54.36.148.225',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -689,11 +689,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:09',
                 'updated_at' => '2023-05-13 00:24:09',
-                'visitors_id' => '182',
+                'visitors_id' => 182,
             ),
             48 => 
             array (
-                'id' => '49',
+                'id' => 49,
                 'ip' => '54.36.149.4',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -703,11 +703,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:09',
                 'updated_at' => '2023-05-13 00:24:09',
-                'visitors_id' => '183',
+                'visitors_id' => 183,
             ),
             49 => 
             array (
-                'id' => '50',
+                'id' => 50,
                 'ip' => '54.36.149.80',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -717,11 +717,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:09',
                 'updated_at' => '2023-05-13 00:24:09',
-                'visitors_id' => '184',
+                'visitors_id' => 184,
             ),
             50 => 
             array (
-                'id' => '51',
+                'id' => 51,
                 'ip' => '54.36.149.47',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -731,11 +731,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:10',
                 'updated_at' => '2023-05-13 00:24:10',
-                'visitors_id' => '185',
+                'visitors_id' => 185,
             ),
             51 => 
             array (
-                'id' => '52',
+                'id' => 52,
                 'ip' => '54.36.148.76',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -745,11 +745,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:10',
                 'updated_at' => '2023-05-13 00:24:10',
-                'visitors_id' => '186',
+                'visitors_id' => 186,
             ),
             52 => 
             array (
-                'id' => '53',
+                'id' => 53,
                 'ip' => '54.36.148.116',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -759,11 +759,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:10',
                 'updated_at' => '2023-05-13 00:24:10',
-                'visitors_id' => '187',
+                'visitors_id' => 187,
             ),
             53 => 
             array (
-                'id' => '54',
+                'id' => 54,
                 'ip' => '185.229.118.32',
                 'city' => 'Singapore',
                 'region' => 'Singapore',
@@ -773,11 +773,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Asia/Singapore',
                 'created_at' => '2023-05-13 00:24:10',
                 'updated_at' => '2023-05-13 00:24:10',
-                'visitors_id' => '188',
+                'visitors_id' => 188,
             ),
             54 => 
             array (
-                'id' => '55',
+                'id' => 55,
                 'ip' => '66.249.70.132',
                 'city' => 'Columbia',
                 'region' => 'South Carolina',
@@ -787,11 +787,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/New_York',
                 'created_at' => '2023-05-13 00:24:11',
                 'updated_at' => '2023-05-13 00:24:11',
-                'visitors_id' => '189',
+                'visitors_id' => 189,
             ),
             55 => 
             array (
-                'id' => '56',
+                'id' => 56,
                 'ip' => '54.36.148.218',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -801,11 +801,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:11',
                 'updated_at' => '2023-05-13 00:24:11',
-                'visitors_id' => '190',
+                'visitors_id' => 190,
             ),
             56 => 
             array (
-                'id' => '57',
+                'id' => 57,
                 'ip' => '54.36.148.2',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -815,11 +815,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:11',
                 'updated_at' => '2023-05-13 00:24:11',
-                'visitors_id' => '191',
+                'visitors_id' => 191,
             ),
             57 => 
             array (
-                'id' => '58',
+                'id' => 58,
                 'ip' => '66.249.71.139',
                 'city' => 'Mountain View',
                 'region' => 'California',
@@ -829,11 +829,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Los_Angeles',
                 'created_at' => '2023-05-13 00:24:12',
                 'updated_at' => '2023-05-13 00:24:12',
-                'visitors_id' => '192',
+                'visitors_id' => 192,
             ),
             58 => 
             array (
-                'id' => '59',
+                'id' => 59,
                 'ip' => '54.36.149.71',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -843,11 +843,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:12',
                 'updated_at' => '2023-05-13 00:24:12',
-                'visitors_id' => '193',
+                'visitors_id' => 193,
             ),
             59 => 
             array (
-                'id' => '60',
+                'id' => 60,
                 'ip' => '54.36.148.191',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -857,11 +857,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:12',
                 'updated_at' => '2023-05-13 00:24:12',
-                'visitors_id' => '194',
+                'visitors_id' => 194,
             ),
             60 => 
             array (
-                'id' => '61',
+                'id' => 61,
                 'ip' => '164.90.184.41',
                 'city' => 'Frankfurt am Main',
                 'region' => 'Hesse',
@@ -871,11 +871,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Berlin',
                 'created_at' => '2023-05-13 00:24:12',
                 'updated_at' => '2023-05-13 00:24:12',
-                'visitors_id' => '195',
+                'visitors_id' => 195,
             ),
             61 => 
             array (
-                'id' => '62',
+                'id' => 62,
                 'ip' => '51.222.253.13',
                 'city' => 'Montréal',
                 'region' => 'Quebec',
@@ -885,11 +885,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Toronto',
                 'created_at' => '2023-05-13 00:24:13',
                 'updated_at' => '2023-05-13 00:24:13',
-                'visitors_id' => '196',
+                'visitors_id' => 196,
             ),
             62 => 
             array (
-                'id' => '63',
+                'id' => 63,
                 'ip' => '51.222.253.20',
                 'city' => 'Montréal',
                 'region' => 'Quebec',
@@ -899,11 +899,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Toronto',
                 'created_at' => '2023-05-13 00:24:13',
                 'updated_at' => '2023-05-13 00:24:13',
-                'visitors_id' => '197',
+                'visitors_id' => 197,
             ),
             63 => 
             array (
-                'id' => '64',
+                'id' => 64,
                 'ip' => '173.252.79.24',
                 'city' => 'Los Lunas',
                 'region' => 'New Mexico',
@@ -913,11 +913,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Denver',
                 'created_at' => '2023-05-13 00:24:13',
                 'updated_at' => '2023-05-13 00:24:13',
-                'visitors_id' => '198',
+                'visitors_id' => 198,
             ),
             64 => 
             array (
-                'id' => '65',
+                'id' => 65,
                 'ip' => '66.249.71.135',
                 'city' => 'Mountain View',
                 'region' => 'California',
@@ -927,11 +927,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Los_Angeles',
                 'created_at' => '2023-05-13 00:24:14',
                 'updated_at' => '2023-05-13 00:24:14',
-                'visitors_id' => '199',
+                'visitors_id' => 199,
             ),
             65 => 
             array (
-                'id' => '66',
+                'id' => 66,
                 'ip' => '51.222.253.6',
                 'city' => 'Montréal',
                 'region' => 'Quebec',
@@ -941,11 +941,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Toronto',
                 'created_at' => '2023-05-13 00:24:14',
                 'updated_at' => '2023-05-13 00:24:14',
-                'visitors_id' => '200',
+                'visitors_id' => 200,
             ),
             66 => 
             array (
-                'id' => '67',
+                'id' => 67,
                 'ip' => '51.222.253.10',
                 'city' => 'Montréal',
                 'region' => 'Quebec',
@@ -955,11 +955,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Toronto',
                 'created_at' => '2023-05-13 00:24:14',
                 'updated_at' => '2023-05-13 00:24:14',
-                'visitors_id' => '201',
+                'visitors_id' => 201,
             ),
             67 => 
             array (
-                'id' => '68',
+                'id' => 68,
                 'ip' => '66.249.70.131',
                 'city' => 'Columbia',
                 'region' => 'South Carolina',
@@ -969,11 +969,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/New_York',
                 'created_at' => '2023-05-13 00:24:14',
                 'updated_at' => '2023-05-13 00:24:14',
-                'visitors_id' => '202',
+                'visitors_id' => 202,
             ),
             68 => 
             array (
-                'id' => '69',
+                'id' => 69,
                 'ip' => '51.222.253.9',
                 'city' => 'Montréal',
                 'region' => 'Quebec',
@@ -983,11 +983,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Toronto',
                 'created_at' => '2023-05-13 00:24:15',
                 'updated_at' => '2023-05-13 00:24:15',
-                'visitors_id' => '203',
+                'visitors_id' => 203,
             ),
             69 => 
             array (
-                'id' => '70',
+                'id' => 70,
                 'ip' => '51.254.199.11',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -997,11 +997,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:15',
                 'updated_at' => '2023-05-13 00:24:15',
-                'visitors_id' => '204',
+                'visitors_id' => 204,
             ),
             70 => 
             array (
-                'id' => '71',
+                'id' => 71,
                 'ip' => '54.36.148.200',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -1011,11 +1011,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:15',
                 'updated_at' => '2023-05-13 00:24:15',
-                'visitors_id' => '205',
+                'visitors_id' => 205,
             ),
             71 => 
             array (
-                'id' => '72',
+                'id' => 72,
                 'ip' => '54.36.148.107',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -1025,11 +1025,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:16',
                 'updated_at' => '2023-05-13 00:24:16',
-                'visitors_id' => '206',
+                'visitors_id' => 206,
             ),
             72 => 
             array (
-                'id' => '73',
+                'id' => 73,
                 'ip' => '54.36.149.42',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -1039,11 +1039,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:16',
                 'updated_at' => '2023-05-13 00:24:16',
-                'visitors_id' => '207',
+                'visitors_id' => 207,
             ),
             73 => 
             array (
-                'id' => '74',
+                'id' => 74,
                 'ip' => '54.36.149.92',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -1053,11 +1053,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:16',
                 'updated_at' => '2023-05-13 00:24:16',
-                'visitors_id' => '208',
+                'visitors_id' => 208,
             ),
             74 => 
             array (
-                'id' => '75',
+                'id' => 75,
                 'ip' => '66.249.71.137',
                 'city' => 'Mountain View',
                 'region' => 'California',
@@ -1067,11 +1067,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Los_Angeles',
                 'created_at' => '2023-05-13 00:24:17',
                 'updated_at' => '2023-05-13 00:24:17',
-                'visitors_id' => '209',
+                'visitors_id' => 209,
             ),
             75 => 
             array (
-                'id' => '76',
+                'id' => 76,
                 'ip' => '54.36.148.154',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -1081,11 +1081,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:17',
                 'updated_at' => '2023-05-13 00:24:17',
-                'visitors_id' => '210',
+                'visitors_id' => 210,
             ),
             76 => 
             array (
-                'id' => '77',
+                'id' => 77,
                 'ip' => '54.36.149.70',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -1095,11 +1095,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:17',
                 'updated_at' => '2023-05-13 00:24:17',
-                'visitors_id' => '211',
+                'visitors_id' => 211,
             ),
             77 => 
             array (
-                'id' => '78',
+                'id' => 78,
                 'ip' => '54.36.148.25',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -1109,11 +1109,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:17',
                 'updated_at' => '2023-05-13 00:24:17',
-                'visitors_id' => '212',
+                'visitors_id' => 212,
             ),
             78 => 
             array (
-                'id' => '79',
+                'id' => 79,
                 'ip' => '54.36.148.183',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -1123,11 +1123,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:18',
                 'updated_at' => '2023-05-13 00:24:18',
-                'visitors_id' => '213',
+                'visitors_id' => 213,
             ),
             79 => 
             array (
-                'id' => '80',
+                'id' => 80,
                 'ip' => '54.36.148.26',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -1137,11 +1137,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:18',
                 'updated_at' => '2023-05-13 00:24:18',
-                'visitors_id' => '214',
+                'visitors_id' => 214,
             ),
             80 => 
             array (
-                'id' => '81',
+                'id' => 81,
                 'ip' => '54.36.148.51',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -1151,11 +1151,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:18',
                 'updated_at' => '2023-05-13 00:24:18',
-                'visitors_id' => '215',
+                'visitors_id' => 215,
             ),
             81 => 
             array (
-                'id' => '82',
+                'id' => 82,
                 'ip' => '52.167.144.62',
                 'city' => 'Boydton',
                 'region' => 'Virginia',
@@ -1165,11 +1165,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/New_York',
                 'created_at' => '2023-05-13 00:24:19',
                 'updated_at' => '2023-05-13 00:24:19',
-                'visitors_id' => '216',
+                'visitors_id' => 216,
             ),
             82 => 
             array (
-                'id' => '83',
+                'id' => 83,
                 'ip' => '54.36.148.196',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -1179,11 +1179,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:19',
                 'updated_at' => '2023-05-13 00:24:19',
-                'visitors_id' => '217',
+                'visitors_id' => 217,
             ),
             83 => 
             array (
-                'id' => '84',
+                'id' => 84,
                 'ip' => '54.36.149.79',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -1193,11 +1193,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:19',
                 'updated_at' => '2023-05-13 00:24:19',
-                'visitors_id' => '218',
+                'visitors_id' => 218,
             ),
             84 => 
             array (
-                'id' => '85',
+                'id' => 85,
                 'ip' => '54.36.149.28',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -1207,11 +1207,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:19',
                 'updated_at' => '2023-05-13 00:24:19',
-                'visitors_id' => '219',
+                'visitors_id' => 219,
             ),
             85 => 
             array (
-                'id' => '86',
+                'id' => 86,
                 'ip' => '54.36.148.13',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -1221,11 +1221,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:20',
                 'updated_at' => '2023-05-13 00:24:20',
-                'visitors_id' => '220',
+                'visitors_id' => 220,
             ),
             86 => 
             array (
-                'id' => '87',
+                'id' => 87,
                 'ip' => '54.36.148.49',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -1235,11 +1235,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:20',
                 'updated_at' => '2023-05-13 00:24:20',
-                'visitors_id' => '221',
+                'visitors_id' => 221,
             ),
             87 => 
             array (
-                'id' => '88',
+                'id' => 88,
                 'ip' => '54.36.148.12',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -1249,11 +1249,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:20',
                 'updated_at' => '2023-05-13 00:24:20',
-                'visitors_id' => '222',
+                'visitors_id' => 222,
             ),
             88 => 
             array (
-                'id' => '89',
+                'id' => 89,
                 'ip' => '35.88.187.56',
                 'city' => 'Boardman',
                 'region' => 'Oregon',
@@ -1263,11 +1263,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Los_Angeles',
                 'created_at' => '2023-05-13 00:24:21',
                 'updated_at' => '2023-05-13 00:24:21',
-                'visitors_id' => '223',
+                'visitors_id' => 223,
             ),
             89 => 
             array (
-                'id' => '90',
+                'id' => 90,
                 'ip' => '52.43.69.31',
                 'city' => 'Boardman',
                 'region' => 'Oregon',
@@ -1277,11 +1277,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Los_Angeles',
                 'created_at' => '2023-05-13 00:24:21',
                 'updated_at' => '2023-05-13 00:24:21',
-                'visitors_id' => '224',
+                'visitors_id' => 224,
             ),
             90 => 
             array (
-                'id' => '91',
+                'id' => 91,
                 'ip' => '54.36.148.15',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -1291,11 +1291,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:21',
                 'updated_at' => '2023-05-13 00:24:21',
-                'visitors_id' => '225',
+                'visitors_id' => 225,
             ),
             91 => 
             array (
-                'id' => '92',
+                'id' => 92,
                 'ip' => '54.36.149.10',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -1305,11 +1305,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:22',
                 'updated_at' => '2023-05-13 00:24:22',
-                'visitors_id' => '226',
+                'visitors_id' => 226,
             ),
             92 => 
             array (
-                'id' => '93',
+                'id' => 93,
                 'ip' => '54.36.149.74',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -1319,11 +1319,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:22',
                 'updated_at' => '2023-05-13 00:24:22',
-                'visitors_id' => '227',
+                'visitors_id' => 227,
             ),
             93 => 
             array (
-                'id' => '94',
+                'id' => 94,
                 'ip' => '54.36.148.223',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -1333,11 +1333,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:22',
                 'updated_at' => '2023-05-13 00:24:22',
-                'visitors_id' => '228',
+                'visitors_id' => 228,
             ),
             94 => 
             array (
-                'id' => '95',
+                'id' => 95,
                 'ip' => '51.222.253.1',
                 'city' => 'Montréal',
                 'region' => 'Quebec',
@@ -1347,11 +1347,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Toronto',
                 'created_at' => '2023-05-13 00:24:23',
                 'updated_at' => '2023-05-13 00:24:23',
-                'visitors_id' => '229',
+                'visitors_id' => 229,
             ),
             95 => 
             array (
-                'id' => '96',
+                'id' => 96,
                 'ip' => '54.149.173.2',
                 'city' => 'Boardman',
                 'region' => 'Oregon',
@@ -1361,11 +1361,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Los_Angeles',
                 'created_at' => '2023-05-13 00:24:23',
                 'updated_at' => '2023-05-13 00:24:23',
-                'visitors_id' => '230',
+                'visitors_id' => 230,
             ),
             96 => 
             array (
-                'id' => '97',
+                'id' => 97,
                 'ip' => '51.222.253.12',
                 'city' => 'Montréal',
                 'region' => 'Quebec',
@@ -1375,11 +1375,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Toronto',
                 'created_at' => '2023-05-13 00:24:23',
                 'updated_at' => '2023-05-13 00:24:23',
-                'visitors_id' => '231',
+                'visitors_id' => 231,
             ),
             97 => 
             array (
-                'id' => '98',
+                'id' => 98,
                 'ip' => '51.222.253.15',
                 'city' => 'Montréal',
                 'region' => 'Quebec',
@@ -1389,11 +1389,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Toronto',
                 'created_at' => '2023-05-13 00:24:23',
                 'updated_at' => '2023-05-13 00:24:23',
-                'visitors_id' => '232',
+                'visitors_id' => 232,
             ),
             98 => 
             array (
-                'id' => '99',
+                'id' => 99,
                 'ip' => '66.249.70.130',
                 'city' => 'Columbia',
                 'region' => 'South Carolina',
@@ -1403,11 +1403,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/New_York',
                 'created_at' => '2023-05-13 00:24:24',
                 'updated_at' => '2023-05-13 00:24:24',
-                'visitors_id' => '233',
+                'visitors_id' => 233,
             ),
             99 => 
             array (
-                'id' => '100',
+                'id' => 100,
                 'ip' => '51.222.253.14',
                 'city' => 'Montréal',
                 'region' => 'Quebec',
@@ -1417,11 +1417,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Toronto',
                 'created_at' => '2023-05-13 00:24:24',
                 'updated_at' => '2023-05-13 00:24:24',
-                'visitors_id' => '234',
+                'visitors_id' => 234,
             ),
             100 => 
             array (
-                'id' => '101',
+                'id' => 101,
                 'ip' => '51.222.253.19',
                 'city' => 'Montréal',
                 'region' => 'Quebec',
@@ -1431,11 +1431,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Toronto',
                 'created_at' => '2023-05-13 00:24:24',
                 'updated_at' => '2023-05-13 00:24:24',
-                'visitors_id' => '235',
+                'visitors_id' => 235,
             ),
             101 => 
             array (
-                'id' => '102',
+                'id' => 102,
                 'ip' => '51.222.253.18',
                 'city' => 'Montréal',
                 'region' => 'Quebec',
@@ -1445,11 +1445,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Toronto',
                 'created_at' => '2023-05-13 00:24:25',
                 'updated_at' => '2023-05-13 00:24:25',
-                'visitors_id' => '236',
+                'visitors_id' => 236,
             ),
             102 => 
             array (
-                'id' => '103',
+                'id' => 103,
                 'ip' => '51.222.253.17',
                 'city' => 'Montréal',
                 'region' => 'Quebec',
@@ -1459,11 +1459,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Toronto',
                 'created_at' => '2023-05-13 00:24:25',
                 'updated_at' => '2023-05-13 00:24:25',
-                'visitors_id' => '237',
+                'visitors_id' => 237,
             ),
             103 => 
             array (
-                'id' => '104',
+                'id' => 104,
                 'ip' => '40.77.167.228',
                 'city' => 'Boydton',
                 'region' => 'Virginia',
@@ -1473,11 +1473,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/New_York',
                 'created_at' => '2023-05-13 00:24:25',
                 'updated_at' => '2023-05-13 00:24:25',
-                'visitors_id' => '238',
+                'visitors_id' => 238,
             ),
             104 => 
             array (
-                'id' => '105',
+                'id' => 105,
                 'ip' => '66.249.71.158',
                 'city' => 'Mountain View',
                 'region' => 'California',
@@ -1487,11 +1487,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Los_Angeles',
                 'created_at' => '2023-05-13 00:24:25',
                 'updated_at' => '2023-05-13 00:24:25',
-                'visitors_id' => '239',
+                'visitors_id' => 239,
             ),
             105 => 
             array (
-                'id' => '106',
+                'id' => 106,
                 'ip' => '51.222.253.16',
                 'city' => 'Montréal',
                 'region' => 'Quebec',
@@ -1501,11 +1501,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Toronto',
                 'created_at' => '2023-05-13 00:24:26',
                 'updated_at' => '2023-05-13 00:24:26',
-                'visitors_id' => '240',
+                'visitors_id' => 240,
             ),
             106 => 
             array (
-                'id' => '107',
+                'id' => 107,
                 'ip' => '66.249.71.139',
                 'city' => 'Mountain View',
                 'region' => 'California',
@@ -1515,11 +1515,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Los_Angeles',
                 'created_at' => '2023-05-13 00:24:26',
                 'updated_at' => '2023-05-13 00:24:26',
-                'visitors_id' => '241',
+                'visitors_id' => 241,
             ),
             107 => 
             array (
-                'id' => '108',
+                'id' => 108,
                 'ip' => '51.222.253.7',
                 'city' => 'Montréal',
                 'region' => 'Quebec',
@@ -1529,11 +1529,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Toronto',
                 'created_at' => '2023-05-13 00:24:26',
                 'updated_at' => '2023-05-13 00:24:26',
-                'visitors_id' => '242',
+                'visitors_id' => 242,
             ),
             108 => 
             array (
-                'id' => '109',
+                'id' => 109,
                 'ip' => '51.222.253.8',
                 'city' => 'Montréal',
                 'region' => 'Quebec',
@@ -1543,11 +1543,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Toronto',
                 'created_at' => '2023-05-13 00:24:27',
                 'updated_at' => '2023-05-13 00:24:27',
-                'visitors_id' => '243',
+                'visitors_id' => 243,
             ),
             109 => 
             array (
-                'id' => '110',
+                'id' => 110,
                 'ip' => '51.222.253.3',
                 'city' => 'Montréal',
                 'region' => 'Quebec',
@@ -1557,11 +1557,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Toronto',
                 'created_at' => '2023-05-13 00:24:27',
                 'updated_at' => '2023-05-13 00:24:27',
-                'visitors_id' => '244',
+                'visitors_id' => 244,
             ),
             110 => 
             array (
-                'id' => '111',
+                'id' => 111,
                 'ip' => '51.222.253.5',
                 'city' => 'Montréal',
                 'region' => 'Quebec',
@@ -1571,11 +1571,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Toronto',
                 'created_at' => '2023-05-13 00:24:28',
                 'updated_at' => '2023-05-13 00:24:28',
-                'visitors_id' => '245',
+                'visitors_id' => 245,
             ),
             111 => 
             array (
-                'id' => '112',
+                'id' => 112,
                 'ip' => '51.222.253.4',
                 'city' => 'Montréal',
                 'region' => 'Quebec',
@@ -1585,11 +1585,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Toronto',
                 'created_at' => '2023-05-13 00:24:28',
                 'updated_at' => '2023-05-13 00:24:28',
-                'visitors_id' => '246',
+                'visitors_id' => 246,
             ),
             112 => 
             array (
-                'id' => '113',
+                'id' => 113,
                 'ip' => '54.36.148.239',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -1599,11 +1599,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:28',
                 'updated_at' => '2023-05-13 00:24:28',
-                'visitors_id' => '247',
+                'visitors_id' => 247,
             ),
             113 => 
             array (
-                'id' => '114',
+                'id' => 114,
                 'ip' => '54.36.148.211',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -1613,11 +1613,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:28',
                 'updated_at' => '2023-05-13 00:24:28',
-                'visitors_id' => '248',
+                'visitors_id' => 248,
             ),
             114 => 
             array (
-                'id' => '115',
+                'id' => 115,
                 'ip' => '54.36.148.158',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -1627,11 +1627,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:29',
                 'updated_at' => '2023-05-13 00:24:29',
-                'visitors_id' => '249',
+                'visitors_id' => 249,
             ),
             115 => 
             array (
-                'id' => '116',
+                'id' => 116,
                 'ip' => '54.36.148.105',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -1641,11 +1641,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:30',
                 'updated_at' => '2023-05-13 00:24:30',
-                'visitors_id' => '250',
+                'visitors_id' => 250,
             ),
             116 => 
             array (
-                'id' => '117',
+                'id' => 117,
                 'ip' => '42.83.147.56',
                 'city' => 'Beijing',
                 'region' => 'Beijing',
@@ -1655,11 +1655,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Asia/Shanghai',
                 'created_at' => '2023-05-13 00:24:30',
                 'updated_at' => '2023-05-13 00:24:30',
-                'visitors_id' => '251',
+                'visitors_id' => 251,
             ),
             117 => 
             array (
-                'id' => '118',
+                'id' => 118,
                 'ip' => '54.36.148.215',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -1669,11 +1669,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:30',
                 'updated_at' => '2023-05-13 00:24:30',
-                'visitors_id' => '252',
+                'visitors_id' => 252,
             ),
             118 => 
             array (
-                'id' => '119',
+                'id' => 119,
                 'ip' => '54.36.148.185',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -1683,11 +1683,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:31',
                 'updated_at' => '2023-05-13 00:24:31',
-                'visitors_id' => '253',
+                'visitors_id' => 253,
             ),
             119 => 
             array (
-                'id' => '120',
+                'id' => 120,
                 'ip' => '54.36.149.17',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -1697,11 +1697,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:31',
                 'updated_at' => '2023-05-13 00:24:31',
-                'visitors_id' => '254',
+                'visitors_id' => 254,
             ),
             120 => 
             array (
-                'id' => '121',
+                'id' => 121,
                 'ip' => '54.36.148.8',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -1711,11 +1711,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:31',
                 'updated_at' => '2023-05-13 00:24:31',
-                'visitors_id' => '255',
+                'visitors_id' => 255,
             ),
             121 => 
             array (
-                'id' => '122',
+                'id' => 122,
                 'ip' => '54.36.149.22',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -1725,11 +1725,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:31',
                 'updated_at' => '2023-05-13 00:24:31',
-                'visitors_id' => '256',
+                'visitors_id' => 256,
             ),
             122 => 
             array (
-                'id' => '123',
+                'id' => 123,
                 'ip' => '52.167.144.36',
                 'city' => 'Boydton',
                 'region' => 'Virginia',
@@ -1739,11 +1739,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/New_York',
                 'created_at' => '2023-05-13 00:24:32',
                 'updated_at' => '2023-05-13 00:24:32',
-                'visitors_id' => '257',
+                'visitors_id' => 257,
             ),
             123 => 
             array (
-                'id' => '124',
+                'id' => 124,
                 'ip' => '54.36.148.48',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -1753,11 +1753,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:32',
                 'updated_at' => '2023-05-13 00:24:32',
-                'visitors_id' => '258',
+                'visitors_id' => 258,
             ),
             124 => 
             array (
-                'id' => '125',
+                'id' => 125,
                 'ip' => '54.36.148.199',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -1767,11 +1767,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:32',
                 'updated_at' => '2023-05-13 00:24:32',
-                'visitors_id' => '259',
+                'visitors_id' => 259,
             ),
             125 => 
             array (
-                'id' => '126',
+                'id' => 126,
                 'ip' => '54.36.148.246',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -1781,11 +1781,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:33',
                 'updated_at' => '2023-05-13 00:24:33',
-                'visitors_id' => '260',
+                'visitors_id' => 260,
             ),
             126 => 
             array (
-                'id' => '127',
+                'id' => 127,
                 'ip' => '54.36.148.206',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -1795,11 +1795,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:33',
                 'updated_at' => '2023-05-13 00:24:33',
-                'visitors_id' => '261',
+                'visitors_id' => 261,
             ),
             127 => 
             array (
-                'id' => '128',
+                'id' => 128,
                 'ip' => '54.36.148.195',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -1809,11 +1809,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:33',
                 'updated_at' => '2023-05-13 00:24:33',
-                'visitors_id' => '262',
+                'visitors_id' => 262,
             ),
             128 => 
             array (
-                'id' => '129',
+                'id' => 129,
                 'ip' => '54.36.149.98',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -1823,11 +1823,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:33',
                 'updated_at' => '2023-05-13 00:24:33',
-                'visitors_id' => '263',
+                'visitors_id' => 263,
             ),
             129 => 
             array (
-                'id' => '130',
+                'id' => 130,
                 'ip' => '54.36.148.233',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -1837,11 +1837,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:34',
                 'updated_at' => '2023-05-13 00:24:34',
-                'visitors_id' => '264',
+                'visitors_id' => 264,
             ),
             130 => 
             array (
-                'id' => '131',
+                'id' => 131,
                 'ip' => '54.36.149.24',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -1851,11 +1851,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:34',
                 'updated_at' => '2023-05-13 00:24:34',
-                'visitors_id' => '265',
+                'visitors_id' => 265,
             ),
             131 => 
             array (
-                'id' => '132',
+                'id' => 132,
                 'ip' => '54.36.148.10',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -1865,11 +1865,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:34',
                 'updated_at' => '2023-05-13 00:24:34',
-                'visitors_id' => '266',
+                'visitors_id' => 266,
             ),
             132 => 
             array (
-                'id' => '133',
+                'id' => 133,
                 'ip' => '54.36.148.152',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -1879,11 +1879,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:35',
                 'updated_at' => '2023-05-13 00:24:35',
-                'visitors_id' => '267',
+                'visitors_id' => 267,
             ),
             133 => 
             array (
-                'id' => '134',
+                'id' => 134,
                 'ip' => '54.36.149.72',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -1893,11 +1893,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:35',
                 'updated_at' => '2023-05-13 00:24:35',
-                'visitors_id' => '268',
+                'visitors_id' => 268,
             ),
             134 => 
             array (
-                'id' => '135',
+                'id' => 135,
                 'ip' => '54.36.149.40',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -1907,11 +1907,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:35',
                 'updated_at' => '2023-05-13 00:24:35',
-                'visitors_id' => '269',
+                'visitors_id' => 269,
             ),
             135 => 
             array (
-                'id' => '136',
+                'id' => 136,
                 'ip' => '54.36.149.62',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -1921,11 +1921,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:36',
                 'updated_at' => '2023-05-13 00:24:36',
-                'visitors_id' => '270',
+                'visitors_id' => 270,
             ),
             136 => 
             array (
-                'id' => '137',
+                'id' => 137,
                 'ip' => '54.36.149.106',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -1935,11 +1935,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:36',
                 'updated_at' => '2023-05-13 00:24:36',
-                'visitors_id' => '271',
+                'visitors_id' => 271,
             ),
             137 => 
             array (
-                'id' => '138',
+                'id' => 138,
                 'ip' => '54.36.148.193',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -1949,11 +1949,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:36',
                 'updated_at' => '2023-05-13 00:24:36',
-                'visitors_id' => '272',
+                'visitors_id' => 272,
             ),
             138 => 
             array (
-                'id' => '139',
+                'id' => 139,
                 'ip' => '54.36.148.23',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -1963,11 +1963,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:37',
                 'updated_at' => '2023-05-13 00:24:37',
-                'visitors_id' => '273',
+                'visitors_id' => 273,
             ),
             139 => 
             array (
-                'id' => '140',
+                'id' => 140,
                 'ip' => '54.36.148.204',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -1977,11 +1977,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:37',
                 'updated_at' => '2023-05-13 00:24:37',
-                'visitors_id' => '274',
+                'visitors_id' => 274,
             ),
             140 => 
             array (
-                'id' => '141',
+                'id' => 141,
                 'ip' => '54.36.148.72',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -1991,11 +1991,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:37',
                 'updated_at' => '2023-05-13 00:24:37',
-                'visitors_id' => '275',
+                'visitors_id' => 275,
             ),
             141 => 
             array (
-                'id' => '142',
+                'id' => 142,
                 'ip' => '54.36.148.174',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -2005,11 +2005,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:37',
                 'updated_at' => '2023-05-13 00:24:37',
-                'visitors_id' => '276',
+                'visitors_id' => 276,
             ),
             142 => 
             array (
-                'id' => '143',
+                'id' => 143,
                 'ip' => '54.36.148.50',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -2019,11 +2019,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:38',
                 'updated_at' => '2023-05-13 00:24:38',
-                'visitors_id' => '277',
+                'visitors_id' => 277,
             ),
             143 => 
             array (
-                'id' => '144',
+                'id' => 144,
                 'ip' => '54.36.148.93',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -2033,11 +2033,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:38',
                 'updated_at' => '2023-05-13 00:24:38',
-                'visitors_id' => '278',
+                'visitors_id' => 278,
             ),
             144 => 
             array (
-                'id' => '145',
+                'id' => 145,
                 'ip' => '54.36.148.226',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -2047,11 +2047,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:38',
                 'updated_at' => '2023-05-13 00:24:38',
-                'visitors_id' => '279',
+                'visitors_id' => 279,
             ),
             145 => 
             array (
-                'id' => '146',
+                'id' => 146,
                 'ip' => '54.36.149.8',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -2061,11 +2061,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:39',
                 'updated_at' => '2023-05-13 00:24:39',
-                'visitors_id' => '280',
+                'visitors_id' => 280,
             ),
             146 => 
             array (
-                'id' => '147',
+                'id' => 147,
                 'ip' => '54.36.148.219',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -2075,11 +2075,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:39',
                 'updated_at' => '2023-05-13 00:24:39',
-                'visitors_id' => '281',
+                'visitors_id' => 281,
             ),
             147 => 
             array (
-                'id' => '148',
+                'id' => 148,
                 'ip' => '54.36.149.30',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -2089,11 +2089,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:39',
                 'updated_at' => '2023-05-13 00:24:39',
-                'visitors_id' => '282',
+                'visitors_id' => 282,
             ),
             148 => 
             array (
-                'id' => '149',
+                'id' => 149,
                 'ip' => '54.36.148.192',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -2103,11 +2103,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:39',
                 'updated_at' => '2023-05-13 00:24:39',
-                'visitors_id' => '283',
+                'visitors_id' => 283,
             ),
             149 => 
             array (
-                'id' => '150',
+                'id' => 150,
                 'ip' => '54.36.148.207',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -2117,11 +2117,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:40',
                 'updated_at' => '2023-05-13 00:24:40',
-                'visitors_id' => '284',
+                'visitors_id' => 284,
             ),
             150 => 
             array (
-                'id' => '151',
+                'id' => 151,
                 'ip' => '54.36.148.112',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -2131,11 +2131,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:40',
                 'updated_at' => '2023-05-13 00:24:40',
-                'visitors_id' => '285',
+                'visitors_id' => 285,
             ),
             151 => 
             array (
-                'id' => '152',
+                'id' => 152,
                 'ip' => '54.36.148.96',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -2145,11 +2145,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:40',
                 'updated_at' => '2023-05-13 00:24:40',
-                'visitors_id' => '286',
+                'visitors_id' => 286,
             ),
             152 => 
             array (
-                'id' => '153',
+                'id' => 153,
                 'ip' => '54.36.148.52',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -2159,11 +2159,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:41',
                 'updated_at' => '2023-05-13 00:24:41',
-                'visitors_id' => '287',
+                'visitors_id' => 287,
             ),
             153 => 
             array (
-                'id' => '154',
+                'id' => 154,
                 'ip' => '54.36.148.67',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -2173,11 +2173,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:41',
                 'updated_at' => '2023-05-13 00:24:41',
-                'visitors_id' => '288',
+                'visitors_id' => 288,
             ),
             154 => 
             array (
-                'id' => '155',
+                'id' => 155,
                 'ip' => '54.36.148.177',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -2187,11 +2187,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:41',
                 'updated_at' => '2023-05-13 00:24:41',
-                'visitors_id' => '289',
+                'visitors_id' => 289,
             ),
             155 => 
             array (
-                'id' => '156',
+                'id' => 156,
                 'ip' => '54.36.149.37',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -2201,11 +2201,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:42',
                 'updated_at' => '2023-05-13 00:24:42',
-                'visitors_id' => '290',
+                'visitors_id' => 290,
             ),
             156 => 
             array (
-                'id' => '157',
+                'id' => 157,
                 'ip' => '54.36.148.212',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -2215,11 +2215,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:42',
                 'updated_at' => '2023-05-13 00:24:42',
-                'visitors_id' => '291',
+                'visitors_id' => 291,
             ),
             157 => 
             array (
-                'id' => '158',
+                'id' => 158,
                 'ip' => '66.249.70.128',
                 'city' => 'Columbia',
                 'region' => 'South Carolina',
@@ -2229,11 +2229,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/New_York',
                 'created_at' => '2023-05-13 00:24:42',
                 'updated_at' => '2023-05-13 00:24:42',
-                'visitors_id' => '292',
+                'visitors_id' => 292,
             ),
             158 => 
             array (
-                'id' => '159',
+                'id' => 159,
                 'ip' => '54.36.149.73',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -2243,11 +2243,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:42',
                 'updated_at' => '2023-05-13 00:24:42',
-                'visitors_id' => '293',
+                'visitors_id' => 293,
             ),
             159 => 
             array (
-                'id' => '160',
+                'id' => 160,
                 'ip' => '54.36.149.80',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -2257,11 +2257,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:43',
                 'updated_at' => '2023-05-13 00:24:43',
-                'visitors_id' => '294',
+                'visitors_id' => 294,
             ),
             160 => 
             array (
-                'id' => '161',
+                'id' => 161,
                 'ip' => '54.36.148.88',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -2271,11 +2271,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:43',
                 'updated_at' => '2023-05-13 00:24:43',
-                'visitors_id' => '295',
+                'visitors_id' => 295,
             ),
             161 => 
             array (
-                'id' => '162',
+                'id' => 162,
                 'ip' => '54.36.148.147',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -2285,11 +2285,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:43',
                 'updated_at' => '2023-05-13 00:24:43',
-                'visitors_id' => '296',
+                'visitors_id' => 296,
             ),
             162 => 
             array (
-                'id' => '163',
+                'id' => 163,
                 'ip' => '51.222.253.11',
                 'city' => 'Montréal',
                 'region' => 'Quebec',
@@ -2299,11 +2299,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Toronto',
                 'created_at' => '2023-05-13 00:24:44',
                 'updated_at' => '2023-05-13 00:24:44',
-                'visitors_id' => '297',
+                'visitors_id' => 297,
             ),
             163 => 
             array (
-                'id' => '164',
+                'id' => 164,
                 'ip' => '66.249.71.201',
                 'city' => 'Mountain View',
                 'region' => 'California',
@@ -2313,11 +2313,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Los_Angeles',
                 'created_at' => '2023-05-13 00:24:44',
                 'updated_at' => '2023-05-13 00:24:44',
-                'visitors_id' => '298',
+                'visitors_id' => 298,
             ),
             164 => 
             array (
-                'id' => '165',
+                'id' => 165,
                 'ip' => '66.249.71.167',
                 'city' => 'Mountain View',
                 'region' => 'California',
@@ -2327,11 +2327,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Los_Angeles',
                 'created_at' => '2023-05-13 00:24:44',
                 'updated_at' => '2023-05-13 00:24:44',
-                'visitors_id' => '299',
+                'visitors_id' => 299,
             ),
             165 => 
             array (
-                'id' => '166',
+                'id' => 166,
                 'ip' => '66.249.71.203',
                 'city' => 'Mountain View',
                 'region' => 'California',
@@ -2341,11 +2341,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Los_Angeles',
                 'created_at' => '2023-05-13 00:24:44',
                 'updated_at' => '2023-05-13 00:24:44',
-                'visitors_id' => '300',
+                'visitors_id' => 300,
             ),
             166 => 
             array (
-                'id' => '167',
+                'id' => 167,
                 'ip' => '54.36.148.203',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -2355,11 +2355,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:45',
                 'updated_at' => '2023-05-13 00:24:45',
-                'visitors_id' => '301',
+                'visitors_id' => 301,
             ),
             167 => 
             array (
-                'id' => '168',
+                'id' => 168,
                 'ip' => '54.36.149.107',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -2369,11 +2369,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:45',
                 'updated_at' => '2023-05-13 00:24:45',
-                'visitors_id' => '302',
+                'visitors_id' => 302,
             ),
             168 => 
             array (
-                'id' => '169',
+                'id' => 169,
                 'ip' => '54.36.149.76',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -2383,11 +2383,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:45',
                 'updated_at' => '2023-05-13 00:24:45',
-                'visitors_id' => '303',
+                'visitors_id' => 303,
             ),
             169 => 
             array (
-                'id' => '170',
+                'id' => 170,
                 'ip' => '54.36.148.16',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -2397,11 +2397,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:46',
                 'updated_at' => '2023-05-13 00:24:46',
-                'visitors_id' => '304',
+                'visitors_id' => 304,
             ),
             170 => 
             array (
-                'id' => '171',
+                'id' => 171,
                 'ip' => '54.36.148.113',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -2411,11 +2411,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:46',
                 'updated_at' => '2023-05-13 00:24:46',
-                'visitors_id' => '305',
+                'visitors_id' => 305,
             ),
             171 => 
             array (
-                'id' => '172',
+                'id' => 172,
                 'ip' => '54.36.149.101',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -2425,11 +2425,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:46',
                 'updated_at' => '2023-05-13 00:24:46',
-                'visitors_id' => '306',
+                'visitors_id' => 306,
             ),
             172 => 
             array (
-                'id' => '173',
+                'id' => 173,
                 'ip' => '51.222.253.2',
                 'city' => 'Montréal',
                 'region' => 'Quebec',
@@ -2439,11 +2439,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Toronto',
                 'created_at' => '2023-05-13 00:24:46',
                 'updated_at' => '2023-05-13 00:24:46',
-                'visitors_id' => '307',
+                'visitors_id' => 307,
             ),
             173 => 
             array (
-                'id' => '174',
+                'id' => 174,
                 'ip' => '18.237.136.159',
                 'city' => 'Boardman',
                 'region' => 'Oregon',
@@ -2453,11 +2453,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Los_Angeles',
                 'created_at' => '2023-05-13 00:24:47',
                 'updated_at' => '2023-05-13 00:24:47',
-                'visitors_id' => '308',
+                'visitors_id' => 308,
             ),
             174 => 
             array (
-                'id' => '175',
+                'id' => 175,
                 'ip' => '66.249.71.171',
                 'city' => 'Mountain View',
                 'region' => 'California',
@@ -2467,11 +2467,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Los_Angeles',
                 'created_at' => '2023-05-13 00:24:47',
                 'updated_at' => '2023-05-13 00:24:47',
-                'visitors_id' => '309',
+                'visitors_id' => 309,
             ),
             175 => 
             array (
-                'id' => '176',
+                'id' => 176,
                 'ip' => '54.218.73.171',
                 'city' => 'Boardman',
                 'region' => 'Oregon',
@@ -2481,11 +2481,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Los_Angeles',
                 'created_at' => '2023-05-13 00:24:47',
                 'updated_at' => '2023-05-13 00:24:47',
-                'visitors_id' => '310',
+                'visitors_id' => 310,
             ),
             176 => 
             array (
-                'id' => '177',
+                'id' => 177,
                 'ip' => '34.221.79.167',
                 'city' => 'Boardman',
                 'region' => 'Oregon',
@@ -2495,11 +2495,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Los_Angeles',
                 'created_at' => '2023-05-13 00:24:48',
                 'updated_at' => '2023-05-13 00:24:48',
-                'visitors_id' => '311',
+                'visitors_id' => 311,
             ),
             177 => 
             array (
-                'id' => '178',
+                'id' => 178,
                 'ip' => '54.36.148.19',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -2509,11 +2509,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:48',
                 'updated_at' => '2023-05-13 00:24:48',
-                'visitors_id' => '312',
+                'visitors_id' => 312,
             ),
             178 => 
             array (
-                'id' => '179',
+                'id' => 179,
                 'ip' => '54.36.148.221',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -2523,11 +2523,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:48',
                 'updated_at' => '2023-05-13 00:24:48',
-                'visitors_id' => '313',
+                'visitors_id' => 313,
             ),
             179 => 
             array (
-                'id' => '180',
+                'id' => 180,
                 'ip' => '213.180.203.171',
                 'city' => 'Moscow',
                 'region' => 'Moscow',
@@ -2537,11 +2537,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Moscow',
                 'created_at' => '2023-05-13 00:24:49',
                 'updated_at' => '2023-05-13 00:24:49',
-                'visitors_id' => '314',
+                'visitors_id' => 314,
             ),
             180 => 
             array (
-                'id' => '181',
+                'id' => 181,
                 'ip' => '54.36.149.59',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -2551,11 +2551,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:49',
                 'updated_at' => '2023-05-13 00:24:49',
-                'visitors_id' => '315',
+                'visitors_id' => 315,
             ),
             181 => 
             array (
-                'id' => '182',
+                'id' => 182,
                 'ip' => '54.36.148.189',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -2565,11 +2565,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:49',
                 'updated_at' => '2023-05-13 00:24:49',
-                'visitors_id' => '316',
+                'visitors_id' => 316,
             ),
             182 => 
             array (
-                'id' => '183',
+                'id' => 183,
                 'ip' => '185.229.118.32',
                 'city' => 'Singapore',
                 'region' => 'Singapore',
@@ -2579,11 +2579,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Asia/Singapore',
                 'created_at' => '2023-05-13 00:24:49',
                 'updated_at' => '2023-05-13 00:24:49',
-                'visitors_id' => '317',
+                'visitors_id' => 317,
             ),
             183 => 
             array (
-                'id' => '184',
+                'id' => 184,
                 'ip' => '54.36.148.17',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -2593,11 +2593,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:50',
                 'updated_at' => '2023-05-13 00:24:50',
-                'visitors_id' => '318',
+                'visitors_id' => 318,
             ),
             184 => 
             array (
-                'id' => '185',
+                'id' => 185,
                 'ip' => '54.36.148.194',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -2607,11 +2607,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:50',
                 'updated_at' => '2023-05-13 00:24:50',
-                'visitors_id' => '319',
+                'visitors_id' => 319,
             ),
             185 => 
             array (
-                'id' => '186',
+                'id' => 186,
                 'ip' => '51.222.253.18',
                 'city' => 'Montréal',
                 'region' => 'Quebec',
@@ -2621,11 +2621,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Toronto',
                 'created_at' => '2023-05-13 00:24:50',
                 'updated_at' => '2023-05-13 00:24:50',
-                'visitors_id' => '320',
+                'visitors_id' => 320,
             ),
             186 => 
             array (
-                'id' => '187',
+                'id' => 187,
                 'ip' => '51.222.253.16',
                 'city' => 'Montréal',
                 'region' => 'Quebec',
@@ -2635,11 +2635,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Toronto',
                 'created_at' => '2023-05-13 00:24:51',
                 'updated_at' => '2023-05-13 00:24:51',
-                'visitors_id' => '321',
+                'visitors_id' => 321,
             ),
             187 => 
             array (
-                'id' => '188',
+                'id' => 188,
                 'ip' => '51.222.253.8',
                 'city' => 'Montréal',
                 'region' => 'Quebec',
@@ -2649,11 +2649,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Toronto',
                 'created_at' => '2023-05-13 00:24:51',
                 'updated_at' => '2023-05-13 00:24:51',
-                'visitors_id' => '322',
+                'visitors_id' => 322,
             ),
             188 => 
             array (
-                'id' => '189',
+                'id' => 189,
                 'ip' => '51.222.253.5',
                 'city' => 'Montréal',
                 'region' => 'Quebec',
@@ -2663,11 +2663,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Toronto',
                 'created_at' => '2023-05-13 00:24:51',
                 'updated_at' => '2023-05-13 00:24:51',
-                'visitors_id' => '323',
+                'visitors_id' => 323,
             ),
             189 => 
             array (
-                'id' => '190',
+                'id' => 190,
                 'ip' => '51.222.253.17',
                 'city' => 'Montréal',
                 'region' => 'Quebec',
@@ -2677,11 +2677,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Toronto',
                 'created_at' => '2023-05-13 00:24:52',
                 'updated_at' => '2023-05-13 00:24:52',
-                'visitors_id' => '324',
+                'visitors_id' => 324,
             ),
             190 => 
             array (
-                'id' => '191',
+                'id' => 191,
                 'ip' => '51.222.253.10',
                 'city' => 'Montréal',
                 'region' => 'Quebec',
@@ -2691,11 +2691,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Toronto',
                 'created_at' => '2023-05-13 00:24:52',
                 'updated_at' => '2023-05-13 00:24:52',
-                'visitors_id' => '325',
+                'visitors_id' => 325,
             ),
             191 => 
             array (
-                'id' => '192',
+                'id' => 192,
                 'ip' => '66.249.71.139',
                 'city' => 'Mountain View',
                 'region' => 'California',
@@ -2705,11 +2705,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Los_Angeles',
                 'created_at' => '2023-05-13 00:24:52',
                 'updated_at' => '2023-05-13 00:24:52',
-                'visitors_id' => '326',
+                'visitors_id' => 326,
             ),
             192 => 
             array (
-                'id' => '193',
+                'id' => 193,
                 'ip' => '54.36.148.164',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -2719,11 +2719,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:53',
                 'updated_at' => '2023-05-13 00:24:53',
-                'visitors_id' => '327',
+                'visitors_id' => 327,
             ),
             193 => 
             array (
-                'id' => '194',
+                'id' => 194,
                 'ip' => '54.36.148.97',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -2733,11 +2733,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:53',
                 'updated_at' => '2023-05-13 00:24:53',
-                'visitors_id' => '328',
+                'visitors_id' => 328,
             ),
             194 => 
             array (
-                'id' => '195',
+                'id' => 195,
                 'ip' => '54.36.148.223',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -2747,11 +2747,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:53',
                 'updated_at' => '2023-05-13 00:24:53',
-                'visitors_id' => '329',
+                'visitors_id' => 329,
             ),
             195 => 
             array (
-                'id' => '196',
+                'id' => 196,
                 'ip' => '54.36.149.58',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -2761,11 +2761,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:53',
                 'updated_at' => '2023-05-13 00:24:53',
-                'visitors_id' => '330',
+                'visitors_id' => 330,
             ),
             196 => 
             array (
-                'id' => '197',
+                'id' => 197,
                 'ip' => '54.36.148.225',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -2775,11 +2775,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:54',
                 'updated_at' => '2023-05-13 00:24:54',
-                'visitors_id' => '331',
+                'visitors_id' => 331,
             ),
             197 => 
             array (
-                'id' => '198',
+                'id' => 198,
                 'ip' => '54.36.148.180',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -2789,11 +2789,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:54',
                 'updated_at' => '2023-05-13 00:24:54',
-                'visitors_id' => '332',
+                'visitors_id' => 332,
             ),
             198 => 
             array (
-                'id' => '199',
+                'id' => 199,
                 'ip' => '54.36.149.28',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -2803,11 +2803,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:54',
                 'updated_at' => '2023-05-13 00:24:54',
-                'visitors_id' => '333',
+                'visitors_id' => 333,
             ),
             199 => 
             array (
-                'id' => '200',
+                'id' => 200,
                 'ip' => '54.36.148.78',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -2817,11 +2817,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:55',
                 'updated_at' => '2023-05-13 00:24:55',
-                'visitors_id' => '334',
+                'visitors_id' => 334,
             ),
             200 => 
             array (
-                'id' => '201',
+                'id' => 201,
                 'ip' => '54.36.148.79',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -2831,11 +2831,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:55',
                 'updated_at' => '2023-05-13 00:24:55',
-                'visitors_id' => '335',
+                'visitors_id' => 335,
             ),
             201 => 
             array (
-                'id' => '202',
+                'id' => 202,
                 'ip' => '54.36.149.19',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -2845,11 +2845,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:55',
                 'updated_at' => '2023-05-13 00:24:55',
-                'visitors_id' => '336',
+                'visitors_id' => 336,
             ),
             202 => 
             array (
-                'id' => '203',
+                'id' => 203,
                 'ip' => '54.36.148.102',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -2859,11 +2859,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:56',
                 'updated_at' => '2023-05-13 00:24:56',
-                'visitors_id' => '337',
+                'visitors_id' => 337,
             ),
             203 => 
             array (
-                'id' => '204',
+                'id' => 204,
                 'ip' => '54.36.149.69',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -2873,11 +2873,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:56',
                 'updated_at' => '2023-05-13 00:24:56',
-                'visitors_id' => '338',
+                'visitors_id' => 338,
             ),
             204 => 
             array (
-                'id' => '205',
+                'id' => 205,
                 'ip' => '66.249.71.129',
                 'city' => 'Mountain View',
                 'region' => 'California',
@@ -2887,11 +2887,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Los_Angeles',
                 'created_at' => '2023-05-13 00:24:56',
                 'updated_at' => '2023-05-13 00:24:56',
-                'visitors_id' => '339',
+                'visitors_id' => 339,
             ),
             205 => 
             array (
-                'id' => '206',
+                'id' => 206,
                 'ip' => '54.36.148.245',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -2901,11 +2901,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:57',
                 'updated_at' => '2023-05-13 00:24:57',
-                'visitors_id' => '340',
+                'visitors_id' => 340,
             ),
             206 => 
             array (
-                'id' => '207',
+                'id' => 207,
                 'ip' => '54.36.149.52',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -2915,11 +2915,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:57',
                 'updated_at' => '2023-05-13 00:24:57',
-                'visitors_id' => '341',
+                'visitors_id' => 341,
             ),
             207 => 
             array (
-                'id' => '208',
+                'id' => 208,
                 'ip' => '54.36.148.122',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -2929,11 +2929,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:57',
                 'updated_at' => '2023-05-13 00:24:57',
-                'visitors_id' => '342',
+                'visitors_id' => 342,
             ),
             208 => 
             array (
-                'id' => '209',
+                'id' => 209,
                 'ip' => '54.36.148.207',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -2943,11 +2943,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:58',
                 'updated_at' => '2023-05-13 00:24:58',
-                'visitors_id' => '343',
+                'visitors_id' => 343,
             ),
             209 => 
             array (
-                'id' => '210',
+                'id' => 210,
                 'ip' => '54.36.149.102',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -2957,11 +2957,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:58',
                 'updated_at' => '2023-05-13 00:24:58',
-                'visitors_id' => '344',
+                'visitors_id' => 344,
             ),
             210 => 
             array (
-                'id' => '211',
+                'id' => 211,
                 'ip' => '54.36.148.141',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -2971,11 +2971,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:58',
                 'updated_at' => '2023-05-13 00:24:58',
-                'visitors_id' => '345',
+                'visitors_id' => 345,
             ),
             211 => 
             array (
-                'id' => '212',
+                'id' => 212,
                 'ip' => '54.36.148.103',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -2985,11 +2985,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:59',
                 'updated_at' => '2023-05-13 00:24:59',
-                'visitors_id' => '346',
+                'visitors_id' => 346,
             ),
             212 => 
             array (
-                'id' => '213',
+                'id' => 213,
                 'ip' => '54.36.148.68',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -2999,11 +2999,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:59',
                 'updated_at' => '2023-05-13 00:24:59',
-                'visitors_id' => '347',
+                'visitors_id' => 347,
             ),
             213 => 
             array (
-                'id' => '214',
+                'id' => 214,
                 'ip' => '54.36.148.49',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -3013,11 +3013,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:59',
                 'updated_at' => '2023-05-13 00:24:59',
-                'visitors_id' => '348',
+                'visitors_id' => 348,
             ),
             214 => 
             array (
-                'id' => '215',
+                'id' => 215,
                 'ip' => '54.36.148.193',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -3027,11 +3027,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:24:59',
                 'updated_at' => '2023-05-13 00:24:59',
-                'visitors_id' => '349',
+                'visitors_id' => 349,
             ),
             215 => 
             array (
-                'id' => '216',
+                'id' => 216,
                 'ip' => '54.36.148.73',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -3041,11 +3041,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:00',
                 'updated_at' => '2023-05-13 00:25:00',
-                'visitors_id' => '350',
+                'visitors_id' => 350,
             ),
             216 => 
             array (
-                'id' => '217',
+                'id' => 217,
                 'ip' => '54.36.149.8',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -3055,11 +3055,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:00',
                 'updated_at' => '2023-05-13 00:25:00',
-                'visitors_id' => '351',
+                'visitors_id' => 351,
             ),
             217 => 
             array (
-                'id' => '218',
+                'id' => 218,
                 'ip' => '54.36.149.22',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -3069,11 +3069,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:00',
                 'updated_at' => '2023-05-13 00:25:00',
-                'visitors_id' => '352',
+                'visitors_id' => 352,
             ),
             218 => 
             array (
-                'id' => '219',
+                'id' => 219,
                 'ip' => '54.36.148.18',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -3083,11 +3083,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:01',
                 'updated_at' => '2023-05-13 00:25:01',
-                'visitors_id' => '353',
+                'visitors_id' => 353,
             ),
             219 => 
             array (
-                'id' => '220',
+                'id' => 220,
                 'ip' => '54.36.149.14',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -3097,11 +3097,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:01',
                 'updated_at' => '2023-05-13 00:25:01',
-                'visitors_id' => '354',
+                'visitors_id' => 354,
             ),
             220 => 
             array (
-                'id' => '221',
+                'id' => 221,
                 'ip' => '54.36.149.1',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -3111,11 +3111,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:01',
                 'updated_at' => '2023-05-13 00:25:01',
-                'visitors_id' => '355',
+                'visitors_id' => 355,
             ),
             221 => 
             array (
-                'id' => '222',
+                'id' => 222,
                 'ip' => '51.222.253.12',
                 'city' => 'Montréal',
                 'region' => 'Quebec',
@@ -3125,11 +3125,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Toronto',
                 'created_at' => '2023-05-13 00:25:02',
                 'updated_at' => '2023-05-13 00:25:02',
-                'visitors_id' => '356',
+                'visitors_id' => 356,
             ),
             222 => 
             array (
-                'id' => '223',
+                'id' => 223,
                 'ip' => '51.222.253.9',
                 'city' => 'Montréal',
                 'region' => 'Quebec',
@@ -3139,11 +3139,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Toronto',
                 'created_at' => '2023-05-13 00:25:02',
                 'updated_at' => '2023-05-13 00:25:02',
-                'visitors_id' => '357',
+                'visitors_id' => 357,
             ),
             223 => 
             array (
-                'id' => '224',
+                'id' => 224,
                 'ip' => '54.36.149.45',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -3153,11 +3153,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:02',
                 'updated_at' => '2023-05-13 00:25:02',
-                'visitors_id' => '358',
+                'visitors_id' => 358,
             ),
             224 => 
             array (
-                'id' => '225',
+                'id' => 225,
                 'ip' => '54.36.148.121',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -3167,11 +3167,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:02',
                 'updated_at' => '2023-05-13 00:25:02',
-                'visitors_id' => '359',
+                'visitors_id' => 359,
             ),
             225 => 
             array (
-                'id' => '226',
+                'id' => 226,
                 'ip' => '54.36.148.91',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -3181,11 +3181,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:03',
                 'updated_at' => '2023-05-13 00:25:03',
-                'visitors_id' => '360',
+                'visitors_id' => 360,
             ),
             226 => 
             array (
-                'id' => '227',
+                'id' => 227,
                 'ip' => '54.36.148.69',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -3195,11 +3195,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:03',
                 'updated_at' => '2023-05-13 00:25:03',
-                'visitors_id' => '361',
+                'visitors_id' => 361,
             ),
             227 => 
             array (
-                'id' => '228',
+                'id' => 228,
                 'ip' => '66.249.71.135',
                 'city' => 'Mountain View',
                 'region' => 'California',
@@ -3209,11 +3209,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Los_Angeles',
                 'created_at' => '2023-05-13 00:25:03',
                 'updated_at' => '2023-05-13 00:25:03',
-                'visitors_id' => '362',
+                'visitors_id' => 362,
             ),
             228 => 
             array (
-                'id' => '229',
+                'id' => 229,
                 'ip' => '51.222.253.11',
                 'city' => 'Montréal',
                 'region' => 'Quebec',
@@ -3223,11 +3223,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Toronto',
                 'created_at' => '2023-05-13 00:25:04',
                 'updated_at' => '2023-05-13 00:25:04',
-                'visitors_id' => '363',
+                'visitors_id' => 363,
             ),
             229 => 
             array (
-                'id' => '230',
+                'id' => 230,
                 'ip' => '54.36.148.248',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -3237,11 +3237,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:04',
                 'updated_at' => '2023-05-13 00:25:04',
-                'visitors_id' => '364',
+                'visitors_id' => 364,
             ),
             230 => 
             array (
-                'id' => '231',
+                'id' => 231,
                 'ip' => '54.36.148.199',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -3251,11 +3251,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:04',
                 'updated_at' => '2023-05-13 00:25:04',
-                'visitors_id' => '365',
+                'visitors_id' => 365,
             ),
             231 => 
             array (
-                'id' => '232',
+                'id' => 232,
                 'ip' => '54.36.148.94',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -3265,11 +3265,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:04',
                 'updated_at' => '2023-05-13 00:25:04',
-                'visitors_id' => '366',
+                'visitors_id' => 366,
             ),
             232 => 
             array (
-                'id' => '233',
+                'id' => 233,
                 'ip' => '54.36.148.40',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -3279,11 +3279,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:05',
                 'updated_at' => '2023-05-13 00:25:05',
-                'visitors_id' => '367',
+                'visitors_id' => 367,
             ),
             233 => 
             array (
-                'id' => '234',
+                'id' => 234,
                 'ip' => '54.36.149.68',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -3293,11 +3293,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:05',
                 'updated_at' => '2023-05-13 00:25:05',
-                'visitors_id' => '368',
+                'visitors_id' => 368,
             ),
             234 => 
             array (
-                'id' => '235',
+                'id' => 235,
                 'ip' => '51.222.253.6',
                 'city' => 'Montréal',
                 'region' => 'Quebec',
@@ -3307,11 +3307,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Toronto',
                 'created_at' => '2023-05-13 00:25:05',
                 'updated_at' => '2023-05-13 00:25:05',
-                'visitors_id' => '369',
+                'visitors_id' => 369,
             ),
             235 => 
             array (
-                'id' => '236',
+                'id' => 236,
                 'ip' => '51.222.253.19',
                 'city' => 'Montréal',
                 'region' => 'Quebec',
@@ -3321,11 +3321,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Toronto',
                 'created_at' => '2023-05-13 00:25:06',
                 'updated_at' => '2023-05-13 00:25:06',
-                'visitors_id' => '370',
+                'visitors_id' => 370,
             ),
             236 => 
             array (
-                'id' => '237',
+                'id' => 237,
                 'ip' => '52.167.144.62',
                 'city' => 'Boydton',
                 'region' => 'Virginia',
@@ -3335,11 +3335,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/New_York',
                 'created_at' => '2023-05-13 00:25:06',
                 'updated_at' => '2023-05-13 00:25:06',
-                'visitors_id' => '371',
+                'visitors_id' => 371,
             ),
             237 => 
             array (
-                'id' => '238',
+                'id' => 238,
                 'ip' => '51.222.253.2',
                 'city' => 'Montréal',
                 'region' => 'Quebec',
@@ -3349,11 +3349,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Toronto',
                 'created_at' => '2023-05-13 00:25:07',
                 'updated_at' => '2023-05-13 00:25:07',
-                'visitors_id' => '372',
+                'visitors_id' => 372,
             ),
             238 => 
             array (
-                'id' => '239',
+                'id' => 239,
                 'ip' => '51.222.253.4',
                 'city' => 'Montréal',
                 'region' => 'Quebec',
@@ -3363,11 +3363,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Toronto',
                 'created_at' => '2023-05-13 00:25:07',
                 'updated_at' => '2023-05-13 00:25:07',
-                'visitors_id' => '373',
+                'visitors_id' => 373,
             ),
             239 => 
             array (
-                'id' => '240',
+                'id' => 240,
                 'ip' => '51.222.253.14',
                 'city' => 'Montréal',
                 'region' => 'Quebec',
@@ -3377,11 +3377,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Toronto',
                 'created_at' => '2023-05-13 00:25:07',
                 'updated_at' => '2023-05-13 00:25:07',
-                'visitors_id' => '374',
+                'visitors_id' => 374,
             ),
             240 => 
             array (
-                'id' => '241',
+                'id' => 241,
                 'ip' => '54.36.148.158',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -3391,11 +3391,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:07',
                 'updated_at' => '2023-05-13 00:25:07',
-                'visitors_id' => '375',
+                'visitors_id' => 375,
             ),
             241 => 
             array (
-                'id' => '242',
+                'id' => 242,
                 'ip' => '54.36.148.38',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -3405,11 +3405,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:08',
                 'updated_at' => '2023-05-13 00:25:08',
-                'visitors_id' => '376',
+                'visitors_id' => 376,
             ),
             242 => 
             array (
-                'id' => '243',
+                'id' => 243,
                 'ip' => '66.249.70.132',
                 'city' => 'Columbia',
                 'region' => 'South Carolina',
@@ -3419,11 +3419,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/New_York',
                 'created_at' => '2023-05-13 00:25:08',
                 'updated_at' => '2023-05-13 00:25:08',
-                'visitors_id' => '377',
+                'visitors_id' => 377,
             ),
             243 => 
             array (
-                'id' => '244',
+                'id' => 244,
                 'ip' => '54.36.148.197',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -3433,11 +3433,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:08',
                 'updated_at' => '2023-05-13 00:25:08',
-                'visitors_id' => '378',
+                'visitors_id' => 378,
             ),
             244 => 
             array (
-                'id' => '245',
+                'id' => 245,
                 'ip' => '54.36.149.9',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -3447,11 +3447,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:09',
                 'updated_at' => '2023-05-13 00:25:09',
-                'visitors_id' => '379',
+                'visitors_id' => 379,
             ),
             245 => 
             array (
-                'id' => '246',
+                'id' => 246,
                 'ip' => '54.36.148.110',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -3461,11 +3461,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:09',
                 'updated_at' => '2023-05-13 00:25:09',
-                'visitors_id' => '380',
+                'visitors_id' => 380,
             ),
             246 => 
             array (
-                'id' => '247',
+                'id' => 247,
                 'ip' => '54.36.148.63',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -3475,11 +3475,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:09',
                 'updated_at' => '2023-05-13 00:25:09',
-                'visitors_id' => '381',
+                'visitors_id' => 381,
             ),
             247 => 
             array (
-                'id' => '248',
+                'id' => 248,
                 'ip' => '66.249.71.137',
                 'city' => 'Mountain View',
                 'region' => 'California',
@@ -3489,11 +3489,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Los_Angeles',
                 'created_at' => '2023-05-13 00:25:10',
                 'updated_at' => '2023-05-13 00:25:10',
-                'visitors_id' => '382',
+                'visitors_id' => 382,
             ),
             248 => 
             array (
-                'id' => '249',
+                'id' => 249,
                 'ip' => '66.249.70.130',
                 'city' => 'Columbia',
                 'region' => 'South Carolina',
@@ -3503,11 +3503,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/New_York',
                 'created_at' => '2023-05-13 00:25:10',
                 'updated_at' => '2023-05-13 00:25:10',
-                'visitors_id' => '383',
+                'visitors_id' => 383,
             ),
             249 => 
             array (
-                'id' => '250',
+                'id' => 250,
                 'ip' => '66.249.70.131',
                 'city' => 'Columbia',
                 'region' => 'South Carolina',
@@ -3517,11 +3517,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/New_York',
                 'created_at' => '2023-05-13 00:25:10',
                 'updated_at' => '2023-05-13 00:25:10',
-                'visitors_id' => '384',
+                'visitors_id' => 384,
             ),
             250 => 
             array (
-                'id' => '251',
+                'id' => 251,
                 'ip' => '51.222.253.13',
                 'city' => 'Montréal',
                 'region' => 'Quebec',
@@ -3531,11 +3531,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Toronto',
                 'created_at' => '2023-05-13 00:25:10',
                 'updated_at' => '2023-05-13 00:25:10',
-                'visitors_id' => '385',
+                'visitors_id' => 385,
             ),
             251 => 
             array (
-                'id' => '252',
+                'id' => 252,
                 'ip' => '35.93.78.67',
                 'city' => 'Boardman',
                 'region' => 'Oregon',
@@ -3545,11 +3545,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Los_Angeles',
                 'created_at' => '2023-05-13 00:25:11',
                 'updated_at' => '2023-05-13 00:25:11',
-                'visitors_id' => '386',
+                'visitors_id' => 386,
             ),
             252 => 
             array (
-                'id' => '253',
+                'id' => 253,
                 'ip' => '52.13.45.86',
                 'city' => 'Boardman',
                 'region' => 'Oregon',
@@ -3559,11 +3559,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Los_Angeles',
                 'created_at' => '2023-05-13 00:25:11',
                 'updated_at' => '2023-05-13 00:25:11',
-                'visitors_id' => '387',
+                'visitors_id' => 387,
             ),
             253 => 
             array (
-                'id' => '254',
+                'id' => 254,
                 'ip' => '54.36.148.201',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -3573,11 +3573,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:11',
                 'updated_at' => '2023-05-13 00:25:11',
-                'visitors_id' => '388',
+                'visitors_id' => 388,
             ),
             254 => 
             array (
-                'id' => '255',
+                'id' => 255,
                 'ip' => '54.36.148.62',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -3587,11 +3587,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:12',
                 'updated_at' => '2023-05-13 00:25:12',
-                'visitors_id' => '389',
+                'visitors_id' => 389,
             ),
             255 => 
             array (
-                'id' => '256',
+                'id' => 256,
                 'ip' => '54.36.148.13',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -3601,11 +3601,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:12',
                 'updated_at' => '2023-05-13 00:25:12',
-                'visitors_id' => '390',
+                'visitors_id' => 390,
             ),
             256 => 
             array (
-                'id' => '257',
+                'id' => 257,
                 'ip' => '54.36.149.46',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -3615,11 +3615,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:12',
                 'updated_at' => '2023-05-13 00:25:12',
-                'visitors_id' => '391',
+                'visitors_id' => 391,
             ),
             257 => 
             array (
-                'id' => '258',
+                'id' => 258,
                 'ip' => '34.221.114.249',
                 'city' => 'Boardman',
                 'region' => 'Oregon',
@@ -3629,11 +3629,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Los_Angeles',
                 'created_at' => '2023-05-13 00:25:13',
                 'updated_at' => '2023-05-13 00:25:13',
-                'visitors_id' => '392',
+                'visitors_id' => 392,
             ),
             258 => 
             array (
-                'id' => '259',
+                'id' => 259,
                 'ip' => '51.222.253.1',
                 'city' => 'Montréal',
                 'region' => 'Quebec',
@@ -3643,11 +3643,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Toronto',
                 'created_at' => '2023-05-13 00:25:13',
                 'updated_at' => '2023-05-13 00:25:13',
-                'visitors_id' => '393',
+                'visitors_id' => 393,
             ),
             259 => 
             array (
-                'id' => '260',
+                'id' => 260,
                 'ip' => '51.222.253.15',
                 'city' => 'Montréal',
                 'region' => 'Quebec',
@@ -3657,11 +3657,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Toronto',
                 'created_at' => '2023-05-13 00:25:13',
                 'updated_at' => '2023-05-13 00:25:13',
-                'visitors_id' => '394',
+                'visitors_id' => 394,
             ),
             260 => 
             array (
-                'id' => '261',
+                'id' => 261,
                 'ip' => '51.222.253.7',
                 'city' => 'Montréal',
                 'region' => 'Quebec',
@@ -3671,11 +3671,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Toronto',
                 'created_at' => '2023-05-13 00:25:14',
                 'updated_at' => '2023-05-13 00:25:14',
-                'visitors_id' => '395',
+                'visitors_id' => 395,
             ),
             261 => 
             array (
-                'id' => '262',
+                'id' => 262,
                 'ip' => '54.36.148.42',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -3685,11 +3685,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:14',
                 'updated_at' => '2023-05-13 00:25:14',
-                'visitors_id' => '396',
+                'visitors_id' => 396,
             ),
             262 => 
             array (
-                'id' => '263',
+                'id' => 263,
                 'ip' => '54.36.148.35',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -3699,11 +3699,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:14',
                 'updated_at' => '2023-05-13 00:25:14',
-                'visitors_id' => '397',
+                'visitors_id' => 397,
             ),
             263 => 
             array (
-                'id' => '264',
+                'id' => 264,
                 'ip' => '54.36.148.29',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -3713,11 +3713,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:14',
                 'updated_at' => '2023-05-13 00:25:14',
-                'visitors_id' => '398',
+                'visitors_id' => 398,
             ),
             264 => 
             array (
-                'id' => '265',
+                'id' => 265,
                 'ip' => '54.36.149.13',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -3727,11 +3727,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:15',
                 'updated_at' => '2023-05-13 00:25:15',
-                'visitors_id' => '399',
+                'visitors_id' => 399,
             ),
             265 => 
             array (
-                'id' => '266',
+                'id' => 266,
                 'ip' => '54.36.148.233',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -3741,11 +3741,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:15',
                 'updated_at' => '2023-05-13 00:25:15',
-                'visitors_id' => '400',
+                'visitors_id' => 400,
             ),
             266 => 
             array (
-                'id' => '267',
+                'id' => 267,
                 'ip' => '54.36.148.208',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -3755,11 +3755,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:15',
                 'updated_at' => '2023-05-13 00:25:15',
-                'visitors_id' => '401',
+                'visitors_id' => 401,
             ),
             267 => 
             array (
-                'id' => '268',
+                'id' => 268,
                 'ip' => '54.36.149.21',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -3769,11 +3769,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:16',
                 'updated_at' => '2023-05-13 00:25:16',
-                'visitors_id' => '402',
+                'visitors_id' => 402,
             ),
             268 => 
             array (
-                'id' => '269',
+                'id' => 269,
                 'ip' => '54.36.148.163',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -3783,11 +3783,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:16',
                 'updated_at' => '2023-05-13 00:25:16',
-                'visitors_id' => '403',
+                'visitors_id' => 403,
             ),
             269 => 
             array (
-                'id' => '270',
+                'id' => 270,
                 'ip' => '54.36.148.30',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -3797,11 +3797,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:16',
                 'updated_at' => '2023-05-13 00:25:16',
-                'visitors_id' => '404',
+                'visitors_id' => 404,
             ),
             270 => 
             array (
-                'id' => '271',
+                'id' => 271,
                 'ip' => '54.36.148.92',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -3811,11 +3811,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:16',
                 'updated_at' => '2023-05-13 00:25:16',
-                'visitors_id' => '405',
+                'visitors_id' => 405,
             ),
             271 => 
             array (
-                'id' => '272',
+                'id' => 272,
                 'ip' => '54.36.148.239',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -3825,11 +3825,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:17',
                 'updated_at' => '2023-05-13 00:25:17',
-                'visitors_id' => '406',
+                'visitors_id' => 406,
             ),
             272 => 
             array (
-                'id' => '273',
+                'id' => 273,
                 'ip' => '164.90.140.1',
                 'city' => 'Clifton',
                 'region' => 'New Jersey',
@@ -3839,11 +3839,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/New_York',
                 'created_at' => '2023-05-13 00:25:17',
                 'updated_at' => '2023-05-13 00:25:17',
-                'visitors_id' => '407',
+                'visitors_id' => 407,
             ),
             273 => 
             array (
-                'id' => '274',
+                'id' => 274,
                 'ip' => '54.36.148.112',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -3853,11 +3853,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:17',
                 'updated_at' => '2023-05-13 00:25:17',
-                'visitors_id' => '408',
+                'visitors_id' => 408,
             ),
             274 => 
             array (
-                'id' => '275',
+                'id' => 275,
                 'ip' => '54.36.148.98',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -3867,11 +3867,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:18',
                 'updated_at' => '2023-05-13 00:25:18',
-                'visitors_id' => '409',
+                'visitors_id' => 409,
             ),
             275 => 
             array (
-                'id' => '276',
+                'id' => 276,
                 'ip' => '54.36.149.86',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -3881,11 +3881,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:18',
                 'updated_at' => '2023-05-13 00:25:18',
-                'visitors_id' => '410',
+                'visitors_id' => 410,
             ),
             276 => 
             array (
-                'id' => '277',
+                'id' => 277,
                 'ip' => '54.36.149.17',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -3895,11 +3895,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:18',
                 'updated_at' => '2023-05-13 00:25:18',
-                'visitors_id' => '411',
+                'visitors_id' => 411,
             ),
             277 => 
             array (
-                'id' => '278',
+                'id' => 278,
                 'ip' => '54.36.149.31',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -3909,11 +3909,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:19',
                 'updated_at' => '2023-05-13 00:25:19',
-                'visitors_id' => '412',
+                'visitors_id' => 412,
             ),
             278 => 
             array (
-                'id' => '279',
+                'id' => 279,
                 'ip' => '54.36.148.59',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -3923,11 +3923,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:19',
                 'updated_at' => '2023-05-13 00:25:19',
-                'visitors_id' => '413',
+                'visitors_id' => 413,
             ),
             279 => 
             array (
-                'id' => '280',
+                'id' => 280,
                 'ip' => '54.36.148.187',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -3937,11 +3937,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:19',
                 'updated_at' => '2023-05-13 00:25:19',
-                'visitors_id' => '414',
+                'visitors_id' => 414,
             ),
             280 => 
             array (
-                'id' => '281',
+                'id' => 281,
                 'ip' => '54.36.149.11',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -3951,11 +3951,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:19',
                 'updated_at' => '2023-05-13 00:25:19',
-                'visitors_id' => '415',
+                'visitors_id' => 415,
             ),
             281 => 
             array (
-                'id' => '282',
+                'id' => 282,
                 'ip' => '51.222.253.3',
                 'city' => 'Montréal',
                 'region' => 'Quebec',
@@ -3965,11 +3965,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Toronto',
                 'created_at' => '2023-05-13 00:25:20',
                 'updated_at' => '2023-05-13 00:25:20',
-                'visitors_id' => '416',
+                'visitors_id' => 416,
             ),
             282 => 
             array (
-                'id' => '283',
+                'id' => 283,
                 'ip' => '54.36.148.82',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -3979,11 +3979,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:20',
                 'updated_at' => '2023-05-13 00:25:20',
-                'visitors_id' => '417',
+                'visitors_id' => 417,
             ),
             283 => 
             array (
-                'id' => '284',
+                'id' => 284,
                 'ip' => '54.36.148.254',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -3993,11 +3993,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:20',
                 'updated_at' => '2023-05-13 00:25:20',
-                'visitors_id' => '418',
+                'visitors_id' => 418,
             ),
             284 => 
             array (
-                'id' => '285',
+                'id' => 285,
                 'ip' => '54.36.148.154',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -4007,11 +4007,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:21',
                 'updated_at' => '2023-05-13 00:25:21',
-                'visitors_id' => '419',
+                'visitors_id' => 419,
             ),
             285 => 
             array (
-                'id' => '286',
+                'id' => 286,
                 'ip' => '54.36.148.113',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -4021,11 +4021,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:21',
                 'updated_at' => '2023-05-13 00:25:21',
-                'visitors_id' => '420',
+                'visitors_id' => 420,
             ),
             286 => 
             array (
-                'id' => '287',
+                'id' => 287,
                 'ip' => '54.36.149.104',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -4035,11 +4035,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:21',
                 'updated_at' => '2023-05-13 00:25:21',
-                'visitors_id' => '421',
+                'visitors_id' => 421,
             ),
             287 => 
             array (
-                'id' => '288',
+                'id' => 288,
                 'ip' => '54.36.148.249',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -4049,11 +4049,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:22',
                 'updated_at' => '2023-05-13 00:25:22',
-                'visitors_id' => '422',
+                'visitors_id' => 422,
             ),
             288 => 
             array (
-                'id' => '289',
+                'id' => 289,
                 'ip' => '54.36.148.134',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -4063,11 +4063,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:22',
                 'updated_at' => '2023-05-13 00:25:22',
-                'visitors_id' => '423',
+                'visitors_id' => 423,
             ),
             289 => 
             array (
-                'id' => '290',
+                'id' => 290,
                 'ip' => '54.36.148.143',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -4077,11 +4077,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:22',
                 'updated_at' => '2023-05-13 00:25:22',
-                'visitors_id' => '424',
+                'visitors_id' => 424,
             ),
             290 => 
             array (
-                'id' => '291',
+                'id' => 291,
                 'ip' => '54.36.148.34',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -4091,11 +4091,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:23',
                 'updated_at' => '2023-05-13 00:25:23',
-                'visitors_id' => '425',
+                'visitors_id' => 425,
             ),
             291 => 
             array (
-                'id' => '292',
+                'id' => 292,
                 'ip' => '54.36.148.124',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -4105,11 +4105,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:23',
                 'updated_at' => '2023-05-13 00:25:23',
-                'visitors_id' => '426',
+                'visitors_id' => 426,
             ),
             292 => 
             array (
-                'id' => '293',
+                'id' => 293,
                 'ip' => '54.36.148.104',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -4119,11 +4119,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:23',
                 'updated_at' => '2023-05-13 00:25:23',
-                'visitors_id' => '427',
+                'visitors_id' => 427,
             ),
             293 => 
             array (
-                'id' => '294',
+                'id' => 294,
                 'ip' => '54.36.149.105',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -4133,11 +4133,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:24',
                 'updated_at' => '2023-05-13 00:25:24',
-                'visitors_id' => '428',
+                'visitors_id' => 428,
             ),
             294 => 
             array (
-                'id' => '295',
+                'id' => 295,
                 'ip' => '54.36.149.2',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -4147,11 +4147,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:24',
                 'updated_at' => '2023-05-13 00:25:24',
-                'visitors_id' => '429',
+                'visitors_id' => 429,
             ),
             295 => 
             array (
-                'id' => '296',
+                'id' => 296,
                 'ip' => '54.36.148.188',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -4161,11 +4161,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:24',
                 'updated_at' => '2023-05-13 00:25:24',
-                'visitors_id' => '430',
+                'visitors_id' => 430,
             ),
             296 => 
             array (
-                'id' => '297',
+                'id' => 297,
                 'ip' => '54.36.148.162',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -4175,11 +4175,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:25',
                 'updated_at' => '2023-05-13 00:25:25',
-                'visitors_id' => '431',
+                'visitors_id' => 431,
             ),
             297 => 
             array (
-                'id' => '298',
+                'id' => 298,
                 'ip' => '40.77.167.228',
                 'city' => 'Boydton',
                 'region' => 'Virginia',
@@ -4189,11 +4189,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/New_York',
                 'created_at' => '2023-05-13 00:25:25',
                 'updated_at' => '2023-05-13 00:25:25',
-                'visitors_id' => '432',
+                'visitors_id' => 432,
             ),
             298 => 
             array (
-                'id' => '299',
+                'id' => 299,
                 'ip' => '54.36.149.96',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -4203,11 +4203,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:25',
                 'updated_at' => '2023-05-13 00:25:25',
-                'visitors_id' => '433',
+                'visitors_id' => 433,
             ),
             299 => 
             array (
-                'id' => '300',
+                'id' => 300,
                 'ip' => '54.36.148.15',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -4217,11 +4217,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:26',
                 'updated_at' => '2023-05-13 00:25:26',
-                'visitors_id' => '434',
+                'visitors_id' => 434,
             ),
             300 => 
             array (
-                'id' => '301',
+                'id' => 301,
                 'ip' => '54.36.148.183',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -4231,11 +4231,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:26',
                 'updated_at' => '2023-05-13 00:25:26',
-                'visitors_id' => '435',
+                'visitors_id' => 435,
             ),
             301 => 
             array (
-                'id' => '302',
+                'id' => 302,
                 'ip' => '54.36.148.89',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -4245,11 +4245,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:26',
                 'updated_at' => '2023-05-13 00:25:26',
-                'visitors_id' => '436',
+                'visitors_id' => 436,
             ),
             302 => 
             array (
-                'id' => '303',
+                'id' => 303,
                 'ip' => '54.36.148.230',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -4259,11 +4259,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:26',
                 'updated_at' => '2023-05-13 00:25:26',
-                'visitors_id' => '437',
+                'visitors_id' => 437,
             ),
             303 => 
             array (
-                'id' => '304',
+                'id' => 304,
                 'ip' => '54.36.148.189',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -4273,11 +4273,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:27',
                 'updated_at' => '2023-05-13 00:25:27',
-                'visitors_id' => '438',
+                'visitors_id' => 438,
             ),
             304 => 
             array (
-                'id' => '305',
+                'id' => 305,
                 'ip' => '54.36.148.166',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -4287,11 +4287,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:27',
                 'updated_at' => '2023-05-13 00:25:27',
-                'visitors_id' => '439',
+                'visitors_id' => 439,
             ),
             305 => 
             array (
-                'id' => '306',
+                'id' => 306,
                 'ip' => '54.36.148.118',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -4301,11 +4301,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:27',
                 'updated_at' => '2023-05-13 00:25:27',
-                'visitors_id' => '440',
+                'visitors_id' => 440,
             ),
             306 => 
             array (
-                'id' => '307',
+                'id' => 307,
                 'ip' => '54.36.148.213',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -4315,11 +4315,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:28',
                 'updated_at' => '2023-05-13 00:25:28',
-                'visitors_id' => '441',
+                'visitors_id' => 441,
             ),
             307 => 
             array (
-                'id' => '308',
+                'id' => 308,
                 'ip' => '54.36.149.18',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -4329,11 +4329,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:28',
                 'updated_at' => '2023-05-13 00:25:28',
-                'visitors_id' => '442',
+                'visitors_id' => 442,
             ),
             308 => 
             array (
-                'id' => '309',
+                'id' => 309,
                 'ip' => '54.36.148.61',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -4343,11 +4343,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:28',
                 'updated_at' => '2023-05-13 00:25:28',
-                'visitors_id' => '443',
+                'visitors_id' => 443,
             ),
             309 => 
             array (
-                'id' => '310',
+                'id' => 310,
                 'ip' => '54.36.149.38',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -4357,11 +4357,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:28',
                 'updated_at' => '2023-05-13 00:25:28',
-                'visitors_id' => '444',
+                'visitors_id' => 444,
             ),
             310 => 
             array (
-                'id' => '311',
+                'id' => 311,
                 'ip' => '54.36.148.204',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -4371,11 +4371,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:29',
                 'updated_at' => '2023-05-13 00:25:29',
-                'visitors_id' => '445',
+                'visitors_id' => 445,
             ),
             311 => 
             array (
-                'id' => '312',
+                'id' => 312,
                 'ip' => '54.36.148.137',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -4385,11 +4385,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:29',
                 'updated_at' => '2023-05-13 00:25:29',
-                'visitors_id' => '446',
+                'visitors_id' => 446,
             ),
             312 => 
             array (
-                'id' => '313',
+                'id' => 313,
                 'ip' => '54.36.148.228',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -4399,11 +4399,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:29',
                 'updated_at' => '2023-05-13 00:25:29',
-                'visitors_id' => '447',
+                'visitors_id' => 447,
             ),
             313 => 
             array (
-                'id' => '314',
+                'id' => 314,
                 'ip' => '54.36.148.131',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -4413,11 +4413,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:30',
                 'updated_at' => '2023-05-13 00:25:30',
-                'visitors_id' => '448',
+                'visitors_id' => 448,
             ),
             314 => 
             array (
-                'id' => '315',
+                'id' => 315,
                 'ip' => '54.36.148.101',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -4427,11 +4427,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:30',
                 'updated_at' => '2023-05-13 00:25:30',
-                'visitors_id' => '449',
+                'visitors_id' => 449,
             ),
             315 => 
             array (
-                'id' => '316',
+                'id' => 316,
                 'ip' => '54.36.148.2',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -4441,11 +4441,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:30',
                 'updated_at' => '2023-05-13 00:25:30',
-                'visitors_id' => '450',
+                'visitors_id' => 450,
             ),
             316 => 
             array (
-                'id' => '317',
+                'id' => 317,
                 'ip' => '54.36.148.147',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -4455,11 +4455,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:30',
                 'updated_at' => '2023-05-13 00:25:30',
-                'visitors_id' => '451',
+                'visitors_id' => 451,
             ),
             317 => 
             array (
-                'id' => '318',
+                'id' => 318,
                 'ip' => '54.36.148.255',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -4469,11 +4469,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:31',
                 'updated_at' => '2023-05-13 00:25:31',
-                'visitors_id' => '452',
+                'visitors_id' => 452,
             ),
             318 => 
             array (
-                'id' => '319',
+                'id' => 319,
                 'ip' => '54.36.148.33',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -4483,11 +4483,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:31',
                 'updated_at' => '2023-05-13 00:25:31',
-                'visitors_id' => '453',
+                'visitors_id' => 453,
             ),
             319 => 
             array (
-                'id' => '320',
+                'id' => 320,
                 'ip' => '54.36.148.16',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -4497,11 +4497,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:31',
                 'updated_at' => '2023-05-13 00:25:31',
-                'visitors_id' => '454',
+                'visitors_id' => 454,
             ),
             320 => 
             array (
-                'id' => '321',
+                'id' => 321,
                 'ip' => '54.36.148.151',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -4511,11 +4511,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:32',
                 'updated_at' => '2023-05-13 00:25:32',
-                'visitors_id' => '455',
+                'visitors_id' => 455,
             ),
             321 => 
             array (
-                'id' => '322',
+                'id' => 322,
                 'ip' => '54.36.148.222',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -4525,11 +4525,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:32',
                 'updated_at' => '2023-05-13 00:25:32',
-                'visitors_id' => '456',
+                'visitors_id' => 456,
             ),
             322 => 
             array (
-                'id' => '323',
+                'id' => 323,
                 'ip' => '51.222.253.20',
                 'city' => 'Montréal',
                 'region' => 'Quebec',
@@ -4539,11 +4539,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Toronto',
                 'created_at' => '2023-05-13 00:25:32',
                 'updated_at' => '2023-05-13 00:25:32',
-                'visitors_id' => '457',
+                'visitors_id' => 457,
             ),
             323 => 
             array (
-                'id' => '324',
+                'id' => 324,
                 'ip' => '54.36.149.74',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -4553,11 +4553,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:33',
                 'updated_at' => '2023-05-13 00:25:33',
-                'visitors_id' => '458',
+                'visitors_id' => 458,
             ),
             324 => 
             array (
-                'id' => '325',
+                'id' => 325,
                 'ip' => '54.36.148.240',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -4567,11 +4567,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:33',
                 'updated_at' => '2023-05-13 00:25:33',
-                'visitors_id' => '459',
+                'visitors_id' => 459,
             ),
             325 => 
             array (
-                'id' => '326',
+                'id' => 326,
                 'ip' => '54.36.148.12',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -4581,11 +4581,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:33',
                 'updated_at' => '2023-05-13 00:25:33',
-                'visitors_id' => '460',
+                'visitors_id' => 460,
             ),
             326 => 
             array (
-                'id' => '327',
+                'id' => 327,
                 'ip' => '54.36.149.6',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -4595,11 +4595,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:33',
                 'updated_at' => '2023-05-13 00:25:33',
-                'visitors_id' => '461',
+                'visitors_id' => 461,
             ),
             327 => 
             array (
-                'id' => '328',
+                'id' => 328,
                 'ip' => '54.36.148.209',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -4609,11 +4609,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:34',
                 'updated_at' => '2023-05-13 00:25:34',
-                'visitors_id' => '462',
+                'visitors_id' => 462,
             ),
             328 => 
             array (
-                'id' => '329',
+                'id' => 329,
                 'ip' => '54.36.148.114',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -4623,11 +4623,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:34',
                 'updated_at' => '2023-05-13 00:25:34',
-                'visitors_id' => '463',
+                'visitors_id' => 463,
             ),
             329 => 
             array (
-                'id' => '330',
+                'id' => 330,
                 'ip' => '54.36.148.229',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -4637,11 +4637,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:34',
                 'updated_at' => '2023-05-13 00:25:34',
-                'visitors_id' => '464',
+                'visitors_id' => 464,
             ),
             330 => 
             array (
-                'id' => '331',
+                'id' => 331,
                 'ip' => '54.36.148.106',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -4651,11 +4651,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:35',
                 'updated_at' => '2023-05-13 00:25:35',
-                'visitors_id' => '465',
+                'visitors_id' => 465,
             ),
             331 => 
             array (
-                'id' => '332',
+                'id' => 332,
                 'ip' => '54.36.148.139',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -4665,11 +4665,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:35',
                 'updated_at' => '2023-05-13 00:25:35',
-                'visitors_id' => '466',
+                'visitors_id' => 466,
             ),
             332 => 
             array (
-                'id' => '333',
+                'id' => 333,
                 'ip' => '54.36.149.107',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -4679,11 +4679,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:35',
                 'updated_at' => '2023-05-13 00:25:35',
-                'visitors_id' => '467',
+                'visitors_id' => 467,
             ),
             333 => 
             array (
-                'id' => '334',
+                'id' => 334,
                 'ip' => '54.36.148.133',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -4693,11 +4693,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:36',
                 'updated_at' => '2023-05-13 00:25:36',
-                'visitors_id' => '468',
+                'visitors_id' => 468,
             ),
             334 => 
             array (
-                'id' => '335',
+                'id' => 335,
                 'ip' => '54.36.149.47',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -4707,11 +4707,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:36',
                 'updated_at' => '2023-05-13 00:25:36',
-                'visitors_id' => '469',
+                'visitors_id' => 469,
             ),
             335 => 
             array (
-                'id' => '336',
+                'id' => 336,
                 'ip' => '54.36.148.24',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -4721,11 +4721,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:36',
                 'updated_at' => '2023-05-13 00:25:36',
-                'visitors_id' => '470',
+                'visitors_id' => 470,
             ),
             336 => 
             array (
-                'id' => '337',
+                'id' => 337,
                 'ip' => '54.36.148.232',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -4735,11 +4735,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:36',
                 'updated_at' => '2023-05-13 00:25:36',
-                'visitors_id' => '471',
+                'visitors_id' => 471,
             ),
             337 => 
             array (
-                'id' => '338',
+                'id' => 338,
                 'ip' => '54.36.148.96',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -4749,11 +4749,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:37',
                 'updated_at' => '2023-05-13 00:25:37',
-                'visitors_id' => '472',
+                'visitors_id' => 472,
             ),
             338 => 
             array (
-                'id' => '339',
+                'id' => 339,
                 'ip' => '54.36.148.171',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -4763,11 +4763,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:37',
                 'updated_at' => '2023-05-13 00:25:37',
-                'visitors_id' => '473',
+                'visitors_id' => 473,
             ),
             339 => 
             array (
-                'id' => '340',
+                'id' => 340,
                 'ip' => '54.36.149.94',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -4777,11 +4777,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:37',
                 'updated_at' => '2023-05-13 00:25:37',
-                'visitors_id' => '474',
+                'visitors_id' => 474,
             ),
             340 => 
             array (
-                'id' => '341',
+                'id' => 341,
                 'ip' => '54.36.148.184',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -4791,11 +4791,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:38',
                 'updated_at' => '2023-05-13 00:25:38',
-                'visitors_id' => '475',
+                'visitors_id' => 475,
             ),
             341 => 
             array (
-                'id' => '342',
+                'id' => 342,
                 'ip' => '54.36.148.244',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -4805,11 +4805,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:38',
                 'updated_at' => '2023-05-13 00:25:38',
-                'visitors_id' => '476',
+                'visitors_id' => 476,
             ),
             342 => 
             array (
-                'id' => '343',
+                'id' => 343,
                 'ip' => '54.36.148.221',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -4819,11 +4819,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:38',
                 'updated_at' => '2023-05-13 00:25:38',
-                'visitors_id' => '477',
+                'visitors_id' => 477,
             ),
             343 => 
             array (
-                'id' => '344',
+                'id' => 344,
                 'ip' => '54.36.149.30',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -4833,11 +4833,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:39',
                 'updated_at' => '2023-05-13 00:25:39',
-                'visitors_id' => '478',
+                'visitors_id' => 478,
             ),
             344 => 
             array (
-                'id' => '345',
+                'id' => 345,
                 'ip' => '54.36.148.64',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -4847,11 +4847,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:39',
                 'updated_at' => '2023-05-13 00:25:39',
-                'visitors_id' => '479',
+                'visitors_id' => 479,
             ),
             345 => 
             array (
-                'id' => '346',
+                'id' => 346,
                 'ip' => '54.36.149.3',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -4861,11 +4861,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:39',
                 'updated_at' => '2023-05-13 00:25:39',
-                'visitors_id' => '480',
+                'visitors_id' => 480,
             ),
             346 => 
             array (
-                'id' => '347',
+                'id' => 347,
                 'ip' => '54.36.148.123',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -4875,11 +4875,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:39',
                 'updated_at' => '2023-05-13 00:25:39',
-                'visitors_id' => '481',
+                'visitors_id' => 481,
             ),
             347 => 
             array (
-                'id' => '348',
+                'id' => 348,
                 'ip' => '54.36.148.72',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -4889,11 +4889,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:40',
                 'updated_at' => '2023-05-13 00:25:40',
-                'visitors_id' => '482',
+                'visitors_id' => 482,
             ),
             348 => 
             array (
-                'id' => '349',
+                'id' => 349,
                 'ip' => '54.36.149.39',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -4903,11 +4903,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:40',
                 'updated_at' => '2023-05-13 00:25:40',
-                'visitors_id' => '483',
+                'visitors_id' => 483,
             ),
             349 => 
             array (
-                'id' => '350',
+                'id' => 350,
                 'ip' => '54.36.149.15',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -4917,11 +4917,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:40',
                 'updated_at' => '2023-05-13 00:25:40',
-                'visitors_id' => '484',
+                'visitors_id' => 484,
             ),
             350 => 
             array (
-                'id' => '351',
+                'id' => 351,
                 'ip' => '54.36.148.145',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -4931,11 +4931,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:41',
                 'updated_at' => '2023-05-13 00:25:41',
-                'visitors_id' => '485',
+                'visitors_id' => 485,
             ),
             351 => 
             array (
-                'id' => '352',
+                'id' => 352,
                 'ip' => '54.36.148.231',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -4945,11 +4945,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:41',
                 'updated_at' => '2023-05-13 00:25:41',
-                'visitors_id' => '486',
+                'visitors_id' => 486,
             ),
             352 => 
             array (
-                'id' => '353',
+                'id' => 353,
                 'ip' => '54.36.149.98',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -4959,11 +4959,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:41',
                 'updated_at' => '2023-05-13 00:25:41',
-                'visitors_id' => '487',
+                'visitors_id' => 487,
             ),
             353 => 
             array (
-                'id' => '354',
+                'id' => 354,
                 'ip' => '54.36.148.202',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -4973,11 +4973,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:41',
                 'updated_at' => '2023-05-13 00:25:41',
-                'visitors_id' => '488',
+                'visitors_id' => 488,
             ),
             354 => 
             array (
-                'id' => '355',
+                'id' => 355,
                 'ip' => '54.36.149.78',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -4987,11 +4987,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:42',
                 'updated_at' => '2023-05-13 00:25:42',
-                'visitors_id' => '489',
+                'visitors_id' => 489,
             ),
             355 => 
             array (
-                'id' => '356',
+                'id' => 356,
                 'ip' => '164.90.184.41',
                 'city' => 'Frankfurt am Main',
                 'region' => 'Hesse',
@@ -5001,11 +5001,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Berlin',
                 'created_at' => '2023-05-13 00:25:42',
                 'updated_at' => '2023-05-13 00:25:42',
-                'visitors_id' => '490',
+                'visitors_id' => 490,
             ),
             356 => 
             array (
-                'id' => '357',
+                'id' => 357,
                 'ip' => '40.77.167.237',
                 'city' => 'Boydton',
                 'region' => 'Virginia',
@@ -5015,11 +5015,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/New_York',
                 'created_at' => '2023-05-13 00:25:42',
                 'updated_at' => '2023-05-13 00:25:42',
-                'visitors_id' => '491',
+                'visitors_id' => 491,
             ),
             357 => 
             array (
-                'id' => '358',
+                'id' => 358,
                 'ip' => '54.36.148.172',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -5029,11 +5029,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:43',
                 'updated_at' => '2023-05-13 00:25:43',
-                'visitors_id' => '492',
+                'visitors_id' => 492,
             ),
             358 => 
             array (
-                'id' => '359',
+                'id' => 359,
                 'ip' => '54.36.148.4',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -5043,11 +5043,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:43',
                 'updated_at' => '2023-05-13 00:25:43',
-                'visitors_id' => '493',
+                'visitors_id' => 493,
             ),
             359 => 
             array (
-                'id' => '360',
+                'id' => 360,
                 'ip' => '54.36.149.35',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -5057,11 +5057,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:43',
                 'updated_at' => '2023-05-13 00:25:43',
-                'visitors_id' => '494',
+                'visitors_id' => 494,
             ),
             360 => 
             array (
-                'id' => '361',
+                'id' => 361,
                 'ip' => '54.36.148.20',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -5071,11 +5071,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:43',
                 'updated_at' => '2023-05-13 00:25:43',
-                'visitors_id' => '495',
+                'visitors_id' => 495,
             ),
             361 => 
             array (
-                'id' => '362',
+                'id' => 362,
                 'ip' => '54.36.148.148',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -5085,11 +5085,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:44',
                 'updated_at' => '2023-05-13 00:25:44',
-                'visitors_id' => '496',
+                'visitors_id' => 496,
             ),
             362 => 
             array (
-                'id' => '363',
+                'id' => 363,
                 'ip' => '54.36.148.203',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -5099,11 +5099,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:44',
                 'updated_at' => '2023-05-13 00:25:44',
-                'visitors_id' => '497',
+                'visitors_id' => 497,
             ),
             363 => 
             array (
-                'id' => '364',
+                'id' => 364,
                 'ip' => '54.36.148.198',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -5113,11 +5113,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:44',
                 'updated_at' => '2023-05-13 00:25:44',
-                'visitors_id' => '498',
+                'visitors_id' => 498,
             ),
             364 => 
             array (
-                'id' => '365',
+                'id' => 365,
                 'ip' => '54.36.149.0',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -5127,11 +5127,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:45',
                 'updated_at' => '2023-05-13 00:25:45',
-                'visitors_id' => '499',
+                'visitors_id' => 499,
             ),
             365 => 
             array (
-                'id' => '366',
+                'id' => 366,
                 'ip' => '54.36.148.135',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -5141,11 +5141,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:45',
                 'updated_at' => '2023-05-13 00:25:45',
-                'visitors_id' => '500',
+                'visitors_id' => 500,
             ),
             366 => 
             array (
-                'id' => '367',
+                'id' => 367,
                 'ip' => '54.36.148.226',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -5155,11 +5155,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:45',
                 'updated_at' => '2023-05-13 00:25:45',
-                'visitors_id' => '501',
+                'visitors_id' => 501,
             ),
             367 => 
             array (
-                'id' => '368',
+                'id' => 368,
                 'ip' => '54.36.148.50',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -5169,11 +5169,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:46',
                 'updated_at' => '2023-05-13 00:25:46',
-                'visitors_id' => '502',
+                'visitors_id' => 502,
             ),
             368 => 
             array (
-                'id' => '369',
+                'id' => 369,
                 'ip' => '54.36.149.44',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -5183,11 +5183,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:46',
                 'updated_at' => '2023-05-13 00:25:46',
-                'visitors_id' => '503',
+                'visitors_id' => 503,
             ),
             369 => 
             array (
-                'id' => '370',
+                'id' => 370,
                 'ip' => '54.36.149.48',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -5197,11 +5197,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:46',
                 'updated_at' => '2023-05-13 00:25:46',
-                'visitors_id' => '504',
+                'visitors_id' => 504,
             ),
             370 => 
             array (
-                'id' => '371',
+                'id' => 371,
                 'ip' => '54.36.148.111',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -5211,11 +5211,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:47',
                 'updated_at' => '2023-05-13 00:25:47',
-                'visitors_id' => '505',
+                'visitors_id' => 505,
             ),
             371 => 
             array (
-                'id' => '372',
+                'id' => 372,
                 'ip' => '54.36.148.41',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -5225,11 +5225,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:47',
                 'updated_at' => '2023-05-13 00:25:47',
-                'visitors_id' => '506',
+                'visitors_id' => 506,
             ),
             372 => 
             array (
-                'id' => '373',
+                'id' => 373,
                 'ip' => '54.36.148.99',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -5239,11 +5239,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:47',
                 'updated_at' => '2023-05-13 00:25:47',
-                'visitors_id' => '507',
+                'visitors_id' => 507,
             ),
             373 => 
             array (
-                'id' => '374',
+                'id' => 374,
                 'ip' => '54.36.148.125',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -5253,11 +5253,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:48',
                 'updated_at' => '2023-05-13 00:25:48',
-                'visitors_id' => '508',
+                'visitors_id' => 508,
             ),
             374 => 
             array (
-                'id' => '375',
+                'id' => 375,
                 'ip' => '54.36.149.57',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -5267,11 +5267,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:48',
                 'updated_at' => '2023-05-13 00:25:48',
-                'visitors_id' => '509',
+                'visitors_id' => 509,
             ),
             375 => 
             array (
-                'id' => '376',
+                'id' => 376,
                 'ip' => '54.36.148.1',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -5281,11 +5281,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:48',
                 'updated_at' => '2023-05-13 00:25:48',
-                'visitors_id' => '510',
+                'visitors_id' => 510,
             ),
             376 => 
             array (
-                'id' => '377',
+                'id' => 377,
                 'ip' => '54.36.148.161',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -5295,11 +5295,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:49',
                 'updated_at' => '2023-05-13 00:25:49',
-                'visitors_id' => '511',
+                'visitors_id' => 511,
             ),
             377 => 
             array (
-                'id' => '378',
+                'id' => 378,
                 'ip' => '54.36.148.105',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -5309,11 +5309,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:49',
                 'updated_at' => '2023-05-13 00:25:49',
-                'visitors_id' => '512',
+                'visitors_id' => 512,
             ),
             378 => 
             array (
-                'id' => '379',
+                'id' => 379,
                 'ip' => '54.36.149.10',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -5323,11 +5323,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:49',
                 'updated_at' => '2023-05-13 00:25:49',
-                'visitors_id' => '513',
+                'visitors_id' => 513,
             ),
             379 => 
             array (
-                'id' => '380',
+                'id' => 380,
                 'ip' => '54.36.148.95',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -5337,11 +5337,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:49',
                 'updated_at' => '2023-05-13 00:25:49',
-                'visitors_id' => '514',
+                'visitors_id' => 514,
             ),
             380 => 
             array (
-                'id' => '381',
+                'id' => 381,
                 'ip' => '54.36.149.73',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -5351,11 +5351,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:50',
                 'updated_at' => '2023-05-13 00:25:50',
-                'visitors_id' => '515',
+                'visitors_id' => 515,
             ),
             381 => 
             array (
-                'id' => '382',
+                'id' => 382,
                 'ip' => '54.36.148.3',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -5365,11 +5365,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:50',
                 'updated_at' => '2023-05-13 00:25:50',
-                'visitors_id' => '516',
+                'visitors_id' => 516,
             ),
             382 => 
             array (
-                'id' => '383',
+                'id' => 383,
                 'ip' => '54.36.148.211',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -5379,11 +5379,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:50',
                 'updated_at' => '2023-05-13 00:25:50',
-                'visitors_id' => '517',
+                'visitors_id' => 517,
             ),
             383 => 
             array (
-                'id' => '384',
+                'id' => 384,
                 'ip' => '54.36.149.85',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -5393,11 +5393,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:51',
                 'updated_at' => '2023-05-13 00:25:51',
-                'visitors_id' => '518',
+                'visitors_id' => 518,
             ),
             384 => 
             array (
-                'id' => '385',
+                'id' => 385,
                 'ip' => '54.36.148.65',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -5407,11 +5407,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:51',
                 'updated_at' => '2023-05-13 00:25:51',
-                'visitors_id' => '519',
+                'visitors_id' => 519,
             ),
             385 => 
             array (
-                'id' => '386',
+                'id' => 386,
                 'ip' => '54.36.148.253',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -5421,11 +5421,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:51',
                 'updated_at' => '2023-05-13 00:25:51',
-                'visitors_id' => '520',
+                'visitors_id' => 520,
             ),
             386 => 
             array (
-                'id' => '387',
+                'id' => 387,
                 'ip' => '54.36.148.216',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -5435,11 +5435,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:52',
                 'updated_at' => '2023-05-13 00:25:52',
-                'visitors_id' => '521',
+                'visitors_id' => 521,
             ),
             387 => 
             array (
-                'id' => '388',
+                'id' => 388,
                 'ip' => '54.36.148.71',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -5449,11 +5449,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:52',
                 'updated_at' => '2023-05-13 00:25:52',
-                'visitors_id' => '522',
+                'visitors_id' => 522,
             ),
             388 => 
             array (
-                'id' => '389',
+                'id' => 389,
                 'ip' => '54.36.148.75',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -5463,11 +5463,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:52',
                 'updated_at' => '2023-05-13 00:25:52',
-                'visitors_id' => '523',
+                'visitors_id' => 523,
             ),
             389 => 
             array (
-                'id' => '390',
+                'id' => 390,
                 'ip' => '54.36.148.215',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -5477,11 +5477,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:52',
                 'updated_at' => '2023-05-13 00:25:52',
-                'visitors_id' => '524',
+                'visitors_id' => 524,
             ),
             390 => 
             array (
-                'id' => '391',
+                'id' => 391,
                 'ip' => '54.36.148.192',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -5491,11 +5491,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:53',
                 'updated_at' => '2023-05-13 00:25:53',
-                'visitors_id' => '525',
+                'visitors_id' => 525,
             ),
             391 => 
             array (
-                'id' => '392',
+                'id' => 392,
                 'ip' => '54.36.149.76',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -5505,11 +5505,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:53',
                 'updated_at' => '2023-05-13 00:25:53',
-                'visitors_id' => '526',
+                'visitors_id' => 526,
             ),
             392 => 
             array (
-                'id' => '393',
+                'id' => 393,
                 'ip' => '54.36.148.130',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -5519,11 +5519,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:53',
                 'updated_at' => '2023-05-13 00:25:53',
-                'visitors_id' => '527',
+                'visitors_id' => 527,
             ),
             393 => 
             array (
-                'id' => '394',
+                'id' => 394,
                 'ip' => '54.36.148.45',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -5533,11 +5533,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:53',
                 'updated_at' => '2023-05-13 00:25:53',
-                'visitors_id' => '528',
+                'visitors_id' => 528,
             ),
             394 => 
             array (
-                'id' => '395',
+                'id' => 395,
                 'ip' => '66.249.71.171',
                 'city' => 'Mountain View',
                 'region' => 'California',
@@ -5547,11 +5547,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Los_Angeles',
                 'created_at' => '2023-05-13 00:25:54',
                 'updated_at' => '2023-05-13 00:25:54',
-                'visitors_id' => '529',
+                'visitors_id' => 529,
             ),
             395 => 
             array (
-                'id' => '396',
+                'id' => 396,
                 'ip' => '54.36.148.165',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -5561,11 +5561,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:54',
                 'updated_at' => '2023-05-13 00:25:54',
-                'visitors_id' => '530',
+                'visitors_id' => 530,
             ),
             396 => 
             array (
-                'id' => '397',
+                'id' => 397,
                 'ip' => '54.36.148.243',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -5575,11 +5575,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:54',
                 'updated_at' => '2023-05-13 00:25:54',
-                'visitors_id' => '531',
+                'visitors_id' => 531,
             ),
             397 => 
             array (
-                'id' => '398',
+                'id' => 398,
                 'ip' => '54.36.148.149',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -5589,11 +5589,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:25:55',
                 'updated_at' => '2023-05-13 00:25:55',
-                'visitors_id' => '532',
+                'visitors_id' => 532,
             ),
             398 => 
             array (
-                'id' => '399',
+                'id' => 399,
                 'ip' => '54.36.148.222',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -5603,11 +5603,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:26:30',
                 'updated_at' => '2023-05-13 00:26:30',
-                'visitors_id' => '1609',
+                'visitors_id' => 1609,
             ),
             399 => 
             array (
-                'id' => '400',
+                'id' => 400,
                 'ip' => '54.36.148.234',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -5617,11 +5617,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:26:41',
                 'updated_at' => '2023-05-13 00:26:41',
-                'visitors_id' => '533',
+                'visitors_id' => 533,
             ),
             400 => 
             array (
-                'id' => '401',
+                'id' => 401,
                 'ip' => '54.36.148.11',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -5631,11 +5631,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:26:41',
                 'updated_at' => '2023-05-13 00:26:41',
-                'visitors_id' => '534',
+                'visitors_id' => 534,
             ),
             401 => 
             array (
-                'id' => '402',
+                'id' => 402,
                 'ip' => '54.36.149.12',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -5645,11 +5645,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:26:42',
                 'updated_at' => '2023-05-13 00:26:42',
-                'visitors_id' => '535',
+                'visitors_id' => 535,
             ),
             402 => 
             array (
-                'id' => '403',
+                'id' => 403,
                 'ip' => '54.36.148.90',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -5659,11 +5659,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:26:42',
                 'updated_at' => '2023-05-13 00:26:42',
-                'visitors_id' => '536',
+                'visitors_id' => 536,
             ),
             403 => 
             array (
-                'id' => '404',
+                'id' => 404,
                 'ip' => '54.36.148.150',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -5673,11 +5673,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:26:42',
                 'updated_at' => '2023-05-13 00:26:42',
-                'visitors_id' => '537',
+                'visitors_id' => 537,
             ),
             404 => 
             array (
-                'id' => '405',
+                'id' => 405,
                 'ip' => '54.36.149.23',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -5687,11 +5687,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:26:43',
                 'updated_at' => '2023-05-13 00:26:43',
-                'visitors_id' => '538',
+                'visitors_id' => 538,
             ),
             405 => 
             array (
-                'id' => '406',
+                'id' => 406,
                 'ip' => '54.36.148.174',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -5701,11 +5701,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:26:43',
                 'updated_at' => '2023-05-13 00:26:43',
-                'visitors_id' => '539',
+                'visitors_id' => 539,
             ),
             406 => 
             array (
-                'id' => '407',
+                'id' => 407,
                 'ip' => '54.36.148.196',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -5715,11 +5715,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:26:43',
                 'updated_at' => '2023-05-13 00:26:43',
-                'visitors_id' => '540',
+                'visitors_id' => 540,
             ),
             407 => 
             array (
-                'id' => '408',
+                'id' => 408,
                 'ip' => '54.36.148.44',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -5729,11 +5729,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:26:44',
                 'updated_at' => '2023-05-13 00:26:44',
-                'visitors_id' => '541',
+                'visitors_id' => 541,
             ),
             408 => 
             array (
-                'id' => '409',
+                'id' => 409,
                 'ip' => '54.36.149.4',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -5743,11 +5743,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:26:44',
                 'updated_at' => '2023-05-13 00:26:44',
-                'visitors_id' => '542',
+                'visitors_id' => 542,
             ),
             409 => 
             array (
-                'id' => '410',
+                'id' => 410,
                 'ip' => '54.36.148.57',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -5757,11 +5757,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:26:44',
                 'updated_at' => '2023-05-13 00:26:44',
-                'visitors_id' => '543',
+                'visitors_id' => 543,
             ),
             410 => 
             array (
-                'id' => '411',
+                'id' => 411,
                 'ip' => '54.36.149.89',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -5771,11 +5771,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:26:45',
                 'updated_at' => '2023-05-13 00:26:45',
-                'visitors_id' => '544',
+                'visitors_id' => 544,
             ),
             411 => 
             array (
-                'id' => '412',
+                'id' => 412,
                 'ip' => '54.36.149.56',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -5785,11 +5785,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:26:45',
                 'updated_at' => '2023-05-13 00:26:45',
-                'visitors_id' => '545',
+                'visitors_id' => 545,
             ),
             412 => 
             array (
-                'id' => '413',
+                'id' => 413,
                 'ip' => '54.36.148.182',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -5799,11 +5799,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:26:45',
                 'updated_at' => '2023-05-13 00:26:45',
-                'visitors_id' => '546',
+                'visitors_id' => 546,
             ),
             413 => 
             array (
-                'id' => '414',
+                'id' => 414,
                 'ip' => '54.36.148.224',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -5813,11 +5813,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:26:46',
                 'updated_at' => '2023-05-13 00:26:46',
-                'visitors_id' => '547',
+                'visitors_id' => 547,
             ),
             414 => 
             array (
-                'id' => '415',
+                'id' => 415,
                 'ip' => '66.249.71.196',
                 'city' => 'Mountain View',
                 'region' => 'California',
@@ -5827,11 +5827,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Los_Angeles',
                 'created_at' => '2023-05-13 00:26:46',
                 'updated_at' => '2023-05-13 00:26:46',
-                'visitors_id' => '548',
+                'visitors_id' => 548,
             ),
             415 => 
             array (
-                'id' => '416',
+                'id' => 416,
                 'ip' => '54.36.148.220',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -5841,11 +5841,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:26:46',
                 'updated_at' => '2023-05-13 00:26:46',
-                'visitors_id' => '549',
+                'visitors_id' => 549,
             ),
             416 => 
             array (
-                'id' => '417',
+                'id' => 417,
                 'ip' => '54.36.148.43',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -5855,11 +5855,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:26:47',
                 'updated_at' => '2023-05-13 00:26:47',
-                'visitors_id' => '550',
+                'visitors_id' => 550,
             ),
             417 => 
             array (
-                'id' => '418',
+                'id' => 418,
                 'ip' => '51.254.199.11',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -5869,11 +5869,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:26:47',
                 'updated_at' => '2023-05-13 00:26:47',
-                'visitors_id' => '551',
+                'visitors_id' => 551,
             ),
             418 => 
             array (
-                'id' => '419',
+                'id' => 419,
                 'ip' => '54.36.149.63',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -5883,11 +5883,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:26:47',
                 'updated_at' => '2023-05-13 00:26:47',
-                'visitors_id' => '552',
+                'visitors_id' => 552,
             ),
             419 => 
             array (
-                'id' => '420',
+                'id' => 420,
                 'ip' => '54.36.148.191',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -5897,11 +5897,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:26:48',
                 'updated_at' => '2023-05-13 00:26:48',
-                'visitors_id' => '553',
+                'visitors_id' => 553,
             ),
             420 => 
             array (
-                'id' => '421',
+                'id' => 421,
                 'ip' => '54.36.148.10',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -5911,11 +5911,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:26:48',
                 'updated_at' => '2023-05-13 00:26:48',
-                'visitors_id' => '554',
+                'visitors_id' => 554,
             ),
             421 => 
             array (
-                'id' => '422',
+                'id' => 422,
                 'ip' => '54.36.148.176',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -5925,11 +5925,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:26:48',
                 'updated_at' => '2023-05-13 00:26:48',
-                'visitors_id' => '555',
+                'visitors_id' => 555,
             ),
             422 => 
             array (
-                'id' => '423',
+                'id' => 423,
                 'ip' => '54.36.148.7',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -5939,11 +5939,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:26:48',
                 'updated_at' => '2023-05-13 00:26:48',
-                'visitors_id' => '556',
+                'visitors_id' => 556,
             ),
             423 => 
             array (
-                'id' => '424',
+                'id' => 424,
                 'ip' => '54.36.148.56',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -5953,11 +5953,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:26:49',
                 'updated_at' => '2023-05-13 00:26:49',
-                'visitors_id' => '557',
+                'visitors_id' => 557,
             ),
             424 => 
             array (
-                'id' => '425',
+                'id' => 425,
                 'ip' => '54.36.148.39',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -5967,11 +5967,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:26:49',
                 'updated_at' => '2023-05-13 00:26:49',
-                'visitors_id' => '558',
+                'visitors_id' => 558,
             ),
             425 => 
             array (
-                'id' => '426',
+                'id' => 426,
                 'ip' => '54.36.148.246',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -5981,11 +5981,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:26:49',
                 'updated_at' => '2023-05-13 00:26:49',
-                'visitors_id' => '559',
+                'visitors_id' => 559,
             ),
             426 => 
             array (
-                'id' => '427',
+                'id' => 427,
                 'ip' => '54.36.149.75',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -5995,11 +5995,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:26:50',
                 'updated_at' => '2023-05-13 00:26:50',
-                'visitors_id' => '560',
+                'visitors_id' => 560,
             ),
             427 => 
             array (
-                'id' => '428',
+                'id' => 428,
                 'ip' => '54.36.149.81',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -6009,11 +6009,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:26:50',
                 'updated_at' => '2023-05-13 00:26:50',
-                'visitors_id' => '561',
+                'visitors_id' => 561,
             ),
             428 => 
             array (
-                'id' => '429',
+                'id' => 429,
                 'ip' => '185.229.118.32',
                 'city' => 'Singapore',
                 'region' => 'Singapore',
@@ -6023,11 +6023,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Asia/Singapore',
                 'created_at' => '2023-05-13 00:26:50',
                 'updated_at' => '2023-05-13 00:26:50',
-                'visitors_id' => '562',
+                'visitors_id' => 562,
             ),
             429 => 
             array (
-                'id' => '430',
+                'id' => 430,
                 'ip' => '66.249.70.130',
                 'city' => 'Columbia',
                 'region' => 'South Carolina',
@@ -6037,11 +6037,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/New_York',
                 'created_at' => '2023-05-13 00:26:50',
                 'updated_at' => '2023-05-13 00:26:50',
-                'visitors_id' => '563',
+                'visitors_id' => 563,
             ),
             430 => 
             array (
-                'id' => '431',
+                'id' => 431,
                 'ip' => '66.249.70.142',
                 'city' => 'Columbia',
                 'region' => 'South Carolina',
@@ -6051,11 +6051,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/New_York',
                 'created_at' => '2023-05-13 00:26:51',
                 'updated_at' => '2023-05-13 00:26:51',
-                'visitors_id' => '564',
+                'visitors_id' => 564,
             ),
             431 => 
             array (
-                'id' => '432',
+                'id' => 432,
                 'ip' => '54.36.148.247',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -6065,11 +6065,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:26:51',
                 'updated_at' => '2023-05-13 00:26:51',
-                'visitors_id' => '565',
+                'visitors_id' => 565,
             ),
             432 => 
             array (
-                'id' => '433',
+                'id' => 433,
                 'ip' => '54.36.149.86',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -6079,11 +6079,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:26:51',
                 'updated_at' => '2023-05-13 00:26:51',
-                'visitors_id' => '566',
+                'visitors_id' => 566,
             ),
             433 => 
             array (
-                'id' => '434',
+                'id' => 434,
                 'ip' => '54.36.148.18',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -6093,11 +6093,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:26:52',
                 'updated_at' => '2023-05-13 00:26:52',
-                'visitors_id' => '567',
+                'visitors_id' => 567,
             ),
             434 => 
             array (
-                'id' => '435',
+                'id' => 435,
                 'ip' => '54.36.148.36',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -6107,11 +6107,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:26:52',
                 'updated_at' => '2023-05-13 00:26:52',
-                'visitors_id' => '568',
+                'visitors_id' => 568,
             ),
             435 => 
             array (
-                'id' => '436',
+                'id' => 436,
                 'ip' => '54.36.149.46',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -6121,11 +6121,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:26:52',
                 'updated_at' => '2023-05-13 00:26:52',
-                'visitors_id' => '569',
+                'visitors_id' => 569,
             ),
             436 => 
             array (
-                'id' => '437',
+                'id' => 437,
                 'ip' => '54.36.149.72',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -6135,11 +6135,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:26:53',
                 'updated_at' => '2023-05-13 00:26:53',
-                'visitors_id' => '570',
+                'visitors_id' => 570,
             ),
             437 => 
             array (
-                'id' => '438',
+                'id' => 438,
                 'ip' => '54.36.148.150',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -6149,11 +6149,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:26:53',
                 'updated_at' => '2023-05-13 00:26:53',
-                'visitors_id' => '571',
+                'visitors_id' => 571,
             ),
             438 => 
             array (
-                'id' => '439',
+                'id' => 439,
                 'ip' => '54.36.148.98',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -6163,11 +6163,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:26:53',
                 'updated_at' => '2023-05-13 00:26:53',
-                'visitors_id' => '572',
+                'visitors_id' => 572,
             ),
             439 => 
             array (
-                'id' => '440',
+                'id' => 440,
                 'ip' => '54.36.148.106',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -6177,11 +6177,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:26:54',
                 'updated_at' => '2023-05-13 00:26:54',
-                'visitors_id' => '573',
+                'visitors_id' => 573,
             ),
             440 => 
             array (
-                'id' => '441',
+                'id' => 441,
                 'ip' => '54.36.148.112',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -6191,11 +6191,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:26:54',
                 'updated_at' => '2023-05-13 00:26:54',
-                'visitors_id' => '574',
+                'visitors_id' => 574,
             ),
             441 => 
             array (
-                'id' => '442',
+                'id' => 442,
                 'ip' => '54.36.148.154',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -6205,11 +6205,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:26:54',
                 'updated_at' => '2023-05-13 00:26:54',
-                'visitors_id' => '575',
+                'visitors_id' => 575,
             ),
             442 => 
             array (
-                'id' => '443',
+                'id' => 443,
                 'ip' => '54.36.148.56',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -6219,11 +6219,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:26:54',
                 'updated_at' => '2023-05-13 00:26:54',
-                'visitors_id' => '576',
+                'visitors_id' => 576,
             ),
             443 => 
             array (
-                'id' => '444',
+                'id' => 444,
                 'ip' => '54.36.148.37',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -6233,11 +6233,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:26:55',
                 'updated_at' => '2023-05-13 00:26:55',
-                'visitors_id' => '577',
+                'visitors_id' => 577,
             ),
             444 => 
             array (
-                'id' => '445',
+                'id' => 445,
                 'ip' => '54.36.148.214',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -6247,11 +6247,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:26:55',
                 'updated_at' => '2023-05-13 00:26:55',
-                'visitors_id' => '578',
+                'visitors_id' => 578,
             ),
             445 => 
             array (
-                'id' => '446',
+                'id' => 446,
                 'ip' => '54.36.148.237',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -6261,11 +6261,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:26:55',
                 'updated_at' => '2023-05-13 00:26:55',
-                'visitors_id' => '579',
+                'visitors_id' => 579,
             ),
             446 => 
             array (
-                'id' => '447',
+                'id' => 447,
                 'ip' => '54.36.149.89',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -6275,11 +6275,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:26:56',
                 'updated_at' => '2023-05-13 00:26:56',
-                'visitors_id' => '580',
+                'visitors_id' => 580,
             ),
             447 => 
             array (
-                'id' => '448',
+                'id' => 448,
                 'ip' => '54.36.149.103',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -6289,11 +6289,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:26:56',
                 'updated_at' => '2023-05-13 00:26:56',
-                'visitors_id' => '581',
+                'visitors_id' => 581,
             ),
             448 => 
             array (
-                'id' => '449',
+                'id' => 449,
                 'ip' => '54.36.148.67',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -6303,11 +6303,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:26:57',
                 'updated_at' => '2023-05-13 00:26:57',
-                'visitors_id' => '582',
+                'visitors_id' => 582,
             ),
             449 => 
             array (
-                'id' => '450',
+                'id' => 450,
                 'ip' => '54.36.149.70',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -6317,11 +6317,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:26:58',
                 'updated_at' => '2023-05-13 00:26:58',
-                'visitors_id' => '583',
+                'visitors_id' => 583,
             ),
             450 => 
             array (
-                'id' => '451',
+                'id' => 451,
                 'ip' => '66.249.71.158',
                 'city' => 'Mountain View',
                 'region' => 'California',
@@ -6331,11 +6331,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Los_Angeles',
                 'created_at' => '2023-05-13 00:26:58',
                 'updated_at' => '2023-05-13 00:26:58',
-                'visitors_id' => '584',
+                'visitors_id' => 584,
             ),
             451 => 
             array (
-                'id' => '452',
+                'id' => 452,
                 'ip' => '54.36.148.110',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -6345,11 +6345,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:26:59',
                 'updated_at' => '2023-05-13 00:26:59',
-                'visitors_id' => '585',
+                'visitors_id' => 585,
             ),
             452 => 
             array (
-                'id' => '453',
+                'id' => 453,
                 'ip' => '54.36.149.52',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -6359,11 +6359,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:26:59',
                 'updated_at' => '2023-05-13 00:26:59',
-                'visitors_id' => '586',
+                'visitors_id' => 586,
             ),
             453 => 
             array (
-                'id' => '454',
+                'id' => 454,
                 'ip' => '66.249.71.135',
                 'city' => 'Mountain View',
                 'region' => 'California',
@@ -6373,11 +6373,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Los_Angeles',
                 'created_at' => '2023-05-13 00:26:59',
                 'updated_at' => '2023-05-13 00:26:59',
-                'visitors_id' => '587',
+                'visitors_id' => 587,
             ),
             454 => 
             array (
-                'id' => '455',
+                'id' => 455,
                 'ip' => '54.36.149.71',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -6387,11 +6387,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:00',
                 'updated_at' => '2023-05-13 00:27:00',
-                'visitors_id' => '588',
+                'visitors_id' => 588,
             ),
             455 => 
             array (
-                'id' => '456',
+                'id' => 456,
                 'ip' => '54.36.148.39',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -6401,11 +6401,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:00',
                 'updated_at' => '2023-05-13 00:27:00',
-                'visitors_id' => '589',
+                'visitors_id' => 589,
             ),
             456 => 
             array (
-                'id' => '457',
+                'id' => 457,
                 'ip' => '54.36.148.40',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -6415,11 +6415,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:00',
                 'updated_at' => '2023-05-13 00:27:00',
-                'visitors_id' => '590',
+                'visitors_id' => 590,
             ),
             457 => 
             array (
-                'id' => '458',
+                'id' => 458,
                 'ip' => '54.36.149.64',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -6429,11 +6429,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:01',
                 'updated_at' => '2023-05-13 00:27:01',
-                'visitors_id' => '591',
+                'visitors_id' => 591,
             ),
             458 => 
             array (
-                'id' => '459',
+                'id' => 459,
                 'ip' => '54.36.148.5',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -6443,11 +6443,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:01',
                 'updated_at' => '2023-05-13 00:27:01',
-                'visitors_id' => '592',
+                'visitors_id' => 592,
             ),
             459 => 
             array (
-                'id' => '460',
+                'id' => 460,
                 'ip' => '54.36.148.55',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -6457,11 +6457,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:02',
                 'updated_at' => '2023-05-13 00:27:02',
-                'visitors_id' => '593',
+                'visitors_id' => 593,
             ),
             460 => 
             array (
-                'id' => '461',
+                'id' => 461,
                 'ip' => '54.36.149.45',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -6471,11 +6471,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:02',
                 'updated_at' => '2023-05-13 00:27:02',
-                'visitors_id' => '594',
+                'visitors_id' => 594,
             ),
             461 => 
             array (
-                'id' => '462',
+                'id' => 462,
                 'ip' => '54.36.148.80',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -6485,11 +6485,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:02',
                 'updated_at' => '2023-05-13 00:27:02',
-                'visitors_id' => '595',
+                'visitors_id' => 595,
             ),
             462 => 
             array (
-                'id' => '463',
+                'id' => 463,
                 'ip' => '54.36.148.53',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -6499,11 +6499,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:02',
                 'updated_at' => '2023-05-13 00:27:02',
-                'visitors_id' => '596',
+                'visitors_id' => 596,
             ),
             463 => 
             array (
-                'id' => '464',
+                'id' => 464,
                 'ip' => '54.36.148.45',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -6513,11 +6513,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:03',
                 'updated_at' => '2023-05-13 00:27:03',
-                'visitors_id' => '597',
+                'visitors_id' => 597,
             ),
             464 => 
             array (
-                'id' => '465',
+                'id' => 465,
                 'ip' => '54.36.148.153',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -6527,11 +6527,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:03',
                 'updated_at' => '2023-05-13 00:27:03',
-                'visitors_id' => '598',
+                'visitors_id' => 598,
             ),
             465 => 
             array (
-                'id' => '466',
+                'id' => 466,
                 'ip' => '54.36.148.146',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -6541,11 +6541,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:03',
                 'updated_at' => '2023-05-13 00:27:03',
-                'visitors_id' => '599',
+                'visitors_id' => 599,
             ),
             466 => 
             array (
-                'id' => '467',
+                'id' => 467,
                 'ip' => '54.36.148.61',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -6555,11 +6555,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:04',
                 'updated_at' => '2023-05-13 00:27:04',
-                'visitors_id' => '600',
+                'visitors_id' => 600,
             ),
             467 => 
             array (
-                'id' => '468',
+                'id' => 468,
                 'ip' => '54.36.148.243',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -6569,11 +6569,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:04',
                 'updated_at' => '2023-05-13 00:27:04',
-                'visitors_id' => '601',
+                'visitors_id' => 601,
             ),
             468 => 
             array (
-                'id' => '469',
+                'id' => 469,
                 'ip' => '54.36.148.211',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -6583,11 +6583,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:04',
                 'updated_at' => '2023-05-13 00:27:04',
-                'visitors_id' => '602',
+                'visitors_id' => 602,
             ),
             469 => 
             array (
-                'id' => '470',
+                'id' => 470,
                 'ip' => '54.36.149.14',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -6597,11 +6597,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:05',
                 'updated_at' => '2023-05-13 00:27:05',
-                'visitors_id' => '603',
+                'visitors_id' => 603,
             ),
             470 => 
             array (
-                'id' => '471',
+                'id' => 471,
                 'ip' => '54.36.148.7',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -6611,11 +6611,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:05',
                 'updated_at' => '2023-05-13 00:27:05',
-                'visitors_id' => '604',
+                'visitors_id' => 604,
             ),
             471 => 
             array (
-                'id' => '472',
+                'id' => 472,
                 'ip' => '54.36.149.4',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -6625,11 +6625,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:05',
                 'updated_at' => '2023-05-13 00:27:05',
-                'visitors_id' => '605',
+                'visitors_id' => 605,
             ),
             472 => 
             array (
-                'id' => '473',
+                'id' => 473,
                 'ip' => '54.36.149.10',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -6639,11 +6639,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:06',
                 'updated_at' => '2023-05-13 00:27:06',
-                'visitors_id' => '606',
+                'visitors_id' => 606,
             ),
             473 => 
             array (
-                'id' => '474',
+                'id' => 474,
                 'ip' => '54.36.149.32',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -6653,11 +6653,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:06',
                 'updated_at' => '2023-05-13 00:27:06',
-                'visitors_id' => '607',
+                'visitors_id' => 607,
             ),
             474 => 
             array (
-                'id' => '475',
+                'id' => 475,
                 'ip' => '54.36.148.86',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -6667,11 +6667,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:06',
                 'updated_at' => '2023-05-13 00:27:06',
-                'visitors_id' => '608',
+                'visitors_id' => 608,
             ),
             475 => 
             array (
-                'id' => '476',
+                'id' => 476,
                 'ip' => '66.249.70.131',
                 'city' => 'Columbia',
                 'region' => 'South Carolina',
@@ -6681,11 +6681,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/New_York',
                 'created_at' => '2023-05-13 00:27:07',
                 'updated_at' => '2023-05-13 00:27:07',
-                'visitors_id' => '609',
+                'visitors_id' => 609,
             ),
             476 => 
             array (
-                'id' => '477',
+                'id' => 477,
                 'ip' => '66.249.70.132',
                 'city' => 'Columbia',
                 'region' => 'South Carolina',
@@ -6695,11 +6695,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/New_York',
                 'created_at' => '2023-05-13 00:27:07',
                 'updated_at' => '2023-05-13 00:27:07',
-                'visitors_id' => '610',
+                'visitors_id' => 610,
             ),
             477 => 
             array (
-                'id' => '478',
+                'id' => 478,
                 'ip' => '54.36.148.164',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -6709,11 +6709,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:07',
                 'updated_at' => '2023-05-13 00:27:07',
-                'visitors_id' => '611',
+                'visitors_id' => 611,
             ),
             478 => 
             array (
-                'id' => '479',
+                'id' => 479,
                 'ip' => '54.36.149.102',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -6723,11 +6723,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:08',
                 'updated_at' => '2023-05-13 00:27:08',
-                'visitors_id' => '612',
+                'visitors_id' => 612,
             ),
             479 => 
             array (
-                'id' => '480',
+                'id' => 480,
                 'ip' => '66.249.71.139',
                 'city' => 'Mountain View',
                 'region' => 'California',
@@ -6737,11 +6737,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Los_Angeles',
                 'created_at' => '2023-05-13 00:27:08',
                 'updated_at' => '2023-05-13 00:27:08',
-                'visitors_id' => '613',
+                'visitors_id' => 613,
             ),
             480 => 
             array (
-                'id' => '481',
+                'id' => 481,
                 'ip' => '52.167.144.162',
                 'city' => 'Boydton',
                 'region' => 'Virginia',
@@ -6751,11 +6751,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/New_York',
                 'created_at' => '2023-05-13 00:27:08',
                 'updated_at' => '2023-05-13 00:27:08',
-                'visitors_id' => '614',
+                'visitors_id' => 614,
             ),
             481 => 
             array (
-                'id' => '482',
+                'id' => 482,
                 'ip' => '54.36.148.101',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -6765,11 +6765,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:08',
                 'updated_at' => '2023-05-13 00:27:08',
-                'visitors_id' => '615',
+                'visitors_id' => 615,
             ),
             482 => 
             array (
-                'id' => '483',
+                'id' => 483,
                 'ip' => '54.36.148.27',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -6779,11 +6779,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:09',
                 'updated_at' => '2023-05-13 00:27:09',
-                'visitors_id' => '616',
+                'visitors_id' => 616,
             ),
             483 => 
             array (
-                'id' => '484',
+                'id' => 484,
                 'ip' => '54.36.148.2',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -6793,11 +6793,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:09',
                 'updated_at' => '2023-05-13 00:27:09',
-                'visitors_id' => '617',
+                'visitors_id' => 617,
             ),
             484 => 
             array (
-                'id' => '485',
+                'id' => 485,
                 'ip' => '54.36.148.91',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -6807,11 +6807,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:09',
                 'updated_at' => '2023-05-13 00:27:09',
-                'visitors_id' => '618',
+                'visitors_id' => 618,
             ),
             485 => 
             array (
-                'id' => '486',
+                'id' => 486,
                 'ip' => '54.36.148.189',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -6821,11 +6821,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:10',
                 'updated_at' => '2023-05-13 00:27:10',
-                'visitors_id' => '619',
+                'visitors_id' => 619,
             ),
             486 => 
             array (
-                'id' => '487',
+                'id' => 487,
                 'ip' => '54.36.148.160',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -6835,11 +6835,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:10',
                 'updated_at' => '2023-05-13 00:27:10',
-                'visitors_id' => '620',
+                'visitors_id' => 620,
             ),
             487 => 
             array (
-                'id' => '488',
+                'id' => 488,
                 'ip' => '54.36.148.202',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -6849,11 +6849,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:10',
                 'updated_at' => '2023-05-13 00:27:10',
-                'visitors_id' => '621',
+                'visitors_id' => 621,
             ),
             488 => 
             array (
-                'id' => '489',
+                'id' => 489,
                 'ip' => '54.36.148.65',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -6863,11 +6863,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:10',
                 'updated_at' => '2023-05-13 00:27:10',
-                'visitors_id' => '622',
+                'visitors_id' => 622,
             ),
             489 => 
             array (
-                'id' => '490',
+                'id' => 490,
                 'ip' => '54.36.148.122',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -6877,11 +6877,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:11',
                 'updated_at' => '2023-05-13 00:27:11',
-                'visitors_id' => '623',
+                'visitors_id' => 623,
             ),
             490 => 
             array (
-                'id' => '491',
+                'id' => 491,
                 'ip' => '54.36.149.94',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -6891,11 +6891,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:11',
                 'updated_at' => '2023-05-13 00:27:11',
-                'visitors_id' => '624',
+                'visitors_id' => 624,
             ),
             491 => 
             array (
-                'id' => '492',
+                'id' => 492,
                 'ip' => '54.36.148.109',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -6905,11 +6905,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:11',
                 'updated_at' => '2023-05-13 00:27:11',
-                'visitors_id' => '625',
+                'visitors_id' => 625,
             ),
             492 => 
             array (
-                'id' => '493',
+                'id' => 493,
                 'ip' => '54.36.148.92',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -6919,11 +6919,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:12',
                 'updated_at' => '2023-05-13 00:27:12',
-                'visitors_id' => '626',
+                'visitors_id' => 626,
             ),
             493 => 
             array (
-                'id' => '494',
+                'id' => 494,
                 'ip' => '54.36.149.9',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -6933,11 +6933,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:12',
                 'updated_at' => '2023-05-13 00:27:12',
-                'visitors_id' => '627',
+                'visitors_id' => 627,
             ),
             494 => 
             array (
-                'id' => '495',
+                'id' => 495,
                 'ip' => '54.36.148.119',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -6947,11 +6947,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:12',
                 'updated_at' => '2023-05-13 00:27:12',
-                'visitors_id' => '628',
+                'visitors_id' => 628,
             ),
             495 => 
             array (
-                'id' => '496',
+                'id' => 496,
                 'ip' => '54.36.148.46',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -6961,11 +6961,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:13',
                 'updated_at' => '2023-05-13 00:27:13',
-                'visitors_id' => '629',
+                'visitors_id' => 629,
             ),
             496 => 
             array (
-                'id' => '497',
+                'id' => 497,
                 'ip' => '54.36.149.93',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -6975,11 +6975,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:13',
                 'updated_at' => '2023-05-13 00:27:13',
-                'visitors_id' => '630',
+                'visitors_id' => 630,
             ),
             497 => 
             array (
-                'id' => '498',
+                'id' => 498,
                 'ip' => '54.36.148.149',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -6989,11 +6989,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:13',
                 'updated_at' => '2023-05-13 00:27:13',
-                'visitors_id' => '631',
+                'visitors_id' => 631,
             ),
             498 => 
             array (
-                'id' => '499',
+                'id' => 499,
                 'ip' => '54.36.148.171',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -7003,11 +7003,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:13',
                 'updated_at' => '2023-05-13 00:27:13',
-                'visitors_id' => '632',
+                'visitors_id' => 632,
             ),
             499 => 
             array (
-                'id' => '500',
+                'id' => 500,
                 'ip' => '54.36.148.230',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -7017,13 +7017,13 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:14',
                 'updated_at' => '2023-05-13 00:27:14',
-                'visitors_id' => '633',
+                'visitors_id' => 633,
             ),
         ));
         \DB::table('visitors_ip_detail')->insert(array (
             0 => 
             array (
-                'id' => '501',
+                'id' => 501,
                 'ip' => '54.36.148.51',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -7033,11 +7033,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:14',
                 'updated_at' => '2023-05-13 00:27:14',
-                'visitors_id' => '634',
+                'visitors_id' => 634,
             ),
             1 => 
             array (
-                'id' => '502',
+                'id' => 502,
                 'ip' => '54.36.148.178',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -7047,11 +7047,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:14',
                 'updated_at' => '2023-05-13 00:27:14',
-                'visitors_id' => '635',
+                'visitors_id' => 635,
             ),
             2 => 
             array (
-                'id' => '503',
+                'id' => 503,
                 'ip' => '35.91.84.59',
                 'city' => 'Boardman',
                 'region' => 'Oregon',
@@ -7061,11 +7061,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Los_Angeles',
                 'created_at' => '2023-05-13 00:27:15',
                 'updated_at' => '2023-05-13 00:27:15',
-                'visitors_id' => '636',
+                'visitors_id' => 636,
             ),
             3 => 
             array (
-                'id' => '504',
+                'id' => 504,
                 'ip' => '52.32.110.125',
                 'city' => 'Boardman',
                 'region' => 'Oregon',
@@ -7075,11 +7075,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Los_Angeles',
                 'created_at' => '2023-05-13 00:27:15',
                 'updated_at' => '2023-05-13 00:27:15',
-                'visitors_id' => '637',
+                'visitors_id' => 637,
             ),
             4 => 
             array (
-                'id' => '505',
+                'id' => 505,
                 'ip' => '54.213.244.191',
                 'city' => 'Boardman',
                 'region' => 'Oregon',
@@ -7089,11 +7089,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Los_Angeles',
                 'created_at' => '2023-05-13 00:27:15',
                 'updated_at' => '2023-05-13 00:27:15',
-                'visitors_id' => '638',
+                'visitors_id' => 638,
             ),
             5 => 
             array (
-                'id' => '506',
+                'id' => 506,
                 'ip' => '54.36.148.166',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -7103,11 +7103,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:15',
                 'updated_at' => '2023-05-13 00:27:15',
-                'visitors_id' => '639',
+                'visitors_id' => 639,
             ),
             6 => 
             array (
-                'id' => '507',
+                'id' => 507,
                 'ip' => '54.36.148.177',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -7117,11 +7117,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:16',
                 'updated_at' => '2023-05-13 00:27:16',
-                'visitors_id' => '640',
+                'visitors_id' => 640,
             ),
             7 => 
             array (
-                'id' => '508',
+                'id' => 508,
                 'ip' => '54.36.149.62',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -7131,11 +7131,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:16',
                 'updated_at' => '2023-05-13 00:27:16',
-                'visitors_id' => '641',
+                'visitors_id' => 641,
             ),
             8 => 
             array (
-                'id' => '509',
+                'id' => 509,
                 'ip' => '40.77.167.228',
                 'city' => 'Boydton',
                 'region' => 'Virginia',
@@ -7145,11 +7145,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/New_York',
                 'created_at' => '2023-05-13 00:27:16',
                 'updated_at' => '2023-05-13 00:27:16',
-                'visitors_id' => '642',
+                'visitors_id' => 642,
             ),
             9 => 
             array (
-                'id' => '510',
+                'id' => 510,
                 'ip' => '54.36.148.218',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -7159,11 +7159,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:17',
                 'updated_at' => '2023-05-13 00:27:17',
-                'visitors_id' => '643',
+                'visitors_id' => 643,
             ),
             10 => 
             array (
-                'id' => '511',
+                'id' => 511,
                 'ip' => '54.36.148.204',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -7173,11 +7173,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:17',
                 'updated_at' => '2023-05-13 00:27:17',
-                'visitors_id' => '644',
+                'visitors_id' => 644,
             ),
             11 => 
             array (
-                'id' => '512',
+                'id' => 512,
                 'ip' => '54.36.148.180',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -7187,11 +7187,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:17',
                 'updated_at' => '2023-05-13 00:27:17',
-                'visitors_id' => '645',
+                'visitors_id' => 645,
             ),
             12 => 
             array (
-                'id' => '513',
+                'id' => 513,
                 'ip' => '54.36.149.60',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -7201,11 +7201,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:17',
                 'updated_at' => '2023-05-13 00:27:17',
-                'visitors_id' => '646',
+                'visitors_id' => 646,
             ),
             13 => 
             array (
-                'id' => '514',
+                'id' => 514,
                 'ip' => '54.36.149.22',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -7215,11 +7215,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:18',
                 'updated_at' => '2023-05-13 00:27:18',
-                'visitors_id' => '647',
+                'visitors_id' => 647,
             ),
             14 => 
             array (
-                'id' => '515',
+                'id' => 515,
                 'ip' => '54.36.149.30',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -7229,11 +7229,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:18',
                 'updated_at' => '2023-05-13 00:27:18',
-                'visitors_id' => '648',
+                'visitors_id' => 648,
             ),
             15 => 
             array (
-                'id' => '516',
+                'id' => 516,
                 'ip' => '54.36.148.29',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -7243,11 +7243,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:18',
                 'updated_at' => '2023-05-13 00:27:18',
-                'visitors_id' => '649',
+                'visitors_id' => 649,
             ),
             16 => 
             array (
-                'id' => '517',
+                'id' => 517,
                 'ip' => '54.36.148.118',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -7257,11 +7257,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:19',
                 'updated_at' => '2023-05-13 00:27:19',
-                'visitors_id' => '650',
+                'visitors_id' => 650,
             ),
             17 => 
             array (
-                'id' => '518',
+                'id' => 518,
                 'ip' => '54.36.149.83',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -7271,11 +7271,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:19',
                 'updated_at' => '2023-05-13 00:27:19',
-                'visitors_id' => '651',
+                'visitors_id' => 651,
             ),
             18 => 
             array (
-                'id' => '519',
+                'id' => 519,
                 'ip' => '54.36.148.200',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -7285,11 +7285,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:19',
                 'updated_at' => '2023-05-13 00:27:19',
-                'visitors_id' => '652',
+                'visitors_id' => 652,
             ),
             19 => 
             array (
-                'id' => '520',
+                'id' => 520,
                 'ip' => '54.36.149.75',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -7299,11 +7299,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:20',
                 'updated_at' => '2023-05-13 00:27:20',
-                'visitors_id' => '653',
+                'visitors_id' => 653,
             ),
             20 => 
             array (
-                'id' => '521',
+                'id' => 521,
                 'ip' => '54.36.148.120',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -7313,11 +7313,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:20',
                 'updated_at' => '2023-05-13 00:27:20',
-                'visitors_id' => '654',
+                'visitors_id' => 654,
             ),
             21 => 
             array (
-                'id' => '522',
+                'id' => 522,
                 'ip' => '54.36.148.93',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -7327,11 +7327,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:20',
                 'updated_at' => '2023-05-13 00:27:20',
-                'visitors_id' => '655',
+                'visitors_id' => 655,
             ),
             22 => 
             array (
-                'id' => '523',
+                'id' => 523,
                 'ip' => '54.36.149.57',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -7341,11 +7341,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:20',
                 'updated_at' => '2023-05-13 00:27:20',
-                'visitors_id' => '656',
+                'visitors_id' => 656,
             ),
             23 => 
             array (
-                'id' => '524',
+                'id' => 524,
                 'ip' => '54.36.148.235',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -7355,11 +7355,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:21',
                 'updated_at' => '2023-05-13 00:27:21',
-                'visitors_id' => '657',
+                'visitors_id' => 657,
             ),
             24 => 
             array (
-                'id' => '525',
+                'id' => 525,
                 'ip' => '54.36.148.79',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -7369,11 +7369,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:21',
                 'updated_at' => '2023-05-13 00:27:21',
-                'visitors_id' => '658',
+                'visitors_id' => 658,
             ),
             25 => 
             array (
-                'id' => '526',
+                'id' => 526,
                 'ip' => '54.36.148.190',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -7383,11 +7383,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:21',
                 'updated_at' => '2023-05-13 00:27:21',
-                'visitors_id' => '659',
+                'visitors_id' => 659,
             ),
             26 => 
             array (
-                'id' => '527',
+                'id' => 527,
                 'ip' => '54.36.148.227',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -7397,11 +7397,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:22',
                 'updated_at' => '2023-05-13 00:27:22',
-                'visitors_id' => '660',
+                'visitors_id' => 660,
             ),
             27 => 
             array (
-                'id' => '528',
+                'id' => 528,
                 'ip' => '54.36.148.144',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -7411,11 +7411,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:22',
                 'updated_at' => '2023-05-13 00:27:22',
-                'visitors_id' => '661',
+                'visitors_id' => 661,
             ),
             28 => 
             array (
-                'id' => '529',
+                'id' => 529,
                 'ip' => '54.36.148.81',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -7425,11 +7425,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:22',
                 'updated_at' => '2023-05-13 00:27:22',
-                'visitors_id' => '662',
+                'visitors_id' => 662,
             ),
             29 => 
             array (
-                'id' => '530',
+                'id' => 530,
                 'ip' => '54.36.149.15',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -7439,11 +7439,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:23',
                 'updated_at' => '2023-05-13 00:27:23',
-                'visitors_id' => '663',
+                'visitors_id' => 663,
             ),
             30 => 
             array (
-                'id' => '531',
+                'id' => 531,
                 'ip' => '54.36.149.77',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -7453,11 +7453,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:23',
                 'updated_at' => '2023-05-13 00:27:23',
-                'visitors_id' => '664',
+                'visitors_id' => 664,
             ),
             31 => 
             array (
-                'id' => '532',
+                'id' => 532,
                 'ip' => '54.36.149.31',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -7467,11 +7467,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:23',
                 'updated_at' => '2023-05-13 00:27:23',
-                'visitors_id' => '665',
+                'visitors_id' => 665,
             ),
             32 => 
             array (
-                'id' => '533',
+                'id' => 533,
                 'ip' => '54.36.148.191',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -7481,11 +7481,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:24',
                 'updated_at' => '2023-05-13 00:27:24',
-                'visitors_id' => '666',
+                'visitors_id' => 666,
             ),
             33 => 
             array (
-                'id' => '534',
+                'id' => 534,
                 'ip' => '54.36.149.49',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -7495,11 +7495,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:24',
                 'updated_at' => '2023-05-13 00:27:24',
-                'visitors_id' => '667',
+                'visitors_id' => 667,
             ),
             34 => 
             array (
-                'id' => '535',
+                'id' => 535,
                 'ip' => '54.36.149.55',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -7509,11 +7509,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:24',
                 'updated_at' => '2023-05-13 00:27:24',
-                'visitors_id' => '668',
+                'visitors_id' => 668,
             ),
             35 => 
             array (
-                'id' => '536',
+                'id' => 536,
                 'ip' => '54.36.148.74',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -7523,11 +7523,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:25',
                 'updated_at' => '2023-05-13 00:27:25',
-                'visitors_id' => '669',
+                'visitors_id' => 669,
             ),
             36 => 
             array (
-                'id' => '537',
+                'id' => 537,
                 'ip' => '54.36.148.105',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -7537,11 +7537,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:25',
                 'updated_at' => '2023-05-13 00:27:25',
-                'visitors_id' => '670',
+                'visitors_id' => 670,
             ),
             37 => 
             array (
-                'id' => '538',
+                'id' => 538,
                 'ip' => '54.36.148.99',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -7551,11 +7551,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:25',
                 'updated_at' => '2023-05-13 00:27:25',
-                'visitors_id' => '671',
+                'visitors_id' => 671,
             ),
             38 => 
             array (
-                'id' => '539',
+                'id' => 539,
                 'ip' => '54.36.149.7',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -7565,11 +7565,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:26',
                 'updated_at' => '2023-05-13 00:27:26',
-                'visitors_id' => '672',
+                'visitors_id' => 672,
             ),
             39 => 
             array (
-                'id' => '540',
+                'id' => 540,
                 'ip' => '54.36.149.37',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -7579,11 +7579,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:26',
                 'updated_at' => '2023-05-13 00:27:26',
-                'visitors_id' => '673',
+                'visitors_id' => 673,
             ),
             40 => 
             array (
-                'id' => '541',
+                'id' => 541,
                 'ip' => '54.36.148.126',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -7593,11 +7593,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:26',
                 'updated_at' => '2023-05-13 00:27:26',
-                'visitors_id' => '674',
+                'visitors_id' => 674,
             ),
             41 => 
             array (
-                'id' => '542',
+                'id' => 542,
                 'ip' => '54.188.164.229',
                 'city' => 'Boardman',
                 'region' => 'Oregon',
@@ -7607,11 +7607,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Los_Angeles',
                 'created_at' => '2023-05-13 00:27:27',
                 'updated_at' => '2023-05-13 00:27:27',
-                'visitors_id' => '675',
+                'visitors_id' => 675,
             ),
             42 => 
             array (
-                'id' => '543',
+                'id' => 543,
                 'ip' => '34.222.155.237',
                 'city' => 'Boardman',
                 'region' => 'Oregon',
@@ -7621,11 +7621,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Los_Angeles',
                 'created_at' => '2023-05-13 00:27:27',
                 'updated_at' => '2023-05-13 00:27:27',
-                'visitors_id' => '676',
+                'visitors_id' => 676,
             ),
             43 => 
             array (
-                'id' => '544',
+                'id' => 544,
                 'ip' => '54.36.149.24',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -7635,11 +7635,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:27',
                 'updated_at' => '2023-05-13 00:27:27',
-                'visitors_id' => '677',
+                'visitors_id' => 677,
             ),
             44 => 
             array (
-                'id' => '545',
+                'id' => 545,
                 'ip' => '54.36.149.58',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -7649,11 +7649,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:27',
                 'updated_at' => '2023-05-13 00:27:27',
-                'visitors_id' => '678',
+                'visitors_id' => 678,
             ),
             45 => 
             array (
-                'id' => '546',
+                'id' => 546,
                 'ip' => '54.36.149.90',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -7663,11 +7663,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:28',
                 'updated_at' => '2023-05-13 00:27:28',
-                'visitors_id' => '679',
+                'visitors_id' => 679,
             ),
             46 => 
             array (
-                'id' => '547',
+                'id' => 547,
                 'ip' => '54.36.149.69',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -7677,11 +7677,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:28',
                 'updated_at' => '2023-05-13 00:27:28',
-                'visitors_id' => '680',
+                'visitors_id' => 680,
             ),
             47 => 
             array (
-                'id' => '548',
+                'id' => 548,
                 'ip' => '54.36.149.29',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -7691,11 +7691,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:28',
                 'updated_at' => '2023-05-13 00:27:28',
-                'visitors_id' => '681',
+                'visitors_id' => 681,
             ),
             48 => 
             array (
-                'id' => '549',
+                'id' => 549,
                 'ip' => '54.36.149.76',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -7705,11 +7705,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:29',
                 'updated_at' => '2023-05-13 00:27:29',
-                'visitors_id' => '682',
+                'visitors_id' => 682,
             ),
             49 => 
             array (
-                'id' => '550',
+                'id' => 550,
                 'ip' => '54.36.149.104',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -7719,11 +7719,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:29',
                 'updated_at' => '2023-05-13 00:27:29',
-                'visitors_id' => '683',
+                'visitors_id' => 683,
             ),
             50 => 
             array (
-                'id' => '551',
+                'id' => 551,
                 'ip' => '54.36.148.240',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -7733,11 +7733,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:29',
                 'updated_at' => '2023-05-13 00:27:29',
-                'visitors_id' => '684',
+                'visitors_id' => 684,
             ),
             51 => 
             array (
-                'id' => '552',
+                'id' => 552,
                 'ip' => '54.36.149.36',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -7747,11 +7747,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:29',
                 'updated_at' => '2023-05-13 00:27:29',
-                'visitors_id' => '685',
+                'visitors_id' => 685,
             ),
             52 => 
             array (
-                'id' => '553',
+                'id' => 553,
                 'ip' => '54.36.148.58',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -7761,11 +7761,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:30',
                 'updated_at' => '2023-05-13 00:27:30',
-                'visitors_id' => '686',
+                'visitors_id' => 686,
             ),
             53 => 
             array (
-                'id' => '554',
+                'id' => 554,
                 'ip' => '54.36.148.47',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -7775,11 +7775,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:30',
                 'updated_at' => '2023-05-13 00:27:30',
-                'visitors_id' => '687',
+                'visitors_id' => 687,
             ),
             54 => 
             array (
-                'id' => '555',
+                'id' => 555,
                 'ip' => '54.36.149.85',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -7789,11 +7789,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:30',
                 'updated_at' => '2023-05-13 00:27:30',
-                'visitors_id' => '688',
+                'visitors_id' => 688,
             ),
             55 => 
             array (
-                'id' => '556',
+                'id' => 556,
                 'ip' => '54.36.148.135',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -7803,11 +7803,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:31',
                 'updated_at' => '2023-05-13 00:27:31',
-                'visitors_id' => '689',
+                'visitors_id' => 689,
             ),
             56 => 
             array (
-                'id' => '557',
+                'id' => 557,
                 'ip' => '54.36.148.8',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -7817,11 +7817,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:31',
                 'updated_at' => '2023-05-13 00:27:31',
-                'visitors_id' => '690',
+                'visitors_id' => 690,
             ),
             57 => 
             array (
-                'id' => '558',
+                'id' => 558,
                 'ip' => '54.36.148.107',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -7831,11 +7831,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:31',
                 'updated_at' => '2023-05-13 00:27:31',
-                'visitors_id' => '691',
+                'visitors_id' => 691,
             ),
             58 => 
             array (
-                'id' => '559',
+                'id' => 559,
                 'ip' => '54.36.148.84',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -7845,11 +7845,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:32',
                 'updated_at' => '2023-05-13 00:27:32',
-                'visitors_id' => '692',
+                'visitors_id' => 692,
             ),
             59 => 
             array (
-                'id' => '560',
+                'id' => 560,
                 'ip' => '193.235.141.150',
                 'city' => 'Märsta',
                 'region' => 'Stockholm',
@@ -7859,11 +7859,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Stockholm',
                 'created_at' => '2023-05-13 00:27:32',
                 'updated_at' => '2023-05-13 00:27:32',
-                'visitors_id' => '693',
+                'visitors_id' => 693,
             ),
             60 => 
             array (
-                'id' => '561',
+                'id' => 561,
                 'ip' => '54.36.149.88',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -7873,11 +7873,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:32',
                 'updated_at' => '2023-05-13 00:27:32',
-                'visitors_id' => '694',
+                'visitors_id' => 694,
             ),
             61 => 
             array (
-                'id' => '562',
+                'id' => 562,
                 'ip' => '54.36.149.21',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -7887,11 +7887,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:32',
                 'updated_at' => '2023-05-13 00:27:32',
-                'visitors_id' => '695',
+                'visitors_id' => 695,
             ),
             62 => 
             array (
-                'id' => '563',
+                'id' => 563,
                 'ip' => '51.222.253.8',
                 'city' => 'Montréal',
                 'region' => 'Quebec',
@@ -7901,11 +7901,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Toronto',
                 'created_at' => '2023-05-13 00:27:33',
                 'updated_at' => '2023-05-13 00:27:33',
-                'visitors_id' => '696',
+                'visitors_id' => 696,
             ),
             63 => 
             array (
-                'id' => '564',
+                'id' => 564,
                 'ip' => '51.222.253.2',
                 'city' => 'Montréal',
                 'region' => 'Quebec',
@@ -7915,11 +7915,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Toronto',
                 'created_at' => '2023-05-13 00:27:33',
                 'updated_at' => '2023-05-13 00:27:33',
-                'visitors_id' => '697',
+                'visitors_id' => 697,
             ),
             64 => 
             array (
-                'id' => '565',
+                'id' => 565,
                 'ip' => '54.36.148.76',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -7929,11 +7929,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:33',
                 'updated_at' => '2023-05-13 00:27:33',
-                'visitors_id' => '698',
+                'visitors_id' => 698,
             ),
             65 => 
             array (
-                'id' => '566',
+                'id' => 566,
                 'ip' => '54.36.148.132',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -7943,11 +7943,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:34',
                 'updated_at' => '2023-05-13 00:27:34',
-                'visitors_id' => '699',
+                'visitors_id' => 699,
             ),
             66 => 
             array (
-                'id' => '567',
+                'id' => 567,
                 'ip' => '54.36.149.87',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -7957,11 +7957,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:34',
                 'updated_at' => '2023-05-13 00:27:34',
-                'visitors_id' => '700',
+                'visitors_id' => 700,
             ),
             67 => 
             array (
-                'id' => '568',
+                'id' => 568,
                 'ip' => '54.36.148.23',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -7971,11 +7971,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:34',
                 'updated_at' => '2023-05-13 00:27:34',
-                'visitors_id' => '701',
+                'visitors_id' => 701,
             ),
             68 => 
             array (
-                'id' => '569',
+                'id' => 569,
                 'ip' => '54.36.148.156',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -7985,11 +7985,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:34',
                 'updated_at' => '2023-05-13 00:27:34',
-                'visitors_id' => '702',
+                'visitors_id' => 702,
             ),
             69 => 
             array (
-                'id' => '570',
+                'id' => 570,
                 'ip' => '193.235.141.60',
                 'city' => 'Märsta',
                 'region' => 'Stockholm',
@@ -7999,11 +7999,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Stockholm',
                 'created_at' => '2023-05-13 00:27:35',
                 'updated_at' => '2023-05-13 00:27:35',
-                'visitors_id' => '703',
+                'visitors_id' => 703,
             ),
             70 => 
             array (
-                'id' => '571',
+                'id' => 571,
                 'ip' => '54.36.148.64',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -8013,11 +8013,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:35',
                 'updated_at' => '2023-05-13 00:27:35',
-                'visitors_id' => '704',
+                'visitors_id' => 704,
             ),
             71 => 
             array (
-                'id' => '572',
+                'id' => 572,
                 'ip' => '54.36.148.236',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -8027,11 +8027,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:35',
                 'updated_at' => '2023-05-13 00:27:35',
-                'visitors_id' => '705',
+                'visitors_id' => 705,
             ),
             72 => 
             array (
-                'id' => '573',
+                'id' => 573,
                 'ip' => '54.36.148.196',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -8041,11 +8041,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:36',
                 'updated_at' => '2023-05-13 00:27:36',
-                'visitors_id' => '706',
+                'visitors_id' => 706,
             ),
             73 => 
             array (
-                'id' => '574',
+                'id' => 574,
                 'ip' => '54.36.148.97',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -8055,11 +8055,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:36',
                 'updated_at' => '2023-05-13 00:27:36',
-                'visitors_id' => '707',
+                'visitors_id' => 707,
             ),
             74 => 
             array (
-                'id' => '575',
+                'id' => 575,
                 'ip' => '54.36.148.15',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -8069,11 +8069,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:36',
                 'updated_at' => '2023-05-13 00:27:36',
-                'visitors_id' => '708',
+                'visitors_id' => 708,
             ),
             75 => 
             array (
-                'id' => '576',
+                'id' => 576,
                 'ip' => '54.36.148.38',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -8083,11 +8083,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:37',
                 'updated_at' => '2023-05-13 00:27:37',
-                'visitors_id' => '709',
+                'visitors_id' => 709,
             ),
             76 => 
             array (
-                'id' => '577',
+                'id' => 577,
                 'ip' => '54.36.149.2',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -8097,11 +8097,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:37',
                 'updated_at' => '2023-05-13 00:27:37',
-                'visitors_id' => '710',
+                'visitors_id' => 710,
             ),
             77 => 
             array (
-                'id' => '578',
+                'id' => 578,
                 'ip' => '54.36.149.25',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -8111,11 +8111,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:37',
                 'updated_at' => '2023-05-13 00:27:37',
-                'visitors_id' => '711',
+                'visitors_id' => 711,
             ),
             78 => 
             array (
-                'id' => '579',
+                'id' => 579,
                 'ip' => '54.36.148.255',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -8125,11 +8125,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:38',
                 'updated_at' => '2023-05-13 00:27:38',
-                'visitors_id' => '712',
+                'visitors_id' => 712,
             ),
             79 => 
             array (
-                'id' => '580',
+                'id' => 580,
                 'ip' => '54.36.148.43',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -8139,11 +8139,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:38',
                 'updated_at' => '2023-05-13 00:27:38',
-                'visitors_id' => '713',
+                'visitors_id' => 713,
             ),
             80 => 
             array (
-                'id' => '581',
+                'id' => 581,
                 'ip' => '54.36.148.95',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -8153,11 +8153,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:38',
                 'updated_at' => '2023-05-13 00:27:38',
-                'visitors_id' => '714',
+                'visitors_id' => 714,
             ),
             81 => 
             array (
-                'id' => '582',
+                'id' => 582,
                 'ip' => '54.36.148.114',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -8167,11 +8167,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:38',
                 'updated_at' => '2023-05-13 00:27:38',
-                'visitors_id' => '715',
+                'visitors_id' => 715,
             ),
             82 => 
             array (
-                'id' => '583',
+                'id' => 583,
                 'ip' => '54.36.149.53',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -8181,11 +8181,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:39',
                 'updated_at' => '2023-05-13 00:27:39',
-                'visitors_id' => '716',
+                'visitors_id' => 716,
             ),
             83 => 
             array (
-                'id' => '584',
+                'id' => 584,
                 'ip' => '54.36.148.155',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -8195,11 +8195,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:39',
                 'updated_at' => '2023-05-13 00:27:39',
-                'visitors_id' => '717',
+                'visitors_id' => 717,
             ),
             84 => 
             array (
-                'id' => '585',
+                'id' => 585,
                 'ip' => '54.36.148.165',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -8209,11 +8209,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:39',
                 'updated_at' => '2023-05-13 00:27:39',
-                'visitors_id' => '718',
+                'visitors_id' => 718,
             ),
             85 => 
             array (
-                'id' => '586',
+                'id' => 586,
                 'ip' => '54.36.148.100',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -8223,11 +8223,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:40',
                 'updated_at' => '2023-05-13 00:27:40',
-                'visitors_id' => '719',
+                'visitors_id' => 719,
             ),
             86 => 
             array (
-                'id' => '587',
+                'id' => 587,
                 'ip' => '54.36.148.41',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -8237,11 +8237,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:40',
                 'updated_at' => '2023-05-13 00:27:40',
-                'visitors_id' => '720',
+                'visitors_id' => 720,
             ),
             87 => 
             array (
-                'id' => '588',
+                'id' => 588,
                 'ip' => '54.36.148.219',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -8251,11 +8251,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:40',
                 'updated_at' => '2023-05-13 00:27:40',
-                'visitors_id' => '721',
+                'visitors_id' => 721,
             ),
             88 => 
             array (
-                'id' => '589',
+                'id' => 589,
                 'ip' => '54.36.149.12',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -8265,11 +8265,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:41',
                 'updated_at' => '2023-05-13 00:27:41',
-                'visitors_id' => '722',
+                'visitors_id' => 722,
             ),
             89 => 
             array (
-                'id' => '590',
+                'id' => 590,
                 'ip' => '54.36.148.9',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -8279,11 +8279,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:41',
                 'updated_at' => '2023-05-13 00:27:41',
-                'visitors_id' => '723',
+                'visitors_id' => 723,
             ),
             90 => 
             array (
-                'id' => '591',
+                'id' => 591,
                 'ip' => '54.36.148.94',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -8293,11 +8293,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:41',
                 'updated_at' => '2023-05-13 00:27:41',
-                'visitors_id' => '724',
+                'visitors_id' => 724,
             ),
             91 => 
             array (
-                'id' => '592',
+                'id' => 592,
                 'ip' => '192.188.88.237',
                 'city' => 'Kansas City',
                 'region' => 'Missouri',
@@ -8307,11 +8307,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Chicago',
                 'created_at' => '2023-05-13 00:27:41',
                 'updated_at' => '2023-05-13 00:27:41',
-                'visitors_id' => '725',
+                'visitors_id' => 725,
             ),
             92 => 
             array (
-                'id' => '593',
+                'id' => 593,
                 'ip' => '54.36.148.73',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -8321,11 +8321,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:42',
                 'updated_at' => '2023-05-13 00:27:42',
-                'visitors_id' => '726',
+                'visitors_id' => 726,
             ),
             93 => 
             array (
-                'id' => '594',
+                'id' => 594,
                 'ip' => '54.36.149.43',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -8335,11 +8335,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:42',
                 'updated_at' => '2023-05-13 00:27:42',
-                'visitors_id' => '727',
+                'visitors_id' => 727,
             ),
             94 => 
             array (
-                'id' => '595',
+                'id' => 595,
                 'ip' => '54.36.149.42',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -8349,11 +8349,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:42',
                 'updated_at' => '2023-05-13 00:27:42',
-                'visitors_id' => '728',
+                'visitors_id' => 728,
             ),
             95 => 
             array (
-                'id' => '596',
+                'id' => 596,
                 'ip' => '54.36.148.245',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -8363,11 +8363,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:43',
                 'updated_at' => '2023-05-13 00:27:43',
-                'visitors_id' => '729',
+                'visitors_id' => 729,
             ),
             96 => 
             array (
-                'id' => '597',
+                'id' => 597,
                 'ip' => '54.36.148.26',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -8377,11 +8377,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:43',
                 'updated_at' => '2023-05-13 00:27:43',
-                'visitors_id' => '730',
+                'visitors_id' => 730,
             ),
             97 => 
             array (
-                'id' => '598',
+                'id' => 598,
                 'ip' => '54.36.148.66',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -8391,11 +8391,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:43',
                 'updated_at' => '2023-05-13 00:27:43',
-                'visitors_id' => '731',
+                'visitors_id' => 731,
             ),
             98 => 
             array (
-                'id' => '599',
+                'id' => 599,
                 'ip' => '54.36.148.233',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -8405,11 +8405,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:43',
                 'updated_at' => '2023-05-13 00:27:43',
-                'visitors_id' => '732',
+                'visitors_id' => 732,
             ),
             99 => 
             array (
-                'id' => '600',
+                'id' => 600,
                 'ip' => '54.36.148.187',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -8419,11 +8419,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:44',
                 'updated_at' => '2023-05-13 00:27:44',
-                'visitors_id' => '733',
+                'visitors_id' => 733,
             ),
             100 => 
             array (
-                'id' => '601',
+                'id' => 601,
                 'ip' => '54.36.148.212',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -8433,11 +8433,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:44',
                 'updated_at' => '2023-05-13 00:27:44',
-                'visitors_id' => '734',
+                'visitors_id' => 734,
             ),
             101 => 
             array (
-                'id' => '602',
+                'id' => 602,
                 'ip' => '54.36.149.34',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -8447,11 +8447,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:44',
                 'updated_at' => '2023-05-13 00:27:44',
-                'visitors_id' => '735',
+                'visitors_id' => 735,
             ),
             102 => 
             array (
-                'id' => '603',
+                'id' => 603,
                 'ip' => '54.36.148.75',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -8461,11 +8461,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:45',
                 'updated_at' => '2023-05-13 00:27:45',
-                'visitors_id' => '736',
+                'visitors_id' => 736,
             ),
             103 => 
             array (
-                'id' => '604',
+                'id' => 604,
                 'ip' => '54.36.148.173',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -8475,11 +8475,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:45',
                 'updated_at' => '2023-05-13 00:27:45',
-                'visitors_id' => '737',
+                'visitors_id' => 737,
             ),
             104 => 
             array (
-                'id' => '605',
+                'id' => 605,
                 'ip' => '54.36.148.24',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -8489,11 +8489,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:45',
                 'updated_at' => '2023-05-13 00:27:45',
-                'visitors_id' => '738',
+                'visitors_id' => 738,
             ),
             105 => 
             array (
-                'id' => '606',
+                'id' => 606,
                 'ip' => '54.36.148.203',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -8503,11 +8503,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:45',
                 'updated_at' => '2023-05-13 00:27:45',
-                'visitors_id' => '739',
+                'visitors_id' => 739,
             ),
             106 => 
             array (
-                'id' => '607',
+                'id' => 607,
                 'ip' => '54.36.148.133',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -8517,11 +8517,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:46',
                 'updated_at' => '2023-05-13 00:27:46',
-                'visitors_id' => '740',
+                'visitors_id' => 740,
             ),
             107 => 
             array (
-                'id' => '608',
+                'id' => 608,
                 'ip' => '54.36.149.0',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -8531,11 +8531,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:46',
                 'updated_at' => '2023-05-13 00:27:46',
-                'visitors_id' => '741',
+                'visitors_id' => 741,
             ),
             108 => 
             array (
-                'id' => '609',
+                'id' => 609,
                 'ip' => '54.36.148.108',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -8545,11 +8545,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:46',
                 'updated_at' => '2023-05-13 00:27:46',
-                'visitors_id' => '742',
+                'visitors_id' => 742,
             ),
             109 => 
             array (
-                'id' => '610',
+                'id' => 610,
                 'ip' => '54.36.148.104',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -8559,11 +8559,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:47',
                 'updated_at' => '2023-05-13 00:27:47',
-                'visitors_id' => '743',
+                'visitors_id' => 743,
             ),
             110 => 
             array (
-                'id' => '611',
+                'id' => 611,
                 'ip' => '54.36.149.80',
                 'city' => 'Lille',
                 'region' => 'Hauts-de-France',
@@ -8573,11 +8573,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:47',
                 'updated_at' => '2023-05-13 00:27:47',
-                'visitors_id' => '744',
+                'visitors_id' => 744,
             ),
             111 => 
             array (
-                'id' => '612',
+                'id' => 612,
                 'ip' => '66.249.70.129',
                 'city' => 'Columbia',
                 'region' => 'South Carolina',
@@ -8587,11 +8587,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/New_York',
                 'created_at' => '2023-05-13 00:27:47',
                 'updated_at' => '2023-05-13 00:27:47',
-                'visitors_id' => '745',
+                'visitors_id' => 745,
             ),
             112 => 
             array (
-                'id' => '613',
+                'id' => 613,
                 'ip' => '185.191.171.35',
                 'city' => 'Washington',
                 'region' => 'Washington, D.C.',
@@ -8601,11 +8601,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/New_York',
                 'created_at' => '2023-05-13 00:27:48',
                 'updated_at' => '2023-05-13 00:27:48',
-                'visitors_id' => '746',
+                'visitors_id' => 746,
             ),
             113 => 
             array (
-                'id' => '614',
+                'id' => 614,
                 'ip' => '51.222.253.16',
                 'city' => 'Montréal',
                 'region' => 'Quebec',
@@ -8615,11 +8615,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Toronto',
                 'created_at' => '2023-05-13 00:27:48',
                 'updated_at' => '2023-05-13 00:27:48',
-                'visitors_id' => '747',
+                'visitors_id' => 747,
             ),
             114 => 
             array (
-                'id' => '615',
+                'id' => 615,
                 'ip' => '51.222.253.10',
                 'city' => 'Montréal',
                 'region' => 'Quebec',
@@ -8629,11 +8629,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Toronto',
                 'created_at' => '2023-05-13 00:27:49',
                 'updated_at' => '2023-05-13 00:27:49',
-                'visitors_id' => '748',
+                'visitors_id' => 748,
             ),
             115 => 
             array (
-                'id' => '616',
+                'id' => 616,
                 'ip' => '51.222.253.14',
                 'city' => 'Montréal',
                 'region' => 'Quebec',
@@ -8643,11 +8643,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Toronto',
                 'created_at' => '2023-05-13 00:27:49',
                 'updated_at' => '2023-05-13 00:27:49',
-                'visitors_id' => '749',
+                'visitors_id' => 749,
             ),
             116 => 
             array (
-                'id' => '617',
+                'id' => 617,
                 'ip' => '51.222.253.12',
                 'city' => 'Montréal',
                 'region' => 'Quebec',
@@ -8657,11 +8657,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Toronto',
                 'created_at' => '2023-05-13 00:27:49',
                 'updated_at' => '2023-05-13 00:27:49',
-                'visitors_id' => '750',
+                'visitors_id' => 750,
             ),
             117 => 
             array (
-                'id' => '618',
+                'id' => 618,
                 'ip' => '51.222.253.5',
                 'city' => 'Montréal',
                 'region' => 'Quebec',
@@ -8671,11 +8671,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Toronto',
                 'created_at' => '2023-05-13 00:27:50',
                 'updated_at' => '2023-05-13 00:27:50',
-                'visitors_id' => '751',
+                'visitors_id' => 751,
             ),
             118 => 
             array (
-                'id' => '619',
+                'id' => 619,
                 'ip' => '54.36.148.60',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -8685,11 +8685,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:50',
                 'updated_at' => '2023-05-13 00:27:50',
-                'visitors_id' => '752',
+                'visitors_id' => 752,
             ),
             119 => 
             array (
-                'id' => '620',
+                'id' => 620,
                 'ip' => '54.36.148.170',
                 'city' => 'Roubaix',
                 'region' => 'Hauts-de-France',
@@ -8699,11 +8699,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'Europe/Paris',
                 'created_at' => '2023-05-13 00:27:50',
                 'updated_at' => '2023-05-13 00:27:50',
-                'visitors_id' => '753',
+                'visitors_id' => 753,
             ),
             120 => 
             array (
-                'id' => '621',
+                'id' => 621,
                 'ip' => '51.222.253.1',
                 'city' => 'Montréal',
                 'region' => 'Quebec',
@@ -8713,11 +8713,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Toronto',
                 'created_at' => '2023-05-13 00:27:50',
                 'updated_at' => '2023-05-13 00:27:50',
-                'visitors_id' => '754',
+                'visitors_id' => 754,
             ),
             121 => 
             array (
-                'id' => '622',
+                'id' => 622,
                 'ip' => '51.222.253.18',
                 'city' => 'Montréal',
                 'region' => 'Quebec',
@@ -8727,11 +8727,11 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Toronto',
                 'created_at' => '2023-05-13 00:27:51',
                 'updated_at' => '2023-05-13 00:27:51',
-                'visitors_id' => '755',
+                'visitors_id' => 755,
             ),
             122 => 
             array (
-                'id' => '624',
+                'id' => 624,
                 'ip' => '51.222.253.4',
                 'city' => 'Montréal',
                 'region' => 'Quebec',
@@ -8741,7 +8741,7 @@ class VisitorsIpDetailTableSeeder extends Seeder
                 'timezone' => 'America/Toronto',
                 'created_at' => '2023-05-13 00:27:51',
                 'updated_at' => '2023-05-13 00:27:51',
-                'visitors_id' => '756',
+                'visitors_id' => 756,
             ),
         ));
         

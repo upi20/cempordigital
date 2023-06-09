@@ -9,7 +9,10 @@ use Haruncpi\LaravelUserActivity\Traits\Loggable;
 class RoleHasMenu extends Model
 {
     use HasFactory, Loggable;
-    protected $guarded = [];
+    protected $fillable = [
+        'role_id',
+        'menu_id',
+    ];
     protected $primaryKey = 'id';
     protected $table = 'p_role_has_menu';
     const tableName = 'p_role_has_menu';

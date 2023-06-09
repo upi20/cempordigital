@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Cache;
 class HomeSlider extends Model
 {
     use HasFactory, Loggable;
-    protected $guarded = [
+    protected $fillable = [
         'urutan',
         'nama',
         'foto',

@@ -14,6 +14,7 @@ use App\Models\Contact\ListContact;
 use App\Models\Contact\Message;
 use App\Models\Galeri;
 use App\Models\Home\Testimonial;
+use App\Models\Latsar\Latsar;
 use App\Models\Menu\Admin as MenuAdmin;
 use App\Models\Menu\Frontend as MenuFrontend;
 use App\Models\Pendaftaran;
@@ -169,6 +170,9 @@ class backup extends Command
                 SPK_WP_Kriteria::tableName,
                 SPK_WP_Alternatif::tableName,
                 SPK_WP_AlternatifNilai::tableName,
+            ],
+            'latsar' => [
+                Latsar::tableName,
             ],
         ];
         if ($opt_users == 1 || $arg_type == 'users') echo shell_exec('php artisan iseed users --force');

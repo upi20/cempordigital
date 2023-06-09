@@ -12,7 +12,7 @@ use Haruncpi\LaravelUserActivity\Traits\Loggable;
 class Banner extends Model
 {
     use HasFactory, Loggable;
-    protected $guarded = [
+    protected $fillable = [
         'nama',
         'foto',
         'ditampilkan',

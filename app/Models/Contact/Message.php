@@ -12,7 +12,7 @@ use Haruncpi\LaravelUserActivity\Traits\Loggable;
 class Message extends Model
 {
     use HasFactory, Loggable;
-    protected $guarded = [
+    protected $fillable = [
         'nama',
         'email',
         'message',

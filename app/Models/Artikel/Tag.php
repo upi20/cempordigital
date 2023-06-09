@@ -11,7 +11,7 @@ use Haruncpi\LaravelUserActivity\Traits\Loggable;
 class Tag extends Model
 {
     use HasFactory, Sluggable, Loggable;
-    protected $guarded = [
+    protected $fillable = [
         'nama',
         'slug',
         'status',

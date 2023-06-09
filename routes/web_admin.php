@@ -79,6 +79,15 @@ use App\Http\Controllers\Admin\SPK\Kegiatan\PesertaController as SPK_Kegiatan_Pe
 
 // ====================================================================================================================
 
+// Address ============================================================================================================
+use App\Http\Controllers\Admin\Address\ProvinceController;
+use App\Http\Controllers\Admin\Address\RegencieController;
+use App\Http\Controllers\Admin\Address\DistrictController;
+use App\Http\Controllers\Admin\Address\VillageController;
+use App\Http\Controllers\Admin\Latsar\LatsarController;
+
+// Address ============================================================================================================
+
 
 
 $name = 'admin';
@@ -109,6 +118,33 @@ Route::controller(UserController::class)->prefix($prefix)->group(function () use
 
     Route::get('/find', 'find')->name("$name.find")->middleware("permission:$name.update");
     Route::post('/update', 'update')->name("$name.update")->middleware("permission:$name.update");
+});
+
+$prefix = 'address'; //
+Route::group(['prefix' => $prefix], function () use ($name, $prefix) {
+    $name = "$name.$prefix"; // admin.address
+    $addreses = [
+        ['prefix' => 'province', 'class' => ProvinceController::class],
+        ['prefix' => 'regencie', 'class' => RegencieController::class],
+        ['prefix' => 'district', 'class' => DistrictController::class],
+        ['prefix' => 'village', 'class' => VillageController::class],
+    ];
+    foreach ($addreses as $r) {
+        $prefix = $r['prefix'];
+        Route::controller($r['class'])->prefix($prefix)->group(function () use ($name, $prefix, $addreses) {
+            $name = "$name.$prefix"; // admin.address. ...
+            // generate perrmision for select2
+            $p = implode('|', array_map(function ($a) use ($name) {
+                return $name . '.' . $a['prefix'];
+            }, $addreses));
+
+            Route::get('/', 'index')->name($name)->middleware("permission:$name");
+            Route::get('/select2', 'select2')->name("$name.select2")->middleware("permission:$p|member.profile");
+            Route::post('/', 'insert')->name("$name.insert")->middleware("permission:$name.insert");
+            Route::delete('/{id}', 'delete')->name("$name.delete")->middleware("permission:$name.delete");
+            Route::post('/update', 'update')->name("$name.update")->middleware("permission:$name.update");
+        });
+    }
 });
 
 $prefix = 'artikel';
@@ -165,6 +201,19 @@ Route::controller(SocialMediaController::class)->prefix($prefix)->group(function
     Route::post('/', 'insert')->name("$name.insert")->middleware("permission:$name.insert");
     Route::delete('/{model}', 'delete')->name("$name.delete")->middleware("permission:$name.delete");
     Route::post('/update', 'update')->name("$name.update")->middleware("permission:$name.update");
+});
+
+$prefix = 'latsar';
+Route::group(['prefix' => $prefix], function () use ($name, $prefix) {
+    $name = "$name.$prefix"; // admin.latsar
+
+    Route::controller(LatsarController::class)->group(function () use ($name) {
+        Route::get('/', 'index')->name($name)->middleware("permission:$name");
+        Route::get('/find', 'find')->name("$name.find")->middleware("permission:$name.update");
+        Route::post('/', 'insert')->name("$name.insert")->middleware("permission:$name.insert");
+        Route::post('/update', 'update')->name("$name.update")->middleware("permission:$name.update");
+        Route::delete('/{model}', 'delete')->name("$name.delete")->middleware("permission:$name.delete");
+    });
 });
 
 $prefix = 'home';

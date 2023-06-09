@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Cache;
 class Client extends Model
 {
     use HasFactory, Loggable;
-    protected $guarded = [
+    protected $fillable = [
         'nama',
         'foto',
         'status',

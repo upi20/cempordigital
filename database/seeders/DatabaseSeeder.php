@@ -13,6 +13,12 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
+        // address
+        $this->call(AddressProvinceSeeders::class);
+        $this->call(AddressRegenciesSeeder::class);
+        $this->call(AddressDistrictSeeders::class);
+        $this->call(AddressVillageSeeders::class);
+
         $this->call(UsersTableSeeder::class);
         $this->call(ArtikelTableSeeder::class);
         $this->call(ArtikelTagTableSeeder::class);
@@ -66,5 +72,6 @@ class DatabaseSeeder extends Seeder
         $this->call(SpkWpKriteriaTableSeeder::class);
         $this->call(SpkWpAlternatifTableSeeder::class);
         $this->call(SpkWpAlternatifNilaiTableSeeder::class);
+        $this->call(LatsarTableSeeder::class);
     }
 }
