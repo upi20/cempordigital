@@ -72,7 +72,9 @@ class DatabaseSeeder extends Seeder
         $this->call(SpkWpKriteriaTableSeeder::class);
         $this->call(SpkWpAlternatifTableSeeder::class);
         $this->call(SpkWpAlternatifNilaiTableSeeder::class);
+
         $this->call(LatsarTableSeeder::class);
         $this->call(PesertaTableSeeder::class);
+        $this->call(LatsarPesertaDaftarTableSeeder::class);
     }
 }

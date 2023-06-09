@@ -8,6 +8,7 @@ use App\Models\Address\Regencie;
 use App\Models\Address\Village;
 use App\Models\Latsar\Latsar;
 use App\Models\Latsar\PesertaDaftar;
+use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Http\Request;
@@ -95,6 +96,8 @@ class Peserta extends Model
     const tableName = 'peserta';
     const image_folder = '/assets/peserta';
     const image_default = 'assets/peserta/default.jpg';
+    const migration = '2023_05_21_034715_create_pesertas_table.php';
+    const seeder = 'PesertaTableSeeder.php';
 
 
     public static function datatable(Request $request): mixed
@@ -387,7 +390,13 @@ class Peserta extends Model
             $peserta->no_whatsapp = $v[6];
             $peserta->tempat_lahir = $v[7];
             $peserta->tanggal_lahir = $v[8];
-            $peserta->usia_saat_daftar = $v[9];
+            $usia = $v[9];
+            if (is_null($usia)) {
+                $carbon = Carbon::parse($v[8]);
+                $age = $carbon->diff(Carbon::now());
+                $usia = $age->y;
+            }
+            $peserta->usia_saat_daftar = $usia;
             $peserta->jenis_kelamin = $v[10];
             $peserta->agama = $v[11];
             $peserta->pendidikan_terakhir = $v[12];

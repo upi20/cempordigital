@@ -15,6 +15,7 @@ use App\Models\Contact\Message;
 use App\Models\Galeri;
 use App\Models\Home\Testimonial;
 use App\Models\Latsar\Latsar;
+use App\Models\Latsar\PesertaDaftar;
 use App\Models\Menu\Admin as MenuAdmin;
 use App\Models\Menu\Frontend as MenuFrontend;
 use App\Models\Pendaftaran;
@@ -175,6 +176,7 @@ class backup extends Command
             'latsar' => [
                 Latsar::tableName,
                 Peserta::tableName,
+                PesertaDaftar::tableName,
             ],
         ];
         if ($opt_users == 1 || $arg_type == 'users') echo shell_exec('php artisan iseed users --force');

@@ -20,6 +20,8 @@ return new class extends Migration
             $table->bigInteger('peserta_id', false, true)->nullable()->default(null);
             $table->date('tanggal')->nullable()->default(null);
             $table->integer('angkatan')->nullable()->default(null);
+            $table->integer('status')->nullable()->default(0)->comment('0 Diproses, 1 Lolos, 2 Tidak Lolos');
+            $table->text('status_catatan')->nullable()->default(null);
             $table->timestamps();
 
             $table->foreign('latsar_id')->references('id')->on(Latsar::tableName)->cascadeOnDelete()->cascadeOnUpdate();
