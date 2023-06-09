@@ -51,8 +51,8 @@
                                 <h6 class="mt-2">Alamat KTP</h6>
                                 <div class="form-group  float-start me-2">
                                     <label for="filter_ktp_provinsi_id" class="me-md-2">Provinsi</label>
-                                    <select class="form-control" id="filter_ktp_provinsi_id" name="filter_ktp_provinsi_id"
-                                        style="width: 200px">
+                                    <select class="form-control select2" id="filter_ktp_provinsi_id"
+                                        name="filter_ktp_provinsi_id" style="width: 200px">
                                         <option value="">Semua Provinsi</option>
                                         @foreach ($provinces as $province)
                                             <option value="{{ $province->id }}">
@@ -62,24 +62,24 @@
                                     </select>
                                 </div>
                                 <div class="form-group  float-start me-2">
-                                    <label for="filter_ktp_kab_kot_id" class="me-md-2">Kab./Kota</label>
+                                    <label for="filter_ktp_kab_kot_id" class="me-md-2">Kab/Kota</label>
                                     <select class="form-control" id="filter_ktp_kab_kot_id" name="filter_ktp_kab_kot_id"
                                         style="width: 200px">
-                                        <option value="">Semua Kab./Kota</option>
+                                        <option value="">Semua Kab/Kota</option>
                                     </select>
                                 </div>
                                 <div class="form-group  float-start me-2">
-                                    <label for="filter_ktp_kecamatan_id" class="me-md-2">Kel./Kec.</label>
+                                    <label for="filter_ktp_kecamatan_id" class="me-md-2">Kel/Kec</label>
                                     <select class="form-control" id="filter_ktp_kecamatan_id" name="filter_ktp_kecamatan_id"
                                         style="width: 200px">
-                                        <option value="">Semua Kel./Kec.</option>
+                                        <option value="">Semua Kel/Kec</option>
                                     </select>
                                 </div>
                                 <div class="form-group  float-start me-2">
-                                    <label for="filter_ktp_kecamatan_id" class="me-md-2">Desa/Kec.</label>
-                                    <select class="form-control" id="filter_ktp_kecamatan_id" name="filter_ktp_kecamatan_id"
+                                    <label for="filter_ktp_des_kel_id" class="me-md-2">Desa/Kec</label>
+                                    <select class="form-control" id="filter_ktp_des_kel_id" name="filter_ktp_des_kel_id"
                                         style="width: 200px">
-                                        <option value="">Semua Desa/Kec.</option>
+                                        <option value="">Semua Desa/Kec</option>
                                     </select>
                                 </div>
                                 <div style="clear: both"></div>
@@ -87,7 +87,7 @@
                                 <h6 class="mt-2">Alamat Domisili</h6>
                                 <div class="form-group  float-start me-2">
                                     <label for="filter_domisili_provinsi_id" class="me-md-2">Provinsi</label>
-                                    <select class="form-control" id="filter_domisili_provinsi_id"
+                                    <select class="form-control select2" id="filter_domisili_provinsi_id"
                                         name="filter_domisili_provinsi_id" style="width: 200px">
                                         <option value="">Semua Provinsi</option>
                                         @foreach ($provinces as $province)
@@ -98,24 +98,24 @@
                                     </select>
                                 </div>
                                 <div class="form-group  float-start me-2">
-                                    <label for="filter_domisili_kab_kot_id" class="me-md-2">Kab./Kota</label>
+                                    <label for="filter_domisili_kab_kot_id" class="me-md-2">Kab/Kota</label>
                                     <select class="form-control" id="filter_domisili_kab_kot_id"
                                         name="filter_domisili_kab_kot_id" style="width: 200px">
-                                        <option value="">Semua Kab./Kota</option>
+                                        <option value="">Semua Kab/Kota</option>
                                     </select>
                                 </div>
                                 <div class="form-group  float-start me-2">
-                                    <label for="filter_domisili_kecamatan_id" class="me-md-2">Kel./Kec.</label>
+                                    <label for="filter_domisili_kecamatan_id" class="me-md-2">Kel/Kec</label>
                                     <select class="form-control" id="filter_domisili_kecamatan_id"
                                         name="filter_domisili_kecamatan_id" style="width: 200px">
-                                        <option value="">Semua Kel./Kec.</option>
+                                        <option value="">Semua Kel/Kec</option>
                                     </select>
                                 </div>
                                 <div class="form-group  float-start me-2">
-                                    <label for="filter_domisili_kecamatan_id" class="me-md-2">Desa/Kec.</label>
-                                    <select class="form-control" id="filter_domisili_kecamatan_id"
-                                        name="filter_domisili_kecamatan_id" style="width: 200px">
-                                        <option value="">Semua Desa/Kec.</option>
+                                    <label for="filter_domisili_des_kel_id" class="me-md-2">Desa/Kec</label>
+                                    <select class="form-control" id="filter_domisili_des_kel_id"
+                                        name="filter_domisili_des_kel_id" style="width: 200px">
+                                        <option value="">Semua Desa/Kec</option>
                                     </select>
                                 </div>
                             </form>
@@ -171,6 +171,8 @@
 
 @section('stylesheet')
     <link rel="stylesheet" href="{{ asset_admin('plugins/datatable/css/dataTables.bootstrap5.min.css') }}" />
+    <link rel="stylesheet" href="{{ asset_admin('plugins/select2/css/select2.min.css') }}" />
+    <link rel="stylesheet" href="{{ asset_admin('plugins/select2/css/select2-bootstrap-5-theme.min.css') }}" />
 @endsection
 
 @section('javascript')
@@ -178,7 +180,8 @@
     <script src="{{ asset_admin('plugins/datatable/js/dataTables.bootstrap5.min.js') }}"></script>
     <script src="{{ asset_admin('plugins/loading/loadingoverlay.min.js', name: 'sash') }}"></script>
     <script src="{{ asset_admin('plugins/sweet-alert/sweetalert2.all.js', name: 'sash') }}"></script>
-    <script src="{{ asset_admin('plugins/select2/js/select2.full.min.js', name: 'sash') }}"></script>
+    <script src="{{ asset_admin('plugins/select2/js/select2.min.js') }}"></script>
+    <script src="{{ asset_admin('plugins/select2/js/select2-custom.js') }}"></script>
     @php
         $resource = resource_loader(
             blade_path: $view,

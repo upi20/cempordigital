@@ -117,7 +117,7 @@ $(document).ready(function () {
         searchDelay: 500,
         // processing: true,
         serverSide: true,
-        // responsive: false,
+        // responsive: true,
         scrollX: true,
         aAutoWidth: false,
         bAutoWidth: false,

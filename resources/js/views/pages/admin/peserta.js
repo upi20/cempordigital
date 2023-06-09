@@ -5,6 +5,165 @@ const table_html = $('#tbl_main');
 let isEdit = true;
 const image_url = '{{ asset($image_folder) }}';
 $(document).ready(function () {
+    // select2 ======================================================================================
+    $('.select2').select2({
+        theme: "bootstrap-5",
+        width: $(this).data('width') ? $(this).data('width') : $(this).hasClass('w-100') ? '100%' : 'style',
+    });
+
+    // clear on select ktp
+    $('#filter_ktp_provinsi_id').on('select2:select', function (e) {
+        clearSelect2('filter_ktp_kab_kot_id', 'Semua Kab/Kota');
+        clearSelect2('filter_ktp_kecamatan_id', 'Semua Kel/Kec');
+        clearSelect2('filter_ktp_des_kel_id', 'Semua Desa/Kec');
+    });
+
+    $('#filter_ktp_kab_kot_id').on('select2:select', function (e) {
+        clearSelect2('filter_ktp_kecamatan_id', 'Semua Kel/Kec');
+        clearSelect2('filter_ktp_des_kel_id', 'Semua Desa/Kec');
+    });
+
+    $('#filter_ktp_kecamatan_id').on('select2:select', function (e) {
+        clearSelect2('filter_ktp_des_kel_id', 'Semua Desa/Kec');
+    });
+
+    $('#filter_ktp_kab_kot_id').select2({
+        ajax: {
+            url: "{{ route('admin.address.regencie.select2') }}",
+            type: "GET",
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            },
+            data: function (params) {
+                var query = {
+                    search: params.term,
+                    province_id: $('#filter_ktp_provinsi_id').val(),
+                    with_empty: true
+                }
+                return query;
+            }
+        },
+        theme: "bootstrap-5",
+        width: $(this).data('width') ? $(this).data('width') : $(this).hasClass('w-100') ? '100%' : 'style',
+    });
+
+    $('#filter_ktp_kecamatan_id').select2({
+        ajax: {
+            url: "{{ route('admin.address.district.select2') }}",
+            type: "GET",
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            },
+            data: function (params) {
+                var query = {
+                    search: params.term,
+                    regency_id: $('#filter_ktp_kab_kot_id').val(),
+                    with_empty: true
+                }
+                return query;
+            }
+        },
+        theme: "bootstrap-5",
+        width: $(this).data('width') ? $(this).data('width') : $(this).hasClass('w-100') ? '100%' : 'style',
+    });
+
+    $('#filter_ktp_des_kel_id').select2({
+        ajax: {
+            url: "{{ route('admin.address.village.select2') }}",
+            type: "GET",
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            },
+            data: function (params) {
+                var query = {
+                    search: params.term,
+                    district_id: $('#filter_ktp_kecamatan_id').val(),
+                    with_empty: true
+                }
+                return query;
+            }
+        },
+        theme: "bootstrap-5",
+        width: $(this).data('width') ? $(this).data('width') : $(this).hasClass('w-100') ? '100%' : 'style',
+    });
+
+    // clear on select domisili
+    $('#filter_domisili_provinsi_id').on('select2:select', function (e) {
+        clearSelect2('filter_domisili_kab_kot_id', 'Semua Kab/Kota');
+        clearSelect2('filter_domisili_kecamatan_id', 'Semua Kel/Kec');
+        clearSelect2('filter_domisili_des_kel_id', 'Semua Desa/Kec');
+    });
+
+    $('#filter_domisili_kab_kot_id').on('select2:select', function (e) {
+        clearSelect2('filter_domisili_kecamatan_id', 'Semua Kel/Kec');
+        clearSelect2('filter_domisili_des_kel_id', 'Semua Desa/Kec');
+    });
+
+    $('#filter_domisili_kecamatan_id').on('select2:select', function (e) {
+        clearSelect2('filter_domisili_des_kel_id', 'Semua Desa/Kec');
+    });
+
+    $('#filter_domisili_kab_kot_id').select2({
+        ajax: {
+            url: "{{ route('admin.address.regencie.select2') }}",
+            type: "GET",
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            },
+            data: function (params) {
+                var query = {
+                    search: params.term,
+                    province_id: $('#filter_domisili_provinsi_id').val(),
+                    with_empty: true
+                }
+                return query;
+            }
+        },
+        theme: "bootstrap-5",
+        width: $(this).data('width') ? $(this).data('width') : $(this).hasClass('w-100') ? '100%' : 'style',
+    });
+
+    $('#filter_domisili_kecamatan_id').select2({
+        ajax: {
+            url: "{{ route('admin.address.district.select2') }}",
+            type: "GET",
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            },
+            data: function (params) {
+                var query = {
+                    search: params.term,
+                    regency_id: $('#filter_domisili_kab_kot_id').val(),
+                    with_empty: true
+                }
+                return query;
+            }
+        },
+        theme: "bootstrap-5",
+        width: $(this).data('width') ? $(this).data('width') : $(this).hasClass('w-100') ? '100%' : 'style',
+    });
+
+    $('#filter_domisili_des_kel_id').select2({
+        ajax: {
+            url: "{{ route('admin.address.village.select2') }}",
+            type: "GET",
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            },
+            data: function (params) {
+                var query = {
+                    search: params.term,
+                    district_id: $('#filter_domisili_kecamatan_id').val(),
+                    with_empty: true
+                }
+                return query;
+            }
+        },
+        theme: "bootstrap-5",
+        width: $(this).data('width') ? $(this).data('width') : $(this).hasClass('w-100') ? '100%' : 'style',
+    });
+
+
     // datatable ====================================================================================
     $.ajaxSetup({
         headers: {
@@ -322,3 +481,7 @@ function viewImage(image, title) {
     ele.attr('src', `${image_url}/${image}`);
     ele.attr('alt', title);
 };
+
+function clearSelect2(id, text = '', value = '') {
+    $(`#${id}`).append((new Option(text, value, true, true))).trigger('change');
+}
