@@ -35,6 +35,17 @@
                                         <option value="0">Luar Kota Bandung</option>
                                     </select>
                                 </div>
+                                <div class="form-group float-start me-2">
+                                    <label for="filter_tanggal_lahir_dari">Tanggal Lahir Dari</label>
+                                    <input type="date" class="form-control date-input-str" id="filter_tanggal_lahir_dari"
+                                        name="filter_tanggal_lahir_dari" style="width: 200px" />
+                                </div>
+                                <div class="form-group float-start me-2">
+                                    <label for="filter_tanggal_lahir_sampai">Tanggal Lahir Sampai</label>
+                                    <input type="date" class="form-control date-input-str"
+                                        id="filter_tanggal_lahir_sampai" name="filter_tanggal_lahir_sampai"
+                                        style="width: 200px" />
+                                </div>
                                 <div style="clear: both"></div>
                                 <br>
                                 <h6 class="mt-2">Alamat KTP</h6>
@@ -122,7 +133,7 @@
                     <tr>
                         <th>No</th>
                         <th>Nomor</th>
-                        <th>Nama</th>
+                        <th>Peserta</th>
                         <th>Kontak</th>
                         <th>TTL</th>
                         <th>Asal</th>

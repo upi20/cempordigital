@@ -266,6 +266,16 @@ class Peserta extends Model
             ->leftJoin("$t_des as domisili_des", "$table.domisili_des_kel_id", "=", "domisili_des.id");
 
         // Filter =====================================================================================================
+        // filter tanggal lahir
+        $filter = $request->filter;
+        if (isset($filter['tanggal_lahir_dari'])) {
+            $model->where("$table.tanggal_lahir", '>=', $filter['tanggal_lahir_dari']);
+        }
+
+        if (isset($filter['tanggal_lahir_sampai'])) {
+            $model->where("$table.tanggal_lahir", '<=', $filter['tanggal_lahir_sampai']);
+        }
+
         // filter check
         $f_c = function (string $param) use ($request): mixed {
             $filter = $request->filter;

@@ -33,6 +33,8 @@ $(document).ready(function () {
                 d['filter[domisili_kecamatan_id]'] = $('#filter_domisili_kecamatan_id').val();
                 d['filter[domisili_des_kel_id]'] = $('#filter_domisili_des_kel_id').val();
                 d['filter[kurasi_angkatan]'] = $('#filter_kurasi_angkatan').val();
+                d['filter[tanggal_lahir_dari]'] = $('#filter_tanggal_lahir_dari').val();
+                d['filter[tanggal_lahir_sampai]'] = $('#filter_tanggal_lahir_sampai').val();
             }
         },
         columns: [{
@@ -97,10 +99,10 @@ $(document).ready(function () {
             name: 'ktp_provinsi',
             render(data, type, full, meta) {
                 return `<small data-toggle="tooltip" title="${full.ktp_alamat_lengkap}">
-                ${full.ktp_provinsi}
-                <br>${full.ktp_kab_kot}
-                <br>${full.ktp_kecamatan}
-                <br>${full.ktp_des_kel}
+                ${full.ktp_provinsi},
+                <br>${full.ktp_kab_kot},
+                <br>${full.ktp_kecamatan},
+                <br>${full.ktp_des_kel},
                 <br>Rt. ${full.ktp_rt} / Rw. ${full.ktp_rw}
                 </small>`;
             },
@@ -110,10 +112,10 @@ $(document).ready(function () {
             name: 'domisili_provinsi',
             render(data, type, full, meta) {
                 return full.domisili == 0 ? `<small data-toggle="tooltip" title="${full.domisili_alamat_lengkap}">
-                ${full.domisili_provinsi}
-                <br>${full.domisili_kab_kot}
-                <br>${full.domisili_kecamatan}
-                <br>${full.domisili_des_kel}
+                ${full.domisili_provinsi},
+                <br>${full.domisili_kab_kot},
+                <br>${full.domisili_kecamatan},
+                <br>${full.domisili_des_kel},
                 <br>Rt. ${full.domisili_rt} / Rw. ${full.domisili_rw}
                 </small>`: '';
             },

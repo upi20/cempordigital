@@ -120,6 +120,19 @@ $(function () {
         }
         render_bg_themes = false;
     });
+
+    $('.date-input-str').each((i, e) => {
+        render_tanggal(e);
+        $(e).change(function () {
+            render_tanggal(this);
+        });
+        $(e).click(function () {
+            render_tanggal(this);
+        });
+        $(e).keyup(function () {
+            render_tanggal(this);
+        });
+    });
 });
 
 function setDarkMode(darkMode) {
