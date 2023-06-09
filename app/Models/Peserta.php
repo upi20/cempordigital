@@ -369,7 +369,7 @@ class Peserta extends Model
             $peserta->tanggal_lahir = $v[8];
             $peserta->usia_saat_daftar = $v[9];
             $peserta->jenis_kelamin = $v[10];
-            $peserta->agama = $v[1];
+            $peserta->agama = $v[11];
             $peserta->pendidikan_terakhir = $v[12];
 
             if ($k <= $in_bandung) {
@@ -389,7 +389,7 @@ class Peserta extends Model
                 $peserta->domisili = 1;
             } else {
                 // luar bandung
-                $provinsi = Province::inRandomOrder()->first();
+                $provinsi = Province::inRandomOrder()->where('id', '<>', 32)->first();
                 $peserta->ktp_provinsi_id = $provinsi->id;
 
                 $kab = Regencie::inRandomOrder('province_id', $provinsi->id)->first();

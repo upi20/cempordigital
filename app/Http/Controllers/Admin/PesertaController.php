@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Models\Address\Province;
 use App\Models\Peserta;
 use Illuminate\Http\Request;
 use League\Config\Exception\ValidationException;
@@ -26,9 +27,9 @@ class PesertaController extends Controller
         $page_attr = adminBreadcumb(h_prefix());
 
         $image_folder = $this->image_folder;
-
+        $provinces = Province::orderBy('name')->get();
         $view = path_view('pages.admin.peserta');
-        $data = compact('page_attr', 'image_folder', 'view');
+        $data = compact('page_attr', 'image_folder', 'view', 'provinces');
         $data['compact'] = $data;
         return view($view, $data);
     }
