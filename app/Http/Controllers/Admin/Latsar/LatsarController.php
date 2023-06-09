@@ -12,6 +12,7 @@ class LatsarController extends Controller
 {
     private $validate_model = [
         'nama' => ['required', 'string'],
+        'kode' => ['required', 'string'],
         'angkatan_sekarang' => ['required', 'integer'],
         'dibuka' => ['required', 'integer'],
         'deskripsi' => ['nullable', 'string'],
@@ -42,6 +43,7 @@ class LatsarController extends Controller
 
             $model = new Latsar();
             $model->nama = $request->nama;
+            $model->kode = $request->kode;
             $model->angkatan_sekarang = $request->angkatan_sekarang;
             $model->dibuka = $request->dibuka;
             $deskripsi = Summernote::insert($request->deskripsi ?? '<p></p>', $this->image_folder);
@@ -64,6 +66,7 @@ class LatsarController extends Controller
                 'required', 'int',
             ]], $this->validate_model));
             $model->nama = $request->nama;
+            $model->kode = $request->kode;
             $model->angkatan_sekarang = $request->angkatan_sekarang;
             $model->dibuka = $request->dibuka;
             $deskripsi = Summernote::update($request->deskripsi, $this->image_folder, '');

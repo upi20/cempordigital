@@ -162,6 +162,7 @@ Route::controller(LabController::class)->prefix($prefix)->group(function () {
     Route::get('/javascript', 'javascript')->name("lab.javascript");
     Route::get('/jstes', 'jstes')->name("lab.jstes");
     Route::get('/count', 'count')->name("lab.count");
+    Route::get('/import', 'import')->name("lab.import");
 });
 // ====================================================================================================================
 

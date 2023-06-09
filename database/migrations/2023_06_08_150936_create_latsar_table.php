@@ -14,6 +14,7 @@ return new class extends Migration
     {
         Schema::create(Latsar::tableName, function (Blueprint $table) {
             $table->id();
+            $table->string('kode')->unique()->nullable()->default(null);
             $table->string('nama')->nullable()->default(null);
             $table->text('slug')->nullable()->default(null);
             $table->string('angkatan_sekarang')->nullable()->default(null);

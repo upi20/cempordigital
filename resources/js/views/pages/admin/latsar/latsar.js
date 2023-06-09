@@ -81,6 +81,10 @@ $(document).ready(function () {
             name: 'id'
         },
         {
+            data: 'kode',
+            name: 'kode'
+        },
+        {
             data: 'nama',
             name: 'nama'
         },
@@ -221,6 +225,7 @@ function editFunc(id) {
             $('#modal-default').modal('show');
             $('#id').val(data.id);
             $('#nama').val(data.nama);
+            $('#kode').val(data.kode);
             $('#angkatan_sekarang').val(data.angkatan_sekarang);
             $('#dibuka').val(data.dibuka);
             $('#deskripsi').summernote("code", data.deskripsi);

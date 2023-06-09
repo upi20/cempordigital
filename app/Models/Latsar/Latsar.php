@@ -15,6 +15,7 @@ class Latsar extends Model
     use HasFactory, Sluggable, Loggable;
 
     protected $fillable = [
+        'kode',
         'nama',
         'slug',
         'angkatan_sekarang',

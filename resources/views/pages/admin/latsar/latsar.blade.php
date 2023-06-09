@@ -57,6 +57,7 @@
                 <thead>
                     <tr>
                         <th>No</th>
+                        <th>Kode</th>
                         <th>Nama</th>
                         <th>Angkatan</th>
                         <th>Pendaftaran Dibuka</th>
@@ -80,7 +81,14 @@
                         enctype="multipart/form-data">
                         <input type="hidden" id="id" name="id">
                         <div class="row">
-                            <div class="col-12">
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <label for="kode">Kode Angkatan</label>
+                                    <input type="text" class="form-control" id="kode" name="kode"
+                                        placeholder="Kode Angkatan" />
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
                                 <div class="form-group">
                                     <label for="nama">Nama</label>
                                     <input type="text" class="form-control" id="nama" name="nama"

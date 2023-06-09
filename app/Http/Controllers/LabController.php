@@ -2,9 +2,14 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Latsar\Latsar;
+use App\Models\Peserta;
 use App\Models\Tracker;
+use App\Models\User;
 use donatj\UserAgent\UserAgentParser;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Hash;
 use Jenssegers\Agent\Agent;
 use PhpOffice\PhpSpreadsheet\IOFactory;
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
@@ -17,6 +22,127 @@ use MatthiasMullie\Minify\JS;
 
 class LabController extends Controller
 {
+    public function import(Request $request)
+    {
+        $file_excel = public_path('Sample.xlsx');
+        $spreadsheet = \PhpOffice\PhpSpreadsheet\IOFactory::load($file_excel);
+        $array_from_excel = $spreadsheet->getActiveSheet()->toArray();
+        dd($array_from_excel);
+        DB::beginTransaction();
+
+        $in_bandung = 703;
+        foreach ($array_from_excel as $k => $v) {
+            if ($k < 2) continue;
+            $nama = $v[4];
+            $email = $v[5];
+            $latsar_id = $v[2];
+            // insert user
+            $user = new User();
+            $user->name = $nama;
+            $user->email = $email;
+            $user->active = 1;
+            $user->password = Hash::make('12345678');
+            $user->save();
+
+            // insert role
+            $user->assignRole(['Peserta']);
+
+            // insert peserta data
+            $peserta = new Peserta();
+            $peserta->user_id = $user->id;
+
+            $peserta->nopeserta = $this->getNoPeserta($latsar_id);
+
+            // $peserta->nik = '';
+            // $peserta->nama = '';
+            // $peserta->email = '';
+            // $peserta->no_whatsapp = '';
+            // $peserta->tempat_lahir = '';
+            // $peserta->tanggal_lahir = '';
+            // $peserta->usia_saat_daftar = '';
+            // $peserta->jenis_kelamin = '';
+            // $peserta->agama = '';
+            // $peserta->pendidikan_terakhir = '';
+            // $peserta->ktp_provinsi_id = '';
+            // $peserta->ktp_kab_kot_id = '';
+            // $peserta->ktp_kecamatan_id = '';
+            // $peserta->ktp_des_kel_id = '';
+            // $peserta->ktp_alamat_lengkap = '';
+            // $peserta->ktp_rt = '';
+            // $peserta->ktp_rw = '';
+            // $peserta->ktp_file = '';
+            // $peserta->ktp_ada = '';
+            // $peserta->kk_file = '';
+            // $peserta->domisili = '';
+            // $peserta->domisili_provinsi_id = '';
+            // $peserta->domisili_kab_kot_id = '';
+            // $peserta->domisili_kecamatan_id = '';
+            // $peserta->domisili_des_kel_id = '';
+            // $peserta->domisili_alamat_lengkap = '';
+            // $peserta->domisili_rt = '';
+            // $peserta->domisili_rw = '';
+            // $peserta->domisili_file = '';
+            // $peserta->instagram = '';
+            // $peserta->facebook = '';
+            // $peserta->twitter = '';
+            // $peserta->alasan = '';
+            // $peserta->usaha = '';
+            // $peserta->kendalau_saha = '';
+            // $peserta->sekilas_usaha = '';
+            // $peserta->produk = '';
+            // $peserta->pelatihan_dispora_sebelumnya = '';
+            // $peserta->pelatihan_lainnya = '';
+            // $peserta->komunitas = '';
+            // $peserta->ig_komunitas = '';
+            // $peserta->profil_komunitas = '';
+            // $peserta->tentang_diri = '';
+            // $peserta->plus_minus_diri = '';
+            // $peserta->prestasi_diri = '';
+            // $peserta->kegagalan = '';
+            // $peserta->impian = '';
+            // $peserta->wawasan_latsar = '';
+            // $peserta->komitmen = '';
+            // $peserta->anak_ke_berapa = '';
+            // $peserta->anak_ke_berapa_dari = '';
+            // $peserta->harapan = '';
+            // $peserta->pengertian_pengusaha = '';
+            // $peserta->satusatunya = '';
+            // $peserta->cocok_pengusaha = '';
+            // $peserta->jika_tidak_jadi_pengusaha = '';
+            // $peserta->bidang = '';
+            // $peserta->bidang_spesifik = '';
+            // $peserta->persetujuan = '';
+            // $peserta->kurasi_pernah_lulus = '';
+            // $peserta->kurasi_angkatan = '';
+            // $peserta->blokir = '';
+
+
+            // insert peserta daftar
+
+            $peserta->save();
+
+            if ($k == 10) {
+                # code...
+                dd(Peserta::all()->toArray());
+            }
+        }
+
+
+
+
+        // buat nomor
+        // DB::commit();
+    }
+
+    private function getNoPeserta($latsar_id)
+    {
+        $latsar = Latsar::find($latsar_id);
+
+        $jmlPeserta = Peserta::where('nopeserta', 'like', "$latsar->kode%")->count();
+
+        return $jmlPeserta + 1;
+    }
+
     public function javascript(Request $request)
     {
         $minifier = new JS(resource_path('views/js/tes.js'));

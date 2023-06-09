@@ -13606,6 +13606,231 @@ class LogsTableSeeder extends Seeder
                 'log_type' => 'edit',
                 'data' => '{"id":414,"parent_id":null,"title":"Visi Dan Misi","icon":null,"route":"admin.setting.visi_misi","sequence":48,"active":0,"type":1,"created_at":"2023-01-18 01:51:32","updated_at":"2023-05-13 04:20:09"}',
             ),
+            9 => 
+            array (
+                'id' => 1576,
+                'user_id' => 1,
+                'log_date' => '2023-06-09 15:06:07',
+                'table_name' => 'latsar',
+                'log_type' => 'edit',
+                'data' => '{"id":1,"kode":null,"nama":"Barbershop","slug":"barbershop","angkatan_sekarang":"2023","dibuka":1,"deskripsi":"<p><img style=\\"width: 744px;\\" data-bs-filename=\\"20230529142706.png\\" src=\\"\\/assets\\/latsar\\/1686228494930.png\\"><br><\\/p>\\n","created_at":"2023-06-08 19:48:14","updated_at":"2023-06-08 19:48:14"}',
+            ),
+            10 => 
+            array (
+                'id' => 1577,
+                'user_id' => 1,
+                'log_date' => '2023-06-09 15:06:13',
+                'table_name' => 'latsar',
+                'log_type' => 'edit',
+                'data' => '{"id":2,"kode":null,"nama":"Body Care","slug":"body-care","angkatan_sekarang":"2023","dibuka":1,"deskripsi":"<p><\\/p>\\n","created_at":"2023-06-08 19:51:30","updated_at":"2023-06-08 19:51:30"}',
+            ),
+            11 => 
+            array (
+                'id' => 1578,
+                'user_id' => 1,
+                'log_date' => '2023-06-09 15:06:19',
+                'table_name' => 'latsar',
+                'log_type' => 'edit',
+                'data' => '{"id":3,"kode":null,"nama":"Fotografi","slug":"fotografi","angkatan_sekarang":"2023","dibuka":1,"deskripsi":"<p><\\/p>\\n","created_at":"2023-06-08 19:52:59","updated_at":"2023-06-08 19:52:59"}',
+            ),
+            12 => 
+            array (
+                'id' => 1579,
+                'user_id' => 1,
+                'log_date' => '2023-06-09 15:07:26',
+                'table_name' => 'latsar',
+                'log_type' => 'edit',
+                'data' => '{"id":4,"kode":null,"nama":"Barista","slug":"barista","angkatan_sekarang":"2023","dibuka":1,"deskripsi":"<p><\\/p>\\n","created_at":"2023-06-08 19:53:10","updated_at":"2023-06-08 19:53:10"}',
+            ),
+            13 => 
+            array (
+                'id' => 1580,
+                'user_id' => 1,
+                'log_date' => '2023-06-09 15:07:45',
+                'table_name' => 'latsar',
+                'log_type' => 'edit',
+                'data' => '{"id":9,"kode":null,"nama":"Desain Produk & Kemasan Makanan","slug":"desain-produk-kemasan-makanan","angkatan_sekarang":"2023","dibuka":1,"deskripsi":"<p><\\/p>\\n","created_at":"2023-06-08 19:54:01","updated_at":"2023-06-08 19:54:01"}',
+            ),
+            14 => 
+            array (
+                'id' => 1581,
+                'user_id' => 1,
+                'log_date' => '2023-06-09 15:07:59',
+                'table_name' => 'latsar',
+                'log_type' => 'edit',
+                'data' => '{"id":5,"kode":null,"nama":"Pastry & Bakery","slug":"pastry-bakery","angkatan_sekarang":"2023","dibuka":1,"deskripsi":"<p><\\/p>\\n","created_at":"2023-06-08 19:53:18","updated_at":"2023-06-08 19:53:18"}',
+            ),
+            15 => 
+            array (
+                'id' => 1582,
+                'user_id' => 1,
+                'log_date' => '2023-06-09 15:08:28',
+                'table_name' => 'latsar',
+                'log_type' => 'edit',
+                'data' => '{"id":6,"kode":null,"nama":"Videografi & Editing","slug":"videografi-editing","angkatan_sekarang":"2023","dibuka":1,"deskripsi":"<p><\\/p>\\n","created_at":"2023-06-08 19:53:27","updated_at":"2023-06-08 19:53:27"}',
+            ),
+            16 => 
+            array (
+                'id' => 1583,
+                'user_id' => 1,
+                'log_date' => '2023-06-09 15:08:43',
+                'table_name' => 'latsar',
+                'log_type' => 'edit',
+                'data' => '{"id":7,"kode":null,"nama":"Konten Kreator","slug":"konten-kreator","angkatan_sekarang":"2023","dibuka":1,"deskripsi":"<p><\\/p>\\n","created_at":"2023-06-08 19:53:38","updated_at":"2023-06-08 19:53:38"}',
+            ),
+            17 => 
+            array (
+                'id' => 1584,
+                'user_id' => 1,
+                'log_date' => '2023-06-09 15:09:41',
+                'table_name' => 'latsar',
+                'log_type' => 'edit',
+                'data' => '{"id":8,"kode":null,"nama":"Pelatihan Exportir","slug":"pelatihan-exportir","angkatan_sekarang":"2023","dibuka":1,"deskripsi":"<p><\\/p>\\n","created_at":"2023-06-08 19:53:53","updated_at":"2023-06-08 19:53:53"}',
+            ),
+            18 => 
+            array (
+                'id' => 1585,
+                'user_id' => 1,
+                'log_date' => '2023-06-09 15:10:55',
+                'table_name' => 'latsar',
+                'log_type' => 'edit',
+                'data' => '{"id":1,"kode":"BBS","nama":"Barbershop","slug":"barbershop","angkatan_sekarang":"2023","dibuka":1,"deskripsi":"<p><img style=\\"width: 744px;\\" data-bs-filename=\\"20230529142706.png\\" src=\\"\\/assets\\/latsar\\/1686228494930.png\\"><br><\\/p>\\n","created_at":"2023-06-08 19:48:14","updated_at":"2023-06-09 15:06:07"}',
+            ),
+            19 => 
+            array (
+                'id' => 1586,
+                'user_id' => 1,
+                'log_date' => '2023-06-09 15:11:01',
+                'table_name' => 'latsar',
+                'log_type' => 'edit',
+                'data' => '{"id":2,"kode":"BDC","nama":"Body Care","slug":"body-care","angkatan_sekarang":"2023","dibuka":1,"deskripsi":"<p><\\/p>\\n","created_at":"2023-06-08 19:51:30","updated_at":"2023-06-09 15:06:13"}',
+            ),
+            20 => 
+            array (
+                'id' => 1587,
+                'user_id' => 1,
+                'log_date' => '2023-06-09 15:11:08',
+                'table_name' => 'latsar',
+                'log_type' => 'edit',
+                'data' => '{"id":4,"kode":"BRT","nama":"Barista","slug":"barista","angkatan_sekarang":"2023","dibuka":1,"deskripsi":"<p><\\/p>\\n","created_at":"2023-06-08 19:53:10","updated_at":"2023-06-09 15:07:26"}',
+            ),
+            21 => 
+            array (
+                'id' => 1588,
+                'user_id' => 1,
+                'log_date' => '2023-06-09 15:11:13',
+                'table_name' => 'latsar',
+                'log_type' => 'edit',
+                'data' => '{"id":9,"kode":"DPK","nama":"Desain Produk & Kemasan Makanan","slug":"desain-produk-kemasan-makanan","angkatan_sekarang":"2023","dibuka":1,"deskripsi":"<p><\\/p>\\n","created_at":"2023-06-08 19:54:01","updated_at":"2023-06-09 15:07:45"}',
+            ),
+            22 => 
+            array (
+                'id' => 1589,
+                'user_id' => 1,
+                'log_date' => '2023-06-09 15:11:18',
+                'table_name' => 'latsar',
+                'log_type' => 'edit',
+                'data' => '{"id":8,"kode":"EXT","nama":"Pelatihan Exportir","slug":"pelatihan-exportir","angkatan_sekarang":"2023","dibuka":1,"deskripsi":"<p><\\/p>\\n","created_at":"2023-06-08 19:53:53","updated_at":"2023-06-09 15:09:41"}',
+            ),
+            23 => 
+            array (
+                'id' => 1590,
+                'user_id' => 1,
+                'log_date' => '2023-06-09 15:11:24',
+                'table_name' => 'latsar',
+                'log_type' => 'edit',
+                'data' => '{"id":3,"kode":"FTG","nama":"Fotografi","slug":"fotografi","angkatan_sekarang":"2023","dibuka":1,"deskripsi":"<p><\\/p>\\n","created_at":"2023-06-08 19:52:59","updated_at":"2023-06-09 15:06:19"}',
+            ),
+            24 => 
+            array (
+                'id' => 1591,
+                'user_id' => 1,
+                'log_date' => '2023-06-09 15:11:29',
+                'table_name' => 'latsar',
+                'log_type' => 'edit',
+                'data' => '{"id":7,"kode":"KKR","nama":"Konten Kreator","slug":"konten-kreator","angkatan_sekarang":"2023","dibuka":1,"deskripsi":"<p><\\/p>\\n","created_at":"2023-06-08 19:53:38","updated_at":"2023-06-09 15:08:43"}',
+            ),
+            25 => 
+            array (
+                'id' => 1592,
+                'user_id' => 1,
+                'log_date' => '2023-06-09 15:11:35',
+                'table_name' => 'latsar',
+                'log_type' => 'edit',
+                'data' => '{"id":5,"kode":"PBR","nama":"Pastry & Bakery","slug":"pastry-bakery","angkatan_sekarang":"2023","dibuka":1,"deskripsi":"<p><\\/p>\\n","created_at":"2023-06-08 19:53:18","updated_at":"2023-06-09 15:07:59"}',
+            ),
+            26 => 
+            array (
+                'id' => 1593,
+                'user_id' => 1,
+                'log_date' => '2023-06-09 15:11:39',
+                'table_name' => 'latsar',
+                'log_type' => 'edit',
+                'data' => '{"id":6,"kode":"VGE","nama":"Videografi & Editing","slug":"videografi-editing","angkatan_sekarang":"2023","dibuka":1,"deskripsi":"<p><\\/p>\\n","created_at":"2023-06-08 19:53:27","updated_at":"2023-06-09 15:08:28"}',
+            ),
+            27 => 
+            array (
+                'id' => 1594,
+                'user_id' => 1,
+                'log_date' => '2023-06-09 16:39:15',
+                'table_name' => 'latsar',
+                'log_type' => 'create',
+                'data' => '{"nama":"Animasi","kode":"ANM003","angkatan_sekarang":"2023","dibuka":"1","deskripsi":"<p><\\/p>\\n","slug":"animasi","updated_at":"2023-06-09T09:39:15.000000Z","created_at":"2023-06-09T09:39:15.000000Z","id":10}',
+            ),
+            28 => 
+            array (
+                'id' => 1595,
+                'user_id' => 1,
+                'log_date' => '2023-06-09 16:45:34',
+                'table_name' => 'latsar',
+                'log_type' => 'create',
+                'data' => '{"nama":"Wood Craft","kode":"WCR","angkatan_sekarang":"2023","dibuka":"1","deskripsi":"<p><\\/p>\\n","slug":"wood-craft","updated_at":"2023-06-09T09:45:34.000000Z","created_at":"2023-06-09T09:45:34.000000Z","id":11}',
+            ),
+            29 => 
+            array (
+                'id' => 3576,
+                'user_id' => 1,
+                'log_date' => '2023-06-09 18:13:36',
+                'table_name' => 'p_role_has_menu',
+                'log_type' => 'create',
+                'data' => '{"role_id":1,"menu_id":355,"updated_at":"2023-06-09T11:13:36.000000Z","created_at":"2023-06-09T11:13:36.000000Z","id":258}',
+            ),
+            30 => 
+            array (
+                'id' => 3577,
+                'user_id' => 1,
+                'log_date' => '2023-06-09 18:13:46',
+                'table_name' => 'p_role_has_menu',
+                'log_type' => 'create',
+                'data' => '{"role_id":1,"menu_id":356,"updated_at":"2023-06-09T11:13:46.000000Z","created_at":"2023-06-09T11:13:46.000000Z","id":259}',
+            ),
+            31 => 
+            array (
+                'id' => 3578,
+                'user_id' => 1,
+                'log_date' => '2023-06-09 18:13:55',
+                'table_name' => 'p_role_has_menu',
+                'log_type' => 'create',
+                'data' => '{"role_id":1,"menu_id":357,"updated_at":"2023-06-09T11:13:55.000000Z","created_at":"2023-06-09T11:13:55.000000Z","id":260}',
+            ),
+            32 => 
+            array (
+                'id' => 3579,
+                'user_id' => 1,
+                'log_date' => '2023-06-09 18:14:05',
+                'table_name' => 'p_role_has_menu',
+                'log_type' => 'create',
+                'data' => '{"role_id":1,"menu_id":358,"updated_at":"2023-06-09T11:14:05.000000Z","created_at":"2023-06-09T11:14:05.000000Z","id":261}',
+            ),
+            33 => 
+            array (
+                'id' => 3580,
+                'user_id' => 1,
+                'log_date' => '2023-06-09 18:14:11',
+                'table_name' => 'p_role_has_menu',
+                'log_type' => 'create',
+                'data' => '{"role_id":1,"menu_id":359,"updated_at":"2023-06-09T11:14:11.000000Z","created_at":"2023-06-09T11:14:11.000000Z","id":262}',
+            ),
         ));
         
         
