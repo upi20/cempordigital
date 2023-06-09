@@ -86,6 +86,7 @@ use App\Http\Controllers\Admin\Address\DistrictController;
 use App\Http\Controllers\Admin\Address\VillageController;
 use App\Http\Controllers\Admin\Latsar\LatsarController;
 use App\Http\Controllers\Admin\PesertaController;
+use App\Models\Pendaftaran;
 
 // Address ============================================================================================================
 
@@ -210,6 +211,18 @@ Route::group(['prefix' => $prefix], function () use ($name, $prefix) {
 
     Route::controller(LatsarController::class)->group(function () use ($name) {
         Route::get('/', 'index')->name($name)->middleware("permission:$name");
+
+        Route::get('/find', 'find')->name("$name.find")->middleware("permission:$name.update");
+        Route::post('/', 'insert')->name("$name.insert")->middleware("permission:$name.insert");
+        Route::post('/update', 'update')->name("$name.update")->middleware("permission:$name.update");
+        Route::delete('/{model}', 'delete')->name("$name.delete")->middleware("permission:$name.delete");
+    });
+
+    $prefix = 'pendaftaran';
+    Route::controller(PendaftaranController::class)->prefix($prefix)->group(function () use ($name, $prefix) {
+        $name = "$name.$prefix"; // admin.pendaftaran
+        Route::get('/', 'index')->name($name)->middleware("permission:$name");
+
         Route::get('/find', 'find')->name("$name.find")->middleware("permission:$name.update");
         Route::post('/', 'insert')->name("$name.insert")->middleware("permission:$name.insert");
         Route::post('/update', 'update')->name("$name.update")->middleware("permission:$name.update");

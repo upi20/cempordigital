@@ -1,10 +1,61 @@
-
 const can_update = "{{ $can_update == 'true' ? 'true' : 'false' }}" === "true";
 const can_delete = "{{ $can_delete == 'true' ? 'true' : 'false' }}" === "true";
-const table_html = $('#tbl_main');
 let isEdit = true;
-const image_url = '{{ asset($image_folder) }}';
+const table_html = $('#tbl_main');
 $(document).ready(function () {
+    $('.summernote').summernote({
+        toolbar: [
+            ['fontsize', ['fontsize']],
+            ['fontname', ['fontname']],
+            ['style',
+                ['bold',
+                    'italic',
+                    'underline',
+                    'strikethrough',
+                    'superscript',
+                    'subscript',
+                    'clear'
+                ]
+            ],
+            ['para', ['ul', 'ol', 'paragraph']],
+            ['height', ['height']],
+            ['color', ['color']],
+            ['float', ['floatLeft', 'floatRight', 'floatNone']],
+            ['remove', ['removeMedia']],
+            ['table', ['table']],
+            ['insert', ['link', 'unlink', 'audio', 'hr', 'picture']],
+            ['mybutton', ['myVideo']],
+            ['view', ['fullscreen', 'codeview']],
+            ['help', ['help']],
+        ],
+        buttons: {
+            myVideo: function (context) {
+                var ui = $.summernote.ui;
+                var button = ui.button({
+                    contents: '<i class="fab fa-youtube"></i>',
+                    tooltip: 'video',
+                    click: function () {
+                        var div = document.createElement('div');
+                        div.classList.add('embed-container');
+                        var iframe = document.createElement('iframe');
+                        var src = prompt('Enter video url:');
+                        src = youtube_parser(src);
+                        iframe.src =
+                            `https://www.youtube.com/embed/${src}?autoplay=1&fs=1&iv_load_policy=&showinfo=1&rel=0&cc_load_policy=1&start=0&modestbranding&end=0&controls=1`;
+                        iframe.setAttribute('frameborder', 0);
+                        iframe.setAttribute('width', '100%');
+                        iframe.setAttribute('height', '500px');
+                        iframe.setAttribute('type', 'text/html');
+                        iframe.setAttribute('allowfullscreen', true);
+                        div.appendChild(iframe);
+                        context.invoke('editor.insertNode', div);
+                    }
+                });
+                return button.render();
+            }
+        },
+        height: 300,
+    });
     // datatable ====================================================================================
     $.ajaxSetup({
         headers: {
@@ -15,7 +66,6 @@ $(document).ready(function () {
         searchDelay: 500,
         processing: true,
         serverSide: true,
-        responsive: false,
         scrollX: true,
         aAutoWidth: false,
         bAutoWidth: false,
@@ -23,95 +73,31 @@ $(document).ready(function () {
         ajax: {
             url: "{{ route(l_prefix($hpu)) }}",
             data: function (d) {
-                d['filter[domisili]'] = $('#filter_domisili').val();
-                d['filter[ktp_provinsi_id]'] = $('#filter_ktp_provinsi_id').val();
-                d['filter[ktp_kab_kot_id]'] = $('#filter_ktp_kab_kot_id').val();
-                d['filter[ktp_kecamatan_id]'] = $('#filter_ktp_kecamatan_id').val();
-                d['filter[ktp_des_kel_id]'] = $('#filter_ktp_des_kel_id').val();
-                d['filter[domisili_provinsi_id]'] = $('#filter_domisili_provinsi_id').val();
-                d['filter[domisili_kab_kot_id]'] = $('#filter_domisili_kab_kot_id').val();
-                d['filter[domisili_kecamatan_id]'] = $('#filter_domisili_kecamatan_id').val();
-                d['filter[domisili_des_kel_id]'] = $('#filter_domisili_des_kel_id').val();
-                d['filter[kurasi_angkatan]'] = $('#filter_kurasi_angkatan').val();
+                d['filter[dibuka]'] = $('#filter_dibuka').val();
             }
         },
         columns: [{
             data: null,
-            name: 'id',
-            orderable: false,
+            name: 'id'
         },
         {
-            data: 'nopeserta',
-            name: 'nopeserta'
+            data: 'kode',
+            name: 'kode'
         },
         {
             data: 'nama',
-            name: 'nama',
-            render(data, type, full, meta) {
-                const angkatan = full.kurasi_angkatan ? `<br><small>${full.kurasi_angkatan}</small>` : '';
-                return data + angkatan;
-            },
+            name: 'nama'
         },
         {
-            data: 'email',
-            name: 'email',
-            render(data, type, full, meta) {
-                const whatsapp = full.no_whatsapp ? `<span class="text-nowrap"><i class="fab fa-whatsapp me-1"></i><a href="https://wa.me/${full.no_whatsapp}" target="_blank">${full.no_whatsapp}</a></span>` : '';
-                const instagram = full.instagram ? `<br><span class="text-nowrap"><i class="fab fa-instagram me-1"></i>${full.instagram}</span>` : '';
-                const facebook = full.facebook ? `<br><span class="text-nowrap"><i class="fab fa-facebook me-1"></i>${full.facebook}</span>` : '';
-                const twitter = full.twitter ? `<br><span class="text-nowrap"><i class="fab fa-twitter me-1"></i>${full.twitter}</span>` : '';
-                return `<small>
-                ${whatsapp}
-                ${instagram}
-                ${facebook}
-                ${twitter}
-                </small>`;
-            },
+            data: 'angkatan_sekarang',
+            name: 'angkatan_sekarang'
         },
         {
-            data: 'tanggal_lahir',
-            name: 'tanggal_lahir',
+            data: 'dibuka',
+            name: 'dibuka',
             render(data, type, full, meta) {
-                return `${full.tempat_lahir}<br>
-                <span class="text-nowrap">${full.tanggal_lahir_str}</span>
-                <br><span class="text-nowrap" data-toggle="tooltip" title="Usia saat daftar latsar">
-                <i class="fas fa-circle me-1 ${full.tanggal_lahir_class}" ></i>
-                ${full.usia_saat_daftar ?? ''} Tahun
-                </span>
-                `;
-            },
-        },
-        {
-            data: 'domisili',
-            name: 'domisili',
-            render(data, type, full, meta) {
-                return `<i class="fas fa-circle me-2 ${full.domisili_class}"></i> ${full.domisili_str}`;
-            },
-        },
-        {
-            data: 'ktp_provinsi',
-            name: 'ktp_provinsi',
-            render(data, type, full, meta) {
-                return `<small data-toggle="tooltip" title="${full.ktp_alamat_lengkap}">
-                ${full.ktp_provinsi}
-                <br>${full.ktp_kab_kot}
-                <br>${full.ktp_kecamatan}
-                <br>${full.ktp_des_kel}
-                <br>Rt. ${full.ktp_rt} / Rw. ${full.ktp_rw}
-                </small>`;
-            },
-        },
-        {
-            data: 'domisili_provinsi',
-            name: 'domisili_provinsi',
-            render(data, type, full, meta) {
-                return full.domisili == 0 ? `<small data-toggle="tooltip" title="${full.domisili_alamat_lengkap}">
-                ${full.domisili_provinsi}
-                <br>${full.domisili_kab_kot}
-                <br>${full.domisili_kecamatan}
-                <br>${full.domisili_des_kel}
-                <br>Rt. ${full.domisili_rt} / Rw. ${full.domisili_rw}
-                </small>`: '';
+                const class_ = (data == 0) ? 'danger' : 'success';
+                return `<i class="fas fa-circle text-${class_} ms-0 me-2"></i> ${full.dibuka_str}`;
             },
         },
         ...(can_update || can_delete ? [{
@@ -127,12 +113,12 @@ $(document).ready(function () {
             orderable: false
         }] : []),
         ],
-        order: [
-            [2, 'asc']
-        ],
         language: {
             url: datatable_indonesia_language_url
-        }
+        },
+        order: [
+            [1, 'asc']
+        ],
     });
 
     new_table.on('draw.dt', function () {
@@ -151,11 +137,12 @@ $(document).ready(function () {
         oTable.fnDraw(false);
     });
 
+
     // insertForm ===================================================================================
     $('#MainForm').submit(function (e) {
         e.preventDefault();
         resetErrorAfterInput();
-        var formData = new FormData(this);
+        const formData = new FormData(this);
         setBtnLoading('#btn-save', 'Simpan Perubahan');
         const route = ($('#id').val() == '') ?
             "{{ route(l_prefix($hpu,'insert')) }}" :
@@ -208,15 +195,14 @@ $(document).ready(function () {
     });
 });
 
+
 function addFunc() {
     if (!isEdit) return false;
     $('#MainForm').trigger("reset");
     $('#modal-default-title').html("Tambah");
     $('#modal-default').modal('show');
     $('#id').val('');
-    $('#foto').val('');
-    $('#lihat-foto').hide();
-    $('#foto').attr('required', '');
+    $('#deskripsi').summernote("code", '');
     resetErrorAfterInput();
     isEdit = false;
     return true;
@@ -239,11 +225,10 @@ function editFunc(id) {
             $('#modal-default').modal('show');
             $('#id').val(data.id);
             $('#nama').val(data.nama);
-            $('#status').val(data.status);
-            $('#lihat-foto').fadeIn();
-            $('#lihat-foto').attr('onclick', `viewImage('${data.foto}', '${data.nama}' )`);
-            $('#foto').removeAttr('required');
-            $('#foto').val('');
+            $('#kode').val(data.kode);
+            $('#angkatan_sekarang').val(data.angkatan_sekarang);
+            $('#dibuka').val(data.dibuka);
+            $('#deskripsi').summernote("code", data.deskripsi);
         },
         error: function (data) {
             Swal.fire({
@@ -290,7 +275,7 @@ function deleteFunc(id) {
                     Swal.fire({
                         position: 'center',
                         icon: 'success',
-                        title: '{{ $page_title }} deleted successfully',
+                        title: 'Data deleted successfully',
                         showConfirmButton: false,
                         timer: 1500
                     })
@@ -309,10 +294,3 @@ function deleteFunc(id) {
     });
 }
 
-function viewImage(image, title) {
-    $('#modal-image').modal('show');
-    $('#modal-image-title').html(title);
-    const ele = $('#modal-image-element');
-    ele.attr('src', `${image_url}/${image}`);
-    ele.attr('alt', title);
-};

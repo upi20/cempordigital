@@ -50,10 +50,12 @@
                     <tr>
                         <th>No</th>
                         <th>Nomor</th>
-                        <th>Angkatan</th>
                         <th>Nama</th>
-                        <th>Email</th>
+                        <th>Kontak</th>
+                        <th>TTL</th>
                         <th>Asal</th>
+                        <th>Alamat KTP</th>
+                        <th>Alamat Domisili</th>
                         {!! $can_delete || $can_update ? '<th>Aksi</th>' : '' !!}
                     </tr>
                 </thead>

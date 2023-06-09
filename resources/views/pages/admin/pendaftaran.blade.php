@@ -133,7 +133,7 @@
 
 
 @section('stylesheet')
-    <link rel="stylesheet" href="{{ asset_admin('plugins/datatable/css/dataTables.bootstrap5.min.css') }}"/>
+    <link rel="stylesheet" href="{{ asset_admin('plugins/datatable/css/dataTables.bootstrap5.min.css') }}" />
 @endsection
 
 @section('javascript')

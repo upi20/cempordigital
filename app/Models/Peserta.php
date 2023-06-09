@@ -52,9 +52,12 @@ class Peserta extends Model
         'domisili_rt',
         'domisili_rw',
         'domisili_file',
+
+        // kontak
         'instagram',
         'facebook',
         'twitter',
+
         'alasan',
         'usaha',
         'kendalau_saha',
@@ -121,10 +124,12 @@ class Peserta extends Model
         $c_created_str = 'created_str';
         $c_updated = 'updated';
         $c_updated_str = 'updated_str';
+        $c_tanggal_lahir_str = 'tanggal_lahir_str';
         $query = array_merge($query, $date_format_fun('created_at', '%d-%b-%Y', $c_created));
         $query = array_merge($query, $date_format_fun('created_at', '%W, %d %M %Y %H:%i:%s', $c_created_str));
         $query = array_merge($query, $date_format_fun('updated_at', '%d-%b-%Y', $c_updated));
         $query = array_merge($query, $date_format_fun('updated_at', '%W, %d %M %Y %H:%i:%s', $c_updated_str));
+        $query = array_merge($query, $date_format_fun('tanggal_lahir', '%d-%b-%Y', $c_tanggal_lahir_str));
 
         // ktp_file
         $c_ktp_file_link = 'ktp_file_link';
@@ -142,7 +147,7 @@ class Peserta extends Model
 
         $c_ktp_ada_class = 'ktp_ada_class';
         $query[$c_ktp_ada_class] = <<<SQL
-                (if($table.ktp_ada = 1, 'success', 'danger'))
+                (if($table.ktp_ada = 1, 'text-success', 'text-danger'))
         SQL;
         $query["{$c_ktp_ada_class}_alias"] = $c_ktp_ada_class;
 
@@ -184,26 +189,31 @@ class Peserta extends Model
         // Alamat domisili ===
         // domisili_provinsi
         $c_domisili_provinsi = 'domisili_provinsi';
-        $query[$c_domisili_provinsi] = "ktp_kec.name";
+        $query[$c_domisili_provinsi] = "domisili_prov.name";
         $query["{$c_domisili_provinsi}_alias"] = $c_domisili_provinsi;
 
         // domisili_kab_kot
         $c_domisili_kab_kot = 'domisili_kab_kot';
-        $query[$c_domisili_kab_kot] = "ktp_kab.name";
+        $query[$c_domisili_kab_kot] = "domisili_kab.name";
         $query["{$c_domisili_kab_kot}_alias"] = $c_domisili_kab_kot;
 
         // domisili_kecamatan
         $c_domisili_kecamatan = 'domisili_kecamatan';
-        $query[$c_domisili_kecamatan] = "ktp_kec.name";
+        $query[$c_domisili_kecamatan] = "domisili_kec.name";
         $query["{$c_domisili_kecamatan}_alias"] = $c_domisili_kecamatan;
 
         // domisili_des_kel
         $c_domisili_des_kel = 'domisili_des_kel';
-        $query[$c_domisili_des_kel] = "ktp_des.name";
+        $query[$c_domisili_des_kel] = "domisili_des.name";
         $query["{$c_domisili_des_kel}_alias"] = $c_domisili_des_kel;
 
 
-
+        // tanggal_lahir
+        $c_tanggal_lahir_class = 'tanggal_lahir_class';
+        $query[$c_tanggal_lahir_class] = <<<SQL
+                (if($table.usia_saat_daftar >= 16 and $table.usia_saat_daftar <=30, 'text-success', 'text-danger'))
+        SQL;
+        $query["{$c_tanggal_lahir_class}_alias"] = $c_tanggal_lahir_class;
 
         // ========================================================================================================
 
@@ -232,6 +242,8 @@ class Peserta extends Model
             $c_domisili_kab_kot,
             $c_domisili_kecamatan,
             $c_domisili_des_kel,
+            $c_tanggal_lahir_class,
+            $c_tanggal_lahir_str,
         ];
 
         $to_db_raw = array_map(function ($a) use ($sraa) {
