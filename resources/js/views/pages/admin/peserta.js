@@ -49,18 +49,22 @@ $(document).ready(function () {
             name: 'nama',
             render(data, type, full, meta) {
                 const angkatan = full.kurasi_angkatan ? `<br><small>${full.kurasi_angkatan}</small>` : '';
-                return data + angkatan;
+                const jenis_kelamin = full.jenis_kelamin ? `<br><small class="text-nowrap"  data-toggle="tooltip" title="Jenis Kelamin"><i class="fas fa-venus-mars me-1"></i> ${full.jenis_kelamin}</small>` : '';
+                const nik = full.nik ? `<br><small class="text-nowrap" class="text-nowrap" data-toggle="tooltip" title="Nomor Induk Kependudukan"><i class="fas fa-id-card me-1"></i> ${full.nik}</small>` : '';
+                return data + angkatan + nik + jenis_kelamin;
             },
         },
         {
             data: 'email',
             name: 'email',
             render(data, type, full, meta) {
-                const whatsapp = full.no_whatsapp ? `<span class="text-nowrap"><i class="fab fa-whatsapp me-1"></i><a href="https://wa.me/${full.no_whatsapp}" target="_blank">${full.no_whatsapp}</a></span>` : '';
+                const email = full.email ? `<span class="text-nowrap"><i class="fas fa-at me-1"></i>${full.email}</span>` : '';
+                const whatsapp = full.no_whatsapp ? `<br><span class="text-nowrap"><i class="fab fa-whatsapp me-1"></i><a href="https://wa.me/${full.no_whatsapp}" target="_blank">${full.no_whatsapp}</a></span>` : '';
                 const instagram = full.instagram ? `<br><span class="text-nowrap"><i class="fab fa-instagram me-1"></i>${full.instagram}</span>` : '';
                 const facebook = full.facebook ? `<br><span class="text-nowrap"><i class="fab fa-facebook me-1"></i>${full.facebook}</span>` : '';
                 const twitter = full.twitter ? `<br><span class="text-nowrap"><i class="fab fa-twitter me-1"></i>${full.twitter}</span>` : '';
                 return `<small>
+                ${email}
                 ${whatsapp}
                 ${instagram}
                 ${facebook}
