@@ -194,6 +194,8 @@ $(document).ready(function () {
                 d['filter[kurasi_angkatan]'] = $('#filter_kurasi_angkatan').val();
                 d['filter[tanggal_lahir_dari]'] = $('#filter_tanggal_lahir_dari').val();
                 d['filter[tanggal_lahir_sampai]'] = $('#filter_tanggal_lahir_sampai').val();
+                d['filter[usia_saat_daftar_dari]'] = $('#filter_usia_saat_daftar_dari').val();
+                d['filter[usia_saat_daftar_sampai]'] = $('#filter_usia_saat_daftar_sampai').val();
             }
         },
         columns: [{

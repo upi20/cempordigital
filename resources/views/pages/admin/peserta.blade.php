@@ -26,7 +26,7 @@
                         data-bs-parent="#accordionOption">
                         <div class="accordion-body">
                             <form action="javascript:void(0)" id="FilterForm">
-                                <div class="form-group float-start me-2">
+                                <div class="form-group float-start me-2 mt-lg-0">
                                     <label for="filter_domisili">Asal</label>
                                     <select class="form-control" id="filter_domisili" name="filter_domisili"
                                         style="width: 200px">
@@ -35,21 +35,31 @@
                                         <option value="0">Luar Kota Bandung</option>
                                     </select>
                                 </div>
-                                <div class="form-group float-start me-2">
+                                <div class="form-group float-start me-2 mt-lg-0">
                                     <label for="filter_tanggal_lahir_dari">Tanggal Lahir Dari</label>
                                     <input type="date" class="form-control date-input-str" id="filter_tanggal_lahir_dari"
                                         name="filter_tanggal_lahir_dari" style="width: 200px" />
                                 </div>
-                                <div class="form-group float-start me-2">
+                                <div class="form-group float-start me-2 mt-lg-0">
                                     <label for="filter_tanggal_lahir_sampai">Tanggal Lahir Sampai</label>
                                     <input type="date" class="form-control date-input-str"
                                         id="filter_tanggal_lahir_sampai" name="filter_tanggal_lahir_sampai"
                                         style="width: 200px" />
                                 </div>
+                                <div class="form-group float-start me-2 mt-lg-0">
+                                    <label for="filter_usia_saat_daftar_dari">Tanggal Usia Dari</label>
+                                    <input type="number" class="form-control" id="filter_usia_saat_daftar_dari"
+                                        name="filter_usia_saat_daftar_dari" style="width: 200px" />
+                                </div>
+                                <div class="form-group float-start me-2 mt-lg-0">
+                                    <label for="filter_usia_saat_daftar_sampai">Tanggal Usia Sampai</label>
+                                    <input type="number" class="form-control" id="filter_usia_saat_daftar_sampai"
+                                        name="filter_usia_saat_daftar_sampai" style="width: 200px" />
+                                </div>
                                 <div style="clear: both"></div>
                                 <br>
-                                <h6 class="mt-2">Alamat KTP</h6>
-                                <div class="form-group  float-start me-2">
+                                <h6 class="mt-2 mb-0">Alamat KTP</h6>
+                                <div class="form-group  float-start me-2 mt-lg-0">
                                     <label for="filter_ktp_provinsi_id" class="me-md-2">Provinsi</label>
                                     <select class="form-control select2" id="filter_ktp_provinsi_id"
                                         name="filter_ktp_provinsi_id" style="width: 200px">
@@ -61,21 +71,21 @@
                                         @endforeach
                                     </select>
                                 </div>
-                                <div class="form-group  float-start me-2">
+                                <div class="form-group  float-start me-2 mt-lg-0">
                                     <label for="filter_ktp_kab_kot_id" class="me-md-2">Kab/Kota</label>
                                     <select class="form-control" id="filter_ktp_kab_kot_id" name="filter_ktp_kab_kot_id"
                                         style="width: 200px">
                                         <option value="">Semua Kab/Kota</option>
                                     </select>
                                 </div>
-                                <div class="form-group  float-start me-2">
+                                <div class="form-group  float-start me-2 mt-lg-0">
                                     <label for="filter_ktp_kecamatan_id" class="me-md-2">Kel/Kec</label>
                                     <select class="form-control" id="filter_ktp_kecamatan_id" name="filter_ktp_kecamatan_id"
                                         style="width: 200px">
                                         <option value="">Semua Kel/Kec</option>
                                     </select>
                                 </div>
-                                <div class="form-group  float-start me-2">
+                                <div class="form-group  float-start me-2 mt-lg-0">
                                     <label for="filter_ktp_des_kel_id" class="me-md-2">Desa/Kec</label>
                                     <select class="form-control" id="filter_ktp_des_kel_id" name="filter_ktp_des_kel_id"
                                         style="width: 200px">
@@ -84,8 +94,8 @@
                                 </div>
                                 <div style="clear: both"></div>
                                 <br>
-                                <h6 class="mt-2">Alamat Domisili</h6>
-                                <div class="form-group  float-start me-2">
+                                <h6 class="mt-2 mb-0">Alamat Domisili</h6>
+                                <div class="form-group  float-start me-2 mt-lg-0">
                                     <label for="filter_domisili_provinsi_id" class="me-md-2">Provinsi</label>
                                     <select class="form-control select2" id="filter_domisili_provinsi_id"
                                         name="filter_domisili_provinsi_id" style="width: 200px">
@@ -97,21 +107,21 @@
                                         @endforeach
                                     </select>
                                 </div>
-                                <div class="form-group  float-start me-2">
+                                <div class="form-group  float-start me-2 mt-lg-0">
                                     <label for="filter_domisili_kab_kot_id" class="me-md-2">Kab/Kota</label>
                                     <select class="form-control" id="filter_domisili_kab_kot_id"
                                         name="filter_domisili_kab_kot_id" style="width: 200px">
                                         <option value="">Semua Kab/Kota</option>
                                     </select>
                                 </div>
-                                <div class="form-group  float-start me-2">
+                                <div class="form-group  float-start me-2 mt-lg-0">
                                     <label for="filter_domisili_kecamatan_id" class="me-md-2">Kel/Kec</label>
                                     <select class="form-control" id="filter_domisili_kecamatan_id"
                                         name="filter_domisili_kecamatan_id" style="width: 200px">
                                         <option value="">Semua Kel/Kec</option>
                                     </select>
                                 </div>
-                                <div class="form-group  float-start me-2">
+                                <div class="form-group  float-start me-2 mt-lg-0">
                                     <label for="filter_domisili_des_kel_id" class="me-md-2">Desa/Kec</label>
                                     <select class="form-control" id="filter_domisili_des_kel_id"
                                         name="filter_domisili_des_kel_id" style="width: 200px">

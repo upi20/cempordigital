@@ -276,6 +276,16 @@ class Peserta extends Model
             $model->where("$table.tanggal_lahir", '<=', $filter['tanggal_lahir_sampai']);
         }
 
+        // filter umur
+        $filter = $request->filter;
+        if (isset($filter['usia_saat_daftar_dari'])) {
+            $model->where("$table.usia_saat_daftar", '>=', $filter['usia_saat_daftar_dari']);
+        }
+
+        if (isset($filter['usia_saat_daftar_sampai'])) {
+            $model->where("$table.usia_saat_daftar", '<=', $filter['usia_saat_daftar_sampai']);
+        }
+
         // filter check
         $f_c = function (string $param) use ($request): mixed {
             $filter = $request->filter;
