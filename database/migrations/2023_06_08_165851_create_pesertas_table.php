@@ -44,11 +44,11 @@ return new class extends Migration
             $table->integer('ktp_rt')->nullable()->default(null);
             $table->integer('ktp_rw')->nullable()->default(null);
             $table->string('ktp_file')->nullable()->default(null);
-            $table->integer('ktp_ada')->nullable()->default(0)->comment('0 Ada | 1 Tidak Ada');
+            $table->integer('ktp_ada')->nullable()->default(0)->comment('1 Ada | 0 Tidak Ada');
             $table->string('kk_file')->nullable()->default(null);
 
             // alamat domisili
-            $table->integer('domisili')->nullable()->default(0)->coment('0 Penduduk Kota Bandung | 1 Penduduk Luar Kota Bandung');
+            $table->integer('domisili')->nullable()->default(0)->coment('1 Kota Bandung | 0 Luar Kota Bandung');
             $table->char('domisili_provinsi_id', 2)->nullable()->default(null);
             $table->char('domisili_kab_kot_id', 4)->nullable()->default(null);
             $table->char('domisili_kecamatan_id', 7)->nullable()->default(null);
@@ -94,7 +94,7 @@ return new class extends Migration
             $table->text('persetujuan')->nullable()->default(null);
 
             $table->integer('kurasi_pernah_lulus')->nullable()->default(0);
-            $table->integer('kurasi_angkatan')->nullable()->default(0);
+            $table->integer('kurasi_angkatan')->nullable()->default(null);
             $table->integer('blokir')->nullable()->default(0);
             $table->timestamps();
 

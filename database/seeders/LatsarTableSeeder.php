@@ -162,6 +162,19 @@ class LatsarTableSeeder extends Seeder
                 'created_at' => '2023-06-09 16:45:34',
                 'updated_at' => '2023-06-09 16:45:34',
             ),
+            11 => 
+            array (
+                'id' => 12,
+                'kode' => 'WCR003',
+                'nama' => 'Wood Craft',
+                'slug' => 'wood-craft-2',
+                'angkatan_sekarang' => '2023',
+                'dibuka' => 1,
+                'deskripsi' => '<p></p>
+',
+                'created_at' => '2023-06-09 20:06:36',
+                'updated_at' => '2023-06-09 20:06:36',
+            ),
         ));
         
         

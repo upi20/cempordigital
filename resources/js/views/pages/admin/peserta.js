@@ -23,7 +23,16 @@ $(document).ready(function () {
         ajax: {
             url: "{{ route(l_prefix($hpu)) }}",
             data: function (d) {
-                d['filter[status]'] = $('#filter_status').val();
+                d['filter[domisili]'] = $('#filter_domisili').val();
+                d['filter[ktp_provinsi_id]'] = $('#filter_ktp_provinsi_id').val();
+                d['filter[ktp_kab_kot_id]'] = $('#filter_ktp_kab_kot_id').val();
+                d['filter[ktp_kecamatan_id]'] = $('#filter_ktp_kecamatan_id').val();
+                d['filter[ktp_des_kel_id]'] = $('#filter_ktp_des_kel_id').val();
+                d['filter[domisili_provinsi_id]'] = $('#filter_domisili_provinsi_id').val();
+                d['filter[domisili_kab_kot_id]'] = $('#filter_domisili_kab_kot_id').val();
+                d['filter[domisili_kecamatan_id]'] = $('#filter_domisili_kecamatan_id').val();
+                d['filter[domisili_des_kel_id]'] = $('#filter_domisili_des_kel_id').val();
+                d['filter[kurasi_angkatan]'] = $('#filter_kurasi_angkatan').val();
             }
         },
         columns: [{
@@ -32,33 +41,26 @@ $(document).ready(function () {
             orderable: false,
         },
         {
-            data: 'foto',
-            name: 'foto',
-            render(data, type, full, meta) {
-                return data ? `
-                    <img class="table-foto" src="${image_url}/${data}" alt="${full.nama}" onclick="viewImage('${data}', '${full.nama}')">
-                    ` : '';
-            },
-            orderable: false
+            data: 'nopeserta',
+            name: 'nopeserta'
+        },
+        {
+            data: 'kurasi_angkatan',
+            name: 'kurasi_angkatan'
         },
         {
             data: 'nama',
             name: 'nama'
         },
         {
-            data: 'ditampilkan',
-            name: 'ditampilkan',
-            render(data, type, full, meta) {
-                return `${data} x`;
-            },
+            data: 'email',
+            name: 'email'
         },
         {
-            data: 'status',
-            name: 'status',
+            data: 'domisili',
+            name: 'domisili',
             render(data, type, full, meta) {
-                const class_el = data == '1' ? 'text-success' : 'text-danger';
-                const text_el = data == '1' ? 'Ya' : 'Tidak';
-                return `<i class="fas fa-circle me-2 ${class_el}"></i>${text_el}`;
+                return `<i class="fas fa-circle me-2 ${full.domisili_class}"></i>${full.domisili_str}`;
             },
         },
         ...(can_update || can_delete ? [{
@@ -75,7 +77,7 @@ $(document).ready(function () {
         }] : []),
         ],
         order: [
-            [1, 'asc']
+            [2, 'asc']
         ],
         language: {
             url: datatable_indonesia_language_url

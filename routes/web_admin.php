@@ -85,6 +85,7 @@ use App\Http\Controllers\Admin\Address\RegencieController;
 use App\Http\Controllers\Admin\Address\DistrictController;
 use App\Http\Controllers\Admin\Address\VillageController;
 use App\Http\Controllers\Admin\Latsar\LatsarController;
+use App\Http\Controllers\Admin\PesertaController;
 
 // Address ============================================================================================================
 
@@ -216,6 +217,15 @@ Route::group(['prefix' => $prefix], function () use ($name, $prefix) {
     });
 });
 
+$prefix = 'peserta';
+Route::controller(PesertaController::class)->prefix($prefix)->group(function () use ($name, $prefix) {
+    $name = "$name.$prefix"; // admin.peserta
+    Route::get('/', 'index')->name($name)->middleware("permission:$name");
+    Route::get('/find', 'find')->name("$name.find")->middleware("permission:$name.update");
+    Route::post('/', 'insert')->name("$name.insert")->middleware("permission:$name.insert");
+    Route::post('/update', 'update')->name("$name.update")->middleware("permission:$name.update");
+    Route::delete('/{model}', 'delete')->name("$name.delete")->middleware("permission:$name.delete");
+});
 $prefix = 'home';
 Route::group(['prefix' => $prefix], function () use ($name, $prefix) {
     $name = "$name.$prefix"; // admin.home
