@@ -22,4 +22,6 @@ class PesertaDaftar extends Model
     const tableName = 'latsar_peserta_daftar';
     const image_folder = '/assets/latsar/peserta/daftar';
     const image_default = 'assets/latsar/peserta/daftar/default.jpg';
+    const migration = '2023_06_08_172543_create_latsar_peserta_daftar_table';
+    const seeder = 'LatsarPesertaDaftarTableSeeder';
 }

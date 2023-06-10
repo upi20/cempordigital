@@ -28,6 +28,8 @@ class Latsar extends Model
     const tableName = 'latsar';
     const image_folder = '/assets/latsar';
     const image_default = 'assets/latsar/default.jpg';
+    const migration = '2023_06_08_150936_create_latsar_table';
+    const seeder = 'LatsarTableSeeder';
 
     public function sluggable(): array
     {

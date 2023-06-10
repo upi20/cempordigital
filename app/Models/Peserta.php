@@ -96,8 +96,8 @@ class Peserta extends Model
     const tableName = 'peserta';
     const image_folder = '/assets/peserta';
     const image_default = 'assets/peserta/default.jpg';
-    const migration = '2023_05_21_034715_create_pesertas_table.php';
-    const seeder = 'PesertaTableSeeder.php';
+    const migration = '2023_06_08_165851_create_pesertas_table';
+    const seeder = 'PesertaTableSeeder';
 
 
     public static function datatable(Request $request): mixed

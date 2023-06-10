@@ -45,22 +45,24 @@ use App\Models\SPK\WP\Alternatif as SPK_WP_Alternatif;
 use App\Models\SPK\WP\AlternatifNilai as SPK_WP_AlternatifNilai;
 use App\Models\SPK\WP\Kriteria as SPK_WP_Kriteria;
 use App\Models\SPK\WP\WP as SPK_WP;
+use App\Models\User;
+use Illuminate\Support\Facades\DB;
 
-class backup extends Command
+class restore extends Command
 {
     /**
      * The name and signature of the console command.
      *
      * @var string
      */
-    protected $signature = 'make:backup {type=all} {--current=1}  {--users=1}';
+    protected $signature = 'migrate:restore {type=all} {--roll=1}  {--seed=1}';
 
     /**
      * The console command description.
      *
      * @var string
      */
-    protected $description = 'Backup database using iseed';
+    protected $description = 'Restore from ';
 
     /**
      * Execute the console command.
@@ -69,6 +71,81 @@ class backup extends Command
      */
     public function handle()
     {
+        $arg_type = $this->argument('type');
+        $opt_roll = $this->option('roll');
+        $opt_seed = $this->option('seed');
+        $lists = [
+            'latsar' => [
+                'classes' => [
+                    LatsarPeserta::class,
+                    PesertaDaftar::class,
+                    Peserta::class,
+                    // Latsar::class,
+                ],
+                'before' => function () {
+                    $tableNames = config('permission.table_names');
+                    // delete users with roles
+                    $pesertas = Peserta::all();
+
+                    $total = $pesertas->count();
+                    foreach ($pesertas as $k => $peserta) {
+                        // delete user
+                        $user = User::find($peserta->user_id);
+
+                        // delete role
+                        $roles = DB::table($tableNames['model_has_roles'])->where('model_id', $user->id)->delete();
+                        $userDelete = $user->delete();
+                        $presen =  ($k / $total) * 100;
+                        echo "$roles - $userDelete | $k of $total | $presen %" . PHP_EOL;
+                    }
+                },
+                'after' => function () {
+                    // Peserta::import();
+                },
+            ]
+        ];
+
+        foreach ($lists as $k => $v) {
+            $list = $arg_type == 'all' ? $lists[$k] : ($k == $arg_type ? $v : null);
+            if (is_null($list)) continue;
+
+            if (isset($list['before'])) {
+                if (is_callable($list['before'])) $list['before']();
+            }
+
+            if ($opt_roll) {
+                // delete
+                foreach ($list['classes'] as $cls) {
+                    $migration = $cls::migration;
+                    $cmd = "php artisan migrate:rollback --path=/database/migrations/$migration.php --force";
+                    echo $cmd . PHP_EOL;
+                    echo shell_exec($cmd);
+                }
+
+                // create
+                foreach (array_reverse($list['classes']) as $cls) {
+                    $migration = $cls::migration;
+                    $cmd = "php artisan migrate --path=/database/migrations/$migration.php --force";
+                    echo $cmd . PHP_EOL;
+                    echo shell_exec($cmd);
+                }
+            }
+
+            if ($opt_seed) {
+                foreach ($list['classes'] as $cls) {
+                    $seeder = $cls::seeder;
+                    $cmd = "php artisan db:seed --class=$seeder --force";
+                    echo $cmd . PHP_EOL;
+                    echo shell_exec($cmd);
+                }
+            }
+
+            if (isset($list['after'])) {
+                if (is_callable($list['after'])) $list['after']();
+            }
+        }
+
+        return 1;
         $tableNames = config('permission.table_names');
         $is_windows = strtolower(PHP_SHLIB_SUFFIX) === 'dll';
 
@@ -178,7 +255,6 @@ class backup extends Command
                 Latsar::tableName,
                 Peserta::tableName,
                 PesertaDaftar::tableName,
-                LatsarPeserta::tableName,
             ],
         ];
         if ($opt_users == 1 || $arg_type == 'users') echo shell_exec('php artisan iseed users --force');

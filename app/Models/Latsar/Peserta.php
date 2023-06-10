@@ -21,4 +21,6 @@ class Peserta extends Model
     const tableName = 'latsar_peserta';
     const image_folder = '/assets/latsar/peserta';
     const image_default = 'assets/latsar/peserta/default.jpg';
+    const migration = '2023_06_08_172544_create_latsar_peserta_table';
+    const seeder = 'LatsarPesertaTableSeeder';
 }

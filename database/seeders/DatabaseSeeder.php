@@ -76,5 +76,6 @@ class DatabaseSeeder extends Seeder
         $this->call(LatsarTableSeeder::class);
         $this->call(PesertaTableSeeder::class);
         $this->call(LatsarPesertaDaftarTableSeeder::class);
+        $this->call(LatsarPesertaTableSeeder::class);
     }
 }
